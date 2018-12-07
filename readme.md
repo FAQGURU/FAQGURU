@@ -1,5 +1,3 @@
-<h1 align="center">FAQGURU</h1>
-
 <div align="center">
   <a href="https://github.com/FAQGURU">
     <img src="./assets/readme.svg" alt="FAQGURU" />
@@ -20,12 +18,19 @@ Note: Keep in mind that many of these questions are open-ended and could lead to
 1. [Vue.js](/topics/en/vuejs.md)
 1. [Angular](/topics/en/angular.md)
 1. [Node.js](/topics/en/nodejs.md)
-1. [Angular-js](/topics/en/angular-js.md)
+1. [AngularJS](/topics/en/angularjs.md)
 1. [Bootstrap](/topics/en/bootstrap.md)
 1. [Css](/topics/en/css.md)
 1. [Html5](/topics/en/html5.md)
 1. [Sass](/topics/en/sass.md)
 1. [Webpack](/topics/en/webpack.md)
+1. [MongoDB](/topics/en/mongodb.md)
+1. [SQL](/topics/en/sql.md)
+1. [GraphQL](/topics/en/graphql.md)
+1. [C#](/topics/en/c.md)
+1. [Golang](/topics/en/golang.md)
+1. [Java](/topics/en/java.md)
+
 ## License
 
 All projects and packages in this repository are [MIT licensed](/LICENSE).
