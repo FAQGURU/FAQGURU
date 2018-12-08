@@ -98,7 +98,7 @@ var vm = new Vue({
 
 * https://www.onlineinterviewquestions.com/vue-js-interview-questions/#.Wx0soFOFNTY
 
-[[↑] Back to top](#Vue.js)
+[[↑] Back to top](#vue.js)
 ### What is Vue.js? (Junior)
 
 The **Vue.js** is a progressive JavaScript framework and used to building the interactive user interfaces and also it’s focused on the view layer only (front end). The  **Vue.js**  was developed by “**Evan You**”, an Ex Google software engineer. The latest version is Vue.js 2. The Vue.js 2 is very similar to Angular because Evan You was inspired by Angular.
