@@ -4,8 +4,6 @@
 
 [What is Vue.js? (Junior)](#what-is-vuejs-junior)
 
-[What is Vue.js? (Junior)](#what-is-vuejs-junior)
-
 [How to use local storage with Vue.js? (Mid)](#how-to-use-local-storage-with-vuejs-mid)
 
 [How to create Two-Way Bindings in Vue.js? (Mid)](#how-to-create-two-way-bindings-in-vuejs-mid)
@@ -97,15 +95,6 @@ var vm = new Vue({
 ###### Source
 
 * https://www.onlineinterviewquestions.com/vue-js-interview-questions/#.Wx0soFOFNTY
-
-[[↑] Back to top](#vuejs)
-### What is Vue.js? (Junior)
-
-The **Vue.js** is a progressive JavaScript framework and used to building the interactive user interfaces and also it’s focused on the view layer only (front end). The  **Vue.js**  was developed by “**Evan You**”, an Ex Google software engineer. The latest version is Vue.js 2. The Vue.js 2 is very similar to Angular because Evan You was inspired by Angular.
-
-###### Source
-
-* 
 
 [[↑] Back to top](#vuejs)
 ### What is Vue.js? (Junior)
@@ -275,11 +264,6 @@ Vue js comes with following features
 
 If you are using  `vue-router`, you should use  `router.go(path)`  to navigate to any particular route. The router can be accessed from within a component using  `this.$router`.  `router.go()`  changed in VueJS 2.0. You can use  `router.push({ name: "yourroutename"})`or just  `router.push("yourroutename")`  now to redirect. 
 
-
-###### Source
-
-* 
-
 [[↑] Back to top](#vuejs)
 ### Can I pass parameters in computer properties in Vue.js? (Mid)
 
@@ -306,10 +290,6 @@ computed: {
     }
 }
 ```
-
-###### Source
-
-* 
 
 [[↑] Back to top](#vuejs)
 ### Explain the basic logical Vue.js app organisation (Mid)
@@ -345,10 +325,6 @@ All Vue components are also Vue instances.
 - Limited scope
 - Single creator
 - Small developer community
-
-###### Source
-
-* 
 
 [[↑] Back to top](#vuejs)
 ### Explain the differences between one-way data flow and two-way data binding? (Mid)
@@ -516,10 +492,6 @@ And usage:
 
 You want to totally nullify the time of the first rendering, the only way to go is to do **server-side rendering**. So your app will be served with the initial html structure already there.
 
-###### Source
-
-* 
-
 [[↑] Back to top](#vuejs)
 ### How to use Gulp with Vue.js? (Expert)
 
@@ -537,10 +509,6 @@ gulp.task('browserify', function() {
         .pipe(gulp.dest('build/js'));
 });
 ```
-
-###### Source
-
-* 
 
 [[↑] Back to top](#vuejs)
 ### Can you force Vue.js to reload/rerender? (Expert)
