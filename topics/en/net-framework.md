@@ -126,7 +126,7 @@ string greet = String.Format("Hello {0}!", place);
 
 * https://stackoverflow.com/questions/618535/difference-between-decimal-float-and-double-in-net
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### What is the .NET Framework? (Junior)
 
 The .NET is a Framework, which is a collection of classes of reusable libraries given by Microsoft to be used in other .NET applications and to develop, build and deploy many types of applications on the Windows platform including the following:
@@ -144,7 +144,7 @@ The .NET is a Framework, which is a collection of classes of reusable libraries 
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/interview-question-on-net-framework-or-clr/
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### What is .NET Core? (Junior)
 
 The .NET Core platform is a new .NET stack that is optimized for open source development and agile delivery on NuGet. 
@@ -157,7 +157,7 @@ The .NET Core platform is a new .NET stack that is optimized for open source dev
 
 * https://stackoverflow.com/questions/26908049/what-is-net-core
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### What is ASP.NET Core? (Mid)
 
 ASP.NET Core is a brand new cross-platform web framework built with .NET Core framework. It is not an update to existing ASP.NET framework. It is a complete rewrite of the ASP.NET framework. It works with both .NET Core and .NET Framework.
@@ -177,7 +177,7 @@ Main characterestics of ASP.NET Core:
 
 * http://www.talkingdotnet.com/asp-net-core-interview-questions/
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### What is CLR? (Mid)
 
 The **CLR** stands for Common Language Runtime and it is an Execution Environment. It works as a layer between Operating Systems and the applications written in .NET languages that conforms to the Common Language Specification (CLS). The main function of Common Language Runtime (CLR) is to convert the Managed Code into native code and then execute the program.
@@ -186,7 +186,7 @@ The **CLR** stands for Common Language Runtime and it is an Execution Environmen
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/interview-question-on-net-framework-or-clr/
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### How to configure your ASP.NET Core app? (Mid)
 
 Another crucial part of ASP.NET Core Framework is Configuration. Also, it is part of Dependency Injection. Use it anywhere in your code with an option to [reload on changes](https://codingblast.com/asp-net-core-configuration-reloading-binding-injecting/) of configuration values from sources (appsettings.json, environment variables, command line arguments, etc.). It is also easy to override, extend and customize the Configuration. No more extensive configurations in web.config, the preferred way now is _**appsettings.json**_ in combination with a mix of Environment variables and cmd-line args.
@@ -195,7 +195,7 @@ Another crucial part of ASP.NET Core Framework is Configuration. Also, it is par
 
 * http://www.talkingdotnet.com/asp-net-core-interview-questions/
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### Talk about Logging in ASP.NET Core? (Mid)
 
 **Logging** is built-in and you get access to structured logs from the ASP.NET Core host itself to your application. With tools like [Serilog,](https://github.com/serilog/serilog-aspnetcore) you can extend your logging [easily](https://github.com/serilog/serilog-sinks-rollingfile) and save your logs to file, Azure, Amazon or any other output provider. You can configure verbosity and log levels via configuration (appsettings.json by default), and you can configure log levels by different categories.
@@ -204,7 +204,7 @@ Another crucial part of ASP.NET Core Framework is Configuration. Also, it is par
 
 * http://www.talkingdotnet.com/asp-net-core-interview-questions/
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### Name some CLR services? (Mid)
 
 **CLR services**
@@ -223,7 +223,7 @@ Another crucial part of ASP.NET Core Framework is Configuration. Also, it is par
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/interview-question-on-net-framework-or-clr/
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### Explain startup process in ASP.NET Core? (Mid)
 
 Everything starts from Program.cs
@@ -249,7 +249,7 @@ After the `CreateDefaultBuilder` finishes, then `Startup` class is executed. Fir
 
 * https://codingblast.com/asp-net-core-interview-questions/
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### What is a .NET application domain? (Mid)
 
 It is an isolation layer provided by the .NET runtime. As such, App domains live with in a process (1 process can have many app domains) and have their own virtual address space.
@@ -266,7 +266,7 @@ App domains are useful because:
 
 * https://stackoverflow.com/questions/1094478/what-is-a-net-application-domain
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### What is MSIL? (Mid)
 
 When we compile our .NET code then it is not directly converted to native/binary code; it is first converted into intermediate code known as MSIL code which is then interpreted by the CLR. MSIL is independent of hardware and the operating system. Cross language relationships are possible since MSIL is the same for all .NET languages. MSIL is further converted into native code.  
@@ -275,7 +275,7 @@ When we compile our .NET code then it is not directly converted to native/binary
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/interview-question-on-net-framework-or-clr/
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### What is an unmanaged resource?  (Mid)
 
 Use that rule of thumb: 
@@ -288,7 +288,7 @@ Anything you've used P/Invoke calls to get outside of the nice comfy world of ev
 
 * https://stackoverflow.com/questions/538060/proper-use-of-the-idisposable-interface
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### What is Razor Pages? (Mid)
 
 [Razor Pages](https://codingblast.com/asp-net-core-razor-pages/) is a new feature of ASP.NET Core that makes coding page-focused scenarios easier and more productive.
@@ -303,7 +303,7 @@ Since Razor Pages is part of the MVC stack, you can use anything that comes with
 
 * https://codingblast.com/asp-net-core-interview-questions/
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### What is the difference between .NET Core and Mono? (Mid)
 
 To be simple:
@@ -314,7 +314,7 @@ To be simple:
 
 * https://stackoverflow.com/questions/37738106/net-core-vs-mono
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### Can ASP.NET Core work with the .NET framework? (Mid)
 
 Yes. This might surprise many, but ASP.NET Core works with .NET framework and this is officially supported by Microsoft.
@@ -328,7 +328,7 @@ ASP.NET Core works with:
 
 * http://www.talkingdotnet.com/asp-net-core-interview-questions/
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### What are some characteristics of .NET Core? (Mid)
 
 * **Flexible deployment**: Can be included in your app or installed side-by-side user- or machine-wide.
@@ -347,7 +347,7 @@ ASP.NET Core works with:
 
 * https://stackoverflow.com/questions/26908049/what-is-net-core
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### What is the difference between decimal, float and double in .NET?  (Mid)
 
 Precision is the main difference.
@@ -366,7 +366,7 @@ As for what to use when:
 
 * https://stackoverflow.com/questions/618535/difference-between-decimal-float-and-double-in-net
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### What's the difference between SDK and Runtime in .NET Core? (Mid)
 
 * The SDK is all of the stuff that is needed/makes developing a .NET Core application easier, such as the CLI and a compiler.
@@ -377,7 +377,7 @@ As for what to use when:
 
 * https://stackoverflow.com/questions/47733014/whats-the-difference-between-sdk-and-runtime-in-net-core
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### What is CTS? (Mid)
 
 The **Common Type System (CTS)** standardizes the data types of all programming languages using .NET under the umbrella of .NET to a common data type for easy and smooth communication among these .NET languages. 
@@ -391,7 +391,7 @@ CTS is designed as a singly rooted object hierarchy with `System.Object` as the 
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/interview-question-on-net-framework-or-clr/
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### What is .NET Standard? (Senior)
 
 * .NET Standard solves the code sharing problem for .NET developers across all platforms by bringing all the APIs that you expect and love across the environments that you need: desktop applications, mobile apps & games, and cloud services
@@ -404,7 +404,7 @@ CTS is designed as a singly rooted object hierarchy with `System.Object` as the 
 
 * http://www.talkingdotnet.com/asp-net-core-interview-questions/
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### Explain the difference between “managed” and “unmanaged” code? (Senior)
 
 * **Managed** code is not compiled to machine code but to an intermediate language which is interpreted and executed by some service on a machine and is therefore operating within a (hopefully!) secure framework which handles dangerous things like memory and threads for you. It runs on the CLR (Common Language Runtime), which, among other things, offers services like garbage collection, run-time type checking, and reference checking. So, think of it as, "My code is _managed_ by the CLR."
@@ -415,7 +415,7 @@ CTS is designed as a singly rooted object hierarchy with `System.Object` as the 
 
 * https://stackoverflow.com/questions/3563870/difference-between-managed-and-unmanaged
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### Explain two types of deployment for .NET Core applications (Senior)
 
 * **Framework-dependent deployment (FDD)** - it relies on the presence of a shared system-wide version of .NET Core on the target system. The app contains only its own code and any third-party dependencies that are outside of the .NET Core libraries. FDDs contain .dll files that can be launched by using the dotnet utility from the command line. 
@@ -429,7 +429,7 @@ dotnet app.dll
 
 * https://docs.microsoft.com/en-us/dotnet/core/deploying/index
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### What is Kestrel? (Senior)
 
 *   Kestrel is a cross-platform web server built for ASP.NET Core based on libuv – a cross-platform asynchronous I/O library.
@@ -441,7 +441,7 @@ dotnet app.dll
 
 * http://www.talkingdotnet.com/asp-net-core-interview-questions/
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### What is CoreCLR? (Senior)
 
 CoreCLR is the .NET execution engine in .NET Core, performing functions such as garbage collection and compilation to machine code. 
@@ -455,7 +455,7 @@ Consider:
 
 * https://blogs.msdn.microsoft.com/dotnet/2015/02/03/coreclr-is-now-open-source/
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### Explain usage of Dependency Injection in ASP.NET Core (Senior)
 
 **Dependency Injection **comes as a part of ASP.NET Core Framework and everything is built around it. When you want to use some tool and its services, you usually add the NuGet package and you use one of its extension methods to add the package to the ASP.NET Core’s DI container. You can extend the current DI with a container of your choice (AutoFac, StructureMap, CastleWindsor etc).
@@ -464,7 +464,7 @@ Consider:
 
 * http://www.talkingdotnet.com/asp-net-core-interview-questions/
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### Explain what is included in .NET Core? (Senior)
 
 * A .NET runtime, which provides a type system, assembly loading, a garbage collector, native interop and other basic services.
@@ -479,7 +479,7 @@ Consider:
 
 * https://stackoverflow.com/questions/26908049/what-is-net-core
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### What is difference between .NET Core and .NET Framework? (Senior)
 
 .NET as whole now has 2 flavors:
@@ -495,7 +495,7 @@ Consider:
 
 * https://stackoverflow.com/questions/10448516/apache-jmeter-listener-results-interpretation
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### Is there a way to catch multiple exceptions at once and without code duplication? (Senior)
 
 Catch System.Exception and switch on the types:
@@ -516,7 +516,7 @@ catch (Exception ex)
 
 * https://stackoverflow.com/questions/125319/should-using-directives-be-inside-or-outside-the-namespace
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### What is new in ASP.NET Core 2, compared to ASP.NET Core 1? (Senior)
 
 With ASP.NET Core 2 several new features came out:
@@ -533,7 +533,7 @@ With ASP.NET Core 2 several new features came out:
 
 * https://codingblast.com/asp-net-core-interview-questions/
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### Why to use of the IDisposable interface? (Senior)
 
 The "primary" use of the `IDisposable` interface is to clean up unmanaged resources. Note the purpose of the Dispose pattern is to provide a mechanism to clean up both _managed_ and _unmanaged_ resources and when that occurs depends on how the Dispose method is being called. 
@@ -542,7 +542,7 @@ The "primary" use of the `IDisposable` interface is to clean up unmanaged resour
 
 * https://stackoverflow.com/questions/538060/proper-use-of-the-idisposable-interface
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### Explain Middleware in ASP.NET Core? (Senior)
 
 Middleware is actually sequential series of delegates (piece of code), that can either short-circuit or pass on the HTTP request to next delegate. These are known as middleware, a concept well known to people who worked with Node.js.
@@ -557,7 +557,7 @@ Piece of your middleware can do one of the following:
 
 * http://www.talkingdotnet.com/asp-net-core-interview-questions/
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### What does Common Language Specification (CLS) mean? (Senior)
 
 The **Common Language Specification (CLS)** is a fundamental set of language features supported by the Common Language Runtime (CLR) of the .NET Framework. CLS is a part of the specifications of the .NET Framework. CLS was designed to support language constructs commonly used by developers and to produce verifiable code, which allows all CLS-compliant languages to ensure the type safety of code. CLS includes features common to many object-oriented programming languages. It forms a subset of the functionality of common type system (CTS) and has more rules than defined in CTS.
@@ -566,7 +566,7 @@ The **Common Language Specification (CLS)** is a fundamental set of language fea
 
 * https://www.techopedia.com/definition/25318/common-language-specification-cls-net
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### Talk about new .csproj file? (Senior)
 
 _**.csproj**_ file is now used as a place where we manage the NuGet packages for your application.
@@ -580,7 +580,7 @@ You can now edit the **.csproj** file directly without unloading the project.
 
 * https://codingblast.com/asp-net-core-interview-questions/
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### Explain the difference between Task and Thread in .NET (Senior)
 
 * **Thread** represents an actual OS-level thread, with its own stack and kernel resources.  Thread allows the highest degree of control; you can Abort() or Suspend() or Resume() a thread, you can observe its state, and you can set thread-level properties like the stack size, apartment state, or culture. ThreadPool is a wrapper around a pool of threads maintained by the CLR.
@@ -591,7 +591,7 @@ You can now edit the **.csproj** file directly without unloading the project.
 
 * https://stackoverflow.com/questions/13429129/task-vs-thread-differences
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### What is FCL? (Senior)
 
 The .NET Framework class library is exactly what its name suggests: a library of classes and other types that developers can use to make their lives easier. While these classes are themselves written in C#, they can be used from any CLR based language.
@@ -604,7 +604,7 @@ On a simple level, .NET Framework = libraries (FCL, BCL), language compilers (C#
 
 * https://stackoverflow.com/questions/807880/bcl-base-class-library-vs-fcl-framework-class-library
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### What's the difference between .NET Core, .NET Framework, and Xamarin? (Senior)
 
 * **.NET Framework** is the "full" or "traditional" flavor of .NET that's distributed with Windows. Use this when you are building a desktop Windows or UWP app, or working with older ASP.NET 4.6+.
@@ -619,7 +619,7 @@ Xamarin usually runs on top of Mono, which is a version of .NET that was built f
 
 * https://stackoverflow.com/questions/38063837/whats-the-difference-between-net-core-net-framework-and-xamarin
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### What is implicit compilation? (Senior)
 
 **Implicit Compilation** is a two-steps process, and it requires a Virtual Machine to be able to execute your code. 
@@ -631,7 +631,7 @@ Xamarin usually runs on top of Mono, which is a version of .NET that was built f
 
 * http://geekswithblogs.net/ilich/archive/2013/07/09/.net-compilation-part-1.-just-in-time-compiler.aspx
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### What is JIT compiler? (Senior)
 
 Before a computer can execute the source code, special programs called compilers must rewrite it into machine instructions, also known as object code. This process (commonly referred to simply as “compilation”) can be done explicitly or implicitly.
@@ -644,7 +644,7 @@ Implicit compilation is a two-step process:
 
 * https://www.telerik.com/blogs/understanding-net-just-in-time-compilation
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### What about NuGet packages and packages.config? (Senior)
 
 There is no more _packages.config_ file. All packages are now managed within _.csproj_ file.
@@ -659,7 +659,7 @@ With .NET Core, you can easily turn your projects into NuGet packages, with one 
 
 * https://codingblast.com/asp-net-core-interview-questions/
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### What is Explicit Compilation? (Senior)
 
 **Explicit compilation** converts the upper level language into object code prior to program execution. Ahead of time (AOT) compilers are designed to ensure that, the CPU can understand every line in the code before any interaction takes place.
@@ -668,7 +668,7 @@ With .NET Core, you can easily turn your projects into NuGet packages, with one 
 
 * https://www.telerik.com/blogs/understanding-net-just-in-time-compilation
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### What are the benefits of explicit compilation? (Senior)
 
 **Ahead of time (AOT)** delivers faster start-up time, especially in large applications where much code executes on startup. But it requires more disk space and more memory/virtual address space to keep both the IL and precompiled images. In this case the JIT Compiler has to do a lot of disk I/O actions, which are quite expensive.
@@ -677,7 +677,7 @@ With .NET Core, you can easily turn your projects into NuGet packages, with one 
 
 * https://www.telerik.com/blogs/understanding-net-just-in-time-compilation
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### What's is BCL? (Senior)
 
 A .NET Framework library, BCL is the standard for the C# runtime library and one of the Common Language Infrastructure (CLI) standard libraries. BCL provides types representing the built-in CLI data types, basic file access, collections, custom attributes, formatting, security attributes, I/O streams, string manipulation, and more.
@@ -688,7 +688,7 @@ The Base Class Library (BCL) is literally that, the base. It contains basic, fun
 
 * https://stackoverflow.com/questions/807880/bcl-base-class-library-vs-fcl-framework-class-library
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### Why does .NET use a JIT compiler instead of just compiling the code once on the target machine? (Expert)
 
 There are two things to be gained by using an intermediate format like .NET or Java:
@@ -700,7 +700,7 @@ There are two things to be gained by using an intermediate format like .NET or J
 
 * https://stackoverflow.com/questions/3842664/why-does-net-use-a-jit-compiler-instead-of-just-compiling-the-code-once-on-the
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### What are benefits of using JIT? (Expert)
 
 * JIT can generate faster code, because it targets the current platform of execution. AOT compilation must target the lowest common denominator among all possible execution platforms.
@@ -710,7 +710,7 @@ There are two things to be gained by using an intermediate format like .NET or J
 
 * https://www.telerik.com/blogs/understanding-net-just-in-time-compilation
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### What is the difference between AppDomain, Assembly, Process, and a Thread? (Expert)
 
 * An **AppDomain** is an isolation unit within a process.  AppDomains can be created at runtime, loaded with code, and unloaded.  Its an isolation boundary designed to make .NET apps more reliable.  
@@ -726,7 +726,7 @@ A program is executed.  A process is created by the operating system, and within
 
 * https://stackoverflow.com/questions/733868/difference-between-appdomain-assembly-process-and-a-thread/733902#733902
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### Explain how does Asynchronous tasks (Async/Await) work in .NET? (Expert)
 
 `await` pauses _the method_ until the operation completes. So the second `await` would get executed after the first `await` returns. 
@@ -739,7 +739,7 @@ This is particularly useful in high-performance environments, say a web server, 
 
 * https://stackoverflow.com/questions/13082074/brief-explanation-of-async-await-in-net-4-5
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### What is the difference between CIL and MSIL (IL)? (Expert)
 
 CIL is the term used in the CLI Standard. MSIL is (I suppose) CIL created by MS tools. Effectively they are synonymous.
@@ -751,7 +751,7 @@ CIL is the term used in the CLI Standard. MSIL is (I suppose) CIL created by MS 
 
 * https://stackoverflow.com/questions/293800/what-is-the-difference-between-cil-and-msil-il/293801
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### What is the difference between .NET Framework/Core and .NET Standard Class Library project types? (Expert)
 
 Use a .NET Standard library when you want to increase the number of apps that will be compatible with your library, and you are okay with a decrease in the .NET API surface area your library can access.
@@ -763,7 +763,7 @@ Implementing a .Net Standard Library allows code sharing across all different fl
 
 * https://stackoverflow.com/questions/42939454/what-is-the-difference-between-net-core-and-net-standard-class-library-project
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### What's the difference between RyuJIT and Roslyn? (Expert)
 
 * **Roslyn** is the compiler that compile your code (C# or VB) to IL.
@@ -775,7 +775,7 @@ Both of them are now open source.
 
 * https://stackoverflow.com/questions/38340565/whats-the-difference-between-ryujit-and-roslyn
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### What is the difference between ASP.NET Core Web (.NET Core) vs ASP.NET Core Web (.NET Framework)? (Expert)
 
 * **ASP.NET Core on .NET Core** is cross-platform ASP.NET Core. It can run on Windows, Mac, and Linux (including Docker). The server doesn't need .NET Core installed - the dependencies can be bundled with the application.
@@ -790,7 +790,7 @@ Both of them are now open source.
 
 * https://stackoverflow.com/questions/37684508/difference-between-asp-net-core-net-core-and-asp-net-core-net-framework
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### How many types of JIT Compilations do you know? (Expert)
 
 There are **three types** of JIT compilation in the .NET framework:
@@ -802,7 +802,7 @@ There are **three types** of JIT compilation in the .NET framework:
 
 * https://www.c-sharpcorner.com/interview-question/how-many-types-of-jit-compilers
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### What is the difference between Node.js async model and async/await in .NET? (Expert)
 
 The async model that has Node.js is similar to the old async model in C# and .Net called Event-based Asynchronous Pattern (EAP). The C#'s async/await keywords make asynchronous code linear and let you avoid "Callback Hell" much better then in any of other programming languages. 
@@ -816,7 +816,7 @@ The same difference is also a strength for ASP.NET, because it means async ASP.N
 
 * https://stackoverflow.com/questions/21336976/node-js-vs-async-await-in-net
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
 ### Explain Finalize vs Dispose usage? (Expert)
 
 * The **finalizer method** is called when your object is garbage collected and you have no guarantee when this will happen (you can force it, but it will hurt performance).
@@ -829,4 +829,4 @@ The standard practice is to implement `IDisposable` and `Dispose` so that you ca
 
 * https://stackoverflow.com/questions/732864/finalize-vs-dispose
 
-[[↑] Back to top](#.net-framework)
+[[↑] Back to top](#net-framework)
