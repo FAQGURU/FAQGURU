@@ -78,7 +78,7 @@ This indicates child page uses TestLayout page as it’s master page.
 
 * https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61
 
-[[↑] Back to top](#asp.net-mvc)
+[[↑] Back to top](#aspnet-mvc)
 ### What are Actions in MVC? (Mid)
 
 **Actions** are the methods in Controller class which is responsible for returning the view or json data. Action will mainly have return type — “ActionResult” and it will be invoked from method — “InvokeAction()” called by controller.
@@ -87,7 +87,7 @@ This indicates child page uses TestLayout page as it’s master page.
 
 * https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61
 
-[[↑] Back to top](#asp.net-mvc)
+[[↑] Back to top](#aspnet-mvc)
 ### What is Razor View Engine? (Mid)
 
 **Razor** is the first major update to render HTML in MVC 3. Razor was designed specifically for view engine syntax. Main focus of this would be to simplify and code-focused templating for HTML generation. Below is the sample of using Razor:
@@ -103,7 +103,7 @@ This indicates child page uses TestLayout page as it’s master page.
 
 * https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61
 
-[[↑] Back to top](#asp.net-mvc)
+[[↑] Back to top](#aspnet-mvc)
 ### What is the use of ViewModel in MVC? (Mid)
 
 ViewModel is a plain class with properties, which is used to bind it to strongly typed view. ViewModel can have the validation rules defined for its properties using data annotations.
@@ -112,7 +112,7 @@ ViewModel is a plain class with properties, which is used to bind it to strongly
 
 * https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61
 
-[[↑] Back to top](#asp.net-mvc)
+[[↑] Back to top](#aspnet-mvc)
 ### What you mean by Routing in MVC? (Mid)
 
 **Routing** is a pattern matching mechanism of incoming requests to the URL patterns which are registered in route table. Class — “UrlRoutingModule” is used for the same process.
@@ -121,7 +121,7 @@ ViewModel is a plain class with properties, which is used to bind it to strongly
 
 * https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61
 
-[[↑] Back to top](#asp.net-mvc)
+[[↑] Back to top](#aspnet-mvc)
 ### What are the advantages of MVC over ASP.NET? (Mid)
 
 * Provides a clean separation of concerns among UI (Presentation layer), model (Transfer objects/Domain Objects/Entities) and Business Logic (Controller).
@@ -133,7 +133,7 @@ ViewModel is a plain class with properties, which is used to bind it to strongly
 
 * https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61
 
-[[↑] Back to top](#asp.net-mvc)
+[[↑] Back to top](#aspnet-mvc)
 ### What are Scaffold templates in MVC? (Mid)
 
 Scaffolding in ASP.NET MVC is used to generate the Controllers, Model and Views for create, read, update, and delete (CRUD) functionality in an application. The scaffolding will be knowing the naming conventions used for models and controllers and views.
@@ -142,7 +142,7 @@ Scaffolding in ASP.NET MVC is used to generate the Controllers, Model and Views 
 
 * https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61
 
-[[↑] Back to top](#asp.net-mvc)
+[[↑] Back to top](#aspnet-mvc)
 ### Explain Bundle.Config in MVC4? (Mid)
 
 **“BundleConfig.cs”** in MVC4 is used to register the bundles by the bundling and minification system. Many bundles are added by default including jQuery libraries like — jquery.validate, Modernizr, and default CSS references.
@@ -151,7 +151,7 @@ Scaffolding in ASP.NET MVC is used to generate the Controllers, Model and Views 
 
 * https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61
 
-[[↑] Back to top](#asp.net-mvc)
+[[↑] Back to top](#aspnet-mvc)
 ### Can you explain Model, Controller and View in MVC? (Mid)
 
 * **Model** — It’s a business entity and it is used to represent the application data.
@@ -162,7 +162,7 @@ Scaffolding in ASP.NET MVC is used to generate the Controllers, Model and Views 
 
 * https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61
 
-[[↑] Back to top](#asp.net-mvc)
+[[↑] Back to top](#aspnet-mvc)
 ### Explain Sections is MVC? (Mid)
 
 Section are the part of HTML which is to be rendered in layout page. In Layout page we will use the below syntax for rendering the HTML –
@@ -183,7 +183,7 @@ And in child pages we are defining these sections as shown below –
 
 * https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61
 
-[[↑] Back to top](#asp.net-mvc)
+[[↑] Back to top](#aspnet-mvc)
 ### What are Non Action methods in MVC? (Mid)
 
 In MVC all public methods have been treated as Actions. So if you are creating a method and if you do not want to use it as an action method then the method has to be decorated with "NonAction" attribute as shown below:
@@ -200,7 +200,7 @@ public void TestMethod()
 
 * https://stackoverflow.com/questions/21758615/why-should-i-use-ihttpactionresult-instead-of-httpresponsemessage
 
-[[↑] Back to top](#asp.net-mvc)
+[[↑] Back to top](#aspnet-mvc)
 ### What is RouteConfig.cs in MVC 4? (Senior)
 
 "RouteConfig.cs" holds the routing configuration for MVC. RouteConfig will be initialized on Application_Start event registered in Global.asax.
@@ -209,7 +209,7 @@ public void TestMethod()
 
 * https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61
 
-[[↑] Back to top](#asp.net-mvc)
+[[↑] Back to top](#aspnet-mvc)
 ### What is the difference between ViewBag and ViewData in MVC? (Senior)
 
 ViewBag is a wrapper around ViewData, which allows to create dynamic properties. Advantage of viewbag over viewdata will be:
@@ -220,7 +220,7 @@ ViewBag is a wrapper around ViewData, which allows to create dynamic properties.
 
 * https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61
 
-[[↑] Back to top](#asp.net-mvc)
+[[↑] Back to top](#aspnet-mvc)
 ### What is the "HelperPage.IsAjax" Property? (Senior)
 
 The HelperPage.IsAjax property gets a value that indicates whether Ajax is being used during the request of the Web page.
@@ -229,7 +229,7 @@ The HelperPage.IsAjax property gets a value that indicates whether Ajax is being
 
 * https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61
 
-[[↑] Back to top](#asp.net-mvc)
+[[↑] Back to top](#aspnet-mvc)
 ### What are HTML Helpers in MVC? (Senior)
 
 HTML Helpers are like controls in traditional web forms. But HTML helpers are more lightweight compared to web controls as it does not hold viewstate and events.
@@ -239,7 +239,7 @@ HTML Helpers returns the HTML string which can be directly rendered to HTML page
 
 * https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61
 
-[[↑] Back to top](#asp.net-mvc)
+[[↑] Back to top](#aspnet-mvc)
 ### Can you explain the page life cycle of MVC? (Senior)
 
 Below are the processed followed in the sequence:
@@ -254,7 +254,7 @@ Below are the processed followed in the sequence:
 
 * https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61
 
-[[↑] Back to top](#asp.net-mvc)
+[[↑] Back to top](#aspnet-mvc)
 ### What is Attribute Routing in MVC? (Senior)
 
 ASP.NET Web API supports this type routing. This is introduced in MVC5. In this type of routing, attributes are being used to define the routes. This type of routing gives more control over classic URI Routing. Attribute Routing can be defined at controller level or at Action level like –
@@ -268,7 +268,7 @@ ASP.NET Web API supports this type routing. This is introduced in MVC5. In this 
 
 * https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61
 
-[[↑] Back to top](#asp.net-mvc)
+[[↑] Back to top](#aspnet-mvc)
 ### What is PartialView in MVC? (Senior)
 
 PartialView is similar to UserControls in traditional web forms. For re-usability purpose partial views are used. Since it's been shared with multiple views these are kept in shared folder. Partial Views can be rendered in following ways –
@@ -280,7 +280,7 @@ PartialView is similar to UserControls in traditional web forms. For re-usabilit
 
 * https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61
 
-[[↑] Back to top](#asp.net-mvc)
+[[↑] Back to top](#aspnet-mvc)
 ### Can you explain RenderBody and RenderPage in MVC? (Senior)
 
 RenderBody is like ContentPlaceHolder in web forms. This will exist in layout page and it will render the child pages/views. Layout page will have only one RenderBody() method. RenderPage also exists in Layout page and multiple RenderPage() can be there in Layout page.
@@ -289,7 +289,7 @@ RenderBody is like ContentPlaceHolder in web forms. This will exist in layout pa
 
 * https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61
 
-[[↑] Back to top](#asp.net-mvc)
+[[↑] Back to top](#aspnet-mvc)
 ### Explain the methods used to render the views in MVC? (Senior)
 
 Below are the methods used to render the views from action:
@@ -304,7 +304,7 @@ Below are the methods used to render the views from action:
 
 * https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61
 
-[[↑] Back to top](#asp.net-mvc)
+[[↑] Back to top](#aspnet-mvc)
 ### Explain ASP.NET WebApi vs MVC? (Senior)
 
 Usually, WebAPI used for data services where MVC can generate more types of outputs (like template HTML views).
@@ -316,7 +316,7 @@ Usually, WebAPI used for data services where MVC can generate more types of outp
 
 * https://stackoverflow.com/questions/19336347/what-is-the-difference-between-a-web-api-and-a-web-service
 
-[[↑] Back to top](#asp.net-mvc)
+[[↑] Back to top](#aspnet-mvc)
 ### Can a view be shared across multiple controllers? If Yes, How we can do that? (Senior)
 
 Yes, we can share a view across multiple controllers. We can put the view in the "Shared" folder. When we create a new MVC Project we can see the Layout page will be added in the shared folder, which is because it is used by multiple child pages.
@@ -325,7 +325,7 @@ Yes, we can share a view across multiple controllers. We can put the view in the
 
 * https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61
 
-[[↑] Back to top](#asp.net-mvc)
+[[↑] Back to top](#aspnet-mvc)
 ### Explain TempData in MVC? (Expert)
 
 TempData is again a key, value pair as ViewData. This is derived from “TempDataDictionary” class. TempData is used when the data is to be used in two consecutive requests, this could be between the actions or between the controllers. This requires typecasting in view.
@@ -334,7 +334,7 @@ TempData is again a key, value pair as ViewData. This is derived from “TempDat
 
 * https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61
 
-[[↑] Back to top](#asp.net-mvc)
+[[↑] Back to top](#aspnet-mvc)
 ### What are Validation Annotations? (Expert)
 
 **Data annotations** are attributes which can be found in the "System.ComponentModel.DataAnnotations" namespace. These attributes will be used for server-side validation and client-side validation is also supported. Four attributes — Required, String Length, Regular Expression and Range are used to cover the common validation scenarios.
@@ -343,7 +343,7 @@ TempData is again a key, value pair as ViewData. This is derived from “TempDat
 
 * https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61
 
-[[↑] Back to top](#asp.net-mvc)
+[[↑] Back to top](#aspnet-mvc)
 ### Why to use Html.Partial in MVC? (Expert)
 
 This method is used to render the specified partial view as an HTML string. This method does not depend on any action methods. We can use this like below:
@@ -356,7 +356,7 @@ This method is used to render the specified partial view as an HTML string. This
 
 * https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61
 
-[[↑] Back to top](#asp.net-mvc)
+[[↑] Back to top](#aspnet-mvc)
 ### How route table has been created in ASP.NET MVC? (Expert)
 
 Method — “RegisterRoutes()” is used for registering the routes which will be added in “Application_Start()” method of global.asax file, which is fired when the application is loaded or started.
@@ -365,7 +365,7 @@ Method — “RegisterRoutes()” is used for registering the routes which w
 
 * https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61
 
-[[↑] Back to top](#asp.net-mvc)
+[[↑] Back to top](#aspnet-mvc)
 ### Explain Dependency Resolution? (Expert)
 
 **Dependency Resolver** has been introduced in MVC3 and it is greatly simplified the use of dependency injection in your applications. This turn to be easier and useful for decoupling the application components and making them easier to test and more configurable.
@@ -374,7 +374,7 @@ Method — “RegisterRoutes()” is used for registering the routes which w
 
 * https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61
 
-[[↑] Back to top](#asp.net-mvc)
+[[↑] Back to top](#aspnet-mvc)
 ### What is Separation of Concerns in ASP.NET MVC? (Expert)
 
 It’s is the process of breaking the program into various distinct features which overlaps in functionality as little as possible. MVC pattern concerns on separating the content from presentation and data-processing from content.
@@ -383,7 +383,7 @@ It’s is the process of breaking the program into various distinct features whi
 
 * https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61
 
-[[↑] Back to top](#asp.net-mvc)
+[[↑] Back to top](#aspnet-mvc)
 ### What are AJAX Helpers in MVC? (Expert)
 
 AJAX Helpers are used to create AJAX enabled elements like as Ajax enabled forms and links which performs the request asynchronously and these are extension methods of AJAXHelper class which exists in namespace — System.Web.Mvc.
@@ -392,7 +392,7 @@ AJAX Helpers are used to create AJAX enabled elements like as Ajax enabled forms
 
 * https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61
 
-[[↑] Back to top](#asp.net-mvc)
+[[↑] Back to top](#aspnet-mvc)
 ### What is Html.RenderPartial? (Expert)
 
 Result of the method — "RenderPartial" is directly written to the HTML response. This method does not return anything (void). This method also does not depend on action methods. RenderPartial() method calls "Write()" internally and we have to make sure that "RenderPartial" method is enclosed in the bracket.
@@ -401,4 +401,4 @@ Result of the method — "RenderPartial" is directly written to the HTML res
 
 * https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61
 
-[[↑] Back to top](#asp.net-mvc)
+[[↑] Back to top](#aspnet-mvc)
