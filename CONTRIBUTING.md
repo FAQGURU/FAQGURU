@@ -11,8 +11,8 @@ In order to create a new translation, you need to follow these steps:
 
 * Fork the [main repo](https://github.com/FAQGURU/FAQGURU).
 * Add yourself to the watch list of the main repo, to keep up with changes.
-* When translating topics, **create NEW files with suffix of your language**.
-  * For example, Spanish tranlation for `sql.md` will be on `sql-es.md`.
+* When translating topics, **create NEW directory with suffix of your language in folder topics**.
+  * For example, Spanish tranlation for `topics/en/sql.md` will be on `topics/es/sql.md`.
 * Open a [new issue](https://github.com/FAQGURU/FAQGURU/issues/new) and ask to be part of the organization.
 * Transfer the repo to the organization.
 * Merge new content from the main repo.

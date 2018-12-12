@@ -38,6 +38,11 @@ Note: Keep in mind that many of these questions are open-ended and could lead to
 1. [Ruby](/topics/en/ruby.md)
 1. [Ruby On Rails](/topics/en/ruby-on-rails.md)
 1. [TypeScript](/topics/en/typeScript.md)
+1. [AWS](/topics/en/aws.md)
+1. [Azure](/topics/en/azure.md)
+1. [Git](/topics/en/git.md)
+1. [Code Problems](/topics/en/code-problems.md)
+1. [Data Structures](/topics/en/data-structures.md)
 
 ### Translations
 See [TRANSLATIONS.md](TRANSLATIONS.md)
