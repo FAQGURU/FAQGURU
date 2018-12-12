@@ -12,6 +12,8 @@ Note: Keep in mind that many of these questions are open-ended and could lead to
 
 ## Table of Contents
 
+### Topics
+
 1. [JavaScript](/topics/en/javascript.md)
 1. [React](/topics/en/react.md)
 1. [Redux](/topics/en/redux.md)
@@ -20,9 +22,9 @@ Note: Keep in mind that many of these questions are open-ended and could lead to
 1. [Node.js](/topics/en/nodejs.md)
 1. [AngularJS](/topics/en/angularjs.md)
 1. [Bootstrap](/topics/en/bootstrap.md)
-1. [CSS](/topics/en/css.md)
-1. [HTML5](/topics/en/html5.md)
-1. [SASS](/topics/en/sass.md)
+1. [Css](/topics/en/css.md)
+1. [Html5](/topics/en/html5.md)
+1. [Sass](/topics/en/sass.md)
 1. [Webpack](/topics/en/webpack.md)
 1. [MongoDB](/topics/en/mongodb.md)
 1. [SQL](/topics/en/sql.md)
@@ -32,15 +34,14 @@ Note: Keep in mind that many of these questions are open-ended and could lead to
 1. [Java](/topics/en/java.md)
 1. [ASP.NET](/topics/en/asp.net.md)
 1. [ASP.NET MVC](/topics/en/asp.net-mvc.md)
-1. [.Net Framework](/topics/en/net-framework.md)
+1. [Net Framework](/topics/en/net-framework.md)
 1. [Ruby](/topics/en/ruby.md)
 1. [Ruby On Rails](/topics/en/ruby-on-rails.md)
 1. [TypeScript](/topics/en/typeScript.md)
-1. [AWS](/topics/en/aws.md)
-1. [Azure](/topics/en/azure.md)
-1. [Git](/topics/en/git.md)
-1. [Code Problems](/topics/en/code-problems.md)
-1. [Data Structures](/topics/en/data-structures.md)
+
+### Translations
+See [TRANSLATIONS.md](TRANSLATIONS.md)
+
 
 ## License
 
