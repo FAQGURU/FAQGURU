@@ -1002,7 +1002,7 @@ function multiply (a, b = 2) {
 }
 multiply(5); // 10
 ```
-* ** Class Definition and Inheritance**<br>
+* **Class Definition and Inheritance**<br>
 ES6 introduces language support for classes (`class` keyword), constructors (`constructor` keyword), and the `extend` keyword for inheritance.
 
 * **for-of operator**<br>
