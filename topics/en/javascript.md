@@ -132,7 +132,7 @@
 
 ### What is Coercion in JavaScript? (Entry)
 
-In JavaScript conversion between different two build-in types called `coercion`.  Coercion comes in two forms in JavaScript: *explicit* and *implicit*.
+In JavaScript conversion between two different build-in types called `coercion`.  Coercion comes in two forms in JavaScript: *explicit* and *implicit*.
 
 Here's an example of explicit coercion:
 ```js
