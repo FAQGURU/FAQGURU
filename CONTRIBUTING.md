@@ -6,6 +6,7 @@ Each official translation will be held as a separate dir in the [FAQGURU](https:
 
 
 ### Creating a New Translation Repo
+            WINNIE BOSIBORI
 
 In order to create a new translation, you need to follow these steps:
 

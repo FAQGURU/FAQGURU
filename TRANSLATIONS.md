@@ -4,6 +4,8 @@
 - [ ] Русский (Russian)
 - [ ] Українська (Ukrainian)
 - [ ] Español (Spanish)
+- [ ] Kiswahili (Swahili)
+
 
 ## Creating new Translations
 
