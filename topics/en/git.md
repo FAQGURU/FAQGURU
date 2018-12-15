@@ -395,7 +395,7 @@ If you are not careful during a `git add`, you may end up adding files that you 
 Instead use `git reset`:
 ```sh
 git reset filename          # or
-echo filename >> .gitingore # add it to .gitignore to avoid re-adding it
+echo filename >> .gitignore # add it to .gitignore to avoid re-adding it
 ```
 
 This means that `git reset <paths>` is the opposite of `git add <paths>`.
