@@ -275,6 +275,106 @@ I nomi delle variabili devono essere univoci. Lo *scope* può essere annidato al
 
 Oltre a permettere la dichiarazione di varibili a livello di funzione, ES6 ti permette di dichiarare variabili appartenenti al blocco individuale utilizzando la keyword `let`.
 
-###### Source
+###### Fonte
 
 * https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch2.md
+
+
+
+[[↑] Back to top](#JavaScript)
+### Spiegazione di un Callback con un semplice esempio. (Mid)
+
+Un `callback` è una funzione passata come parametro di un'altra funzione come argomento, eseguita solo al termine di altre determinate operazioni. Di seguito un esempio di un callback che logga a console solo al termine di alcune operazioni.
+```js
+function modifyArray(arr, callback) {
+    // modifico lo stato dell'array
+    arr.push(100);
+    // eseguo il collback passato come argomento
+    callback()
+}
+
+var arr = [1, 2, 3, 4, 5];
+
+modifyArray(arr, function() {
+    console.log("l'array è stato modificato", arr);
+});
+```
+
+###### Fonte
+
+* https://coderbyte.com/algorithm/10-common-javascript-interview-questions
+
+
+
+[[↑] Back to top](#JavaScript)
+### Cos'è la Strict Mode? (Mid)
+
+La *Strict mode* è una funzionalità aggiunta in ECMAScript 5 che permette di inserire un programma od una funzione all'interno di un contesto con determinate restrizioni. Questo cosiddetto contesto *strict* previene l'esecuzione di possibili operazioni indesiderate e genera un numero maggiore di eccezioni.
+```js
+// modalità non-strict
+
+(function() {
+    "use strict";
+
+    // definisco la libreria con restrizioni
+})();
+
+// modalità non-strict
+```
+
+
+
+[[↑] Back to top](#JavaScript)
+### Qual è la funzione di "use strict"? (Mid)
+
+L'espressione `use strict` è posizionata all'inizio di un file .js oppure all'inizio di una funzione. Questa aiuta a scrivere codice maggiormente sicuro lanciando un'eccezione se una variabile globale è stata create per errore. Per esempio, il seguente blocco di codice lancerà un'eccezione:
+```js
+function doSomething(val) {
+    "use strict";
+    x = val + 10;
+}
+```
+
+Lancerà un'eccezione perchè `x` non è stata definita ed è stata settata nello *scope* globale. Questa operazione non è consentita nella modalità strict. Per rimediare procedere come segue:
+
+```js
+function doSomething(val) {
+    "use strict";
+    var x = val + 10
+}
+```
+
+###### Fonte
+
+* https://coderbyte.com/algorithm/10-common-javascript-interview-questions
+
+
+
+[[↑] Back to top](#JavaScript)
+Cos'è un Polyfill? (Mid)
+
+*Polyfill* fa riferimento a dello specifico codice (o plugin) che ti permette di avere delle specifiche funzionalità in browser che non implementano di default la suddetta funzionalità.
+
+###### Source
+
+* http://www.programmerinterview.com/index.php/html5/html5-polyfill/
+
+
+
+[[↑] Back to top](#JavaScript)
+### Come verificare che un numero sia intero? (Mid)
+
+Un semplice metodo per verificare se un dato numero è un intero è dividendolo per 1 e constatando se il risultato presenta un resto.
+```js
+function isInt(num) {
+    return num % 1 === 0;
+}
+
+console.log(isInt(4));      // true
+console.log(isInt(12.2));   // false
+console.log(isInt(0.3));    // false
+```
+
+###### Source
+
+* https://coderbyte.com/algorithm/10-common-javascript-interview-questions
