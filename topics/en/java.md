@@ -204,7 +204,7 @@
 
 [What are the layers of RMI Architecture?](#what-are-the-layers-of-rmi-architecture)
 
-[How does thread synchronization occurs inside a monitor? What levels of synchronization can you apply? ](#how-does-thread-synchronization-occurs-inside-a-monitor-what-levels-of-synchronization-can-you-apply-)
+[How does thread synchronization occurs inside a monitor? What levels of synchronization can you apply? ](#how-does-thread-synchronization-occurs-inside-a-monitor-what-levels-of-synchronization-can-you-apply)
 
 
 

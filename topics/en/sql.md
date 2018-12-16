@@ -6,7 +6,7 @@
 
 [What is a view?](#what-is-a-view)
 
-[What’s the difference between a local  temp table and a global temp table? ](#whats-the-difference-between-a-local--temp-table-and-a-global-temp-table-)
+[What’s the difference between a local  temp table and a global temp table?](#whats-the-difference-between-a-local--temp-table-and-a-global-temp-table)
 
 [What is blocking?](#what-is-blocking)
 
