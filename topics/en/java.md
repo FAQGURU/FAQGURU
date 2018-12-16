@@ -1,6 +1,6 @@
 ## Java
 
-[What is JVM? Why is Java called the “Platform Independent Programming Language”? ](#what-is-jvm-why-is-java-called-the-platform-independent-programming-language-)
+[What is JVM? Why is Java called the “Platform Independent Programming Language”? ](#what-is-jvm-why-is-java-called-the-platform-independent-programming-language)
 
 [What is a Servlet?](#what-is-a-servlet)
 
@@ -10,7 +10,7 @@
 
 [What is the difference between an Applet and a Java Application?](#what-is-the-difference-between-an-applet-and-a-java-application)
 
-[What is the Difference between JDK and JRE? ](#what-is-the-difference-between-jdk-and-jre-)
+[What is the Difference between JDK and JRE? ](#what-is-the-difference-between-jdk-and-jre)
 
 [What are the two types of Exceptions in Java? Which are the differences between them? ](#what-are-the-two-types-of-exceptions-in-java-which-are-the-differences-between-them-)
 
