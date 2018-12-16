@@ -1,6 +1,6 @@
 ## JavaScript
 
-[What is Coercion in JavaScript? (Entry)](#what-is-coercion-in-javascript-entry)
+[What is Coercion in JavaScript?](#what-is-coercion-in-javascript-entry)
 
 [What is typeof operator?](#what-is-typeof-operator-junior)
 
@@ -130,7 +130,7 @@
 
 
 
-### What is Coercion in JavaScript? (Entry)
+### What is Coercion in JavaScript?
 
 In JavaScript conversion between different two build-in types called `coercion`.  Coercion comes in two forms in JavaScript: *explicit* and *implicit*.
 
