@@ -190,7 +190,7 @@
 
 [What is the role of Remote Interface in RMI?](#what-is-the-role-of-remote-interface-in-rmi)
 
-[What is the role of the java.rmi.Naming Class? ](#what-is-the-role-of-the-javarminaming-class-)
+[What is the role of the java.rmi.Naming Class? ](#what-is-the-role-of-the-javarminaming-class)
 
 [What is meant by binding in RMI?](#what-is-meant-by-binding-in-rmi)
 
