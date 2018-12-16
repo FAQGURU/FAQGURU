@@ -28,15 +28,15 @@
 
 [Posto di avere un array non ordinato contenente (n - 1) di n numeri consecutivi (avendo definito i limiti) trovare il numero mancante mantenendo un tempo di esecuzione di O(n). (Mid)]()
 
-[Rimuovere gli elementi duplicati di un array e ritornare un nuovo array con gli elementi rimasti. (Mid)]()
+[Rimuovere gli elementi duplicati di un array e restituire un nuovo array con gli elementi rimasti. (Mid)]()
 
 [Data una stringa, invertire il verso di ogni parola. (Mid)]()
 
 [Scrivere una funzione che ti permetta di fare questo. (Mid)]()
 
-[Implementare l'accodamento(enqueue) e l'estrazione(dequeue) di un elemento usando solamente due stacks. (Mid)]()
+[Implementare l'accodamento(enqueue) e l'estrazione(dequeue) di un elemento usando solamente due array. (Mid)]()
 
-[Come usare una closure per creare un contatore private. (Mid)]()
+[Come usare una closure per creare un contatore di tipo private. (Mid)]()
 
 [Spiegazione di Null e Undefined in JavaScript. (Sesior)]()
 
@@ -56,7 +56,7 @@
 
 [Scrivere una funzione che ti permetta di fare questo. (Senior)]()
 
-[Date due stringhe, ritornare True se esiste un anagramma tra loro. (Senior)]()
+[Date due stringhe, restituire True se esiste un anagramma tra loro. (Senior)]()
 
 [Verificare se una stringa data è un palindromo. Attenzione alla Case Sensitivity. (Senior)]()
 
@@ -84,15 +84,15 @@
 
 [Dato un array di interi, trovare il prodotto più grande prodotto da tre degli interi dati. (Senior)]()
 
-[Descrivi il concetto di Clousure in JavaScript come meglio riesci. (Senior)]()
+[Descrivi il concetto di Closure in JavaScript come meglio riesci. (Senior)]()
 
-[Scrivi una funzione ricorsiva che ritorna la stringa binaria di un dato numero decimale. (Senior)]()
+[Scrivi una funzione ricorsiva che restituisce la stringa binaria di un dato numero decimale. (Senior)]()
 
-[Cos'è una Clousure in JavaScript? Fornisci un esempio. (Expert)]()
+[Cos'è una Closure in JavaScript? Fornisci un esempio. (Expert)]()
 
 [Spiegazione del concetto di Hoisting in Javascript. (Expert)]()
 
-[Dato un intero, determinare se è una potenza di 2. In tal caso, ritornare il suddetto numero, altrimenti -1. (Expert)]()
+[Dato un intero, determinare se è una potenza di 2. In tal caso, restituire il suddetto numero, altrimenti -1. (Expert)]()
 
 [Quale sarà l'output del seguente blocco di codice? (Expert)]()
 
@@ -158,7 +158,7 @@ b;      // 42 -- il numero
 [[↑] Back to top](#JavaScript)
 ### Qual è la funzione dell'operatore typeof? (Junior)
 
-JavaScript mette a disposizione l'operatore `typeOf`, il quale esamina il valore dato e ritorna il tipo di dato.
+JavaScript mette a disposizione l'operatore `typeOf`, il quale esamina il valore dato e restituisce il tipo di dato.
 ```js
 var a;
 typof(a);       // "undefined"
@@ -246,7 +246,6 @@ typeof arr;     // "object"
 Javascript mette a disposizione due tipologia di confronto, una di tipo strict ed una di tipo type-converting:
 * **Strictg comparsion (e.g. ===)** verfica l'uguaglianza dei valori senza permettere la *coercion*
 * **Abstract comparsion (e.g. ==)** verifica l'uguaglianza dei valori permettendo la *coercion*
-
 ```js
 var a = "42";
 var b = 42;
@@ -336,7 +335,6 @@ function doSomething(val) {
 ```
 
 Lancerà un'eccezione perchè `x` non è stata definita ed è stata settata nello *scope* globale. Questa operazione non è consentita nella modalità strict. Per rimediare procedere come segue:
-
 ```js
 function doSomething(val) {
     "use strict";
@@ -378,3 +376,212 @@ console.log(isInt(0.3));    // false
 ###### Source
 
 * https://coderbyte.com/algorithm/10-common-javascript-interview-questions
+
+
+
+[[↑] Back to top](#JavaScript)
+### Spiegazione dei tipi di dato in JavaScript. (Mid)
+
+JavaScript ha la tipizzazione dei dati ma non delle variabili. I seguenti tipi primitivi sono dipsponibili:
+* `string`
+* `number`
+* `boolean`
+* `null` e `undefined`
+* `object`
+* `symbol` (introdotto in ES6)
+
+
+
+[[↑] Back to top](#JavaScript)
+### Posto di avere un array non ordinato contenente (n - 1) di n numeri consecutivi (avendo definito i limiti) trovare il numero mancante mantenendo un tempo di esecuzione di O(n). (Mid)
+
+```js
+// L'output della funzione dovrebbe essere 8
+var arrayOfIntegers = [2, 5, 1, 4, 9, 6, 3, 7];
+var upperBound = 9;
+var lowerBound = 1;
+
+findMissingNumber(arrayOfIntegers, upperBound, lowerBound);     // 8
+
+function findMissingNumber(arrayOfIntegers, upperBound, lowerBound) {
+    // Iterarazione dell'array per calcolare la somma dei numeri
+    var sumOfIntegers = 0;
+    for (var i = 0; i < arrayOfIntegers.lenght; i++) {
+        sumOfIntegers =+ arrayOfIntegers[i];
+    }
+
+    // Trovare la somma dei numeri consecutivi usando una variazione della somma di Gauss
+    // Formula: [(N * (N + 1)) / 2] - [(M * (M - 1)) / 2];
+    // N è il limite superiore ed M il limete inferiore
+
+    upperLimitSum = (upperBound * (upperBound + 1)) / 2;
+    lowerLimitSum = (lowerBound * (lowerBound - 1)) / 2;
+
+    theoreticalSum = upperLimitSum - lowerLimitSum;
+
+    return theoreticalSum - sumOfIntegers;
+}
+```
+
+###### Source
+
+* https://github.com/kennymkchan/interview-questions-in-javascript
+
+
+
+[[↑] Back to top](#JavaScript)
+### Rimuovere gli elementi duplicati di un array e restituire un nuovo array con gli elementi rimasti. (Mid)
+
+```js
+// ES6
+var array = [1, 2, 3, 5, 1, 5, 9, 1, 2, 8];
+
+Array.from(new Set(array));     // [1, 2, 3, 5, 9, 8]
+
+// ES5
+var array = [1, 2, 3, 5, 1, 5, 9, 1, 2, 8];
+
+uniqueArray(array);     // [1, 2, 3, 5, 9, 8]
+
+function uniqueArray(array) {
+  var hashmap = {};
+  var unique = [];
+
+  for(var i = 0; i < array.length; i++) {
+    // Se la chiave è undefined (univocità) sarà false
+    if(!hashmap.hasOwnProperty(array[i])) {
+      hashmap[array[i]] = 1;
+      unique.push(array[i]);
+    }
+  }
+
+  return unique;
+}
+```
+
+###### Source
+
+* https://github.com/kennymkchan/interview-questions-in-javascript
+
+
+
+[[↑] Back to top](#JavaScript)
+### Data una stringa, invertire il verso di ogni parola. (Mid)
+
+```js
+var string = "Welcome to this Javascript Guide!";
+
+// L'output sarà "!ediuG tpircsavaJ siht ot emocleW"
+var reverseEntireSentence = reverseBySeparator(string, "");
+
+// L'output sarà "emocleW ot siht tpircsavaJ !ediuG"
+var reverseEachWord = reverseBySeparator(reverseEntireSentence, " ");
+
+function reverseBySeparator(string, separator) {
+  return string.split(separator).reverse().join(separator);
+}
+```
+
+###### Source
+
+* https://github.com/kennymkchan/interview-questions-in-javascript
+
+
+
+[[↑] Back to top](#JavaScript)
+### Scrivere una funzione che ti permetta di fare questo. (Mid)
+
+Si può scrivere una *closure* per mantenere il valore passato alla funzione `createBase` anche dopo che la funzione interna verrà restituita. La funzione interna che viene restituita viene creata all'interno della funzione esterna, rendendola una *closure* e permettendole quindi l'accesso alle variabili all'interno della funzione esterna, in questo caso la variabile `baseNumber`.
+```js
+function createBase(baseNumber) {
+    return function(N) {
+        // Stiamo facendo riferimento alla variabile baseNumber anche se è dichiarata
+        // all'esterno della funzione. Le Closure in JavaScript ti permettono di farlo
+        return baseNumber + 1
+    }
+}
+
+var addSix = createBase(6);
+addSix(10);
+addSix(21);
+```
+
+###### Source
+
+* https://coderbyte.com/algorithm/3-common-javascript-closure-questions
+
+
+
+[[↑] Back to top](#JavaScript)
+### Implementare l'accodamento(enqueue) e l'estrazione(dequeue) di un elemento usando solamente due array. (Mid)
+
+*Accodare* significa aggiungere un elemento, *Estrarre* significa rimuoverlo.
+```js
+var inputStack = []     // Primo array
+var outputStack = [];   // Secondo array
+
+// Per l'accodamento ci basta *pushare* l'elemento nella primo array
+function enqueue(stackInput, item) {
+  return stackInput.push(item);
+}
+
+function dequeue(stackInput, stackOutput) {
+  // Invertiamo l'array facendo si che il primo elemento diventi l'ultimo e viceversa.
+  // A questo punto rimuoviamo l'ultimo elemento dall'array per restituire il primo
+  // elemento inserito all'interno dell'array.
+  if (stackOutput.length <= 0) {
+    while(stackInput.length > 0) {
+      var elementToOutput = stackInput.pop();
+      stackOutput.push(elementToOutput);
+    }
+  }
+
+  return stackOutput.pop();
+}
+```
+
+###### Source
+
+* https://github.com/kennymkchan/interview-questions-in-javascript
+
+
+
+[[↑] Back to top](#JavaScript)
+### Come usare una closure per creare un contatore di tipo private. (Mid)
+
+Si può scrivere una funzione all'interno di un'altra funzione (*closure*) che permetta di aggiornare una variabile privata, senza però renderla accessibile all'esterno senza l'utilizzo di una funzione che venga in aiuto.
+
+```js
+function counter() {
+    var _counter = 0;
+    // Restituisco un oggetto con funzioni che permettono di modificare lo stato
+    // della variabile _counter
+    return {
+        add: function(increment) { _counter += increment },
+        retrieve: function() { return "Il contatore attualmente è a: " + _counter; }
+    }
+}
+
+// Sarà dato errore nel caso in cui si provi ad accedere alla variabile _counter
+
+// Utilizzo della funzione counter
+var c = counter();
+c.add(5);
+c.add(9);
+
+// Ora possiamo accedere alla variabile _counter nel seguente modo
+c.retrieve();       // Il contatore attualmente è a: 14 
+```
+
+###### Source
+
+* https://coderbyte.com/algorithm/3-common-javascript-closure-questions
+
+
+
+[[↑] Back to top](#JavaScript)
+### Spiegazione di Null e Undefined in JavaScript. (Sesior)
+JavaScript (e per estensione TypeScript) hanno due tipi di dato primitivi: `null` e `undefined`.
+Questi, come vediamo, rappresentano due concetti differenti:
+* Qualcosa non è stato inizializzato : `undefined`.
+* Qualcosa non è attualmente disponibile : `null`.
