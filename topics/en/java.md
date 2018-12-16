@@ -126,7 +126,7 @@
 
 [What is difference between ArrayList and LinkedList? ](#what-is-difference-between-arraylist-and-linkedlist)
 
-[What is difference between Array and ArrayList ? When will you use Array over ArrayList?](#what-is-difference-between-array-and-arraylist--when-will-you-use-array-over-arraylist)
+[What is difference between Array and ArrayList? When will you use Array over ArrayList?](#what-is-difference-between-array-and-arraylist-when-will-you-use-array-over-arraylist)
 
 [What is the importance of hashCode() and equals() methods? ](#what-is-the-importance-of-hashcode-and-equals-methods)
 
@@ -200,7 +200,7 @@
 
 [Does Garbage collection occur in permanent generation space in JVM?](#does-garbage-collection-occur-in-permanent-generation-space-in-jvm)
 
-[What is DGC ? And how does it work?](#what-is-dgc--and-how-does-it-work)
+[What is DGC ? And how does it work?](#what-is-dgc-and-how-does-it-work)
 
 [What are the layers of RMI Architecture?](#what-are-the-layers-of-rmi-architecture)
 
