@@ -1,16 +1,16 @@
 ## JavaScript
 
-[What is Coercion in JavaScript?](#what-is-coercion-in-javascript-entry)
+[What is Coercion in JavaScript?](#what-is-coercion-in-javascript)
 
-[What is typeof operator?](#what-is-typeof-operator-junior)
+[What is typeof operator?](#what-is-typeof-operator)
 
-[What is the object type?](#what-is-the-object-type-junior)
+[What is the object type?](#what-is-the-object-type)
 
-[Explain arrays in JavaScript](#explain-arrays-in-javascript-junior)
+[Explain arrays in JavaScript](#explain-arrays-in-javascript)
 
-[Explain equality in JavaScript](#explain-equality-in-javascript-junior)
+[Explain equality in JavaScript](#explain-equality-in-javascript)
 
-[What is Scope in JavaScript?](#what-is-scope-in-javascript-junior)
+[What is Scope in JavaScript?](#what-is-scope-in-javascript)
 
 [What is let keyword in JavaScript?](#what-is-let-keyword-in-javascript-mid)
 
