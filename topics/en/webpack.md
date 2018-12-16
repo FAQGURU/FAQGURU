@@ -1,72 +1,72 @@
 ## Webpack
 
-[What is webpack? (Junior)](#what-is-webpack-junior)
+[What is webpack?](#what-is-webpack-junior)
 
-[Why and when should I Use Webpack? (Junior)](#why-and-when-should-i-use-webpack-junior)
+[Why and when should I Use Webpack?](#why-and-when-should-i-use-webpack-junior)
 
-[What is a bundle in webpack? (Junior)](#what-is-a-bundle-in-webpack-junior)
+[What is a bundle in webpack?](#what-is-a-bundle-in-webpack-junior)
 
-[What is the advantage of CompressionPlugin? (Mid)](#what-is-the-advantage-of-compressionplugin-mid)
+[What is the advantage of CompressionPlugin?](#what-is-the-advantage-of-compressionplugin-mid)
 
-[Describe a plugin in webpack (Mid)](#describe-a-plugin-in-webpack-mid)
+[Describe a plugin in webpack](#describe-a-plugin-in-webpack-mid)
 
-[Do loaders work in a synchronous or an asynchronous way? (Mid)](#do-loaders-work-in-a-synchronous-or-an-asynchronous-way-mid)
+[Do loaders work in a synchronous or an asynchronous way?](#do-loaders-work-in-a-synchronous-or-an-asynchronous-way-mid)
 
-[What is the main difference between Webpack and other build tools like Gulp or Grunt? (Mid)](#what-is-the-main-difference-between-webpack-and-other-build-tools-like-gulp-or-grunt-mid)
+[What is the main difference between Webpack and other build tools like Gulp or Grunt?](#what-is-the-main-difference-between-webpack-and-other-build-tools-like-gulp-or-grunt-mid)
 
-[How would you remove unused selectors from css using webpack? (Mid)](#how-would-you-remove-unused-selectors-from-css-using-webpack-mid)
+[How would you remove unused selectors from css using webpack?](#how-would-you-remove-unused-selectors-from-css-using-webpack-mid)
 
-[What is an "entry" point? (Mid)](#what-is-an-entry-point-mid)
+[What is an "entry" point?](#what-is-an-entry-point-mid)
 
-[What is a dependency graph and how does webpack build it? (Mid)](#what-is-a-dependency-graph-and-how-does-webpack-build-it-mid)
+[What is a dependency graph and how does webpack build it?](#what-is-a-dependency-graph-and-how-does-webpack-build-it-mid)
 
-[What is a loader in webpack? (Mid)](#what-is-a-loader-in-webpack-mid)
+[What is a loader in webpack?](#what-is-a-loader-in-webpack-mid)
 
-[Which modules design patterns webpack supports out of the box? (Senior)](#which-modules-design-patterns-webpack-supports-out-of-the-box-senior)
+[Which modules design patterns webpack supports out of the box?](#which-modules-design-patterns-webpack-supports-out-of-the-box-senior)
 
-[Name some loaders features (Senior)](#name-some-loaders-features-senior)
+[Name some loaders features](#name-some-loaders-features-senior)
 
-[Name some benefits of using webpack (Senior)](#name-some-benefits-of-using-webpack-senior)
+[Name some benefits of using webpack](#name-some-benefits-of-using-webpack-senior)
 
-[Name some plugins you think are very important and helpful (Senior)](#name-some-plugins-you-think-are-very-important-and-helpful-senior)
+[Name some plugins you think are very important and helpful](#name-some-plugins-you-think-are-very-important-and-helpful-senior)
 
-[What are some advantages of using webpack-dev-server over simple "http" server or "nginx"? (Senior)](#what-are-some-advantages-of-using-webpack-dev-server-over-simple-http-server-or-nginx-senior)
+[What are some advantages of using webpack-dev-server over simple "http" server or "nginx"?](#what-are-some-advantages-of-using-webpack-dev-server-over-simple-http-server-or-nginx-senior)
 
-[Explain this code (Senior)](#explain-this-code-senior)
+[Explain this code](#explain-this-code-senior)
 
-[Why is OccurenceOrderPlugin the part of webpack optimization? (Senior)](#why-is-occurenceorderplugin-the-part-of-webpack-optimization-senior)
+[Why is OccurenceOrderPlugin the part of webpack optimization?](#why-is-occurenceorderplugin-the-part-of-webpack-optimization-senior)
 
-[What is difference between "hash" and "chunkhash"? (Senior)](#what-is-difference-between-hash-and-chunkhash-senior)
+[What is difference between "hash" and "chunkhash"?](#what-is-difference-between-hash-and-chunkhash-senior)
 
-[Webpack gives us a dependency graph. What does that mean? (Senior)](#webpack-gives-us-a-dependency-graph-what-does-that-mean-senior)
+[Webpack gives us a dependency graph. What does that mean?](#webpack-gives-us-a-dependency-graph-what-does-that-mean-senior)
 
-[List some pitfalls of Webpack (Expert)](#list-some-pitfalls-of-webpack-expert)
+[List some pitfalls of Webpack](#list-some-pitfalls-of-webpack-expert)
 
-[Explain me the difference between NPM vs. Bower vs. Browserify vs. Gulp vs. Grunt vs. Webpack? (Expert)](#explain-me-the-difference-between-npm-vs-bower-vs-browserify-vs-gulp-vs-grunt-vs-webpack-expert)
+[Explain me the difference between NPM vs. Bower vs. Browserify vs. Gulp vs. Grunt vs. Webpack?](#explain-me-the-difference-between-npm-vs-bower-vs-browserify-vs-gulp-vs-grunt-vs-webpack-expert)
 
-[What's the difference between webpack loaders and plugins? (Expert)](#whats-the-difference-between-webpack-loaders-and-plugins-expert)
+[What's the difference between webpack loaders and plugins?](#whats-the-difference-between-webpack-loaders-and-plugins-expert)
 
-[Briefly describe long-term caching and how to achieve it using webpack? (Expert)](#briefly-describe-long-term-caching-and-how-to-achieve-it-using-webpack-expert)
+[Briefly describe long-term caching and how to achieve it using webpack?](#briefly-describe-long-term-caching-and-how-to-achieve-it-using-webpack-expert)
 
-[How to move some data (e.g css code) from a bundle to a separate file in webpack? (Expert)](#how-to-move-some-data-eg-css-code-from-a-bundle-to-a-separate-file-in-webpack-expert)
+[How to move some data (e.g css code) from a bundle to a separate file in webpack?](#how-to-move-some-data-eg-css-code-from-a-bundle-to-a-separate-file-in-webpack-expert)
 
-[Explain this code (Expert)](#explain-this-code-expert)
+[Explain this code](#explain-this-code-expert)
 
-[Explain this code (Expert)](#explain-this-code-expert)
+[Explain this code](#explain-this-code-expert)
 
-[Describe the webpack runtime and manifest (Expert)](#describe-the-webpack-runtime-and-manifest-expert)
+[Describe the webpack runtime and manifest](#describe-the-webpack-runtime-and-manifest-expert)
 
-[What is Hot-Modules-Replacement? (Expert)](#what-is-hot-modules-replacement-expert)
+[What is Hot-Modules-Replacement?](#what-is-hot-modules-replacement-expert)
 
-[What is parallel-webpack and how does it affect webpack's build process? (Expert)](#what-is-parallel-webpack-and-how-does-it-affect-webpacks-build-process-expert)
+[What is parallel-webpack and how does it affect webpack's build process?](#what-is-parallel-webpack-and-how-does-it-affect-webpacks-build-process-expert)
 
-[Is it possible to use other languages (except javascript) for the webpack config file? (Expert)](#is-it-possible-to-use-other-languages-except-javascript-for-the-webpack-config-file-expert)
+[Is it possible to use other languages (except javascript) for the webpack config file?](#is-it-possible-to-use-other-languages-except-javascript-for-the-webpack-config-file-expert)
 
-[Describe tree shaking mechanism in webpack (Expert)](#describe-tree-shaking-mechanism-in-webpack-expert)
+[Describe tree shaking mechanism in webpack](#describe-tree-shaking-mechanism-in-webpack-expert)
 
 
 
-### What is webpack? (Junior)
+### What is webpack?
 
 **Webpack** is a build tool that puts all of your assets, including Javascript, images, fonts, and CSS, in a dependency graph. Webpack lets you use `require()` in your source code to point to local files, like images, and decide how they're processed in your final Javascript bundle, like replacing the path with a URL pointing to a CDN.
 
@@ -77,7 +77,7 @@
 * https://blog.andrewray.me/webpack-when-to-use-and-why/
 
 [[↑] Back to top](#Webpack)
-### Why and when should I Use Webpack? (Junior)
+### Why and when should I Use Webpack?
 
 If you're building a complex Front End application with many **non-code static assets** such as CSS, images, fonts, etc, then yes, Webpack will give you great benefits.
 
@@ -88,7 +88,7 @@ If your application is fairly small, and you don't have many static assets and y
 * https://blog.andrewray.me/webpack-when-to-use-and-why/
 
 [[↑] Back to top](#Webpack)
-### What is a bundle in webpack? (Junior)
+### What is a bundle in webpack?
 
 Bundle is the output file generated by webpack. It contains all of the modules which are used in application. Bundles generation process is regulated by webpack config file.
 
@@ -97,7 +97,7 @@ Bundle is the output file generated by webpack. It contains all of the modules w
 * https://github.com/styopdev/webpack-interview-questions/blob/master/answers.md
 
 [[↑] Back to top](#Webpack)
-### What is the advantage of CompressionPlugin? (Mid)
+### What is the advantage of CompressionPlugin?
 
 *CompressionPlugin* builds gzip-ed version of bundles. Its possible to simply add server side compression e.g using nginx or expres compression plugin. Server-side compression is not recommended because it addes load on CPU and increases response time.
 
@@ -106,7 +106,7 @@ Bundle is the output file generated by webpack. It contains all of the modules w
 * https://webpack.js.org/concepts/loaders/
 
 [[↑] Back to top](#Webpack)
-### Describe a plugin in webpack (Mid)
+### Describe a plugin in webpack
 
 **Plugins** used to customize webpack’s build process in a variety of ways. A webpack plugin is a JavaScript object that has an apply property. This apply property is called by the webpack compiler, giving access to the entire compilation lifecycle. Webpack comes with a multiple built-in plugins available under `webpack.[plugin-name]`.
 
@@ -115,7 +115,7 @@ Bundle is the output file generated by webpack. It contains all of the modules w
 * https://webpack.js.org/concepts/loaders/
 
 [[↑] Back to top](#Webpack)
-### Do loaders work in a synchronous or an asynchronous way? (Mid)
+### Do loaders work in a synchronous or an asynchronous way?
 
 webpack enables use of loaders to preprocess files. This allows you to bundle any static resource way beyond JavaScript. Loaders can work synchronous or asynchronous.
 
@@ -124,7 +124,7 @@ webpack enables use of loaders to preprocess files. This allows you to bundle an
 * https://github.com/styopdev/webpack-interview-questions/blob/master/answers.md
 
 [[↑] Back to top](#Webpack)
-### What is the main difference between Webpack and other build tools like Gulp or Grunt? (Mid)
+### What is the main difference between Webpack and other build tools like Gulp or Grunt?
 
 Webpack is a **module bundler**, though it is quite often used instead of Gulp or Grunt **task runners**. This advanced tool provides developers with control of spliting the modules, allowing them to adjust builds to particular situations and workaround solutions that don’t function properly out of the box.
 
@@ -137,7 +137,7 @@ Talking about Webpack vs Gulp vs Grunt performance, the two latter look into a d
 * https://github.com/styopdev/webpack-interview-questions/blob/master/answers.md
 
 [[↑] Back to top](#Webpack)
-### How would you remove unused selectors from css using webpack? (Mid)
+### How would you remove unused selectors from css using webpack?
 
 Using [purifycss-webpack](https://github.com/webpack-contrib/purifycss-webpack) plugin
 
@@ -146,7 +146,7 @@ Using [purifycss-webpack](https://github.com/webpack-contrib/purifycss-webpack) 
 * https://webpack.js.org/concepts/loaders/
 
 [[↑] Back to top](#Webpack)
-### What is an "entry" point? (Mid)
+### What is an "entry" point?
 
 The entry object is where webpack looks to start building the bundle, at this point the application starts executing.
 
@@ -155,7 +155,7 @@ The entry object is where webpack looks to start building the bundle, at this po
 * https://github.com/styopdev/webpack-interview-questions/blob/master/answers.md
 
 [[↑] Back to top](#Webpack)
-### What is a dependency graph and how does webpack build it? (Mid)
+### What is a dependency graph and how does webpack build it?
 
 Any time one file depends on another, webpack treats this as a dependency. Starting from entry point(s), webpack recursively builds a dependency graph that includes every module your application needs, using `import` and `require` statements, then packages all of those modules into bundle(s).
 
@@ -164,7 +164,7 @@ Any time one file depends on another, webpack treats this as a dependency. Start
 * https://github.com/styopdev/webpack-interview-questions/blob/master/answers.md
 
 [[↑] Back to top](#Webpack)
-### What is a loader in webpack? (Mid)
+### What is a loader in webpack?
 
 **Loaders** are transformations that are applied on the source code of a module. Webpack supports modules written in a variety of languages and preprocessors, via loaders. Loaders describe to webpack how to process non-JavaScript modules and include these dependencies into your bundles.
 
@@ -173,7 +173,7 @@ Any time one file depends on another, webpack treats this as a dependency. Start
 * https://github.com/styopdev/webpack-interview-questions/blob/master/answers.md
 
 [[↑] Back to top](#Webpack)
-### Which modules design patterns webpack supports out of the box? (Senior)
+### Which modules design patterns webpack supports out of the box?
 
 * common.js,
 * amd
@@ -184,7 +184,7 @@ Any time one file depends on another, webpack treats this as a dependency. Start
 * https://github.com/styopdev/webpack-interview-questions/blob/master/answers.md
 
 [[↑] Back to top](#Webpack)
-### Name some loaders features (Senior)
+### Name some loaders features
 
 * Loaders can be chained.
 * Loaders can be synchronous or asynchronous.
@@ -198,7 +198,7 @@ Any time one file depends on another, webpack treats this as a dependency. Start
 * https://webpack.js.org/concepts/loaders/
 
 [[↑] Back to top](#Webpack)
-### Name some benefits of using webpack (Senior)
+### Name some benefits of using webpack
 
 Webpack and static assets in a dependency graph offers many benefits. Here's a few:
 
@@ -215,7 +215,7 @@ Webpack is the main build tool adopted by the React community.
 * https://blog.andrewray.me/webpack-when-to-use-and-why/
 
 [[↑] Back to top](#Webpack)
-### Name some plugins you think are very important and helpful (Senior)
+### Name some plugins you think are very important and helpful
 
 * **CommonsChunkPlugin** - creates a separate file (known as a chunk), consisting of common modules shared between multiple entry points.
 * **DefinePlugin** -  allows you to create global constants which can be configured at compile time. 
@@ -228,7 +228,7 @@ Webpack is the main build tool adopted by the React community.
 * https://webpack.js.org/concepts/loaders/
 
 [[↑] Back to top](#Webpack)
-### What are some advantages of using webpack-dev-server over simple "http" server or "nginx"? (Senior)
+### What are some advantages of using webpack-dev-server over simple "http" server or "nginx"?
 
 The **webpack-dev-server** is a little Node.js Express server, which uses the webpack-dev-middleware to serve a webpack bundle.
 
@@ -239,7 +239,7 @@ webpack-dev-server simplifies development process due to integrated fast in-memo
 * https://webpack.js.org/concepts/loaders/
 
 [[↑] Back to top](#Webpack)
-### Explain this code (Senior)
+### Explain this code
 
 This code is intended to transform and load sass files as webpack modules.
   This config tells to webpack to search for all files which have `.scss` extension, then applies the following loaders on them, from right to left order:
@@ -256,7 +256,7 @@ This code is intended to transform and load sass files as webpack modules.
 * https://github.com/styopdev/webpack-interview-questions/blob/master/answers.md
 
 [[↑] Back to top](#Webpack)
-### Why is OccurenceOrderPlugin the part of webpack optimization? (Senior)
+### Why is OccurenceOrderPlugin the part of webpack optimization?
 
 **OccurenceOrderPlugin** order the modules and chunks by occurrence. More module occurs - smaller id it has, this technique helps to reduce bundle size, because a module is used many times will be referenced many times with `webpack_require(moduleId)`.
 
@@ -265,7 +265,7 @@ This code is intended to transform and load sass files as webpack modules.
 * https://webpack.js.org/concepts/loaders/
 
 [[↑] Back to top](#Webpack)
-### What is difference between "hash" and "chunkhash"? (Senior)
+### What is difference between "hash" and "chunkhash"?
 
 `hash` will generate unique hash for each build and use it for all chunks. Replace `hash` with `chunkhash` to generate unique hashes for each chunk. This is useful when you dont want to re-download vendors (dependencies) file but you have changes in your application code and want to update it.
 
@@ -274,7 +274,7 @@ This code is intended to transform and load sass files as webpack modules.
 * https://webpack.js.org/concepts/loaders/
 
 [[↑] Back to top](#Webpack)
-### Webpack gives us a dependency graph. What does that mean? (Senior)
+### Webpack gives us a dependency graph. What does that mean?
 
 Any time one file depends on another, webpack treats this as a *dependency*. This allows webpack to take non-code assets, such as images or web fonts, and also provide them as dependencies for your application.
 
@@ -292,7 +292,7 @@ The `require('logo.png')` source code never actually gets executed in the browse
 * https://blog.andrewray.me/webpack-when-to-use-and-why/
 
 [[↑] Back to top](#Webpack)
-### List some pitfalls of Webpack (Expert)
+### List some pitfalls of Webpack
 
 Webpack isn't perfect and has some pitfalls.
 *   **The documentation is awful.** The language is often confusing, [such as](http://webpack.github.io/docs/what-is-webpack.html) "webpack takes modules with dependencies and generates static assets representing those modules." What? Even the page layout is problematic, with random sidebar entries you can't click on, and animated logos while you're trying to read.
@@ -306,7 +306,7 @@ Webpack isn't perfect and has some pitfalls.
 * https://blog.andrewray.me/webpack-when-to-use-and-why/
 
 [[↑] Back to top](#Webpack)
-### Explain me the difference between NPM vs. Bower vs. Browserify vs. Gulp vs. Grunt vs. Webpack? (Expert)
+### Explain me the difference between NPM vs. Bower vs. Browserify vs. Gulp vs. Grunt vs. Webpack?
 
 * `npm` & `bower` are package managers. They just download the dependencies and
 don't know how to build projects on their own. What they know is to call
@@ -339,7 +339,7 @@ CommonJS](https://addyosmani.com/writing-modular-js/).
 * https://stackoverflow.com/questions/35062852/npm-vs-bower-vs-browserify-vs-gulp-vs-grunt-vs-webpack
 
 [[↑] Back to top](#Webpack)
-### What's the difference between webpack loaders and plugins? (Expert)
+### What's the difference between webpack loaders and plugins?
 
 * **Loaders** work at the individual file level during or before the bundle is generated.
 * **Plugins** work at bundle or chunk level and usually work at the end of the bundle generation process. Plugins can also modify how the bundles themselves are created. Plugins have more powerful control than loaders.
@@ -353,7 +353,7 @@ CommonJS](https://addyosmani.com/writing-modular-js/).
 * https://stackoverflow.com/questions/37452402/webpack-loaders-vs-plugins-whats-the-difference
 
 [[↑] Back to top](#Webpack)
-### Briefly describe long-term caching and how to achieve it using webpack? (Expert)
+### Briefly describe long-term caching and how to achieve it using webpack?
 
 Browsers should cache static assets to save traffic and users time. But after each change or bugfix, browser have to download newer version of files. The most easy way to achieve this is changing file name. It could be buildId or unique hash in the end of file's name like
 
@@ -387,7 +387,7 @@ module.exports = {
 * https://webpack.js.org/concepts/loaders/
 
 [[↑] Back to top](#Webpack)
-### How to move some data (e.g css code) from a bundle to a separate file in webpack? (Expert)
+### How to move some data (e.g css code) from a bundle to a separate file in webpack?
 
 Using `ExtractTextWebpackPlugin`. It moves all the required *.css modules in entry chunks into a separate CSS file. So your styles are no longer inlined into the JS bundle, but in a separate CSS file (styles.css). If your total stylesheet volume is big, it will be faster because the CSS bundle is loaded in parallel to the JS bundle. 
 
@@ -396,7 +396,7 @@ Using `ExtractTextWebpackPlugin`. It moves all the required *.css modules in ent
 * https://webpack.js.org/concepts/loaders/
 
 [[↑] Back to top](#Webpack)
-### Explain this code (Expert)
+### Explain this code
 
 The **CommonsChunkPlugin** is built-in feature that creates a separate file (known as a chunk), consisting of common modules shared between multiple entry points. By separating common modules from bundles, the resulting chunked file can be loaded once initially, and stored in cache for later use. This results in pagespeed optimizations as the browser can quickly serve the shared code from cache, rather than being forced to load a larger bundle whenever a new page is visited.
 
@@ -407,7 +407,7 @@ This code creates separate file: `common.js` which contains common modules from 
 * https://webpack.js.org/concepts/loaders/
 
 [[↑] Back to top](#Webpack)
-### Explain this code (Expert)
+### Explain this code
 
 This code tells to webpack to include only those files which names match to `/(en-gb|en-us)\.js/` pattern from `/moment[\/\\]locale/` path. It used to optimize final bundle excluding unused locales. So if you need to use e.g french language's locale as well then you should add it to second regex like this: `/(en-gb|en-us|fr)\.js/`.
 
@@ -416,7 +416,7 @@ This code tells to webpack to include only those files which names match to `/(e
 * https://webpack.js.org/concepts/loaders/
 
 [[↑] Back to top](#Webpack)
-### Describe the webpack runtime and manifest (Expert)
+### Describe the webpack runtime and manifest
 
 * The **runtime** is basically all the code webpack needs to connect your modularized application while it's running in the browser. It contains the loading and resolving logic needed to connect your modules as they interact. This includes connecting modules that have already been loaded into the browser as well as logic to lazy-load the ones that haven't.
 * As the compiler enters, resolves, and maps out your application, it keeps detailed notes on all your modules. This collection of data is called the **Manifest** and it's what the runtime will use to resolve and load modules once they've been bundled and shipped to the browser.
@@ -426,7 +426,7 @@ This code tells to webpack to include only those files which names match to `/(e
 * https://webpack.js.org/concepts/manifest/
 
 [[↑] Back to top](#Webpack)
-### What is Hot-Modules-Replacement? (Expert)
+### What is Hot-Modules-Replacement?
 
 **Hot-Modules-Replacement (HMR)** is webpack feature which allows to update modules in application without page reload. HMR can be used as an advanced replacement for livereload.
 
@@ -435,7 +435,7 @@ This code tells to webpack to include only those files which names match to `/(e
 * https://webpack.js.org/concepts/loaders/
 
 [[↑] Back to top](#Webpack)
-### What is parallel-webpack and how does it affect webpack's build process? (Expert)
+### What is parallel-webpack and how does it affect webpack's build process?
 
 [parallel-webpack](https://github.com/trivago/parallel-webpack) useful for webpack configurations with multiple entry points. It allows to run multiple webpack builds in parallel, spreading the work across your processors and thus helping to significantly speed up build.
 
@@ -444,7 +444,7 @@ This code tells to webpack to include only those files which names match to `/(e
 * https://webpack.js.org/concepts/loaders/
 
 [[↑] Back to top](#Webpack)
-### Is it possible to use other languages (except javascript) for the webpack config file? (Expert)
+### Is it possible to use other languages (except javascript) for the webpack config file?
 
 Yes, webpack accepts configuration files written in multiple programming and data languages, such as typescript, coffeescript, babel and jsx.
 
@@ -453,7 +453,7 @@ Yes, webpack accepts configuration files written in multiple programming and dat
 * https://webpack.js.org/concepts/loaders/
 
 [[↑] Back to top](#Webpack)
-### Describe tree shaking mechanism in webpack (Expert)
+### Describe tree shaking mechanism in webpack
 
 **Tree shaking** is a term commonly used in the JavaScript context for dead-code elimination. It relies on the static structure of ES2015 module syntax, i.e. import and export. 
 

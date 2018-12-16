@@ -1,88 +1,88 @@
 ## Vue.js
 
-[How to create an instance of Vue.js? (Junior)](#how-to-create-an-instance-of-vuejs-junior)
+[How to create an instance of Vue.js?](#how-to-create-an-instance-of-vuejs-junior)
 
-[What is Vue.js? (Junior)](#what-is-vuejs-junior)
+[What is Vue.js?](#what-is-vuejs-junior)
 
-[How to use local storage with Vue.js? (Mid)](#how-to-use-local-storage-with-vuejs-mid)
+[How to use local storage with Vue.js?](#how-to-use-local-storage-with-vuejs-mid)
 
-[How to create Two-Way Bindings in Vue.js? (Mid)](#how-to-create-two-way-bindings-in-vuejs-mid)
+[How to create Two-Way Bindings in Vue.js?](#how-to-create-two-way-bindings-in-vuejs-mid)
 
-[What are filters in Vue.js? (Mid)](#what-are-filters-in-vuejs-mid)
+[What are filters in Vue.js?](#what-are-filters-in-vuejs-mid)
 
-[What are components props? (Mid)](#what-are-components-props-mid)
+[What are components props?](#what-are-components-props-mid)
 
-[How to deploy Vue.js app? (Mid)](#how-to-deploy-vuejs-app-mid)
+[How to deploy Vue.js app?](#how-to-deploy-vuejs-app-mid)
 
-[What are Components in Vue.js? (Mid)](#what-are-components-in-vuejs-mid)
+[What are Components in Vue.js?](#what-are-components-in-vuejs-mid)
 
-[What are Directives in Vue.js, List some of them you used? (Mid)](#what-are-directives-in-vuejs-list-some-of-them-you-used-mid)
+[What are Directives in Vue.js, List some of them you used?](#what-are-directives-in-vuejs-list-some-of-them-you-used-mid)
 
-[What is filters in Vue.js? (Mid)](#what-is-filters-in-vuejs-mid)
+[What is filters in Vue.js?](#what-is-filters-in-vuejs-mid)
 
-[List some features of Vue.js (Mid)](#list-some-features-of-vuejs-mid)
+[List some features of Vue.js](#list-some-features-of-vuejs-mid)
 
-[How can you redirect to another page in Vue.js? (Mid)](#how-can-you-redirect-to-another-page-in-vuejs-mid)
+[How can you redirect to another page in Vue.js?](#how-can-you-redirect-to-another-page-in-vuejs-mid)
 
-[Can I pass parameters in computer properties in Vue.js? (Mid)](#can-i-pass-parameters-in-computer-properties-in-vuejs-mid)
+[Can I pass parameters in computer properties in Vue.js?](#can-i-pass-parameters-in-computer-properties-in-vuejs-mid)
 
-[Explain the basic logical Vue.js app organisation (Mid)](#explain-the-basic-logical-vuejs-app-organisation-mid)
+[Explain the basic logical Vue.js app organisation](#explain-the-basic-logical-vuejs-app-organisation-mid)
 
-[What are the Advantages/Disadvantages of Vuejs? (Mid)](#what-are-the-advantagesdisadvantages-of-vuejs-mid)
+[What are the Advantages/Disadvantages of Vuejs?](#what-are-the-advantagesdisadvantages-of-vuejs-mid)
 
-[Explain the differences between one-way data flow and two-way data binding? (Mid)](#explain-the-differences-between-one-way-data-flow-and-two-way-data-binding-mid)
+[Explain the differences between one-way data flow and two-way data binding?](#explain-the-differences-between-one-way-data-flow-and-two-way-data-binding-mid)
 
-[How can I fetch query parameters in Vue.js? (Mid)](#how-can-i-fetch-query-parameters-in-vuejs-mid)
+[How can I fetch query parameters in Vue.js?](#how-can-i-fetch-query-parameters-in-vuejs-mid)
 
-[List type of Directive are available in Vue.js. (Senior)](#list-type-of-directive-are-available-in-vuejs-senior)
+[List type of Directive are available in Vue.js.](#list-type-of-directive-are-available-in-vuejs-senior)
 
-[How to loop in Vue.js? (Senior)](#how-to-loop-in-vuejs-senior)
+[How to loop in Vue.js?](#how-to-loop-in-vuejs-senior)
 
-[What is the difference v-bind and v-model? Provide some code example. (Senior)](#what-is-the-difference-v-bind-and-v-model-provide-some-code-example-senior)
+[What is the difference v-bind and v-model? Provide some code example.](#what-is-the-difference-v-bind-and-v-model-provide-some-code-example-senior)
 
-[How to call function on child component on parent events? (Senior)](#how-to-call-function-on-child-component-on-parent-events-senior)
+[How to call function on child component on parent events?](#how-to-call-function-on-child-component-on-parent-events-senior)
 
-[List some benefits of Vue.js (Senior)](#list-some-benefits-of-vuejs-senior)
+[List some benefits of Vue.js](#list-some-benefits-of-vuejs-senior)
 
-[How to pass an argument to Vue.js filters? (Senior)](#how-to-pass-an-argument-to-vuejs-filters-senior)
+[How to pass an argument to Vue.js filters?](#how-to-pass-an-argument-to-vuejs-filters-senior)
 
-[How can you prevent layout jumps in Vue.js? (Senior)](#how-can-you-prevent-layout-jumps-in-vuejs-senior)
+[How can you prevent layout jumps in Vue.js?](#how-can-you-prevent-layout-jumps-in-vuejs-senior)
 
-[How to use Gulp with Vue.js? (Expert)](#how-to-use-gulp-with-vuejs-expert)
+[How to use Gulp with Vue.js?](#how-to-use-gulp-with-vuejs-expert)
 
-[Can you force Vue.js to reload/rerender? (Expert)](#can-you-force-vuejs-to-reloadrerender-expert)
+[Can you force Vue.js to reload/rerender?](#can-you-force-vuejs-to-reloadrerender-expert)
 
-[Are there any drawback of Vue.js you know? (Expert)](#are-there-any-drawback-of-vuejs-you-know-expert)
+[Are there any drawback of Vue.js you know?](#are-there-any-drawback-of-vuejs-you-know-expert)
 
-[How can you bind styles in Vue.js? (Expert)](#how-can-you-bind-styles-in-vuejs-expert)
+[How can you bind styles in Vue.js?](#how-can-you-bind-styles-in-vuejs-expert)
 
-[Could you listen for components props changes? (Expert)](#could-you-listen-for-components-props-changes-expert)
+[Could you listen for components props changes?](#could-you-listen-for-components-props-changes-expert)
 
-[What's the equivalent of Angular Service in Vue.js? (Expert)](#whats-the-equivalent-of-angular-service-in-vuejs-expert)
+[What's the equivalent of Angular Service in Vue.js?](#whats-the-equivalent-of-angular-service-in-vuejs-expert)
 
-[What is Vuex? (Expert)](#what-is-vuex-expert)
+[What is Vuex?](#what-is-vuex-expert)
 
-[How to save new value to data variables in Vue.js whenever the user types? (Expert)](#how-to-save-new-value-to-data-variables-in-vuejs-whenever-the-user-types-expert)
+[How to save new value to data variables in Vue.js whenever the user types?](#how-to-save-new-value-to-data-variables-in-vuejs-whenever-the-user-types-expert)
 
-[How to implement simple routing in Vue.js (without external library)? (Expert)](#how-to-implement-simple-routing-in-vuejs-without-external-library-expert)
+[How to implement simple routing in Vue.js (without external library)?](#how-to-implement-simple-routing-in-vuejs-without-external-library-expert)
 
-[List some types of components communication channels in Vue.js app (Expert)](#list-some-types-of-components-communication-channels-in-vuejs-app-expert)
+[List some types of components communication channels in Vue.js app](#list-some-types-of-components-communication-channels-in-vuejs-app-expert)
 
-[How can I watch an array length using Vue.js? (Expert)](#how-can-i-watch-an-array-length-using-vuejs-expert)
+[How can I watch an array length using Vue.js?](#how-can-i-watch-an-array-length-using-vuejs-expert)
 
-[Why we need Vue.js mixins? (Expert)](#why-we-need-vuejs-mixins-expert)
+[Why we need Vue.js mixins?](#why-we-need-vuejs-mixins-expert)
 
-[What is the best way to create a constant, that can be accessible from entire application in VueJs ? (Expert)](#what-is-the-best-way-to-create-a-constant-that-can-be-accessible-from-entire-application-in-vuejs--expert)
+[What is the best way to create a constant, that can be accessible from entire application in VueJs ?](#what-is-the-best-way-to-create-a-constant-that-can-be-accessible-from-entire-application-in-vuejs--expert)
 
-[What is the main difference between a method and a computed value in Vue.js? (Expert)](#what-is-the-main-difference-between-a-method-and-a-computed-value-in-vuejs-expert)
+[What is the main difference between a method and a computed value in Vue.js?](#what-is-the-main-difference-between-a-method-and-a-computed-value-in-vuejs-expert)
 
-[What is a proper way to communicate between sibling components in vuejs 2.0? (Expert)](#what-is-a-proper-way-to-communicate-between-sibling-components-in-vuejs-20-expert)
+[What is a proper way to communicate between sibling components in vuejs 2.0?](#what-is-a-proper-way-to-communicate-between-sibling-components-in-vuejs-20-expert)
 
-[How do you toggle a class in Vue.js? (Expert)](#how-do-you-toggle-a-class-in-vuejs-expert)
+[How do you toggle a class in Vue.js?](#how-do-you-toggle-a-class-in-vuejs-expert)
 
 
 
-### How to create an instance of Vue.js? (Junior)
+### How to create an instance of Vue.js?
 
 Every Vue application starts by creating a new Vue instance with the Vue function:
 
@@ -97,7 +97,7 @@ var vm = new Vue({
 * https://www.onlineinterviewquestions.com/vue-js-interview-questions/#.Wx0soFOFNTY
 
 [[↑] Back to top](#vuejs)
-### What is Vue.js? (Junior)
+### What is Vue.js?
 
 **Vue js** is progressive javascript script used to create dynamic user interfaces.Vue js is very easy to learn.In order to work with Vue js you just need to add few dynamic features to a website.You don’t need to install any thing to use Vue js just need add Vue js library in your project.
 
@@ -106,7 +106,7 @@ var vm = new Vue({
 * https://www.onlineinterviewquestions.com/vue-js-interview-questions/#.Wx0soFOFNTY
 
 [[↑] Back to top](#vuejs)
-### How to use local storage with Vue.js? (Mid)
+### How to use local storage with Vue.js?
 
 You can just do following:
 
@@ -121,7 +121,7 @@ localStorage.removeItem('YourItem')
 * https://stackoverflow.com/questions/41425889/vue-js-how-to-use-localstorage-with-vue-js
 
 [[↑] Back to top](#vuejs)
-### How to create Two-Way Bindings in Vue.js? (Mid)
+### How to create Two-Way Bindings in Vue.js?
 
 `v-model` directive is used to create Two-Way Bindings in Vue js.In Two-Way Bindings data or model is bind with DOM and Dom is binded back to model.
 
@@ -143,7 +143,7 @@ In below example you can see how Two-Way Bindings is implemented.
 * https://www.onlineinterviewquestions.com/vue-js-interview-questions/#.Wx0soFOFNTY
 
 [[↑] Back to top](#vuejs)
-### What are filters in Vue.js? (Mid)
+### What are filters in Vue.js?
 
 In Vue js filters are used to transform the output that are going to rendered on browser.
 
@@ -158,7 +158,7 @@ A Vue.js filter is essentially a function that takes a value, processes it, and 
 * https://www.onlineinterviewquestions.com/vue-js-interview-questions/#.Wx0soFOFNTY
 
 [[↑] Back to top](#vuejs)
-### What are components props? (Mid)
+### What are components props?
 
 Every component instance has its own isolated scope. This means you cannot (and should not) directly reference parent data in a child component’s template. Data can be passed down to child components using **props**. Props are custom attributes you can register on a component. When a value is passed to a prop attribute, it becomes a property on that component instance.
 
@@ -175,7 +175,7 @@ Vue.component('blog-post', {
 * https://vuejs.org/v2/guide/components-props.html#ad
 
 [[↑] Back to top](#vuejs)
-### How to deploy Vue.js app? (Mid)
+### How to deploy Vue.js app?
 
 If you've created your project like this:
 ```sh
@@ -192,7 +192,7 @@ Then copy index.html and /dist/ folder into your website root directory. Done.
 * https://stackoverflow.com/questions/42936588/how-to-deploy-vue-app
 
 [[↑] Back to top](#vuejs)
-### What are Components in Vue.js? (Mid)
+### What are Components in Vue.js?
 
 *Components* are one of most powerful features of Vue js.In Vue components are custom elements that help extend basic HTML elements to encapsulate reusable code.
 
@@ -211,7 +211,7 @@ export default {
 * https://www.onlineinterviewquestions.com/vue-js-interview-questions/#.Wx0soFOFNTY
 
 [[↑] Back to top](#vuejs)
-### What are Directives in Vue.js, List some of them you used? (Mid)
+### What are Directives in Vue.js, List some of them you used?
 
 The concept of directive in Vue js is drastically simpler than that in Angular. Vue.js directives provides a way to extend HTML with new attributes and tags. Vue.js has a set of built-in directives which offers extended functionality to your applications.You can also write your custom directives in Vue.js .
 
@@ -228,7 +228,7 @@ Below are list of commonly used directives in Vue.js
 * https://www.onlineinterviewquestions.com/vue-js-interview-questions/#.Wx0soFOFNTY
 
 [[↑] Back to top](#vuejs)
-### What is filters in Vue.js? (Mid)
+### What is filters in Vue.js?
 
 Vue.js allows you to define **filters** that can be used to apply common text formatting. Filters are usable in two places: mustache interpolations and v-bind expressions (the latter supported in 2.1.0+). Filters should be appended to the end of the JavaScript expression, denoted by the “pipe” symbol:
 
@@ -245,7 +245,7 @@ Vue.js allows you to define **filters** that can be used to apply common text fo
 * https://vuejs.org/v2/guide/filters.html
 
 [[↑] Back to top](#vuejs)
-### List some features of Vue.js (Mid)
+### List some features of Vue.js
 
 Vue js comes with following features
 
@@ -260,12 +260,12 @@ Vue js comes with following features
 * https://www.onlineinterviewquestions.com/vue-js-interview-questions/#.Wx0soFOFNTY
 
 [[↑] Back to top](#vuejs)
-### How can you redirect to another page in Vue.js? (Mid)
+### How can you redirect to another page in Vue.js?
 
 If you are using  `vue-router`, you should use  `router.go(path)`  to navigate to any particular route. The router can be accessed from within a component using  `this.$router`.  `router.go()`  changed in VueJS 2.0. You can use  `router.push({ name: "yourroutename"})`or just  `router.push("yourroutename")`  now to redirect. 
 
 [[↑] Back to top](#vuejs)
-### Can I pass parameters in computer properties in Vue.js? (Mid)
+### Can I pass parameters in computer properties in Vue.js?
 
 You can use a _method_ or _computed function_.
 
@@ -292,7 +292,7 @@ computed: {
 ```
 
 [[↑] Back to top](#vuejs)
-### Explain the basic logical Vue.js app organisation (Mid)
+### Explain the basic logical Vue.js app organisation
 
 A **Vue.js application** consists of a root Vue instance created with new Vue, optionally organized into a tree of nested, reusable components. For example, a todo app’s component tree might look like this:
 
@@ -313,7 +313,7 @@ All Vue components are also Vue instances.
 * https://vuejs.org/v2/guide/instance.html
 
 [[↑] Back to top](#vuejs)
-### What are the Advantages/Disadvantages of Vuejs? (Mid)
+### What are the Advantages/Disadvantages of Vuejs?
 
 **Vue.js Advantages**
 - Easy for applications and interfaces development
@@ -327,7 +327,7 @@ All Vue components are also Vue instances.
 - Small developer community
 
 [[↑] Back to top](#vuejs)
-### Explain the differences between one-way data flow and two-way data binding? (Mid)
+### Explain the differences between one-way data flow and two-way data binding?
 
 In one-way data flow the view(UI) part of application does not updates automatically when data Model is change  we need to write some custom code to make it updated every time a data model is changed. In Vue js **v-bind** is used for one-way data flow or binding.
 
@@ -338,7 +338,7 @@ In two-way data binding the view(UI) part of application automatically updates w
 * https://www.onlineinterviewquestions.com/vue-js-interview-questions/#.Wx0soFOFNTY
 
 [[↑] Back to top](#vuejs)
-### How can I fetch query parameters in Vue.js? (Mid)
+### How can I fetch query parameters in Vue.js?
 
 You have access to a `$route` object from your components, that expose what we need.
 
@@ -352,7 +352,7 @@ console.log(this.$route.query.test)
 * https://stackoverflow.com/questions/35914069/vue-js-query-parameters
 
 [[↑] Back to top](#vuejs)
-### List type of Directive are available in Vue.js. (Senior)
+### List type of Directive are available in Vue.js.
 
 In Vue.js following types of directives are available
 
@@ -366,7 +366,7 @@ In Vue.js following types of directives are available
 * https://www.onlineinterviewquestions.com/vue-js-interview-questions/#.Wx0soFOFNTY
 
 [[↑] Back to top](#vuejs)
-### How to loop in Vue.js? (Senior)
+### How to loop in Vue.js?
 
 You could build your template this way:
 
@@ -384,7 +384,7 @@ You could build your template this way:
 * https://stackoverflow.com/questions/42260233/vue-js-difference-between-v-model-and-v-bind/44678583
 
 [[↑] Back to top](#vuejs)
-### What is the difference v-bind and v-model? Provide some code example. (Senior)
+### What is the difference v-bind and v-model? Provide some code example.
 
 `v-model`  is a  **two-way binding for form inputs**. It combines  `v-bind`, which  **_brings a js value_ **into the markup, and  `v-on:input`  to  **_update the js value_**.
 
@@ -407,7 +407,7 @@ and it's just syntactic sugar for:
 * https://stackoverflow.com/questions/42260233/vue-js-difference-between-v-model-and-v-bind/44678583
 
 [[↑] Back to top](#vuejs)
-### How to call function on child component on parent events? (Senior)
+### How to call function on child component on parent events?
 
 Give the child component a ref and use `$refs` to call a method on the child component directly.
 
@@ -452,7 +452,7 @@ new Vue({
 * https://stackoverflow.com/questions/42632711/how-to-call-function-on-child-component-on-parent-events
 
 [[↑] Back to top](#vuejs)
-### List some benefits of Vue.js (Senior)
+### List some benefits of Vue.js
 
 * Empowered HTML. This means that Vue.js has many similar characteristics with Angular and this can help to optimize HTML blocks handling with a usage of different components.
 * Detailed documentation. Vue.js has very circumstantial documentation which can fasten learning curve for developers and save a lot of time to develop an app using only the basic knowledge of HTML and JavaScript.
@@ -466,7 +466,7 @@ new Vue({
 * https://medium.com/@TechMagic/reactjs-vs-angular5-vs-vue-js-what-to-choose-in-2018-b91e028fa91d
 
 [[↑] Back to top](#vuejs)
-### How to pass an argument to Vue.js filters? (Senior)
+### How to pass an argument to Vue.js filters?
 
 Consider:
 ```js
@@ -488,12 +488,12 @@ And usage:
 * https://vuejs.org/v2/guide/filters.html
 
 [[↑] Back to top](#vuejs)
-### How can you prevent layout jumps in Vue.js? (Senior)
+### How can you prevent layout jumps in Vue.js?
 
 You want to totally nullify the time of the first rendering, the only way to go is to do **server-side rendering**. So your app will be served with the initial html structure already there.
 
 [[↑] Back to top](#vuejs)
-### How to use Gulp with Vue.js? (Expert)
+### How to use Gulp with Vue.js?
 
 You can use `Vueify`. it's a `browserify` transform.
 
@@ -511,7 +511,7 @@ gulp.task('browserify', function() {
 ```
 
 [[↑] Back to top](#vuejs)
-### Can you force Vue.js to reload/rerender? (Expert)
+### Can you force Vue.js to reload/rerender?
 
 Yes. Consider:
 ```js
@@ -523,7 +523,7 @@ vm.$forceUpdate();
 * https://stackoverflow.com/questions/32106155/can-you-force-vue-js-to-reload-re-render
 
 [[↑] Back to top](#vuejs)
-### Are there any drawback of Vue.js you know? (Expert)
+### Are there any drawback of Vue.js you know?
 
 * Lack of resources. Vue.js still has a pretty small market share in comparison with React or Angular, which means that knowledge sharing in this framework is still in the beginning phase.
 * Risk of over flexibility. Sometimes, Vue.js might have issues while integrating into huge projects and there is still no experience with possible solutions, but they will definitely come soon.
@@ -534,7 +534,7 @@ vm.$forceUpdate();
 * https://medium.com/@TechMagic/reactjs-vs-angular5-vs-vue-js-what-to-choose-in-2018-b91e028fa91d
 
 [[↑] Back to top](#vuejs)
-### How can you bind styles in Vue.js? (Expert)
+### How can you bind styles in Vue.js?
 
 Consider:
 ```html
@@ -550,7 +550,7 @@ Consider:
 * https://stackoverflow.com/questions/45604244/binding-styles-in-vue-js
 
 [[↑] Back to top](#vuejs)
-### Could you listen for components props changes? (Expert)
+### Could you listen for components props changes?
 
 Yes. You can `watch` props to execute some code upon props changes:
 ```js
@@ -587,7 +587,7 @@ And in HTML:
 * https://stackoverflow.com/questions/44584292/vuejs-2-0-how-to-listen-for-props-changes
 
 [[↑] Back to top](#vuejs)
-### What's the equivalent of Angular Service in Vue.js? (Expert)
+### What's the equivalent of Angular Service in Vue.js?
 
 There are 4 ways:
 
@@ -601,7 +601,7 @@ There are 4 ways:
 * https://stackoverflow.com/questions/41164672/whats-the-equivalent-of-angular-service-in-vuejs
 
 [[↑] Back to top](#vuejs)
-### What is Vuex? (Expert)
+### What is Vuex?
 
 
 Vuex is a **state management pattern + library** for Vue.js applications. It serves as a centralized store for all the components in an application, with rules ensuring that the state can only be mutated in a predictable fashion. The basic idea behind Vuex, inspired by Flux, Redux and The Elm Architecture.
@@ -615,7 +615,7 @@ Vuex resolves two problems:
 * https://stackoverflow.com/questions/41164672/whats-the-equivalent-of-angular-service-in-vuejs
 
 [[↑] Back to top](#vuejs)
-### How to save new value to data variables in Vue.js whenever the user types? (Expert)
+### How to save new value to data variables in Vue.js whenever the user types?
 
 Use `watch` method to detect changes on variable you are storing data on like this:
 
@@ -634,7 +634,7 @@ watch: {
 * https://stackoverflow.com/questions/41425889/vue-js-how-to-use-localstorage-with-vue-js
 
 [[↑] Back to top](#vuejs)
-### How to implement simple routing in Vue.js (without external library)? (Expert)
+### How to implement simple routing in Vue.js (without external library)?
 
 If you only need very simple routing and do not wish to involve a full-featured router library, you can do so by dynamically rendering a page-level component like this:
 
@@ -668,7 +668,7 @@ For most Single Page Applications, it’s recommended to use the officially-supp
 * https://vuejs.org/v2/guide/routing.html
 
 [[↑] Back to top](#vuejs)
-### List some types of components communication channels in Vue.js app (Expert)
+### List some types of components communication channels in Vue.js app
 
 * **Props** (`props`) - The simplest communication channel in Vue for direct Parent-Child communication. It should mostly be used to pass data relating to presentation logic or a restricted set of data down the hierarchy.
 * **Refs and methods** (`ref`) - When it doesn't make sense to use a prop to let a child handle an event from a parent, setting up a ref on the child component and calling its methods is just fine.
@@ -682,7 +682,7 @@ For most Single Page Applications, it’s recommended to use the officially-supp
 * https://stackoverflow.com/questions/38616167/communication-between-sibling-components-in-vuejs-2-0
 
 [[↑] Back to top](#vuejs)
-### How can I watch an array length using Vue.js? (Expert)
+### How can I watch an array length using Vue.js?
 
 Use the watch section in your vm creation:
 ```js
@@ -718,7 +718,7 @@ vm.$watch('item_length', function(newVal, oldVal) {
 * https://stackoverflow.com/questions/37041720/vue-js-watch-array-length
 
 [[↑] Back to top](#vuejs)
-### Why we need Vue.js mixins? (Expert)
+### Why we need Vue.js mixins?
 
 Mixins are a flexible way to _distribute reusable functionalities_ for Vue components. A mixin object can contain any component options. When a component uses a mixin, all options in the mixin will be “mixed” into the component’s own options. 
 
@@ -752,7 +752,7 @@ new Vue({
 * https://stackoverflow.com/questions/41164672/whats-the-equivalent-of-angular-service-in-vuejs
 
 [[↑] Back to top](#vuejs)
-### What is the best way to create a constant, that can be accessible from entire application in VueJs ? (Expert)
+### What is the best way to create a constant, that can be accessible from entire application in VueJs ?
 
 You can always define a variable outside of the Vue app scope and use it throughout the application.
 
@@ -782,7 +782,7 @@ export default {
 * https://stackoverflow.com/questions/46882944/what-is-the-best-way-to-create-a-constant-that-can-be-accessible-from-entire-ap
 
 [[↑] Back to top](#vuejs)
-### What is the main difference between a method and a computed value in Vue.js? (Expert)
+### What is the main difference between a method and a computed value in Vue.js?
 
 Computed values and methods are very different in Vue and are definitely not interchangeable in most cases.
 * A more appropriate name for a computed value is a **computed property**. You can think of a computed value as a derived value that will be _automatically_ updated whenever one of the underlying values used to calculate it is updated.
@@ -793,7 +793,7 @@ Computed values and methods are very different in Vue and are definitely not int
 * https://stackoverflow.com/questions/42936588/how-to-deploy-vue-app
 
 [[↑] Back to top](#vuejs)
-### What is a proper way to communicate between sibling components in vuejs 2.0? (Expert)
+### What is a proper way to communicate between sibling components in vuejs 2.0?
 
 With Vue 2.0, we using the eventHub mechanism.
 
@@ -833,7 +833,7 @@ mounted() {
 * https://stackoverflow.com/questions/42632711/how-to-call-function-on-child-component-on-parent-events
 
 [[↑] Back to top](#vuejs)
-### How do you toggle a class in Vue.js? (Expert)
+### How do you toggle a class in Vue.js?
 
 For Vue.js 2 you could have the active class be dependent upon a boolean data value:
 

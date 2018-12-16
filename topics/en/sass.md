@@ -1,32 +1,32 @@
 ## Sass
 
-[How to use variables in Sass? (Junior)](#how-to-use-variables-in-sass-junior)
+[How to use variables in Sass?](#how-to-use-variables-in-sass-junior)
 
-[What Selector Nesting in Sass is used for? (Mid)](#what-selector-nesting-in-sass-is-used-for-mid)
+[What Selector Nesting in Sass is used for?](#what-selector-nesting-in-sass-is-used-for-mid)
 
-[List out the key features for Sass? (Mid)](#list-out-the-key-features-for-sass-mid)
+[List out the key features for Sass?](#list-out-the-key-features-for-sass-mid)
 
-[What is variable interpolation in Sass? Provide some examples.  (Mid)](#what-is-variable-interpolation-in-sass-provide-some-examples--mid)
+[What is variable interpolation in Sass? Provide some examples. ](#what-is-variable-interpolation-in-sass-provide-some-examples--mid)
 
-[List out the data types that Sass supports (Mid)](#list-out-the-data-types-that-sass-supports-mid)
+[List out the data types that Sass supports](#list-out-the-data-types-that-sass-supports-mid)
 
-[What is Sass? (Mid)](#what-is-sass-mid)
+[What is Sass?](#what-is-sass-mid)
 
-[Explain what is a @extend directive used for in Sass? (Mid)](#explain-what-is-a-extend-directive-used-for-in-sass-mid)
+[Explain what is a @extend directive used for in Sass?](#explain-what-is-a-extend-directive-used-for-in-sass-mid)
 
-[What's the difference between SCSS and Sass? (Senior)](#whats-the-difference-between-scss-and-sass-senior)
+[What's the difference between SCSS and Sass?](#whats-the-difference-between-scss-and-sass-senior)
 
-[What is a Mixin and how to use on? (Senior)](#what-is-a-mixin-and-how-to-use-on-senior)
+[What is a Mixin and how to use on?](#what-is-a-mixin-and-how-to-use-on-senior)
 
-[What will be the CSS output for the following Sass code? (Expert)](#what-will-be-the-css-output-for-the-following-sass-code-expert)
+[What will be the CSS output for the following Sass code?](#what-will-be-the-css-output-for-the-following-sass-code-expert)
 
-[What is the '@content' directive used for? (Expert)](#what-is-the-content-directive-used-for-expert)
+[What is the '@content' directive used for?](#what-is-the-content-directive-used-for-expert)
 
-[What’s wrong with Sass nesting? Provide some example. (Expert)](#whats-wrong-with-sass-nesting-provide-some-example-expert)
+[What’s wrong with Sass nesting? Provide some example.](#whats-wrong-with-sass-nesting-provide-some-example-expert)
 
 
 
-### How to use variables in Sass? (Junior)
+### How to use variables in Sass?
 
 Think of variables as a way to store information that you want to reuse throughout your stylesheet. You can store things like colors, font stacks, or any CSS value you think you'll want to reuse. Sass uses the `$` symbol to make something a variable.
 
@@ -46,7 +46,7 @@ body {
 * https://sass-lang.com/guide
 
 [[↑] Back to top](#Sass)
-### What Selector Nesting in Sass is used for? (Mid)
+### What Selector Nesting in Sass is used for?
 
 Sass *let you nest* your CSS selectors in a way that follows the same visual hierarchy of your HTML.  CSS, on the other hand, doesn't have any visual hierarchy.
 
@@ -77,7 +77,7 @@ Result (css):
 * https://sass-lang.com/guide
 
 [[↑] Back to top](#Sass)
-### List out the key features for Sass? (Mid)
+### List out the key features for Sass?
 
 Key features for Sass include
 
@@ -92,7 +92,7 @@ Key features for Sass include
 * https://career.guru99.com/top-17-sass-interview-questions/
 
 [[↑] Back to top](#Sass)
-### What is variable interpolation in Sass? Provide some examples.  (Mid)
+### What is variable interpolation in Sass? Provide some examples. 
 
  If you want to use variables inside a string, you will have to use a process called **variable interpolation**. To use it you will have to wrap your variables in `#{}`. 
 
@@ -112,7 +112,7 @@ The interpolation method could be useful in situations where the value of a vari
 * https://www.sitepoint.com/data-types-in-sass/
 
 [[↑] Back to top](#Sass)
-### List out the data types that Sass supports (Mid)
+### List out the data types that Sass supports
 
 Sass supports seven main data types:
 
@@ -196,7 +196,7 @@ h1 {
 * https://career.guru99.com/top-17-sass-interview-questions/
 
 [[↑] Back to top](#Sass)
-### What is Sass? (Mid)
+### What is Sass?
 
 **Sass** or **Syntactically Awesome StyleSheets** is a *CSS* preprocessor that adds power and elegance to the basic language. It allows you to use variables, nested rules, mixins, inline imports, and more, all with a fully CSS-compatible syntax. Sass helps keep large stylesheets well-organized, and get small stylesheets up and running quickly.
 
@@ -208,7 +208,7 @@ A *CSS preprocessor* is a scripting language that extends CSS by allowing develo
 * https://sass-lang.com/documentation/file.SASS_REFERENCE.html#syntax
 
 [[↑] Back to top](#Sass)
-### Explain what is a @extend directive used for in Sass? (Mid)
+### Explain what is a @extend directive used for in Sass?
 
 Using `@extend` lets you share a set of CSS properties from one selector to another. It helps keep your Sass very dry.
 
@@ -267,7 +267,7 @@ CSS output:
 * https://sass-lang.com/guide
 
 [[↑] Back to top](#Sass)
-### What's the difference between SCSS and Sass? (Senior)
+### What's the difference between SCSS and Sass?
 
 There are two syntaxes available for Sass. The first, known as **SCSS (Sassy CSS)** and used throughout this reference, is an extension of the syntax of CSS. This means that every valid CSS stylesheet is a valid SCSS file with the same meaning. This syntax is enhanced with the Sass features described below. Files using this syntax have the `.scss` extension.
 
@@ -305,7 +305,7 @@ body {
 * https://stackoverflow.com/questions/5654447/whats-the-difference-between-scss-and-sass
 
 [[↑] Back to top](#Sass)
-### What is a Mixin and how to use on? (Senior)
+### What is a Mixin and how to use on?
 
 A **Mixin** is a block of code that lets us group CSS declarations we may reuse throughout our site.
 
@@ -339,7 +339,7 @@ To use a Mixin, we simply use `@include` followed by the name of the Mixin and a
 * https://scotch.io/tutorials/how-to-use-sass-mixins
 
 [[↑] Back to top](#Sass)
-### What will be the CSS output for the following Sass code? (Expert)
+### What will be the CSS output for the following Sass code?
 
 Consider *Scss*:
 ```css
@@ -380,7 +380,7 @@ Compiled *CSS*:
 * https://scotch.io/tutorials/how-to-use-sass-mixins
 
 [[↑] Back to top](#Sass)
-### What is the '@content' directive used for? (Expert)
+### What is the '@content' directive used for?
 
 `@content` allows for Mixin extension. We can pass a block to Mixins with the use of `@content`.
 
@@ -403,7 +403,7 @@ Instead of having to type the media query everytime, this feels like a much more
 * https://scotch.io/tutorials/how-to-use-sass-mixins
 
 [[↑] Back to top](#Sass)
-### What’s wrong with Sass nesting? Provide some example. (Expert)
+### What’s wrong with Sass nesting? Provide some example.
 
 In itself, there’s absolutely nothing wrong with nesting. The feature makes sense. The problem, as is often the case, is not the feature but how we use it.
 

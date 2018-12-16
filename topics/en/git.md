@@ -1,60 +1,60 @@
 ## Git
 
-[What is the command to write a commit message in Git? (Junior)](#what-is-the-command-to-write-a-commit-message-in-git-junior)
+[What is the command to write a commit message in Git?](#what-is-the-command-to-write-a-commit-message-in-git-junior)
 
-[What is difference between Git vs SVN? (Junior)](#what-is-difference-between-git-vs-svn-junior)
+[What is difference between Git vs SVN?](#what-is-difference-between-git-vs-svn-junior)
 
-[What is Git? (Junior)](#what-is-git-junior)
+[What is Git?](#what-is-git-junior)
 
-[How to undo the most recent commits in Git? (Mid)](#how-to-undo-the-most-recent-commits-in-git-mid)
+[How to undo the most recent commits in Git?](#how-to-undo-the-most-recent-commits-in-git-mid)
 
-[What is Git fork? What is difference between fork, branch and clone? (Mid)](#what-is-git-fork-what-is-difference-between-fork-branch-and-clone-mid)
+[What is Git fork? What is difference between fork, branch and clone?](#what-is-git-fork-what-is-difference-between-fork-branch-and-clone-mid)
 
-[What is the difference between "git pull" and "git fetch"? (Mid)](#what-is-the-difference-between-git-pull-and-git-fetch-mid)
+[What is the difference between "git pull" and "git fetch"?](#what-is-the-difference-between-git-pull-and-git-fetch-mid)
 
-[What's the difference between a "pull request" and a "branch"? (Mid)](#whats-the-difference-between-a-pull-request-and-a-branch-mid)
+[What's the difference between a "pull request" and a "branch"?](#whats-the-difference-between-a-pull-request-and-a-branch-mid)
 
-[How does the Centralized Workflow work? (Mid)](#how-does-the-centralized-workflow-work-mid)
+[How does the Centralized Workflow work?](#how-does-the-centralized-workflow-work-mid)
 
-[You need to update your local repos. What git commands will you use? (Mid)](#you-need-to-update-your-local-repos-what-git-commands-will-you-use-mid)
+[You need to update your local repos. What git commands will you use?](#you-need-to-update-your-local-repos-what-git-commands-will-you-use-mid)
 
-[You need to rollback to a previous commit and don't care about recent changes. What commands should you use? (Senior)](#you-need-to-rollback-to-a-previous-commit-and-dont-care-about-recent-changes-what-commands-should-you-use-senior)
+[You need to rollback to a previous commit and don't care about recent changes. What commands should you use?](#you-need-to-rollback-to-a-previous-commit-and-dont-care-about-recent-changes-what-commands-should-you-use-senior)
 
-[What is "git cherry-pick"? (Senior)](#what-is-git-cherry-pick-senior)
+[What is "git cherry-pick"?](#what-is-git-cherry-pick-senior)
 
-[Tell me the difference between HEAD, working tree and index, in Git? (Senior)](#tell-me-the-difference-between-head-working-tree-and-index-in-git-senior)
+[Tell me the difference between HEAD, working tree and index, in Git?](#tell-me-the-difference-between-head-working-tree-and-index-in-git-senior)
 
-[When should I use "git stash"? (Senior)](#when-should-i-use-git-stash-senior)
+[When should I use "git stash"?](#when-should-i-use-git-stash-senior)
 
-[How to revert previous commit in git? (Senior)](#how-to-revert-previous-commit-in-git-senior)
+[How to revert previous commit in git?](#how-to-revert-previous-commit-in-git-senior)
 
-[Explain the advantages of Forking Workflow (Senior)](#explain-the-advantages-of-forking-workflow-senior)
+[Explain the advantages of Forking Workflow](#explain-the-advantages-of-forking-workflow-senior)
 
-[Could you explain the Gitflow workflow? (Senior)](#could-you-explain-the-gitflow-workflow-senior)
+[Could you explain the Gitflow workflow?](#could-you-explain-the-gitflow-workflow-senior)
 
-[Write down a sequence of git commands for a "Rebase Workflow" (Expert)](#write-down-a-sequence-of-git-commands-for-a-rebase-workflow-expert)
+[Write down a sequence of git commands for a "Rebase Workflow"](#write-down-a-sequence-of-git-commands-for-a-rebase-workflow-expert)
 
-[What is the "HEAD" in Git? (Expert)](#what-is-the-head-in-git-expert)
+[What is the "HEAD" in Git?](#what-is-the-head-in-git-expert)
 
-[How to remove a file from git without removing it from your file system? (Expert)](#how-to-remove-a-file-from-git-without-removing-it-from-your-file-system-expert)
+[How to remove a file from git without removing it from your file system?](#how-to-remove-a-file-from-git-without-removing-it-from-your-file-system-expert)
 
-[What is difference between "git stash pop" and "git stash apply"? (Expert)](#what-is-difference-between-git-stash-pop-and-git-stash-apply-expert)
+[What is difference between "git stash pop" and "git stash apply"?](#what-is-difference-between-git-stash-pop-and-git-stash-apply-expert)
 
-[Can you explain what “git reset” does in plain english? (Expert)](#can-you-explain-what-git-reset-does-in-plain-english-expert)
+[Can you explain what “git reset” does in plain english?](#can-you-explain-what-git-reset-does-in-plain-english-expert)
 
-[Write down a git command to check difference between two commits (Expert)](#write-down-a-git-command-to-check-difference-between-two-commits-expert)
+[Write down a git command to check difference between two commits](#write-down-a-git-command-to-check-difference-between-two-commits-expert)
 
-[How to amend older Git commit? (Expert)](#how-to-amend-older-git-commit-expert)
+[How to amend older Git commit?](#how-to-amend-older-git-commit-expert)
 
-[What git command do you need to use to know who changed certain lines in a specific file? (Expert)](#what-git-command-do-you-need-to-use-to-know-who-changed-certain-lines-in-a-specific-file-expert)
+[What git command do you need to use to know who changed certain lines in a specific file?](#what-git-command-do-you-need-to-use-to-know-who-changed-certain-lines-in-a-specific-file-expert)
 
-[When do you use "git rebase" instead of "git merge"? (Expert)](#when-do-you-use-git-rebase-instead-of-git-merge-expert)
+[When do you use "git rebase" instead of "git merge"?](#when-do-you-use-git-rebase-instead-of-git-merge-expert)
 
-[Do you know how to easily undo a git rebase?  (Expert)](#do-you-know-how-to-easily-undo-a-git-rebase--expert)
+[Do you know how to easily undo a git rebase? ](#do-you-know-how-to-easily-undo-a-git-rebase--expert)
 
 
 
-### What is the command to write a commit message in Git? (Junior)
+### What is the command to write a commit message in Git?
 
 Use:
 ```sh
@@ -78,7 +78,7 @@ before git commit -a if new files need to be committed for the first time.
 * https://www.edureka.co/blog/interview-questions/git-interview-questions/
 
 [[↑] Back to top](#Git)
-### What is difference between Git vs SVN? (Junior)
+### What is difference between Git vs SVN?
 
 The main point in Git vs SVN debate boils down to this: Git is a distributed version control system (DVCS), whereas SVN is a centralized version control system.
 
@@ -87,7 +87,7 @@ The main point in Git vs SVN debate boils down to this: Git is a distributed ver
 * https://medium.com/@gauravtaywade/15-interview-questions-about-git-that-every-developer-should-know-bcaf30409647
 
 [[↑] Back to top](#Git)
-### What is Git? (Junior)
+### What is Git?
 
 Git is a Distributed Version Control system (DVCS). It can track changes to a file and allows you to revert back to any particular change.
 
@@ -98,7 +98,7 @@ Its distributed architecture provides many advantages over other Version Control
 * https://www.edureka.co/blog/interview-questions/git-interview-questions/
 
 [[↑] Back to top](#Git)
-### How to undo the most recent commits in Git? (Mid)
+### How to undo the most recent commits in Git?
 
 ```sh
 $ git commit -m "Something terribly misguided"      
@@ -113,7 +113,7 @@ $ git commit -c ORIG_HEAD                           # will open an editor, which
 * https://stackoverflow.com/questions/927358/how-to-undo-the-most-recent-commits-in-git
 
 [[↑] Back to top](#Git)
-### What is Git fork? What is difference between fork, branch and clone? (Mid)
+### What is Git fork? What is difference between fork, branch and clone?
 
 * A **fork** is a remote, server-side copy of a repository, distinct from the original. A fork isn't a Git concept really, it's more a political/social idea. 
 * A **clone** is not a fork; a clone is a local copy of some remote repository.  When you clone, you are actually copying the entire source repository, including all the history and branches.
@@ -124,7 +124,7 @@ $ git commit -c ORIG_HEAD                           # will open an editor, which
 * https://stackoverflow.com/questions/3329943/git-branch-fork-fetch-merge-rebase-and-clone-what-are-the-differences/
 
 [[↑] Back to top](#Git)
-### What is the difference between "git pull" and "git fetch"? (Mid)
+### What is the difference between "git pull" and "git fetch"?
 
 In the simplest terms, `git pull` does a `git fetch` followed by a `git merge`.
 
@@ -137,7 +137,7 @@ In the simplest terms, `git pull` does a `git fetch` followed by a `git merge`.
 * https://stackoverflow.com/questions/292357/what-is-the-difference-between-git-pull-and-git-fetch
 
 [[↑] Back to top](#Git)
-### What's the difference between a "pull request" and a "branch"? (Mid)
+### What's the difference between a "pull request" and a "branch"?
 
 * A **branch** is just a separate version of the code.
 
@@ -148,7 +148,7 @@ In the simplest terms, `git pull` does a `git fetch` followed by a `git merge`.
 * https://stackoverflow.com/questions/19059838/whats-the-difference-between-a-pull-request-and-a-branch
 
 [[↑] Back to top](#Git)
-### How does the Centralized Workflow work? (Mid)
+### How does the Centralized Workflow work?
 
 The **Centralized Workflow** uses a central repository to serve as the single point-of-entry for all changes to the project. The default development branch is called master and all changes are committed into this branch.
 
@@ -163,7 +163,7 @@ Compared to other workflows, the Centralized Workflow has no defined pull reques
 * https://www.atlassian.com/git/tutorials/comparing-workflows
 
 [[↑] Back to top](#Git)
-### You need to update your local repos. What git commands will you use? (Mid)
+### You need to update your local repos. What git commands will you use?
 
 It’s a two steps process. First you fetch the changes from a remote named origin:
 
@@ -187,7 +187,7 @@ If origin is a default remote and ‘master’ is default branch, you can drop i
 * https://samwize.com/2012/10/30/common-git-usage/
 
 [[↑] Back to top](#Git)
-### You need to rollback to a previous commit and don't care about recent changes. What commands should you use? (Senior)
+### You need to rollback to a previous commit and don't care about recent changes. What commands should you use?
 
 Let's say you have made mulitple commits, but the last few were bad and you want to rollback to a previous commit:
 ```sh
@@ -200,7 +200,7 @@ git reset --hard <commit-sha1> // resets the index and working tree
 * https://gist.github.com/chyld/4570933
 
 [[↑] Back to top](#Git)
-### What is "git cherry-pick"? (Senior)
+### What is "git cherry-pick"?
 
 The command git *cherry-pick* is typically used to introduce particular commits from one branch within a repository onto a different branch. A common use is to forward- or back-port commits from a maintenance branch to a development branch.
 
@@ -216,7 +216,7 @@ git cherry-pick <commit-hash>
 * https://stackoverflow.com/questions/9339429/what-does-cherry-picking-a-commit-with-git-mean
 
 [[↑] Back to top](#Git)
-### Tell me the difference between HEAD, working tree and index, in Git? (Senior)
+### Tell me the difference between HEAD, working tree and index, in Git?
 
 * The **working tree/working directory/workspace** is the directory tree of (source) files that you see and edit.
 * The **index/staging area** is a single, large, binary file in <baseOfRepo>/.git/index, which lists all files in the current branch, their sha1 checksums, time stamps and the file name - it is not another directory with a copy of files in it.
@@ -227,7 +227,7 @@ git cherry-pick <commit-hash>
 * https://stackoverflow.com/questions/3689838/whats-the-difference-between-head-working-tree-and-index-in-git
 
 [[↑] Back to top](#Git)
-### When should I use "git stash"? (Senior)
+### When should I use "git stash"?
 
 The `git stash` command takes your uncommitted changes (both staged and unstaged), saves them away for later use, and then reverts them from your working copy.
 
@@ -269,7 +269,7 @@ $ git stash pop
 * https://www.atlassian.com/git/tutorials/saving-changes/git-stash
 
 [[↑] Back to top](#Git)
-### How to revert previous commit in git? (Senior)
+### How to revert previous commit in git?
 
 Say you have this, where C is your HEAD and (F) is the state of your files.
 ```sh
@@ -299,7 +299,7 @@ When you do `git status`, you'll see that the same files are in the index as bef
 * https://stackoverflow.com/questions/927358/how-to-undo-the-most-recent-commits-in-git
 
 [[↑] Back to top](#Git)
-### Explain the advantages of Forking Workflow (Senior)
+### Explain the advantages of Forking Workflow
 
 The **Forking Workflow** is fundamentally different than other popular Git workflows. Instead of using a single server-side repository to act as the “central” codebase, it gives every developer their own server-side repository. The Forking Workflow is most often seen in public open source projects.
 
@@ -314,7 +314,7 @@ When developers are ready to publish a local commit, they push the commit to the
 * https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow
 
 [[↑] Back to top](#Git)
-### Could you explain the Gitflow workflow? (Senior)
+### Could you explain the Gitflow workflow?
 
 Gitflow workflow employs two parallel *long-running* branches to record the history of the project, `master` and `develop`:
 * **Master** -  is always ready to be released on LIVE, with everything fully tested and approved (production-ready).
@@ -334,7 +334,7 @@ Gitflow workflow employs two parallel *long-running* branches to record the hist
 * https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
 
 [[↑] Back to top](#Git)
-### Write down a sequence of git commands for a "Rebase Workflow" (Expert)
+### Write down a sequence of git commands for a "Rebase Workflow"
 
 Rebasing replays changes from one line of work onto another in the order they were introduced, whereas merging takes the endpoints and merges them together.
 
@@ -373,7 +373,7 @@ Rebasing gives you a clean linear commit history and creates non-obvious benefit
 * http://kensheedlo.com/essays/why-you-should-use-a-rebase-workflow/
 
 [[↑] Back to top](#Git)
-### What is the "HEAD" in Git? (Expert)
+### What is the "HEAD" in Git?
 
 `HEAD` is a ref (reference) to the currently checked out commit.
 
@@ -388,7 +388,7 @@ Generally speaking, HEAD is just a convenient name to mean "what you have checke
 * https://stackoverflow.com/questions/2529971/what-is-the-head-in-git
 
 [[↑] Back to top](#Git)
-### How to remove a file from git without removing it from your file system? (Expert)
+### How to remove a file from git without removing it from your file system?
 
 If you are not careful during a `git add`, you may end up adding files that you didn’t want to commit. However, `git rm` will remove it from both your staging area (index), as well as your file system (working tree), which may not be what you want.
 
@@ -405,7 +405,7 @@ This means that `git reset <paths>` is the opposite of `git add <paths>`.
 * https://www.codementor.io/citizen428/git-tutorial-10-common-git-problems-and-how-to-fix-them-aajv0katd
 
 [[↑] Back to top](#Git)
-### What is difference between "git stash pop" and "git stash apply"? (Expert)
+### What is difference between "git stash pop" and "git stash apply"?
 
 `git stash pop` **throws away** the (topmost, by default) stash after applying it, whereas `git stash apply` **leaves it in the stash list** for possible later reuse (or you can then `git stash drop` it).
 
@@ -418,7 +418,7 @@ Another way to look at it: `git stash pop` is `git stash apply && git stash drop
 * https://stackoverflow.com/questions/15286075/difference-between-git-stash-pop-and-git-stash-apply
 
 [[↑] Back to top](#Git)
-### Can you explain what “git reset” does in plain english? (Expert)
+### Can you explain what “git reset” does in plain english?
 
 In general, `git reset` function is to take the current branch and reset it to point somewhere else, and possibly bring the index and work tree along.
 
@@ -450,7 +450,7 @@ Use cases:
 * https://stackoverflow.com/questions/2530060/can-you-explain-what-git-reset-does-in-plain-english
 
 [[↑] Back to top](#Git)
-### Write down a git command to check difference between two commits (Expert)
+### Write down a git command to check difference between two commits
 
 `git diff` allows you to check the differences between the branches or commits. If you type it out automatically, you can checkout the differences between your last commit and the current changes that you have.
 
@@ -461,7 +461,7 @@ git diff <branch_or_commit_name> <second_branch_or_commit>
 
 
 [[↑] Back to top](#Git)
-### How to amend older Git commit? (Expert)
+### How to amend older Git commit?
 
 ```sh
 git rebase -i HEAD^^^
@@ -481,7 +481,7 @@ If you want to add an extra delete remove the options from the commit command. I
 * https://stackoverflow.com/questions/8824971/how-to-amend-older-git-commit/18150592#18150592
 
 [[↑] Back to top](#Git)
-### What git command do you need to use to know who changed certain lines in a specific file? (Expert)
+### What git command do you need to use to know who changed certain lines in a specific file?
 
 Use `git blame` - a little feature in git that allows you to see who wrote what in the repository. If you want to know who changed certain lines, you can use the -L flag to figure out who changed those lines. You can use the command: 
 ```sh
@@ -493,7 +493,7 @@ git blame -L <line-number>,<ending-linenumber> <filename>
 * https://github.com/mikeizbicki/ucr-cs100/tree/2015winter/textbook/tools/git/advanced-git
 
 [[↑] Back to top](#Git)
-### When do you use "git rebase" instead of "git merge"? (Expert)
+### When do you use "git rebase" instead of "git merge"?
 
 Both of these commands are designed to integrate changes from one branch into another branch - they just do it in very different ways.
 
@@ -534,7 +534,7 @@ With rebase you say to use another branch as the new base for your work.
 * https://stackoverflow.com/questions/804115/when-do-you-use-git-rebase-instead-of-git-merge
 
 [[↑] Back to top](#Git)
-### Do you know how to easily undo a git rebase?  (Expert)
+### Do you know how to easily undo a git rebase? 
 
 The easiest way would be to find the head commit of the branch as it was immediately before the rebase started in the `reflog`
 

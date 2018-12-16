@@ -1,96 +1,96 @@
 ## AWS
 
-[What is AWS? (Junior)](#what-is-aws-junior)
+[What is AWS?](#what-is-aws-junior)
 
-[Explain the key components of AWS? (Junior)](#explain-the-key-components-of-aws-junior)
+[Explain the key components of AWS?](#explain-the-key-components-of-aws-junior)
 
-[What is buckets in AWS? (Junior)](#what-is-buckets-in-aws-junior)
+[What is buckets in AWS?](#what-is-buckets-in-aws-junior)
 
-[What is AWS Cloudfront? (Mid)](#what-is-aws-cloudfront-mid)
+[What is AWS Cloudfront?](#what-is-aws-cloudfront-mid)
 
-[What do you mean by AMI? What does it include? (Mid)](#what-do-you-mean-by-ami-what-does-it-include-mid)
+[What do you mean by AMI? What does it include?](#what-do-you-mean-by-ami-what-does-it-include-mid)
 
-[How can I download a file from EC2? (Mid)](#how-can-i-download-a-file-from-ec2-mid)
+[How can I download a file from EC2?](#how-can-i-download-a-file-from-ec2-mid)
 
-[Is it possible to clone a EC2 instance data? (Mid)](#is-it-possible-to-clone-a-ec2-instance-data-mid)
+[Is it possible to clone a EC2 instance data?](#is-it-possible-to-clone-a-ec2-instance-data-mid)
 
-[What is AWS Data Pipeline? (Mid)](#what-is-aws-data-pipeline-mid)
+[What is AWS Data Pipeline?](#what-is-aws-data-pipeline-mid)
 
-[Explain the features of Amazon EC2 services (Mid)](#explain-the-features-of-amazon-ec2-services-mid)
+[Explain the features of Amazon EC2 services](#explain-the-features-of-amazon-ec2-services-mid)
 
-[What is the connection between AMI and Instance? (Mid)](#what-is-the-connection-between-ami-and-instance-mid)
+[What is the connection between AMI and Instance?](#what-is-the-connection-between-ami-and-instance-mid)
 
-[Are S3 buckets region specific? (Mid)](#are-s3-buckets-region-specific-mid)
+[Are S3 buckets region specific?](#are-s3-buckets-region-specific-mid)
 
-[What is AWS Direct Connect? (Mid)](#what-is-aws-direct-connect-mid)
+[What is AWS Direct Connect?](#what-is-aws-direct-connect-mid)
 
-[What is AWS EBS? (Mid)](#what-is-aws-ebs-mid)
+[What is AWS EBS?](#what-is-aws-ebs-mid)
 
-[What is AWS Lambda? (Mid)](#what-is-aws-lambda-mid)
+[What is AWS Lambda?](#what-is-aws-lambda-mid)
 
-[What is AWS DynamoDB? (Mid)](#what-is-aws-dynamodb-mid)
+[What is AWS DynamoDB?](#what-is-aws-dynamodb-mid)
 
-[What is AWS EMR? (Mid)](#what-is-aws-emr-mid)
+[What is AWS EMR?](#what-is-aws-emr-mid)
 
-[Is data stored in S3 is always encrypted? (Mid)](#is-data-stored-in-s3-is-always-encrypted-mid)
+[Is data stored in S3 is always encrypted?](#is-data-stored-in-s3-is-always-encrypted-mid)
 
-[Can we attach single EBS to multiple EC2s same time? (Mid)](#can-we-attach-single-ebs-to-multiple-ec2s-same-time-mid)
+[Can we attach single EBS to multiple EC2s same time?](#can-we-attach-single-ebs-to-multiple-ec2s-same-time-mid)
 
-[What is AWS API gateway? (Mid)](#what-is-aws-api-gateway-mid)
+[What is AWS API gateway?](#what-is-aws-api-gateway-mid)
 
-[What is AWS Direct Connect? (Mid)](#what-is-aws-direct-connect-mid)
+[What is AWS Direct Connect?](#what-is-aws-direct-connect-mid)
 
-[What are the security best practices for Amazon EC2 instances? (Senior)](#what-are-the-security-best-practices-for-amazon-ec2-instances-senior)
+[What are the security best practices for Amazon EC2 instances?](#what-are-the-security-best-practices-for-amazon-ec2-instances-senior)
 
-[Can I automatically start and terminate my Amazon instance using Amazon API?  (Senior)](#can-i-automatically-start-and-terminate-my-amazon-instance-using-amazon-api--senior)
+[Can I automatically start and terminate my Amazon instance using Amazon API? ](#can-i-automatically-start-and-terminate-my-amazon-instance-using-amazon-api--senior)
 
-[Can we still continue working on EBS while creating snapshot of it? (Senior)](#can-we-still-continue-working-on-ebs-while-creating-snapshot-of-it-senior)
+[Can we still continue working on EBS while creating snapshot of it?](#can-we-still-continue-working-on-ebs-while-creating-snapshot-of-it-senior)
 
-[What is AWS Auto Scaling? (Senior)](#what-is-aws-auto-scaling-senior)
+[What is AWS Auto Scaling?](#what-is-aws-auto-scaling-senior)
 
-[What is AWS Auto Scaling group? (Senior)](#what-is-aws-auto-scaling-group-senior)
+[What is AWS Auto Scaling group?](#what-is-aws-auto-scaling-group-senior)
 
-[What is the maximum size of a single S3 object? (Senior)](#what-is-the-maximum-size-of-a-single-s3-object-senior)
+[What is the maximum size of a single S3 object?](#what-is-the-maximum-size-of-a-single-s3-object-senior)
 
-[What is AWS bucket policy? (Senior)](#what-is-aws-bucket-policy-senior)
+[What is AWS bucket policy?](#what-is-aws-bucket-policy-senior)
 
-[Does AWS has the option for vertical "auto" scaling of EC2 instance? (Senior)](#does-aws-has-the-option-for-vertical-auto-scaling-of-ec2-instance-senior)
+[Does AWS has the option for vertical "auto" scaling of EC2 instance?](#does-aws-has-the-option-for-vertical-auto-scaling-of-ec2-instance-senior)
 
-[What is AWS WAF? What are the potential benefits of using WAF? (Senior)](#what-is-aws-waf-what-are-the-potential-benefits-of-using-waf-senior)
+[What is AWS WAF? What are the potential benefits of using WAF?](#what-is-aws-waf-what-are-the-potential-benefits-of-using-waf-senior)
 
-[How to get the instance id from within an EC2 instance? (Senior)](#how-to-get-the-instance-id-from-within-an-ec2-instance-senior)
+[How to get the instance id from within an EC2 instance?](#how-to-get-the-instance-id-from-within-an-ec2-instance-senior)
 
-[What is AWS Cloudwatch? (Senior)](#what-is-aws-cloudwatch-senior)
+[What is AWS Cloudwatch?](#what-is-aws-cloudwatch-senior)
 
-[What is the difference between Amazon EC2 and AWS Elastic Beanstalk? (Senior)](#what-is-the-difference-between-amazon-ec2-and-aws-elastic-beanstalk-senior)
+[What is the difference between Amazon EC2 and AWS Elastic Beanstalk?](#what-is-the-difference-between-amazon-ec2-and-aws-elastic-beanstalk-senior)
 
-[How many storage options are there for EC2 Instance? (Senior)](#how-many-storage-options-are-there-for-ec2-instance-senior)
+[How many storage options are there for EC2 Instance?](#how-many-storage-options-are-there-for-ec2-instance-senior)
 
-[What is AWS Route 53? (Expert)](#what-is-aws-route-53-expert)
+[What is AWS Route 53?](#what-is-aws-route-53-expert)
 
-[How would you implement vertical auto scaling of EC2 instance? (Expert)](#how-would-you-implement-vertical-auto-scaling-of-ec2-instance-expert)
+[How would you implement vertical auto scaling of EC2 instance?](#how-would-you-implement-vertical-auto-scaling-of-ec2-instance-expert)
 
-[What is Amazon Kinesis? (Expert)](#what-is-amazon-kinesis-expert)
+[What is Amazon Kinesis?](#what-is-amazon-kinesis-expert)
 
-[How to find a region from within an EC2 instance? (Expert)](#how-to-find-a-region-from-within-an-ec2-instance-expert)
+[How to find a region from within an EC2 instance?](#how-to-find-a-region-from-within-an-ec2-instance-expert)
 
-[Where are EC2 snapshots stored? (Expert)](#where-are-ec2-snapshots-stored-expert)
+[Where are EC2 snapshots stored?](#where-are-ec2-snapshots-stored-expert)
 
-[When should one use the following: Amazon EC2, Google App Engine, Microsoft Azure and Salesforce.com? (Expert)](#when-should-one-use-the-following-amazon-ec2-google-app-engine-microsoft-azure-and-salesforcecom-expert)
+[When should one use the following: Amazon EC2, Google App Engine, Microsoft Azure and Salesforce.com?](#when-should-one-use-the-following-amazon-ec2-google-app-engine-microsoft-azure-and-salesforcecom-expert)
 
-[When to use Amazon CloudFront and when S3? (Expert)](#when-to-use-amazon-cloudfront-and-when-s3-expert)
+[When to use Amazon CloudFront and when S3?](#when-to-use-amazon-cloudfront-and-when-s3-expert)
 
-[Our EC2 micro instance occasionally runs out of memory. Other than using a larger instance size, what else can be done? (Expert)](#our-ec2-micro-instance-occasionally-runs-out-of-memory-other-than-using-a-larger-instance-size-what-else-can-be-done-expert)
+[Our EC2 micro instance occasionally runs out of memory. Other than using a larger instance size, what else can be done?](#our-ec2-micro-instance-occasionally-runs-out-of-memory-other-than-using-a-larger-instance-size-what-else-can-be-done-expert)
 
-[What is difference between Lightsail and EC2? (Expert)](#what-is-difference-between-lightsail-and-ec2-expert)
+[What is difference between Lightsail and EC2?](#what-is-difference-between-lightsail-and-ec2-expert)
 
-[What is the underlying hypervisor for EC2? (Expert)](#what-is-the-underlying-hypervisor-for-ec2-expert)
+[What is the underlying hypervisor for EC2?](#what-is-the-underlying-hypervisor-for-ec2-expert)
 
-[How to safely upgrade an Amazon EC2 instance from t1.micro to large? (Expert)](#how-to-safely-upgrade-an-amazon-ec2-instance-from-t1micro-to-large-expert)
+[How to safely upgrade an Amazon EC2 instance from t1.micro to large?](#how-to-safely-upgrade-an-amazon-ec2-instance-from-t1micro-to-large-expert)
 
 
 
-### What is AWS? (Junior)
+### What is AWS?
 
 **AWS** stands for Amazon Web Services and is a platform that provides database storage, secure cloud services, offering to compute power, content delivery, and many other services to develop business levels.
 
@@ -99,7 +99,7 @@
 * https://www.onlineinterviewquestions.com/aws-interview-questions/#.W4YpLJMzYsk
 
 [[↑] Back to top](#AWS)
-### Explain the key components of AWS? (Junior)
+### Explain the key components of AWS?
 
 * **Simple Storage Service (S3)**: S3 is most widely used AWS storage web service.
 * **Simple E-mail Service (SES)**: SES is a hosted transactional email service and allows one to fluently send deliverable emails using a RESTFUL API call or through a regular SMTP.
@@ -113,7 +113,7 @@
 * https://www.whizlabs.com/blog/aws-developer-interview-questions/
 
 [[↑] Back to top](#AWS)
-### What is buckets in AWS? (Junior)
+### What is buckets in AWS?
 
 An Amazon S3 bucket is a public cloud storage resource available in Amazon Web Services' (AWS) Simple Storage Service (S3), an object storage offering. Amazon S3 buckets, which are similar to file folders, store objects, which consist of data and its descriptive metadata.
 
@@ -124,7 +124,7 @@ By default, you can create up to 100 buckets in each of your AWS accounts. If yo
 * https://www.whizlabs.com/blog/aws-developer-interview-questions/
 
 [[↑] Back to top](#AWS)
-### What is AWS Cloudfront? (Mid)
+### What is AWS Cloudfront?
 
 Amazon **CloudFront** is a content delivery network (CDN) offered by Amazon Web Services. Content delivery networks provide a globally-distributed network of proxy servers which cache content, such as web videos or other bulky media, more locally to consumers, thus improving access speed for downloading the content.
 
@@ -133,7 +133,7 @@ Amazon **CloudFront** is a content delivery network (CDN) offered by Amazon Web 
 * https://en.wikipedia.org/wiki/Amazon_CloudFront
 
 [[↑] Back to top](#AWS)
-### What do you mean by AMI? What does it include? (Mid)
+### What do you mean by AMI? What does it include?
 
 **AMI** stands for the term **Amazon Machine Image**.  It’s an AWS template which provides the information (an application server, and operating system, and applications) required to perform the launch of an instance. This AMI is the copy of the AMI that is running in the cloud as a virtual server.  You can launch instances from as many different AMIs as you need. AMI consists of the followings:
 
@@ -146,7 +146,7 @@ Amazon **CloudFront** is a content delivery network (CDN) offered by Amazon Web 
 * https://www.whizlabs.com/blog/aws-developer-interview-questions/
 
 [[↑] Back to top](#AWS)
-### How can I download a file from EC2? (Mid)
+### How can I download a file from EC2?
 
 Use scp:
 
@@ -159,7 +159,7 @@ scp -i ec2key.pem username@ec2ip:/path/to/file .
 * https://stackoverflow.com/questions/9441008/how-can-i-download-a-file-from-ec2
 
 [[↑] Back to top](#AWS)
-### Is it possible to clone a EC2 instance data? (Mid)
+### Is it possible to clone a EC2 instance data?
 
 You can make an AMI of an existing instance, and then launch other instances using that AMI.
 
@@ -168,7 +168,7 @@ You can make an AMI of an existing instance, and then launch other instances usi
 * 
 
 [[↑] Back to top](#AWS)
-### What is AWS Data Pipeline? (Mid)
+### What is AWS Data Pipeline?
 
 **AWS Data Pipeline** is a web service that you can use to automate the movement and transformation of data. With AWS Data Pipeline, you can define data-driven workflows, so that tasks can be dependent on the successful completion of previous tasks.
 
@@ -177,7 +177,7 @@ You can make an AMI of an existing instance, and then launch other instances usi
 * https://docs.aws.amazon.com/datapipeline/latest/.../what-is-datapipeline.html
 
 [[↑] Back to top](#AWS)
-### Explain the features of Amazon EC2 services (Mid)
+### Explain the features of Amazon EC2 services
 
 Amazon EC2 services have following features:
 
@@ -192,7 +192,7 @@ Amazon EC2 services have following features:
 * https://www.whizlabs.com/blog/aws-developer-interview-questions/
 
 [[↑] Back to top](#AWS)
-### What is the connection between AMI and Instance? (Mid)
+### What is the connection between AMI and Instance?
 
 Many different types of *instances* can be launched from one *AMI*. The type of an instance generally regulates the hardware components of the host computer that is used for the instance. Each type of instance has distinct computing and memory efficacy.
 
@@ -203,7 +203,7 @@ Once an instance is launched, it casts as host and the user interaction with it 
 * https://www.whizlabs.com/blog/aws-developer-interview-questions/
 
 [[↑] Back to top](#AWS)
-### Are S3 buckets region specific? (Mid)
+### Are S3 buckets region specific?
 
 Yes, buckets exist in a specific region and you need to specify that region when you create a bucket. Amazon S3 creates bucket in a region you specify. You can choose any AWS region that is geographically close to you to optimize latency, minimize costs, or address regulatory requirements.
 
@@ -212,7 +212,7 @@ Yes, buckets exist in a specific region and you need to specify that region when
 * https://stackoverflow.com/questions/36754094/are-s3-buckets-region-specific
 
 [[↑] Back to top](#AWS)
-### What is AWS Direct Connect? (Mid)
+### What is AWS Direct Connect?
 
 **AWS Direct Connect** bypasses the public Internet and establishes a secure, dedicated connection from your infrastructure into AWS. With established connectivity via AWS Direct Connect, you can access your Amazon VPC and all AWS services.
 
@@ -221,7 +221,7 @@ Yes, buckets exist in a specific region and you need to specify that region when
 * https://www.coresite.com/resources/blog/january.../vpn-or-direct-connect-aws-compared
 
 [[↑] Back to top](#AWS)
-### What is AWS EBS? (Mid)
+### What is AWS EBS?
 
 **Amazon Elastic Block Store** (Amazon EBS) provides persistent block storage volumes for use with Amazon EC2 instances in the AWS Cloud. Each Amazon EBS volume is automatically replicated within its Availability Zone to protect you from component failure, offering high availability and durability.
 
@@ -230,7 +230,7 @@ Yes, buckets exist in a specific region and you need to specify that region when
 * https://aws.amazon.com/ebs/
 
 [[↑] Back to top](#AWS)
-### What is AWS Lambda? (Mid)
+### What is AWS Lambda?
 
 **AWS Lambda** is a serverless compute service that runs your code in response to events and automatically manages the underlying compute resources for you. You can use AWS Lambda to extend other AWS services with custom logic, or create your own back-end services that operate at AWS scale, performance, and security.
 
@@ -239,7 +239,7 @@ Yes, buckets exist in a specific region and you need to specify that region when
 * https://aws.amazon.com/lambda/features/
 
 [[↑] Back to top](#AWS)
-### What is AWS DynamoDB? (Mid)
+### What is AWS DynamoDB?
 
 **Amazon DynamoDB** is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability. With DynamoDB, you can create database tables that can store and retrieve any amount of data, and serve any level of request traffic.
 
@@ -248,7 +248,7 @@ Yes, buckets exist in a specific region and you need to specify that region when
 * https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html
 
 [[↑] Back to top](#AWS)
-### What is AWS EMR? (Mid)
+### What is AWS EMR?
 
 **Amazon Elastic MapReduce (EMR)** is an Amazon Web Services (AWS) tool for big data processing and analysis. Amazon EMR offers the expandable low-configuration service as an easier alternative to running in-house cluster computing.
 
@@ -259,7 +259,7 @@ Amazon EMR is based on Apache Hadoop, a Java-based programming framework that su
 * https://searchaws.techtarget.com/definition/Amazon-Elastic-MapReduce-Amazon-EMR
 
 [[↑] Back to top](#AWS)
-### Is data stored in S3 is always encrypted? (Mid)
+### Is data stored in S3 is always encrypted?
 
 By default data on S3 is not encrypted, but all you could enable server-side encryption in your object metadata when you upload your data to Amazon S3. As soon as your data reaches S3, it is encrypted and stored.
 
@@ -268,7 +268,7 @@ By default data on S3 is not encrypted, but all you could enable server-side enc
 * https://aws.amazon.com/blogs/developer/data-encryption-with-amazon-s3/
 
 [[↑] Back to top](#AWS)
-### Can we attach single EBS to multiple EC2s same time? (Mid)
+### Can we attach single EBS to multiple EC2s same time?
 
 No. After you create a volume, you can attach it to any EC2 instance in the same Availability Zone. An EBS volume can be attached to **only one EC2 instance at a time**, but multiple volumes can be attached to a single instance.
 
@@ -277,7 +277,7 @@ No. After you create a volume, you can attach it to any EC2 instance in the same
 * https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSVolumes.html
 
 [[↑] Back to top](#AWS)
-### What is AWS API gateway? (Mid)
+### What is AWS API gateway?
 
 Amazon **API Gateway** is an AWS service that enables developers to create, publish, maintain, monitor, and secure APIs at any scale. You can create APIs that access AWS or other web services, as well as data stored in the AWS Cloud.
 
@@ -286,7 +286,7 @@ Amazon **API Gateway** is an AWS service that enables developers to create, publ
 * https://aws.amazon.com/directconnect/
 
 [[↑] Back to top](#AWS)
-### What is AWS Direct Connect? (Mid)
+### What is AWS Direct Connect?
 
 Using **AWS Direct Connect**, you can establish private connectivity between AWS and your datacenter, office, or colocation environment, which in many cases can reduce your network costs, increase bandwidth throughput, and provide a more consistent network experience than Internet-based connections.
 
@@ -295,7 +295,7 @@ Using **AWS Direct Connect**, you can establish private connectivity between AWS
 * https://aws.amazon.com/directconnect/
 
 [[↑] Back to top](#AWS)
-### What are the security best practices for Amazon EC2 instances? (Senior)
+### What are the security best practices for Amazon EC2 instances?
 
 There are a number of best practices for securing Amazon EC2 instances that are applicable whether instances are running on on-premise data centers or on virtual machines. Let’s have a look at some general best practices:
 
@@ -310,7 +310,7 @@ There are a number of best practices for securing Amazon EC2 instances that are 
 * https://www.whizlabs.com/blog/aws-developer-interview-questions/
 
 [[↑] Back to top](#AWS)
-### Can I automatically start and terminate my Amazon instance using Amazon API?  (Senior)
+### Can I automatically start and terminate my Amazon instance using Amazon API? 
 
 You can achieve it by adding a schedule to an auto scaling group: increase the amount of instances in an auto scaling group to 1 at certain times and decrease it back to 0 afterwards.
 
@@ -319,7 +319,7 @@ You can achieve it by adding a schedule to an auto scaling group: increase the a
 * https://stackoverflow.com/questions/2413029/auto-shutdown-and-start-amazon-ec2-instance
 
 [[↑] Back to top](#AWS)
-### Can we still continue working on EBS while creating snapshot of it? (Senior)
+### Can we still continue working on EBS while creating snapshot of it?
 
 When a **snapshot** is created from a volume with an AWS Marketplace product code, the product code is propagated to the snapshot. So yes, you can take a snapshot of an attached volume that is in use. However, snapshots only capture data that has been written to your Amazon EBS volume at the time the snapshot command is issued.
 
@@ -328,7 +328,7 @@ When a **snapshot** is created from a volume with an AWS Marketplace product cod
 * https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-creating-snapshot.html
 
 [[↑] Back to top](#AWS)
-### What is AWS Auto Scaling? (Senior)
+### What is AWS Auto Scaling?
 
 AWS CodeDeploy supports **Auto Scaling**, an AWS service that can launch Amazon EC2 instances automatically according to conditions you define. These conditions can include limits exceeded in a specified time interval for CPU utilization, disk reads or writes, or inbound or outbound network traffic.
 
@@ -337,7 +337,7 @@ AWS CodeDeploy supports **Auto Scaling**, an AWS service that can launch Amazon 
 * https://docs.aws.amazon.com/codedeploy/latest/.../integrations-aws-auto-scaling.html
 
 [[↑] Back to top](#AWS)
-### What is AWS Auto Scaling group? (Senior)
+### What is AWS Auto Scaling group?
 
 An **Auto Scaling group** contains a collection of EC2 instances that share similar characteristics and are treated as a logical grouping for the purposes of instance scaling and management. 
 
@@ -350,7 +350,7 @@ You can use the Auto Scaling group to scale the number of instances automaticall
 * https://docs.aws.amazon.com/autoscaling/ec2/userguide/AutoScalingGroup.html
 
 [[↑] Back to top](#AWS)
-### What is the maximum size of a single S3 object? (Senior)
+### What is the maximum size of a single S3 object?
 
 Individual Amazon S3 objects can range in size from a minimum of 0 bytes to a **maximum of 5 terabytes**. The largest object that can be uploaded in a single PUT is 5 gigabytes. For objects larger than 100 megabytes, customers should consider using the Multipart Upload capability.
 
@@ -359,7 +359,7 @@ Individual Amazon S3 objects can range in size from a minimum of 0 bytes to a **
 * https://aws.amazon.com/s3/faqs/
 
 [[↑] Back to top](#AWS)
-### What is AWS bucket policy? (Senior)
+### What is AWS bucket policy?
 
 A *bucket policy* is a resource-based AWS Identity and Access Management (IAM) policy. You add a bucket policy to a bucket to grant other AWS accounts or IAM users access permissions for the bucket and the objects in it. Object permissions apply only to the objects that the bucket owner creates.
 
@@ -368,7 +368,7 @@ A *bucket policy* is a resource-based AWS Identity and Access Management (IAM) p
 * https://docs.aws.amazon.com/AmazonS3/latest/user-guide/add-bucket-policy.html
 
 [[↑] Back to top](#AWS)
-### Does AWS has the option for vertical "auto" scaling of EC2 instance? (Senior)
+### Does AWS has the option for vertical "auto" scaling of EC2 instance?
 
 No, this is not native available within EC2 Auto Scaling Groups. AWS does allow you to Vertically scale by changing the instance type from a Lower Instance type to a higher one. But it has it's own disadvantages:
 
@@ -383,7 +383,7 @@ No, this is not native available within EC2 Auto Scaling Groups. AWS does allow 
 * https://www.quora.com/Does-Amazon-AWS-has-the-option-for-vertical-auto-scaling-of-EC2-instance
 
 [[↑] Back to top](#AWS)
-### What is AWS WAF? What are the potential benefits of using WAF? (Senior)
+### What is AWS WAF? What are the potential benefits of using WAF?
 
 **AWS WAF** is a web application firewall that lets you monitor the HTTP and HTTPS applications that are promoted to Amazon CloudFront and gives you regulate path to your content. Based on circumstances that you stipulate, such as the IP addresses that grants originate from or the consequences of query series, CloudFront returns to applications either with the petitioned content or with an HTTP 403 situation code (Forbidden). You can further configure CloudFront to restore a pattern failure page when an application is obstructed.
 
@@ -399,7 +399,7 @@ Advantages of utilizing WAF:
 * https://svrtechnologies.com/aws-interview-questions/top-50-aws-interview-questions-and-answers-pdf
 
 [[↑] Back to top](#AWS)
-### How to get the instance id from within an EC2 instance? (Senior)
+### How to get the instance id from within an EC2 instance?
 
 Run:
 ```sh
@@ -417,7 +417,7 @@ instance-id: i-1234567890abcdef0
 * https://stackoverflow.com/questions/625644/how-to-get-the-instance-id-from-within-an-ec2-instance
 
 [[↑] Back to top](#AWS)
-### What is AWS Cloudwatch? (Senior)
+### What is AWS Cloudwatch?
 
 **Amazon CloudWatch** is a monitoring service for AWS cloud resources and the applications you run on AWS. You can use Amazon CloudWatch to collect and track metrics, collect and monitor log files, set alarms, and automatically react to changes in your AWS resources.
 
@@ -426,7 +426,7 @@ instance-id: i-1234567890abcdef0
 * https://www.youtube.com/watch?v=_Tqce6pGb44
 
 [[↑] Back to top](#AWS)
-### What is the difference between Amazon EC2 and AWS Elastic Beanstalk? (Senior)
+### What is the difference between Amazon EC2 and AWS Elastic Beanstalk?
 
 * **EC2** is Amazon's service that allows you to create a server (AWS calls these instances) in the AWS cloud. You pay by the hour and only what you use. You can do whatever you want with this instance as well as launch n number of instances.
 
@@ -437,7 +437,7 @@ instance-id: i-1234567890abcdef0
 * https://stackoverflow.com/questions/25956193/difference-between-amazon-ec2-and-aws-elastic-beanstalk
 
 [[↑] Back to top](#AWS)
-### How many storage options are there for EC2 Instance? (Senior)
+### How many storage options are there for EC2 Instance?
 
 There are four storage options for Amazon EC2 Instance:
 
@@ -451,7 +451,7 @@ There are four storage options for Amazon EC2 Instance:
 * https://www.whizlabs.com/blog/aws-developer-interview-questions/
 
 [[↑] Back to top](#AWS)
-### What is AWS Route 53? (Expert)
+### What is AWS Route 53?
 
 **Amazon Route 53** (Route 53) is a scalable and highly available Domain Name System (DNS). AWS supposedly named the service Route 53 because all DNS requests are handled through port 53, and the "route" piece resembles the historic "Route 66" of the USA. Presumably because DNS queries are handled on "well-known port" 53.
 
@@ -460,7 +460,7 @@ There are four storage options for Amazon EC2 Instance:
 * https://docs.aws.amazon.com/codedeploy/latest/.../integrations-aws-auto-scaling.html
 
 [[↑] Back to top](#AWS)
-### How would you implement vertical auto scaling of EC2 instance? (Expert)
+### How would you implement vertical auto scaling of EC2 instance?
 
 Vertical auto scaling is not native available within EC2 Auto Scaling Groups.
 
@@ -473,7 +473,7 @@ My suggestion would be to build this in to a couple of Lambda functions. First f
 * https://www.quora.com/Does-Amazon-AWS-has-the-option-for-vertical-auto-scaling-of-EC2-instance
 
 [[↑] Back to top](#AWS)
-### What is Amazon Kinesis? (Expert)
+### What is Amazon Kinesis?
 
 **Amazon Kinesis** is an Amazon Web Service (AWS) for processing big data in real time. Kinesis is capable of processing hundreds of terabytes per hour from high volumes of streaming data from sources such as operating logs, financial transactions and social media feeds.
 
@@ -482,7 +482,7 @@ My suggestion would be to build this in to a couple of Lambda functions. First f
 * https://searchaws.techtarget.com/definition/Amazon-Kinesis
 
 [[↑] Back to top](#AWS)
-### How to find a region from within an EC2 instance? (Expert)
+### How to find a region from within an EC2 instance?
 
 Consider:
 ```sh
@@ -495,7 +495,7 @@ EC2_REGION="`echo \"$EC2_AVAIL_ZONE\" | sed 's/[a-z]$//'`"
 * https://stackoverflow.com/questions/4249488/find-region-from-within-an-ec2-instance
 
 [[↑] Back to top](#AWS)
-### Where are EC2 snapshots stored? (Expert)
+### Where are EC2 snapshots stored?
 
 EBS snapshots are stored in S3 but not in a user-visible bucket. To view your snapshots use the AWS api or they are in the EC2/Snapshots tab of the AWS Console. Something like: 
 
@@ -510,7 +510,7 @@ depending on your region.
 * https://stackoverflow.com/questions/5227791/why-cant-i-see-my-ebs-volume-snapshots-in-s3-from-aws-management-console
 
 [[↑] Back to top](#AWS)
-### When should one use the following: Amazon EC2, Google App Engine, Microsoft Azure and Salesforce.com? (Expert)
+### When should one use the following: Amazon EC2, Google App Engine, Microsoft Azure and Salesforce.com?
 
 * **EC2** is Infrastructure as a Service; you get VM instances, and do with them as you wish. Rackspace Cloud Servers are more or less the same.
 
@@ -521,7 +521,7 @@ depending on your region.
 * 
 
 [[↑] Back to top](#AWS)
-### When to use Amazon CloudFront and when S3? (Expert)
+### When to use Amazon CloudFront and when S3?
 
 **Amazon S3** is designed for large-capacity, low-cost file storage in one specific geographical region. The storage and bandwidth costs are quite low.
 
@@ -534,7 +534,7 @@ f your user base is *localized*, you won't see too much difference working with 
 * https://stackoverflow.com/questions/5898308/how-to-safely-upgrade-an-amazon-ec2-instance-from-t1-micro-to-large
 
 [[↑] Back to top](#AWS)
-### Our EC2 micro instance occasionally runs out of memory. Other than using a larger instance size, what else can be done? (Expert)
+### Our EC2 micro instance occasionally runs out of memory. Other than using a larger instance size, what else can be done?
 
 A fix for this problem is to add `swap` (i.e. `paging`) space to the instance.
 
@@ -560,7 +560,7 @@ To enable it by default after reboot, add this line to `/etc/fstab`:
 * 
 
 [[↑] Back to top](#AWS)
-### What is difference between Lightsail and EC2? (Expert)
+### What is difference between Lightsail and EC2?
 
 **Lightsail VPSs** are bundles of existing AWS products, offered through a significantly simplified interface. The difference is that Lightsail offers you a limited and fixed menu of options but with much greater ease of use. Other than the narrower scope of Lightsail in order to meet the requirements for simplicity and low cost, the underlying technology is the same.
 
@@ -571,7 +571,7 @@ Testing reveals that Lightsail instances in fact are EC2 instances, from the t2 
 * https://stackoverflow.com/questions/40927189/what-is-difference-between-lightsail-and-ec2
 
 [[↑] Back to top](#AWS)
-### What is the underlying hypervisor for EC2? (Expert)
+### What is the underlying hypervisor for EC2?
 
 Every AWS AMI uses the Xen hypervisor on bare metal. Xen offers two kinds of virtualization: 
 * HVM (Hardware Virtual Machine)
@@ -584,7 +584,7 @@ Virtual machines (also known as Guests) run on top of a hypervisor.
 * https://cloudacademy.com/blog/aws-ami-hvm-vs-pv-paravirtual-amazon/
 
 [[↑] Back to top](#AWS)
-### How to safely upgrade an Amazon EC2 instance from t1.micro to large? (Expert)
+### How to safely upgrade an Amazon EC2 instance from t1.micro to large?
 
 Follow the procedure:
 

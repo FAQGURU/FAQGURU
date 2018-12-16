@@ -1,68 +1,68 @@
 ## Data Structures
 
-[What is data-structure? (Junior)](#what-is-data-structure-junior)
+[What is data-structure?](#what-is-data-structure-junior)
 
-[What is a graph? (Junior)](#what-is-a-graph-junior)
+[What is a graph?](#what-is-a-graph-junior)
 
-[What is linear searching? (Junior)](#what-is-linear-searching-junior)
+[What is linear searching?](#what-is-linear-searching-junior)
 
-[What is algorithm? (Junior)](#what-is-algorithm-junior)
+[What is algorithm?](#what-is-algorithm-junior)
 
-[What is linear data structure and what are common operations to perform on it? (Mid)](#what-is-linear-data-structure-and-what-are-common-operations-to-perform-on-it-mid)
+[What is linear data structure and what are common operations to perform on it?](#what-is-linear-data-structure-and-what-are-common-operations-to-perform-on-it-mid)
 
-[What is an average case complexity of Bubble Sort? (Mid)](#what-is-an-average-case-complexity-of-bubble-sort-mid)
+[What is an average case complexity of Bubble Sort?](#what-is-an-average-case-complexity-of-bubble-sort-mid)
 
-[What examples of greedy algorithms do you know? (Mid)](#what-examples-of-greedy-algorithms-do-you-know-mid)
+[What examples of greedy algorithms do you know?](#what-examples-of-greedy-algorithms-do-you-know-mid)
 
-[What are some examples of divide and conquer algorithms? (Mid)](#what-are-some-examples-of-divide-and-conquer-algorithms-mid)
+[What are some examples of divide and conquer algorithms?](#what-are-some-examples-of-divide-and-conquer-algorithms-mid)
 
-[What are some examples of dynamic programming algorithms? (Mid)](#what-are-some-examples-of-dynamic-programming-algorithms-mid)
+[What are some examples of dynamic programming algorithms?](#what-are-some-examples-of-dynamic-programming-algorithms-mid)
 
-[Why do we use stacks? (Mid)](#why-do-we-use-stacks-mid)
+[Why do we use stacks?](#why-do-we-use-stacks-mid)
 
-[Why do we use queues? (Mid)](#why-do-we-use-queues-mid)
+[Why do we use queues?](#why-do-we-use-queues-mid)
 
-[What is Selection Sort? (Mid)](#what-is-selection-sort-mid)
+[What is Selection Sort?](#what-is-selection-sort-mid)
 
-[Why we need to do algorithm analysis? (Mid)](#why-we-need-to-do-algorithm-analysis-mid)
+[Why we need to do algorithm analysis?](#why-we-need-to-do-algorithm-analysis-mid)
 
-[What is the difference between Linear Search and Binary Search? (Mid)](#what-is-the-difference-between-linear-search-and-binary-search-mid)
+[What is the difference between Linear Search and Binary Search?](#what-is-the-difference-between-linear-search-and-binary-search-mid)
 
-[What is asymptotic analysis of an algorithm? (Mid)](#what-is-asymptotic-analysis-of-an-algorithm-mid)
+[What is asymptotic analysis of an algorithm?](#what-is-asymptotic-analysis-of-an-algorithm-mid)
 
-[Name some approaches to develop algorithms (Senior)](#name-some-approaches-to-develop-algorithms-senior)
+[Name some approaches to develop algorithms](#name-some-approaches-to-develop-algorithms-senior)
 
-[What is Circular Queue and why will you use one? (Senior)](#what-is-circular-queue-and-why-will-you-use-one-senior)
+[What is Circular Queue and why will you use one?](#what-is-circular-queue-and-why-will-you-use-one-senior)
 
-[Why is Insertion sort better than Quick sort for small list of elements? (Senior)](#why-is-insertion-sort-better-than-quick-sort-for-small-list-of-elements-senior)
+[Why is Insertion sort better than Quick sort for small list of elements?](#why-is-insertion-sort-better-than-quick-sort-for-small-list-of-elements-senior)
 
-[Tell me something about Insertion sort? (Senior)](#tell-me-something-about-insertion-sort-senior)
+[Tell me something about Insertion sort?](#tell-me-something-about-insertion-sort-senior)
 
-[List some advantages of Insertion Sort (Senior)](#list-some-advantages-of-insertion-sort-senior)
+[List some advantages of Insertion Sort](#list-some-advantages-of-insertion-sort-senior)
 
-[How Insertion sort and Selection sorts are different? (Senior)](#how-insertion-sort-and-selection-sorts-are-different-senior)
+[How Insertion sort and Selection sorts are different?](#how-insertion-sort-and-selection-sorts-are-different-senior)
 
-[What is Merge Sort and how it works? (Senior)](#what-is-merge-sort-and-how-it-works-senior)
+[What is Merge Sort and how it works?](#what-is-merge-sort-and-how-it-works-senior)
 
-[How Quick Sort works? (Senior)](#how-quick-sort-works-senior)
+[How Quick Sort works?](#how-quick-sort-works-senior)
 
-[What is Shell Sort? (Senior)](#what-is-shell-sort-senior)
+[What is Shell Sort?](#what-is-shell-sort-senior)
 
-[Is there ever a good reason to use Insertion Sort? (Expert)](#is-there-ever-a-good-reason-to-use-insertion-sort-expert)
+[Is there ever a good reason to use Insertion Sort?](#is-there-ever-a-good-reason-to-use-insertion-sort-expert)
 
-[Is there any advantages of Bubble Sort? (Expert)](#is-there-any-advantages-of-bubble-sort-expert)
+[Is there any advantages of Bubble Sort?](#is-there-any-advantages-of-bubble-sort-expert)
 
-[What is Bucket Sort? (Expert)](#what-is-bucket-sort-expert)
+[What is Bucket Sort?](#what-is-bucket-sort-expert)
 
-[What is Tim Sort and how would you compare it with Quick Sort? (Expert)](#what-is-tim-sort-and-how-would-you-compare-it-with-quick-sort-expert)
+[What is Tim Sort and how would you compare it with Quick Sort?](#what-is-tim-sort-and-how-would-you-compare-it-with-quick-sort-expert)
 
-[Why is Quick Sort better than Merge Sort? (Expert)](#why-is-quick-sort-better-than-merge-sort-expert)
+[Why is Quick Sort better than Merge Sort?](#why-is-quick-sort-better-than-merge-sort-expert)
 
-[What is stability in sorting algorithms and why is it important? (Expert)](#what-is-stability-in-sorting-algorithms-and-why-is-it-important-expert)
+[What is stability in sorting algorithms and why is it important?](#what-is-stability-in-sorting-algorithms-and-why-is-it-important-expert)
 
 
 
-### What is data-structure? (Junior)
+### What is data-structure?
 
 Data structure availability may vary by programming languages. Commonly available data structures are:
 * list, 
@@ -77,7 +77,7 @@ Data structure availability may vary by programming languages. Commonly availabl
 * https://www.tutorialspoint.com/data_structures_algorithms/data_structures_algorithms_interview_questions.htm
 
 [[↑] Back to top](#Data%20Structures)
-### What is a graph? (Junior)
+### What is a graph?
 
 A **graph** is a pictorial representation of a set of objects where some pairs of objects are connected by links. The interconnected objects are represented by points termed as vertices, and the links that connect the vertices are called edges.
 
@@ -86,7 +86,7 @@ A **graph** is a pictorial representation of a set of objects where some pairs o
 * https://www.tutorialspoint.com/data_structures_algorithms/data_structures_algorithms_interview_questions.htm
 
 [[↑] Back to top](#Data%20Structures)
-### What is linear searching? (Junior)
+### What is linear searching?
 
 **Linear search** or sequential search is a method for finding a target value within a list. It sequentially checks each element of the list for the target value until a match is found or until all the elements have been searched. Linear search runs in at worst *linear time* and makes at most `n` comparisons, where `n` is the length of the list. 
 
@@ -102,7 +102,7 @@ In theory other search algorithms may be faster than linear search (for instance
 * https://en.wikipedia.org/wiki/Linear_search
 
 [[↑] Back to top](#Data%20Structures)
-### What is algorithm? (Junior)
+### What is algorithm?
 
 **Algorithm** is a step by step procedure, which defines a set of instructions to be executed in certain order to get the desired output.
 
@@ -111,7 +111,7 @@ In theory other search algorithms may be faster than linear search (for instance
 * https://www.tutorialspoint.com/data_structures_algorithms/data_structures_algorithms_interview_questions.htm
 
 [[↑] Back to top](#Data%20Structures)
-### What is linear data structure and what are common operations to perform on it? (Mid)
+### What is linear data structure and what are common operations to perform on it?
 
 A *linear data-structure* has sequentially arranged data items. The next item can be located in the next memory address. It is stored and accessed in a sequential manner. **Array** and **list** are example of linear data structure.
 
@@ -128,7 +128,7 @@ The following operations are commonly performed on any data-structure:
 * https://www.tutorialspoint.com/data_structures_algorithms/data_structures_algorithms_interview_questions.htm
 
 [[↑] Back to top](#Data%20Structures)
-### What is an average case complexity of Bubble Sort? (Mid)
+### What is an average case complexity of Bubble Sort?
 
 **Bubble sort**, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the list to be sorted, compares each pair of adjacent items and swaps them if they are in the wrong order. The pass through the list is repeated until no swaps are needed, which indicates that the list is sorted. 
 
@@ -141,7 +141,7 @@ Bubble sort has a worst-case and average complexity of `О(n2)`, where `n` is th
 * https://en.wikipedia.org/wiki/Bubble_sort
 
 [[↑] Back to top](#Data%20Structures)
-### What examples of greedy algorithms do you know? (Mid)
+### What examples of greedy algorithms do you know?
 
 The below given problems find their solution using greedy algorithm approach:
 
@@ -159,7 +159,7 @@ The below given problems find their solution using greedy algorithm approach:
 * https://www.tutorialspoint.com/data_structures_algorithms/data_structures_algorithms_interview_questions.htm
 
 [[↑] Back to top](#Data%20Structures)
-### What are some examples of divide and conquer algorithms? (Mid)
+### What are some examples of divide and conquer algorithms?
 
 The below given problems find their solution using divide and conquer algorithm approach:
 
@@ -174,7 +174,7 @@ The below given problems find their solution using divide and conquer algorithm 
 * https://www.tutorialspoint.com/data_structures_algorithms/data_structures_algorithms_interview_questions.htm
 
 [[↑] Back to top](#Data%20Structures)
-### What are some examples of dynamic programming algorithms? (Mid)
+### What are some examples of dynamic programming algorithms?
 
 The below given problems find their solution using divide and conquer algorithm approach:
 
@@ -190,7 +190,7 @@ The below given problems find their solution using divide and conquer algorithm 
 * https://www.tutorialspoint.com/data_structures_algorithms/data_structures_algorithms_interview_questions.htm
 
 [[↑] Back to top](#Data%20Structures)
-### Why do we use stacks? (Mid)
+### Why do we use stacks?
 
 In data-structure, **stack** is an Abstract Data Type (ADT) used to store and retrieve values in Last In First Out (LIFO) method.
 
@@ -209,7 +209,7 @@ The below operations can be performed on a stack:
 * https://www.tutorialspoint.com/data_structures_algorithms/data_structures_algorithms_interview_questions.htm
 
 [[↑] Back to top](#Data%20Structures)
-### Why do we use queues? (Mid)
+### Why do we use queues?
 
 **Queue** is an abstract data structure (ADS), somewhat similar to stack. In contrast to stack, queue is opened at both end. One end is always used to insert data (enqueue) and the other is used to remove data (dequeue). Queue follows First-In-First-Out (FIFO) methodology, i.e., the data item stored first will be accessed first.
 
@@ -227,7 +227,7 @@ The below operations can be performed on a queue:
 * https://www.tutorialspoint.com/data_structures_algorithms/data_structures_algorithms_interview_questions.htm
 
 [[↑] Back to top](#Data%20Structures)
-### What is Selection Sort? (Mid)
+### What is Selection Sort?
 
 **Selection sort** is in-place sorting technique. It divides the data set into two sub-lists: sorted and unsorted. Then it selects the minimum element from unsorted sub-list and places it into the sorted list. This iterates unless all the elements from unsorted sub-list are consumed into sorted sub-list.
 
@@ -236,7 +236,7 @@ The below operations can be performed on a queue:
 * https://www.tutorialspoint.com/data_structures_algorithms/data_structures_algorithms_interview_questions.htm
 
 [[↑] Back to top](#Data%20Structures)
-### Why we need to do algorithm analysis? (Mid)
+### Why we need to do algorithm analysis?
 
 A problem can be solved in more than one ways. So, many solution algorithms can be derived for a given problem. We analyze available algorithms to find and implement the best suitable algorithm.
 
@@ -247,7 +247,7 @@ An algorithm are generally analyzed on two factors − time and space. That is, 
 * https://www.tutorialspoint.com/data_structures_algorithms/data_structures_algorithms_interview_questions.htm
 
 [[↑] Back to top](#Data%20Structures)
-### What is the difference between Linear Search and Binary Search? (Mid)
+### What is the difference between Linear Search and Binary Search?
 
 * A **linear search** looks down a list, one item at a time, without jumping. In complexity terms this is an `O(n)` search - the time taken to search the list gets bigger at the same rate as the list does.
 
@@ -265,7 +265,7 @@ Comparing the two:
 * https://en.wikipedia.org/wiki/Linear_search
 
 [[↑] Back to top](#Data%20Structures)
-### What is asymptotic analysis of an algorithm? (Mid)
+### What is asymptotic analysis of an algorithm?
 
 **Asymptotic analysis** of an algorithm, refers to defining the mathematical boundation/framing of its run-time performance. Using asymptotic analysis, we can very well conclude the best case, average case and worst case scenario of an algorithm.
 
@@ -280,7 +280,7 @@ Asymptotic analysis can provide three levels of mathematical binding of executio
 * https://www.tutorialspoint.com/data_structures_algorithms/data_structures_algorithms_interview_questions.htm
 
 [[↑] Back to top](#Data%20Structures)
-### Name some approaches to develop algorithms (Senior)
+### Name some approaches to develop algorithms
 
 There are three commonly used approaches to develop algorithms:
 
@@ -293,7 +293,7 @@ There are three commonly used approaches to develop algorithms:
 * https://www.tutorialspoint.com/data_structures_algorithms/data_structures_algorithms_interview_questions.htm
 
 [[↑] Back to top](#Data%20Structures)
-### What is Circular Queue and why will you use one? (Senior)
+### What is Circular Queue and why will you use one?
 
 **Circular Queue** is a *linear data structure* in which the operations are performed based on FIFO (First In First Out) principle and the last position is connected back to the first position to make a circle. It is also called *Ring Buffer*. Circular queue avoids the *wastage of space* in a regular queue implementation using arrays.
 
@@ -302,7 +302,7 @@ There are three commonly used approaches to develop algorithms:
 * https://www.programiz.com/dsa/circular-queue
 
 [[↑] Back to top](#Data%20Structures)
-### Why is Insertion sort better than Quick sort for small list of elements? (Senior)
+### Why is Insertion sort better than Quick sort for small list of elements?
 
 Insertion Sort is faster for small n because Quick Sort has extra overhead from the recursive function calls. Insertion sort is also more _stable_ than Quick sort and requires less memory.
 
@@ -311,7 +311,7 @@ Insertion Sort is faster for small n because Quick Sort has extra overhead from 
 * https://stackoverflow.com/questions/8101546/why-is-insertion-sort-better-than-quick-sort-for-small-list-of-elements
 
 [[↑] Back to top](#Data%20Structures)
-### Tell me something about Insertion sort? (Senior)
+### Tell me something about Insertion sort?
 
 **Insertion sort** divides the list into two sub-list, sorted and unsorted. It takes one element at time and finds it appropriate location in sorted sub-list and insert there. The output after insertion is a sorted sub-list. It iteratively works on all the elements of unsorted sub-list and inserts them to sorted sub-list in order.
 
@@ -352,7 +352,7 @@ console.log(insertionSort(list)) // [ 17, 20, 26, 31, 44, 54, 55, 77, 93 ]
 * https://www.tutorialspoint.com/data_structures_algorithms/data_structures_algorithms_interview_questions.htm
 
 [[↑] Back to top](#Data%20Structures)
-### List some advantages of Insertion Sort (Senior)
+### List some advantages of Insertion Sort
 
 insertion sort provides several advantages:
 
@@ -369,7 +369,7 @@ insertion sort provides several advantages:
 * https://www.tutorialspoint.com/data_structures_algorithms/data_structures_algorithms_interview_questions.htm
 
 [[↑] Back to top](#Data%20Structures)
-### How Insertion sort and Selection sorts are different? (Senior)
+### How Insertion sort and Selection sorts are different?
 
 Both insertion sort and selection sort have an outer loop (over every index), and an inner loop (over a subset of indices). Each pass of the inner loop expands the sorted region by one element, at the expense of the unsorted region, until it runs out of unsorted elements.
 
@@ -387,7 +387,7 @@ As far as swapping is concerned: selection sort does one swap per pass of the in
 * https://stackoverflow.com/questions/15799034/insertion-sort-vs-selection-sort
 
 [[↑] Back to top](#Data%20Structures)
-### What is Merge Sort and how it works? (Senior)
+### What is Merge Sort and how it works?
 
 **Merge sort** is one of the commonly used sorting algorithms in computer science. It is used by Firefox and Safari in their implementation of Array.prototype.sort() (remember how JavaScript behaves differently in different browsers?). It has good performance, it’s easy to implement and understand.
 
@@ -440,7 +440,7 @@ console.log(mergeSort(list)) // [ 1, 2, 2, 3, 3, 3, 5, 6, 7, 8 ]
 * https://www.tutorialspoint.com/data_structures_algorithms/data_structures_algorithms_interview_questions.htm
 
 [[↑] Back to top](#Data%20Structures)
-### How Quick Sort works? (Senior)
+### How Quick Sort works?
 
 **Quick sort** uses divide and conquer approach. It divides the list in smaller _partitions_ using _pivot_. The values which are smaller than the _pivot_ are arranged in the left partition and greater values are arranged in the right partition. Each partition is recursively sorted using quick sort.
 
@@ -499,7 +499,7 @@ quickSort([11,8,14,3,6,2,7],0,6);
 * https://khan4019.github.io/front-end-Interview-Questions/sort.html#quickSort
 
 [[↑] Back to top](#Data%20Structures)
-### What is Shell Sort? (Senior)
+### What is Shell Sort?
 
 **Shell sort** can be said a variant of insertion sort. Shell sort divides the list into smaller sublist based on some **gap** variable and then each sub-list is sorted using insertion sort. In best cases, it can perform up to `Ο(n log n)`. For a value of gap equals to 1, this algorithm is equal to insertion sort.
 
@@ -534,7 +534,7 @@ console.log(shellsort(array)); // => [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 * https://www.tutorialspoint.com/data_structures_algorithms/data_structures_algorithms_interview_questions.htm
 
 [[↑] Back to top](#Data%20Structures)
-### Is there ever a good reason to use Insertion Sort? (Expert)
+### Is there ever a good reason to use Insertion Sort?
 
 An important concept in analysis of algorithms is **asymptotic** analysis. In the case of two algorithms with different asymptotic running times, such as one O(n^2) and one O(nlogn) as is the case with insertion sort and quicksort respectively, it is not definite that one is faster than the other.
 
@@ -547,7 +547,7 @@ For these reasons, and because it is also **stable**, insertion sort is often us
 * https://stackoverflow.com/questions/8101546/why-is-insertion-sort-better-than-quick-sort-for-small-list-of-elements
 
 [[↑] Back to top](#Data%20Structures)
-### Is there any advantages of Bubble Sort? (Expert)
+### Is there any advantages of Bubble Sort?
 
 The only *significant advantage* that bubble sort has over most other algorithms, even quicksort (but not insertion sort), is that *the ability to detect that the list is sorted efficiently is built into the algorithm*.
 
@@ -558,7 +558,7 @@ When the list is already sorted (best-case), the complexity of bubble sort is on
 * https://en.wikipedia.org/wiki/Bubble_sort
 
 [[↑] Back to top](#Data%20Structures)
-### What is Bucket Sort? (Expert)
+### What is Bucket Sort?
 
 **Bucket sort**, or **bin sort**, is a sorting algorithm that works by distributing the elements of an array into a number of buckets. Each bucket is then sorted individually, either using a different sorting algorithm, or by recursively applying the bucket sorting algorithm. 
 
@@ -582,7 +582,7 @@ The problem is that its worst-case performance is `O(n^2)` which makes it as slo
 * http://www.stoimen.com/blog/2013/01/02/computer-algorithms-bucket-sort/
 
 [[↑] Back to top](#Data%20Structures)
-### What is Tim Sort and how would you compare it with Quick Sort? (Expert)
+### What is Tim Sort and how would you compare it with Quick Sort?
 
 Timsort is a hybrid stable sorting algorithm, derived from merge sort and insertion sort, designed to perform well on many kinds of real-world data. In the worst case, Timsort takes `O(n log n)` comparisons to sort an array of `n` elements. In the best case, which occurs when the input is already sorted, it runs in linear time, meaning that it is an _adaptive sorting algorithm_.
 
@@ -598,7 +598,7 @@ If you need stable sort, try Tim Sort, otherwise start with Quick Sort.
 * https://stackoverflow.com/questions/7770230/comparison-between-timsort-and-quicksort
 
 [[↑] Back to top](#Data%20Structures)
-### Why is Quick Sort better than Merge Sort? (Expert)
+### Why is Quick Sort better than Merge Sort?
 
 Quicksort has `O(n^2)` worst-case runtime and `O(n log n)` average case runtime. However, it’s superior to merge sort in many scenarios because many factors influence an algorithm’s runtime, and, when taking them all together, quicksort wins out.
 
@@ -614,7 +614,7 @@ In addition, it’s very easy to avoid quicksort’s worst-case run time of O(n2
 * https://www.tutorialspoint.com/data_structures_algorithms/data_structures_algorithms_interview_questions.htm
 
 [[↑] Back to top](#Data%20Structures)
-### What is stability in sorting algorithms and why is it important? (Expert)
+### What is stability in sorting algorithms and why is it important?
 
 A sorting algorithm is said to be **stable** if two objects with equal _keys_ appear in the same order in sorted output as they appear in the input array to be sorted.
 

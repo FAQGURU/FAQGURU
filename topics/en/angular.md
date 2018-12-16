@@ -1,144 +1,144 @@
 ## Angular
 
-[What is Routing Guard in Angular? (Junior)](#what-is-routing-guard-in-angular-junior)
+[What is Routing Guard in Angular?](#what-is-routing-guard-in-angular-junior)
 
-[What is a module, and what does it contain? (Junior)](#what-is-a-module-and-what-does-it-contain-junior)
+[What is a module, and what does it contain?](#what-is-a-module-and-what-does-it-contain-junior)
 
-[What are pipes? Give me an example. (Junior)](#what-are-pipes-give-me-an-example-junior)
+[What are pipes? Give me an example.](#what-are-pipes-give-me-an-example-junior)
 
-[What's the difference between an Angular component and module? (Mid)](#whats-the-difference-between-an-angular-component-and-module-mid)
+[What's the difference between an Angular component and module?](#whats-the-difference-between-an-angular-component-and-module-mid)
 
-[What are the differences between AngularJS (angular 1.x) and Angular (Angular 2.x and beyond)? (Mid)](#what-are-the-differences-between-angularjs-angular-1x-and-angular-angular-2x-and-beyond-mid)
+[What are the differences between AngularJS (angular 1.x) and Angular (Angular 2.x and beyond)?](#what-are-the-differences-between-angularjs-angular-1x-and-angular-angular-2x-and-beyond-mid)
 
-[What is a service, and when will you use it? (Mid)](#what-is-a-service-and-when-will-you-use-it-mid)
+[What is a service, and when will you use it?](#what-is-a-service-and-when-will-you-use-it-mid)
 
-[What is the equivalent of ngShow and ngHide in Angular? (Mid)](#what-is-the-equivalent-of-ngshow-and-nghide-in-angular-mid)
+[What is the equivalent of ngShow and ngHide in Angular?](#what-is-the-equivalent-of-ngshow-and-nghide-in-angular-mid)
 
-[What is the minimum definition of a component? (Mid)](#what-is-the-minimum-definition-of-a-component-mid)
+[What is the minimum definition of a component?](#what-is-the-minimum-definition-of-a-component-mid)
 
-[You have an HTML response I want to display. How do I do that?  (Mid)](#you-have-an-html-response-i-want-to-display-how-do-i-do-that--mid)
+[You have an HTML response I want to display. How do I do that? ](#you-have-an-html-response-i-want-to-display-how-do-i-do-that--mid)
 
-[What is a component? Why would you use it? (Mid)](#what-is-a-component-why-would-you-use-it-mid)
+[What is a component? Why would you use it?](#what-is-a-component-why-would-you-use-it-mid)
 
-[How can I select an element in a component template? (Mid)](#how-can-i-select-an-element-in-a-component-template-mid)
+[How can I select an element in a component template?](#how-can-i-select-an-element-in-a-component-template-mid)
 
-[What is the equivalent of "ngShow" and "ngHide" in Angular? (Mid)](#what-is-the-equivalent-of-ngshow-and-nghide-in-angular-mid)
+[What is the equivalent of "ngShow" and "ngHide" in Angular?](#what-is-the-equivalent-of-ngshow-and-nghide-in-angular-mid)
 
-[What is the difference between *ngIf vs [hidden]? (Mid)](#what-is-the-difference-between-ngif-vs-hidden-mid)
+[What is the difference between *ngIf vs [hidden]?](#what-is-the-difference-between-ngif-vs-hidden-mid)
 
-[What is the difference between "@Component" and "@Directive" in Angular?  (Mid)](#what-is-the-difference-between-component-and-directive-in-angular--mid)
+[What is the difference between "@Component" and "@Directive" in Angular? ](#what-is-the-difference-between-component-and-directive-in-angular--mid)
 
-[What are some differences between Angular 2 and 4? (Mid)](#what-are-some-differences-between-angular-2-and-4-mid)
+[What are some differences between Angular 2 and 4?](#what-are-some-differences-between-angular-2-and-4-mid)
 
-[How would you protect a component being activated through the router? (Mid)](#how-would-you-protect-a-component-being-activated-through-the-router-mid)
+[How would you protect a component being activated through the router?](#how-would-you-protect-a-component-being-activated-through-the-router-mid)
 
-[What does this line do? (Mid)](#what-does-this-line-do-mid)
+[What does this line do?](#what-does-this-line-do-mid)
 
-[How would you run unit test? (Mid)](#how-would-you-run-unit-test-mid)
+[How would you run unit test?](#how-would-you-run-unit-test-mid)
 
-[When would you use eager module loading? (Senior)](#when-would-you-use-eager-module-loading-senior)
+[When would you use eager module loading?](#when-would-you-use-eager-module-loading-senior)
 
-[ Explain the difference between `Promise` and `Observable` in Angular? (Senior)](#-explain-the-difference-between-promise-and-observable-in-angular-senior)
+[ Explain the difference between `Promise` and `Observable` in Angular?](#-explain-the-difference-between-promise-and-observable-in-angular-senior)
 
-[How to bundle an Angular app for production? (Senior)](#how-to-bundle-an-angular-app-for-production-senior)
+[How to bundle an Angular app for production?](#how-to-bundle-an-angular-app-for-production-senior)
 
-[How to inject base href? (Senior)](#how-to-inject-base-href-senior)
+[How to inject base href?](#how-to-inject-base-href-senior)
 
-[Can you explain the difference between `Promise` and `Observable` in Angular? In what scenario can we use each case? (Senior)](#can-you-explain-the-difference-between-promise-and-observable-in-angular-in-what-scenario-can-we-use-each-case-senior)
+[Can you explain the difference between `Promise` and `Observable` in Angular? In what scenario can we use each case?](#can-you-explain-the-difference-between-promise-and-observable-in-angular-in-what-scenario-can-we-use-each-case-senior)
 
-[What is the use of codelyzer? (Senior)](#what-is-the-use-of-codelyzer-senior)
+[What is the use of codelyzer?](#what-is-the-use-of-codelyzer-senior)
 
-[Why should `ngOnInit` be used, if we already have a `constructor`? (Senior)](#why-should-ngoninit-be-used-if-we-already-have-a-constructor-senior)
+[Why should `ngOnInit` be used, if we already have a `constructor`?](#why-should-ngoninit-be-used-if-we-already-have-a-constructor-senior)
 
-[What is difference between "declarations", "providers" and "import" in NgModule? (Senior)](#what-is-difference-between-declarations-providers-and-import-in ngmodule-senior)
+[What is difference between "declarations", "providers" and "import" in NgModule?](#what-is-difference-between-declarations-providers-and-import-in ngmodule-senior)
 
-[What is Redux and how does it relate to an Angular app? (Senior)](#what-is-redux-and-how-does-it-relate-to-an-angular-app-senior)
+[What is Redux and how does it relate to an Angular app?](#what-is-redux-and-how-does-it-relate-to-an-angular-app-senior)
 
-[What is AOT? (Senior)](#what-is-aot-senior)
+[What is AOT?](#what-is-aot-senior)
 
-[Explain the difference between "Constructor" and "ngOnInit" (Senior)](#explain-the-difference-between-constructor-and-ngoninit-senior)
+[Explain the difference between "Constructor" and "ngOnInit"](#explain-the-difference-between-constructor-and-ngoninit-senior)
 
-[How would you control size of an element on resize of the window in a component? (Senior)](#how-would-you-control-size-of-an-element-on-resize-of-the-window-in-a-component-senior)
+[How would you control size of an element on resize of the window in a component?](#how-would-you-control-size-of-an-element-on-resize-of-the-window-in-a-component-senior)
 
-[What is the point of calling "renderer.invokeElementMethod(rendererEl, methodName)"? (Senior)](#what-is-the-point-of-calling-rendererinvokeelementmethodrendererel-methodname-senior)
+[What is the point of calling "renderer.invokeElementMethod(rendererEl, methodName)"?](#what-is-the-point-of-calling-rendererinvokeelementmethodrendererel-methodname-senior)
 
-[What is Reactive Programming and how to use one with Angular? (Senior)](#what-is-reactive-programming-and-how-to-use-one-with-angular-senior)
+[What is Reactive Programming and how to use one with Angular?](#what-is-reactive-programming-and-how-to-use-one-with-angular-senior)
 
-[Why would you use a spy in a test? (Senior)](#why-would-you-use-a-spy-in-a-test-senior)
+[Why would you use a spy in a test?](#why-would-you-use-a-spy-in-a-test-senior)
 
-[What's new in Angular 6 and why shall we upgrade to it? (Senior)](#whats-new-in-angular-6-and-why-shall-we-upgrade-to-it-senior)
+[What's new in Angular 6 and why shall we upgrade to it?](#whats-new-in-angular-6-and-why-shall-we-upgrade-to-it-senior)
 
-[What is the difference between `@Component` and `@Directive` in Angular? (Senior)](#what-is-the-difference-between-component-and-directive-in-angular-senior)
+[What is the difference between `@Component` and `@Directive` in Angular?](#what-is-the-difference-between-component-and-directive-in-angular-senior)
 
-[What is Protractor? (Senior)](#what-is-protractor-senior)
+[What is Protractor?](#what-is-protractor-senior)
 
-[What is TestBed? (Senior)](#what-is-testbed-senior)
+[What is TestBed?](#what-is-testbed-senior)
 
-[How to set headers for every request in Angular? (Expert)](#how-to-set-headers-for-every request-in-angular-expert)
+[How to set headers for every request in Angular?](#how-to-set-headers-for-every request-in-angular-expert)
 
-[What does "detectChanges" do in Angular jasmine tests? (Expert)](#what-does-detectchanges-do-in-angular-jasmine-tests-expert)
+[What does "detectChanges" do in Angular jasmine tests?](#what-does-detectchanges-do-in-angular-jasmine-tests-expert)
 
-[Why would you use renderer methods instead of using native element methods? (Expert)](#why-would-you-use-renderer-methods-instead-of-using-native-element-methods-expert)
+[Why would you use renderer methods instead of using native element methods?](#why-would-you-use-renderer-methods-instead-of-using-native-element-methods-expert)
 
-[When does a lazy loaded module is loaded? (Expert)](#when-does-a-lazy-loaded-module-is-loaded-expert)
+[When does a lazy loaded module is loaded?](#when-does-a-lazy-loaded-module-is-loaded-expert)
 
-[What is the need for SystemJS in Angular? (Expert)](#what-is-the-need-for-systemjs-in-angular-expert)
+[What is the need for SystemJS in Angular?](#what-is-the-need-for-systemjs-in-angular-expert)
 
-[What would be a good use for NgZone service? (Expert)](#what-would-be-a-good-use-for-ngzone-service-expert)
+[What would be a good use for NgZone service?](#what-would-be-a-good-use-for-ngzone-service-expert)
 
-[What is Zone in Angular? (Expert)](#what-is-zone-in-angular-expert)
+[What is Zone in Angular?](#what-is-zone-in-angular-expert)
 
-[Why would you use lazy loading modules in Angular app? (Expert)](#why-would-you-use-lazy-loading-modules-in-angular-app-expert)
+[Why would you use lazy loading modules in Angular app?](#why-would-you-use-lazy-loading-modules-in-angular-app-expert)
 
-[What are the lifecycle hooks for components and directives? (Expert)](#what-are-the-lifecycle-hooks-for-components-and-directives-expert)
+[What are the lifecycle hooks for components and directives?](#what-are-the-lifecycle-hooks-for-components-and-directives-expert)
 
-[How would you insert an embedded view from a prepared TemplateRef? (Expert)](#how-would-you-insert-an-embedded-view-from-a-prepared-templateref-expert)
+[How would you insert an embedded view from a prepared TemplateRef?](#how-would-you-insert-an-embedded-view-from-a-prepared-templateref-expert)
 
-[How to detect a route change in Angular? (Expert)](#how-to-detect-a-route-change-in angular-expert)
+[How to detect a route change in Angular?](#how-to-detect-a-route-change-in angular-expert)
 
-[Name and explain some Angular Module Loading examples (Expert)](#name-and-explain-some-angular-module-loading-examples-expert)
+[Name and explain some Angular Module Loading examples](#name-and-explain-some-angular-module-loading-examples-expert)
 
-[What does a just-in-time (JIT) compiler do (in general)? (Expert)](#what-does-a-just-in-time-jit-compiler-do-in-general-expert)
+[What does a just-in-time (JIT) compiler do (in general)?](#what-does-a-just-in-time-jit-compiler-do-in-general-expert)
 
-[How do you create application to use scss? What changed for Angular 6? (Expert)](#how-do-you-create-application-to-use-scss-what-changed-for-angular-6-expert)
+[How do you create application to use scss? What changed for Angular 6?](#how-do-you-create-application-to-use-scss-what-changed-for-angular-6-expert)
 
-[When should I store the "Subscription" instances and invoke `unsubscribe()` during the NgOnDestroy life cycle and when can I simply ignore them? (Expert)](#when-should-i-store-the-subscription-instances-and-invoke-unsubscribe-during-the-ngondestroy-life-cycle-and-when-can-i-simply-ignore-them-expert)
+[When should I store the "Subscription" instances and invoke `unsubscribe()` during the NgOnDestroy life cycle and when can I simply ignore them?](#when-should-i-store-the-subscription-instances-and-invoke-unsubscribe-during-the-ngondestroy-life-cycle-and-when-can-i-simply-ignore-them-expert)
 
-[Are there any pros/cons (especially performance-wise) in using local storage to replace cookie functionality? (Expert)](#are-there-any-proscons-especially-performance-wise-in-using-local-storage-to-replace-cookie-functionality-expert)
+[Are there any pros/cons (especially performance-wise) in using local storage to replace cookie functionality?](#are-there-any-proscons-especially-performance-wise-in-using-local-storage-to-replace-cookie-functionality-expert)
 
-[What is Reactive programming and how does it relate to Angular? (Expert)](#what-is-reactive-programming-and-how-does-it-relate-to-angular-expert)
+[What is Reactive programming and how does it relate to Angular?](#what-is-reactive-programming-and-how-does-it-relate-to-angular-expert)
 
-[Name some security best practices in Angular (Expert)](#name-some-security-best-practices-in-angular-expert)
+[Name some security best practices in Angular](#name-some-security-best-practices-in-angular-expert)
 
-[Could I use jQuery with Angular? (Expert)](#could-i-use-jquery-with angular-expert)
+[Could I use jQuery with Angular?](#could-i-use-jquery-with angular-expert)
 
-[What is ngUpgrage?  (Expert)](#what-is-ngupgrage--expert)
+[What is ngUpgrage? ](#what-is-ngupgrage--expert)
 
-[What is the default compilation for Angular 5? (Expert)](#what-is-the-default-compilation-for-angular-5-expert)
+[What is the default compilation for Angular 5?](#what-is-the-default-compilation-for-angular-5-expert)
 
-[Do you know how you can run angularJS and angular side by side? (Expert)](#do-you-know-how-you-can-run-angularjs-and-angular-side-by-side-expert)
+[Do you know how you can run angularJS and angular side by side?](#do-you-know-how-you-can-run-angularjs-and-angular-side-by-side-expert)
 
-[What is the difference between BehaviorSubject vs Observable? (Expert)](#what-is-the-difference-between-behaviorsubject-vs-observable-expert)
+[What is the difference between BehaviorSubject vs Observable?](#what-is-the-difference-between-behaviorsubject-vs-observable-expert)
 
-[What is the Angular equivalent to an AngularJS "$watch"? (Expert)](#what-is-the-angular-equivalent-to-an-angularjs-watch-expert)
+[What is the Angular equivalent to an AngularJS "$watch"?](#what-is-the-angular-equivalent-to-an-angularjs-watch-expert)
 
-[Just-in-Time (JiT) vs Ahead-of-Time (AoT) compilation. Explain the difference. (Expert)](#just-in-time-jit-vs-ahead-of-time-aot-compilation-explain-the-difference-expert)
+[Just-in-Time (JiT) vs Ahead-of-Time (AoT) compilation. Explain the difference.](#just-in-time-jit-vs-ahead-of-time-aot-compilation-explain-the-difference-expert)
 
-[How would you extract webpack config from angular cli project? (Expert)](#how-would-you-extract-webpack-config-from-angular-cli-project-expert)
+[How would you extract webpack config from angular cli project?](#how-would-you-extract-webpack-config-from-angular-cli-project-expert)
 
-[Is there no equivalent to `$scope.emit()` or `$scope.broadcast()` in Angular? (Expert)](#is-there-no-equivalent-to-scopeemit-or-scopebroadcast-in-angular-expert)
+[Is there no equivalent to `$scope.emit()` or `$scope.broadcast()` in Angular?](#is-there-no-equivalent-to-scopeemit-or-scopebroadcast-in-angular-expert)
 
-[Could you provide some particular examples of using ngZone? (Expert)](#could-you-provide-some-particular-examples-of-using-ngzone-expert)
+[Could you provide some particular examples of using ngZone?](#could-you-provide-some-particular-examples-of-using-ngzone-expert)
 
-[Name some differences between SystemJS vs WebPack? (Expert)](#name-some-differences-between-systemjs-vs-webpack-expert)
+[Name some differences between SystemJS vs WebPack?](#name-some-differences-between-systemjs-vs-webpack-expert)
 
-[Why angular uses url segment? (Expert)](#why-angular-uses-url-segment-expert)
+[Why angular uses url segment?](#why-angular-uses-url-segment-expert)
 
-[When to use query parameters versus matrix parameters? (Expert)](#when-to-use-query-parameters-versus-matrix-parameters-expert)
+[When to use query parameters versus matrix parameters?](#when-to-use-query-parameters-versus-matrix-parameters-expert)
 
 
 
-### What is Routing Guard in Angular? (Junior)
+### What is Routing Guard in Angular?
 
 Angular’s route guards are interfaces which can tell the router whether or not it should allow navigation to a requested route. They make this decision by looking for a true or false return value from a class which implements the given guard interface.
 
@@ -147,7 +147,7 @@ Angular’s route guards are interfaces which can tell the router whether or not
 * https://medium.com/@ryanchenkie_40935/angular-authentication-using-route-guards-bf7a4ca13ae3
 
 [[↑] Back to top](#Angular)
-### What is a module, and what does it contain? (Junior)
+### What is a module, and what does it contain?
 
 An Angular module is set of Angular basic building blocks like component, directives, services etc. An app can have more than one module.
 
@@ -167,7 +167,7 @@ export class AppModule { }
 * https://stackoverflow.com/questions/40073941/whats-the-difference-between-an-angular-component-and-module
 
 [[↑] Back to top](#Angular)
-### What are pipes? Give me an example. (Junior)
+### What are pipes? Give me an example.
 
 A **pipe** takes in data as input and transforms it to a desired output. You can chain pipes together in potentially useful combinations. You can write your own custom pipes. Angular comes with a stock of pipes such as `DatePipe`, `UpperCasePipe`, `LowerCasePipe`, `CurrencyPipe`, and `PercentPipe`.
 
@@ -182,7 +182,7 @@ In this page, you'll use pipes to transform a component's birthday property into
 * https://angular.io/guide/pipes
 
 [[↑] Back to top](#Angular)
-### What's the difference between an Angular component and module? (Mid)
+### What's the difference between an Angular component and module?
 
 *Components* control views (html). They also communicate with other components and services to bring functionality to your app.
 
@@ -193,7 +193,7 @@ In this page, you'll use pipes to transform a component's birthday property into
 * https://stackoverflow.com/questions/40073941/whats-the-difference-between-an-angular-component-and-module
 
 [[↑] Back to top](#Angular)
-### What are the differences between AngularJS (angular 1.x) and Angular (Angular 2.x and beyond)? (Mid)
+### What are the differences between AngularJS (angular 1.x) and Angular (Angular 2.x and beyond)?
 
 Angular and AngularJS is basically a different framework with the same name.
 
@@ -211,7 +211,7 @@ Also:
 * https://stackoverflow.com/questions/34114593/angular-vs-angular-2
 
 [[↑] Back to top](#Angular)
-### What is a service, and when will you use it? (Mid)
+### What is a service, and when will you use it?
 
 *Angular services* are singleton objects which get instantiated only once during the lifetime of an application. They contain methods that maintain data throughout the life of an application, i.e. data does not get refreshed and is available all the time. The main objective of a service is to organize and share business logic, models, or data and functions with different components of an Angular application.
 
@@ -222,7 +222,7 @@ The *separation of concerns* is the main reason why Angular services came into e
 * https://dzone.com/articles/what-is-a-service-in-angular-js-why-to-use-it
 
 [[↑] Back to top](#Angular)
-### What is the equivalent of ngShow and ngHide in Angular? (Mid)
+### What is the equivalent of ngShow and ngHide in Angular?
 
 Just bind to the `hidden` property
 
@@ -231,7 +231,7 @@ Just bind to the `hidden` property
 * https://stackoverflow.com/questions/35578083
 
 [[↑] Back to top](#Angular)
-### What is the minimum definition of a component? (Mid)
+### What is the minimum definition of a component?
 
 The absolute minimal configuration for a `@Component` in Angular is a template. Both template properties are set to optional because you have to define either `template` or `templateUrl`.
 
@@ -246,7 +246,7 @@ A selector property is not required, as you can also use your components in a ro
 * https://stackoverflow.com/questions/46338698/minimum-definition-of-a-component-angular-4
 
 [[↑] Back to top](#Angular)
-### You have an HTML response I want to display. How do I do that?  (Mid)
+### You have an HTML response I want to display. How do I do that? 
 
 The correct syntax is the following:
 ```html
@@ -259,7 +259,7 @@ Working in `5.2.6`
 * https://medium.com/wizardnet972/48-answers-on-stack-overflow-to-the-most-popular-angular-questions-52f9eb430ab0
 
 [[↑] Back to top](#Angular)
-### What is a component? Why would you use it? (Mid)
+### What is a component? Why would you use it?
 
 *Components* are the most basic building block of an UI in an Angular application. An Angular application is a tree of Angular components. Angular components are a subset of directives. Unlike directives, components always have a template and only one component can be instantiated per an element in a template.
 
@@ -277,7 +277,7 @@ class Greet {
 * https://angular.io/api/core/Component
 
 [[↑] Back to top](#Angular)
-### How can I select an element in a component template? (Mid)
+### How can I select an element in a component template?
 
 You can get a handle to the DOM element via ElementRef by injecting it into your component's constructor:
 
@@ -290,7 +290,7 @@ constructor(myElement: ElementRef) { ... }
 * https://medium.com/wizardnet972/48-answers-on-stack-overflow-to-the-most-popular-angular-questions-52f9eb430ab0
 
 [[↑] Back to top](#Angular)
-### What is the equivalent of "ngShow" and "ngHide" in Angular? (Mid)
+### What is the equivalent of "ngShow" and "ngHide" in Angular?
 
 Just bind to the hidden property:
 
@@ -303,7 +303,7 @@ Just bind to the hidden property:
 * https://medium.com/wizardnet972/48-answers-on-stack-overflow-to-the-most-popular-angular-questions-52f9eb430ab0
 
 [[↑] Back to top](#Angular)
-### What is the difference between *ngIf vs [hidden]? (Mid)
+### What is the difference between *ngIf vs [hidden]?
 
 `*ngIf` effectively removes its content from the DOM while `[hidden]` modifies the `display` property and only instructs the browser to not show the content but the DOM still contains it.
 
@@ -312,7 +312,7 @@ Just bind to the hidden property:
 * https://medium.com/wizardnet972/48-answers-on-stack-overflow-to-the-most-popular-angular-questions-52f9eb430ab0
 
 [[↑] Back to top](#Angular)
-### What is the difference between "@Component" and "@Directive" in Angular?  (Mid)
+### What is the difference between "@Component" and "@Directive" in Angular? 
 
 * **Directives** add behaviour to an existing DOM element or an existing component instance.
 * **A component**, rather than adding/modifying behaviour, actually creates its own view (hierarchy of DOM elements) with attached behaviour.
@@ -324,7 +324,7 @@ Write a component when you want to create a reusable set of DOM elements of UI w
 * https://medium.com/wizardnet972/48-answers-on-stack-overflow-to-the-most-popular-angular-questions-52f9eb430ab0
 
 [[↑] Back to top](#Angular)
-### What are some differences between Angular 2 and 4? (Mid)
+### What are some differences between Angular 2 and 4?
 
 Just to name a few:
 * Improvements in AOT, 
@@ -337,7 +337,7 @@ Just to name a few:
 * https://github.com/WebPredict/angular-2-interview-questions
 
 [[↑] Back to top](#Angular)
-### How would you protect a component being activated through the router? (Mid)
+### How would you protect a component being activated through the router?
 
 The Angular router ships with a feature called guards. These provide us with ways to control the flow of our application. We can stop a user from visitng certain routes, stop a user from leaving routes, and more. The overall process for protecting Angular routes:
 
@@ -368,7 +368,7 @@ Some other available guards:
 * https://scotch.io/tutorials/protecting-angular-v2-routes-with-canactivatecanactivatechild-guards
 
 [[↑] Back to top](#Angular)
-### What does this line do? (Mid)
+### What does this line do?
 
 `@HostBinding` lets you set properties on the element or component that hosts the directive.
 
@@ -379,7 +379,7 @@ The code applies the css class `valid` to whatever is using this directive condi
 * https://alligator.io/angular/hostbinding-hostlistener/
 
 [[↑] Back to top](#Angular)
-### How would you run unit test? (Mid)
+### How would you run unit test?
 
 The Angular CLI downloads and install everything you need to test an Angular application with the Jasmine test framework.
 
@@ -394,7 +394,7 @@ ng test
 * https://angular.io/guide/testing
 
 [[↑] Back to top](#Angular)
-### When would you use eager module loading? (Senior)
+### When would you use eager module loading?
 
 **Eager loading**: To load a feature module eagerly we need to import it into application module using `imports` metadata of `@NgModule` decorator. Eager loading is useful in small size applications. In eager loading, all the feature modules will be loaded before the application starts. Hence the subsequent request to the application will be faster. 
 
@@ -405,7 +405,7 @@ ng test
 * https://www.concretepage.com/angular-2/angular-module-loading-eager-lazy-and-preloading
 
 [[↑] Back to top](#Angular)
-###  Explain the difference between `Promise` and `Observable` in Angular? (Senior)
+###  Explain the difference between `Promise` and `Observable` in Angular?
 
 **Promises**:
 - return a single value
@@ -424,7 +424,7 @@ ng test
 * https://stackoverflow.com/questions/37364973
 
 [[↑] Back to top](#Angular)
-### How to bundle an Angular app for production? (Senior)
+### How to bundle an Angular app for production?
 
 **OneTime Setup**
 
@@ -449,7 +449,7 @@ For a production usage, you have to deploy all the files from the `dist` folder 
 * https://medium.com/wizardnet972/48-answers-on-stack-overflow-to-the-most-popular-angular-questions-52f9eb430ab0
 
 [[↑] Back to top](#Angular)
-### How to inject base href? (Senior)
+### How to inject base href?
 
 When building you can modify base tag (`<base href="/">`) in your `index.html` with `--base-href your-url` option.
 
@@ -463,7 +463,7 @@ ng build --base-href /myUrl/
 * https://github.com/angular/angular-cli/wiki/build
 
 [[↑] Back to top](#Angular)
-### Can you explain the difference between `Promise` and `Observable` in Angular? In what scenario can we use each case? (Senior)
+### Can you explain the difference between `Promise` and `Observable` in Angular? In what scenario can we use each case?
 
 **Promise**
 
@@ -485,7 +485,7 @@ There are also powerful operators like `retry()`, or `replay()`, ... that are o
 * https://medium.com/wizardnet972/48-answers-on-stack-overflow-to-the-most-popular-angular-questions-52f9eb430ab0
 
 [[↑] Back to top](#Angular)
-### What is the use of codelyzer? (Senior)
+### What is the use of codelyzer?
 
 All enterprise applications follows a set of coding conventions and guidelines to maintain code in better way. **Codelyzer** is an open source tool to run and check whether the pre-defined coding guidelines has been followed or not. Codelyzer does only static code analysis for angular and typescript project.
 
@@ -496,7 +496,7 @@ Codelyzer runs on top of tslint and its coding conventions are usually defined i
 * http://pankajagarwal.in/?p=377
 
 [[↑] Back to top](#Angular)
-### Why should `ngOnInit` be used, if we already have a `constructor`? (Senior)
+### Why should `ngOnInit` be used, if we already have a `constructor`?
 
 * The `Constructor` is a default method of the class that is executed when the class is instantiated and ensures proper initialization of fields in the class and its subclasses. 
 
@@ -509,7 +509,7 @@ Mostly we use `ngOnInit` for all the initialization/declaration and avoid stuff 
 * https://medium.com/wizardnet972/48-answers-on-stack-overflow-to-the-most-popular-angular-questions-52f9eb430ab0
 
 [[↑] Back to top](#Angular)
-### What is difference between "declarations", "providers" and "import" in NgModule? (Senior)
+### What is difference between "declarations", "providers" and "import" in NgModule?
 
 *   `imports` makes the exported declarations of other modules available in the current module
 *   `declarations` are to make directives (including components and pipes) from the current module available to other directives in the current module. Selectors of directives, components or pipes are only matched against the HTML if they are declared or imported.
@@ -522,7 +522,7 @@ A special case for `providers` are lazy loaded modules that get their own child 
 * https://medium.com/wizardnet972/48-answers-on-stack-overflow-to-the-most-popular-angular-questions-52f9eb430ab0
 
 [[↑] Back to top](#Angular)
-### What is Redux and how does it relate to an Angular app? (Senior)
+### What is Redux and how does it relate to an Angular app?
 
 **Redux** is a way to manage application state and improve maintainability of asynchronicity in your application by providing a single source of truth for the application state, and a unidirectional flow of data change in the application. `ngrx/store` is one implementation of Redux principles.
 
@@ -531,7 +531,7 @@ A special case for `providers` are lazy loaded modules that get their own child 
 * https://github.com/WebPredict/angular-2-interview-questions
 
 [[↑] Back to top](#Angular)
-### What is AOT? (Senior)
+### What is AOT?
 
 The Angular Ahead-of-Time compiler pre-compiles application components and their templates during the build process.
 Apps compiled with AOT launch faster for several reasons. 
@@ -545,7 +545,7 @@ Apps compiled with AOT launch faster for several reasons.
 * https://stackoverflow.com/questions/39488266/what-is-aotor-ahead-of-time-compilation-in-angular2?rq=1
 
 [[↑] Back to top](#Angular)
-### Explain the difference between "Constructor" and "ngOnInit" (Senior)
+### Explain the difference between "Constructor" and "ngOnInit"
 
 * The `Constructor` is a default method of the class that is executed when the class is instantiated and ensures proper initialization of fields in the class and its subclasses.
 * `ngOnInit` is a life cycle hook called by Angular to indicate that Angular is done creating the component. We have to import OnInit in order to use like this (actually implementing OnInit is not mandatory but considered good practice).
@@ -557,7 +557,7 @@ Mostly we use `ngOnInit` for all the initialization/declaration and avoid stuff 
 * https://stackoverflow.com/questions/35763730/difference-between-constructor-and-ngoninit/35763811#35763811
 
 [[↑] Back to top](#Angular)
-### How would you control size of an element on resize of the window in a component? (Senior)
+### How would you control size of an element on resize of the window in a component?
 
 `@HostListener` lets you listen for events on the host element or component.
 
@@ -576,7 +576,7 @@ onResize(event: any) {
 * https://alligator.io/angular/hostbinding-hostlistener/
 
 [[↑] Back to top](#Angular)
-### What is the point of calling "renderer.invokeElementMethod(rendererEl, methodName)"? (Senior)
+### What is the point of calling "renderer.invokeElementMethod(rendererEl, methodName)"?
 
 The purpose of `invokeElementMethod` is to invoke a method on a particular element but avoid direct DOM access (so we don’t tie our code just to the browser).
 
@@ -585,7 +585,7 @@ The purpose of `invokeElementMethod` is to invoke a method on a particular eleme
 * https://github.com/WebPredict/angular-2-interview-questions
 
 [[↑] Back to top](#Angular)
-### What is Reactive Programming and how to use one with Angular? (Senior)
+### What is Reactive Programming and how to use one with Angular?
 
 *Reactive programming* is programming with asynchronous data streams. An Angular application is a reactive system. 
 
@@ -598,7 +598,7 @@ In RxJS, you represent asynchronous data streams using observable sequences or a
 * https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
 
 [[↑] Back to top](#Angular)
-### Why would you use a spy in a test? (Senior)
+### Why would you use a spy in a test?
 
 Jasmine has a concept called `spies`. You can check if it was called, what parameters it had, if it returned something or even how many times it was called.
 
@@ -620,7 +620,7 @@ it('can accept a post to update it', function() {
 * https://github.com/WebPredict/angular-2-interview-questions/blob/master/README.md
 
 [[↑] Back to top](#Angular)
-### What's new in Angular 6 and why shall we upgrade to it? (Senior)
+### What's new in Angular 6 and why shall we upgrade to it?
 
 * **Angular Elements** - Angular Elements is a project that lets you wrap your Angular components as Web Components and embed them in a non-Angular application. 
 * **New Rendering Engine: Ivy** -  increases in speed and decreases in application size.
@@ -636,7 +636,7 @@ it('can accept a post to update it', function() {
 * https://blog.ninja-squad.com/2018/05/04/what-is-new-angular-6/
 
 [[↑] Back to top](#Angular)
-### What is the difference between `@Component` and `@Directive` in Angular? (Senior)
+### What is the difference between `@Component` and `@Directive` in Angular?
 
 **A @Component requires a view whereas a @Directive does not.**
 
@@ -662,7 +662,7 @@ behaviour to supplement existing DOM elements.
 * https://stackoverflow.com/questions/32680244
 
 [[↑] Back to top](#Angular)
-### What is Protractor? (Senior)
+### What is Protractor?
 
 **Protractor** is an end-to-end test framework for Angular and AngularJS applications. Protractor is a Node.js program built on top of WebDriverJS. Protractor runs tests against your application running in a real browser, interacting with it as a user would.
 
@@ -671,7 +671,7 @@ behaviour to supplement existing DOM elements.
 * https://github.com/angular/protractor
 
 [[↑] Back to top](#Angular)
-### What is TestBed? (Senior)
+### What is TestBed?
 
 The **Angular Test Bed (ATB)** is a higher level *Angular Only* testing framework that allows us to easily test behaviours that depend on the Angular Framework.
 
@@ -684,7 +684,7 @@ The TestBed creates a dynamically-constructed Angular test module that emulates 
 * https://angular.io/guide/testing
 
 [[↑] Back to top](#Angular)
-### How to set headers for every request in Angular? (Expert)
+### How to set headers for every request in Angular?
 
 You could provide a service that wraps the original `Http` object from Angular.
 ```js
@@ -725,7 +725,7 @@ import { HttpClient } from './http-client';
 * https://medium.com/wizardnet972/48-answers-on-stack-overflow-to-the-most-popular-angular-questions-52f9eb430ab0
 
 [[↑] Back to top](#Angular)
-### What does "detectChanges" do in Angular jasmine tests? (Expert)
+### What does "detectChanges" do in Angular jasmine tests?
 
 `detectChanges` propagates changes to the DOM by running Angular change detection.
 
@@ -734,7 +734,7 @@ import { HttpClient } from './http-client';
 * https://codecraft.tv/courses/angular/unit-testing/change-detection/
 
 [[↑] Back to top](#Angular)
-### Why would you use renderer methods instead of using native element methods? (Expert)
+### Why would you use renderer methods instead of using native element methods?
 
 Angular is a platform, and the browser is just one option for where we can render our app. When we access the native element directly we are giving up on Angular’s DOM abstraction and miss out on the opportunity to be able to execute also in none-DOM environments such as: 
 * native mobile, 
@@ -749,7 +749,7 @@ The `Renderer2` class is an abstraction provided by Angular in the form of a ser
 * https://alligator.io/angular/using-renderer2/
 
 [[↑] Back to top](#Angular)
-### When does a lazy loaded module is loaded? (Expert)
+### When does a lazy loaded module is loaded?
 
 **Lazy loading** speeds up the application load time by splitting it into multiple bundles, and loading them on demand, as the user navigates throughout the app. As a result, the initial bundle is much smaller, which improves the bootstrap time.
 
@@ -760,7 +760,7 @@ The `Renderer2` class is an abstraction provided by Angular in the form of a ser
 * https://angularfirebase.com/lessons/how-to-lazy-load-components-in-angular-4-in-three-steps/
 
 [[↑] Back to top](#Angular)
-### What is the need for SystemJS in Angular? (Expert)
+### What is the need for SystemJS in Angular?
 
 When `tsc` compiles typescript into JavaScript, you end up with a bunch of js files on your local system. They somehow need to be loaded into a browser. Since browsers don't support native ES6 module loading yet, you have two options, either put them all into your index.html file in the correct order of dependencies, or you can use a loader to do that all for you. You specify the root for all modules, and then all files are loaded and executed by that loader in the correct order of dependencies. There are many loaders: `requirejs`, `webpack`, `systemjs` and others. 
 
@@ -769,7 +769,7 @@ When `tsc` compiles typescript into JavaScript, you end up with a bunch of js fi
 * https://medium.com/wizardnet972/48-answers-on-stack-overflow-to-the-most-popular-angular-questions-52f9eb430ab0
 
 [[↑] Back to top](#Angular)
-### What would be a good use for NgZone service? (Expert)
+### What would be a good use for NgZone service?
 
 The most common use of this service is to optimize performance when starting a work consisting of one or more asynchronous tasks that don't require UI updates or error handling to be handled by Angular. Such tasks can be kicked off via runOutsideAngular and if needed, these tasks can reenter the Angular zone via run.
 
@@ -778,7 +778,7 @@ The most common use of this service is to optimize performance when starting a w
 * https://angular.io/api/core/NgZone
 
 [[↑] Back to top](#Angular)
-### What is Zone in Angular? (Expert)
+### What is Zone in Angular?
 
 `NgZone` is a wrapper around `Zone.js` which is a library that creates a context around asynchronous functions in order to to make them trackable. Angular's change detection is heavily dependent on Zones.
 
@@ -787,7 +787,7 @@ The most common use of this service is to optimize performance when starting a w
 * https://stackoverflow.com/questions/45903493/zones-in-angular
 
 [[↑] Back to top](#Angular)
-### Why would you use lazy loading modules in Angular app? (Expert)
+### Why would you use lazy loading modules in Angular app?
 
 To load a feature module lazily we need to load it using `loadChildren` property in route configuration and that feature module must not be imported in application module. Lazy loading is useful when the application size is growing. In lazy loading, feature module will be loaded on demand and hence application start will be faster. 
 
@@ -816,7 +816,7 @@ const routes: Routes = [
 * https://www.concretepage.com/angular-2/angular-module-loading-eager-lazy-and-preloading
 
 [[↑] Back to top](#Angular)
-### What are the lifecycle hooks for components and directives? (Expert)
+### What are the lifecycle hooks for components and directives?
 
 A component in Angular has a life-cycle, a number of different phases it goes through from birth to death. We can hook into those different phases to get some pretty fine grained control of our application.
 
@@ -851,7 +851,7 @@ Invoked each time the view of the given component has been checked by the change
 * https://codecraft.tv/courses/angular/components/lifecycle-hooks/
 
 [[↑] Back to top](#Angular)
-### How would you insert an embedded view from a prepared TemplateRef? (Expert)
+### How would you insert an embedded view from a prepared TemplateRef?
 
 You can create an embedded view using `createEmbeddedView` method then attach that view to the DOM via `TemplateRef`:
 
@@ -877,7 +877,7 @@ export class AppComponent implements AfterViewChecked {
 * https://stackoverflow.com/questions/40423772/what-is-the-difference-between-a-view-a-host-view-and-an-embedded-view
 
 [[↑] Back to top](#Angular)
-### How to detect a route change in Angular? (Expert)
+### How to detect a route change in Angular?
 
 In Angular you can `subscribe` (Rx event) to a Router instance. So you can do things like:
 
@@ -894,7 +894,7 @@ class MyClass {
 * https://medium.com/wizardnet972/48-answers-on-stack-overflow-to-the-most-popular-angular-questions-52f9eb430ab0
 
 [[↑] Back to top](#Angular)
-### Name and explain some Angular Module Loading examples (Expert)
+### Name and explain some Angular Module Loading examples
 
 A module can be loaded eagerly, lazily and preloaded:
 
@@ -909,7 +909,7 @@ The application module i.e. `AppModule` is loaded eagerly before application sta
 * https://www.concretepage.com/angular-2/angular-module-loading-eager-lazy-and-preloading
 
 [[↑] Back to top](#Angular)
-### What does a just-in-time (JIT) compiler do (in general)? (Expert)
+### What does a just-in-time (JIT) compiler do (in general)?
 
 A JIT compiler runs **after** the program has started and compiles the code (usually bytecode or some kind of VM instructions) on the fly (or just-in-time, as it's called) into a form that's usually faster, typically the host CPU's native instruction set. A JIT has access to dynamic runtime information whereas a standard compiler doesn't and can make better optimizations like inlining functions that are used frequently.
 
@@ -920,7 +920,7 @@ This is in contrast to a traditional compiler that compiles **all** the code to 
 * https://stackoverflow.com/questions/95635/what-does-a-just-in-time-jit-compiler-do
 
 [[↑] Back to top](#Angular)
-### How do you create application to use scss? What changed for Angular 6? (Expert)
+### How do you create application to use scss? What changed for Angular 6?
 
 This is how the style config in the CLI v1.x looks like in .angular-cli.json file.
 
@@ -959,7 +959,7 @@ But if you take a look into a config schema of angular.json file in version 6, y
 * https://medium.com/@vissanu_s/quick-tip-how-to-use-scss-in-angular-cli-6-63d263b3481c
 
 [[↑] Back to top](#Angular)
-### When should I store the "Subscription" instances and invoke `unsubscribe()` during the NgOnDestroy life cycle and when can I simply ignore them? (Expert)
+### When should I store the "Subscription" instances and invoke `unsubscribe()` during the NgOnDestroy life cycle and when can I simply ignore them?
 
 Se should add a 
 ```js
@@ -980,7 +980,7 @@ in our `ngOnDestroy()` methods.
 * https://medium.com/wizardnet972/48-answers-on-stack-overflow-to-the-most-popular-angular-questions-52f9eb430ab0
 
 [[↑] Back to top](#Angular)
-### Are there any pros/cons (especially performance-wise) in using local storage to replace cookie functionality? (Expert)
+### Are there any pros/cons (especially performance-wise) in using local storage to replace cookie functionality?
 
 Cookies and local storage serve different purposes. 
 * Cookies are primarily for reading *server-side*, 
@@ -996,7 +996,7 @@ If it's your server, local storage isn't so useful because you'd have to forward
 * https://stackoverflow.com/questions/3220660/local-storage-vs-cookies
 
 [[↑] Back to top](#Angular)
-### What is Reactive programming and how does it relate to Angular? (Expert)
+### What is Reactive programming and how does it relate to Angular?
 
 Reactive programming is programming with asynchronous data streams. RxJs stands for Reactive Extensions for Javascript, and it's an implementation of Observables for Javascript. An Observable is like a Stream (in many languages) and allows to pass zero or more events where the callback is called for each event. Angular currently uses RxJs Observables in two different ways:
 
@@ -1010,7 +1010,7 @@ You do not need to know Reactive Programming or RxJS in order to build even the 
 * https://github.com/WebPredict/angular-2-interview-questions
 
 [[↑] Back to top](#Angular)
-### Name some security best practices in Angular (Expert)
+### Name some security best practices in Angular
 
 1. To systematically block XSS bugs, Angular treats all values as untrusted by default (sanitation)
 2. Angular templates are the same as executable code: HTML, attributes, and binding expressions (but not the values bound) in templates are trusted to be safe. To prevent these vulnerabilities, use the offline template compiler, also known as template injection.
@@ -1024,7 +1024,7 @@ You do not need to know Reactive Programming or RxJS in order to build even the 
 * https://ordina-jworks.github.io/angular/2018/03/30/angular-security-best-practices.html
 
 [[↑] Back to top](#Angular)
-### Could I use jQuery with Angular? (Expert)
+### Could I use jQuery with Angular?
 
 First install jQuery using npm as follows
 
@@ -1073,7 +1073,7 @@ export class AppComponent implements OnInit {
 * https://medium.com/wizardnet972/48-answers-on-stack-overflow-to-the-most-popular-angular-questions-52f9eb430ab0
 
 [[↑] Back to top](#Angular)
-### What is ngUpgrage?  (Expert)
+### What is ngUpgrage? 
 
 **NgUpgrade** is a library put together by the Angular team, which we can use in our applications to mix and match AngularJS and Angular components and bridge the AngularJS and Angular dependency injection systems.
 
@@ -1082,7 +1082,7 @@ export class AppComponent implements OnInit {
 * https://blog.nrwl.io/ngupgrade-in-depth-436a52298a00
 
 [[↑] Back to top](#Angular)
-### What is the default compilation for Angular 5? (Expert)
+### What is the default compilation for Angular 5?
 
 * `ng serve` is JiT
 * `ng serve -prod` is AoT
@@ -1094,7 +1094,7 @@ export class AppComponent implements OnInit {
 * https://stackoverflow.com/questions/49817163/what-is-the-default-compilation-for-angular-5-aot-or-jit?noredirect=1&lq=1
 
 [[↑] Back to top](#Angular)
-### Do you know how you can run angularJS and angular side by side? (Expert)
+### Do you know how you can run angularJS and angular side by side?
 
 In order to run both frameworks side-by-side and make components interoperable, the Angular projects comes with a module **ngUpgrade**. The module basically acts as an adapter facade, so we don’t really feel that there are two frameworks running side-by-side.
 
@@ -1119,7 +1119,7 @@ Here’s what a typical upgrade process would look like:
 * https://blog.thoughtram.io/angular/2015/10/24/upgrading-apps-to-angular-2-using-ngupgrade.html
 
 [[↑] Back to top](#Angular)
-### What is the difference between BehaviorSubject vs Observable? (Expert)
+### What is the difference between BehaviorSubject vs Observable?
 
 BehaviorSubject is a type of subject, a subject is a special type of observable so you can subscribe to messages like any other observable. The unique features of BehaviorSubject are:
 
@@ -1140,7 +1140,7 @@ In Angular services, I would use BehaviorSubject for a data service as a angular
 * https://medium.com/wizardnet972/48-answers-on-stack-overflow-to-the-most-popular-angular-questions-52f9eb430ab0
 
 [[↑] Back to top](#Angular)
-### What is the Angular equivalent to an AngularJS "$watch"? (Expert)
+### What is the Angular equivalent to an AngularJS "$watch"?
 
 The solution is the `set` syntax from ES6. The `set` syntax binds an object property to a function to be called when there is an attempt to set that property.
 
@@ -1165,7 +1165,7 @@ export class ExampleComponent {
 * https://medium.com/wizardnet972/48-answers-on-stack-overflow-to-the-most-popular-angular-questions-52f9eb430ab0
 
 [[↑] Back to top](#Angular)
-### Just-in-Time (JiT) vs Ahead-of-Time (AoT) compilation. Explain the difference. (Expert)
+### Just-in-Time (JiT) vs Ahead-of-Time (AoT) compilation. Explain the difference.
 
 **JIT** - Compile TypeScript just in time for executing it:
  - Compiled in the browser. 
@@ -1185,7 +1185,7 @@ export class ExampleComponent {
 * https://stackoverflow.com/questions/95635/what-does-a-just-in-time-jit-compiler-do
 
 [[↑] Back to top](#Angular)
-### How would you extract webpack config from angular cli project? (Expert)
+### How would you extract webpack config from angular cli project?
 
  We usually use Angular CLI to scaffold our Angular app, but in this case, webpack file is hidden. `ng eject` was used if you need to do something a lot more advance or custom with webpack than what the cli provides for commands like `ng build` and `ng serve`. So it generates a `webpack.config.js` based on the configurations that the cli uses, so that you can then customize it further. However, that also means that you'll be able to use certain commands like `ng build` and `ng serve`.
 
@@ -1200,7 +1200,7 @@ If you need to eject today, use CLI 1.7 to eject your project.
 * https://medium.com/@s2dent/from-angular-cli-to-webpack-2-and-other-production-solutions-with-examples-f127abe06842
 
 [[↑] Back to top](#Angular)
-### Is there no equivalent to `$scope.emit()` or `$scope.broadcast()` in Angular? (Expert)
+### Is there no equivalent to `$scope.emit()` or `$scope.broadcast()` in Angular?
 
 There is no equivalent to `$scope.emit()` or `$scope.broadcast()` from AngularJS. EventEmitter inside of a component comes close, but it will only emit an event to the immediate parent component.
 
@@ -1218,7 +1218,7 @@ To communicate between a Root component and a component nested several levels de
 * https://medium.com/wizardnet972/48-answers-on-stack-overflow-to-the-most-popular-angular-questions-52f9eb430ab0
 
 [[↑] Back to top](#Angular)
-### Could you provide some particular examples of using ngZone? (Expert)
+### Could you provide some particular examples of using ngZone?
 
 There would be a lot of cases when you want to use `NgZone`, I can name two :
 1. When you want something to run outside of Angular's change detection.
@@ -1249,7 +1249,7 @@ this.zone.run(()=>{
 * https://stackoverflow.com/questions/45903493/zones-in-angular
 
 [[↑] Back to top](#Angular)
-### Name some differences between SystemJS vs WebPack? (Expert)
+### Name some differences between SystemJS vs WebPack?
 
 **SystemJS**:
 * SystemJS is known to be quirky with dependencies that it uses for its own polyfill
@@ -1271,7 +1271,7 @@ this.zone.run(()=>{
 * http://vteams.com/blog/systemjs-vs-webpack/
 
 [[↑] Back to top](#Angular)
-### Why angular uses url segment? (Expert)
+### Why angular uses url segment?
 
 A **UrlSegment** is a part of a URL between the two slashes. It contains a path and the _matrix parameters_ associated with the segment.
 
@@ -1310,7 +1310,7 @@ With an Angular app, the only people who really care about these parameters are 
 * https://stackoverflow.com/questions/40171262/angular2-with-matrix-url-notation
 
 [[↑] Back to top](#Angular)
-### When to use query parameters versus matrix parameters? (Expert)
+### When to use query parameters versus matrix parameters?
 
 The differences between Matrix parameters and Query Parameters are much more than just convention.
 

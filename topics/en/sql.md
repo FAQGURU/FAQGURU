@@ -1,120 +1,120 @@
 ## SQL
 
-[What is PRIMARY KEY? (Junior)](#what-is-primary-key-junior)
+[What is PRIMARY KEY?](#what-is-primary-key-junior)
 
-[Define a temp table  (Junior)](#define-a-temp-table--junior)
+[Define a temp table ](#define-a-temp-table--junior)
 
-[What is a view? (Junior)](#what-is-a-view-junior)
+[What is a view?](#what-is-a-view-junior)
 
-[What’s the difference between a local  temp table and a global temp table?  (Mid)](#whats-the-difference-between-a-local--temp-table-and-a-global-temp-table--mid)
+[What’s the difference between a local  temp table and a global temp table? ](#whats-the-difference-between-a-local--temp-table-and-a-global-temp-table--mid)
 
-[What is blocking? (Mid)](#what-is-blocking-mid)
+[What is blocking?](#what-is-blocking-mid)
 
-[What is the difference between WHERE clause and HAVING clause? (Mid)](#what-is-the-difference-between-where-clause-and-having-clause-mid)
+[What is the difference between WHERE clause and HAVING clause?](#what-is-the-difference-between-where-clause-and-having-clause-mid)
 
-[What is FOREIGN KEY? (Mid)](#what-is-foreign-key-mid)
+[What is FOREIGN KEY?](#what-is-foreign-key-mid)
 
-[What is Normalization? (Mid)](#what-is-normalization-mid)
+[What is Normalization?](#what-is-normalization-mid)
 
-[How can a column with a default value be added to an existing table? (Mid)](#how-can-a-column-with-a-default-value-be-added-to-an-existing-table-mid)
+[How can a column with a default value be added to an existing table?](#how-can-a-column-with-a-default-value-be-added-to-an-existing-table-mid)
 
-[What is DEFAULT? (Mid)](#what-is-default-mid)
+[What is DEFAULT?](#what-is-default-mid)
 
-[What is the difference between inner and outer join? (Senior)](#what-is-the-difference-between-inner-and-outer-join-senior)
+[What is the difference between inner and outer join?](#what-is-the-difference-between-inner-and-outer-join-senior)
 
-[Discuss INNER JOIN ON vs WHERE clause (Senior)](#discuss-inner-join-on-vs-where-clause-senior)
+[Discuss INNER JOIN ON vs WHERE clause](#discuss-inner-join-on-vs-where-clause-senior)
 
-[What are the difference between clustered and a non-clustered index? (Senior)](#what-are-the-difference-between-clustered-and-a-non-clustered-index-senior)
+[What are the difference between clustered and a non-clustered index?](#what-are-the-difference-between-clustered-and-a-non-clustered-index-senior)
 
-[How do I perform an IF…THEN in an SQL SELECT? (Senior)](#how-do-i-perform-an-ifthen-in-an-sql-select-senior)
+[How do I perform an IF…THEN in an SQL SELECT?](#how-do-i-perform-an-ifthen-in-an-sql-select-senior)
 
-[Finding duplicate values in a SQL table (Senior)](#finding-duplicate-values-in-a-sql-table-senior)
+[Finding duplicate values in a SQL table](#finding-duplicate-values-in-a-sql-table-senior)
 
-[How does a hash table index work? (Senior)](#how-does-a-hash-table-index-work-senior)
+[How does a hash table index work?](#how-does-a-hash-table-index-work-senior)
 
-[What are the advantages of using Stored Procedures? (Senior)](#what-are-the-advantages-of-using-stored-procedures-senior)
+[What are the advantages of using Stored Procedures?](#what-are-the-advantages-of-using-stored-procedures-senior)
 
-[What is Denormalization? (Senior)](#what-is-denormalization-senior)
+[What is Denormalization?](#what-is-denormalization-senior)
 
-[How to select first 5 records from a table? (Senior)](#how-to-select-first-5-records-from-a-table-senior)
+[How to select first 5 records from a table?](#how-to-select-first-5-records-from-a-table-senior)
 
-[Define ACID Properties (Senior)](#define-acid-properties-senior)
+[Define ACID Properties](#define-acid-properties-senior)
 
-[How a database index can help performance? (Senior)](#how-a-database-index-can-help-performance-senior)
+[How a database index can help performance?](#how-a-database-index-can-help-performance-senior)
 
-[What is the difference between UNION and UNION ALL?	 (Senior)](#what-is-the-difference-between-union-and-union-all	-senior)
+[What is the difference between UNION and UNION ALL?	](#what-is-the-difference-between-union-and-union-all	-senior)
 
-[What is a cursor how does it work? (Senior)](#what-is-a-cursor-how-does-it-work-senior)
+[What is a cursor how does it work?](#what-is-a-cursor-how-does-it-work-senior)
 
-[How do I UPDATE from a SELECT in SQL Server? (Senior)](#how-do-i-update-from-a-select-in-sql-server-senior)
+[How do I UPDATE from a SELECT in SQL Server?](#how-do-i-update-from-a-select-in-sql-server-senior)
 
-[What is the difference between “INNER JOIN” and “OUTER JOIN”? (Senior)](#what-is-the-difference-between-inner-join-and-outer-join-senior)
+[What is the difference between “INNER JOIN” and “OUTER JOIN”?](#what-is-the-difference-between-inner-join-and-outer-join-senior)
 
-[Is table size reduced, when you delete data from the table? (Senior)](#is-table-size-reduced-when-you-delete-data-from-the-table-senior)
+[Is table size reduced, when you delete data from the table?](#is-table-size-reduced-when-you-delete-data-from-the-table-senior)
 
-[Explain Function vs. Stored Procedure in SQL Server (Senior)](#explain-function-vs-stored-procedure-in-sql-server-senior)
+[Explain Function vs. Stored Procedure in SQL Server](#explain-function-vs-stored-procedure-in-sql-server-senior)
 
-[What are row constructors? (Senior)](#what-are-row-constructors-senior)
+[What are row constructors?](#what-are-row-constructors-senior)
 
-[What is the difference between JOIN and UNION? (Senior)](#what-is-the-difference-between-join-and-union-senior)
+[What is the difference between JOIN and UNION?](#what-is-the-difference-between-join-and-union-senior)
 
-[What is collation? (Senior)](#what-is-collation-senior)
+[What is collation?](#what-is-collation-senior)
 
-[Describe the difference between truncate and delete  (Senior)](#describe-the-difference-between-truncate-and-delete--senior)
+[Describe the difference between truncate and delete ](#describe-the-difference-between-truncate-and-delete--senior)
 
-[How does B-trees index work? (Expert)](#how-does-b-trees-index-work-expert)
+[How does B-trees index work?](#how-does-b-trees-index-work-expert)
 
-[What are statistics? (Expert)](#what-are-statistics-expert)
+[What are statistics?](#what-are-statistics-expert)
 
-[How deadlock is resolved? (Expert)](#how-deadlock-is-resolved-expert)
+[How deadlock is resolved?](#how-deadlock-is-resolved-expert)
 
-[What is the difference among UNION, MINUS and INTERSECT? (Expert)](#what-is-the-difference-among-union-minus-and-intersect-expert)
+[What is the difference among UNION, MINUS and INTERSECT?](#what-is-the-difference-among-union-minus-and-intersect-expert)
 
-[What is a filegroup? (Expert)](#what-is-a-filegroup-expert)
+[What is a filegroup?](#what-is-a-filegroup-expert)
 
-[How can I do an UPDATE statement with JOIN in SQL? (Expert)](#how-can-i-do-an-update-statement-with-join-in-sql-expert)
+[How can I do an UPDATE statement with JOIN in SQL?](#how-can-i-do-an-update-statement-with-join-in-sql-expert)
 
-[How does truncate and delete operation effect Identity? (Expert)](#how-does-truncate-and-delete-operation-effect-identity-expert)
+[How does truncate and delete operation effect Identity?](#how-does-truncate-and-delete-operation-effect-identity-expert)
 
-[Explain a usage difference between user defined functions and stored procedures (Expert)](#explain-a-usage-difference-between-user-defined-functions-and-stored-procedures-expert)
+[Explain a usage difference between user defined functions and stored procedures](#explain-a-usage-difference-between-user-defined-functions-and-stored-procedures-expert)
 
-[What is a linked server? (Expert)](#what-is-a-linked-server-expert)
+[What is a linked server?](#what-is-a-linked-server-expert)
 
-[How can we transpose a table using SQL (changing rows to column or vice-versa) ? (Expert)](#how-can-we-transpose-a-table-using-sql-changing-rows-to-column-or-vice-versa--expert)
+[How can we transpose a table using SQL (changing rows to column or vice-versa) ?](#how-can-we-transpose-a-table-using-sql-changing-rows-to-column-or-vice-versa--expert)
 
-[What would happen without an index? (Expert)](#what-would-happen-without-an-index-expert)
+[What would happen without an index?](#what-would-happen-without-an-index-expert)
 
-[Name types of Triggers (Expert)](#name-types-of-triggers-expert)
+[Name types of Triggers](#name-types-of-triggers-expert)
 
-[What are DMV's and DMF's? (Expert)](#what-are-dmvs-and-dmfs-expert)
+[What are DMV's and DMF's?](#what-are-dmvs-and-dmfs-expert)
 
-[What's the difference between a primary key and a unique key? (Expert)](#whats-the-difference-between-a-primary-key-and-a-unique-key-expert)
+[What's the difference between a primary key and a unique key?](#whats-the-difference-between-a-primary-key-and-a-unique-key-expert)
 
-[Delete duplicate values in a SQL table (Expert)](#delete-duplicate-values-in-a-sql-table-expert)
+[Delete duplicate values in a SQL table](#delete-duplicate-values-in-a-sql-table-expert)
 
-[What is the cost of having a database index? (Expert)](#what-is-the-cost-of-having-a-database-index-expert)
+[What is the cost of having a database index?](#what-is-the-cost-of-having-a-database-index-expert)
 
-[How to generate row number in SQL Without ROWNUM (Expert)](#how-to-generate-row-number-in-sql-without-rownum-expert)
+[How to generate row number in SQL Without ROWNUM](#how-to-generate-row-number-in-sql-without-rownum-expert)
 
-[Explain the difference between exclusive lock and update lock (Expert)](#explain-the-difference-between-exclusive-lock-and-update-lock-expert)
+[Explain the difference between exclusive lock and update lock](#explain-the-difference-between-exclusive-lock-and-update-lock-expert)
 
-[Insert results of a stored procedure into a temporary table (Expert)](#insert-results-of-a-stored-procedure-into-a-temporary-table-expert)
+[Insert results of a stored procedure into a temporary table](#insert-results-of-a-stored-procedure-into-a-temporary-table-expert)
 
-[What are some other types of indexes? (Expert)](#what-are-some-other-types-of-indexes-expert)
+[What are some other types of indexes?](#what-are-some-other-types-of-indexes-expert)
 
-[Name some disadvantages of a hash index (Expert)](#name-some-disadvantages-of-a-hash-index-expert)
+[Name some disadvantages of a hash index](#name-some-disadvantages-of-a-hash-index-expert)
 
-[How does database indexing work? (Expert)](#how-does-database-indexing-work-expert)
+[How does database indexing work?](#how-does-database-indexing-work-expert)
 
-[How does primary key constraint and unique key constraint effect null? (Expert)](#how-does-primary-key-constraint-and-unique-key-constraint-effect-null-expert)
+[How does primary key constraint and unique key constraint effect null?](#how-does-primary-key-constraint-and-unique-key-constraint-effect-null-expert)
 
-[Select first row in each GROUP BY group (greatest-n-per-group problem)? (Expert)](#select-first-row-in-each-group-by-group-greatest-n-per-group-problem-expert)
+[Select first row in each GROUP BY group (greatest-n-per-group problem)?](#select-first-row-in-each-group-by-group-greatest-n-per-group-problem-expert)
 
-[What is Optimistic Locking and Pessimistic locking? (Expert)](#what-is-optimistic-locking-and-pessimistic-locking-expert)
+[What is Optimistic Locking and Pessimistic locking?](#what-is-optimistic-locking-and-pessimistic-locking-expert)
 
 
 
-### What is PRIMARY KEY? (Junior)
+### What is PRIMARY KEY?
 
 A **PRIMARY KEY** constraint is a unique identifier for a row within a database table. Every table should have a primary key constraint to uniquely identify each row and only one primary key constraint can be created for each table. The primary key constraints are used to enforce entity integrity.
 
@@ -123,7 +123,7 @@ A **PRIMARY KEY** constraint is a unique identifier for a row within a database 
 * https://github.com/dhaval1406/SQL
 
 [[↑] Back to top](#SQL)
-### Define a temp table  (Junior)
+### Define a temp table 
 
 In a nutshell, a temp table is a temporary storage structure. What does that mean? Basically, you can use a temp table to store data temporarily so you can manipulate and change it before it reaches its destination format.
 
@@ -132,7 +132,7 @@ In a nutshell, a temp table is a temporary storage structure. What does that mea
 * https://github.com/dhaval1406/SQL
 
 [[↑] Back to top](#SQL)
-### What is a view? (Junior)
+### What is a view?
 
 A **view** is simply a virtual table that is made up of elements of multiple physical or “real” tables. Views are most commonly used to join multiple tables together, or control access to any tables existing in background server processes.	
 
@@ -141,7 +141,7 @@ A **view** is simply a virtual table that is made up of elements of multiple phy
 * https://github.com/dhaval1406/SQL
 
 [[↑] Back to top](#SQL)
-### What’s the difference between a local  temp table and a global temp table?  (Mid)
+### What’s the difference between a local  temp table and a global temp table? 
 
 * **Local tables** are accessible to a current user connected to the server. These tables disappear once the user has disconnected from the server. 
 * **Global temp** tables, on the other hand, are available to all users regardless of the connection. These tables stay active until all the global connections are closed.
@@ -151,7 +151,7 @@ A **view** is simply a virtual table that is made up of elements of multiple phy
 * https://github.com/dhaval1406/SQL
 
 [[↑] Back to top](#SQL)
-### What is blocking? (Mid)
+### What is blocking?
 
 SQL Server blocking occurs when one connection holds a lock on a record and other connection tries to fetch the record or update the record.
 
@@ -160,7 +160,7 @@ SQL Server blocking occurs when one connection holds a lock on a record and othe
 * https://github.com/chetansomani/SQL-Interview-Questions
 
 [[↑] Back to top](#SQL)
-### What is the difference between WHERE clause and HAVING clause? (Mid)
+### What is the difference between WHERE clause and HAVING clause?
 
 - WHERE clause can only be applied on a static non-aggregated column 
 - we will need to use HAVING for aggregated columns.
@@ -170,7 +170,7 @@ SQL Server blocking occurs when one connection holds a lock on a record and othe
 * https://github.com/dhaval1406/SQL
 
 [[↑] Back to top](#SQL)
-### What is FOREIGN KEY? (Mid)
+### What is FOREIGN KEY?
 
 A **FOREIGN KEY** constraint prevents any actions that would destroy links between tables with the corresponding data values. A foreign key in one table points to a primary key in another table. Foreign keys prevent actions that would leave rows with foreign key values when there are no primary keys with that value. The foreign key constraints are used to enforce referential integrity.
 
@@ -179,7 +179,7 @@ A **FOREIGN KEY** constraint prevents any actions that would destroy links betwe
 * https://github.com/dhaval1406/SQL
 
 [[↑] Back to top](#SQL)
-### What is Normalization? (Mid)
+### What is Normalization?
 
 It is the process of eliminating redundant data and maintaining data dependencies.
 
@@ -188,7 +188,7 @@ It is the process of eliminating redundant data and maintaining data dependencie
 * https://github.com/dhaval1406/SQL
 
 [[↑] Back to top](#SQL)
-### How can a column with a default value be added to an existing table? (Mid)
+### How can a column with a default value be added to an existing table?
 
 Consider:
 ```sql
@@ -205,7 +205,7 @@ Keep in mind that if the column is nullable, then null will be the value used fo
 * https://github.com/chetansomani/SQL-Interview-Questions
 
 [[↑] Back to top](#SQL)
-### What is DEFAULT? (Mid)
+### What is DEFAULT?
 
 **Default** allows to add values to the column if the value of that column is not set. Default can be defined on number and datetime fields. They cannot be defined on timestamp and IDENTITY columns.
 
@@ -214,7 +214,7 @@ Keep in mind that if the column is nullable, then null will be the value used fo
 * https://github.com/chetansomani/SQL-Interview-Questions
 
 [[↑] Back to top](#SQL)
-### What is the difference between inner and outer join? (Senior)
+### What is the difference between inner and outer join?
 
 - Inner join returns rows when there is at least one match in both tables
 - Outer join will return matching rows from both tables as well as any unmatched rows from one or both the tables 
@@ -224,7 +224,7 @@ Keep in mind that if the column is nullable, then null will be the value used fo
 * https://github.com/dhaval1406/SQL
 
 [[↑] Back to top](#SQL)
-### Discuss INNER JOIN ON vs WHERE clause (Senior)
+### Discuss INNER JOIN ON vs WHERE clause
 
 `INNER JOIN` is ANSI syntax which you should use. INNER JOIN helps human readability, and that's a top priority. It can also be easily replaced with an OUTER JOIN whenever a need arises.
 
@@ -235,7 +235,7 @@ Implicit joins (with multiple `FROM` tables) become much much more confusing, ha
 * https://stackoverflow.com/questions/3800551/select-first-row-in-each-group-by-group
 
 [[↑] Back to top](#SQL)
-### What are the difference between clustered and a non-clustered index? (Senior)
+### What are the difference between clustered and a non-clustered index?
 
 * A **clustered index** is a special type of index that reorders the way records in the table are physically stored. Therefore table can have only one clustered index. The leaf nodes of a clustered index contain the data pages.
 	
@@ -246,7 +246,7 @@ Implicit joins (with multiple `FROM` tables) become much much more confusing, ha
 * https://github.com/dhaval1406/SQL
 
 [[↑] Back to top](#SQL)
-### How do I perform an IF…THEN in an SQL SELECT? (Senior)
+### How do I perform an IF…THEN in an SQL SELECT?
 
 The CASE statement is the closest to IF in SQL and is supported on all versions of SQL Server:
 ```sql
@@ -267,7 +267,7 @@ FROM
 * https://stackoverflow.com/questions/63447/how-do-i-perform-an-if-then-in-an-sql-select
 
 [[↑] Back to top](#SQL)
-### Finding duplicate values in a SQL table (Senior)
+### Finding duplicate values in a SQL table
 
 Simply group on both of the columns:
 ```sql
@@ -286,7 +286,7 @@ HAVING
 * https://stackoverflow.com/questions/2594829/finding-duplicate-values-in-a-sql-table
 
 [[↑] Back to top](#SQL)
-### How does a hash table index work? (Senior)
+### How does a hash table index work?
 
 The reason hash indexes are used is because hash tables are extremely efficient when it comes to just looking up values. So, queries that compare for equality to a string can retrieve values very fast if they use a hash index.
 
@@ -297,7 +297,7 @@ For instance, the query in the question could benefit from a hash index created 
 * https://stackoverflow.com/questions/1108/how-does-database-indexing-work
 
 [[↑] Back to top](#SQL)
-### What are the advantages of using Stored Procedures? (Senior)
+### What are the advantages of using Stored Procedures?
 
 * Stored procedure can reduced network traffic and latency, boosting application performance.
 * Stored procedure execution plans can be reused, staying cached in SQL Server's memory, reducing server overhead.
@@ -311,7 +311,7 @@ For instance, the query in the question could benefit from a hash index created 
 * https://github.com/dhaval1406/SQL
 
 [[↑] Back to top](#SQL)
-### What is Denormalization? (Senior)
+### What is Denormalization?
 
 It is the process of improving the performance of the database by _adding_ redundant data.
 
@@ -320,7 +320,7 @@ It is the process of improving the performance of the database by _adding_ redun
 * https://github.com/dhaval1406/SQL
 
 [[↑] Back to top](#SQL)
-### How to select first 5 records from a table? (Senior)
+### How to select first 5 records from a table?
 
 ```sql
 -- SQL Server
@@ -342,7 +342,7 @@ SELECT  name  FROM EMPLOYEE o
 * https://github.com/dhaval1406/SQL
 
 [[↑] Back to top](#SQL)
-### Define ACID Properties (Senior)
+### Define ACID Properties
 
 * **Atomicity**: It ensures all-or-none rule for database modifications.
 * **Consistency**: Data values are consistent across the database.
@@ -354,7 +354,7 @@ SELECT  name  FROM EMPLOYEE o
 * https://github.com/chetansomani/SQL-Interview-Questions
 
 [[↑] Back to top](#SQL)
-### How a database index can help performance? (Senior)
+### How a database index can help performance?
 
 The whole point of having an index is to speed up search queries by essentially cutting down the number of records/rows in a table that need to be examined. An index is a data structure (most commonly a B- tree) that stores the values for a specific column in a table.
 
@@ -363,7 +363,7 @@ The whole point of having an index is to speed up search queries by essentially 
 * https://stackoverflow.com/questions/1108/how-does-database-indexing-work
 
 [[↑] Back to top](#SQL)
-### What is the difference between UNION and UNION ALL?	 (Senior)
+### What is the difference between UNION and UNION ALL?	
 
 - UNION operation returns only the unique records from the resulting data set  
 - UNION ALL will return all the rows, even if one or more rows are duplicated to each other.
@@ -373,7 +373,7 @@ The whole point of having an index is to speed up search queries by essentially 
 * https://github.com/dhaval1406/SQL
 
 [[↑] Back to top](#SQL)
-### What is a cursor how does it work? (Senior)
+### What is a cursor how does it work?
 
 **Cursor** is a database object used to manipulate data in row-by-row basis. Steps involved: 
 * Declare a cursor
@@ -388,7 +388,7 @@ The whole point of having an index is to speed up search queries by essentially 
 * https://github.com/chetansomani/SQL-Interview-Questions
 
 [[↑] Back to top](#SQL)
-### How do I UPDATE from a SELECT in SQL Server? (Senior)
+### How do I UPDATE from a SELECT in SQL Server?
 
 ```sql
 UPDATE
@@ -420,7 +420,7 @@ WHEN MATCHED THEN
 * https://github.com/chetansomani/SQL-Interview-Questions
 
 [[↑] Back to top](#SQL)
-### What is the difference between “INNER JOIN” and “OUTER JOIN”? (Senior)
+### What is the difference between “INNER JOIN” and “OUTER JOIN”?
 
 Assuming you're joining on columns with no duplicates, which is a very common case:
 
@@ -442,7 +442,7 @@ Assuming you're joining on columns with no duplicates, which is a very common ca
 * https://github.com/chetansomani/SQL-Interview-Questions
 
 [[↑] Back to top](#SQL)
-### Is table size reduced, when you delete data from the table? (Senior)
+### Is table size reduced, when you delete data from the table?
 
 No the table size is not reduced, indeed the sql server marks those rows as free rows. Once you insert the new data, the free rows will get updated and then the size of the table is changed based on the data insertion. If the data is not inserted, then after a while, the rows are eliminated.
 
@@ -451,7 +451,7 @@ No the table size is not reduced, indeed the sql server marks those rows as free
 * https://github.com/chetansomani/SQL-Interview-Questions
 
 [[↑] Back to top](#SQL)
-### Explain Function vs. Stored Procedure in SQL Server (Senior)
+### Explain Function vs. Stored Procedure in SQL Server
 
 The difference between SP and UDF is listed below:
 
@@ -483,7 +483,7 @@ The difference between SP and UDF is listed below:
 * https://stackoverflow.com/questions/1179758/function-vs-stored-procedure-in-sql-server
 
 [[↑] Back to top](#SQL)
-### What are row constructors? (Senior)
+### What are row constructors?
 
 **ROW Constructor** or **Table Value Constructor** means to create a row set by using the `VALUES()` clause. This allows multiple rows of data to be specified in a single DML statement.
 
@@ -505,7 +505,7 @@ VALUES
 * https://github.com/chetansomani/SQL-Interview-Questions
 
 [[↑] Back to top](#SQL)
-### What is the difference between JOIN and UNION? (Senior)
+### What is the difference between JOIN and UNION?
 
 - SQL JOIN allows us to “lookup” records on other table based on the given conditions between two tables. 
 - UNION operation allows us to add 2 similar data sets to create resulting data set that contains all the data from the source data sets. Union does not require any condition for joining.
@@ -515,7 +515,7 @@ VALUES
 * https://github.com/dhaval1406/SQL
 
 [[↑] Back to top](#SQL)
-### What is collation? (Senior)
+### What is collation?
 
 **Collation** defines a set of rules that determines how data is sorted and compared. Once the collation has been defined, you cannot change the collation rules until you re-create it or drop the entity.
 
@@ -524,7 +524,7 @@ VALUES
 * https://github.com/chetansomani/SQL-Interview-Questions
 
 [[↑] Back to top](#SQL)
-### Describe the difference between truncate and delete  (Senior)
+### Describe the difference between truncate and delete 
 
 * **Delete** command removes the rows from a table based on the condition that we provide with a WHERE clause. 
 
@@ -535,7 +535,7 @@ VALUES
 * https://github.com/dhaval1406/SQL
 
 [[↑] Back to top](#SQL)
-### How does B-trees index work? (Expert)
+### How does B-trees index work?
 
 The reason **B- trees** are the most popular data structure for indexes is due to the fact that they are time efficient – because look-ups, deletions, and insertions can all be done in _logarithmic time_. And, another major reason B- trees are more commonly used is because the data that is stored inside the B- tree can be sorted. The RDBMS typically determines which data structure is actually used for an index. But, in some scenarios with certain RDBMS’s, you can actually specify which data structure you want your database to use when you create the index itself.
 
@@ -544,7 +544,7 @@ The reason **B- trees** are the most popular data structure for indexes is due t
 * https://stackoverflow.com/questions/1108/how-does-database-indexing-work
 
 [[↑] Back to top](#SQL)
-### What are statistics? (Expert)
+### What are statistics?
 
 **Statistics** define how well a query can be executed with low resource consumption.
 
@@ -553,7 +553,7 @@ The reason **B- trees** are the most popular data structure for indexes is due t
 * https://github.com/chetansomani/SQL-Interview-Questions
 
 [[↑] Back to top](#SQL)
-### How deadlock is resolved? (Expert)
+### How deadlock is resolved?
 
 Deadlock is automatically resolved by SQL Server. It identifies the process which has less overhead and accordingly it rollbacks the transaction associated with that process.
 
@@ -562,7 +562,7 @@ Deadlock is automatically resolved by SQL Server. It identifies the process whic
 * https://github.com/chetansomani/SQL-Interview-Questions
 
 [[↑] Back to top](#SQL)
-### What is the difference among UNION, MINUS and INTERSECT? (Expert)
+### What is the difference among UNION, MINUS and INTERSECT?
 
 - UNION combines the results from 2 tables and eliminates duplicate records from the result set.
 - MINUS operator when used between 2 tables, gives us all the rows from the first table except the rows which are present in the second table.
@@ -573,7 +573,7 @@ Deadlock is automatically resolved by SQL Server. It identifies the process whic
 * https://github.com/dhaval1406/SQL
 
 [[↑] Back to top](#SQL)
-### What is a filegroup? (Expert)
+### What is a filegroup?
 
 **Filegroup** is a collection of datafiles which are managed as a single unit. You can have one primary filegroup per database and many user defined filegroups. Log files cannot be part of a filegroup due to difference in structure.
 
@@ -582,7 +582,7 @@ Deadlock is automatically resolved by SQL Server. It identifies the process whic
 * https://github.com/chetansomani/SQL-Interview-Questions
 
 [[↑] Back to top](#SQL)
-### How can I do an UPDATE statement with JOIN in SQL? (Expert)
+### How can I do an UPDATE statement with JOIN in SQL?
 
 ```sql
 update u
@@ -605,7 +605,7 @@ where sale.udid = id
 * https://stackoverflow.com/questions/1293330/how-can-i-do-an-update-statement-with-join-in-sql
 
 [[↑] Back to top](#SQL)
-### How does truncate and delete operation effect Identity? (Expert)
+### How does truncate and delete operation effect Identity?
 
 Truncate _resets_ the Identity to its base value where as _delete_ does not reset it to the base value.
 
@@ -614,7 +614,7 @@ Truncate _resets_ the Identity to its base value where as _delete_ does not rese
 * https://github.com/chetansomani/SQL-Interview-Questions
 
 [[↑] Back to top](#SQL)
-### Explain a usage difference between user defined functions and stored procedures (Expert)
+### Explain a usage difference between user defined functions and stored procedures
 
 **User defined functions** can be used anywhere in the queries i.e. within where/having/select section where as stored procedures can't. 
 
@@ -625,7 +625,7 @@ Truncate _resets_ the Identity to its base value where as _delete_ does not rese
 * https://github.com/chetansomani/SQL-Interview-Questions
 
 [[↑] Back to top](#SQL)
-### What is a linked server? (Expert)
+### What is a linked server?
 
 **Linked server** facilitates the ease of linking with heterogeneous servers. Using linked servers, you can manipulate data on the remote servers and even integrate with local data. 
 
@@ -636,7 +636,7 @@ Stored procedures: `sp_linkedservers` gives you the list of linked servers avail
 * https://github.com/chetansomani/SQL-Interview-Questions
 
 [[↑] Back to top](#SQL)
-### How can we transpose a table using SQL (changing rows to column or vice-versa) ? (Expert)
+### How can we transpose a table using SQL (changing rows to column or vice-versa) ?
 
 The usual way to do it in SQL is to use CASE statement or DECODE statement
 
@@ -645,7 +645,7 @@ The usual way to do it in SQL is to use CASE statement or DECODE statement
 * https://github.com/dhaval1406/SQL
 
 [[↑] Back to top](#SQL)
-### What would happen without an index? (Expert)
+### What would happen without an index?
 
 Database software would literally have to look at every single row in the `Employee` table to see if the `Employee_Name` for that row is ‘Abc’. And, because we want every row with the name ‘Abc’ inside it, we can not just stop looking once we find just one row with the name ‘Abc’, because there could be other rows with the name Abc. So, every row up until the last row must be searched – which means thousands of rows in this scenario will have to be examined by the database to find the rows with the name ‘Abc’. This is what is called a **full table scan**.
 
@@ -654,7 +654,7 @@ Database software would literally have to look at every single row in the `Emplo
 * https://stackoverflow.com/questions/1108/how-does-database-indexing-work
 
 [[↑] Back to top](#SQL)
-### Name types of Triggers (Expert)
+### Name types of Triggers
 
 They are three different types of triggers:
    1. **DML Triggers**: These are of two kinds:
@@ -668,7 +668,7 @@ They are three different types of triggers:
 * https://github.com/chetansomani/SQL-Interview-Questions
 
 [[↑] Back to top](#SQL)
-### What are DMV's and DMF's? (Expert)
+### What are DMV's and DMF's?
 
 **Data management views** and **data management functions** provide information about the state of sql server in other words they are responsible for providing information about health of the sql server.
 
@@ -677,7 +677,7 @@ They are three different types of triggers:
 * https://github.com/chetansomani/SQL-Interview-Questions
 
 [[↑] Back to top](#SQL)
-### What's the difference between a primary key and a unique key? (Expert)
+### What's the difference between a primary key and a unique key?
 
 Both primary key and unique key enforces uniqueness of the column on which they are defined. 
 
@@ -690,7 +690,7 @@ Another major difference is that, _primary key doesn't allow NULLs, but unique k
 * https://github.com/dhaval1406/SQL
 
 [[↑] Back to top](#SQL)
-### Delete duplicate values in a SQL table (Expert)
+### Delete duplicate values in a SQL table
 
 Consider:
 ```sql
@@ -724,7 +724,7 @@ SELECT * FROM @YourTable
 * https://stackoverflow.com/questions/2594829/finding-duplicate-values-in-a-sql-table
 
 [[↑] Back to top](#SQL)
-### What is the cost of having a database index? (Expert)
+### What is the cost of having a database index?
 
 It takes up space – and the larger your table, the larger your index. Another performance hit with indexes is the fact that whenever you add, delete, or update rows in the corresponding table, the same operations will have to be done to your index. Remember that an index needs to contain the same up to the minute data as whatever is in the table column(s) that the index covers.
 
@@ -735,7 +735,7 @@ As a general rule, an index should only be created on a table if the data in the
 * https://stackoverflow.com/questions/1108/how-does-database-indexing-work
 
 [[↑] Back to top](#SQL)
-### How to generate row number in SQL Without ROWNUM (Expert)
+### How to generate row number in SQL Without ROWNUM
 
 Consider:
 ```sql
@@ -749,7 +749,7 @@ SELECT name, sal, (SELECT COUNT(*)  FROM EMPLOYEE i WHERE o.name >= i.name) row_
 * https://github.com/dhaval1406/SQL
 
 [[↑] Back to top](#SQL)
-### Explain the difference between exclusive lock and update lock (Expert)
+### Explain the difference between exclusive lock and update lock
 
 * In case of **exclusive lock**, no other lock can be acquired on that row or table. Every process has to wait until the process which holds the lock releases it.
 
@@ -760,7 +760,7 @@ SELECT name, sal, (SELECT COUNT(*)  FROM EMPLOYEE i WHERE o.name >= i.name) row_
 * https://github.com/chetansomani/SQL-Interview-Questions
 
 [[↑] Back to top](#SQL)
-### Insert results of a stored procedure into a temporary table (Expert)
+### Insert results of a stored procedure into a temporary table
 
 You can use OPENROWSET for this. I've also included the sp_configure code to enable Ad Hoc Distributed Queries, in case it isn't already enabled.
 
@@ -792,7 +792,7 @@ SELECT * FROM #MyTempTable
 * https://stackoverflow.com/questions/653714/insert-results-of-a-stored-procedure-into-a-temporary-table
 
 [[↑] Back to top](#SQL)
-### What are some other types of indexes? (Expert)
+### What are some other types of indexes?
 
 Indexes that use a **R-tree** data structure are commonly used to help with _spatial_ problems. For instance, a query like “Find all of the Starbucks within 2 kilometers of me” would be the type of query that could show enhanced performance if the database table uses a R- tree index.
 
@@ -803,7 +803,7 @@ Another type of index is a **bitmap index**, which work well on columns that con
 * https://www.programmerinterview.com/index.php/database-sql/what-is-an-index/
 
 [[↑] Back to top](#SQL)
-### Name some disadvantages of a hash index (Expert)
+### Name some disadvantages of a hash index
 
 Hash tables are not sorted data structures, and there are many types of queries which hash indexes can not even help with. For instance, suppose you want to find out all of the employees who are less than 40 years old. How could you do that with a hash table index? Well, it’s not possible because a hash table is only good for looking up key value pairs – which means queries that check just for _equality_.
 
@@ -812,7 +812,7 @@ Hash tables are not sorted data structures, and there are many types of queries 
 * https://stackoverflow.com/questions/1108/how-does-database-indexing-work
 
 [[↑] Back to top](#SQL)
-### How does database indexing work? (Expert)
+### How does database indexing work?
 
 **Indexing** is a way of sorting a number of records on multiple fields. Creating an index on a field in a table creates another data structure (stored on the disc) which holds the field value, and a pointer to the record it relates to. This index structure is then sorted, allowing Binary Searches to be performed on it, which has log2 N block accesses. Also since the data is sorted given a non-key field, the rest of the table doesn’t need to be searched for duplicate values, once a higher value is found.
 
@@ -825,7 +825,7 @@ Given the nature of a binary search, the **cardinality or uniqueness** of the da
 * https://github.com/chetansomani/SQL-Interview-Questions
 
 [[↑] Back to top](#SQL)
-### How does primary key constraint and unique key constraint effect null? (Expert)
+### How does primary key constraint and unique key constraint effect null?
 
 Primary key constraints allow no null values in the specified column where as unique key constraint allows a single null value not multiple null values.
 
@@ -834,7 +834,7 @@ Primary key constraints allow no null values in the specified column where as un
 * https://github.com/chetansomani/SQL-Interview-Questions
 
 [[↑] Back to top](#SQL)
-### Select first row in each GROUP BY group (greatest-n-per-group problem)? (Expert)
+### Select first row in each GROUP BY group (greatest-n-per-group problem)?
 
 Consider:
 ```sql
@@ -855,7 +855,7 @@ SELECT s.*
 * https://stackoverflow.com/questions/3800551/select-first-row-in-each-group-by-group
 
 [[↑] Back to top](#SQL)
-### What is Optimistic Locking and Pessimistic locking? (Expert)
+### What is Optimistic Locking and Pessimistic locking?
 
 **Optimistic Locking** is a strategy where you read a record, take note of a version number (other methods to do this involve dates, timestamps or checksums/hashes) and check that the version hasn't changed before you write the record back. When you write the record back you filter the update on the version to make sure it's atomic. (i.e. hasn't been updated between when you check the version and write the record to the disk) and update the version in one hit.
 

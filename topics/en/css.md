@@ -1,84 +1,84 @@
 ## CSS
 
-[Explain the three main ways to apply CSS styles to a web page (Junior)](#explain-the-three-main-ways-to-apply-css-styles-to-a-web-page-junior)
+[Explain the three main ways to apply CSS styles to a web page](#explain-the-three-main-ways-to-apply-css-styles-to-a-web-page-junior)
 
-[What is CSS? (Junior)](#what-is-css-junior)
+[What is CSS?](#what-is-css-junior)
 
-[What is DOM (Document Object Model) and how is it linked to CSS? (Mid)](#what-is-dom-document-object-model-and-how-is-it-linked-to-css-mid)
+[What is DOM (Document Object Model) and how is it linked to CSS?](#what-is-dom-document-object-model-and-how-is-it-linked-to-css-mid)
 
-[Explain the CSS “box model” and the layout components that it consists of (Mid)](#explain-the-css-box-model-and-the-layout-components-that-it-consists-of-mid)
+[Explain the CSS “box model” and the layout components that it consists of](#explain-the-css-box-model-and-the-layout-components-that-it-consists-of-mid)
 
-[What is a CSS rule? (Mid)](#what-is-a-css-rule-mid)
+[What is a CSS rule?](#what-is-a-css-rule-mid)
 
-[What existing CSS frameworks have you used locally, or in production? How would you change/improve them? (Mid)](#what-existing-css-frameworks-have-you-used-locally-or-in-production-how-would-you-changeimprove-them-mid)
+[What existing CSS frameworks have you used locally, or in production? How would you change/improve them?](#what-existing-css-frameworks-have-you-used-locally-or-in-production-how-would-you-changeimprove-them-mid)
 
-[Have you played around with the new CSS Flexbox or Grid specs? (Mid)](#have-you-played-around-with-the-new-css-flexbox-or-grid-specs-mid)
+[Have you played around with the new CSS Flexbox or Grid specs?](#have-you-played-around-with-the-new-css-flexbox-or-grid-specs-mid)
 
-[What is the difference between classes and IDs in CSS? (Mid)](#what-is-the-difference-between-classes-and-ids-in-css-mid)
+[What is the difference between classes and IDs in CSS?](#what-is-the-difference-between-classes-and-ids-in-css-mid)
 
-[Describe floats and how they work (Mid)](#describe-floats-and-how-they-work-mid)
+[Describe floats and how they work](#describe-floats-and-how-they-work-mid)
 
-[Explain CSS sprites, and how you would implement them on a page or site. (Mid)](#explain-css-sprites-and-how-you-would-implement-them-on-a-page-or-site-mid)
+[Explain CSS sprites, and how you would implement them on a page or site.](#explain-css-sprites-and-how-you-would-implement-them-on-a-page-or-site-mid)
 
-[How would you approach fixing browser-specific styling issues? (Senior)](#how-would-you-approach-fixing-browser-specific-styling-issues-senior)
+[How would you approach fixing browser-specific styling issues?](#how-would-you-approach-fixing-browser-specific-styling-issues-senior)
 
-[What is CSS preprocessor and why to user one? (Senior)](#what-is-css-preprocessor-and-why-to-user-one-senior)
+[What is CSS preprocessor and why to user one?](#what-is-css-preprocessor-and-why-to-user-one-senior)
 
-[Have you ever worked with retina graphics? If so, when and what techniques did you use? (Senior)](#have-you-ever-worked-with-retina-graphics-if-so-when-and-what-techniques-did-you-use-senior)
+[Have you ever worked with retina graphics? If so, when and what techniques did you use?](#have-you-ever-worked-with-retina-graphics-if-so-when-and-what-techniques-did-you-use-senior)
 
-[How is responsive design different from adaptive design? (Senior)](#how-is-responsive-design-different-from-adaptive-design-senior)
+[How is responsive design different from adaptive design?](#how-is-responsive-design-different-from-adaptive-design-senior)
 
-[How to create a zebra striped table with CSS? (Senior)](#how-to-create-a-zebra-striped-table-with-css-senior)
+[How to create a zebra striped table with CSS?](#how-to-create-a-zebra-striped-table-with-css-senior)
 
-[What’s the difference between “resetting” and “normalizing” CSS? Which would you choose, and why? (Senior)](#whats-the-difference-between-resetting-and-normalizing-css-which-would-you-choose-and-why-senior)
+[What’s the difference between “resetting” and “normalizing” CSS? Which would you choose, and why?](#whats-the-difference-between-resetting-and-normalizing-css-which-would-you-choose-and-why-senior)
 
-[How does CSS actually work (under the hood of browser)? (Senior)](#how-does-css-actually-work-under-the-hood-of-browser-senior)
+[How does CSS actually work (under the hood of browser)?](#how-does-css-actually-work-under-the-hood-of-browser-senior)
 
-[Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models. (Senior)](#explain-your-understanding-of-the-box-model-and-how-you-would-tell-the-browser-in-css-to-render-your-layout-in-different-box-models-senior)
+[Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.](#explain-your-understanding-of-the-box-model-and-how-you-would-tell-the-browser-in-css-to-render-your-layout-in-different-box-models-senior)
 
-[What is CSS selectors? Name some. (Senior)](#what-is-css-selectors-name-some-senior)
+[What is CSS selectors? Name some.](#what-is-css-selectors-name-some-senior)
 
-[Explain the usage of "table-layout" property (Senior)](#explain-the-usage-of-table-layout-property-senior)
+[Explain the usage of "table-layout" property](#explain-the-usage-of-table-layout-property-senior)
 
-[Describe pseudo-elements and discuss what they are used for. (Senior)](#describe-pseudo-elements-and-discuss-what-they-are-used-for-senior)
+[Describe pseudo-elements and discuss what they are used for.](#describe-pseudo-elements-and-discuss-what-they-are-used-for-senior)
 
-[What does Accessibility (a11y) mean? (Senior)](#what-does-accessibility-a11y-mean-senior)
+[What does Accessibility (a11y) mean?](#what-does-accessibility-a11y-mean-senior)
 
-[What are the advantages/disadvantages of using CSS preprocessors? (Senior)](#what-are-the-advantagesdisadvantages-of-using-css-preprocessors-senior)
+[What are the advantages/disadvantages of using CSS preprocessors?](#what-are-the-advantagesdisadvantages-of-using-css-preprocessors-senior)
 
-[What is a Grid System in CSS? (Senior)](#what-is-a-grid-system-in-css-senior)
+[What is a Grid System in CSS?](#what-is-a-grid-system-in-css-senior)
 
-[What's the difference between a `relative`, `fixed`, `absolute` and `static`ally positioned element? (Senior)](#whats-the-difference-between-a-relative-fixed-absolute-and-statically-positioned-element-senior)
+[What's the difference between a `relative`, `fixed`, `absolute` and `static`ally positioned element?](#whats-the-difference-between-a-relative-fixed-absolute-and-statically-positioned-element-senior)
 
-[Explain the purpose of clearing floats in CSS (Expert)](#explain-the-purpose-of-clearing-floats-in-css-expert)
+[Explain the purpose of clearing floats in CSS](#explain-the-purpose-of-clearing-floats-in-css-expert)
 
-[How do you optimize your webpages for print? (Expert)](#how-do-you-optimize-your-webpages-for-print-expert)
+[How do you optimize your webpages for print?](#how-do-you-optimize-your-webpages-for-print-expert)
 
-[Have you ever used a grid system, and if so, what do you prefer? (Expert)](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer-expert)
+[Have you ever used a grid system, and if so, what do you prefer?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer-expert)
 
-[What are the different ways to visually hide content (and make it available only for screen readers)? (Expert)](#what-are-the-different-ways-to-visually-hide-content-and-make-it-available-only-for-screen-readers-expert)
+[What are the different ways to visually hide content (and make it available only for screen readers)?](#what-are-the-different-ways-to-visually-hide-content-and-make-it-available-only-for-screen-readers-expert)
 
-[Describe z-index and how a stacking context is formed (Expert)](#describe-z-index-and-how-a-stacking-context-is-formed-expert)
+[Describe z-index and how a stacking context is formed](#describe-z-index-and-how-a-stacking-context-is-formed-expert)
 
-[What does * { box-sizing: border-box; } do? What are its advantages? (Expert)](#what-does---box-sizing-border-box--do-what-are-its-advantages-expert)
+[What does * { box-sizing: border-box; } do? What are its advantages?](#what-does---box-sizing-border-box--do-what-are-its-advantages-expert)
 
-[Can you explain the difference between coding a website to be responsive versus using a mobile-first strategy? (Expert)](#can-you-explain-the-difference-between-coding-a-website-to-be-responsive-versus-using-a-mobile-first-strategy-expert)
+[Can you explain the difference between coding a website to be responsive versus using a mobile-first strategy?](#can-you-explain-the-difference-between-coding-a-website-to-be-responsive-versus-using-a-mobile-first-strategy-expert)
 
-[Explain the basic rules of CSS Specificity (Expert)](#explain-the-basic-rules-of-css-specificity-expert)
+[Explain the basic rules of CSS Specificity](#explain-the-basic-rules-of-css-specificity-expert)
 
-[Is there any reason you'd want to use `translate()` instead of `absolute` positioning, or vice-versa? And why? (Expert)](#is-there-any-reason-youd-want-to-use-translate-instead-of-absolute-positioning-or-vice-versa-and-why-expert)
+[Is there any reason you'd want to use `translate()` instead of `absolute` positioning, or vice-versa? And why?](#is-there-any-reason-youd-want-to-use-translate-instead-of-absolute-positioning-or-vice-versa-and-why-expert)
 
-[What the code fragment has the greater CSS specificity?  (Expert)](#what-the-code-fragment-has-the-greater-css-specificity--expert)
+[What the code fragment has the greater CSS specificity? ](#what-the-code-fragment-has-the-greater-css-specificity--expert)
 
-[What clearfix methods do you know? Provide some examples. (Expert)](#what-clearfix-methods-do-you-know-provide-some-examples-expert)
+[What clearfix methods do you know? Provide some examples.](#what-clearfix-methods-do-you-know-provide-some-examples-expert)
 
-[How to style every element which has an adjacent item right before it? (Expert)](#how-to-style-every-element-which-has-an-adjacent-item-right-before-it-expert)
+[How to style every element which has an adjacent item right before it?](#how-to-style-every-element-which-has-an-adjacent-item-right-before-it-expert)
 
-[Write down a selector that will match any links end in .zip, .ZIP, .Zip etc... (Expert)](#write-down-a-selector-that-will-match-any-links-end-in-zip-zip-zip-etc-expert)
+[Write down a selector that will match any links end in .zip, .ZIP, .Zip etc...](#write-down-a-selector-that-will-match-any-links-end-in-zip-zip-zip-etc-expert)
 
 
 
-### Explain the three main ways to apply CSS styles to a web page (Junior)
+### Explain the three main ways to apply CSS styles to a web page
 
 Using the inline style attribute on an element
 ```html
@@ -111,7 +111,7 @@ Loading an external CSS file using the `<link>` tag
 * https://www.goskills.com/Development/Articles/CSS-interview-questions-answers
 
 [[↑] Back to top](#CSS)
-### What is CSS? (Junior)
+### What is CSS?
 
 **CSS** stands for **Cascading Style Sheets**. CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.
 
@@ -122,7 +122,7 @@ CSS was intended to allow web professionals to separate the content and structur
 * https://www.w3schools.com/css/css_intro.asp
 
 [[↑] Back to top](#CSS)
-### What is DOM (Document Object Model) and how is it linked to CSS? (Mid)
+### What is DOM (Document Object Model) and how is it linked to CSS?
 
 The *Document Object Model (DOM)* is a cross-platform and language-independent *application programming interface* that treats an HTML, XHTML, or XML document as a tree structure wherein each node is an object representing a part of the document. 
 
@@ -135,7 +135,7 @@ When a browser displays a document, it must combine the document's content with 
 * https://en.wikipedia.org/wiki/Document_Object_Model
 
 [[↑] Back to top](#CSS)
-### Explain the CSS “box model” and the layout components that it consists of (Mid)
+### Explain the CSS “box model” and the layout components that it consists of
 
 The CSS box model is a rectangular layout paradigm for HTML elements that consists of the following:
 
@@ -149,7 +149,7 @@ The CSS box model is a rectangular layout paradigm for HTML elements that consis
 * https://www.toptal.com/css/interview-questions
 
 [[↑] Back to top](#CSS)
-### What is a CSS rule? (Mid)
+### What is a CSS rule?
 
 Web browsers apply **CSS rules** to a document to affect how they are displayed. A CSS rule is formed from:
 
@@ -163,7 +163,7 @@ A set of CSS rules contained within a stylesheet determines how a webpage should
 * https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/How_CSS_works
 
 [[↑] Back to top](#CSS)
-### What existing CSS frameworks have you used locally, or in production? How would you change/improve them? (Mid)
+### What existing CSS frameworks have you used locally, or in production? How would you change/improve them?
 
 * **Bootstrap** - Slow release cycle. Bootstrap 4 has been in alpha for almost 2 years. Add a spinner button component, as it is widely used.
 * **Semantic UI** - Source code structure makes theme customization extremely hard to understand. Its unconventional theming system is a pain to customize. Hardcoded config path within the vendor library. Not well-designed for overriding variables unlike in Bootstrap.
@@ -174,7 +174,7 @@ A set of CSS rules contained within a stylesheet determines how a webpage should
 * https://codeburst.io/clearing-your-front-end-job-interview-css-95bdd82871f2
 
 [[↑] Back to top](#CSS)
-### Have you played around with the new CSS Flexbox or Grid specs? (Mid)
+### Have you played around with the new CSS Flexbox or Grid specs?
 
 Yes. Flexbox is mainly meant for 1-dimensional layouts while Grid is meant for 2-dimensional layouts.
 
@@ -187,7 +187,7 @@ Grid is by far the most intuitive approach for creating grid-based layouts (it b
 * https://codeburst.io/clearing-your-front-end-job-interview-css-95bdd82871f2
 
 [[↑] Back to top](#CSS)
-### What is the difference between classes and IDs in CSS? (Mid)
+### What is the difference between classes and IDs in CSS?
 
 * **IDs** — Meant to be unique within the document. Can be used to identify an element when linking using a fragment identifier. Elements can only have one id attribute.
 
@@ -198,7 +198,7 @@ Grid is by far the most intuitive approach for creating grid-based layouts (it b
 * https://codeburst.io/clearing-your-front-end-job-interview-css-95bdd82871f2
 
 [[↑] Back to top](#CSS)
-### Describe floats and how they work (Mid)
+### Describe floats and how they work
 
 *Float* is a CSS positioning property. Floated elements remain a part of the flow of the web page. This is distinctly different than page elements that use absolute positioning. Absolutely positioned page elements are removed from the flow of the webpage.
 
@@ -214,7 +214,7 @@ The CSS clear property can be used to be positioned below `left`/`right`/`both` 
 * https://css-tricks.com/all-about-floats/
 
 [[↑] Back to top](#CSS)
-### Explain CSS sprites, and how you would implement them on a page or site. (Mid)
+### Explain CSS sprites, and how you would implement them on a page or site.
 
 *CSS sprites* combine multiple images into one single larger image. It is commonly used technique for icons (Gmail uses it). 
 
@@ -232,7 +232,7 @@ The CSS clear property can be used to be positioned below `left`/`right`/`both` 
 * https://codeburst.io/clearing-your-front-end-job-interview-css-95bdd82871f2
 
 [[↑] Back to top](#CSS)
-### How would you approach fixing browser-specific styling issues? (Senior)
+### How would you approach fixing browser-specific styling issues?
 
 * After identifying the issue and the offending browser, use a separate style sheet that only loads when that specific browser is being used. This technique requires server-side rendering though.
 * Use libraries like Bootstrap that already handles these styling issues for you.
@@ -244,7 +244,7 @@ The CSS clear property can be used to be positioned below `left`/`right`/`both` 
 * https://codeburst.io/clearing-your-front-end-job-interview-css-95bdd82871f2
 
 [[↑] Back to top](#CSS)
-### What is CSS preprocessor and why to user one? (Senior)
+### What is CSS preprocessor and why to user one?
 
 A **CSS preprocessor** is a program that lets you generate CSS from the preprocessor's own unique syntax. There are many CSS preprocessors to choose from, however most CSS preprocessors will add some features that don't exist in pure CSS, such as mixin, nesting selector, inheritance selector, and so on. These features make the CSS structure more readable and easier to maintain.
 
@@ -260,7 +260,7 @@ Here are a few of the most popular CSS preprocessors:
 * https://developer.mozilla.org/en-US/docs/Glossary/CSS_preprocessor
 
 [[↑] Back to top](#CSS)
-### Have you ever worked with retina graphics? If so, when and what techniques did you use? (Senior)
+### Have you ever worked with retina graphics? If so, when and what techniques did you use?
 
 _Retina_ is just a marketing term to refer to high resolution screens with a pixel ratio bigger than 1. The key thing to know is that using a pixel ratio means these displays are emulating a lower resolution screen in order to show elements with the same size. Nowadays we consider all mobile devices _retina_ defacto displays.
 
@@ -293,7 +293,7 @@ For icons, I would also opt to use SVGs and icon fonts where possible, as they r
 * https://codeburst.io/clearing-your-front-end-job-interview-css-95bdd82871f2
 
 [[↑] Back to top](#CSS)
-### How is responsive design different from adaptive design? (Senior)
+### How is responsive design different from adaptive design?
 
 Both *responsive* and *adaptive* design attempt to optimize the user experience across different devices, adjusting for different viewport sizes, resolutions, usage contexts, control mechanisms, and so on.
 
@@ -306,7 +306,7 @@ Both *responsive* and *adaptive* design attempt to optimize the user experience 
 * https://codeburst.io/clearing-your-front-end-job-interview-css-95bdd82871f2
 
 [[↑] Back to top](#CSS)
-### How to create a zebra striped table with CSS? (Senior)
+### How to create a zebra striped table with CSS?
 
 To create a zebra-striped table, use the `nth-child()` selector and add a background-color to all even (or odd) table rows:
 ```css
@@ -320,7 +320,7 @@ tr:nth-child(even) {
 * https://www.w3schools.com/howto/howto_css_table_zebra.asp
 
 [[↑] Back to top](#CSS)
-### What’s the difference between “resetting” and “normalizing” CSS? Which would you choose, and why? (Senior)
+### What’s the difference between “resetting” and “normalizing” CSS? Which would you choose, and why?
 
 * **Resetting** — is meant to strip all default browser styling on elements. For e.g. `margins`, `paddings`, `font-sizes` of all elements are reset to be the same. You will have to redeclare styling for common typographic elements.
 * **Normalizing** — preserves useful default styles rather than “unstyling” everything. It also corrects bugs for common browser dependencies.
@@ -333,7 +333,7 @@ It's a good idea to choose resetting when you have very a customized or unconven
 * https://codeburst.io/clearing-your-front-end-job-interview-css-95bdd82871f2
 
 [[↑] Back to top](#CSS)
-### How does CSS actually work (under the hood of browser)? (Senior)
+### How does CSS actually work (under the hood of browser)?
 
 When a browser displays a document, it must combine the document's content with its style information. It processes the document in two stages:
 
@@ -347,7 +347,7 @@ When a browser displays a document, it must combine the document's content with 
 * https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/How_CSS_works
 
 [[↑] Back to top](#CSS)
-### Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models. (Senior)
+### Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
 
 The *CSS box model* is responsible for calculating:
 
@@ -378,7 +378,7 @@ The box model has the following rules:
 * https://codeburst.io/clearing-your-front-end-job-interview-css-95bdd82871f2
 
 [[↑] Back to top](#CSS)
-### What is CSS selectors? Name some. (Senior)
+### What is CSS selectors? Name some.
 
 A CSS selector is the part of a CSS rule set that actually selects the content you want to style.
 
@@ -403,7 +403,7 @@ Consider some types of CSS selectors:
 * https://www.sitepoint.com/css-selectors/
 
 [[↑] Back to top](#CSS)
-### Explain the usage of "table-layout" property (Senior)
+### Explain the usage of "table-layout" property
 
 The `table-layout` property defines the algorithm used to lay out table cells, rows, and columns.
 
@@ -423,7 +423,7 @@ table-layout: auto|fixed|initial|inherit;
 * https://www.w3schools.com/cssref/pr_tab_table-layout.asp
 
 [[↑] Back to top](#CSS)
-### Describe pseudo-elements and discuss what they are used for. (Senior)
+### Describe pseudo-elements and discuss what they are used for.
 
 A *CSS pseudo-element* is a keyword added to a selector that lets you style a specific part of the selected element(s). They can be used for decoration (`:first-line`, `:first-letter`) or adding elements to the markup (combined with `content: ...`) without having to modify the markup (`:before`, `:after`).
 
@@ -437,7 +437,7 @@ Example of usage:
 * https://codeburst.io/clearing-your-front-end-job-interview-css-95bdd82871f2
 
 [[↑] Back to top](#CSS)
-### What does Accessibility (a11y) mean? (Senior)
+### What does Accessibility (a11y) mean?
 
 **Accessibility (a11y)** is a measure of a computer system's accessibility is to all people, including those with disabilities or impairments. It concerns both software and hardware and how they are configured in order to enable a disabled or impaired person to use that computer system successfully.
 
@@ -448,7 +448,7 @@ Accessibility is also known as *assistive technology*.
 * https://www.techopedia.com/definition/10165/accessibility-a11y
 
 [[↑] Back to top](#CSS)
-### What are the advantages/disadvantages of using CSS preprocessors? (Senior)
+### What are the advantages/disadvantages of using CSS preprocessors?
 
 **Advantages:**
 
@@ -467,7 +467,7 @@ Accessibility is also known as *assistive technology*.
 * https://codeburst.io/clearing-your-front-end-job-interview-css-95bdd82871f2
 
 [[↑] Back to top](#CSS)
-### What is a Grid System in CSS? (Senior)
+### What is a Grid System in CSS?
 
 A grid system is a structure that allows for content to be stacked both vertically and horizontally in a consistent and easily manageable fashion. Grid systems include two key components: rows and columns.
 
@@ -483,7 +483,7 @@ Some Grid Systems:
 * https://www.sitepoint.com/understanding-css-grid-systems/
 
 [[↑] Back to top](#CSS)
-### What's the difference between a `relative`, `fixed`, `absolute` and `static`ally positioned element? (Senior)
+### What's the difference between a `relative`, `fixed`, `absolute` and `static`ally positioned element?
 
 A positioned element is an element whose computed `position` property is either `relative`, `absolute`, `fixed` or `sticky`.
 
@@ -498,7 +498,7 @@ A positioned element is an element whose computed `position` property is either 
 * https://codeburst.io/clearing-your-front-end-job-interview-css-95bdd82871f2
 
 [[↑] Back to top](#CSS)
-### Explain the purpose of clearing floats in CSS (Expert)
+### Explain the purpose of clearing floats in CSS
 
 The `clear` CSS property specifies whether an element can be next to floating elements that precede it or must be moved down (cleared) below them.
 
@@ -509,7 +509,7 @@ The `clear` CSS property specifies whether an element can be next to floating el
 * https://www.sitepoint.com/clearing-floats-overview-different-clearfix-methods/
 
 [[↑] Back to top](#CSS)
-### How do you optimize your webpages for print? (Expert)
+### How do you optimize your webpages for print?
 
 * Create a stylesheet for print or use media queries.
 
@@ -539,7 +539,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit....
 * https://codeburst.io/clearing-your-front-end-job-interview-css-95bdd82871f2
 
 [[↑] Back to top](#CSS)
-### Have you ever used a grid system, and if so, what do you prefer? (Expert)
+### Have you ever used a grid system, and if so, what do you prefer?
 
 I like the `float`-based grid system because it still has the most browser support among the alternative existing systems (`flex`, `grid`). It has been used in for *Bootstrap* for years and has been proven to work.
 
@@ -548,7 +548,7 @@ I like the `float`-based grid system because it still has the most browser suppo
 * https://codeburst.io/clearing-your-front-end-job-interview-css-95bdd82871f2
 
 [[↑] Back to top](#CSS)
-### What are the different ways to visually hide content (and make it available only for screen readers)? (Expert)
+### What are the different ways to visually hide content (and make it available only for screen readers)?
 
 These techniques are related to accessibility (`a11y`).
 
@@ -563,7 +563,7 @@ These techniques are related to accessibility (`a11y`).
 * https://codeburst.io/clearing-your-front-end-job-interview-css-95bdd82871f2
 
 [[↑] Back to top](#CSS)
-### Describe z-index and how a stacking context is formed (Expert)
+### Describe z-index and how a stacking context is formed
 
 The `z-index` property in CSS controls the vertical stacking order of elements that overlap. `z-index` only effects elements that have a position value which is not `static`.
 
@@ -578,7 +578,7 @@ A *stacking context* is an element that contains a set of layers. A single defau
 * https://codeburst.io/clearing-your-front-end-job-interview-css-95bdd82871f2
 
 [[↑] Back to top](#CSS)
-### What does * { box-sizing: border-box; } do? What are its advantages? (Expert)
+### What does * { box-sizing: border-box; } do? What are its advantages?
 
 * By default, elements have `box-sizing: content-box` applied, and only the content size is being accounted for.
 * `box-sizing: border-box` changes how the width and height of elements are being calculated, `border` and `padding` are also being included in the calculation.
@@ -627,7 +627,7 @@ Result:
 * https://codeburst.io/clearing-your-front-end-job-interview-css-95bdd82871f2
 
 [[↑] Back to top](#CSS)
-### Can you explain the difference between coding a website to be responsive versus using a mobile-first strategy? (Expert)
+### Can you explain the difference between coding a website to be responsive versus using a mobile-first strategy?
 
 Note that these two 2 approaches are not exclusive.
 
@@ -670,7 +670,7 @@ A mobile-first strategy has 2 main advantages:
 * https://codeburst.io/clearing-your-front-end-job-interview-css-95bdd82871f2
 
 [[↑] Back to top](#CSS)
-### Explain the basic rules of CSS Specificity (Expert)
+### Explain the basic rules of CSS Specificity
 
 * ID selectors have a higher specificity than attribute selectors.
 ```css
@@ -697,7 +697,7 @@ html body div div h2 p {}
 * https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/
 
 [[↑] Back to top](#CSS)
-### Is there any reason you'd want to use `translate()` instead of `absolute` positioning, or vice-versa? And why? (Expert)
+### Is there any reason you'd want to use `translate()` instead of `absolute` positioning, or vice-versa? And why?
 
 `translate()` is a value of CSS `transform`. Changing `transform` or `opacity` does not trigger browser reflow or repaint but does trigger compositions; whereas changing the absolute positioning triggers `reflow`. `transform` causes the browser to create a GPU layer for the element but changing absolute positioning properties uses the CPU. Hence `translate()` is more efficient and will result in shorter paint times for smoother animations.
 
@@ -708,7 +708,7 @@ When using `translate()`, the element still occupies its original space (sort of
 * https://www.paulirish.com/2012/why-moving-elements-with-translate-is-better-than-posabs-topleft/
 
 [[↑] Back to top](#CSS)
-### What the code fragment has the greater CSS specificity?  (Expert)
+### What the code fragment has the greater CSS specificity? 
 
 The CSS specificity: 
 * `A` is `0,0,0,1` (one element), 
@@ -725,7 +725,7 @@ the third rule has a greater level of specificity, and therefore will be applied
 * https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/
 
 [[↑] Back to top](#CSS)
-### What clearfix methods do you know? Provide some examples. (Expert)
+### What clearfix methods do you know? Provide some examples.
 
 **Method 1. The Old School Way**
 
@@ -808,7 +808,7 @@ This basically will do the same thing as the clearfix or the overflow method, bu
 * https://www.sitepoint.com/clearing-floats-overview-different-clearfix-methods/
 
 [[↑] Back to top](#CSS)
-### How to style every element which has an adjacent item right before it? (Expert)
+### How to style every element which has an adjacent item right before it?
 
 Use **The Lobotomized Owl Selector**:
 ```css
@@ -868,7 +868,7 @@ body {
 * https://css-tricks.com/spoooooky-css-selectors/
 
 [[↑] Back to top](#CSS)
-### Write down a selector that will match any links end in .zip, .ZIP, .Zip etc... (Expert)
+### Write down a selector that will match any links end in .zip, .ZIP, .Zip etc...
 
 Use *case-insensitive attribute matching*, `i`. This is a new feature in CSS Selectors Level 4.
 

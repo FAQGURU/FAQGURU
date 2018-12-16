@@ -1,68 +1,68 @@
 ## Redux
 
-[What is Flux? (Junior)](#what-is-flux-junior)
+[What is Flux?](#what-is-flux-junior)
 
-[What is Redux DevTools? (Junior)](#what-is-redux-devtools-junior)
+[What is Redux DevTools?](#what-is-redux-devtools-junior)
 
-[What is Redux? (Junior)](#what-is-redux-junior)
+[What is Redux?](#what-is-redux-junior)
 
-[Do you need to keepIs all component states in Redux store? (Junior)](#do-you-need-to-keepis-all-component-states-in-redux-store-junior)
+[Do you need to keepIs all component states in Redux store?](#do-you-need-to-keepis-all-component-states-in-redux-store-junior)
 
-[How to add multiple middlewares to Redux? (Mid)](#how-to-add-multiple-middlewares-to-redux-mid)
+[How to add multiple middlewares to Redux?](#how-to-add-multiple-middlewares-to-redux-mid)
 
-[What are Redux selectors and Why to use them? (Mid)](#what-are-redux-selectors-and-why-to-use-them-mid)
+[What are Redux selectors and Why to use them?](#what-are-redux-selectors-and-why-to-use-them-mid)
 
-[What are the features of Redux DevTools? (Mid)](#what-are-the-features-of-redux-devtools-mid)
+[What are the features of Redux DevTools?](#what-are-the-features-of-redux-devtools-mid)
 
-[What are reducers in redux? (Mid)](#what-are-reducers-in-redux-mid)
+[What are reducers in redux?](#what-are-reducers-in-redux-mid)
 
-[What is Redux Thunk? (Mid)](#what-is-redux-thunk-mid)
+[What is Redux Thunk?](#what-is-redux-thunk-mid)
 
-[What is the difference between React context and React redux? (Mid)](#what-is-the-difference-between-react-context-and-react-redux-mid)
+[What is the difference between React context and React redux?](#what-is-the-difference-between-react-context-and-react-redux-mid)
 
-[What is redux-saga? (Mid)](#what-is-redux-saga-mid)
+[What is redux-saga?](#what-is-redux-saga-mid)
 
-[What are the core principles of Redux? (Mid)](#what-are-the-core-principles-of-redux-mid)
+[What are the core principles of Redux?](#what-are-the-core-principles-of-redux-mid)
 
-[How to set initial state in Redux? (Mid)](#how-to-set-initial-state-in-redux-mid)
+[How to set initial state in Redux?](#how-to-set-initial-state-in-redux-mid)
 
-[How to structure Redux top level directories? (Mid)](#how-to-structure-redux-top-level-directories-mid)
+[How to structure Redux top level directories?](#how-to-structure-redux-top-level-directories-mid)
 
-[What are the downsides of Redux over Flux? (Senior)](#what-are-the-downsides-of-redux-over-flux-senior)
+[What are the downsides of Redux over Flux?](#what-are-the-downsides-of-redux-over-flux-senior)
 
-[What are the differences between redux-saga and redux-thunk? (Senior)](#what-are-the-differences-between-redux-saga-and-redux-thunk-senior)
+[What are the differences between redux-saga and redux-thunk?](#what-are-the-differences-between-redux-saga-and-redux-thunk-senior)
 
-[What is the purpose of the constants in Redux? (Senior)](#what-is-the-purpose-of-the-constants-in-redux-senior)
+[What is the purpose of the constants in Redux?](#what-is-the-purpose-of-the-constants-in-redux-senior)
 
-[How to use connect from react redux? (Senior)](#how-to-use-connect-from-react-redux-senior)
+[How to use connect from react redux?](#how-to-use-connect-from-react-redux-senior)
 
-[Are there any similarities between Redux and RxJS? (Senior)](#are-there-any-similarities-between-redux-and-rxjs-senior)
+[Are there any similarities between Redux and RxJS?](#are-there-any-similarities-between-redux-and-rxjs-senior)
 
-[What is Redux form? (Senior)](#what-is-redux-form-senior)
+[What is Redux form?](#what-is-redux-form-senior)
 
-[What are the main features of Redux Form? (Senior)](#what-are-the-main-features-of-redux-form-senior)
+[What are the main features of Redux Form?](#what-are-the-main-features-of-redux-form-senior)
 
-[How to access redux store outside a react component? (Senior)](#how-to-access-redux-store-outside-a-react-component-senior)
+[How to access redux store outside a react component?](#how-to-access-redux-store-outside-a-react-component-senior)
 
-[What is the proper way to access Redux store? (Expert)](#what-is-the-proper-way-to-access-redux-store-expert)
+[What is the proper way to access Redux store?](#what-is-the-proper-way-to-access-redux-store-expert)
 
-[What are the differences between call and put in redux-saga? (Expert)](#what-are-the-differences-between-call-and-put-in-redux-saga-expert)
+[What are the differences between call and put in redux-saga?](#what-are-the-differences-between-call-and-put-in-redux-saga-expert)
 
-[Whats the purpose of at (@) symbol in the redux connect decorator? (Expert)](#whats-the-purpose-of-at--symbol-in-the-redux-connect-decorator-expert)
+[Whats the purpose of at (@) symbol in the redux connect decorator?](#whats-the-purpose-of-at--symbol-in-the-redux-connect-decorator-expert)
 
-[How to make Ajax request in Redux? (Expert)](#how-to-make-ajax-request-in-redux-expert)
+[How to make Ajax request in Redux?](#how-to-make-ajax-request-in-redux-expert)
 
-[Why are Redux state functions called as reducers? (Expert)](#why-are-redux-state-functions-called-as-reducers-expert)
+[Why are Redux state functions called as reducers?](#why-are-redux-state-functions-called-as-reducers-expert)
 
-[How to reset state in redux? (Expert)](#how-to-reset-state-in-redux-expert)
+[How to reset state in redux?](#how-to-reset-state-in-redux-expert)
 
-[What is the mental model of redux-saga? (Expert)](#what-is-the-mental-model-of-redux-saga-expert)
+[What is the mental model of redux-saga?](#what-is-the-mental-model-of-redux-saga-expert)
 
-[How Relay is different from Redux? (Expert)](#how-relay-is-different-from-redux-expert)
+[How Relay is different from Redux?](#how-relay-is-different-from-redux-expert)
 
 
 
-### What is Flux? (Junior)
+### What is Flux?
 
 **Flux** is an application design paradigm used as a replacement for the more traditional mvc pattern. It is not a framework or a library but a new kind of architecture that complements React and the concept of Unidirectional Data Flow. Facebook used this pattern internally when working with React The workflow between dispatcher, stores and views components with distinct inputs and outputs as follows:
 
@@ -76,7 +76,7 @@
 * https://github.com/sudheerj/reactjs-interview-questions
 
 [[↑] Back to top](#Redux)
-### What is Redux DevTools? (Junior)
+### What is Redux DevTools?
 
 **Redux DevTools** is a live-editing time travel environment for redux with hot reloading, action replay, and customizable UI. If you don’t want to bother with installing Redux DevTools and integrating it into your project, consider using Redux DevTools Extension for Chrome and Firefox.
 
@@ -85,7 +85,7 @@
 * https://github.com/sudheerj/reactjs-interview-questions
 
 [[↑] Back to top](#Redux)
-### What is Redux? (Junior)
+### What is Redux?
 
 **Redux** is a predictable state container for JavaScript apps based on the Flux design pattern. Redux can be used together with ReactJS, or with any other view library. It is tiny (about 2kB) and has no dependencies.
 
@@ -94,7 +94,7 @@
 * https://github.com/sudheerj/reactjs-interview-questions
 
 [[↑] Back to top](#Redux)
-### Do you need to keepIs all component states in Redux store? (Junior)
+### Do you need to keepIs all component states in Redux store?
 
 You need to keep your application state as small as possible. You don't have to push everything in there. Only do it makes a lot of sense to keep something there Or if it makes your life easier when using Dev Tools. But we shouldn't overload its importance too much.
 
@@ -103,7 +103,7 @@ You need to keep your application state as small as possible. You don't have to 
 * https://github.com/sudheerj/reactjs-interview-questions
 
 [[↑] Back to top](#Redux)
-### How to add multiple middlewares to Redux? (Mid)
+### How to add multiple middlewares to Redux?
 
 You can use `applyMiddleware` where you can pass each piece of middleware as a new argument. So you just need to pass each piece of middleware you'd like. For example, you can add Redux Thunk and logger middlewares as an argument as below,
 ```js
@@ -117,7 +117,7 @@ const createStoreWithMiddleware = applyMiddleware(ReduxThunk, logger)(createStor
 * https://github.com/sudheerj/reactjs-interview-questions
 
 [[↑] Back to top](#Redux)
-### What are Redux selectors and Why to use them? (Mid)
+### What are Redux selectors and Why to use them?
 
 Selectors are functions that take Redux state as an argument and return some data to pass to the component.
 For example, to get user details from the state:
@@ -130,7 +130,7 @@ const getUserData = state => state.user.data;
 * https://github.com/sudheerj/reactjs-interview-questions
 
 [[↑] Back to top](#Redux)
-### What are the features of Redux DevTools? (Mid)
+### What are the features of Redux DevTools?
 
 Below are the major features of Redux devTools
 1. Lets you inspect every state and action payload
@@ -144,7 +144,7 @@ Below are the major features of Redux devTools
 * https://github.com/sudheerj/reactjs-interview-questions
 
 [[↑] Back to top](#Redux)
-### What are reducers in redux? (Mid)
+### What are reducers in redux?
 
 The **reducer** is a _pure function_ that takes the previous state and an action, and returns the next state.
 
@@ -163,7 +163,7 @@ It's called a reducer because it's the type of function you would pass to `Array
 * https://redux.js.org/basics/reducers
 
 [[↑] Back to top](#Redux)
-### What is Redux Thunk? (Mid)
+### What is Redux Thunk?
 
 **Redux Thunk** middleware allows you to write action creators that return a function instead of an action. The thunk can be used to delay the dispatch of an action, or to dispatch only if a certain condition is met. The inner function receives the store methods dispatch and `getState()` as parameters.
 
@@ -172,7 +172,7 @@ It's called a reducer because it's the type of function you would pass to `Array
 * https://github.com/sudheerj/reactjs-interview-questions
 
 [[↑] Back to top](#Redux)
-### What is the difference between React context and React redux? (Mid)
+### What is the difference between React context and React redux?
 
 You can use **Context** in your application directly and is going to be great for passing down data to deeply nested components which what it was designed for. Whereas **Redux** is much more powerful and provides a large number of features that the Context Api doesn't provide. 
 
@@ -183,7 +183,7 @@ Also, React Redux uses context internally but it doesn’t expose this fact in t
 * https://github.com/sudheerj/reactjs-interview-questions
 
 [[↑] Back to top](#Redux)
-### What is redux-saga? (Mid)
+### What is redux-saga?
 
 **redux-saga** is a library that aims to make side effects (i.e. asynchronous things like data fetching and impure things like accessing the browser cache) in React/Redux applications easier and better.
 It is available in NPM as
@@ -197,7 +197,7 @@ npm install --save redux-saga
 * https://github.com/sudheerj/reactjs-interview-questions
 
 [[↑] Back to top](#Redux)
-### What are the core principles of Redux? (Mid)
+### What are the core principles of Redux?
 
 Redux follows three fundamental principles:
 1. **Single source of truth:** The state of your whole application is stored in an object tree within a single store. The single state tree makes it easier to keep track of changes over time and debug or inspect the application.
@@ -209,7 +209,7 @@ Redux follows three fundamental principles:
 * https://github.com/sudheerj/reactjs-interview-questions
 
 [[↑] Back to top](#Redux)
-### How to set initial state in Redux? (Mid)
+### How to set initial state in Redux?
 
 You need to pass initial state as second argument to `createStore`
 ```js
@@ -233,7 +233,7 @@ const store = createStore(
 * https://github.com/sudheerj/reactjs-interview-questions
 
 [[↑] Back to top](#Redux)
-### How to structure Redux top level directories? (Mid)
+### How to structure Redux top level directories?
 
 Most of the applications has several top-level directories as below
 1. **Components** Used for “dumb” React components unaware of Redux
@@ -248,7 +248,7 @@ This structure works well for small and mid-level size apps.
 * https://github.com/sudheerj/reactjs-interview-questions
 
 [[↑] Back to top](#Redux)
-### What are the downsides of Redux over Flux? (Senior)
+### What are the downsides of Redux over Flux?
 
 Instead of saying downsides we can say that there are few compromises of using Redux over Flux. Those are as follows:
 1. **You will need to learn avoiding mutations:**
@@ -263,7 +263,7 @@ Flux currently lets you do very impressive static type checks which Redux doesn'
 * https://github.com/sudheerj/reactjs-interview-questions
 
 [[↑] Back to top](#Redux)
-### What are the differences between redux-saga and redux-thunk? (Senior)
+### What are the differences between redux-saga and redux-thunk?
 
 Both **Redux Thunk** and **Redux Saga** take care of dealing with side effects. In most of the scenarios, Thunk allows _Promises_ to deal with them, whereas Saga uses _Generators_. 
 
@@ -274,7 +274,7 @@ Thunk is simple to use and Promises are familiar to many developers, Saga/Genera
 * https://github.com/sudheerj/reactjs-interview-questions
 
 [[↑] Back to top](#Redux)
-### What is the purpose of the constants in Redux? (Senior)
+### What is the purpose of the constants in Redux?
 
 Constants allow you to easily find all usages of that specific functionality across the project when you use an IDE. It also prevents you from introducing silly bugs caused by typos -- in which case, you will get a ReferenceError immediately.
 
@@ -326,7 +326,7 @@ export default (state = [], action) => {
 * https://github.com/sudheerj/reactjs-interview-questions
 
 [[↑] Back to top](#Redux)
-### How to use connect from react redux? (Senior)
+### How to use connect from react redux?
 
 You need to follow two steps to use your store in your container
 1. **Use mapStateToProps():** It maps the state variables from your store to the props that you specify
@@ -360,7 +360,7 @@ export default connect(mapStateToProps)(App);
 * https://github.com/sudheerj/reactjs-interview-questions
 
 [[↑] Back to top](#Redux)
-### Are there any similarities between Redux and RxJS? (Senior)
+### Are there any similarities between Redux and RxJS?
 
 These libraries are very different for very different purposes, but there are some vague similarities.
 
@@ -375,7 +375,7 @@ Redux uses the Reactive paradigm little bit because the Store is reactive. The S
 * https://github.com/sudheerj/reactjs-interview-questions
 
 [[↑] Back to top](#Redux)
-### What is Redux form? (Senior)
+### What is Redux form?
 
 **Redux Form** works with React and Redux to enable a form in React to use Redux to store all of its state. Redux Form can be used with raw HTML5 inputs, but it also works with very well with common UI frameworks like Material UI, React Widgets and React Bootstrap.
 
@@ -384,7 +384,7 @@ Redux uses the Reactive paradigm little bit because the Store is reactive. The S
 * https://github.com/sudheerj/reactjs-interview-questions
 
 [[↑] Back to top](#Redux)
-### What are the main features of Redux Form? (Senior)
+### What are the main features of Redux Form?
 
 Below are the major features of redux form:
 1. Field values persistence via Redux store
@@ -396,7 +396,7 @@ Below are the major features of redux form:
 * https://github.com/sudheerj/reactjs-interview-questions
 
 [[↑] Back to top](#Redux)
-### How to access redux store outside a react component? (Senior)
+### How to access redux store outside a react component?
 
 Yes.You just need to export the store from the module where it created with `createStore`. Also, it shouldn't pollute the global window object
 ```js
@@ -409,7 +409,7 @@ export default store;
 * https://github.com/sudheerj/reactjs-interview-questions
 
 [[↑] Back to top](#Redux)
-### What is the proper way to access Redux store? (Expert)
+### What is the proper way to access Redux store?
 
 The best way to access your store through a component is using the `connect()` function. Actually creates a new component that wraps around your existing one! This pattern is called _Higher-Order Components_, and is generally the preferred way of extending a component's functionality in React. This allows you to map state and action creators to your component, and have them passed in automatically as your store updates. Let's take an example of `FilterLink` component using connect,
 ```js
@@ -453,7 +453,7 @@ class MyComponent {
 * https://github.com/sudheerj/reactjs-interview-questions
 
 [[↑] Back to top](#Redux)
-### What are the differences between call and put in redux-saga? (Expert)
+### What are the differences between call and put in redux-saga?
 
 Both **call** and **put** are effects creators functions. 
 
@@ -480,7 +480,7 @@ function* fetchUserSaga(action) {
 * https://github.com/sudheerj/reactjs-interview-questions
 
 [[↑] Back to top](#Redux)
-### Whats the purpose of at (@) symbol in the redux connect decorator? (Expert)
+### Whats the purpose of at (@) symbol in the redux connect decorator?
 
 The `@` symbol is in fact a JavaScript expression used to signify decorators. Decorators make it possible to annotate and modify classes and properties at design time. Let's take an example setting up Redux without and with a decorator
 
@@ -532,7 +532,7 @@ The above examples are almost similar except the usage of decorator. The decorat
 * https://github.com/sudheerj/reactjs-interview-questions
 
 [[↑] Back to top](#Redux)
-### How to make Ajax request in Redux? (Expert)
+### How to make Ajax request in Redux?
 
 You can use **redux-thunk** middleware which allows you to define async actions. Let's take an example of fetching specific account as a ajax call using fetch API,
 ```js
@@ -560,7 +560,7 @@ function setAccount(data) {
 * https://github.com/sudheerj/reactjs-interview-questions
 
 [[↑] Back to top](#Redux)
-### Why are Redux state functions called as reducers? (Expert)
+### Why are Redux state functions called as reducers?
 
 **Reducers** always return the accumulation of the state (based on all previous and current actions) not only default values. Therefore, they act as a reducer of state. Each time a redux reducer is called, the state is passed in with the action (state, action). This state is then reduced (or accumulated) based on the action, and then the next state is returned. i.e, You could "reduce" a collection of actions and an initial state (of the store) on which to perform these actions to get the resulting final state.
 
@@ -569,7 +569,7 @@ function setAccount(data) {
 * https://github.com/sudheerj/reactjs-interview-questions
 
 [[↑] Back to top](#Redux)
-### How to reset state in redux? (Expert)
+### How to reset state in redux?
 
 You need to write a root reducer in your application which delegate handling the action to the reducer generated by `combineReducers()`. For example, let us take rootReducer to return the initial state after `USER_LOGOUT` action. As we know, reducers are supposed to return the initial state when they are called with undefined as the first argument, no matter the action.
 
@@ -610,7 +610,7 @@ const rootReducer = (state, action) => {
 * https://github.com/sudheerj/reactjs-interview-questions
 
 [[↑] Back to top](#Redux)
-### What is the mental model of redux-saga? (Expert)
+### What is the mental model of redux-saga?
 
 The mental model is that a saga is like a separate thread in your application that's solely responsible for side effects. redux-saga is a redux middleware, which means this thread can be started, paused and cancelled from the main application with normal redux actions, it has access to the full redux application state and it can dispatch redux actions as well.
 
@@ -619,7 +619,7 @@ The mental model is that a saga is like a separate thread in your application th
 * https://github.com/sudheerj/reactjs-interview-questions
 
 [[↑] Back to top](#Redux)
-### How Relay is different from Redux? (Expert)
+### How Relay is different from Redux?
 
 **Relay** is similar to redux in that they both use a single store. The main difference is that relay only manages state originated from the server, and all access to the state is used via GraphQL queries (for reading data) and mutations (for changing data). Relay caches the data for you and optimizes data fetching for you, by fetching only changed data and nothing more.
 

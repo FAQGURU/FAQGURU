@@ -1,166 +1,166 @@
 ## MongoDB
 
-[Does Mongodb Support Foreign Key Constraints? (Junior)](#does-mongodb-support-foreign-key-constraints-junior)
+[Does Mongodb Support Foreign Key Constraints?](#does-mongodb-support-foreign-key-constraints-junior)
 
-[Which are the most important features of MongoDB? (Junior)](#which-are-the-most-important-features-of-mongodb-junior)
+[Which are the most important features of MongoDB?](#which-are-the-most-important-features-of-mongodb-junior)
 
-[Explain what is MongoDB? (Junior)](#explain-what-is-mongodb-junior)
+[Explain what is MongoDB?](#explain-what-is-mongodb-junior)
 
-[How many indexes does MongoDB create by default for a new collection? (Junior)](#how-many-indexes-does-mongodb-create-by-default-for-a-new-collection-junior)
+[How many indexes does MongoDB create by default for a new collection?](#how-many-indexes-does-mongodb-create-by-default-for-a-new-collection-junior)
 
-[Compare SQL databases and MongoDB at a high level. (Mid)](#compare-sql-databases-and-mongodb-at-a-high-level-mid)
+[Compare SQL databases and MongoDB at a high level.](#compare-sql-databases-and-mongodb-at-a-high-level-mid)
 
-[What Is Replication In MongoDB? (Mid)](#what-is-replication-in-mongodb-mid)
+[What Is Replication In MongoDB?](#what-is-replication-in-mongodb-mid)
 
-[What is “Namespace” in MongoDB? (Mid)](#what-is-namespace-in-mongodb-mid)
+[What is “Namespace” in MongoDB?](#what-is-namespace-in-mongodb-mid)
 
-[If you remove an object attribute, is it deleted from the database? (Mid)](#if-you-remove-an-object-attribute-is-it-deleted-from-the-database-mid)
+[If you remove an object attribute, is it deleted from the database?](#if-you-remove-an-object-attribute-is-it-deleted-from-the-database-mid)
 
-[Why does Profiler use in MongoDB? (Mid)](#why-does-profiler-use-in-mongodb-mid)
+[Why does Profiler use in MongoDB?](#why-does-profiler-use-in-mongodb-mid)
 
-[What is BSON in MongoDB? (Mid)](#what-is-bson-in-mongodb-mid)
+[What is BSON in MongoDB?](#what-is-bson-in-mongodb-mid)
 
-[Does MongoDB need a lot space of Random Access Memory (RAM)? (Mid)](#does-mongodb-need-a-lot-space-of-random-access-memory-ram-mid)
+[Does MongoDB need a lot space of Random Access Memory (RAM)?](#does-mongodb-need-a-lot-space-of-random-access-memory-ram-mid)
 
-[How is data stored in MongoDB? (Mid)](#how-is-data-stored-in-mongodb-mid)
+[How is data stored in MongoDB?](#how-is-data-stored-in-mongodb-mid)
 
-[Mention the command to insert a document in a database called school and collection called persons. (Mid)](#mention-the-command-to-insert-a-document-in-a-database-called-school-and-collection-called-persons-mid)
+[Mention the command to insert a document in a database called school and collection called persons.](#mention-the-command-to-insert-a-document-in-a-database-called-school-and-collection-called-persons-mid)
 
-[What are Indexes in MongoDB? (Mid)](#what-are-indexes-in-mongodb-mid)
+[What are Indexes in MongoDB?](#what-are-indexes-in-mongodb-mid)
 
-[What is a replica set? (Mid)](#what-is-a-replica-set-mid)
+[What is a replica set?](#what-is-a-replica-set-mid)
 
-[Can you create an index on an array field in MongoDB? If yes, what happens in this case? (Mid)](#can-you-create-an-index-on-an-array-field-in-mongodb-if-yes-what-happens-in-this-case-mid)
+[Can you create an index on an array field in MongoDB? If yes, what happens in this case?](#can-you-create-an-index-on-an-array-field-in-mongodb-if-yes-what-happens-in-this-case-mid)
 
-[When should we embed one document within another in MongoDB? (Mid)](#when-should-we-embed-one-document-within-another-in-mongodb-mid)
+[When should we embed one document within another in MongoDB?](#when-should-we-embed-one-document-within-another-in-mongodb-mid)
 
-[How is MongoDB better than other SQL databases? (Senior)](#how-is-mongodb-better-than-other-sql-databases-senior)
+[How is MongoDB better than other SQL databases?](#how-is-mongodb-better-than-other-sql-databases-senior)
 
-[Should I normalize my data before storing it in MongoDB? (Senior)](#should-i-normalize-my-data-before-storing-it-in-mongodb-senior)
+[Should I normalize my data before storing it in MongoDB?](#should-i-normalize-my-data-before-storing-it-in-mongodb-senior)
 
-[What is use of capped collection in MongoDB? (Senior)](#what-is-use-of-capped-collection-in-mongodb-senior)
+[What is use of capped collection in MongoDB?](#what-is-use-of-capped-collection-in-mongodb-senior)
 
-[What does MongoDB not being ACID compliant really mean? (Senior)](#what-does-mongodb-not-being-acid-compliant-really-mean-senior)
+[What does MongoDB not being ACID compliant really mean?](#what-does-mongodb-not-being-acid-compliant-really-mean-senior)
 
-[How to query MongoDB with %like%? (Senior)](#how-to-query-mongodb-with-like-senior)
+[How to query MongoDB with %like%?](#how-to-query-mongodb-with-like-senior)
 
-[How do I perform the SQL JOIN equivalent in MongoDB? (Senior)](#how-do-i-perform-the-sql-join-equivalent-in-mongodb-senior)
+[How do I perform the SQL JOIN equivalent in MongoDB?](#how-do-i-perform-the-sql-join-equivalent-in-mongodb-senior)
 
-[When to use MongoDB or other document oriented database systems? (Senior)](#when-to-use-mongodb-or-other-document-oriented-database-systems-senior)
+[When to use MongoDB or other document oriented database systems?](#when-to-use-mongodb-or-other-document-oriented-database-systems-senior)
 
-[What is the difference between MongoDB and MySQL? (Senior)](#what-is-the-difference-between-mongodb-and-mysql-senior)
+[What is the difference between MongoDB and MySQL?](#what-is-the-difference-between-mongodb-and-mysql-senior)
 
-[How can you achieve primary key - foreign key relationships in MongoDB? (Senior)](#how-can-you-achieve-primary-key---foreign-key-relationships-in-mongodb-senior)
+[How can you achieve primary key - foreign key relationships in MongoDB?](#how-can-you-achieve-primary-key---foreign-key-relationships-in-mongodb-senior)
 
-[Does MongoDB pushes the writes to disk immediately or lazily? (Senior)](#does-mongodb-pushes-the-writes-to-disk-immediately-or-lazily-senior)
+[Does MongoDB pushes the writes to disk immediately or lazily?](#does-mongodb-pushes-the-writes-to-disk-immediately-or-lazily-senior)
 
-[If you remove a document from database, does MongoDB remove it from disk? (Senior)](#if-you-remove-a-document-from-database-does-mongodb-remove-it-from-disk-senior)
+[If you remove a document from database, does MongoDB remove it from disk?](#if-you-remove-a-document-from-database-does-mongodb-remove-it-from-disk-senior)
 
-[What is the difference b/w MongoDB and CouchDB? (Senior)](#what-is-the-difference-bw-mongodb-and-couchdb-senior)
+[What is the difference b/w MongoDB and CouchDB?](#what-is-the-difference-bw-mongodb-and-couchdb-senior)
 
-[What is sharding? (Senior)](#what-is-sharding-senior)
+[What is sharding?](#what-is-sharding-senior)
 
-[What are NoSQL databases? What are the different types of NoSQL databases? (Senior)](#what-are-nosql-databases-what-are-the-different-types-of-nosql-databases-senior)
+[What are NoSQL databases? What are the different types of NoSQL databases?](#what-are-nosql-databases-what-are-the-different-types-of-nosql-databases-senior)
 
-[Explain the structure of ObjectID in MongoDB (Senior)](#explain-the-structure-of-objectid-in-mongodb-senior)
+[Explain the structure of ObjectID in MongoDB](#explain-the-structure-of-objectid-in-mongodb-senior)
 
-[What is a covered query in MongoDB? (Senior)](#what-is-a-covered-query-in-mongodb-senior)
+[What is a covered query in MongoDB?](#what-is-a-covered-query-in-mongodb-senior)
 
-[How can I combine data from multiple collections into one collection? (Senior)](#how-can-i-combine-data-from-multiple-collections-into-one-collection-senior)
+[How can I combine data from multiple collections into one collection?](#how-can-i-combine-data-from-multiple-collections-into-one-collection-senior)
 
-[Find objects between two dates MongoDB (Senior)](#find-objects-between-two-dates-mongodb-senior)
+[Find objects between two dates MongoDB](#find-objects-between-two-dates-mongodb-senior)
 
-[How to query MongoDB with “like”? (Senior)](#how-to-query-mongodb-with-like-senior)
+[How to query MongoDB with “like”?](#how-to-query-mongodb-with-like-senior)
 
-[Is there an “upsert” option in the mongodb insert command? (Senior)](#is-there-an-upsert-option-in-the-mongodb-insert-command-senior)
+[Is there an “upsert” option in the mongodb insert command?](#is-there-an-upsert-option-in-the-mongodb-insert-command-senior)
 
-[What is oplog? (Senior)](#what-is-oplog-senior)
+[What is oplog?](#what-is-oplog-senior)
 
-[How can you achieve transaction and locking in MongoDB? (Senior)](#how-can-you-achieve-transaction-and-locking-in-mongodb-senior)
+[How can you achieve transaction and locking in MongoDB?](#how-can-you-achieve-transaction-and-locking-in-mongodb-senior)
 
-[What do you understand by NoSQL databases? Explain. (Senior)](#what-do-you-understand-by-nosql-databases-explain-senior)
+[What do you understand by NoSQL databases? Explain.](#what-do-you-understand-by-nosql-databases-explain-senior)
 
-[What is Sharding in MongoDB? Explain. (Senior)](#what-is-sharding-in-mongodb-explain-senior)
+[What is Sharding in MongoDB? Explain.](#what-is-sharding-in-mongodb-explain-senior)
 
-[Can one MongoDB operation lock more than one databases? If yes, how? (Senior)](#can-one-mongodb-operation-lock-more-than-one-databases-if-yes-how-senior)
+[Can one MongoDB operation lock more than one databases? If yes, how?](#can-one-mongodb-operation-lock-more-than-one-databases-if-yes-how-senior)
 
-[Mention the command to check whether you are on the master server or not. (Senior)](#mention-the-command-to-check-whether-you-are-on-the-master-server-or-not-senior)
+[Mention the command to check whether you are on the master server or not.](#mention-the-command-to-check-whether-you-are-on-the-master-server-or-not-senior)
 
-[Why are MongoDB data files large in size? (Senior)](#why-are-mongodb-data-files-large-in-size-senior)
+[Why are MongoDB data files large in size?](#why-are-mongodb-data-files-large-in-size-senior)
 
-[Does MongoDB support ACID transaction management and locking functionalities? (Senior)](#does-mongodb-support-acid-transaction-management-and-locking-functionalities-senior)
+[Does MongoDB support ACID transaction management and locking functionalities?](#does-mongodb-support-acid-transaction-management-and-locking-functionalities-senior)
 
-[Why MongoDB is not preferred over a 32-bit system? (Senior)](#why-mongodb-is-not-preferred-over-a-32-bit-system-senior)
+[Why MongoDB is not preferred over a 32-bit system?](#why-mongodb-is-not-preferred-over-a-32-bit-system-senior)
 
-[What is Aggregation in MongoDB? (Senior)](#what-is-aggregation-in-mongodb-senior)
+[What is Aggregation in MongoDB?](#what-is-aggregation-in-mongodb-senior)
 
-[How replication works in MongoDB? (Expert)](#how-replication-works-in-mongodb-expert)
+[How replication works in MongoDB?](#how-replication-works-in-mongodb-expert)
 
-[By default, MongoDB writes and reads data from both primary and secondary replica sets. True or False. (Expert)](#by-default-mongodb-writes-and-reads-data-from-both-primary-and-secondary-replica-sets-true-or-false-expert)
+[By default, MongoDB writes and reads data from both primary and secondary replica sets. True or False.](#by-default-mongodb-writes-and-reads-data-from-both-primary-and-secondary-replica-sets-true-or-false-expert)
 
-[How does MongoDB provide concurrency? (Expert)](#how-does-mongodb-provide-concurrency-expert)
+[How does MongoDB provide concurrency?](#how-does-mongodb-provide-concurrency-expert)
 
-[How can you isolate your cursors from intervening with the write operations? (Expert)](#how-can-you-isolate-your-cursors-from-intervening-with-the-write-operations-expert)
+[How can you isolate your cursors from intervening with the write operations?](#how-can-you-isolate-your-cursors-from-intervening-with-the-write-operations-expert)
 
-[What are Primary and Secondary Replica sets? (Expert)](#what-are-primary-and-secondary-replica-sets-expert)
+[What are Primary and Secondary Replica sets?](#what-are-primary-and-secondary-replica-sets-expert)
 
-[At what interval does MongoDB write updates to the disk? (Expert)](#at-what-interval-does-mongodb-write-updates-to-the-disk-expert)
+[At what interval does MongoDB write updates to the disk?](#at-what-interval-does-mongodb-write-updates-to-the-disk-expert)
 
-[Mention the command to list all the indexes on a particular collection. (Expert)](#mention-the-command-to-list-all-the-indexes-on-a-particular-collection-expert)
+[Mention the command to list all the indexes on a particular collection.](#mention-the-command-to-list-all-the-indexes-on-a-particular-collection-expert)
 
-[What happens if an index does not fit into RAM? (Expert)](#what-happens-if-an-index-does-not-fit-into-ram-expert)
+[What happens if an index does not fit into RAM?](#what-happens-if-an-index-does-not-fit-into-ram-expert)
 
-[Does MongoDB provide a facility to do text searches? How? (Expert)](#does-mongodb-provide-a-facility-to-do-text-searches-how-expert)
+[Does MongoDB provide a facility to do text searches? How?](#does-mongodb-provide-a-facility-to-do-text-searches-how-expert)
 
-[Update MongoDB field using value of another field (Expert)](#update-mongodb-field-using-value-of-another-field-expert)
+[Update MongoDB field using value of another field](#update-mongodb-field-using-value-of-another-field-expert)
 
-[How does Journaling work in MongoDB? (Expert)](#how-does-journaling-work-in-mongodb-expert)
+[How does Journaling work in MongoDB?](#how-does-journaling-work-in-mongodb-expert)
 
-[Why is a covered query important? (Expert)](#why-is-a-covered-query-important-expert)
+[Why is a covered query important?](#why-is-a-covered-query-important-expert)
 
-[When to Redis or MongoDB? (Expert)](#when-to-redis-or-mongodb-expert)
+[When to Redis or MongoDB?](#when-to-redis-or-mongodb-expert)
 
-[MongoDB relationships. What to use - embed or reference? (Expert)](#mongodb-relationships-what-to-use---embed-or-reference-expert)
+[MongoDB relationships. What to use - embed or reference?](#mongodb-relationships-what-to-use---embed-or-reference-expert)
 
-[Is MongoDB schema-less? (Expert)](#is-mongodb-schema-less-expert)
+[Is MongoDB schema-less?](#is-mongodb-schema-less-expert)
 
-[How to get the last N records from find? (Expert)](#how-to-get-the-last-n-records-from-find-expert)
+[How to get the last N records from find?](#how-to-get-the-last-n-records-from-find-expert)
 
-[How does MongoDB ensure high availability? (Expert)](#how-does-mongodb-ensure-high-availability-expert)
+[How does MongoDB ensure high availability?](#how-does-mongodb-ensure-high-availability-expert)
 
-[How to find MongoDB records where array field is not empty? (Expert)](#how-to-find-mongodb-records-where-array-field-is-not-empty-expert)
+[How to find MongoDB records where array field is not empty?](#how-to-find-mongodb-records-where-array-field-is-not-empty-expert)
 
-[How to check if a field contains a substring? (Expert)](#how-to-check-if-a-field-contains-a-substring-expert)
+[How to check if a field contains a substring?](#how-to-check-if-a-field-contains-a-substring-expert)
 
-[Where can I run MongoDB? (Expert)](#where-can-i-run-mongodb-expert)
+[Where can I run MongoDB?](#where-can-i-run-mongodb-expert)
 
-[What are alternatives to MongoDB? (Expert)](#what-are-alternatives-to-mongodb-expert)
+[What are alternatives to MongoDB?](#what-are-alternatives-to-mongodb-expert)
 
-[How to remove a field completely from a MongoDB document? (Expert)](#how-to-remove-a-field-completely-from-a-mongodb-document-expert)
+[How to remove a field completely from a MongoDB document?](#how-to-remove-a-field-completely-from-a-mongodb-document-expert)
 
-[What is a Storage Engine in MongoDB (Expert)](#what-is-a-storage-engine-in-mongodb-expert)
+[What is a Storage Engine in MongoDB](#what-is-a-storage-engine-in-mongodb-expert)
 
-[How to find document with array that contains a specific value? (Expert)](#how-to-find-document-with-array-that-contains-a-specific-value-expert)
+[How to find document with array that contains a specific value?](#how-to-find-document-with-array-that-contains-a-specific-value-expert)
 
-[What is splitting in mongodb? (Expert)](#what-is-splitting-in-mongodb-expert)
+[What is splitting in mongodb?](#what-is-splitting-in-mongodb-expert)
 
-[Is it possible to update MongoDB field using value of another field? (Expert)](#is-it-possible-to-update-mongodb-field-using-value-of-another-field-expert)
+[Is it possible to update MongoDB field using value of another field?](#is-it-possible-to-update-mongodb-field-using-value-of-another-field-expert)
 
-[Explain what is horizontal scalability? (Expert)](#explain-what-is-horizontal-scalability-expert)
+[Explain what is horizontal scalability?](#explain-what-is-horizontal-scalability-expert)
 
-[What are the differences between MongoDB and MySQL? (Expert)](#what-are-the-differences-between-mongodb-and-mysql-expert)
+[What are the differences between MongoDB and MySQL?](#what-are-the-differences-between-mongodb-and-mysql-expert)
 
-[How to condense large volumes of data in Mongo? (Expert)](#how-to-condense-large-volumes-of-data-in-mongo-expert)
+[How to condense large volumes of data in Mongo?](#how-to-condense-large-volumes-of-data-in-mongo-expert)
 
-[Which are the two storage engines used by MongoDB? (Expert)](#which-are-the-two-storage-engines-used-by-mongodb-expert)
+[Which are the two storage engines used by MongoDB?](#which-are-the-two-storage-engines-used-by-mongodb-expert)
 
-[What's the advantage of the backup features in Ops Manager versus traditional backup strategies? (Expert)](#whats-the-advantage-of-the-backup-features-in-ops-manager-versus-traditional-backup-strategies-expert)
+[What's the advantage of the backup features in Ops Manager versus traditional backup strategies?](#whats-the-advantage-of-the-backup-features-in-ops-manager-versus-traditional-backup-strategies-expert)
 
-[What are three primary concerns when choosing a data management system? (Expert)](#what-are-three-primary-concerns-when-choosing-a-data-management-system-expert)
+[What are three primary concerns when choosing a data management system?](#what-are-three-primary-concerns-when-choosing-a-data-management-system-expert)
 
 
 
-### Does Mongodb Support Foreign Key Constraints? (Junior)
+### Does Mongodb Support Foreign Key Constraints?
 
 No. MongoDB does not support such relationships. The database does not apply any constraints to the system (i.e.: foreign key constraints), so there are no "cascading deletes" or "cascading updates". Basically, in a NoSQL database it is up to you to decide how to organise the data and its relations if there are any.
 
@@ -169,7 +169,7 @@ No. MongoDB does not support such relationships. The database does not apply any
 * https://interviewbubble.com/advance-topics/mongodb-interview-questions-and-answers/
 
 [[↑] Back to top](#MongoDB)
-### Which are the most important features of MongoDB? (Junior)
+### Which are the most important features of MongoDB?
 
 * Flexible data model in form of documents
 * Agile and highly scalable database
@@ -181,7 +181,7 @@ No. MongoDB does not support such relationships. The database does not apply any
 * https://www.tutorialspoint.com/mongodb/mongodb_interview_questions.htm
 
 [[↑] Back to top](#MongoDB)
-### Explain what is MongoDB? (Junior)
+### Explain what is MongoDB?
 
 MongoDB is an open-source document database that provides high performance, high availability, and automatic scaling.
 It's Key Features are:
@@ -201,7 +201,7 @@ It's Key Features are:
 * https://docs.mongodb.com/manual/introduction/
 
 [[↑] Back to top](#MongoDB)
-### How many indexes does MongoDB create by default for a new collection? (Junior)
+### How many indexes does MongoDB create by default for a new collection?
 
 By default, MongoDB created the _id collection for every collection.
 
@@ -210,7 +210,7 @@ By default, MongoDB created the _id collection for every collection.
 * https://www.tutorialspoint.com/mongodb/mongodb_interview_questions.htm
 
 [[↑] Back to top](#MongoDB)
-### Compare SQL databases and MongoDB at a high level. (Mid)
+### Compare SQL databases and MongoDB at a high level.
 
 SQL databases store data in form of tables, rows, columns and records. This data is stored in a pre-defined data model which is not very much flexible for today's real-world highly growing applications. MongoDB in contrast uses a flexible structure which can be easily modified and extended.
 
@@ -219,7 +219,7 @@ SQL databases store data in form of tables, rows, columns and records. This data
 * https://www.tutorialspoint.com/mongodb/mongodb_interview_questions.htm
 
 [[↑] Back to top](#MongoDB)
-### What Is Replication In MongoDB? (Mid)
+### What Is Replication In MongoDB?
 
 **Replication** is the process of synchronizing data across multiple servers. Replication provides redundancy and increases data availability. With multiple copies of data on different database servers, replication protects a database from the loss of a single server. Replication also allows you to recover from hardware failure and service interruptions.
 
@@ -228,7 +228,7 @@ SQL databases store data in form of tables, rows, columns and records. This data
 * https://interviewbubble.com/advance-topics/mongodb-interview-questions-and-answers/
 
 [[↑] Back to top](#MongoDB)
-### What is “Namespace” in MongoDB? (Mid)
+### What is “Namespace” in MongoDB?
 
 MongoDB stores BSON (Binary Interchange and Structure Object Notation) objects in the collection. The concatenation of the collection name and database name is called a namespace
 
@@ -237,7 +237,7 @@ MongoDB stores BSON (Binary Interchange and Structure Object Notation) objects i
 * https://medium.com/@hub4tech/list-of-top-10-mongodb-interview-questions-for-beginners-and-professionals-ee385b9c501b
 
 [[↑] Back to top](#MongoDB)
-### If you remove an object attribute, is it deleted from the database? (Mid)
+### If you remove an object attribute, is it deleted from the database?
 
 Yes, it be. Remove the attribute and then re-save () the object.
 
@@ -246,7 +246,7 @@ Yes, it be. Remove the attribute and then re-save () the object.
 * https://medium.com/@hub4tech/list-of-top-10-mongodb-interview-questions-for-beginners-and-professionals-ee385b9c501b
 
 [[↑] Back to top](#MongoDB)
-### Why does Profiler use in MongoDB? (Mid)
+### Why does Profiler use in MongoDB?
 
 MongoDB uses a database profiler to perform characteristics of each operation against the database. You can use a profiler to find queries and write operations
 
@@ -255,7 +255,7 @@ MongoDB uses a database profiler to perform characteristics of each operation ag
 * https://medium.com/@hub4tech/list-of-top-10-mongodb-interview-questions-for-beginners-and-professionals-ee385b9c501b
 
 [[↑] Back to top](#MongoDB)
-### What is BSON in MongoDB? (Mid)
+### What is BSON in MongoDB?
 
 **BSON** is a binary serialization format used to store documents and make remote procedure calls in MongoDB. BSON extends the JSON model to provide additional data types, ordered fields, and to be efficient for encoding and decoding within different languages. 
 
@@ -265,7 +265,7 @@ MongoDB uses a database profiler to perform characteristics of each operation ag
 * https://www.mongodb.com/json-and-bson
 
 [[↑] Back to top](#MongoDB)
-### Does MongoDB need a lot space of Random Access Memory (RAM)? (Mid)
+### Does MongoDB need a lot space of Random Access Memory (RAM)?
 
 No. MongoDB can be run on small free space of RAM.
 
@@ -274,7 +274,7 @@ No. MongoDB can be run on small free space of RAM.
 * https://medium.com/@hub4tech/list-of-top-10-mongodb-interview-questions-for-beginners-and-professionals-ee385b9c501b
 
 [[↑] Back to top](#MongoDB)
-### How is data stored in MongoDB? (Mid)
+### How is data stored in MongoDB?
 
 Data in MongoDB is stored in BSON documents – JSON-style data structures. Documents contain one or more fields, and each field contains a value of a specific data type, including arrays, binary data and sub-documents. Documents that tend to share a similar structure are organized as collections. It may be helpful to think of documents as analogous to rows in a relational database, fields as similar to columns, and collections as similar to tables.
 
@@ -289,7 +289,7 @@ The advantages of using documents are:
 * https://www.mongodb.com/faq
 
 [[↑] Back to top](#MongoDB)
-### Mention the command to insert a document in a database called school and collection called persons. (Mid)
+### Mention the command to insert a document in a database called school and collection called persons.
 
 ```js
 use school;
@@ -301,7 +301,7 @@ db.persons.insert( { name: "kadhir", dept: "CSE" } )
 * https://www.tutorialspoint.com/mongodb/mongodb_interview_questions.htm
 
 [[↑] Back to top](#MongoDB)
-### What are Indexes in MongoDB? (Mid)
+### What are Indexes in MongoDB?
 
 Indexes support the efficient execution of queries in MongoDB. Without indexes, MongoDB must perform a collection scan, i.e. scan every document in a collection, to select those documents that match the query statement. If an appropriate index exists for a query, MongoDB can use the index to limit the number of documents it must inspect.
 
@@ -310,7 +310,7 @@ Indexes support the efficient execution of queries in MongoDB. Without indexes, 
 * https://www.tutorialspoint.com/mongodb/mongodb_interview_questions.htm
 
 [[↑] Back to top](#MongoDB)
-### What is a replica set? (Mid)
+### What is a replica set?
 
 It is a group of mongo instances that maintain same data set. Replica sets provide redundancy and high availability, and are the basis for all production deployments.
 
@@ -319,7 +319,7 @@ It is a group of mongo instances that maintain same data set. Replica sets provi
 * https://interviewbubble.com/advance-topics/mongodb-interview-questions-and-answers/
 
 [[↑] Back to top](#MongoDB)
-### Can you create an index on an array field in MongoDB? If yes, what happens in this case? (Mid)
+### Can you create an index on an array field in MongoDB? If yes, what happens in this case?
 
 Yes. An array field can be indexed in MongoDB. In this case, MongoDB would index each value of the array so you can query for individual items:
 
@@ -338,7 +338,7 @@ Yes. An array field can be indexed in MongoDB. In this case, MongoDB would index
 * https://stackoverflow.com/questions/4059126/how-does-mongodb-index-arrays
 
 [[↑] Back to top](#MongoDB)
-### When should we embed one document within another in MongoDB? (Mid)
+### When should we embed one document within another in MongoDB?
 
 You should consider embedding documents for:
 
@@ -351,7 +351,7 @@ You should consider embedding documents for:
 * https://www.tutorialspoint.com/mongodb/mongodb_interview_questions.htm
 
 [[↑] Back to top](#MongoDB)
-### How is MongoDB better than other SQL databases? (Senior)
+### How is MongoDB better than other SQL databases?
 
 MongoDB allows a highly flexible and scalable document structure. For e.g. one data document in MongoDB can have five columns and the other one in the same collection can have ten columns. Also, MongoDB database are faster as compared to SQL databases due to efficient indexing and storage techniques.
 
@@ -360,7 +360,7 @@ MongoDB allows a highly flexible and scalable document structure. For e.g. one d
 * https://www.tutorialspoint.com/mongodb/mongodb_interview_questions.htm
 
 [[↑] Back to top](#MongoDB)
-### Should I normalize my data before storing it in MongoDB? (Senior)
+### Should I normalize my data before storing it in MongoDB?
 
 It depends from your goals. Normalization will provide an _update efficient data representation_. Denormalization will make data _reading efficient_. 
 
@@ -382,7 +382,7 @@ Also normalizing your data like you would with a relational database is usually 
 * https://stackoverflow.com/questions/24839147/is-it-needed-to-normalize-your-database-when-you-are-using-mongodb
 
 [[↑] Back to top](#MongoDB)
-### What is use of capped collection in MongoDB? (Senior)
+### What is use of capped collection in MongoDB?
 
 **Capped collections** allow you to define a fix length/size collection. After the size/no of documents have been reached it will override the oldest document to accommodate new documents. It is like a circular buffer. Capped collections support high-throughput operations that insert and retrieve documents based on insertion order.
 
@@ -395,7 +395,7 @@ Consider the following potential use cases for capped collections:
 * https://www.quora.com/What-is-use-of-capped-collection-in-mongoDB
 
 [[↑] Back to top](#MongoDB)
-### What does MongoDB not being ACID compliant really mean? (Senior)
+### What does MongoDB not being ACID compliant really mean?
 
 It's actually not correct that MongoDB is not ACID-compliant. On the contrary, MongoDB is ACID-compilant at the document level.
 
@@ -415,7 +415,7 @@ Multi-document transactions, scheduled for MongoDB 4.0 in Summer 2018*, will fee
 * https://stackoverflow.com/questions/7149890/what-does-mongodb-not-being-acid-compliant-really-mean
 
 [[↑] Back to top](#MongoDB)
-### How to query MongoDB with %like%? (Senior)
+### How to query MongoDB with %like%?
 
 ```js
 db.users.find({name: /a/})  //like '%a%'
@@ -432,7 +432,7 @@ db.users.find({'name': {'$regex': 'sometext'}})
 * https://stackoverflow.com/questions/3305561/how-to-query-mongodb-with-like
 
 [[↑] Back to top](#MongoDB)
-### How do I perform the SQL JOIN equivalent in MongoDB? (Senior)
+### How do I perform the SQL JOIN equivalent in MongoDB?
 
 Mongo is not a relational database, and the devs are being careful to recommend specific use cases for $lookup, but at least as of 3.2 doing join is now possible with MongoDB. The new $lookup operator added to the aggregation pipeline is essentially identical to a left outer join:
 
@@ -453,7 +453,7 @@ Mongo is not a relational database, and the devs are being careful to recommend 
 * https://stackoverflow.com/questions/2350495/how-do-i-perform-the-sql-join-equivalent-in-mongodb
 
 [[↑] Back to top](#MongoDB)
-### When to use MongoDB or other document oriented database systems? (Senior)
+### When to use MongoDB or other document oriented database systems?
 
 MongoDB is best suitable to store _unstructured data_. And this can organize your data into document format. These data stores don't enforce the ACID properties, and any schemas. This doesn't provide any transaction abilities. So this can scale big and we can achieve faster access (both read and write). If you wanted to work with structured data you can go ahead with RDBM.
 
@@ -462,7 +462,7 @@ MongoDB is best suitable to store _unstructured data_. And this can organize you
 * https://stackoverflow.com/questions/1476295/when-to-use-mongodb-or-other-document-oriented-database-systems
 
 [[↑] Back to top](#MongoDB)
-### What is the difference between MongoDB and MySQL? (Senior)
+### What is the difference between MongoDB and MySQL?
 
 Although MongoDB and MySQL both are free and open source databases, there is a lot of difference between them in the term of data representation, relationship, transaction, querying data, schema design and definition, performance speed, normalization and many more. To compare MySQL with MongoDB is like a comparison between Relational and Non-relational databases.
 
@@ -471,7 +471,7 @@ Although MongoDB and MySQL both are free and open source databases, there is a l
 * https://medium.com/@hub4tech/list-of-top-10-mongodb-interview-questions-for-beginners-and-professionals-ee385b9c501b
 
 [[↑] Back to top](#MongoDB)
-### How can you achieve primary key - foreign key relationships in MongoDB? (Senior)
+### How can you achieve primary key - foreign key relationships in MongoDB?
 
 By default MongoDB does not support such primary key - foreign key relationships. However, we can achieve this concept by embedding one document inside another (aka subdocuments). Foe e.g. an address document can be embedded inside customer document.
 
@@ -480,7 +480,7 @@ By default MongoDB does not support such primary key - foreign key relationships
 * https://www.tutorialspoint.com/mongodb/mongodb_interview_questions.htm
 
 [[↑] Back to top](#MongoDB)
-### Does MongoDB pushes the writes to disk immediately or lazily? (Senior)
+### Does MongoDB pushes the writes to disk immediately or lazily?
 
 MongoDB pushes the data to disk lazily. It updates the immediately written to the journal but writing the data from journal to disk happens lazily.
 
@@ -489,7 +489,7 @@ MongoDB pushes the data to disk lazily. It updates the immediately written to th
 * https://www.tutorialspoint.com/mongodb/mongodb_interview_questions.htm
 
 [[↑] Back to top](#MongoDB)
-### If you remove a document from database, does MongoDB remove it from disk? (Senior)
+### If you remove a document from database, does MongoDB remove it from disk?
 
 Yes. Removing a document from database removes it from disk too.
 
@@ -498,7 +498,7 @@ Yes. Removing a document from database removes it from disk too.
 * https://www.tutorialspoint.com/mongodb/mongodb_interview_questions.htm
 
 [[↑] Back to top](#MongoDB)
-### What is the difference b/w MongoDB and CouchDB? (Senior)
+### What is the difference b/w MongoDB and CouchDB?
 
 MongoDB and CouchDB both are the great example of open source NoSQL database. Both are document oriented databases. Although both stores data but there is a lot of difference between them in terms of implementation of their data models, interfaces, object storage and replication methods etc.
 
@@ -507,7 +507,7 @@ MongoDB and CouchDB both are the great example of open source NoSQL database. Bo
 * https://medium.com/@hub4tech/list-of-top-10-mongodb-interview-questions-for-beginners-and-professionals-ee385b9c501b
 
 [[↑] Back to top](#MongoDB)
-### What is sharding? (Senior)
+### What is sharding?
 
 Sharding means to store the data on the multiple machines.
 
@@ -516,7 +516,7 @@ Sharding means to store the data on the multiple machines.
 * https://interviewbubble.com/advance-topics/mongodb-interview-questions-and-answers/
 
 [[↑] Back to top](#MongoDB)
-### What are NoSQL databases? What are the different types of NoSQL databases? (Senior)
+### What are NoSQL databases? What are the different types of NoSQL databases?
 
 A NoSQL database provides a mechanism for storage and retrieval of data that is modeled in means other than the tabular relations used in relational databases (like SQL, Oracle, etc.).
 
@@ -532,7 +532,7 @@ Types of NoSQL databases:
 * https://interviewbubble.com/advance-topics/mongodb-interview-questions-and-answers/
 
 [[↑] Back to top](#MongoDB)
-### Explain the structure of ObjectID in MongoDB (Senior)
+### Explain the structure of ObjectID in MongoDB
 
 **ObjectIds** are small, likely unique, fast to generate, and ordered. ObjectId values consist of 12 bytes, where the first four bytes are a timestamp that reflect the ObjectId’s creation. Specifically:
 
@@ -546,7 +546,7 @@ In MongoDB, each document stored in a collection requires a unique _id field tha
 * https://docs.mongodb.com/manual/reference/bson-types/
 
 [[↑] Back to top](#MongoDB)
-### What is a covered query in MongoDB? (Senior)
+### What is a covered query in MongoDB?
 
 A covered query is the one in which:
 
@@ -558,7 +558,7 @@ A covered query is the one in which:
 * https://www.tutorialspoint.com/mongodb/mongodb_interview_questions.htm
 
 [[↑] Back to top](#MongoDB)
-### How can I combine data from multiple collections into one collection? (Senior)
+### How can I combine data from multiple collections into one collection?
 
 MongoDB 3.2 allows one to combine data from multiple collections into one through the `$lookup` aggregation stage. 
 
@@ -578,7 +578,7 @@ db.books.aggregate([{
 * https://stackoverflow.com/questions/5681851/mongodb-combine-data-from-multiple-collections-into-one-how
 
 [[↑] Back to top](#MongoDB)
-### Find objects between two dates MongoDB (Senior)
+### Find objects between two dates MongoDB
 
 ```js
 db.CollectionName.find({"whenCreated": {
@@ -592,7 +592,7 @@ db.CollectionName.find({"whenCreated": {
 * https://stackoverflow.com/questions/2943222/find-objects-between-two-dates-mongodb
 
 [[↑] Back to top](#MongoDB)
-### How to query MongoDB with “like”? (Senior)
+### How to query MongoDB with “like”?
 
 I want to query something as SQL's like query:
 ```js
@@ -617,7 +617,7 @@ You're looking for something that contains "m" somewhere (SQL's `'%'` operator i
 * https://stackoverflow.com/questions/3305561/how-to-query-mongodb-with-like
 
 [[↑] Back to top](#MongoDB)
-### Is there an “upsert” option in the mongodb insert command? (Senior)
+### Is there an “upsert” option in the mongodb insert command?
 
 Since upsert is defined as operation that *creates a new document when no document matches the query criteria* there is no place for upserts in insert command. It is an option for the update command.
 
@@ -630,7 +630,7 @@ db.collection.update(query, update, {upsert: true})
 * https://stackoverflow.com/questions/19974216/is-there-an-upsert-option-in-the-mongodb-insert-command
 
 [[↑] Back to top](#MongoDB)
-### What is oplog? (Senior)
+### What is oplog?
 
 The *oplog* (operations log) is a special capped collection that keeps a rolling record of all operations that modify the data stored in your databases. MongoDB applies database operations on the primary and then records the operations on the primary’s oplog. The secondary members then copy and apply these operations in an asynchronous process. 
 
@@ -639,7 +639,7 @@ The *oplog* (operations log) is a special capped collection that keeps a rolling
 * https://www.tutorialspoint.com/mongodb/mongodb_interview_questions.htm
 
 [[↑] Back to top](#MongoDB)
-### How can you achieve transaction and locking in MongoDB? (Senior)
+### How can you achieve transaction and locking in MongoDB?
 
 To achieve concepts of transaction and locking in MongoDB, we can use the nesting of documents, also called embedded (or sub) documents. MongoDB supports atomic operations within a single document.
 
@@ -648,7 +648,7 @@ To achieve concepts of transaction and locking in MongoDB, we can use the nestin
 * https://www.tutorialspoint.com/mongodb/mongodb_interview_questions.htm
 
 [[↑] Back to top](#MongoDB)
-### What do you understand by NoSQL databases? Explain. (Senior)
+### What do you understand by NoSQL databases? Explain.
 
 At the present time, the internet is loaded with big data, big users, big complexity etc. and also becoming more complex day by day. NoSQL is answer of all these problems; It is not a traditional database management system, not even a relational database management system (RDBMS). NoSQL stands for “Not Only SQL”. NoSQL is a type of database that can handle and sort all type of unstructured, messy and complicated data. It is just a new way to think about the database.
 
@@ -657,7 +657,7 @@ At the present time, the internet is loaded with big data, big users, big comple
 * https://medium.com/@hub4tech/list-of-top-10-mongodb-interview-questions-for-beginners-and-professionals-ee385b9c501b
 
 [[↑] Back to top](#MongoDB)
-### What is Sharding in MongoDB? Explain. (Senior)
+### What is Sharding in MongoDB? Explain.
 
 *Sharding* is a method for storing data across multiple machines. MongoDB uses sharding to support deployments with very large data sets and high throughput operations.
 
@@ -666,7 +666,7 @@ At the present time, the internet is loaded with big data, big users, big comple
 * https://www.tutorialspoint.com/mongodb/mongodb_interview_questions.htm
 
 [[↑] Back to top](#MongoDB)
-### Can one MongoDB operation lock more than one databases? If yes, how? (Senior)
+### Can one MongoDB operation lock more than one databases? If yes, how?
 
 Yes. Operations like `copyDatabase()`, `repairDatabase()`, etc. can lock more than one databases involved.
 
@@ -675,7 +675,7 @@ Yes. Operations like `copyDatabase()`, `repairDatabase()`, etc. can lock more th
 * https://www.tutorialspoint.com/mongodb/mongodb_interview_questions.htm
 
 [[↑] Back to top](#MongoDB)
-### Mention the command to check whether you are on the master server or not. (Senior)
+### Mention the command to check whether you are on the master server or not.
 
 ```js
 db.isMaster()
@@ -686,7 +686,7 @@ db.isMaster()
 * https://www.tutorialspoint.com/mongodb/mongodb_interview_questions.htm
 
 [[↑] Back to top](#MongoDB)
-### Why are MongoDB data files large in size? (Senior)
+### Why are MongoDB data files large in size?
 
 MongoDB preallocates data files to reserve space and avoid file system fragmentation when you setup the server.
 
@@ -695,7 +695,7 @@ MongoDB preallocates data files to reserve space and avoid file system fragmenta
 * https://www.tutorialspoint.com/mongodb/mongodb_interview_questions.htm
 
 [[↑] Back to top](#MongoDB)
-### Does MongoDB support ACID transaction management and locking functionalities? (Senior)
+### Does MongoDB support ACID transaction management and locking functionalities?
 
 ACID stands that any update is:
 * **Atomic**: it either fully completes or it does not
@@ -710,7 +710,7 @@ Historically MongoDB does not support default multi-document ACID transactions (
 * https://www.tutorialspoint.com/mongodb/mongodb_interview_questions.htm
 
 [[↑] Back to top](#MongoDB)
-### Why MongoDB is not preferred over a 32-bit system? (Senior)
+### Why MongoDB is not preferred over a 32-bit system?
 
 When running a 32-bit build of MongoDB, the total storage size for the server, including data and indexes, is 2 gigabytes. For this reason, do not deploy MongoDB to production on 32-bit machines.
 
@@ -721,7 +721,7 @@ If you're running a 64-bit build of MongoDB, there's virtually no limit to stora
 * https://www.tutorialspoint.com/mongodb/mongodb_interview_questions.htm
 
 [[↑] Back to top](#MongoDB)
-### What is Aggregation in MongoDB? (Senior)
+### What is Aggregation in MongoDB?
 
 *Aggregations* operations process data records and return computed results. Aggregation operations group values from multiple documents together, and can perform a variety of operations on the grouped data to return a single result. MongoDB provides three ways to perform aggregation: 
 * the aggregation pipeline,
@@ -733,7 +733,7 @@ If you're running a 64-bit build of MongoDB, there's virtually no limit to stora
 * https://www.tutorialspoint.com/mongodb/mongodb_interview_questions.htm
 
 [[↑] Back to top](#MongoDB)
-### How replication works in MongoDB? (Expert)
+### How replication works in MongoDB?
 
 A replica set consists of a primary node and a secondary node too. With the help of a replica set, all the data from primary node to the secondary node replicates. Replication is a process of synchronizing the data. Replication provides redundancy and it also increases the availability of data with the help of multiple copies of data on the different database server. It also protects the database from the loss of a single server.
 
@@ -742,7 +742,7 @@ A replica set consists of a primary node and a secondary node too. With the help
 * https://interviewbubble.com/advance-topics/mongodb-interview-questions-and-answers/
 
 [[↑] Back to top](#MongoDB)
-### By default, MongoDB writes and reads data from both primary and secondary replica sets. True or False. (Expert)
+### By default, MongoDB writes and reads data from both primary and secondary replica sets. True or False.
 
 False. MongoDB writes data only to the primary replica set.
 
@@ -751,7 +751,7 @@ False. MongoDB writes data only to the primary replica set.
 * https://www.tutorialspoint.com/mongodb/mongodb_interview_questions.htm
 
 [[↑] Back to top](#MongoDB)
-### How does MongoDB provide concurrency? (Expert)
+### How does MongoDB provide concurrency?
 
 MongoDB uses reader-writer locks that allow concurrent readers shared access to a resource, such as a database or collection, but give exclusive access to a single write operation.
 
@@ -760,7 +760,7 @@ MongoDB uses reader-writer locks that allow concurrent readers shared access to 
 * https://www.tutorialspoint.com/mongodb/mongodb_interview_questions.htm
 
 [[↑] Back to top](#MongoDB)
-### How can you isolate your cursors from intervening with the write operations? (Expert)
+### How can you isolate your cursors from intervening with the write operations?
 
 You can use the `snapshot()` method on a cursor to isolate the operation for a very specific case. `snapshot()` traverses the index on the `_id` field and guarantees that the query will return each document no more than once.
 
@@ -769,7 +769,7 @@ You can use the `snapshot()` method on a cursor to isolate the operation for a v
 * https://www.tutorialspoint.com/mongodb/mongodb_interview_questions.htm
 
 [[↑] Back to top](#MongoDB)
-### What are Primary and Secondary Replica sets? (Expert)
+### What are Primary and Secondary Replica sets?
 
 * **Primary** and master nodes are the nodes that can accept writes. MongoDB's replication is 'single-master:' only one node can accept write operations at a time.
 * **Secondary** and slave nodes are read-only nodes that replicate from the primary.
@@ -779,7 +779,7 @@ You can use the `snapshot()` method on a cursor to isolate the operation for a v
 * https://www.tutorialspoint.com/mongodb/mongodb_interview_questions.htm
 
 [[↑] Back to top](#MongoDB)
-### At what interval does MongoDB write updates to the disk? (Expert)
+### At what interval does MongoDB write updates to the disk?
 
 By default configuration, MongoDB writes updates to the disk every 60 seconds. However, this is configurable with the `commitIntervalMs` and `syncPeriodSecs` options.
 
@@ -788,7 +788,7 @@ By default configuration, MongoDB writes updates to the disk every 60 seconds. H
 * https://www.tutorialspoint.com/mongodb/mongodb_interview_questions.htm
 
 [[↑] Back to top](#MongoDB)
-### Mention the command to list all the indexes on a particular collection. (Expert)
+### Mention the command to list all the indexes on a particular collection.
 
 ```js
 db.collection.getIndexes()
@@ -799,7 +799,7 @@ db.collection.getIndexes()
 * https://www.tutorialspoint.com/mongodb/mongodb_interview_questions.htm
 
 [[↑] Back to top](#MongoDB)
-### What happens if an index does not fit into RAM? (Expert)
+### What happens if an index does not fit into RAM?
 
 If the indexes do not fit into RAM, MongoDB reads data from disk which is relatively very much slower than reading from RAM.
 
@@ -808,7 +808,7 @@ If the indexes do not fit into RAM, MongoDB reads data from disk which is relati
 * https://www.tutorialspoint.com/mongodb/mongodb_interview_questions.htm
 
 [[↑] Back to top](#MongoDB)
-### Does MongoDB provide a facility to do text searches? How? (Expert)
+### Does MongoDB provide a facility to do text searches? How?
 
 Yes. MongoDB supports creating text indexes to support text search inside string content. This was a new feature which can introduced in version 2.6.
 
@@ -817,7 +817,7 @@ Yes. MongoDB supports creating text indexes to support text search inside string
 * https://www.tutorialspoint.com/mongodb/mongodb_interview_questions.htm
 
 [[↑] Back to top](#MongoDB)
-### Update MongoDB field using value of another field (Expert)
+### Update MongoDB field using value of another field
 
 Consider SQL command:
 ```js
@@ -852,7 +852,7 @@ db.person.find().snapshot().forEach(
 * https://stackoverflow.com/questions/3974985/update-mongodb-field-using-value-of-another-field
 
 [[↑] Back to top](#MongoDB)
-### How does Journaling work in MongoDB? (Expert)
+### How does Journaling work in MongoDB?
 
 When running with *journaling*, MongoDB stores and applies write operations in memory and in the on-disk journal before the changes are present in the data files on disk. Writes to the journal are atomic, ensuring the consistency of the on-disk journal files. With journaling enabled, MongoDB creates a journal subdirectory within the directory defined by dbPath, which is /data/db by default.
 
@@ -861,7 +861,7 @@ When running with *journaling*, MongoDB stores and applies write operations in m
 * https://www.tutorialspoint.com/mongodb/mongodb_interview_questions.htm
 
 [[↑] Back to top](#MongoDB)
-### Why is a covered query important? (Expert)
+### Why is a covered query important?
 
 Since all the fields are covered in the index itself, MongoDB can match the query condition as well as return the result fields using the same index without looking inside the documents. Since indexes are stored in RAM or sequentially located on disk, such access is a lot faster.
 
@@ -870,7 +870,7 @@ Since all the fields are covered in the index itself, MongoDB can match the quer
 * https://www.tutorialspoint.com/mongodb/mongodb_interview_questions.htm
 
 [[↑] Back to top](#MongoDB)
-### When to Redis or MongoDB? (Expert)
+### When to Redis or MongoDB?
 
 * **Use MongoDB if you don't know yet how you're going to query your data or what schema to stick with.**
 MongoDB is suited for Hackathons, startups or every time you don't know how you'll query the data you inserted. MongoDB does not make any assumptions on your underlying schema. While MongoDB is schemaless and non-relational, this does not mean that there is no schema at all. It simply means that your schema needs to be defined in your app (e.g. using Mongoose). Besides that, MongoDB is great for prototyping or trying things out. Its performance is not that great and can't be compared to Redis.
@@ -882,7 +882,7 @@ MongoDB is suited for Hackathons, startups or every time you don't know how you'
 * https://stackoverflow.com/questions/5400163/when-to-redis-when-to-mongodb
 
 [[↑] Back to top](#MongoDB)
-### MongoDB relationships. What to use - embed or reference? (Expert)
+### MongoDB relationships. What to use - embed or reference?
 
 In general, 
 * **embed** is good if you have one-to-one or one-to-many relationships between entities, and 
@@ -895,7 +895,7 @@ Also consider as a general rule, if you have a lot of [child documents] or if th
 * https://stackoverflow.com/questions/5373198/mongodb-relationships-embed-or-reference
 
 [[↑] Back to top](#MongoDB)
-### Is MongoDB schema-less? (Expert)
+### Is MongoDB schema-less?
 
 No. In MongoDB schema design is still important. MongoDB's document model does, however, employ a different schema paradigm than traditional relational databases.
 
@@ -908,7 +908,7 @@ MongoDB's dynamic schema also makes it easier to represent semi-structured and p
 * https://www.mongodb.com/faq
 
 [[↑] Back to top](#MongoDB)
-### How to get the last N records from find? (Expert)
+### How to get the last N records from find?
 
 Use `sort` and `limit` in chain:
 ```js
@@ -920,7 +920,7 @@ db.foo.find().sort({_id:1}).limit(50);
 * https://stackoverflow.com/questions/4421207/mongodb-how-to-get-the-last-n-records
 
 [[↑] Back to top](#MongoDB)
-### How does MongoDB ensure high availability? (Expert)
+### How does MongoDB ensure high availability?
 
 MongoDB automatically maintains replica sets, multiple copies of data that are distributed across servers, racks and data centers. Replica sets help prevent database downtime using native replication and automatic failover.
 
@@ -931,7 +931,7 @@ A replica set consists of multiple replica set members. At any given time one me
 * https://www.mongodb.com/faq
 
 [[↑] Back to top](#MongoDB)
-### How to find MongoDB records where array field is not empty? (Expert)
+### How to find MongoDB records where array field is not empty?
 
 Consider some variants:
 ```js
@@ -946,7 +946,7 @@ collection.find({'pictures.0': {$exists: true}}); // beware if performance is im
 * https://stackoverflow.com/questions/14789684/find-mongodb-records-where-array-field-is-not-empty
 
 [[↑] Back to top](#MongoDB)
-### How to check if a field contains a substring? (Expert)
+### How to check if a field contains a substring?
 
 Consider:
 ```js
@@ -958,7 +958,7 @@ db.users.findOne({"username" : {$regex : ".*subsctring.*"}});
 * https://stackoverflow.com/questions/10610131/checking-if-a-field-contains-a-string
 
 [[↑] Back to top](#MongoDB)
-### Where can I run MongoDB? (Expert)
+### Where can I run MongoDB?
 
 MongoDB can be run anywhere, providing you complete freedom from platform lock-in.
 
@@ -971,7 +971,7 @@ You can download MongoDB and run it yourself anywhere. MongoDB Ops Manager is th
 * https://www.mongodb.com/faq
 
 [[↑] Back to top](#MongoDB)
-### What are alternatives to MongoDB? (Expert)
+### What are alternatives to MongoDB?
 
 Cassandra, CouchDB, Redis, Riak, Hbase are a few good alternatives.
 
@@ -980,7 +980,7 @@ Cassandra, CouchDB, Redis, Riak, Hbase are a few good alternatives.
 * https://interviewbubble.com/advance-topics/mongodb-interview-questions-and-answers/
 
 [[↑] Back to top](#MongoDB)
-### How to remove a field completely from a MongoDB document? (Expert)
+### How to remove a field completely from a MongoDB document?
 
 Suppose this is a document. 
 
@@ -1009,7 +1009,7 @@ db.example.update({}, {$unset: {words:1}}, false, true);
 * https://stackoverflow.com/questions/6851933/how-to-remove-a-field-completely-from-a-mongodb-document
 
 [[↑] Back to top](#MongoDB)
-### What is a Storage Engine in MongoDB (Expert)
+### What is a Storage Engine in MongoDB
 
 A *storage engine* is the part of a database that is responsible for managing how data is stored on disk. For example, one storage engine might offer better performance for read-heavy workloads, and another might support a higher-throughput for write operations.
 
@@ -1018,7 +1018,7 @@ A *storage engine* is the part of a database that is responsible for managing ho
 * https://www.tutorialspoint.com/mongodb/mongodb_interview_questions.htm
 
 [[↑] Back to top](#MongoDB)
-### How to find document with array that contains a specific value? (Expert)
+### How to find document with array that contains a specific value?
 
 Consider:
 ```js
@@ -1031,7 +1031,7 @@ PersonModel.find({ favouriteFoods: { "$in" : ["sushi"]} }, ...);
 * https://docs.mongodb.com/manual/tutorial/query-arrays/
 
 [[↑] Back to top](#MongoDB)
-### What is splitting in mongodb? (Expert)
+### What is splitting in mongodb?
 
 It is a background process that is used to keep chunks from growing too large.
 
@@ -1040,7 +1040,7 @@ It is a background process that is used to keep chunks from growing too large.
 * https://intellipaat.com/interview-question/mongodb-interview-questions/
 
 [[↑] Back to top](#MongoDB)
-### Is it possible to update MongoDB field using value of another field? (Expert)
+### Is it possible to update MongoDB field using value of another field?
 
 You cannot refer to the document itself in an update (yet). You'll need to iterate through the documents and update each document using a function. 
 So consider:
@@ -1063,7 +1063,7 @@ db.person.find().snapshot().forEach(
 * https://stackoverflow.com/questions/3974985/update-mongodb-field-using-value-of-another-field
 
 [[↑] Back to top](#MongoDB)
-### Explain what is horizontal scalability? (Expert)
+### Explain what is horizontal scalability?
 
 **Horizontal scalability** is the ability to increase capacity by connecting multiple hardware or software entities so that they work as a single logical unit. MongoDB provides horizontal scalability as part of its core functionality.
 
@@ -1072,7 +1072,7 @@ db.person.find().snapshot().forEach(
 * https://searchcio.techtarget.com/definition/horizontal-scalability
 
 [[↑] Back to top](#MongoDB)
-### What are the differences between MongoDB and MySQL? (Expert)
+### What are the differences between MongoDB and MySQL?
 
 The Major Differences between MongoDB and MySQL are:
 
@@ -1096,7 +1096,7 @@ The Major Differences between MongoDB and MySQL are:
 * https://www.analyticbridge.datasciencecentral.com/profiles/blogs/comparing-mongodb-with-mysql
 
 [[↑] Back to top](#MongoDB)
-### How to condense large volumes of data in Mongo? (Expert)
+### How to condense large volumes of data in Mongo?
 
 *Map-reduce* is a data processing paradigm for condensing large volumes of data into useful aggregated results. For map-reduce operations, MongoDB provides the `mapReduce` database command.
 
@@ -1105,7 +1105,7 @@ The Major Differences between MongoDB and MySQL are:
 * https://docs.mongodb.com/manual/tutorial/map-reduce-examples/
 
 [[↑] Back to top](#MongoDB)
-### Which are the two storage engines used by MongoDB? (Expert)
+### Which are the two storage engines used by MongoDB?
 
 MongoDB uses MMAPv1 and WiredTiger.
 
@@ -1114,7 +1114,7 @@ MongoDB uses MMAPv1 and WiredTiger.
 * https://www.tutorialspoint.com/mongodb/mongodb_interview_questions.htm
 
 [[↑] Back to top](#MongoDB)
-### What's the advantage of the backup features in Ops Manager versus traditional backup strategies? (Expert)
+### What's the advantage of the backup features in Ops Manager versus traditional backup strategies?
 
 Ops Manager offers a lot of advantages, including:
 
@@ -1133,7 +1133,7 @@ Ops Manager is included with MongoDB Enterprise Advanced, and provides continuou
 * https://www.mongodb.com/faq
 
 [[↑] Back to top](#MongoDB)
-### What are three primary concerns when choosing a data management system? (Expert)
+### What are three primary concerns when choosing a data management system?
 
 There are three primary concerns you must balance when choosing a data management system: consistency, availability, and partition tolerance.
 * **Consistency** - means that each client always has the same view of the data.

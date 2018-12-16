@@ -88,45 +88,45 @@
 
 [Write a recursive function that returns the binary string of a given decimal number](#write-a-recursive-function-that-returns-the-binary-string-of-a-given-decimal-number-senior)
 
-[What is “closure” in javascript? Provide an example? (Expert)](#what-is-closure-in-javascript-provide-an-example-expert)
+[What is “closure” in javascript? Provide an example?](#what-is-closure-in-javascript-provide-an-example-expert)
 
-[Explain what is hoisting in Javascript (Expert)](#explain-what-is-hoisting-in-javascript-expert)
+[Explain what is hoisting in Javascript](#explain-what-is-hoisting-in-javascript-expert)
 
-[Given an integer, determine if it is a power of 2. If so, return that number, else return -1 (Expert)](#given-an-integer-determine-if-it-is-a-power-of-2-if-so-return-that-number-else-return--1-expert)
+[Given an integer, determine if it is a power of 2. If so, return that number, else return -1](#given-an-integer-determine-if-it-is-a-power-of-2-if-so-return-that-number-else-return--1-expert)
 
-[What will be the output of the following code? (Expert)](#what-will-be-the-output-of-the-following-code-expert)
+[What will be the output of the following code?](#what-will-be-the-output-of-the-following-code-expert)
 
-[Describe the JS module design pattern (Expert)](#describe-the-js-module-design-pattern-expert)
+[Describe the JS module design pattern](#describe-the-js-module-design-pattern-expert)
 
-[How would you create a private variable in JavaScript? (Expert)](#how-would-you-create-a-private-variable-in-javascript-expert)
+[How would you create a private variable in JavaScript?](#how-would-you-create-a-private-variable-in-javascript-expert)
 
-[Explain the Prototype Design Pattern (Expert)](#explain-the-prototype-design-pattern-expert)
+[Explain the Prototype Design Pattern](#explain-the-prototype-design-pattern-expert)
 
-[Write a recursive function that performs a binary search (Expert)](#write-a-recursive-function-that-performs-a-binary-search-expert)
+[Write a recursive function that performs a binary search](#write-a-recursive-function-that-performs-a-binary-search-expert)
 
-[Create a function that will evaluate if a given expression has balanced parentheses using stacks (Expert)](#create-a-function-that-will-evaluate-if-a-given-expression-has-balanced-parentheses-using-stacks-expert)
+[Create a function that will evaluate if a given expression has balanced parentheses using stacks](#create-a-function-that-will-evaluate-if-a-given-expression-has-balanced-parentheses-using-stacks-expert)
 
-[What will be the output of the following code? (Expert)](#what-will-be-the-output-of-the-following-code-expert)
+[What will be the output of the following code?](#what-will-be-the-output-of-the-following-code-expert)
 
-[Explain prototype inheritance in JavaScript? (Expert)](#explain-prototype-inheritance-in-javascript-expert)
+[Explain prototype inheritance in JavaScript?](#explain-prototype-inheritance-in-javascript-expert)
 
-[What does the term "Transpiling" stand for? (Expert)](#what-does-the-term-transpiling-stand-for-expert)
+[What does the term "Transpiling" stand for?](#what-does-the-term-transpiling-stand-for-expert)
 
-[What is the "new" keyword in JavaScript? (Expert)](#what-is-the-new-keyword-in-javascript-expert)
+[What is the "new" keyword in JavaScript?](#what-is-the-new-keyword-in-javascript-expert)
 
-[When would you use the "bind" function? (Expert)](#when-would-you-use-the-bind-function-expert)
+[When would you use the "bind" function?](#when-would-you-use-the-bind-function-expert)
 
-[How does the “this” keyword work? Provide some code examples. (Expert)](#how-does-the-this-keyword-work-provide-some-code-examples-expert)
+[How does the “this” keyword work? Provide some code examples.](#how-does-the-this-keyword-work-provide-some-code-examples-expert)
 
-[How would you add your own method to the Array object so the following code would work? (Expert)](#how-would-you-add-your-own-method-to-the-array-object-so-the-following-code-would-work-expert)
+[How would you add your own method to the Array object so the following code would work?](#how-would-you-add-your-own-method-to-the-array-object-so-the-following-code-would-work-expert)
 
-[What is Hoisting in JavaScript? (Expert)](#what-is-hoisting-in-javascript-expert)
+[What is Hoisting in JavaScript?](#what-is-hoisting-in-javascript-expert)
 
-[What will the following code output? (Expert)](#what-will-the-following-code-output-expert)
+[What will the following code output?](#what-will-the-following-code-output-expert)
 
-[Check if a given string is a isomorphic (Expert)](#check-if-a-given-string-is-a-isomorphic-expert)
+[Check if a given string is a isomorphic](#check-if-a-given-string-is-a-isomorphic-expert)
 
-[Describe the Revealing Module Pattern design pattern (Expert)](#describe-the-revealing-module-pattern-design-pattern-expert)
+[Describe the Revealing Module Pattern design pattern](#describe-the-revealing-module-pattern-design-pattern-expert)
 
 
 
@@ -1332,7 +1332,7 @@ function decimalToBinary(digit) {
 * https://github.com/kennymkchan/interview-questions-in-javascript
 
 [[↑] Back to top](#JavaScript)
-### What is “closure” in javascript? Provide an example? (Expert)
+### What is “closure” in javascript? Provide an example?
 
 A *closure* is a function defined inside another function (called parent function) and has access to the variable which is declared and defined in parent function scope.
 
@@ -1381,7 +1381,7 @@ globalVar = abc
 * https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Question/blob/master/README.md
 
 [[↑] Back to top](#JavaScript)
-### Explain what is hoisting in Javascript (Expert)
+### Explain what is hoisting in Javascript
 
 **Hoisting** is the concept in which Javascript, by default, moves all declarations to the top of the current scope. As such, a variable can be used before it has been declared. 
 
@@ -1392,7 +1392,7 @@ Note that Javascript only hoists declarations and not initializations.
 * https://github.com/kennymkchan/interview-questions-in-javascript
 
 [[↑] Back to top](#JavaScript)
-### Given an integer, determine if it is a power of 2. If so, return that number, else return -1 (Expert)
+### Given an integer, determine if it is a power of 2. If so, return that number, else return -1
 
  Note, 0 is not a power of two.
 
@@ -1428,7 +1428,7 @@ function isPowerOfTwoZeroCase(number) {
 * https://github.com/kennymkchan/interview-questions-in-javascript
 
 [[↑] Back to top](#JavaScript)
-### What will be the output of the following code? (Expert)
+### What will be the output of the following code?
 
 Above code will output `xyz` as output. 
 Here `emp1` object got company as **prototype** property. 
@@ -1447,7 +1447,7 @@ However, we can delete company property directly from `Employee` object using `d
 * https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Question/blob/master/README.md
 
 [[↑] Back to top](#JavaScript)
-### Describe the JS module design pattern (Expert)
+### Describe the JS module design pattern
 
 **JavaScript modules** are the most prevalently used **design patterns** for keeping particular pieces of code independent of other components. This provides loose coupling to support well-structured code.
 
@@ -1469,7 +1469,7 @@ Here we instantiate the private variables and/or functions before returning our 
 * https://scotch.io/bar-talk/4-javascript-design-patterns-you-should-know
 
 [[↑] Back to top](#JavaScript)
-### How would you create a private variable in JavaScript? (Expert)
+### How would you create a private variable in JavaScript?
 
 To create a private variable in JavaScript that cannot be changed you need to create it as a local variable within a function. Even if the function is executed the variable cannot be accessed outside of the function. For example:
 
@@ -1500,7 +1500,7 @@ console.log(getPriv()); // => secret code
 * https://coderbyte.com/algorithm/10-common-javascript-interview-questions
 
 [[↑] Back to top](#JavaScript)
-### Explain the Prototype Design Pattern (Expert)
+### Explain the Prototype Design Pattern
 
 *The Prototype Pattern* creates new objects, but rather than creating non-initialized objects it returns objects that are initialized with values it *copied* from a prototype - or sample - object. The Prototype pattern is also referred to as the Properties pattern.
 
@@ -1513,7 +1513,7 @@ Classical languages rarely use the Prototype pattern, but JavaScript being a pro
 * http://www.dofactory.com/javascript/prototype-design-pattern
 
 [[↑] Back to top](#JavaScript)
-### Write a recursive function that performs a binary search (Expert)
+### Write a recursive function that performs a binary search
 
 ```js
 function recursiveBinarySearch(array, value, leftPosition, rightPosition) {
@@ -1536,7 +1536,7 @@ function recursiveBinarySearch(array, value, leftPosition, rightPosition) {
 * https://github.com/kennymkchan/interview-questions-in-javascript
 
 [[↑] Back to top](#JavaScript)
-### Create a function that will evaluate if a given expression has balanced parentheses using stacks (Expert)
+### Create a function that will evaluate if a given expression has balanced parentheses using stacks
 
 In this example, we will only consider `{}` as valid parentheses `{}{}` would be considered balancing. `{{{}}` is not balanced.
 
@@ -1579,7 +1579,7 @@ function isBalanced(expression) {
 * https://github.com/kennymkchan/interview-questions-in-javascript
 
 [[↑] Back to top](#JavaScript)
-### What will be the output of the following code? (Expert)
+### What will be the output of the following code?
 
 Above code will output `0` as output. `delete` operator is used to delete a property from an object. Here `x` is not an object it's **local variable**. `delete` operator doesn't affect local variable.
 
@@ -1588,7 +1588,7 @@ Above code will output `0` as output. `delete` operator is used to delete a prop
 * https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Question/blob/master/README.md
 
 [[↑] Back to top](#JavaScript)
-### Explain prototype inheritance in JavaScript? (Expert)
+### Explain prototype inheritance in JavaScript?
 
 In a language implementing classical inheritance like Java, C# or C++ you start by creating a class--a blueprint for your objects - and then you can create new objects from that class or you can extend the class, defining a new class that augments the original class.
 
@@ -1614,7 +1614,7 @@ foo.kind //=> ‘foo’
 * http://sporto.github.io/blog/2013/02/22/a-plain-english-guide-to-javascript-prototypes/
 
 [[↑] Back to top](#JavaScript)
-### What does the term "Transpiling" stand for? (Expert)
+### What does the term "Transpiling" stand for?
 
 There's no way to polyfill new syntax that has been added to the language. So the better option is to use a tool that converts your newer code into older code equivalents. This process is commonly called **transpiling**, a term for *transforming + compiling*.
 
@@ -1628,7 +1628,7 @@ There are quite a few great transpilers for you to choose from:
 * https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch2.md
 
 [[↑] Back to top](#JavaScript)
-### What is the "new" keyword in JavaScript? (Expert)
+### What is the "new" keyword in JavaScript?
 
 1. It creates a new object. The type of this object is simply `object`.
 2. It sets this new object's internal, inaccessible, [[prototype]] (i.e.` __proto__`) property to be the constructor function's external, accessible, prototype object (every function object automatically has a prototype property).
@@ -1656,7 +1656,7 @@ function New(func) {
 * https://stackoverflow.com/questions/1646698/what-is-the-new-keyword-in-javascript
 
 [[↑] Back to top](#JavaScript)
-### When would you use the "bind" function? (Expert)
+### When would you use the "bind" function?
 
 The `bind()` method creates a new function that, when called, has its `this` keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function is called.
 
@@ -1679,7 +1679,7 @@ console.log(fullName.bind(person)()); // => Hello this is Foo Bar
 * https://coderbyte.com/algorithm/10-common-javascript-interview-questions
 
 [[↑] Back to top](#JavaScript)
-### How does the “this” keyword work? Provide some code examples. (Expert)
+### How does the “this” keyword work? Provide some code examples.
 
 In JavaScript *this* always refers to the “owner” of the function we're executing, or rather, to the object that a function is a method of.
 
@@ -1711,7 +1711,7 @@ new foo();	     // undefined
 * https://www.quirksmode.org/js/this.html
 
 [[↑] Back to top](#JavaScript)
-### How would you add your own method to the Array object so the following code would work? (Expert)
+### How would you add your own method to the Array object so the following code would work?
 
 JavaScript is not class based, but it is a prototype-based language. This means that each object is linked to another object, its prototype, and it inherits its methods. You can follow the prototype chain for each object up until you reach the `null` object which has no prototype. We need to add a method to the global `Array` object, and we will do this by modifying the `Array prototype`.
 
@@ -1733,7 +1733,7 @@ console.log(avg); // => 3
 * https://coderbyte.com/algorithm/10-common-javascript-interview-questions
 
 [[↑] Back to top](#JavaScript)
-### What is Hoisting in JavaScript? (Expert)
+### What is Hoisting in JavaScript?
 
 *Hoisting* is the JavaScript interpreter's action of moving all variable and function declarations to the top of the current scope. There are two types of *hoisting*:
 * variable hoisting - rare
@@ -1760,7 +1760,7 @@ console.log( a );	// 2
 
 
 [[↑] Back to top](#JavaScript)
-### What will the following code output? (Expert)
+### What will the following code output?
 
 This will surprisingly output `false` because of floating point errors in internally representing certain numbers. `0.1 + 0.2` does not nicely come out to `0.3` but instead the result is actually `0.30000000000000004` because the computer cannot internally represent the correct number. One solution to get around this problem is to round the results when doing arithmetic with decimal numbers.
 
@@ -1769,7 +1769,7 @@ This will surprisingly output `false` because of floating point errors in intern
 * https://coderbyte.com/algorithm/10-common-javascript-interview-questions
 
 [[↑] Back to top](#JavaScript)
-### Check if a given string is a isomorphic (Expert)
+### Check if a given string is a isomorphic
 
 For two strings to be *isomorphic*, all occurrences of a character in string A can be replaced with another character to get string B. The order of the characters must be preserved. There must be one-to-one mapping for ever char of string A to every char of string B.
 
@@ -1814,7 +1814,7 @@ function isIsomorphic(firstString, secondString) {
 * https://github.com/kennymkchan/interview-questions-in-javascript
 
 [[↑] Back to top](#JavaScript)
-### Describe the Revealing Module Pattern design pattern (Expert)
+### Describe the Revealing Module Pattern design pattern
 
 A variation of the **module pattern** is called the **Revealing Module Pattern**. The purpose is to maintain encapsulation and reveal certain variables and methods returned in an object literal. The direct implementation looks like this:
 

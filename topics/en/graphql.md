@@ -1,34 +1,34 @@
 ## GraphQL
 
-[What is GraphQL? (Junior)](#what-is-graphql-junior)
+[What is GraphQL?](#what-is-graphql-junior)
 
-[Is GraphQL a Database Technology? (Junior)](#is-graphql-a-database-technology-junior)
+[Is GraphQL a Database Technology?](#is-graphql-a-database-technology-junior)
 
-[Is GraphQL only for React / Javascript Developers? (Junior)](#is-graphql-only-for-react--javascript-developers-junior)
+[Is GraphQL only for React / Javascript Developers?](#is-graphql-only-for-react--javascript-developers-junior)
 
-[How to do Error Handling? (Mid)](#how-to-do-error-handling-mid)
+[How to do Error Handling?](#how-to-do-error-handling-mid)
 
-[Where is GraphQL useful? (Mid)](#where-is-graphql-useful-mid)
+[Where is GraphQL useful?](#where-is-graphql-useful-mid)
 
-[What is GraphQL schema? (Mid)](#what-is-graphql-schema-mid)
+[What is GraphQL schema?](#what-is-graphql-schema-mid)
 
-[How to do Authentication and Authorization? (Senior)](#how-to-do-authentication-and-authorization-senior)
+[How to do Authentication and Authorization?](#how-to-do-authentication-and-authorization-senior)
 
-[Does GraphQL Support Offline Usage? (Senior)](#does-graphql-support-offline-usage-senior)
+[Does GraphQL Support Offline Usage?](#does-graphql-support-offline-usage-senior)
 
-[How to do Server-side Caching? (Senior)](#how-to-do-server-side-caching-senior)
+[How to do Server-side Caching?](#how-to-do-server-side-caching-senior)
 
-[List the key concepts of the GraphQL query language (Senior)](#list-the-key-concepts-of-the-graphql-query-language-senior)
+[List the key concepts of the GraphQL query language](#list-the-key-concepts-of-the-graphql-query-language-senior)
 
-[Explain the main difference between REST and GraphQL (Senior)](#explain-the-main-difference-between-rest-and-graphql-senior)
+[Explain the main difference between REST and GraphQL](#explain-the-main-difference-between-rest-and-graphql-senior)
 
-[What kind of operations could GraphQL schema have? (Senior)](#what-kind-of-operations-could-graphql-schema-have-senior)
+[What kind of operations could GraphQL schema have?](#what-kind-of-operations-could-graphql-schema-have-senior)
 
-[Are there any disadvantages to GraphQL? (Expert)](#are-there-any-disadvantages-to-graphql-expert)
+[Are there any disadvantages to GraphQL?](#are-there-any-disadvantages-to-graphql-expert)
 
 
 
-### What is GraphQL? (Junior)
+### What is GraphQL?
 
 GraphQL is a query language created by [Facebook](http://facebook.github.io/) in 2012 which provides a **common interface between the client and the server for data fetching and manipulations**.
 
@@ -40,7 +40,7 @@ The structure of the data is not hardcoded as in traditional REST APIs - this ma
 * https://www.howtographql.com/advanced/5-common-questions/
 
 [[↑] Back to top](#GraphQL)
-### Is GraphQL a Database Technology? (Junior)
+### Is GraphQL a Database Technology?
 
 No. GraphQL is often confused with being a database technology. This is a misconception, GraphQL is a _query language_ for APIs - not databases. In that sense it’s database agnostic and can be used with any kind of database or even no database at all.
 
@@ -49,7 +49,7 @@ No. GraphQL is often confused with being a database technology. This is a miscon
 * https://www.howtographql.com/advanced/5-common-questions/
 
 [[↑] Back to top](#GraphQL)
-### Is GraphQL only for React / Javascript Developers? (Junior)
+### Is GraphQL only for React / Javascript Developers?
 
 No. GraphQL is an API technology so it can be used in any context where an API is required.
 
@@ -64,7 +64,7 @@ Since a GraphQL API is usually operated over HTTP, any client that can speak HTT
 * https://www.howtographql.com/advanced/5-common-questions/
 
 [[↑] Back to top](#GraphQL)
-### How to do Error Handling? (Mid)
+### How to do Error Handling?
 
 A successful GraphQL query is supposed to return a JSON object with a root field called `"data"`. If the request fails or partially fails (e.g. because the user requesting the data doesn’t have the right access permissions), a second root field called `"errors"` is added to the response:
 ```js
@@ -79,7 +79,7 @@ A successful GraphQL query is supposed to return a JSON object with a root field
 * https://www.howtographql.com/advanced/5-common-questions/
 
 [[↑] Back to top](#GraphQL)
-### Where is GraphQL useful? (Mid)
+### Where is GraphQL useful?
 
 GraphQL helps where your **client needs a flexible response** format to avoid extra queries and/or massive data transformation with the overhead of keeping them in sync.
 
@@ -92,7 +92,7 @@ With GraphQL, you can describe the required data in a more natural way. It can s
 * https://blog.risingstack.com/graphql-overview-getting-started-with-graphql-and-nodejs/
 
 [[↑] Back to top](#GraphQL)
-### What is GraphQL schema? (Mid)
+### What is GraphQL schema?
 
 Every GraphQL server has two core parts that determine how it works: a schema and resolve functions.
 
@@ -126,7 +126,7 @@ schema {
 * https://dev-blog.apollodata.com/graphql-explained-5844742f195e?_ga=2.144563709.979734643.1528637959-111420911.1528637959
 
 [[↑] Back to top](#GraphQL)
-### How to do Authentication and Authorization? (Senior)
+### How to do Authentication and Authorization?
 
 Authentication and authorization are often confused. _Authentication_ describes the process of claiming an _identity_. That’s what you do when you log in to a service with a username and password, you authenticate yourself. _Authorization_ on the other hand describes _permission rules_ that specify the access rights of individual users and user groups to certain parts of the system.
 
@@ -139,7 +139,7 @@ To implement authorization, it is [recommended](http://graphql.org/learn/authori
 * https://www.howtographql.com/advanced/5-common-questions/
 
 [[↑] Back to top](#GraphQL)
-### Does GraphQL Support Offline Usage? (Senior)
+### Does GraphQL Support Offline Usage?
 
 GraphQL is a query language for (web) APIs, and in that sense by definition only works online. However, offline support on the client-side is a valid concern. The caching abilities of Relay and Apollo might already be enough for some use cases, but there isn’t a popular solution for actually persisting stored data yet.
 
@@ -148,7 +148,7 @@ GraphQL is a query language for (web) APIs, and in that sense by definition only
 * https://www.howtographql.com/advanced/5-common-questions/
 
 [[↑] Back to top](#GraphQL)
-### How to do Server-side Caching? (Senior)
+### How to do Server-side Caching?
 
 One common concern with GraphQL, especially when comparing it to REST, are the difficulties to maintain server-side cache. With REST, it’s easy to cache the data for each endpoint, since it’s sure that the _structure_ of the data will not change.
 
@@ -161,7 +161,7 @@ Server-side caching still is a challenge with GraphQL.
 * https://www.howtographql.com/advanced/5-common-questions/
 
 [[↑] Back to top](#GraphQL)
-### List the key concepts of the GraphQL query language (Senior)
+### List the key concepts of the GraphQL query language
 
 **Key concepts of the GraphQL** query language are:
 
@@ -176,7 +176,7 @@ Server-side caching still is a challenge with GraphQL.
 * https://blog.risingstack.com/graphql-overview-getting-started-with-graphql-and-nodejs/
 
 [[↑] Back to top](#GraphQL)
-### Explain the main difference between REST and GraphQL (Senior)
+### Explain the main difference between REST and GraphQL
 
 The main and most important difference between REST and GraphQL is that *GraphQL is not dealing with dedicated resources, instead everything is regarded as a graph and therefore is connected and can be queried to app exact needs*.
 
@@ -185,7 +185,7 @@ The main and most important difference between REST and GraphQL is that *GraphQL
 * https://medium.com/codingthesmartway-com-blog/rest-vs-graphql-418eac2e3083
 
 [[↑] Back to top](#GraphQL)
-### What kind of operations could GraphQL schema have? (Senior)
+### What kind of operations could GraphQL schema have?
 
 There are three kinds of operation available at the entry points to the schema:
 
@@ -198,7 +198,7 @@ There are three kinds of operation available at the entry points to the schema:
 * https://medium.com/coffee-and-codes/a-beginners-dive-into-graphql-part-2-86df02361736
 
 [[↑] Back to top](#GraphQL)
-### Are there any disadvantages to GraphQL? (Expert)
+### Are there any disadvantages to GraphQL?
 
 Disadvantages:
 

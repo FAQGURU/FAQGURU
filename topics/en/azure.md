@@ -1,123 +1,123 @@
 ## Azure
 
-[What are the benefits of severless applications? (Junior)](#what-are-the-benefits-of-severless-applications-junior)
+[What are the benefits of severless applications?](#what-are-the-benefits-of-severless-applications-junior)
 
-[What is Azure Cloud Service? (Junior)](#what-is-azure-cloud-service-junior)
+[What is Azure Cloud Service?](#what-is-azure-cloud-service-junior)
 
-[What is a web role? (Junior)](#what-is-a-web-role-junior)
+[What is a web role?](#what-is-a-web-role-junior)
 
-[What is Azure Functions? (Junior)](#what-is-azure-functions-junior)
+[What is Azure Functions?](#what-is-azure-functions-junior)
 
-[What is serverless computing? (Junior)](#what-is-serverless-computing-junior)
+[What is serverless computing?](#what-is-serverless-computing-junior)
 
-[What is Azure Resource Group? (Mid)](#what-is-azure-resource-group-mid)
+[What is Azure Resource Group?](#what-is-azure-resource-group-mid)
 
-[What is Kudu? (Mid)](#what-is-kudu-mid)
+[What is Kudu?](#what-is-kudu-mid)
 
-[What is a role instance? (Mid)](#what-is-a-role-instance-mid)
+[What is a role instance?](#what-is-a-role-instance-mid)
 
-[What is a guest operating system? (Mid)](#what-is-a-guest-operating-system-mid)
+[What is a guest operating system?](#what-is-a-guest-operating-system-mid)
 
-[What is Azure Blob Storage? (Mid)](#what-is-azure-blob-storage-mid)
+[What is Azure Blob Storage?](#what-is-azure-blob-storage-mid)
 
-[How to include external dll into Azure Function? (Mid)](#how-to-include-external-dll-into-azure-function-mid)
+[How to include external dll into Azure Function?](#how-to-include-external-dll-into-azure-function-mid)
 
-[Is Azure Table Storage Nosql? (Mid)](#is-azure-table-storage-nosql-mid)
+[Is Azure Table Storage Nosql?](#is-azure-table-storage-nosql-mid)
 
-[What is an Azure subscription? (Mid)](#what-is-an-azure-subscription-mid)
+[What is an Azure subscription?](#what-is-an-azure-subscription-mid)
 
-[What is Azure ARM? (Mid)](#what-is-azure-arm-mid)
+[What is Azure ARM?](#what-is-azure-arm-mid)
 
-[Explain the Azure ARM Templates (Mid)](#explain-the-azure-arm-templates-mid)
+[Explain the Azure ARM Templates](#explain-the-azure-arm-templates-mid)
 
-[What is a cloud service role? (Mid)](#what-is-a-cloud-service-role-mid)
+[What is a cloud service role?](#what-is-a-cloud-service-role-mid)
 
-[What is Azure Redis Cache? (Mid)](#what-is-azure-redis-cache-mid)
+[What is Azure Redis Cache?](#what-is-azure-redis-cache-mid)
 
-[What is Azure Service Fabric? (Mid)](#what-is-azure-service-fabric-mid)
+[What is Azure Service Fabric?](#what-is-azure-service-fabric-mid)
 
-[How can I use applications with Azure AD that I’m using on-premises? (Mid)](#how-can-i-use-applications-with-azure-ad-that-im-using-on-premises-mid)
+[How can I use applications with Azure AD that I’m using on-premises?](#how-can-i-use-applications-with-azure-ad-that-im-using-on-premises-mid)
 
-[What Is Azure Key Vault? (Mid)](#what-is-azure-key-vault-mid)
+[What Is Azure Key Vault?](#what-is-azure-key-vault-mid)
 
-[What is a Blob Container? (Mid)](#what-is-a-blob-container-mid)
+[What is a Blob Container?](#what-is-a-blob-container-mid)
 
-[How can you stop a VM using Power Shell? (Senior)](#how-can-you-stop-a-vm-using-power-shell-senior)
+[How can you stop a VM using Power Shell?](#how-can-you-stop-a-vm-using-power-shell-senior)
 
-[How can you retrieve the state of a particular VM? (Senior)](#how-can-you-retrieve-the-state-of-a-particular-vm-senior)
+[How can you retrieve the state of a particular VM?](#how-can-you-retrieve-the-state-of-a-particular-vm-senior)
 
-[How can one create a VM in Azure CLI? (Senior)](#how-can-one-create-a-vm-in-azure-cli-senior)
+[How can one create a VM in Azure CLI?](#how-can-one-create-a-vm-in-azure-cli-senior)
 
-[What do you know about Azure WebJobs? (Senior)](#what-do-you-know-about-azure-webjobs-senior)
+[What do you know about Azure WebJobs?](#what-do-you-know-about-azure-webjobs-senior)
 
-[What is a worker role? (Senior)](#what-is-a-worker-role-senior)
+[What is a worker role?](#what-is-a-worker-role-senior)
 
-[How can one create a Virtual Machine in Powershell? (Senior)](#how-can-one-create-a-virtual-machine-in-powershell-senior)
+[How can one create a Virtual Machine in Powershell?](#how-can-one-create-a-virtual-machine-in-powershell-senior)
 
-[How much storage can I use with a virtual machine? (Senior)](#how-much-storage-can-i-use-with-a-virtual-machine-senior)
+[How much storage can I use with a virtual machine?](#how-much-storage-can-i-use-with-a-virtual-machine-senior)
 
-[Is it possible to add an existing VM to an availability set? (Senior)](#is-it-possible-to-add-an-existing-vm-to-an-availability-set-senior)
+[Is it possible to add an existing VM to an availability set?](#is-it-possible-to-add-an-existing-vm-to-an-availability-set-senior)
 
-[What is deployment environments? (Senior)](#what-is-deployment-environments-senior)
+[What is deployment environments?](#what-is-deployment-environments-senior)
 
-[What is Azure VPN? (Senior)](#what-is-azure-vpn-senior)
+[What is Azure VPN?](#what-is-azure-vpn-senior)
 
-[What is the difference between Service Bus Queues and Storage Queues? (Senior)](#what-is-the-difference-between-service-bus-queues-and-storage-queues-senior)
+[What is the difference between Service Bus Queues and Storage Queues?](#what-is-the-difference-between-service-bus-queues-and-storage-queues-senior)
 
-[What are the differences between Subscription Administrator and Directory Administrator? (Senior)](#what-are-the-differences-between-subscription-administrator-and-directory-administrator-senior)
+[What are the differences between Subscription Administrator and Directory Administrator?](#what-are-the-differences-between-subscription-administrator-and-directory-administrator-senior)
 
-[What is a VNet? (Senior)](#what-is-a-vnet-senior)
+[What is a VNet?](#what-is-a-vnet-senior)
 
-[What are stateful and stateless microservices for Service Fabric? (Senior)](#what-are-stateful-and-stateless-microservices-for-service-fabric-senior)
+[What are stateful and stateless microservices for Service Fabric?](#what-are-stateful-and-stateless-microservices-for-service-fabric-senior)
 
-[What is key vault in Azure? (Senior)](#what-is-key-vault-in-azure-senior)
+[What is key vault in Azure?](#what-is-key-vault-in-azure-senior)
 
-[Do scale sets work with Azure availability sets? (Senior)](#do-scale-sets-work-with-azure-availability-sets-senior)
+[Do scale sets work with Azure availability sets?](#do-scale-sets-work-with-azure-availability-sets-senior)
 
-[What are Network Security Groups? (Senior)](#what-are-network-security-groups-senior)
+[What are Network Security Groups?](#what-are-network-security-groups-senior)
 
-[What are Update Domains? (Senior)](#what-are-update-domains-senior)
+[What are Update Domains?](#what-are-update-domains-senior)
 
-[What are Fault Domains? (Senior)](#what-are-fault-domains-senior)
+[What are Fault Domains?](#what-are-fault-domains-senior)
 
-[What is an Availability Set? (Senior)](#what-is-an-availability-set-senior)
+[What is an Availability Set?](#what-is-an-availability-set-senior)
 
-[What are virtual machine scale sets in Azure? (Senior)](#what-are-virtual-machine-scale-sets-in-azure-senior)
+[What are virtual machine scale sets in Azure?](#what-are-virtual-machine-scale-sets-in-azure-senior)
 
-[What is Azure MFA? (Senior)](#what-is-azure-mfa-senior)
+[What is Azure MFA?](#what-is-azure-mfa-senior)
 
-[What are Cloud Service Roles and why do we use them? (Senior)](#what-are-cloud-service-roles-and-why-do-we-use-them-senior)
+[What are Cloud Service Roles and why do we use them?](#what-are-cloud-service-roles-and-why-do-we-use-them-senior)
 
-[What is Azure Table Storage? (Senior)](#what-is-azure-table-storage-senior)
+[What is Azure Table Storage?](#what-is-azure-table-storage-senior)
 
-[What is Azure Resource Manager and why we need to use one? (Senior)](#what-is-azure-resource-manager-and-why-we-need-to-use-one-senior)
+[What is Azure Resource Manager and why we need to use one?](#what-is-azure-resource-manager-and-why-we-need-to-use-one-senior)
 
-[What is Azure Search? (Senior)](#what-is-azure-search-senior)
+[What is Azure Search?](#what-is-azure-search-senior)
 
-[What are Redis databases? (Senior)](#what-are-redis-databases-senior)
+[What are Redis databases?](#what-are-redis-databases-senior)
 
-[Is it possible to create a Virtual Machine using Azure Resource Manager in a Virtual Network that was created using classic deployment? (Expert)](#is-it-possible-to-create-a-virtual-machine-using-azure-resource-manager-in-a-virtual-network-that-was-created-using-classic-deployment-expert)
+[Is it possible to create a Virtual Machine using Azure Resource Manager in a Virtual Network that was created using classic deployment?](#is-it-possible-to-create-a-virtual-machine-using-azure-resource-manager-in-a-virtual-network-that-was-created-using-classic-deployment-expert)
 
-[How to create a new storage account and container using Power Shell? (Expert)](#how-to-create-a-new-storage-account-and-container-using-power-shell-expert)
+[How to create a new storage account and container using Power Shell?](#how-to-create-a-new-storage-account-and-container-using-power-shell-expert)
 
-[ What is the meaning of application partitions? (Expert)](#-what-is-the-meaning-of-application-partitions-expert)
+[ What is the meaning of application partitions?](#-what-is-the-meaning-of-application-partitions-expert)
 
-[What is Azure VNET? (Expert)](#what-is-azure-vnet-expert)
+[What is Azure VNET?](#what-is-azure-vnet-expert)
 
-[What is the difference between “price,” “software price,” and “total price” in the cost structure for Virtual Machine offers in the Azure Marketplace? (Expert)](#what-is-the-difference-between-price-software-price-and-total-price-in-the-cost-structure-for-virtual-machine-offers-in-the-azure-marketplace-expert)
+[What is the difference between “price,” “software price,” and “total price” in the cost structure for Virtual Machine offers in the Azure Marketplace?](#what-is-the-difference-between-price-software-price-and-total-price-in-the-cost-structure-for-virtual-machine-offers-in-the-azure-marketplace-expert)
 
-[How to create a Network Security Group and a Network Security Group Rule? (Expert)](#how-to-create-a-network-security-group-and-a-network-security-group-rule-expert)
+[How to create a Network Security Group and a Network Security Group Rule?](#how-to-create-a-network-security-group-and-a-network-security-group-rule-expert)
 
-[How are Azure Marketplace subscriptions priced? (Expert)](#how-are-azure-marketplace-subscriptions-priced-expert)
+[How are Azure Marketplace subscriptions priced?](#how-are-azure-marketplace-subscriptions-priced-expert)
 
-[Explain Azure NSG (Expert)](#explain-azure-nsg-expert)
+[Explain Azure NSG](#explain-azure-nsg-expert)
 
-[What VPN types are supported by Azure? (Expert)](#what-vpn-types-are-supported-by-azure-expert)
+[What VPN types are supported by Azure?](#what-vpn-types-are-supported-by-azure-expert)
 
-[What are special Azure Regions? (Expert)](#what-are-special-azure-regions-expert)
+[What are special Azure Regions?](#what-are-special-azure-regions-expert)
 
 
-### What are the benefits of severless applications? (Junior)
+### What are the benefits of severless applications?
 
 * Avoid managing servers
 * Flexible scaling by demand
@@ -126,7 +126,7 @@
 
 
 [[↑] Back to top](#Azure)
-### What is Azure Cloud Service? (Junior)
+### What is Azure Cloud Service?
 
 By creating a cloud service, you can deploy a multi-tier web application in Azure, defining multiple roles to distribute processing and allow flexible scaling of your application. A cloud service consists of one or more web roles and/or worker roles, each with its own application files and configuration. Azure Websites and Virtual Machines also enable web applications on Azure. The main advantage of cloud services is the ability to support more complex multi-tier architectures
 
@@ -135,7 +135,7 @@ By creating a cloud service, you can deploy a multi-tier web application in Azur
 * https://mindmajix.com/azure-interview-questions
 
 [[↑] Back to top](#Azure)
-### What is a web role? (Junior)
+### What is a web role?
 
 A web role provides a dedicated Internet Information Services (IIS) web-server used for hosting front-end web applications.
 
@@ -144,14 +144,14 @@ A web role provides a dedicated Internet Information Services (IIS) web-server u
 * https://mindmajix.com/azure-interview-questions
 
 [[↑] Back to top](#Azure)
-### What is Azure Functions? (Junior)
+### What is Azure Functions?
 
 Azure Functions is a solution for easily running small pieces of code, or "functions," in the cloud. We can write just the code we need for the problem at hand, without worrying about a whole application or the infrastructure to run it and use language of our choice such as C#, F#, Node.js, Java, or PHP. Azure Functions lets us develop serverless applications on Microsoft Azure.
 
 
 
 [[↑] Back to top](#Azure)
-### What is serverless computing? (Junior)
+### What is serverless computing?
 
 Serverless computing is the abstraction of servers, infrastructure, and operating systems. When you build serverless apps you don’t need to provision and manage any servers, so you can take your mind off infrastructure concerns. Serverless computing is driven by the reaction to events and triggers happening in near-real-time—in the cloud. 
 
@@ -160,7 +160,7 @@ As a fully managed service, server management and capacity planning are invisibl
 
 
 [[↑] Back to top](#Azure)
-### What is Azure Resource Group? (Mid)
+### What is Azure Resource Group?
 
 Resource groups (RG) in Azure is an approach to group a collection of assets in logical groups for easy or even automatic provisioning, monitoring, and access control, and for more effective management of their costs. The underlying technology that powers resource groups is the Azure Resource Manager (ARM).
 
@@ -169,7 +169,7 @@ Resource groups (RG) in Azure is an approach to group a collection of assets in 
 * http://www.onlinetech.com/resources/references/how-to-use-azure-resource-groups-a-simple-explanation
 
 [[↑] Back to top](#Azure)
-### What is Kudu? (Mid)
+### What is Kudu?
 
 Every Azure App Service web application includes a "hidden" service site called **Kudu**.
 
@@ -179,7 +179,7 @@ Kudu Console for example is a debugging service for Azure platform which allows 
 
 
 [[↑] Back to top](#Azure)
-### What is a role instance? (Mid)
+### What is a role instance?
 
 A role instance is a virtual machine on which the application code and role configuration run. A role can have multiple instances, defined in the service configuration file.
 
@@ -188,7 +188,7 @@ A role instance is a virtual machine on which the application code and role conf
 * https://mindmajix.com/azure-interview-questions
 
 [[↑] Back to top](#Azure)
-### What is a guest operating system? (Mid)
+### What is a guest operating system?
 
 The guest operating system for a cloud service is the operating system installed on the role instances (virtual machines) on which your application code runs.
 
@@ -197,7 +197,7 @@ The guest operating system for a cloud service is the operating system installed
 * https://mindmajix.com/azure-interview-questions
 
 [[↑] Back to top](#Azure)
-### What is Azure Blob Storage? (Mid)
+### What is Azure Blob Storage?
 
 *Azure Blob storage* is Microsoft's object storage solution for the cloud. Blob storage is optimized for storing massive amounts of unstructured data, such as text or binary data. Azure Storage offers three types of blobs:
 * **Block blobs** store text and binary data, up to about 4.7 TB. Block blobs are made up of blocks of data that can be managed individually.
@@ -210,7 +210,7 @@ The guest operating system for a cloud service is the operating system installed
 * https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction
 
 [[↑] Back to top](#Azure)
-### How to include external dll into Azure Function? (Mid)
+### How to include external dll into Azure Function?
 
 * Add the assembly to the BIN directory using KUDU
 * Include the assembly and code the Azure Function to use it
@@ -225,7 +225,7 @@ using benjamin;
 
 
 [[↑] Back to top](#Azure)
-### Is Azure Table Storage Nosql? (Mid)
+### Is Azure Table Storage Nosql?
 
 **Azure Table storage** is a service that stores structured NoSQL data in the cloud, providing a key/attribute store with a schemaless design.
 
@@ -234,7 +234,7 @@ using benjamin;
 * https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-vpn-faq
 
 [[↑] Back to top](#Azure)
-### What is an Azure subscription? (Mid)
+### What is an Azure subscription?
 
 A Windows **Azure subscription** grants you access to Windows Azure services and to the Windows Azure Platform Management Portal. A Windows Azure subscription has two aspects: 
 * The Windows Azure account, through which resource usage is reported
@@ -245,7 +245,7 @@ A Windows **Azure subscription** grants you access to Windows Azure services and
 * https://blogs.msdn.microsoft.com/arunrakwal/2012/04/09/create-windows-azure-subscription/
 
 [[↑] Back to top](#Azure)
-### What is Azure ARM? (Mid)
+### What is Azure ARM?
 
 The **Azure Resource Manager (ARM)** is the service used to provision resources in your Azure subscription. It was first announced at Build 2014 when the new Azure portal ( portal.azure.com) was announced and provides a new set of API's that are used to provision resources. The ARM is:
 
@@ -262,7 +262,7 @@ The **Azure Resource Manager (ARM)** is the service used to provision resources 
 * https://azurestack.blog/2015/06/azure-resource-manager-templates-json/
 
 [[↑] Back to top](#Azure)
-### Explain the Azure ARM Templates (Mid)
+### Explain the Azure ARM Templates
 
 An Azure Resource Template is a JSON file used to deploy resources with Azure Resource Manager. It defines:
 * Parameters
@@ -275,7 +275,7 @@ An Azure Resource Template is a JSON file used to deploy resources with Azure Re
 * http://www.onlinetech.com/resources/references/how-to-use-azure-resource-groups-a-simple-explanation
 
 [[↑] Back to top](#Azure)
-### What is a cloud service role? (Mid)
+### What is a cloud service role?
 
 A cloud service role is comprised of application files and a configuration. A cloud service can have two types of roles:
 * web role
@@ -286,7 +286,7 @@ A cloud service role is comprised of application files and a configuration. A cl
 * https://mindmajix.com/azure-interview-questions
 
 [[↑] Back to top](#Azure)
-### What is Azure Redis Cache? (Mid)
+### What is Azure Redis Cache?
 
 *Redis* is an open source (BSD licensed), in-memory data structure store, used as a database, cache and message broker. **Azure Redis Cache** is based on the popular open-source Redis cache. It gives you access to a secure, dedicated Redis cache, managed by Microsoft, and accessible from any application within Azure. It supports data structures such as strings, hashes, lists, sets, sorted sets with range queries, bitmaps, hyperloglogs and geospatial indexes with radius queries.
 
@@ -295,7 +295,7 @@ A cloud service role is comprised of application files and a configuration. A cl
 * https://www.quora.com/What-are-the-common-questions-asked-in-Microsoft-Azure-interview
 
 [[↑] Back to top](#Azure)
-### What is Azure Service Fabric? (Mid)
+### What is Azure Service Fabric?
 
 **Azure Service Fabric** is a distributed systems platform that makes it easy to package, deploy, and manage scalable and reliable micro-services. Service Fabric also addresses the significant challenges in developing and managing cloud applications. Developers and administrators can avoid complex infrastructure problems and focus on implementing mission-critical, demanding workloads that are scalable, reliable, and manageable. Service Fabric represents the next-generation middleware platform for building and managing these enterprise-class, tier-1, cloud-scale applications.
 
@@ -304,7 +304,7 @@ A cloud service role is comprised of application files and a configuration. A cl
 * https://www.quora.com/What-are-the-common-questions-asked-in-Microsoft-Azure-interview
 
 [[↑] Back to top](#Azure)
-### How can I use applications with Azure AD that I’m using on-premises? (Mid)
+### How can I use applications with Azure AD that I’m using on-premises?
 
 *Azure AD* gives you an easy and secure way to connect to the web applications you choose. You can access these applications in the same way you access your SaaS apps in Azure AD, no need for a VPN to change your network infrastructure.
 
@@ -313,7 +313,7 @@ A cloud service role is comprised of application files and a configuration. A cl
 * https://www.quora.com/What-are-the-common-questions-asked-in-Microsoft-Azure-interview
 
 [[↑] Back to top](#Azure)
-### What Is Azure Key Vault? (Mid)
+### What Is Azure Key Vault?
 
 **Key Vault** help you safeguard cryptographic keys and other secrets used by your applications whenever they are On-Premise or in the cloud. More and more services on Azure are now integrating Azure Key Vault as their secret/key source for things like deployments, data or even disk encryption.
 
@@ -322,7 +322,7 @@ A cloud service role is comprised of application files and a configuration. A cl
 * https://www.codeisahighway.com/create-an-azure-key-vault-using-an-arm-template-api-version-2015-06-01-and-azure-powershell-v1-0-4/
 
 [[↑] Back to top](#Azure)
-### What is a Blob Container? (Mid)
+### What is a Blob Container?
 
 A container organizes a set of blobs, similar to a folder in a file system. All blobs reside within a container. A storage account can contain an unlimited number of containers, and a container can store an unlimited number of blobs.
 
@@ -331,7 +331,7 @@ A container organizes a set of blobs, similar to a folder in a file system. All 
 * https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction
 
 [[↑] Back to top](#Azure)
-### How can you stop a VM using Power Shell? (Senior)
+### How can you stop a VM using Power Shell?
 
 ```sh
 Stop-AzureRmVM -ResourceGroupName myResourceGroupVM -Name "myVM" -Force
@@ -342,7 +342,7 @@ Stop-AzureRmVM -ResourceGroupName myResourceGroupVM -Name "myVM" -Force
 * https://www.quora.com/What-are-the-common-questions-asked-in-Microsoft-Azure-interview
 
 [[↑] Back to top](#Azure)
-### How can you retrieve the state of a particular VM? (Senior)
+### How can you retrieve the state of a particular VM?
 
 ```sh
 Get-AzureRmVM `
@@ -356,7 +356,7 @@ Get-AzureRmVM `
 * https://www.quora.com/What-are-the-common-questions-asked-in-Microsoft-Azure-interview
 
 [[↑] Back to top](#Azure)
-### How can one create a VM in Azure CLI? (Senior)
+### How can one create a VM in Azure CLI?
 
 ```sh
 az vm create ` --resource-group myResourceGroup ` --name myVM --image win2016datacenter ` --admin-username azureuser ` --admin-password myPassword12
@@ -367,7 +367,7 @@ az vm create ` --resource-group myResourceGroup ` --name myVM --image win2016dat
 * https://www.quora.com/What-are-the-common-questions-asked-in-Microsoft-Azure-interview
 
 [[↑] Back to top](#Azure)
-### What do you know about Azure WebJobs? (Senior)
+### What do you know about Azure WebJobs?
 
 **WebJobs** is a feature of Azure App Service that enables you to run a program or script in the same context as a web app, API app, or mobile app. There is no additional cost to use WebJobs.
 
@@ -378,7 +378,7 @@ The Azure WebJobs SDK is a framework that simplifies the task of writing backgro
 * https://github.com/Azure/azure-webjobs-sdk/wiki
 
 [[↑] Back to top](#Azure)
-### What is a worker role? (Senior)
+### What is a worker role?
 
 Applications hosted within worker roles can run asynchronous, long-running or perpetual tasks independent of user interaction or input.
 
@@ -387,7 +387,7 @@ Applications hosted within worker roles can run asynchronous, long-running or pe
 * https://mindmajix.com/azure-interview-questions
 
 [[↑] Back to top](#Azure)
-### How can one create a Virtual Machine in Powershell? (Senior)
+### How can one create a Virtual Machine in Powershell?
 
 ```sh
 # Define a credential object 
@@ -404,7 +404,7 @@ $vmConfig = New-AzureRmVMConfig -VMName myVM -VMSize Standard_DS2 |
 * https://www.quora.com/What-are-the-common-questions-asked-in-Microsoft-Azure-interview
 
 [[↑] Back to top](#Azure)
-### How much storage can I use with a virtual machine? (Senior)
+### How much storage can I use with a virtual machine?
 
 Each data disk can be up to 1 TB. The number of data disks which you can use depends on the size of the virtual machine.
 
@@ -417,7 +417,7 @@ Azure storage accounts can also provide storage for the operating system disk an
 * https://www.quora.com/What-are-the-common-questions-asked-in-Microsoft-Azure-interview
 
 [[↑] Back to top](#Azure)
-### Is it possible to add an existing VM to an availability set? (Senior)
+### Is it possible to add an existing VM to an availability set?
 
 No. If you want your VM to be part of an availability set, you need to create the VM within the set. There currently no way to add a VM to an availability set after it has been created.
 
@@ -426,7 +426,7 @@ No. If you want your VM to be part of an availability set, you need to create th
 * https://www.quora.com/What-are-the-common-questions-asked-in-Microsoft-Azure-interview
 
 [[↑] Back to top](#Azure)
-### What is deployment environments? (Senior)
+### What is deployment environments?
 
 Azure offers two deployment environments for cloud services: 
 * a staging environment in which you can test your deployment before you promote it to 
@@ -441,7 +441,7 @@ In the production environment, the URL is based on the friendlier DNS prefix ass
 * https://mindmajix.com/azure-interview-questions
 
 [[↑] Back to top](#Azure)
-### What is Azure VPN? (Senior)
+### What is Azure VPN?
 
 A **VPN** gateway is a specific type of virtual network gateway that is used to send encrypted traffic between an Azure virtual network and an on-premises location over the public Internet. You can also use a VPN gateway to send encrypted traffic between Azure virtual networks over the Microsoft network.
 
@@ -450,7 +450,7 @@ A **VPN** gateway is a specific type of virtual network gateway that is used to 
 * https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpngateways
 
 [[↑] Back to top](#Azure)
-### What is the difference between Service Bus Queues and Storage Queues? (Senior)
+### What is the difference between Service Bus Queues and Storage Queues?
 
 The *Azure Storage Queue* is simple and the developer experience is quite good. It uses the local Azure Storage Emulator and debugging is made quite easy. The tooling for Azure Storage Queues allows you to easily peek at the top 32 messages and if the messages are in XML or Json, you’re able to visualize their contents directly from Visual Studio Furthermore, these queues can be purged of their contents, which is especially useful during development and QA efforts.
 
@@ -463,7 +463,7 @@ Furthermore, Azure Service Bus Queues have the ability of deleting themselves af
 * https://www.quora.com/What-are-the-common-questions-asked-in-Microsoft-Azure-interview
 
 [[↑] Back to top](#Azure)
-### What are the differences between Subscription Administrator and Directory Administrator? (Senior)
+### What are the differences between Subscription Administrator and Directory Administrator?
 
 By default, one is assigned the *Subscription Administrator* role when he/she signs up for Azure. A subscription admin can use either a Microsoft account or a work or school account from the directory that the Azure subscription is associated with. This role is authorized to manage services in the Azure portal. If others need to sign in and access services by using the same subscription, you can add them as co-admins.
 
@@ -474,7 +474,7 @@ Azure AD has a different set of admin roles to manage the directory and identity
 * https://www.quora.com/What-are-the-common-questions-asked-in-Microsoft-Azure-interview
 
 [[↑] Back to top](#Azure)
-### What is a VNet? (Senior)
+### What is a VNet?
 
 VNet is a representation of your own network in the cloud. It logically isolates your instances launched in the cloud, from the rest of your resources.
 
@@ -483,7 +483,7 @@ VNet is a representation of your own network in the cloud. It logically isolates
 * https://www.quora.com/What-are-the-common-questions-asked-in-Microsoft-Azure-interview
 
 [[↑] Back to top](#Azure)
-### What are stateful and stateless microservices for Service Fabric? (Senior)
+### What are stateful and stateless microservices for Service Fabric?
 
 *Service Fabric* enables you to build applications that consist of microservices: 
 
@@ -496,7 +496,7 @@ VNet is a representation of your own network in the cloud. It logically isolates
 * https://www.quora.com/What-are-the-common-questions-asked-in-Microsoft-Azure-interview
 
 [[↑] Back to top](#Azure)
-### What is key vault in Azure? (Senior)
+### What is key vault in Azure?
 
 Microsoft **Azure Key Vault** is a cloud-hosted management service that allows users to encrypt keys and small secrets by using keys that are protected by hardware security modules (HSMs). Small secrets are data less than 10 KB like passwords and .PFX files.
 
@@ -505,7 +505,7 @@ Microsoft **Azure Key Vault** is a cloud-hosted management service that allows u
 * https://searchwindowsserver.techtarget.com/definition/Microsoft-Azure-Key-Vault
 
 [[↑] Back to top](#Azure)
-### Do scale sets work with Azure availability sets? (Senior)
+### Do scale sets work with Azure availability sets?
 
 Yes. A scale set is an implicit availability set with 5 fault domains and 5 update domains. Scale sets of more than 100 VMs span multiple placement groups, which are equivalent to multiple availability sets. An availability set of VMs can exist in the same virtual network as a scale set of VMs. A common configuration is to put control node VMs (which often require unique configuration) in an availability set and put data nodes in the scale set.
 
@@ -514,7 +514,7 @@ Yes. A scale set is an implicit availability set with 5 fault domains and 5 upda
 * https://www.quora.com/What-are-the-common-questions-asked-in-Microsoft-Azure-interview
 
 [[↑] Back to top](#Azure)
-### What are Network Security Groups? (Senior)
+### What are Network Security Groups?
 
 A *network security group (NSG)* contains a list of Access Control List (ACL) rules that allow or deny network traffic to subnets, NICs, or both. NSGs can be associated with either subnets or individual NICs connected to a subnet. When an NSG is associated with a subnet, the ACL rules apply to all the VMs in that subnet. In addition, traffic to an individual NIC can be restricted by associating an NSG directly to a NIC.
 
@@ -523,7 +523,7 @@ A *network security group (NSG)* contains a list of Access Control List (ACL) ru
 * https://www.quora.com/What-are-the-common-questions-asked-in-Microsoft-Azure-interview
 
 [[↑] Back to top](#Azure)
-### What are Update Domains? (Senior)
+### What are Update Domains?
 
 An *update domain* is a logical group of underlying hardware that can undergo maintenance or can be rebooted at the same time. As you create VMs within an availability set, the Azure platform automatically distributes your VMs across these update domains. This approach ensures that at least one instance of your application always remains running as the Azure platform undergoes periodic maintenance. The order of update domains being rebooted may not proceed sequentially during planned maintenance, but only one update domain is rebooted at a time.
 
@@ -532,7 +532,7 @@ An *update domain* is a logical group of underlying hardware that can undergo ma
 * https://www.quora.com/What-are-the-common-questions-asked-in-Microsoft-Azure-interview
 
 [[↑] Back to top](#Azure)
-### What are Fault Domains? (Senior)
+### What are Fault Domains?
 
 A *fault domain* is a logical group of underlying hardware that share a common power source and network switch, similar to a rack within an on-premise data-centers. As you create VMs within an availability set, the Azure platform automatically distributes your VMs across these fault domains. This approach limits the impact of potential physical hardware failures, network outages, or power interruptions.
 
@@ -541,7 +541,7 @@ A *fault domain* is a logical group of underlying hardware that share a common p
 * https://www.quora.com/What-are-the-common-questions-asked-in-Microsoft-Azure-interview
 
 [[↑] Back to top](#Azure)
-### What is an Availability Set? (Senior)
+### What is an Availability Set?
 
 *An availability set* is a logical grouping of VMs that allows Azure to understand how your application is built to provide redundancy and availability. It is recommended that two or more VMs are created within an availability set to provide for a highly available application and to meet the 99.95% Azure SLA. When a single VM is used with Azure Premium Storage, the Azure SLA applies for unplanned maintenance events.
 
@@ -550,7 +550,7 @@ A *fault domain* is a logical group of underlying hardware that share a common p
 * https://www.quora.com/What-are-the-common-questions-asked-in-Microsoft-Azure-interview
 
 [[↑] Back to top](#Azure)
-### What are virtual machine scale sets in Azure? (Senior)
+### What are virtual machine scale sets in Azure?
 
 Virtual machine scale sets are Azure compute resource that you can use to deploy and manage a set of identical VMs. With all the VMs configured the same, scale sets are designed to support true autoscale, and no pre-provisioning of VMs is required. So it’s easier to build large-scale services that target big compute, big data, and containerized workloads.
 
@@ -559,7 +559,7 @@ Virtual machine scale sets are Azure compute resource that you can use to deploy
 * https://www.quora.com/What-are-the-common-questions-asked-in-Microsoft-Azure-interview
 
 [[↑] Back to top](#Azure)
-### What is Azure MFA? (Senior)
+### What is Azure MFA?
 
 **Azure Multi-Factor Authentication (MFA)** is Microsoft's two-step verification solution. It delivers strong authentication via a range of verification methods, including phone call, text message, or mobile app verification.
 
@@ -568,7 +568,7 @@ Virtual machine scale sets are Azure compute resource that you can use to deploy
 * https://docs.microsoft.com/en-us/azure/active-directory/authentication/multi-factor-authentication
 
 [[↑] Back to top](#Azure)
-### What are Cloud Service Roles and why do we use them? (Senior)
+### What are Cloud Service Roles and why do we use them?
 
 In Azure, a *Cloud Service Role* is a collection of managed, load-balanced, Platform-as-a-Service virtual machines that work together to perform common tasks. Cloud Service Roles are managed by Azure fabric controller and provide the ultimate combination of scalability, control, and customizationThere are three types of roles in Microsoft Azure:
 
@@ -581,7 +581,7 @@ In Azure, a *Cloud Service Role* is a collection of managed, load-balanced, Plat
 * https://www.quora.com/What-are-the-common-questions-asked-in-Microsoft-Azure-interview
 
 [[↑] Back to top](#Azure)
-### What is Azure Table Storage? (Senior)
+### What is Azure Table Storage?
 
 *Azure Table storage* is a service that stores structured NoSQL data in the cloud, providing a key/attribute store with a schemaless design. Because Table storage is schemaless, it's easy to adapt your data as the needs of your application evolve. Access to Table storage data is fast and cost-effective for many types of applications, and is typically lower in cost than traditional SQL for similar volumes of data.
 
@@ -590,7 +590,7 @@ In Azure, a *Cloud Service Role* is a collection of managed, load-balanced, Plat
 * https://docs.microsoft.com/en-us/azure/cosmos-db/table-storage-overview
 
 [[↑] Back to top](#Azure)
-### What is Azure Resource Manager and why we need to use one? (Senior)
+### What is Azure Resource Manager and why we need to use one?
 
 The **Azure Resource Manager (ARM)** is the service used to provision resources in your Azure subscription. ARM provides us a way to describe resources in a resource group using JSON documents (ARM Template). by using the ARM Template you have a fully repeatable configuration of a given deployment and this is extremely valuable for Production environments but especially so for Dev/Test deployments. By having a set template, we can ensure that anytime a new Dev or Test deployment is required (which happens all the time), it can be achieved in moments and safe in the knowledge that it will be identical to the previous environments.
 
@@ -599,7 +599,7 @@ The **Azure Resource Manager (ARM)** is the service used to provision resources 
 * https://www.codeisahighway.com/create-an-azure-key-vault-using-an-arm-template-api-version-2015-06-01-and-azure-powershell-v1-0-4/
 
 [[↑] Back to top](#Azure)
-### What is Azure Search? (Senior)
+### What is Azure Search?
 
 *Azure Search* is a cloud search-as-a-service solution that delegates server and infrastructure management to Microsoft, leaving you with a ready-to-use service that you can populate with your data and then use to add search to your web or mobile application. 
 
@@ -610,7 +610,7 @@ Azure Search allows you to easily add a robust search experience to your applica
 * https://www.quora.com/What-are-the-common-questions-asked-in-Microsoft-Azure-interview
 
 [[↑] Back to top](#Azure)
-### What are Redis databases? (Senior)
+### What are Redis databases?
 
 Redis Databases are just a logical separation of data within the same Redis instance. The cache memory is shared between all the databases and actual memory consumption of a given database depends on the keys/values stored in that database. For example, a C6 cache has 53 GB of memory. You can choose to put all 53 GB into one database or you can split it up between multiple databases.
 
@@ -619,7 +619,7 @@ Redis Databases are just a logical separation of data within the same Redis inst
 * https://www.quora.com/What-are-the-common-questions-asked-in-Microsoft-Azure-interview
 
 [[↑] Back to top](#Azure)
-### Is it possible to create a Virtual Machine using Azure Resource Manager in a Virtual Network that was created using classic deployment? (Expert)
+### Is it possible to create a Virtual Machine using Azure Resource Manager in a Virtual Network that was created using classic deployment?
 
 This is not supported. You cannot use Azure Resource Manager to deploy a virtual machine into a virtual network that was created using classic deployment.
 
@@ -628,7 +628,7 @@ This is not supported. You cannot use Azure Resource Manager to deploy a virtual
 * https://www.quora.com/What-are-the-common-questions-asked-in-Microsoft-Azure-interview
 
 [[↑] Back to top](#Azure)
-### How to create a new storage account and container using Power Shell? (Expert)
+### How to create a new storage account and container using Power Shell?
 
 
 ```sh
@@ -644,7 +644,7 @@ New-AzureStorageContainer -Name "templates" -Context $context -Permission Contai
 * https://www.quora.com/What-are-the-common-questions-asked-in-Microsoft-Azure-interview
 
 [[↑] Back to top](#Azure)
-###  What is the meaning of application partitions? (Expert)
+###  What is the meaning of application partitions?
 
 *The application partitions* are a part of the Active Directory system and having said so, they are directory partitions which are replicated to domain controllers. Usually, domain controllers that are included in the process of directory partitions hold a replica of that directory partition. The attributes and values of application partitions is that you can replicated them to any specific domain controller in a forest, meaning that it could lessen replication traffic. 
 
@@ -655,7 +655,7 @@ While the domain directory partitions transfer all their data to all of the doma
 * https://www.quora.com/What-are-the-common-questions-asked-in-Microsoft-Azure-interview
 
 [[↑] Back to top](#Azure)
-### What is Azure VNET? (Expert)
+### What is Azure VNET?
 
 An **Azure Virtual Network (VNet)** is a representation of your own network in the cloud. It is a logical isolation of the Azure cloud dedicated to your subscription.
 
@@ -664,7 +664,7 @@ An **Azure Virtual Network (VNet)** is a representation of your own network in t
 * https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-faq
 
 [[↑] Back to top](#Azure)
-### What is the difference between “price,” “software price,” and “total price” in the cost structure for Virtual Machine offers in the Azure Marketplace? (Expert)
+### What is the difference between “price,” “software price,” and “total price” in the cost structure for Virtual Machine offers in the Azure Marketplace?
 
 * **Price** - refers to the cost of the Azure Virtual Machine to run the software. 
 * **Software price** - refers to the cost of the publisher software running on an Azure Virtual Machine. 
@@ -675,7 +675,7 @@ An **Azure Virtual Network (VNet)** is a representation of your own network in t
 * https://www.quora.com/What-are-the-common-questions-asked-in-Microsoft-Azure-interview
 
 [[↑] Back to top](#Azure)
-### How to create a Network Security Group and a Network Security Group Rule? (Expert)
+### How to create a Network Security Group and a Network Security Group Rule?
 
 
 ```sh
@@ -699,7 +699,7 @@ $nsg = New-AzureRmNetworkSecurityGroup -ResourceGroupName myResourceGroup -Locat
 * https://www.quora.com/What-are-the-common-questions-asked-in-Microsoft-Azure-interview
 
 [[↑] Back to top](#Azure)
-### How are Azure Marketplace subscriptions priced? (Expert)
+### How are Azure Marketplace subscriptions priced?
 
 Pricing will vary based on product types. ISV software charges and Azure infrastructure costs are charged separately through your Azure subscription. Pricing models include:
 
@@ -718,7 +718,7 @@ Pricing will vary based on product types. ISV software charges and Azure infrast
 * https://www.quora.com/What-are-the-common-questions-asked-in-Microsoft-Azure-interview
 
 [[↑] Back to top](#Azure)
-### Explain Azure NSG (Expert)
+### Explain Azure NSG
 
 A **network security group (NSG)** used to filter network traffic to and from Azure resources in an Azure virtual network and  includes rules that allow or deny traffic to a virtual network subnet, network interface, or both.
 
@@ -727,7 +727,7 @@ A **network security group (NSG)** used to filter network traffic to and from Az
 * https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpngateways
 
 [[↑] Back to top](#Azure)
-### What VPN types are supported by Azure? (Expert)
+### What VPN types are supported by Azure?
 
 Azure supports two types of Point-to-site VPN options:
 
@@ -739,7 +739,7 @@ Azure supports two types of Point-to-site VPN options:
 * https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-vpn-faq
 
 [[↑] Back to top](#Azure)
-### What are special Azure Regions? (Expert)
+### What are special Azure Regions?
 
 Azure has some special regions that you may wish to use when building your applications for compliance or legal purposes. These special regions include:
 

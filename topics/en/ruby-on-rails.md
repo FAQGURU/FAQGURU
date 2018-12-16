@@ -1,152 +1,152 @@
 ## Ruby on Rails
 
-[Explain what is ORM (Object-Relationship-Model) in Rails? (Junior)](#explain-what-is-orm-object-relationship-model-in-rails-junior)
+[Explain what is ORM (Object-Relationship-Model) in Rails?](#explain-what-is-orm-object-relationship-model-in-rails-junior)
 
-[Mention what is Rails Migration? (Junior)](#mention-what-is-rails-migration-junior)
+[Mention what is Rails Migration?](#mention-what-is-rails-migration-junior)
 
-[Explain what is rake in Rails? (Junior)](#explain-what-is-rake-in-rails-junior)
+[Explain what is rake in Rails?](#explain-what-is-rake-in-rails-junior)
 
-[What Is ORM In Rails? (Junior)](#what-is-orm-in-rails-junior)
+[What Is ORM In Rails?](#what-is-orm-in-rails-junior)
 
-[Explain what is Ruby on Rails? (Junior)](#explain-what-is-ruby-on-rails-junior)
+[Explain what is Ruby on Rails?](#explain-what-is-ruby-on-rails-junior)
 
-[What is the purpose of the resources method in the code snippet below? (Mid)](#what-is-the-purpose-of-the-resources-method-in-the-code-snippet-below-mid)
+[What is the purpose of the resources method in the code snippet below?](#what-is-the-purpose-of-the-resources-method-in-the-code-snippet-below-mid)
 
-[What is the use of load and require in Ruby? (Mid)](#what-is-the-use-of-load-and-require-in-ruby-mid)
+[What is the use of load and require in Ruby?](#what-is-the-use-of-load-and-require-in-ruby-mid)
 
-[List out what can Rails Migration do? (Mid)](#list-out-what-can-rails-migration-do-mid)
+[List out what can Rails Migration do?](#list-out-what-can-rails-migration-do-mid)
 
-[Mention what is the role of Rails Controller? (Mid)](#mention-what-is-the-role-of-rails-controller-mid)
+[Mention what is the role of Rails Controller?](#mention-what-is-the-role-of-rails-controller-mid)
 
-[Explain how you define Instance Variable, Global Variable and Class Variable in Ruby? (Mid)](#explain-how-you-define-instance-variable-global-variable-and-class-variable-in-ruby-mid)
+[Explain how you define Instance Variable, Global Variable and Class Variable in Ruby?](#explain-how-you-define-instance-variable-global-variable-and-class-variable-in-ruby-mid)
 
-[How Is Visibility Of Methods Changed In Ruby (encapsulation)? (Mid)](#how-is-visibility-of-methods-changed-in-ruby-encapsulation-mid)
+[How Is Visibility Of Methods Changed In Ruby (encapsulation)?](#how-is-visibility-of-methods-changed-in-ruby-encapsulation-mid)
 
-[Mention what are the positive aspects of Rails? (Mid)](#mention-what-are-the-positive-aspects-of-rails-mid)
+[Mention what are the positive aspects of Rails?](#mention-what-are-the-positive-aspects-of-rails-mid)
 
-[What Is The Difference Between Nil And False In Ruby? (Mid)](#what-is-the-difference-between-nil-and-false-in-ruby-mid)
+[What Is The Difference Between Nil And False In Ruby?](#what-is-the-difference-between-nil-and-false-in-ruby-mid)
 
-[What Is MVC? And How It Works? (Mid)](#what-is-mvc-and-how-it-works-mid)
+[What Is MVC? And How It Works?](#what-is-mvc-and-how-it-works-mid)
 
-[What Are Helpers And How To Use Helpers In ROR? (Mid)](#what-are-helpers-and-how-to-use-helpers-in-ror-mid)
+[What Are Helpers And How To Use Helpers In ROR?](#what-are-helpers-and-how-to-use-helpers-in-ror-mid)
 
-[Mention what are the limits of Ruby on Rails? (Mid)](#mention-what-are-the-limits-of-ruby-on-rails-mid)
+[Mention what are the limits of Ruby on Rails?](#mention-what-are-the-limits-of-ruby-on-rails-mid)
 
-[How Many Types Of Associations Relationships Does A Model Have? (Mid)](#how-many-types-of-associations-relationships-does-a-model-have-mid)
+[How Many Types Of Associations Relationships Does A Model Have?](#how-many-types-of-associations-relationships-does-a-model-have-mid)
 
-[Explain what is a class library in Ruby? (Mid)](#explain-what-is-a-class-library-in-ruby-mid)
+[Explain what is a class library in Ruby?](#explain-what-is-a-class-library-in-ruby-mid)
 
-[Mention what is the difference in scope for these two variables: @@name and @name? (Mid)](#mention-what-is-the-difference-in-scope-for-these-two-variables-name-and-name-mid)
+[Mention what is the difference in scope for these two variables: @@name and @name?](#mention-what-is-the-difference-in-scope-for-these-two-variables-name-and-name-mid)
 
-[Explain what is the role of sub-directory app/controllers and app/helpers? (Mid)](#explain-what-is-the-role-of-sub-directory-appcontrollers-and-apphelpers-mid)
+[Explain what is the role of sub-directory app/controllers and app/helpers?](#explain-what-is-the-role-of-sub-directory-appcontrollers-and-apphelpers-mid)
 
-[Mention what is the difference between a gem and a plugin in Ruby? (Mid)](#mention-what-is-the-difference-between-a-gem-and-a-plugin-in-ruby-mid)
+[Mention what is the difference between a gem and a plugin in Ruby?](#mention-what-is-the-difference-between-a-gem-and-a-plugin-in-ruby-mid)
 
-[What Do You Mean By Render And Redirect_to? (Mid)](#what-do-you-mean-by-render-and-redirect_to-mid)
+[What Do You Mean By Render And Redirect_to?](#what-do-you-mean-by-render-and-redirect_to-mid)
 
-[What Are The Various Components Of Rail? (Mid)](#what-are-the-various-components-of-rail-mid)
+[What Are The Various Components Of Rail?](#what-are-the-various-components-of-rail-mid)
 
-[ Explain what is Rails Active Record in Ruby on Rails? (Mid)](#-explain-what-is-rails-active-record-in-ruby-on-rails-mid)
+[ Explain what is Rails Active Record in Ruby on Rails?](#-explain-what-is-rails-active-record-in-ruby-on-rails-mid)
 
-[How Many Types Of Relationships Does A Model Has? (Mid)](#how-many-types-of-relationships-does-a-model-has-mid)
+[How Many Types Of Relationships Does A Model Has?](#how-many-types-of-relationships-does-a-model-has-mid)
 
-[What do you mean by the term Scaffolding and what sort of advantages the Ruby can offer when it comes to same? (Mid)](#what-do-you-mean-by-the-term-scaffolding-and-what-sort-of-advantages-the-ruby-can-offer-when-it-comes-to-same-mid)
+[What do you mean by the term Scaffolding and what sort of advantages the Ruby can offer when it comes to same?](#what-do-you-mean-by-the-term-scaffolding-and-what-sort-of-advantages-the-ruby-can-offer-when-it-comes-to-same-mid)
 
-[Practical test: Genres of music (Senior)](#practical-test-genres-of-music-senior)
+[Practical test: Genres of music](#practical-test-genres-of-music-senior)
 
-[What is the difference between symbol and string? (Senior)](#what-is-the-difference-between-symbol-and-string-senior)
+[What is the difference between symbol and string?](#what-is-the-difference-between-symbol-and-string-senior)
 
-[What is the use of Destructive Method? (Senior)](#what-is-the-use-of-destructive-method-senior)
+[What is the use of Destructive Method?](#what-is-the-use-of-destructive-method-senior)
 
-[Explain Ruby on Rails Exception Handling (Senior)](#explain-ruby-on-rails-exception-handling-senior)
+[Explain Ruby on Rails Exception Handling](#explain-ruby-on-rails-exception-handling-senior)
 
-[How should you use nested layouts? (Senior)](#how-should-you-use-nested-layouts-senior)
+[How should you use nested layouts?](#how-should-you-use-nested-layouts-senior)
 
-[Can you explain the difference between ActiveSupport’s “HashWithIndifferentAccess” and Ruby’s “Hash”? (Senior)](#can-you-explain-the-difference-between-activesupports-hashwithindifferentaccess-and-rubys-hash-senior)
+[Can you explain the difference between ActiveSupport’s “HashWithIndifferentAccess” and Ruby’s “Hash”?](#can-you-explain-the-difference-between-activesupports-hashwithindifferentaccess-and-rubys-hash-senior)
 
-[How does Ruby on Rails use the Model View Controller (MVC) framework? (Senior)](#how-does-ruby-on-rails-use-the-model-view-controller-mvc-framework-senior)
+[How does Ruby on Rails use the Model View Controller (MVC) framework?](#how-does-ruby-on-rails-use-the-model-view-controller-mvc-framework-senior)
 
-[What is the purpose of the rakefile available in the demo directory in Ruby? (Senior)](#what-is-the-purpose-of-the-rakefile-available-in-the-demo-directory-in-ruby-senior)
+[What is the purpose of the rakefile available in the demo directory in Ruby?](#what-is-the-purpose-of-the-rakefile-available-in-the-demo-directory-in-ruby-senior)
 
-[Explain what is Interpolation in Ruby? (Senior)](#explain-what-is-interpolation-in-ruby-senior)
+[Explain what is Interpolation in Ruby?](#explain-what-is-interpolation-in-ruby-senior)
 
-[What is the difference between &&, || operators and "and, or"? (Senior)](#what-is-the-difference-between---operators-and-and-or-senior)
+[What is the difference between &&, || operators and "and, or"?](#what-is-the-difference-between---operators-and-and-or-senior)
 
-[Explain what is Polymorphic Association in Ruby on Rails? (Senior)](#explain-what-is-polymorphic-association-in-ruby-on-rails-senior)
+[Explain what is Polymorphic Association in Ruby on Rails?](#explain-what-is-polymorphic-association-in-ruby-on-rails-senior)
 
-[What Are Filters? (Senior)](#what-are-filters-senior)
+[What Are Filters?](#what-are-filters-senior)
 
-[Mention what is the purpose of RJs in Rails? (Senior)](#mention-what-is-the-purpose-of-rjs-in-rails-senior)
+[Mention what is the purpose of RJs in Rails?](#mention-what-is-the-purpose-of-rjs-in-rails-senior)
 
-[What Things We Can Define In The Model? (Senior)](#what-things-we-can-define-in-the-model-senior)
+[What Things We Can Define In The Model?](#what-things-we-can-define-in-the-model-senior)
 
-[What Is The Difference Between Delete And Destroy? (Senior)](#what-is-the-difference-between-delete-and-destroy-senior)
+[What Is The Difference Between Delete And Destroy?](#what-is-the-difference-between-delete-and-destroy-senior)
 
-[What Is A Proc? (Senior)](#what-is-a-proc-senior)
+[What Is A Proc?](#what-is-a-proc-senior)
 
-[Mention what is the function of garbage collection in Ruby on Rails? (Senior)](#mention-what-is-the-function-of-garbage-collection-in-ruby-on-rails-senior)
+[Mention what is the function of garbage collection in Ruby on Rails?](#mention-what-is-the-function-of-garbage-collection-in-ruby-on-rails-senior)
 
-[Mention what is the difference between the Observers and Callbacks in Ruby on Rails? (Senior)](#mention-what-is-the-difference-between-the-observers-and-callbacks-in-ruby-on-rails-senior)
+[Mention what is the difference between the Observers and Callbacks in Ruby on Rails?](#mention-what-is-the-difference-between-the-observers-and-callbacks-in-ruby-on-rails-senior)
 
-[What exactly are Harnesses and Fixtures in the Ruby? (Senior)](#what-exactly-are-harnesses-and-fixtures-in-the-ruby-senior)
+[What exactly are Harnesses and Fixtures in the Ruby?](#what-exactly-are-harnesses-and-fixtures-in-the-ruby-senior)
 
-[Mention what is the difference between calling super() and super call? (Senior)](#mention-what-is-the-difference-between-calling-super-and-super-call-senior)
+[Mention what is the difference between calling super() and super call?](#mention-what-is-the-difference-between-calling-super-and-super-call-senior)
 
-[What are Strong Parameters? (Expert)](#what-are-strong-parameters-expert)
+[What are Strong Parameters?](#what-are-strong-parameters-expert)
 
-[What Do You Mean By Naming Convention In Rails? (Expert)](#what-do-you-mean-by-naming-convention-in-rails-expert)
+[What Do You Mean By Naming Convention In Rails?](#what-do-you-mean-by-naming-convention-in-rails-expert)
 
-[Does Ruby Support Single Inheritance/multiple Inheritance Or Both? (Expert)](#does-ruby-support-single-inheritancemultiple-inheritance-or-both-expert)
+[Does Ruby Support Single Inheritance/multiple Inheritance Or Both?](#does-ruby-support-single-inheritancemultiple-inheritance-or-both-expert)
 
-[Hw would you choose between Belongs_to And Has_one? (Expert)](#hw-would-you-choose-between-belongs_to-and-has_one-expert)
+[Hw would you choose between Belongs_to And Has_one?](#hw-would-you-choose-between-belongs_to-and-has_one-expert)
 
-[What Is The Difference Between "Save" And "Save!"? (Expert)](#what-is-the-difference-between-save-and-save-expert)
+[What Is The Difference Between "Save" And "Save!"?](#what-is-the-difference-between-save-and-save-expert)
 
-[What is the difference between content_for and yield? (Expert)](#what-is-the-difference-between-content_for-and-yield-expert)
+[What is the difference between content_for and yield?](#what-is-the-difference-between-content_for-and-yield-expert)
 
-[What Are Filters? And How Many Types Of Filters Are There In Ruby? (Expert)](#what-are-filters-and-how-many-types-of-filters-are-there-in-ruby-expert)
+[What Are Filters? And How Many Types Of Filters Are There In Ruby?](#what-are-filters-and-how-many-types-of-filters-are-there-in-ruby-expert)
 
-[What Is The Flash? (Expert)](#what-is-the-flash-expert)
+[What Is The Flash?](#what-is-the-flash-expert)
 
-[How to rollback a specific migration? (Expert)](#how-to-rollback-a-specific-migration-expert)
+[How to rollback a specific migration?](#how-to-rollback-a-specific-migration-expert)
 
-[How to check if a specific key is present in a hash or not? (Expert)](#how-to-check-if-a-specific-key-is-present-in-a-hash-or-not-expert)
+[How to check if a specific key is present in a hash or not?](#how-to-check-if-a-specific-key-is-present-in-a-hash-or-not-expert)
 
-[Is Rails Scalable? (Expert)](#is-rails-scalable-expert)
+[Is Rails Scalable?](#is-rails-scalable-expert)
 
-[Explain the difference between Page, Action, Fragment, Low-Level, SQL caching types. (Expert)](#explain-the-difference-between-page-action-fragment-low-level-sql-caching-types-expert)
+[Explain the difference between Page, Action, Fragment, Low-Level, SQL caching types.](#explain-the-difference-between-page-action-fragment-low-level-sql-caching-types-expert)
 
-[What is the Difference Between Gem And Plugin? (Expert)](#what-is-the-difference-between-gem-and-plugin-expert)
+[What is the Difference Between Gem And Plugin?](#what-is-the-difference-between-gem-and-plugin-expert)
 
-[What is ActiveJob? When should we use it? (Expert)](#what-is-activejob-when-should-we-use-it-expert)
+[What is ActiveJob? When should we use it?](#what-is-activejob-when-should-we-use-it-expert)
 
-[How To Find Second Max Element From Database? (Expert)](#how-to-find-second-max-element-from-database-expert)
+[How To Find Second Max Element From Database?](#how-to-find-second-max-element-from-database-expert)
 
-[What is the difference between string and text in Rails? (Expert)](#what-is-the-difference-between-string-and-text-in-rails-expert)
+[What is the difference between string and text in Rails?](#what-is-the-difference-between-string-and-text-in-rails-expert)
 
-[How Many Types Of Callbacks Available In Ror? (Expert)](#how-many-types-of-callbacks-available-in-ror-expert)
+[How Many Types Of Callbacks Available In Ror?](#how-many-types-of-callbacks-available-in-ror-expert)
 
-[What is Rack? (Expert)](#what-is-rack-expert)
+[What is Rack?](#what-is-rack-expert)
 
-[What is the best thing which you find about the Ruby on Rail so far? (Expert)](#what-is-the-best-thing-which-you-find-about-the-ruby-on-rail-so-far-expert)
+[What is the best thing which you find about the Ruby on Rail so far?](#what-is-the-best-thing-which-you-find-about-the-ruby-on-rail-so-far-expert)
 
-[What sort of problems you have faced with Ruby on Rails and how do you think the same can affect the projects? (Expert)](#what-sort-of-problems-you-have-faced-with-ruby-on-rails-and-how-do-you-think-the-same-can-affect-the-projects-expert)
+[What sort of problems you have faced with Ruby on Rails and how do you think the same can affect the projects?](#what-sort-of-problems-you-have-faced-with-ruby-on-rails-and-how-do-you-think-the-same-can-affect-the-projects-expert)
 
-[What is a Rails engine? (Expert)](#what-is-a-rails-engine-expert)
+[What is a Rails engine?](#what-is-a-rails-engine-expert)
 
-[What is Asset Pipeline? (Expert)](#what-is-asset-pipeline-expert)
+[What is Asset Pipeline?](#what-is-asset-pipeline-expert)
 
-[How Do I Find Only Duplicate Entries In A Database Table? (Expert)](#how-do-i-find-only-duplicate-entries-in-a-database-table-expert)
+[How Do I Find Only Duplicate Entries In A Database Table?](#how-do-i-find-only-duplicate-entries-in-a-database-table-expert)
 
-[What is Dynamic Finders? (Expert)](#what-is-dynamic-finders-expert)
+[What is Dynamic Finders?](#what-is-dynamic-finders-expert)
 
-[How To Use Two Databases Into A Single Application? (Expert)](#how-to-use-two-databases-into-a-single-application-expert)
+[How To Use Two Databases Into A Single Application?](#how-to-use-two-databases-into-a-single-application-expert)
 
-[Node.js vs Ruby on Rails. Which would you choose? (Expert)](#nodejs-vs-ruby-on-rails-which-would-you-choose-expert)
+[Node.js vs Ruby on Rails. Which would you choose?](#nodejs-vs-ruby-on-rails-which-would-you-choose-expert)
 
 
 
-### Explain what is ORM (Object-Relationship-Model) in Rails? (Junior)
+### Explain what is ORM (Object-Relationship-Model) in Rails?
 
 ORM or Object Relationship Model in Rails indicate that your classes are mapped to the table in the database, and objects are directly mapped to the rows in the table.
 
@@ -155,7 +155,7 @@ ORM or Object Relationship Model in Rails indicate that your classes are mapped 
 * https://career.guru99.com/top-34-ruby-on-rail-interview-questions/
 
 [[↑] Back to top](#ruby-on-rails)
-### Mention what is Rails Migration? (Junior)
+### Mention what is Rails Migration?
 
 Rails Migration enables Ruby to make changes to the database schema, making it possible to use a version control system to leave things synchronized with the actual code.
 
@@ -164,7 +164,7 @@ Rails Migration enables Ruby to make changes to the database schema, making it p
 * https://career.guru99.com/top-34-ruby-on-rail-interview-questions/
 
 [[↑] Back to top](#ruby-on-rails)
-### Explain what is rake in Rails? (Junior)
+### Explain what is rake in Rails?
 
 **Rake** is a Ruby Make; it is a Ruby utility that substitutes the Unix utility ‘make’, and uses a ‘Rakefile’ and ‘.rake files’ to build up a list of tasks. In Rails, Rake is used for normal administration tasks like migrating the database through scripts, loading a schema into the database, etc.
 
@@ -173,7 +173,7 @@ Rails Migration enables Ruby to make changes to the database schema, making it p
 * https://career.guru99.com/top-34-ruby-on-rail-interview-questions/
 
 [[↑] Back to top](#ruby-on-rails)
-### What Is ORM In Rails? (Junior)
+### What Is ORM In Rails?
 
 **ORM** tends for Object-Relationship-Model, where Classes are mapped to table in the database, and Objects are directly mapped to the rows in the table.
 
@@ -182,7 +182,7 @@ Rails Migration enables Ruby to make changes to the database schema, making it p
 * https://www.wisdomjobs.com/e-university/ruby-on-rails-interview-questions.html
 
 [[↑] Back to top](#ruby-on-rails)
-### Explain what is Ruby on Rails? (Junior)
+### Explain what is Ruby on Rails?
 
 * Ruby: It is an object-oriented programming language inspired by PERL and Python
 * Rails: It is a framework used for building web applications
@@ -192,7 +192,7 @@ Rails Migration enables Ruby to make changes to the database schema, making it p
 * 
 
 [[↑] Back to top](#ruby-on-rails)
-### What is the purpose of the resources method in the code snippet below? (Mid)
+### What is the purpose of the resources method in the code snippet below?
 
 Defining routes with the `resources` method automatically generates routes for the seven standard RESTful actions:
 
@@ -209,7 +209,7 @@ Defining routes with the `resources` method automatically generates routes for t
 * https://www.upwork.com/i/interview-questions/ruby-on-rails/
 
 [[↑] Back to top](#ruby-on-rails)
-### What is the use of load and require in Ruby? (Mid)
+### What is the use of load and require in Ruby?
 
 * You use `load()` to execute code 
 * use `require()` to import libraries.
@@ -219,7 +219,7 @@ Defining routes with the `resources` method automatically generates routes for t
 * http://anilpunjabi.tumblr.com/post/25948339235/ruby-and-rails-interview-questions-and-answers
 
 [[↑] Back to top](#ruby-on-rails)
-### List out what can Rails Migration do? (Mid)
+### List out what can Rails Migration do?
 
 Rails Migration can do following things
 
@@ -236,7 +236,7 @@ Rails Migration can do following things
 * https://career.guru99.com/top-34-ruby-on-rail-interview-questions/
 
 [[↑] Back to top](#ruby-on-rails)
-### Mention what is the role of Rails Controller? (Mid)
+### Mention what is the role of Rails Controller?
 
 The Rails **controller** is the logical center of the application. It facilitates the interaction between the users, views, and the model. It also performs other activities like
 
@@ -249,7 +249,7 @@ The Rails **controller** is the logical center of the application. It facilitate
 * https://career.guru99.com/top-34-ruby-on-rail-interview-questions/
 
 [[↑] Back to top](#ruby-on-rails)
-### Explain how you define Instance Variable, Global Variable and Class Variable in Ruby? (Mid)
+### Explain how you define Instance Variable, Global Variable and Class Variable in Ruby?
 
 * Ruby Instance variable begins with — **@**
 * Ruby Class variables begin with — **@@**
@@ -260,7 +260,7 @@ The Rails **controller** is the logical center of the application. It facilitate
 * https://career.guru99.com/top-34-ruby-on-rail-interview-questions/
 
 [[↑] Back to top](#ruby-on-rails)
-### How Is Visibility Of Methods Changed In Ruby (encapsulation)? (Mid)
+### How Is Visibility Of Methods Changed In Ruby (encapsulation)?
 
 By applying the access modifier: 
 * Public, 
@@ -272,7 +272,7 @@ By applying the access modifier:
 * https://www.wisdomjobs.com/e-university/ruby-on-rails-interview-questions.html
 
 [[↑] Back to top](#ruby-on-rails)
-### Mention what are the positive aspects of Rails? (Mid)
+### Mention what are the positive aspects of Rails?
 
 Rails provides many features like:
 
@@ -288,7 +288,7 @@ Rails provides many features like:
 * https://career.guru99.com/top-34-ruby-on-rail-interview-questions/
 
 [[↑] Back to top](#ruby-on-rails)
-### What Is The Difference Between Nil And False In Ruby? (Mid)
+### What Is The Difference Between Nil And False In Ruby?
 
 False is a boolean datatype, Nil is not a data type it have object_id 4.
 
@@ -297,7 +297,7 @@ False is a boolean datatype, Nil is not a data type it have object_id 4.
 * https://www.wisdomjobs.com/e-university/ruby-on-rails-interview-questions.html
 
 [[↑] Back to top](#ruby-on-rails)
-### What Is MVC? And How It Works? (Mid)
+### What Is MVC? And How It Works?
 
 **MVC** tends for Model-View-Controller, used by many languages like PHP, Perl, Python etc. The flow goes like this:
 
@@ -308,7 +308,7 @@ Request first comes to the controller, controller finds and appropriate view and
 * https://www.wisdomjobs.com/e-university/ruby-on-rails-interview-questions.html
 
 [[↑] Back to top](#ruby-on-rails)
-### What Are Helpers And How To Use Helpers In ROR? (Mid)
+### What Are Helpers And How To Use Helpers In ROR?
 
 **Helpers** are modules that provide methods which are automatically usable in your view. They provide shortcuts to commonly used display code and a way for you to keep the programming out of your views. The purpose of a helper is to simplify the view.
 
@@ -317,7 +317,7 @@ Request first comes to the controller, controller finds and appropriate view and
 * https://www.wisdomjobs.com/e-university/ruby-on-rails-interview-questions.html
 
 [[↑] Back to top](#ruby-on-rails)
-### Mention what are the limits of Ruby on Rails? (Mid)
+### Mention what are the limits of Ruby on Rails?
 
 Ruby on Rails has been designed for creating a CRUD web application using MVC. Some of the features that Rails does not support include:
 
@@ -331,7 +331,7 @@ Ruby on Rails has been designed for creating a CRUD web application using MVC. S
 * https://career.guru99.com/top-34-ruby-on-rail-interview-questions/
 
 [[↑] Back to top](#ruby-on-rails)
-### How Many Types Of Associations Relationships Does A Model Have? (Mid)
+### How Many Types Of Associations Relationships Does A Model Have?
 
 When you have more than one model in your rails application, you would need to create connection between those models. You can do this via associations. Active Record supports three types of associations:
 
@@ -352,7 +352,7 @@ You indicate these associations by adding declarations to your models:
 * https://www.wisdomjobs.com/e-university/ruby-on-rails-interview-questions.html
 
 [[↑] Back to top](#ruby-on-rails)
-### Explain what is a class library in Ruby? (Mid)
+### Explain what is a class library in Ruby?
 
 **Ruby class** libraries consist of a variety of domains, such as thread programming, data types, various domains, etc. These classes give flexible capabilities at a high level of abstraction, giving you the ability to create powerful Ruby scripts useful in a variety of problem domains. The following domains which have relevant class libraries are,
 
@@ -366,7 +366,7 @@ You indicate these associations by adding declarations to your models:
 * https://career.guru99.com/top-34-ruby-on-rail-interview-questions/
 
 [[↑] Back to top](#ruby-on-rails)
-### Mention what is the difference in scope for these two variables: @@name and @name? (Mid)
+### Mention what is the difference in scope for these two variables: @@name and @name?
 
 The difference in scope for these two variables is that:
 
@@ -378,7 +378,7 @@ The difference in scope for these two variables is that:
 * https://career.guru99.com/top-34-ruby-on-rail-interview-questions/
 
 [[↑] Back to top](#ruby-on-rails)
-### Explain what is the role of sub-directory app/controllers and app/helpers? (Mid)
+### Explain what is the role of sub-directory app/controllers and app/helpers?
 
 * App/controllers: A web request from the user is handled by the Controller. The controller sub-directory is where Rails looks to find controller classes
 * App/helpers: The helper’s sub-directory holds any helper classes used to assist the view, model and controller classes.
@@ -388,7 +388,7 @@ The difference in scope for these two variables is that:
 * https://career.guru99.com/top-34-ruby-on-rail-interview-questions/
 
 [[↑] Back to top](#ruby-on-rails)
-### Mention what is the difference between a gem and a plugin in Ruby? (Mid)
+### Mention what is the difference between a gem and a plugin in Ruby?
 
 * **Gem**: A gem is a just ruby code. It is installed on a machine, and it’s available for all ruby applications running on that machine.
 * **Plugin**: Plugin is also ruby code, but it is installed in the application folder and only available for that specific application.
@@ -398,7 +398,7 @@ The difference in scope for these two variables is that:
 * https://career.guru99.com/top-34-ruby-on-rail-interview-questions/
 
 [[↑] Back to top](#ruby-on-rails)
-### What Do You Mean By Render And Redirect_to? (Mid)
+### What Do You Mean By Render And Redirect_to?
 
 * _render_ causes rails to generate a response whose content is provided by rendering one of your templates. Means, it will direct goes to view page.
 
@@ -409,7 +409,7 @@ The difference in scope for these two variables is that:
 * https://www.wisdomjobs.com/e-university/ruby-on-rails-interview-questions.html
 
 [[↑] Back to top](#ruby-on-rails)
-### What Are The Various Components Of Rail? (Mid)
+### What Are The Various Components Of Rail?
 
 1. **Action Pack**: Action Pack is a single gem that contains Action Controller, Action View and Action Dispatch. The "VC" part of "MVC".
 
@@ -434,7 +434,7 @@ The difference in scope for these two variables is that:
 * https://www.wisdomjobs.com/e-university/ruby-on-rails-interview-questions.html
 
 [[↑] Back to top](#ruby-on-rails)
-###  Explain what is Rails Active Record in Ruby on Rails? (Mid)
+###  Explain what is Rails Active Record in Ruby on Rails?
 
 Rails active record is the Object/Relational Mapping (ORM) layer supplied with Rails. It follows the standard ORM model as
 
@@ -447,7 +447,7 @@ Rails active record is the Object/Relational Mapping (ORM) layer supplied with R
 * https://career.guru99.com/top-34-ruby-on-rail-interview-questions/
 
 [[↑] Back to top](#ruby-on-rails)
-### How Many Types Of Relationships Does A Model Has? (Mid)
+### How Many Types Of Relationships Does A Model Has?
 
 1. has_one
 2. belongs_to
@@ -459,7 +459,7 @@ Rails active record is the Object/Relational Mapping (ORM) layer supplied with R
 * https://www.wisdomjobs.com/e-university/ruby-on-rails-interview-questions.html
 
 [[↑] Back to top](#ruby-on-rails)
-### What do you mean by the term Scaffolding and what sort of advantages the Ruby can offer when it comes to same? (Mid)
+### What do you mean by the term Scaffolding and what sort of advantages the Ruby can offer when it comes to same?
 
 While developing the projects, the users often have to write codes in the early stage of development. These codes help building the application in a very reliable manner and quickly and also, a close eye can be kept on the working of some major components with this approach. In Ruby, the scaffolding is done automatically and the users are free to concentrate on the core development only from the first day of development. 
 
@@ -468,7 +468,7 @@ While developing the projects, the users often have to write codes in the early 
 * https://mindmajix.com/ruby-rails-interview-questions
 
 [[↑] Back to top](#ruby-on-rails)
-### Practical test: Genres of music (Senior)
+### Practical test: Genres of music
 
 You will likely receive a variety of potential answers for an open-ended coding question like this, but here are two of the most straightforward approaches to creating a route. The most straightforward solution would be to create a simple route that specifies the controller action to call and passes the genre of music as a parameter. If the genre parameter is not included in the list of valid genres, the action will raise an `ActionController::RoutingError` and redirect to a 404 page.
 
@@ -486,7 +486,7 @@ resource :music, only: [:show], constraints: {id: Regexp.new(genres.join('|'))}
 * https://www.upwork.com/i/interview-questions/ruby-on-rails/
 
 [[↑] Back to top](#ruby-on-rails)
-### What is the difference between symbol and string? (Senior)
+### What is the difference between symbol and string?
 
 * **Symbols** have two nice properties compared to strings which can save you memory and CPU time
 The difference remains in the `object_id`, memory and process time for both of them when used together at one time
@@ -498,7 +498,7 @@ Strings objects are mutable so that it takes only the assignments to change the 
 * http://anilpunjabi.tumblr.com/post/25948339235/ruby-and-rails-interview-questions-and-answers
 
 [[↑] Back to top](#ruby-on-rails)
-### What is the use of Destructive Method? (Senior)
+### What is the use of Destructive Method?
 
 Distructive methods are used to change the object value permanently by itself using bang (`!`) operator.
 * `sort` returns a new array and leaves the original unchanged.
@@ -511,7 +511,7 @@ The `!` indicates it’s a destructive method. It will overwrite the current arr
 * http://anilpunjabi.tumblr.com/post/25948339235/ruby-and-rails-interview-questions-and-answers
 
 [[↑] Back to top](#ruby-on-rails)
-### Explain Ruby on Rails Exception Handling (Senior)
+### Explain Ruby on Rails Exception Handling
 
 The general flow of begin/rescue/else/ensure/end looks like this:
 
@@ -545,7 +545,7 @@ end
 * https://stackoverflow.com/questions/2191632/begin-rescue-and-ensure-in-ruby
 
 [[↑] Back to top](#ruby-on-rails)
-### How should you use nested layouts? (Senior)
+### How should you use nested layouts?
 
 The layouts removes code duplication in view layer. You are able to slice all your application pages to blocks such as header, footer, sidebar, body and etc.
 
@@ -570,7 +570,7 @@ The `yield` in the code above is the place in which any action template will be 
 * https://railsguides.net/rails-nested-layouts/
 
 [[↑] Back to top](#ruby-on-rails)
-### Can you explain the difference between ActiveSupport’s “HashWithIndifferentAccess” and Ruby’s “Hash”? (Senior)
+### Can you explain the difference between ActiveSupport’s “HashWithIndifferentAccess” and Ruby’s “Hash”?
 
 The `HashWithIndifferentAccess` class will treat symbol keys and string keys as equivalent while the `Hash` class in Ruby will use the stricter = = comparison on keys—an equivalent string key will not retrieve the value for a given symbol key.
 
@@ -579,7 +579,7 @@ The `HashWithIndifferentAccess` class will treat symbol keys and string keys as 
 * https://www.upwork.com/i/interview-questions/ruby-on-rails/
 
 [[↑] Back to top](#ruby-on-rails)
-### How does Ruby on Rails use the Model View Controller (MVC) framework? (Senior)
+### How does Ruby on Rails use the Model View Controller (MVC) framework?
 
 Web development can often be divided into three separate but closely integrated subsystems:
 
@@ -592,7 +592,7 @@ Web development can often be divided into three separate but closely integrated 
 * https://www.upwork.com/i/interview-questions/ruby-on-rails/
 
 [[↑] Back to top](#ruby-on-rails)
-### What is the purpose of the rakefile available in the demo directory in Ruby? (Senior)
+### What is the purpose of the rakefile available in the demo directory in Ruby?
 
 The purpose of this simple question is to make sure a developer is familiar with a test-driven development. A beginner may not have dealt with this file yet. The rakefile is similar to the makefile in Unix, and assists with packaging and testing Rails code. It’s used by the rake utility, which ships natively with the Ruby installation.
 
@@ -601,7 +601,7 @@ The purpose of this simple question is to make sure a developer is familiar with
 * https://www.upwork.com/i/interview-questions/ruby-on-rails/
 
 [[↑] Back to top](#ruby-on-rails)
-### Explain what is Interpolation in Ruby? (Senior)
+### Explain what is Interpolation in Ruby?
 
 **Ruby Interpolation** is the process of inserting a string into a literal.  By placing a Hash (#) within {} open and close brackets, one can interpolate a string into the literal.
 
@@ -610,7 +610,7 @@ The purpose of this simple question is to make sure a developer is familiar with
 * https://career.guru99.com/top-34-ruby-on-rail-interview-questions/
 
 [[↑] Back to top](#ruby-on-rails)
-### What is the difference between &&, || operators and "and, or"? (Senior)
+### What is the difference between &&, || operators and "and, or"?
 
 “&&” has higher precedence than “||” like in most other mainstream languages; but “or” and “and” in Ruby have the same precedence level.
 
@@ -628,7 +628,7 @@ but
 * http://anilpunjabi.tumblr.com/post/25948339235/ruby-and-rails-interview-questions-and-answers
 
 [[↑] Back to top](#ruby-on-rails)
-### Explain what is Polymorphic Association in Ruby on Rails? (Senior)
+### Explain what is Polymorphic Association in Ruby on Rails?
 
 **Polymorphic Association** allows an ActiveRecord object to be connected with Multiple ActiveRecord objects. A perfect example of Polymorphic Association is a social site where users can comment on anywhere whether it is a videos, photos, link, status updates etc. It would be not feasible if you have to create an individual comment like photos_comments, videos_comment and so on.
 
@@ -637,7 +637,7 @@ but
 * https://career.guru99.com/top-34-ruby-on-rail-interview-questions/
 
 [[↑] Back to top](#ruby-on-rails)
-### What Are Filters? (Senior)
+### What Are Filters?
 
 **Filters** are methods that run "before", "after" or "around" a controller action. Filters are inherited, so if you set a filter on `ApplicationController`, it will be run on every controller in your application.
 
@@ -646,7 +646,7 @@ but
 * https://www.wisdomjobs.com/e-university/ruby-on-rails-interview-questions.html
 
 [[↑] Back to top](#ruby-on-rails)
-### Mention what is the purpose of RJs in Rails? (Senior)
+### Mention what is the purpose of RJs in Rails?
 
 **RJs** is a template that produces JavaScript which is run in an eval block by the browser in response to an AJAX request. It is sometimes used to define the JavaScript, Prototype and helpers provided by Rails.
 
@@ -655,7 +655,7 @@ but
 * https://career.guru99.com/top-34-ruby-on-rail-interview-questions/
 
 [[↑] Back to top](#ruby-on-rails)
-### What Things We Can Define In The Model? (Senior)
+### What Things We Can Define In The Model?
 
 There are lot of things you can define in models, the few are:
 
@@ -671,7 +671,7 @@ There are lot of things you can define in models, the few are:
 * https://www.wisdomjobs.com/e-university/ruby-on-rails-interview-questions.html
 
 [[↑] Back to top](#ruby-on-rails)
-### What Is The Difference Between Delete And Destroy? (Senior)
+### What Is The Difference Between Delete And Destroy?
 
 * The **Delete** method essentially deletes a row (or an array of rows) from the database. 
 * **Destroy** on the other hand allows for a few more options. First, it will check any callbacks such as before_delete, or any dependencies that we specify in our model. Next, it will keep the object that just got deleted in memory; this allows us to leave a message saying something like " 'Object_name' has been deleted." Lastly, and most importantly, it will also delete any child objects associated with that object.
@@ -681,7 +681,7 @@ There are lot of things you can define in models, the few are:
 * https://www.wisdomjobs.com/e-university/ruby-on-rails-interview-questions.html
 
 [[↑] Back to top](#ruby-on-rails)
-### What Is A Proc? (Senior)
+### What Is A Proc?
 
 * Essentially, **Procs** are anonymous methods (or nameless functions) containing code. They can be placed inside a variable and passed around like any other object or scalar value. They are created by Proc.new, lambda, and blocks (invoked by the yield keyword).
 
@@ -694,7 +694,7 @@ This reusable code is called a Proc (short for procedure). The only difference b
 * https://www.wisdomjobs.com/e-university/ruby-on-rails-interview-questions.html
 
 [[↑] Back to top](#ruby-on-rails)
-### Mention what is the function of garbage collection in Ruby on Rails? (Senior)
+### Mention what is the function of garbage collection in Ruby on Rails?
 
 The functions of **garbage collection** in Ruby on Rails includes
 
@@ -707,7 +707,7 @@ The functions of **garbage collection** in Ruby on Rails includes
 * https://career.guru99.com/top-34-ruby-on-rail-interview-questions/
 
 [[↑] Back to top](#ruby-on-rails)
-### Mention what is the difference between the Observers and Callbacks in Ruby on Rails? (Senior)
+### Mention what is the difference between the Observers and Callbacks in Ruby on Rails?
 
 * **Rails Observers**: Observers is same as Callback, but it is used when method is not directly associated to object lifecycle. Also, the observer lives longer, and it can be detached or attached at any time. For example, displaying values from a model in the UI and updating model from user input.
 
@@ -718,7 +718,7 @@ The functions of **garbage collection** in Ruby on Rails includes
 * https://career.guru99.com/top-34-ruby-on-rail-interview-questions/
 
 [[↑] Back to top](#ruby-on-rails)
-### What exactly are Harnesses and Fixtures in the Ruby? (Senior)
+### What exactly are Harnesses and Fixtures in the Ruby?
 
 These are basically the supporting codes with the help of which the users can easily write and can run the test cases. With the help of rake, the users can then simply proceed with the automated tests. 
 
@@ -727,7 +727,7 @@ These are basically the supporting codes with the help of which the users can ea
 * https://mindmajix.com/ruby-rails-interview-questions
 
 [[↑] Back to top](#ruby-on-rails)
-### Mention what is the difference between calling super() and super call? (Senior)
+### Mention what is the difference between calling super() and super call?
 
 * **super()**: A call to super() invokes the parent method without any arguments, as presumably expected. As always, being explicit in your code is a good thing.
 * **super call**: A call to super invokes the parent method with the same arguments that were passed to the child method. An error will therefore occur if the arguments passed to the child method don’t match what the parent is expecting.
@@ -737,7 +737,7 @@ These are basically the supporting codes with the help of which the users can ea
 * https://career.guru99.com/top-34-ruby-on-rail-interview-questions/
 
 [[↑] Back to top](#ruby-on-rails)
-### What are Strong Parameters? (Expert)
+### What are Strong Parameters?
 
 With **strong parameters**, Action Controller parameters are forbidden to be used in Active Model mass assignments until they have been permitted. This means that you'll have to make a conscious decision about which attributes to permit for mass update. This is a better security practice to help prevent accidentally allowing users to update sensitive model attributes.
 
@@ -746,7 +746,7 @@ With **strong parameters**, Action Controller parameters are forbidden to be use
 * https://rubygarage.org/blog/how-to-interview-your-ruby-on-rails-developer
 
 [[↑] Back to top](#ruby-on-rails)
-### What Do You Mean By Naming Convention In Rails? (Expert)
+### What Do You Mean By Naming Convention In Rails?
 
 **Variables:** Variables are named where all letters are lowercase and words are separated by underscores. E.g: total, order_amount.
 
@@ -765,7 +765,7 @@ Controller: controller class names are pluralized, such that Orders Controller w
 * https://www.wisdomjobs.com/e-university/ruby-on-rails-interview-questions.html
 
 [[↑] Back to top](#ruby-on-rails)
-### Does Ruby Support Single Inheritance/multiple Inheritance Or Both? (Expert)
+### Does Ruby Support Single Inheritance/multiple Inheritance Or Both?
 
 Ruby Supports only Single Inheritance
 
@@ -774,7 +774,7 @@ Ruby Supports only Single Inheritance
 * https://www.wisdomjobs.com/e-university/ruby-on-rails-interview-questions.html
 
 [[↑] Back to top](#ruby-on-rails)
-### Hw would you choose between Belongs_to And Has_one? (Expert)
+### Hw would you choose between Belongs_to And Has_one?
 
 The distinction is in where you place the foreign key (it goes on the table for the class declaring the belongs_to association), but you should give some thought to the actual meaning of the data as well. 
 
@@ -785,7 +785,7 @@ The has_one relationship says that one of something is yours - that is, that som
 * https://www.wisdomjobs.com/e-university/ruby-on-rails-interview-questions.html
 
 [[↑] Back to top](#ruby-on-rails)
-### What Is The Difference Between "Save" And "Save!"? (Expert)
+### What Is The Difference Between "Save" And "Save!"?
 
 * **Save!** performs all validations and callbacks. If any validation returns false, save! throws an error and canceles the save.
 
@@ -796,7 +796,7 @@ The has_one relationship says that one of something is yours - that is, that som
 * https://www.wisdomjobs.com/e-university/ruby-on-rails-interview-questions.html
 
 [[↑] Back to top](#ruby-on-rails)
-### What is the difference between content_for and yield? (Expert)
+### What is the difference between content_for and yield?
 
 `yield` is how you specify where your content areas is going to go within a layout. You might have something like this:
 ```js
@@ -817,7 +817,7 @@ The has_one relationship says that one of something is yours - that is, that som
 * https://stackoverflow.com/questions/13150983/rails-what-is-the-difference-between-content-for-and-yield
 
 [[↑] Back to top](#ruby-on-rails)
-### What Are Filters? And How Many Types Of Filters Are There In Ruby? (Expert)
+### What Are Filters? And How Many Types Of Filters Are There In Ruby?
 
 * Filters are methods that are run before, after or "around" a controller action.
 * Filters are inherited, so if you set a filter on `ApplicationController`, it will be run on every controller in your application.
@@ -828,7 +828,7 @@ The has_one relationship says that one of something is yours - that is, that som
 * https://www.wisdomjobs.com/e-university/ruby-on-rails-interview-questions.html
 
 [[↑] Back to top](#ruby-on-rails)
-### What Is The Flash? (Expert)
+### What Is The Flash?
 
 The **flash** is a special part of the session which is cleared with each request. This means that values stored there will only be available in the next request, which is useful for storing error messages etc. It is accessed in much the same way as the session, like a hash.
 
@@ -840,7 +840,7 @@ The **flash** is a special part of the session which is cleared with each reques
 * https://www.wisdomjobs.com/e-university/ruby-on-rails-interview-questions.html
 
 [[↑] Back to top](#ruby-on-rails)
-### How to rollback a specific migration? (Expert)
+### How to rollback a specific migration?
 
 ```js
 rake db:rollback STEP=1
@@ -857,7 +857,7 @@ will roll back the specific file.
 * https://stackoverflow.com/questions/3647685/how-to-rollback-a-specific-migration
 
 [[↑] Back to top](#ruby-on-rails)
-### How to check if a specific key is present in a hash or not? (Expert)
+### How to check if a specific key is present in a hash or not?
 
 Hash's key? method tells you whether a given key is present or not.
 
@@ -870,7 +870,7 @@ session.key?("user")
 * https://stackoverflow.com/questions/4528506/how-to-check-if-a-specific-key-is-present-in-a-hash-or-not
 
 [[↑] Back to top](#ruby-on-rails)
-### Is Rails Scalable? (Expert)
+### Is Rails Scalable?
 
 Yes. Rails gives you complete freedom to use all traditional means of scaling an application. Things like `memcached`, caching full pages, caching fragments are all supported. You can use any standard CDN to serve your media and static content as well. Database scaling using sharding is supported. Finally Heroky makes your life easier by giving you the flexibility to scale up/down based on your need. Mostly websites have a peak time during which you need more servers and then there is a sleep time. Heroku makes that on-demand scaling process simpler. Companies such as HireFireApp.com makes the autoscale process easier.
 
@@ -879,7 +879,7 @@ Yes. Rails gives you complete freedom to use all traditional means of scaling an
 * http://anilpunjabi.tumblr.com/post/25948339235/ruby-and-rails-interview-questions-and-answers
 
 [[↑] Back to top](#ruby-on-rails)
-### Explain the difference between Page, Action, Fragment, Low-Level, SQL caching types. (Expert)
+### Explain the difference between Page, Action, Fragment, Low-Level, SQL caching types.
 
 Rails provides a set of caching features out of the box. 
 * **Page caching** is a Rails mechanism which allows the request for a generated page to be fulfilled by the webserver (i.e. Apache or NGINX) without having to go through the entire Rails stack. 
@@ -895,7 +895,7 @@ Rails provides a set of caching features out of the box.
 * https://rubygarage.org/blog/how-to-interview-your-ruby-on-rails-developer
 
 [[↑] Back to top](#ruby-on-rails)
-### What is the Difference Between Gem And Plugin? (Expert)
+### What is the Difference Between Gem And Plugin?
 
 **GEM**
 1. Gem is a packaged ruby application using the packaging system defined by RubyGems.
@@ -915,7 +915,7 @@ Rails provides a set of caching features out of the box.
 * https://www.wisdomjobs.com/e-university/ruby-on-rails-interview-questions.html
 
 [[↑] Back to top](#ruby-on-rails)
-### What is ActiveJob? When should we use it? (Expert)
+### What is ActiveJob? When should we use it?
 
 **Active Job** is a framework for declaring jobs and making them run on a variety of queuing backends. These jobs can be everything from regularly scheduled clean-ups, to billing charges, to mailings. Anything that can be chopped up into small units of work and run in parallel, really.
 
@@ -924,7 +924,7 @@ Rails provides a set of caching features out of the box.
 * https://rubygarage.org/blog/how-to-interview-your-ruby-on-rails-developer
 
 [[↑] Back to top](#ruby-on-rails)
-### How To Find Second Max Element From Database? (Expert)
+### How To Find Second Max Element From Database?
 
 ```js
 Model.order("yourField DESC").limit(1).offset(1)
@@ -935,7 +935,7 @@ Model.order("yourField DESC").limit(1).offset(1)
 * https://www.wisdomjobs.com/e-university/ruby-on-rails-interview-questions.html
 
 [[↑] Back to top](#ruby-on-rails)
-### What is the difference between string and text in Rails? (Expert)
+### What is the difference between string and text in Rails?
 
 The difference relies in how the symbol is converted into its respective column type in query language.
 
@@ -949,7 +949,7 @@ The difference relies in how the symbol is converted into its respective column 
 * https://stackoverflow.com/questions/3354330/difference-between-string-and-text-in-rails
 
 [[↑] Back to top](#ruby-on-rails)
-### How Many Types Of Callbacks Available In Ror? (Expert)
+### How Many Types Of Callbacks Available In Ror?
 
 1. before_validation
 2. before_validation_on_create
@@ -966,7 +966,7 @@ The difference relies in how the symbol is converted into its respective column 
 * https://www.wisdomjobs.com/e-university/ruby-on-rails-interview-questions.html
 
 [[↑] Back to top](#ruby-on-rails)
-### What is Rack? (Expert)
+### What is Rack?
 
 **Rack** is the underlying technology behind nearly all of the web frameworks in the Ruby world. "Rack" is actually a few different things:
 
@@ -979,7 +979,7 @@ The difference relies in how the symbol is converted into its respective column 
 * https://thoughtbot.com/upcase/videos/rack
 
 [[↑] Back to top](#ruby-on-rails)
-### What is the best thing which you find about the Ruby on Rail so far? (Expert)
+### What is the best thing which you find about the Ruby on Rail so far?
 
 It  widely support Metaprogramming and unlike other frameworks, all the codes can be written through this approach very easily and without taking the other programs which are complex into consideration. Also, the tasks which are heavy can be accomplished with this approach in no time which is one of the best things in the ruby.
 
@@ -988,7 +988,7 @@ It  widely support Metaprogramming and unlike other frameworks, all the codes ca
 * https://mindmajix.com/ruby-rails-interview-questions
 
 [[↑] Back to top](#ruby-on-rails)
-### What sort of problems you have faced with Ruby on Rails and how do you think the same can affect the projects? (Expert)
+### What sort of problems you have faced with Ruby on Rails and how do you think the same can affect the projects?
 
 Well, everything has a few cons associated with it. Thus there are a few which are common with this framework as well. The first thing is it sometimes faces performance issues due to its complex nature. As it doesn't depend on the native threads, the same are often simulated in the Virtual Machine rather than in the Operating system. Also, the requirements on the workstation where it is to be installed are complex in terms of hardware requirement. 
 
@@ -997,7 +997,7 @@ Well, everything has a few cons associated with it. Thus there are a few which a
 * https://mindmajix.com/ruby-rails-interview-questions
 
 [[↑] Back to top](#ruby-on-rails)
-### What is a Rails engine? (Expert)
+### What is a Rails engine?
 
 A **Rails Engine** is like a mini-application. Think of it as a nested Rails app. By "mounting" the engine in your routes file you are providing access to the mini-application via the specified path.
 
@@ -1008,7 +1008,7 @@ A **Rails Engine** is like a mini-application. Think of it as a nested Rails app
 * https://rubygarage.org/blog/how-to-interview-your-ruby-on-rails-developer
 
 [[↑] Back to top](#ruby-on-rails)
-### What is Asset Pipeline? (Expert)
+### What is Asset Pipeline?
 
 The **asset pipeline** provides a framework to concatenate and minify or compress JavaScript and CSS assets. It also adds the ability to write these assets in other languages and pre-processors such as CoffeeScript, Sass and ERB. It allows assets in your application to be automatically combined with assets from other gems.
 
@@ -1017,7 +1017,7 @@ The **asset pipeline** provides a framework to concatenate and minify or compres
 * https://rubygarage.org/blog/how-to-interview-your-ruby-on-rails-developer
 
 [[↑] Back to top](#ruby-on-rails)
-### How Do I Find Only Duplicate Entries In A Database Table? (Expert)
+### How Do I Find Only Duplicate Entries In A Database Table?
 
 Consider:
 ```js
@@ -1029,7 +1029,7 @@ User.group(:email).having(count(email) > 1)
 * https://www.wisdomjobs.com/e-university/ruby-on-rails-interview-questions.html
 
 [[↑] Back to top](#ruby-on-rails)
-### What is Dynamic Finders? (Expert)
+### What is Dynamic Finders?
 
 For every field (also known as an attribute) you define in your table, Active Record provides a finder method. If you have a field called first_name on your Client model for example, you getfind_by_first_name and find_all_by_first_name for free from Active Record. If you have a locked field on the Client model, you also get find_by_locked and find_all_by_lockedmethods.
 
@@ -1044,7 +1044,7 @@ If you want to find both by name and locked, you can chain these finders togethe
 * https://www.wisdomjobs.com/e-university/ruby-on-rails-interview-questions.html
 
 [[↑] Back to top](#ruby-on-rails)
-### How To Use Two Databases Into A Single Application? (Expert)
+### How To Use Two Databases Into A Single Application?
 
 **magic multi-connections** allows you to write your model once, and use them for the multiple rails databases at the same time.
 
@@ -1059,7 +1059,7 @@ After installing this gem, just add this line at bottom of your environment.rb r
 * https://www.wisdomjobs.com/e-university/ruby-on-rails-interview-questions.html
 
 [[↑] Back to top](#ruby-on-rails)
-### Node.js vs Ruby on Rails. Which would you choose? (Expert)
+### Node.js vs Ruby on Rails. Which would you choose?
 
 * Node.js is great for applications that are real-time. And which handle a lot of concurrent requests. Under these scenarios, data constantly goes between the client and server. These Real-Time Applications (RTAs) include chat apps, applications for collaborating and video conferencing. Whenever you’re worried about performance and scalability, you should turn to Node.js first before you consider Ruby on Rails.
 * Rails is a better solution where your applications are very CPU intensive. And where development needs to happen quickly. Because Node.js is a single-threaded environment, it cannot cope well with handling data such as images and graphics. A computation on a big dataset in Node.js can simply block all the other requests that are coming in. Hence, rendering the advantage of Node.js void. You can have a prototype in short thrift, with little work, when you use Rails. 

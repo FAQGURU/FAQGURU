@@ -1,60 +1,60 @@
 ## Code Problems
 
-[Test divisors of three (Junior)](#test-divisors-of-three-junior)
+[Test divisors of three](#test-divisors-of-three-junior)
 
-[Sum of Array Plus One (Junior)](#sum-of-array-plus-one-junior)
+[Sum of Array Plus One](#sum-of-array-plus-one-junior)
 
-[String Rotation (Junior)](#string-rotation-junior)
+[String Rotation](#string-rotation-junior)
 
-[Oddball sum (Junior)](#oddball-sum-junior)
+[Oddball sum](#oddball-sum-junior)
 
-[Simple clock angle (Junior)](#simple-clock-angle-junior)
+[Simple clock angle](#simple-clock-angle-junior)
 
-[Sum of several arrays (Junior)](#sum-of-several-arrays-junior)
+[Sum of several arrays](#sum-of-several-arrays-junior)
 
-[Lucky sevens (Junior)](#lucky-sevens-junior)
+[Lucky sevens](#lucky-sevens-junior)
 
-[Two sum problem (Mid)](#two-sum-problem-mid)
+[Two sum problem](#two-sum-problem-mid)
 
-[Implement a queue using a linked list (Mid)](#implement-a-queue-using-a-linked-list-mid)
+[Implement a queue using a linked list](#implement-a-queue-using-a-linked-list-mid)
 
-[Tree Level Order Print (Mid)](#tree-level-order-print-mid)
+[Tree Level Order Print](#tree-level-order-print-mid)
 
-[Stock maximum profit (Mid)](#stock-maximum-profit-mid)
+[Stock maximum profit](#stock-maximum-profit-mid)
 
-[Find Word Positions in Text (Mid)](#find-word-positions-in-text-mid)
+[Find Word Positions in Text](#find-word-positions-in-text-mid)
 
-[Determine overlapping numbers in ranges (Mid)](#determine-overlapping-numbers-in-ranges-mid)
+[Determine overlapping numbers in ranges](#determine-overlapping-numbers-in-ranges-mid)
 
-[Throttle Function Implementation (Mid)](#throttle-function-implementation-mid)
+[Throttle Function Implementation](#throttle-function-implementation-mid)
 
-[Dutch national flag sorting problem (Mid)](#dutch-national-flag-sorting-problem-mid)
+[Dutch national flag sorting problem](#dutch-national-flag-sorting-problem-mid)
 
-[Step-by-step solution for step counting using recursion (Mid)](#step-by-step-solution-for-step-counting-using-recursion-mid)
+[Step-by-step solution for step counting using recursion](#step-by-step-solution-for-step-counting-using-recursion-mid)
 
-[Implement Bubble Sort (Mid)](#implement-bubble-sort-mid)
+[Implement Bubble Sort](#implement-bubble-sort-mid)
 
-[Implement a queue using two stacks (Mid)](#implement-a-queue-using-two-stacks-mid)
+[Implement a queue using two stacks](#implement-a-queue-using-two-stacks-mid)
 
-[Implement pow(a,b) without multiplication or division (Senior)](#implement-powab-without-multiplication-or-division-senior)
+[Implement pow(a,b) without multiplication or division](#implement-powab-without-multiplication-or-division-senior)
 
-[Generate all balanced bracket combinations (Senior)](#generate-all-balanced-bracket-combinations-senior)
+[Generate all balanced bracket combinations](#generate-all-balanced-bracket-combinations-senior)
 
-[All Permutations (Anagrams) of a String (Senior)](#all-permutations-anagrams-of-a-string-senior)
+[All Permutations (Anagrams) of a String](#all-permutations-anagrams-of-a-string-senior)
 
-[Merge two sorted linked lists (Senior)](#merge-two-sorted-linked-lists-senior)
+[Merge two sorted linked lists](#merge-two-sorted-linked-lists-senior)
 
-[Insert an interval into a list of sorted disjoint intervals (Senior)](#insert-an-interval-into-a-list-of-sorted-disjoint-intervals-senior)
+[Insert an interval into a list of sorted disjoint intervals](#insert-an-interval-into-a-list-of-sorted-disjoint-intervals-senior)
 
-[Find all string combinations consisting only of 0, 1 and ? (Senior)](#find-all-string-combinations-consisting-only-of-0-1-and--senior)
+[Find all string combinations consisting only of 0, 1 and ?](#find-all-string-combinations-consisting-only-of-0-1-and--senior)
 
-[Quickly calculate the cube root of 6 digit numbers (Senior)](#quickly-calculate-the-cube-root-of-6-digit-numbers-senior)
+[Quickly calculate the cube root of 6 digit numbers](#quickly-calculate-the-cube-root-of-6-digit-numbers-senior)
 
-[Transform Word (Expert)](#transform-word-expert)
+[Transform Word](#transform-word-expert)
 
 
 
-### Test divisors of three (Junior)
+### Test divisors of three
 
 We'll solve this problem by first creating a loop that will print each number from low to high. Once we have the code for that written, we'll add a conditional that will check if the number is evenly divisible by 3 by using the mod operator.
 
@@ -88,7 +88,7 @@ test_divisors(2, 10);
 * https://coderbyte.com/algorithm/test-divisors-of-three
 
 [[↑] Back to top](#Code%20Problems)
-### Sum of Array Plus One (Junior)
+### Sum of Array Plus One
 
 ```js
 // ES5 method is nice and clean
@@ -115,7 +115,7 @@ exports.iterative = function (array) {
 * https://github.com/blakeembrey/code-problems/tree/master/problems/sum-of-array-plus-one
 
 [[↑] Back to top](#Code%20Problems)
-### String Rotation (Junior)
+### String Rotation
 
 First make sure `a` and `b` are of the same length. Then check to see if `b` is a substring of `a` concatenated with `a`:
 
@@ -132,7 +132,7 @@ module.exports = function (a, b) {
 * https://github.com/blakeembrey/code-problems/tree/master/problems/string-rotation
 
 [[↑] Back to top](#Code%20Problems)
-### Oddball sum (Junior)
+### Oddball sum
 
 To solve this challenge we'll simply loop through the array while maintaining a final count, and every time an odd number is encountered we'll add it to the count.
 
@@ -179,7 +179,7 @@ function oddball_sum(nums) {
 * http://prepwork.appacademy.io/coding-test-1/practice-coding-exercise/ 
 
 [[↑] Back to top](#Code%20Problems)
-### Simple clock angle (Junior)
+### Simple clock angle
 
 If the input is `15` then your program should return `90` because a `90`-degree angle is formed by the minute hand and the `12` o'clock mark on the clock. We'll solve this challenge by first calculating what angle is created by each minute passing on a clock. Once we calculate this number, we multiply it by the input to determine the final angle. 
 
@@ -206,7 +206,7 @@ simpleClockAngle(15);
 * https://coderbyte.com/algorithm/stock-maximum-profit
 
 [[↑] Back to top](#Code%20Problems)
-### Sum of several arrays (Junior)
+### Sum of several arrays
 
 We will solve this challenge by looping through the entire array, and then looping through each inner array adding up all the numbers.
 
@@ -242,7 +242,7 @@ function sumArray(arr) {
 * https://coderbyte.com/algorithm/sum-of-several-arrays
 
 [[↑] Back to top](#Code%20Problems)
-### Lucky sevens (Junior)
+### Lucky sevens
 
 To solve this challenge we'll simply loop through the array starting at the 3rd position, and checking if the number at this index plus the two previous elements sums to 7. We continue doing this as we loop through the entire array. Once we find three elements that sum to 7, we simply return `true`. If we reach the end of the array without finding elements that sum to 7, we return `false`.
 
@@ -278,7 +278,7 @@ lucky_sevens([2, 1, 5, 1, 0]);
 * https://coderbyte.com/algorithm/lucky-sevens
 
 [[↑] Back to top](#Code%20Problems)
-### Two sum problem (Mid)
+### Two sum problem
 
 The algorithm below makes use of hash tables which have a constant lookup time. As we pass through each element in the array, we check to see if S minus the current element exists in the hash table. We only need to loop through the array once, resulting in a running time of `O(n)` since each lookup and insertion in a hash table is `O(1)`.
 
@@ -322,7 +322,7 @@ twoSum([3, 5, 2, -4, 8, 11], 7);
 * https://coderbyte.com/algorithm/two-sum-problem
 
 [[↑] Back to top](#Code%20Problems)
-### Implement a queue using a linked list (Mid)
+### Implement a queue using a linked list
 
 We will store a reference to the front and back of the queue in order to make enqueuing and dequeuing run in `O(1)` constant time. Every time we want to insert into the queue, we add the new element to the end of the linked list and update the back pointer. When we want to dequeue we return the first node in the linked list and update the front pointer.
 
@@ -372,7 +372,7 @@ Dequeue();
 * https://coderbyte.com/algorithm/implement-a-queue-using-linked-list
 
 [[↑] Back to top](#Code%20Problems)
-### Tree Level Order Print (Mid)
+### Tree Level Order Print
 
 ```js
 module.exports = function (root) {
@@ -406,7 +406,7 @@ module.exports = function (root) {
 * http://www.ardendertat.com/2011/12/05/programming-interview-questions-20-tree-level-order-print/
 
 [[↑] Back to top](#Code%20Problems)
-### Stock maximum profit (Mid)
+### Stock maximum profit
 
 We'll solve the challenge the following way:
 
@@ -470,7 +470,7 @@ StockPicker([44, 30, 24, 32, 35, 30, 40, 38, 15]);
 * https://coderbyte.com/algorithm/stock-maximum-profit
 
 [[↑] Back to top](#Code%20Problems)
-### Find Word Positions in Text (Mid)
+### Find Word Positions in Text
 
 Since we’ll have to answer multiple queries, precomputation would be useful. We’ll build a data structure that stores the positions of all the words in the text file. This is known as inverted index.
 
@@ -522,7 +522,7 @@ module.exports = function (text) {
 * https://github.com/blakeembrey/code-problems/tree/master/problems/word-positions
 
 [[↑] Back to top](#Code%20Problems)
-### Determine overlapping numbers in ranges (Mid)
+### Determine overlapping numbers in ranges
 
 With loop:
 ```js
@@ -589,7 +589,7 @@ overlapping(a)
 * https://coderbyte.com/algorithm/stock-maximum-profit
 
 [[↑] Back to top](#Code%20Problems)
-### Throttle Function Implementation (Mid)
+### Throttle Function Implementation
 
 ```js
 module.exports = function (fn, delay, execAsap) {
@@ -620,7 +620,7 @@ module.exports = function (fn, delay, execAsap) {
 * https://github.com/blakeembrey/code-problems/tree/master/problems/throttle
 
 [[↑] Back to top](#Code%20Problems)
-### Dutch national flag sorting problem (Mid)
+### Dutch national flag sorting problem
 
 The solution to this algorithm will require 3 pointers to iterate throughout the array, swapping the necessary elements.
 
@@ -663,7 +663,7 @@ dutchNatFlag([2,2,2,0,0,0,1,1]);
 * https://coderbyte.com/algorithm/dutch-national-flag-sorting-problem
 
 [[↑] Back to top](#Code%20Problems)
-### Step-by-step solution for step counting using recursion (Mid)
+### Step-by-step solution for step counting using recursion
 
 The solution to this problem requires recursion, which means to solve for a particular `N`, we need the solutions for previous N's. The solution for N steps is equal to the solutions for `N - 1` steps plus `N - 2` steps.
 
@@ -692,7 +692,7 @@ countSteps(6);
 * https://coderbyte.com/algorithm/step-by-step-solution-step-walking-using-recursion
 
 [[↑] Back to top](#Code%20Problems)
-### Implement Bubble Sort (Mid)
+### Implement Bubble Sort
 
 The steps in the bubble sort algorithm are:
 
@@ -741,7 +741,7 @@ bubblesort([103, 45, 2, 1, 97, -4, 67]);
 * https://coderbyte.com/algorithm/implement-bubble-sort
 
 [[↑] Back to top](#Code%20Problems)
-### Implement a queue using two stacks (Mid)
+### Implement a queue using two stacks
 
 Suppose we push `a`, `b`, `c` to a stack. If we are trying to implement a queue and we call the dequeue method 3 times, we actually want the elements to come out in the order: `a`, `b`, `c`, which is in the opposite order they would come out if we popped from the stack. So, basically, we need to access the elements in the reverse order that they exist in the stack. 
 
@@ -788,7 +788,7 @@ Dequeue();
 * https://coderbyte.com/algorithm/implement-queue-using-two-stacks
 
 [[↑] Back to top](#Code%20Problems)
-### Implement pow(a,b) without multiplication or division (Senior)
+### Implement pow(a,b) without multiplication or division
 
 The algorithm to implement:
 1. Create a variable named answer
@@ -860,7 +860,7 @@ function pow(num, e) {
 * https://coderbyte.com/algorithm/implement-pow-a-b-without-multiplication-division
 
 [[↑] Back to top](#Code%20Problems)
-### Generate all balanced bracket combinations (Senior)
+### Generate all balanced bracket combinations
 
 We will implement a recursive function to solve this challenge. The idea is:
 1. Add a left bracket to a newly created string.
@@ -902,7 +902,7 @@ console.log(all);
 * https://coderbyte.com/algorithm/generate-balanced-bracket-combinations
 
 [[↑] Back to top](#Code%20Problems)
-### All Permutations (Anagrams) of a String (Senior)
+### All Permutations (Anagrams) of a String
 
 Remove the first character and recurse to get all permutations of length `N-1`, then insert that first character into `N-1` length strings and obtain all permutations of length `N`. The complexity is `O(N!)` because there are `N!` possible permutations of a string with length `N`, so it’s optimal.
 
@@ -936,7 +936,7 @@ module.exports = function (string) {
 * https://github.com/blakeembrey/code-problems/tree/master/problems/string-rotation
 
 [[↑] Back to top](#Code%20Problems)
-### Merge two sorted linked lists (Senior)
+### Merge two sorted linked lists
 
 Algorithm:
 1. Create a new head pointer to an empty linked list.
@@ -998,7 +998,7 @@ merge(L1, L2);
 * https://coderbyte.com/algorithm/merge-two-sorted-linked-lists
 
 [[↑] Back to top](#Code%20Problems)
-### Insert an interval into a list of sorted disjoint intervals (Senior)
+### Insert an interval into a list of sorted disjoint intervals
 
 Algorithm:
 1. Create an array where the final intervals will be stored.
@@ -1047,7 +1047,7 @@ insertInterval([[1,5],[10,15],[20,25]], [12,27]);
 * https://coderbyte.com/algorithm/insert-interval-into-list-of-sorted-disjoint-intervals
 
 [[↑] Back to top](#Code%20Problems)
-### Find all string combinations consisting only of 0, 1 and ? (Senior)
+### Find all string combinations consisting only of 0, 1 and ?
 
 The general algorithm we will write a solution for is:
 1. Call the function with the string and an empty set where we begin pushing `0` and `1`'s.
@@ -1096,7 +1096,7 @@ patterns('10?1?', [[]]);
 * https://coderbyte.com/algorithm/find-all-string-combinations-consisting-zero-one-wildcard
 
 [[↑] Back to top](#Code%20Problems)
-### Quickly calculate the cube root of 6 digit numbers (Senior)
+### Quickly calculate the cube root of 6 digit numbers
 
 The general algorithm is as follows:
 1. Store the first 10 cube roots, their cubes, and the last digit in the number.
@@ -1169,7 +1169,7 @@ fastCubeRoot(830584);
 * https://coderbyte.com/algorithm/quickly-calculate-cube-root-6-digit-numbers
 
 [[↑] Back to top](#Code%20Problems)
-### Transform Word (Expert)
+### Transform Word
 
 ```js
 module.exports = function (dictionary, start, end) {

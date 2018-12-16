@@ -1,84 +1,84 @@
 ## Bootstrap
 
-[Explain Bootstrap? (Junior)](#explain-bootstrap-junior)
+[Explain Bootstrap?](#explain-bootstrap-junior)
 
-[Explain what is Bootstrap? (Junior)](#explain-what-is-bootstrap-junior)
+[Explain what is Bootstrap?](#explain-what-is-bootstrap-junior)
 
-[Explain the two codes that are used for code display in Bootstrap? (Mid)](#explain-the-two-codes-that-are-used-for-code-display-in-bootstrap-mid)
+[Explain the two codes that are used for code display in Bootstrap?](#explain-the-two-codes-that-are-used-for-code-display-in-bootstrap-mid)
 
-[What are the types of layout available in Bootstrap? (Mid)](#what-are-the-types-of-layout-available-in-bootstrap-mid)
+[What are the types of layout available in Bootstrap?](#what-are-the-types-of-layout-available-in-bootstrap-mid)
 
-[What will be the output of the following HTML code (Mid)](#what-will-be-the-output-of-the-following-html-code-mid)
+[What will be the output of the following HTML code](#what-will-be-the-output-of-the-following-html-code-mid)
 
-[Explain why you prefer Bootstrap for website development? (Mid)](#explain-why-you-prefer-bootstrap-for-website-development-mid)
+[Explain why you prefer Bootstrap for website development?](#explain-why-you-prefer-bootstrap-for-website-development-mid)
 
-[What are the key components of Bootstrap? (Mid)](#what-are-the-key-components-of-bootstrap-mid)
+[What are the key components of Bootstrap?](#what-are-the-key-components-of-bootstrap-mid)
 
-[How many types of layout are available in Bootstrap? (Mid)](#how-many-types-of-layout-are-available-in-bootstrap-mid)
+[How many types of layout are available in Bootstrap?](#how-many-types-of-layout-are-available-in-bootstrap-mid)
 
-[Why do we use Jumbotron in Bootstrap? (Mid)](#why-do-we-use-jumbotron-in-bootstrap-mid)
+[Why do we use Jumbotron in Bootstrap?](#why-do-we-use-jumbotron-in-bootstrap-mid)
 
-[What is Twitter Bootstrap? (Mid)](#what-is-twitter-bootstrap-mid)
+[What is Twitter Bootstrap?](#what-is-twitter-bootstrap-mid)
 
-[Explain why to choose Bootstrap for building the websites? (Mid)](#explain-why-to-choose-bootstrap-for-building-the-websites-mid)
+[Explain why to choose Bootstrap for building the websites?](#explain-why-to-choose-bootstrap-for-building-the-websites-mid)
 
-[What global styles are applied as a part of Bootstrap’s default typography? (Mid)](#what-global-styles-are-applied-as-a-part-of-bootstraps-default-typography-mid)
+[What global styles are applied as a part of Bootstrap’s default typography?](#what-global-styles-are-applied-as-a-part-of-bootstraps-default-typography-mid)
 
-[What is the procedure to create Nav elements in Bootstrap? (Mid)](#what-is-the-procedure-to-create-nav-elements-in-bootstrap-mid)
+[What is the procedure to create Nav elements in Bootstrap?](#what-is-the-procedure-to-create-nav-elements-in-bootstrap-mid)
 
-[ What are Glyphicons? (Mid)](#-what-are-glyphicons-mid)
+[ What are Glyphicons?](#-what-are-glyphicons-mid)
 
-[When to use "lead" in Bootstrap? (Mid)](#when-to-use-lead-in-bootstrap-mid)
+[When to use "lead" in Bootstrap?](#when-to-use-lead-in-bootstrap-mid)
 
-[Explain the typography and links in Bootstrap. (Mid)](#explain-the-typography-and-links-in-bootstrap-mid)
+[Explain the typography and links in Bootstrap.](#explain-the-typography-and-links-in-bootstrap-mid)
 
-[How do you make images responsive? (Mid)](#how-do-you-make-images-responsive-mid)
+[How do you make images responsive?](#how-do-you-make-images-responsive-mid)
 
-[What is missing for a tooltip to show properly? (Mid)](#what-is-missing-for-a-tooltip-to-show-properly-mid)
+[What is missing for a tooltip to show properly?](#what-is-missing-for-a-tooltip-to-show-properly-mid)
 
-[What do you mean by Bootstrap collapsing elements? (Senior)](#what-do-you-mean-by-bootstrap-collapsing-elements-senior)
+[What do you mean by Bootstrap collapsing elements?](#what-do-you-mean-by-bootstrap-collapsing-elements-senior)
 
-[What is a list group in Bootstrap and where does it finds its application? (Senior)](#what-is-a-list-group-in-bootstrap-and-where-does-it-finds-its-application-senior)
+[What is a list group in Bootstrap and where does it finds its application?](#what-is-a-list-group-in-bootstrap-and-where-does-it-finds-its-application-senior)
 
-[Explain Modal plugin in Bootstrap? (Senior)](#explain-modal-plugin-in-bootstrap-senior)
+[Explain Modal plugin in Bootstrap?](#explain-modal-plugin-in-bootstrap-senior)
 
-[What is a Bootstrap Container? (Senior)](#what-is-a-bootstrap-container-senior)
+[What is a Bootstrap Container?](#what-is-a-bootstrap-container-senior)
 
-[Why do we use Bootstrap Carousel plugin? (Senior)](#why-do-we-use-bootstrap-carousel-plugin-senior)
+[Why do we use Bootstrap Carousel plugin?](#why-do-we-use-bootstrap-carousel-plugin-senior)
 
-[What is the role of media object in Bootstrap and how many types are available? (Senior)](#what-is-the-role-of-media-object-in-bootstrap-and-how-many-types-are-available-senior)
+[What is the role of media object in Bootstrap and how many types are available?](#what-is-the-role-of-media-object-in-bootstrap-and-how-many-types-are-available-senior)
 
-[What are the key components of Bootstrap? (Senior)](#what-are-the-key-components-of-bootstrap-senior)
+[What are the key components of Bootstrap?](#what-are-the-key-components-of-bootstrap-senior)
 
-[What is the step-wise procedure for creating basic or vertical forms? (Senior)](#what-is-the-step-wise-procedure-for-creating-basic-or-vertical-forms-senior)
+[What is the step-wise procedure for creating basic or vertical forms?](#what-is-the-step-wise-procedure-for-creating-basic-or-vertical-forms-senior)
 
-[What do you mean by Bootstrap "well"? (Senior)](#what-do-you-mean-by-bootstrap-well-senior)
+[What do you mean by Bootstrap "well"?](#what-do-you-mean-by-bootstrap-well-senior)
 
-[What is the difference between the following two lines of code? Explain your answer. (Senior)](#what-is-the-difference-between-the-following-two-lines-of-code-explain-your-answer-senior)
+[What is the difference between the following two lines of code? Explain your answer.](#what-is-the-difference-between-the-following-two-lines-of-code-explain-your-answer-senior)
 
-[What will be the default Bootstrap look of the alert created with this following code? (Senior)](#what-will-be-the-default-bootstrap-look-of-the-alert-created-with-this-following-code-senior)
+[What will be the default Bootstrap look of the alert created with this following code?](#what-will-be-the-default-bootstrap-look-of-the-alert-created-with-this-following-code-senior)
 
-[Explain what the following code does, and where they are useful (Senior)](#explain-what-the-following-code-does-and-where-they-are-useful-senior)
+[Explain what the following code does, and where they are useful](#explain-what-the-following-code-does-and-where-they-are-useful-senior)
 
-[What is the role of pagination in bootstrap and what are their classifications? (Senior)](#what-is-the-role-of-pagination-in-bootstrap-and-what-are-their-classifications-senior)
+[What is the role of pagination in bootstrap and what are their classifications?](#what-is-the-role-of-pagination-in-bootstrap-and-what-are-their-classifications-senior)
 
-[What is Normalize in Bootstrap? (Expert)](#what-is-normalize-in-bootstrap-expert)
+[What is Normalize in Bootstrap?](#what-is-normalize-in-bootstrap-expert)
 
-[Consider the HTML code snippet below. What will the output be, and why? (Expert)](#consider-the-html-code-snippet-below-what-will-the-output-be-and-why-expert)
+[Consider the HTML code snippet below. What will the output be, and why?](#consider-the-html-code-snippet-below-what-will-the-output-be-and-why-expert)
 
-[Explain column ordering in Bootstrap? (Expert)](#explain-column-ordering-in-bootstrap-expert)
+[Explain column ordering in Bootstrap?](#explain-column-ordering-in-bootstrap-expert)
 
-[What is screen reader in bootstrap documentation? (Expert)](#what-is-screen-reader-in-bootstrap-documentation-expert)
+[What is screen reader in bootstrap documentation?](#what-is-screen-reader-in-bootstrap-documentation-expert)
 
-[How can you differentiate between Bootstrap and Foundation? (Expert)](#how-can-you-differentiate-between-bootstrap-and-foundation-expert)
+[How can you differentiate between Bootstrap and Foundation?](#how-can-you-differentiate-between-bootstrap-and-foundation-expert)
 
-[How many different media queries are used by the Bootstrap grid system by default? (Expert)](#how-many-different-media-queries-are-used-by-the-bootstrap-grid-system-by-default-expert)
+[How many different media queries are used by the Bootstrap grid system by default?](#how-many-different-media-queries-are-used-by-the-bootstrap-grid-system-by-default-expert)
 
-[What is the class sr-only used for? Is it important or can I remove it? (Expert)](#what-is-the-class-sr-only-used-for-is-it-important-or-can-i-remove-it-expert)
+[What is the class sr-only used for? Is it important or can I remove it?](#what-is-the-class-sr-only-used-for-is-it-important-or-can-i-remove-it-expert)
 
 
 
-### Explain Bootstrap? (Junior)
+### Explain Bootstrap?
 
 Bootstrap is a platform for web development that is based on front-end framework
 and creates exceptional responsive designs. It is fast, easy and has multiple
@@ -92,7 +92,7 @@ preferred for developing mobile web applications.
 * https://medium.com/@onlineinerview/latest-interview-questions-on-twitter-bootstrap-2018-e21be64ecf00
 
 [[↑] Back to top](#Bootstrap)
-### Explain what is Bootstrap? (Junior)
+### Explain what is Bootstrap?
 
 Bootstrap is CSS/Javascript framework for building the rich web applications with
 minimal effort. This framework emphasis more on building mobile web
@@ -103,7 +103,7 @@ applications.
 * https://medium.com/@alisonbenhar/learn-bootstsrap-interview-questions-from-mindmajix-11ae577ac806
 
 [[↑] Back to top](#Bootstrap)
-### Explain the two codes that are used for code display in Bootstrap? (Mid)
+### Explain the two codes that are used for code display in Bootstrap?
 
 There are two simple ways to display a code in Bootstrap:
 
@@ -115,7 +115,7 @@ There are two simple ways to display a code in Bootstrap:
 * https://medium.com/@onlineinerview/latest-interview-questions-on-twitter-bootstrap-2018-e21be64ecf00
 
 [[↑] Back to top](#Bootstrap)
-### What are the types of layout available in Bootstrap? (Mid)
+### What are the types of layout available in Bootstrap?
 
 In Bootstrap there are two types of Layout available
 
@@ -128,7 +128,7 @@ wide and use up all the width of the screen
 * https://medium.com/@alisonbenhar/learn-bootstsrap-interview-questions-from-mindmajix-11ae577ac806
 
 [[↑] Back to top](#Bootstrap)
-### What will be the output of the following HTML code (Mid)
+### What will be the output of the following HTML code
 
 **Consider:**
 ```js
@@ -154,7 +154,7 @@ If we apply `.list-unstyled` to a list, it will remove the default list-style an
 * https://www.toptal.com/twitter-bootstrap/interview-questions
 
 [[↑] Back to top](#Bootstrap)
-### Explain why you prefer Bootstrap for website development? (Mid)
+### Explain why you prefer Bootstrap for website development?
 
 Bootstrap has features that are way better than other web development platforms.
 It provides an extensive browser support for almost every known browser such as
@@ -169,7 +169,7 @@ which reduces any extra effort by the developer.
 * https://medium.com/@onlineinerview/latest-interview-questions-on-twitter-bootstrap-2018-e21be64ecf00
 
 [[↑] Back to top](#Bootstrap)
-### What are the key components of Bootstrap? (Mid)
+### What are the key components of Bootstrap?
 
 In total, there are five key components of Bootstrap i.e. **CSS** (multiple CSS
 files), **Scaffolding (**essential for the basic system that consist of Grid
@@ -183,7 +183,7 @@ framework)
 * https://medium.com/@onlineinerview/latest-interview-questions-on-twitter-bootstrap-2018-e21be64ecf00
 
 [[↑] Back to top](#Bootstrap)
-### How many types of layout are available in Bootstrap? (Mid)
+### How many types of layout are available in Bootstrap?
 
 There are two major layouts for Bootstrap i.e. Fluid Layout and Fixed Layout.
 Fluid layout is necessary for creating an app that is 100 % wider and covers all
@@ -195,7 +195,7 @@ layouts can be used for creating a responsive design.
 * https://medium.com/@onlineinerview/latest-interview-questions-on-twitter-bootstrap-2018-e21be64ecf00
 
 [[↑] Back to top](#Bootstrap)
-### Why do we use Jumbotron in Bootstrap? (Mid)
+### Why do we use Jumbotron in Bootstrap?
 
 *Jumbotron* has a very basic function in bootstrap i.e. highlighting a content. It
 could either be a slogan/uvp (unique value proposition) or probably a headline. It increases the heading size
@@ -213,7 +213,7 @@ Jumbotron can have any valid HTML along with other functions and classes.
 * https://medium.com/@onlineinerview/latest-interview-questions-on-twitter-bootstrap-2018-e21be64ecf00
 
 [[↑] Back to top](#Bootstrap)
-### What is Twitter Bootstrap? (Mid)
+### What is Twitter Bootstrap?
 
 Bootstrap is a sleek, intuitive, and powerful mobile first front-end framework
 for faster and easier web development. It uses HTML, CSS and Javascript.
@@ -223,7 +223,7 @@ for faster and easier web development. It uses HTML, CSS and Javascript.
 * https://medium.com/@alisonbenhar/learn-bootstsrap-interview-questions-from-mindmajix-11ae577ac806
 
 [[↑] Back to top](#Bootstrap)
-### Explain why to choose Bootstrap for building the websites? (Mid)
+### Explain why to choose Bootstrap for building the websites?
 
 There are few reason why we choose Bootstrap for building websites
 
@@ -240,7 +240,7 @@ Safari, IE etc.
 * https://medium.com/@alisonbenhar/learn-bootstsrap-interview-questions-from-mindmajix-11ae577ac806
 
 [[↑] Back to top](#Bootstrap)
-### What global styles are applied as a part of Bootstrap’s default typography? (Mid)
+### What global styles are applied as a part of Bootstrap’s default typography?
 
 Bootstrap sets the global default font-size to `14px`, with a line-height of `1.428`. The default font is changed to `Helvetica` and `Arial` with `sans serif` fallback. 
 
@@ -251,7 +251,7 @@ All these styles are applied to the `<body>` and all paragraphs, with the additi
 * https://www.toptal.com/twitter-bootstrap/interview-questions
 
 [[↑] Back to top](#Bootstrap)
-### What is the procedure to create Nav elements in Bootstrap? (Mid)
+### What is the procedure to create Nav elements in Bootstrap?
 
 There are several styling navigation elements available on bootstrap and every
 style uses the same function i.e. class `.nav`. In order to create tabs or a
@@ -264,7 +264,7 @@ be used.
 * https://medium.com/@onlineinerview/latest-interview-questions-on-twitter-bootstrap-2018-e21be64ecf00
 
 [[↑] Back to top](#Bootstrap)
-###  What are Glyphicons? (Mid)
+###  What are Glyphicons?
 
 Glyphicons are icon fonts which you can use in your web projects. Glyphicons
 Halflings are not free and require licensing, however their creator has made
@@ -282,7 +282,7 @@ code. Leave a space between the icon and text for proper padding.
 * https://medium.com/@alisonbenhar/learn-bootstsrap-interview-questions-from-mindmajix-11ae577ac806
 
 [[↑] Back to top](#Bootstrap)
-### When to use "lead" in Bootstrap? (Mid)
+### When to use "lead" in Bootstrap?
 
 To add some emphasis to a paragraph, add class `.lead`. This will give you
 larger font size, lighter weight, and a taller line height.
@@ -292,7 +292,7 @@ larger font size, lighter weight, and a taller line height.
 * https://medium.com/@alisonbenhar/learn-bootstsrap-interview-questions-from-mindmajix-11ae577ac806
 
 [[↑] Back to top](#Bootstrap)
-### Explain the typography and links in Bootstrap. (Mid)
+### Explain the typography and links in Bootstrap.
 
 Bootstrap sets a basic global display (background), typography, and link styles:
 
@@ -307,7 +307,7 @@ apply link underlines only on *:hover*.
 * https://medium.com/@alisonbenhar/learn-bootstsrap-interview-questions-from-mindmajix-11ae577ac806
 
 [[↑] Back to top](#Bootstrap)
-### How do you make images responsive? (Mid)
+### How do you make images responsive?
 
 Bootstrap 3 allows to make the images responsive by adding a class
 `.img-responsive` to the `<img>` tag. This class applies `max-width: 100%;` and
@@ -318,7 +318,7 @@ Bootstrap 3 allows to make the images responsive by adding a class
 * https://medium.com/@alisonbenhar/learn-bootstsrap-interview-questions-from-mindmajix-11ae577ac806
 
 [[↑] Back to top](#Bootstrap)
-### What is missing for a tooltip to show properly? (Mid)
+### What is missing for a tooltip to show properly?
 
 Consider:
 ```html
@@ -340,7 +340,7 @@ $(function () {
 * https://medium.com/@alisonbenhar/learn-bootstsrap-interview-questions-from-mindmajix-11ae577ac806
 
 [[↑] Back to top](#Bootstrap)
-### What do you mean by Bootstrap collapsing elements? (Senior)
+### What do you mean by Bootstrap collapsing elements?
 
 Bootstrap collapsing elements is a way in which you can collapse any specific
 element without developing any JavaScript code or even an accordion markup.  In order to implement this element, you need to add `data-toggle=”collapse”` in
@@ -356,7 +356,7 @@ There are other options also available such as `collapse
 * https://medium.com/@onlineinerview/latest-interview-questions-on-twitter-bootstrap-2018-e21be64ecf00
 
 [[↑] Back to top](#Bootstrap)
-### What is a list group in Bootstrap and where does it finds its application? (Senior)
+### What is a list group in Bootstrap and where does it finds its application?
 
 When there is a need for displaying a simple element as well as a complex
 element along with a custom content, a list group can be used. You can use the
@@ -369,7 +369,7 @@ in that list.
 * https://medium.com/@onlineinerview/latest-interview-questions-on-twitter-bootstrap-2018-e21be64ecf00
 
 [[↑] Back to top](#Bootstrap)
-### Explain Modal plugin in Bootstrap? (Senior)
+### Explain Modal plugin in Bootstrap?
 
 When there is a need to cover a parent window, a child window can be created
 using a modal. 
@@ -383,7 +383,7 @@ of a user and also adding more functionality.
 * https://medium.com/@onlineinerview/latest-interview-questions-on-twitter-bootstrap-2018-e21be64ecf00
 
 [[↑] Back to top](#Bootstrap)
-### What is a Bootstrap Container? (Senior)
+### What is a Bootstrap Container?
 
 Bootstrap `.container` is again a class that is used for creating an area in the
 center of the webpage to place the content. There are row elements which act as
@@ -398,7 +398,7 @@ responsive design, which will include all the other HTML code.
 * https://medium.com/@onlineinerview/latest-interview-questions-on-twitter-bootstrap-2018-e21be64ecf00
 
 [[↑] Back to top](#Bootstrap)
-### Why do we use Bootstrap Carousel plugin? (Senior)
+### Why do we use Bootstrap Carousel plugin?
 
 The Carousel plugin is responsible for adding a slider on the site. The
 developers usually use it when the web space is limited but the content is huge.
@@ -415,7 +415,7 @@ Some of the common carousels includes:
 * https://medium.com/@onlineinerview/latest-interview-questions-on-twitter-bootstrap-2018-e21be64ecf00
 
 [[↑] Back to top](#Bootstrap)
-### What is the role of media object in Bootstrap and how many types are available? (Senior)
+### What is the role of media object in Bootstrap and how many types are available?
 
 In Bootstrap, it is possible to add images, audio, and video using media object.It can either be placed on the left side or the right side of the content. 
 
@@ -430,7 +430,7 @@ There are usually two types of Media-objects:
 * https://medium.com/@onlineinerview/latest-interview-questions-on-twitter-bootstrap-2018-e21be64ecf00
 
 [[↑] Back to top](#Bootstrap)
-### What are the key components of Bootstrap? (Senior)
+### What are the key components of Bootstrap?
 
 The key components of Bootstrap are:
 
@@ -447,7 +447,7 @@ components
 * https://medium.com/@alisonbenhar/learn-bootstsrap-interview-questions-from-mindmajix-11ae577ac806
 
 [[↑] Back to top](#Bootstrap)
-### What is the step-wise procedure for creating basic or vertical forms? (Senior)
+### What is the step-wise procedure for creating basic or vertical forms?
 
 There are few steps, which can be followed for creating vertical or basic.
 
@@ -461,7 +461,7 @@ function class `.form-group`.
 * https://medium.com/@onlineinerview/latest-interview-questions-on-twitter-bootstrap-2018-e21be64ecf00
 
 [[↑] Back to top](#Bootstrap)
-### What do you mean by Bootstrap "well"? (Senior)
+### What do you mean by Bootstrap "well"?
 
 A Bootstrap `well` is nothing but a container that makes the content appear
 sunken. Sometimes it may also give an inset effect on the webpage. 
@@ -474,7 +474,7 @@ of `<div>` and class `.well`.
 * https://medium.com/@onlineinerview/latest-interview-questions-on-twitter-bootstrap-2018-e21be64ecf00
 
 [[↑] Back to top](#Bootstrap)
-### What is the difference between the following two lines of code? Explain your answer. (Senior)
+### What is the difference between the following two lines of code? Explain your answer.
 
 **Consider:**
 ```js
@@ -492,7 +492,7 @@ The first line will initialize a modal dialog prompt with id `#myModalPrompt`, a
 * https://www.toptal.com/twitter-bootstrap/interview-questions
 
 [[↑] Back to top](#Bootstrap)
-### What will be the default Bootstrap look of the alert created with this following code? (Senior)
+### What will be the default Bootstrap look of the alert created with this following code?
 
 **Consider:**
 ```html
@@ -509,7 +509,7 @@ Alert messages are used to provide feedback message that usually require the att
 * https://www.toptal.com/twitter-bootstrap/interview-questions
 
 [[↑] Back to top](#Bootstrap)
-### Explain what the following code does, and where they are useful (Senior)
+### Explain what the following code does, and where they are useful
 
 **Consider:**
 ```html
@@ -526,7 +526,7 @@ This code will generate a link with an inline badge that provides important noti
 * https://www.toptal.com/twitter-bootstrap/interview-questions
 
 [[↑] Back to top](#Bootstrap)
-### What is the role of pagination in bootstrap and what are their classifications? (Senior)
+### What is the role of pagination in bootstrap and what are their classifications?
 
 When an unordered list has to be handled by bootstrap, it uses pagination. To
 handle the list, different classes are available such as:
@@ -541,7 +541,7 @@ handle the list, different classes are available such as:
 * https://medium.com/@onlineinerview/latest-interview-questions-on-twitter-bootstrap-2018-e21be64ecf00
 
 [[↑] Back to top](#Bootstrap)
-### What is Normalize in Bootstrap? (Expert)
+### What is Normalize in Bootstrap?
 
 Bootstrap uses Normalize to establish cross browser consistency.
 
@@ -554,7 +554,7 @@ of HTML elements.
 * https://medium.com/@alisonbenhar/learn-bootstsrap-interview-questions-from-mindmajix-11ae577ac806
 
 [[↑] Back to top](#Bootstrap)
-### Consider the HTML code snippet below. What will the output be, and why? (Expert)
+### Consider the HTML code snippet below. What will the output be, and why?
 
 **Consider:**
 ```html
@@ -583,7 +583,7 @@ By placing multiple bars under the same `.progress` parent element, Bootstrap wi
 * https://www.toptal.com/twitter-bootstrap/interview-questions
 
 [[↑] Back to top](#Bootstrap)
-### Explain column ordering in Bootstrap? (Expert)
+### Explain column ordering in Bootstrap?
 
 Column ordering is one of the most interesting features that can be found in
 Bootstrap. By using appropriate functions, the columns can be written easily and
@@ -597,7 +597,7 @@ change or alter the order of the column easily, the functions `.col-md-push-*` a
 * https://medium.com/@onlineinerview/latest-interview-questions-on-twitter-bootstrap-2018-e21be64ecf00
 
 [[↑] Back to top](#Bootstrap)
-### What is screen reader in bootstrap documentation? (Expert)
+### What is screen reader in bootstrap documentation?
 
 A **screen reader** is a tool used by people who can't see well or for some reason can't read from a screen; it reads the text out loud to them, or presents it to them in a different format that they can use more easily. You should always consider screen readers for accessibility purposes.
 
@@ -606,7 +606,7 @@ A **screen reader** is a tool used by people who can't see well or for some reas
 * https://stackoverflow.com/questions/24609818/what-is-screen-reader-in-bootstrap-ducumentation-bootstrap-document
 
 [[↑] Back to top](#Bootstrap)
-### How can you differentiate between Bootstrap and Foundation? (Expert)
+### How can you differentiate between Bootstrap and Foundation?
 
 Bootstrap supports LESS preprocessor and allows the designing and development
 for both mobile and desktop. It uses only pixels and has a number of UI
@@ -619,7 +619,7 @@ to UI elements.
 * https://medium.com/@onlineinerview/latest-interview-questions-on-twitter-bootstrap-2018-e21be64ecf00
 
 [[↑] Back to top](#Bootstrap)
-### How many different media queries are used by the Bootstrap grid system by default? (Expert)
+### How many different media queries are used by the Bootstrap grid system by default?
 
 The Bootstrap grid system provides four tiers of classes: 
 * `xs` for phones (<768px), 
@@ -648,7 +648,7 @@ The hidden trick in this question is that there are only three media queries. Bo
 * https://www.toptal.com/twitter-bootstrap/interview-questions
 
 [[↑] Back to top](#Bootstrap)
-### What is the class sr-only used for? Is it important or can I remove it? (Expert)
+### What is the class sr-only used for? Is it important or can I remove it?
 
 According to bootstrap's documentation, the `sr-only` class is used to hide information intended only for screen readers from the layout of the rendered page. 
 

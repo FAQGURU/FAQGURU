@@ -1,86 +1,86 @@
 ## TypeScript
 
-[What is TypeScript and why do we need it? (Junior)](#what-is-typescript-and-why-do-we-need-it-junior)
+[What is TypeScript and why do we need it?](#what-is-typescript-and-why-do-we-need-it-junior)
 
-[What are Modules in Typescript? (Junior)](#what-are-modules-in-typescript-junior)
+[What are Modules in Typescript?](#what-are-modules-in-typescript-junior)
 
-[ What is Typescript and why one should use it? (Junior)](# what-is-typescript-and-why-one-should-use-it-junior)
+[ What is Typescript and why one should use it?](# what-is-typescript-and-why-one-should-use-it-junior)
 
-[Explain generics in TypeScript (Junior)](#explain-generics-in-typescript-junior)
+[Explain generics in TypeScript](#explain-generics-in-typescript-junior)
 
-[What is TypeScript and why would I use it in place of JavaScript? (Junior)](#what-is-typescript-and-why-would-i-use-it-in-place-of-javascript-junior)
+[What is TypeScript and why would I use it in place of JavaScript?](#what-is-typescript-and-why-would-i-use-it-in-place-of-javascript-junior)
 
-[How to call base class constructor from child class in TypeScript? (Junior)](#how-to-call-base-class-constructor-from-child-class-in-typescript-junior)
+[How to call base class constructor from child class in TypeScript?](#how-to-call-base-class-constructor-from-child-class-in-typescript-junior)
 
-[Do we need to compile TypeScript files and why? (Junior)](#do-we-need-to-compile-typescript-files-and-why-junior)
+[Do we need to compile TypeScript files and why?](#do-we-need-to-compile-typescript-files-and-why-junior)
 
-[List the built-in types in Typescript (Junior)](#list-the-built-in-types-in-typescript-junior)
+[List the built-in types in Typescript](#list-the-built-in-types-in-typescript-junior)
 
-[What are the benefits of TypeScript? (Junior)](#what-are-the-benefits-of-typescript-junior)
+[What are the benefits of TypeScript?](#what-are-the-benefits-of-typescript-junior)
 
-[What are the difference beetween Typescript and JavaScript? (Mid)](#what-are-the-difference-beetween-typescript-and-javascript-mid)
+[What are the difference beetween Typescript and JavaScript?](#what-are-the-difference-beetween-typescript-and-javascript-mid)
 
-[What is Interface in TypeScript? (Mid)](#what-is-interface-in-typescript-mid)
+[What is Interface in TypeScript?](#what-is-interface-in-typescript-mid)
 
-[When to use interfaces and when to use classes in TypeScript? (Mid)](#when-to-use-interfaces-and-when-to-use-classes-in-typescript-mid)
+[When to use interfaces and when to use classes in TypeScript?](#when-to-use-interfaces-and-when-to-use-classes-in-typescript-mid)
 
-[Which object oriented terms are supported by TypeScript? (Mid)](#which-object-oriented-terms-are-supported-by-typescript-mid)
+[Which object oriented terms are supported by TypeScript?](#which-object-oriented-terms-are-supported-by-typescript-mid)
 
-[What is getters/setters in TypeScript? (Mid)](#what-is-getterssetters-in-typescript-mid)
+[What is getters/setters in TypeScript?](#what-is-getterssetters-in-typescript-mid)
 
-[Does TypeScript support all object oriented principles? (Mid)](#does-typescript-support-all-object-oriented-principles-mid)
+[Does TypeScript support all object oriented principles?](#does-typescript-support-all-object-oriented-principles-mid)
 
-[How could you check null and undefined in TypeScript? (Mid)](#how-could-you-check-null-and-undefined-in-typescript-mid)
+[How could you check null and undefined in TypeScript?](#how-could-you-check-null-and-undefined-in-typescript-mid)
 
-[How to implement class constants in TypeScript? (Mid)](#how-to-implement-class-constants-in-typescript-mid)
+[How to implement class constants in TypeScript?](#how-to-implement-class-constants-in-typescript-mid)
 
-[Could we use TypeScript on backend and how? (Mid)](#could-we-use-typescript-on-backend-and-how-mid)
+[Could we use TypeScript on backend and how?](#could-we-use-typescript-on-backend-and-how-mid)
 
-[What is the difference between Classes and Interfaces in Typescript? (Mid)](#what-is-the-difference-between-classes-and-interfaces-in-typescript-mid)
+[What is the difference between Classes and Interfaces in Typescript?](#what-is-the-difference-between-classes-and-interfaces-in-typescript-mid)
 
-[What is "Decorators" in TypeScript? (Mid)](#what-is-decorators-in-typescript-mid)
+[What is "Decorators" in TypeScript?](#what-is-decorators-in-typescript-mid)
 
-[What is a TypeScript Map file? (Mid)](#what-is-a-typescript-map-file-mid)
+[What is a TypeScript Map file?](#what-is-a-typescript-map-file-mid)
 
-[What's wrong with that code? (Senior)](#whats-wrong-with-that-code-senior)
+[What's wrong with that code?](#whats-wrong-with-that-code-senior)
 
-[What are different components of TypeScript? (Senior)](#what-are-different-components-of-typescript-senior)
+[What are different components of TypeScript?](#what-are-different-components-of-typescript-senior)
 
-[Is that TypeScript code valid? Explain why. (Senior)](#is-that-typescript-code-valid-explain-why-senior)
+[Is that TypeScript code valid? Explain why.](#is-that-typescript-code-valid-explain-why-senior)
 
-[What is Typings in Typescript? (Senior)](#what-is-typings-in-typescript-senior)
+[What is Typings in Typescript?](#what-is-typings-in-typescript-senior)
 
-[How To Use external plain JavaScript Libraries in TypeScript? (Senior)](#how-to-use-external-plain-javascript-libraries-in-typescript-senior)
+[How To Use external plain JavaScript Libraries in TypeScript?](#how-to-use-external-plain-javascript-libraries-in-typescript-senior)
 
-[How TypeScript is optionally statically typed language? (Senior)](#how-typescript-is-optionally-statically-typed-language-senior)
+[How TypeScript is optionally statically typed language?](#how-typescript-is-optionally-statically-typed-language-senior)
 
-[Are strongly-typed functions as parameters possible in TypeScript? (Senior)](#are-strongly-typed-functions-as-parameters-possible-in-typescript-senior)
+[Are strongly-typed functions as parameters possible in TypeScript?](#are-strongly-typed-functions-as-parameters-possible-in-typescript-senior)
 
-[What is the default access modifier for members of a class in TypeScript? (Senior)](#what-is-the-default-access-modifier-for-members-of-a-class-in-typescript-senior)
+[What is the default access modifier for members of a class in TypeScript?](#what-is-the-default-access-modifier-for-members-of-a-class-in-typescript-senior)
 
-[How can you allow classes defined in a module to accessible outside of the module? (Senior)](#how-can-you-allow-classes-defined-in-a-module-to-accessible-outside-of-the-module-senior)
+[How can you allow classes defined in a module to accessible outside of the module?](#how-can-you-allow-classes-defined-in-a-module-to-accessible-outside-of-the-module-senior)
 
-[Explain how and why we could use property decorators in TS? (Senior)](#explain-how-and-why-we-could-use-property-decorators-in-ts-senior)
+[Explain how and why we could use property decorators in TS?](#explain-how-and-why-we-could-use-property-decorators-in-ts-senior)
 
-[Does TypeScript supports function overloading? (Senior)](#does-typescript-supports-function-overloading-senior)
+[Does TypeScript supports function overloading?](#does-typescript-supports-function-overloading-senior)
 
-[Explain why that code is marked as WRONG? (Expert)](#explain-why-that-code-is-marked-as-wrong-expert)
+[Explain why that code is marked as WRONG?](#explain-why-that-code-is-marked-as-wrong-expert)
 
-[What is the difference between "interface vs type" statements? (Expert)](#what-is-the-difference-between-interface-vs-type-statements-expert)
+[What is the difference between "interface vs type" statements?](#what-is-the-difference-between-interface-vs-type-statements-expert)
 
-[How would you overload a class constructor in TypeScript? (Expert)](#how-would-you-overload-a-class-constructor-in-typescript-expert)
+[How would you overload a class constructor in TypeScript?](#how-would-you-overload-a-class-constructor-in-typescript-expert)
 
-[What is one thing you would change about TypeScript? (Expert)](#what-is-one-thing-you-would-change-about-typescript-expert)
+[What is one thing you would change about TypeScript?](#what-is-one-thing-you-would-change-about-typescript-expert)
 
-[Explain when to use "declare" keyword in TypeScript (Expert)](#explain-when-to-use-declare-keyword-in-typescript-expert)
+[Explain when to use "declare" keyword in TypeScript](#explain-when-to-use-declare-keyword-in-typescript-expert)
 
-[What are Ambients in TypeScripts and when to use them? (Expert)](#what-are-ambients-in-typescripts-and-when-to-use-them-expert)
+[What are Ambients in TypeScripts and when to use them?](#what-are-ambients-in-typescripts-and-when-to-use-them-expert)
 
-[Is it possible to generate TypeScript declaration files from JS library? (Expert)](#is-it-possible-to-generate-typescript-declaration-files-from-js-library-expert)
+[Is it possible to generate TypeScript declaration files from JS library?](#is-it-possible-to-generate-typescript-declaration-files-from-js-library-expert)
 
 
 
-### What is TypeScript and why do we need it? (Junior)
+### What is TypeScript and why do we need it?
 
 JavaScript is the only client side language universally supported by all browsers. But JavaScript is not the best designed language. It’s not a class-based object-oriented language, doesn’t support class based inheritance, unreliable dynamic typing and lacks in compile time error checking. And TypeScript addresses all these problems. In other words, TypeScript is an attempt to “fix” JavaScript problems.
 
@@ -93,7 +93,7 @@ As stated on [Typescript official website](http://www.typescriptlang.org/), “T
 * http://www.talkingdotnet.com/typescript-interview-questions/
 
 [[↑] Back to top](#TypeScript)
-### What are Modules in Typescript? (Junior)
+### What are Modules in Typescript?
 
 Modules in Typescript helps in organizing the code. There are 2 types of Modules — Internal and External
 
@@ -104,14 +104,14 @@ Modules in Typescript helps in organizing the code. There are 2 types of Modules
 
 
 [[↑] Back to top](#TypeScript)
-###  What is Typescript and why one should use it? (Junior)
+###  What is Typescript and why one should use it?
 
 TypeScript is a free and open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript, and adds optional static typing and class-based object-oriented programming to the language.
 
 
 
 [[↑] Back to top](#TypeScript)
-### Explain generics in TypeScript (Junior)
+### Explain generics in TypeScript
 
 Generics are able to create a component or function to work over a variety of types rather than a single one.
 
@@ -135,7 +135,7 @@ queue.push("1"); // ERROR : cannot push a string. Only numbers allowed
 * https://basarat.gitbooks.io/typescript/docs/types/generics.html
 
 [[↑] Back to top](#TypeScript)
-### What is TypeScript and why would I use it in place of JavaScript? (Junior)
+### What is TypeScript and why would I use it in place of JavaScript?
 
 **TypeScript** is a superset of JavaScript which primarily provides optional static typing, classes and interfaces. One of the big benefits is to enable IDEs to provide a richer environment for spotting common errors as *you type the code*. For a large JavaScript project, adopting TypeScript might result in more robust software, while still being deployable where a regular JavaScript application would run.
 
@@ -153,7 +153,7 @@ In details:
 * https://stackoverflow.com/questions/12694530/what-is-typescript-and-why-would-i-use-it-in-place-of-javascript
 
 [[↑] Back to top](#TypeScript)
-### How to call base class constructor from child class in TypeScript? (Junior)
+### How to call base class constructor from child class in TypeScript?
 
 We can call base class constructor using `super()`.
 
@@ -162,7 +162,7 @@ We can call base class constructor using `super()`.
 * http://www.talkingdotnet.com/typescript-interview-questions/
 
 [[↑] Back to top](#TypeScript)
-### Do we need to compile TypeScript files and why? (Junior)
+### Do we need to compile TypeScript files and why?
 
 Yes we do. Typescript is just a language Extension browsers can't interpret it. Converting from TypeScript to JavaScript is called compiling. Compiling doesn't mean binary code is created in this case. For this kind of translation, also the term transpilation is used instead of compilation.
 
@@ -171,7 +171,7 @@ Yes we do. Typescript is just a language Extension browsers can't interpret it. 
 * https://stackoverflow.com/questions/45125284/why-is-angular-compiled
 
 [[↑] Back to top](#TypeScript)
-### List the built-in types in Typescript (Junior)
+### List the built-in types in Typescript
 
 These are also called the primitive types in TypeScript:
 * **Number** type: it is used to represent number type values and represents double precision floating point values.
@@ -199,7 +199,7 @@ var variable_name:number = undefined;
 
 
 [[↑] Back to top](#TypeScript)
-### What are the benefits of TypeScript? (Junior)
+### What are the benefits of TypeScript?
 
 TypeScript has following benefits.
 
@@ -215,7 +215,7 @@ TypeScript has following benefits.
 * http://www.talkingdotnet.com/typescript-interview-questions/
 
 [[↑] Back to top](#TypeScript)
-### What are the difference beetween Typescript and JavaScript? (Mid)
+### What are the difference beetween Typescript and JavaScript?
 
 * It is an object oriented programming language (not pure).
 * Here it is static typing (We can declare a variable in multiple ways). ex: var num : number.
@@ -230,7 +230,7 @@ TypeScript has following benefits.
 
 
 [[↑] Back to top](#TypeScript)
-### What is Interface in TypeScript? (Mid)
+### What is Interface in TypeScript?
 
 One of TypeScript’s core principles is that type-checking focuses on the *shape* that values have.
 
@@ -243,7 +243,7 @@ When you define your interface you’re saying that any object (not an instance 
 * https://medium.com/front-end-hacking/typescript-class-vs-interface-99c0ae1c2136
 
 [[↑] Back to top](#TypeScript)
-### When to use interfaces and when to use classes in TypeScript? (Mid)
+### When to use interfaces and when to use classes in TypeScript?
 
 If you need/wish to create an instance of perhaps a custom object, whilst getting the benefits of type-checking things such as arguments, return types or generics - a class makes sense. 
 
@@ -254,7 +254,7 @@ If you’re not creating instances - we have interfaces at our disposal, and the
 * https://toddmotto.com/classes-vs-interfaces-in-typescript
 
 [[↑] Back to top](#TypeScript)
-### Which object oriented terms are supported by TypeScript? (Mid)
+### Which object oriented terms are supported by TypeScript?
 
 TypeScript supports following object oriented terms:
 
@@ -269,7 +269,7 @@ TypeScript supports following object oriented terms:
 * http://www.talkingdotnet.com/typescript-interview-questions/
 
 [[↑] Back to top](#TypeScript)
-### What is getters/setters in TypeScript? (Mid)
+### What is getters/setters in TypeScript?
 
 TypeScript supports **getters/setters** as a way of intercepting accesses to a member of an object. This gives you a way of having finer-grained control over how a member is accessed on each object.
 
@@ -294,7 +294,7 @@ myFoo.bar = true;  // correct (set)
 * http://www.typescriptlang.org/docs/handbook/classes.html
 
 [[↑] Back to top](#TypeScript)
-### Does TypeScript support all object oriented principles? (Mid)
+### Does TypeScript support all object oriented principles?
 
 The answer is **YES**. There are 4 main principles to Object Oriented Programming: 
 
@@ -310,7 +310,7 @@ TypeScript can implement all four of them with its smaller and cleaner syntax.
 * https://jonathanmh.com/typescript-node-js-tutorial-backend-beginner/
 
 [[↑] Back to top](#TypeScript)
-### How could you check null and undefined in TypeScript? (Mid)
+### How could you check null and undefined in TypeScript?
 
 Just use:
 ```js
@@ -334,7 +334,7 @@ TypesScript includes JavaScript rules.
 * https://stackoverflow.com/questions/28975896/is-there-a-dedicated-function-to-check-null-and-undefined-in-typescript
 
 [[↑] Back to top](#TypeScript)
-### How to implement class constants in TypeScript? (Mid)
+### How to implement class constants in TypeScript?
 
 In TypeScript, the `const` keyword cannot be used to declare class properties. Doing so causes the compiler to an error with "A class member cannot have the 'const' keyword." TypeScript 2.0 has the `readonly` modifier:
 
@@ -355,7 +355,7 @@ new MyClass().myReadonlyProperty = 5; // error, readonly
 * https://stackoverflow.com/questions/37265275/how-to-implement-class-constants-in-typescript
 
 [[↑] Back to top](#TypeScript)
-### Could we use TypeScript on backend and how? (Mid)
+### Could we use TypeScript on backend and how?
 
 Typescript doesn’t only work for browser or frontend code, you can also choose to write your backend applications. For example you could choose Node.js and have some additional type safety and the other abstraction that the language brings.
 
@@ -392,7 +392,7 @@ node build/index.js
 * https://jonathanmh.com/typescript-node-js-tutorial-backend-beginner/
 
 [[↑] Back to top](#TypeScript)
-### What is the difference between Classes and Interfaces in Typescript? (Mid)
+### What is the difference between Classes and Interfaces in Typescript?
 
 We use classes as object factories. A class defines a blueprint of what an object should look like and act like and then implements that blueprint by initialising class properties and defining methods. Classes are present throughout all the phases of our code.
 
@@ -405,7 +405,7 @@ A class may define a factory or a singleton by providing initialisation to its p
 * https://toddmotto.com/classes-vs-interfaces-in-typescript
 
 [[↑] Back to top](#TypeScript)
-### What is "Decorators" in TypeScript? (Mid)
+### What is "Decorators" in TypeScript?
 
 A *Decorator* is a special kind of declaration that can be attached to a class declaration, method, accessor, property, or parameter. Decorators are functions that take their target as the argument. With decorators we can run arbitrary code around the target execution or even entirely replace the target with a new definition.
 
@@ -416,7 +416,7 @@ There are 4 things we can decorate in ECMAScript2016 (and Typescript): construct
 * https://www.sparkbit.pl/typescript-decorators/
 
 [[↑] Back to top](#TypeScript)
-### What is a TypeScript Map file? (Mid)
+### What is a TypeScript Map file?
 
 `.map` files are source map files that let tools map between the emitted JavaScript code and the TypeScript source files that created it. Many debuggers (e.g. Visual Studio or Chrome's dev tools) can consume these files so you can debug the TypeScript file instead of the JavaScript file.
 
@@ -425,7 +425,7 @@ There are 4 things we can decorate in ECMAScript2016 (and Typescript): construct
 * https://stackoverflow.com/questions/17493738/what-is-a-typescript-map-file
 
 [[↑] Back to top](#TypeScript)
-### What's wrong with that code? (Senior)
+### What's wrong with that code?
 
 Don’t ever use the types `Number`, `String`, `Boolean`, or `Object`. These types refer to non-primitive boxed objects that are almost never used appropriately in JavaScript code. Instead of Object, use the non-primitive `object` type. 
 
@@ -439,7 +439,7 @@ function reverse(s: string): string;
 * https://www.typescriptlang.org/docs/handbook/declaration-files/do-s-and-don-ts.html
 
 [[↑] Back to top](#TypeScript)
-### What are different components of TypeScript? (Senior)
+### What are different components of TypeScript?
 
 There are mainly 3 components of TypeScript .
 
@@ -452,7 +452,7 @@ There are mainly 3 components of TypeScript .
 * http://www.talkingdotnet.com/typescript-interview-questions/
 
 [[↑] Back to top](#TypeScript)
-### Is that TypeScript code valid? Explain why. (Senior)
+### Is that TypeScript code valid? Explain why.
 
 Yes, the code is valid. A class declaration creates two things: a *type* representing instances of the class and a *constructor function*. Because classes create types, you can use them in the same places you would be able to use interfaces.
 
@@ -461,7 +461,7 @@ Yes, the code is valid. A class declaration creates two things: a *type* represe
 * http://www.typescriptlang.org/docs/handbook/classes.html
 
 [[↑] Back to top](#TypeScript)
-### What is Typings in Typescript? (Senior)
+### What is Typings in Typescript?
 
 TypeScript is mainly about adding types to JavaScript. When you use external libraries like jQuery or moment.js, there are no information of the types in that code. So in order to use it with TypeScript, you also have to get files that describe the types of that code. These are the type declaration files, most often with the file extension name `.d.ts`. Fortunately people have written those kinds of type declaration files for most common javascript libraries out there.
 
@@ -472,7 +472,7 @@ TypeScript is mainly about adding types to JavaScript. When you use external lib
 * https://stackoverflow.com/questions/41573822/what-are-typings-in-typescript
 
 [[↑] Back to top](#TypeScript)
-### How To Use external plain JavaScript Libraries in TypeScript? (Senior)
+### How To Use external plain JavaScript Libraries in TypeScript?
 
 1. Include the library source file before the compiled TypeScript file 
 2. In your TypeScript file before using the library, add
@@ -487,7 +487,7 @@ declare var libGlobal: any;
 * https://stackoverflow.com/questions/17493738/what-is-a-typescript-map-file
 
 [[↑] Back to top](#TypeScript)
-### How TypeScript is optionally statically typed language? (Senior)
+### How TypeScript is optionally statically typed language?
 
 TypeScript is referred as *optionally statically typed*, which means you can ask the compiler to ignore the type of a variable. Using `any` data type, we can assign any type of value to the variable. TypeScript will not give any error checking during compilation.
 
@@ -503,7 +503,7 @@ unknownType = false; // A boolean.
 * http://www.talkingdotnet.com/typescript-interview-questions/
 
 [[↑] Back to top](#TypeScript)
-### Are strongly-typed functions as parameters possible in TypeScript? (Senior)
+### Are strongly-typed functions as parameters possible in TypeScript?
 
 
 In TypeScript you can declare your **callback type** like:
@@ -532,7 +532,7 @@ foo.save(numCallback)
 * https://stackoverflow.com/questions/12694530/what-is-typescript-and-why-would-i-use-it-in-place-of-javascript
 
 [[↑] Back to top](#TypeScript)
-### What is the default access modifier for members of a class in TypeScript? (Senior)
+### What is the default access modifier for members of a class in TypeScript?
 
 In TypeScript, each member of class is **public** by default.
 
@@ -541,7 +541,7 @@ In TypeScript, each member of class is **public** by default.
 * http://www.talkingdotnet.com/typescript-interview-questions/
 
 [[↑] Back to top](#TypeScript)
-### How can you allow classes defined in a module to accessible outside of the module? (Senior)
+### How can you allow classes defined in a module to accessible outside of the module?
 
 Classes define in a module are available within the module. Outside the module you can’t access them.
 
@@ -578,7 +578,7 @@ var fordCar = Vehicle.Car("Ford", "Figo");
 * http://www.talkingdotnet.com/typescript-interview-questions/
 
 [[↑] Back to top](#TypeScript)
-### Explain how and why we could use property decorators in TS? (Senior)
+### Explain how and why we could use property decorators in TS?
 
 Decorators can be used to modify the behavior of a class or become even more powerful when integrated into a framework. For instance, if your framework has methods with restricted access requirements (just for admin), it would be easy to write an `@admin` method decorator to deny access to non-administrative users, or an `@owner` decorator to only allow the owner of an object the ability to modify it.
 
@@ -600,7 +600,7 @@ class CRUD {
 * https://www.sitepen.com/blog/2015/10/20/typescript-decorators/
 
 [[↑] Back to top](#TypeScript)
-### Does TypeScript supports function overloading? (Senior)
+### Does TypeScript supports function overloading?
 
 Yes, TypeScript does support function overloading but the implementation is a bit different if we compare it to OO languages. We are creating just one function and a number of declarations so that TypeScript doesn't give compile errors. When this code is compiled to JavaScript, the concrete function alone will be visible. As a JavaScript function can be called by passing multiple arguments, it just works.
 
@@ -620,7 +620,7 @@ class Foo {
 * https://www.typescriptlang.org/docs/handbook/declaration-files/do-s-and-don-ts.html
 
 [[↑] Back to top](#TypeScript)
-### Explain why that code is marked as WRONG? (Expert)
+### Explain why that code is marked as WRONG?
 
 Don’t use *optional parameters* in callbacks unless you really mean it. This code has a very specific meaning: the `done` callback might be invoked with 1 argument or might be invoked with 2 arguments. The author probably intended to say that the callback might not care about the `elapsedTime` parameter, but there’s no need to make the parameter optional to accomplish this – it’s always legal to provide a callback that accepts fewer arguments.
 
@@ -629,7 +629,7 @@ Don’t use *optional parameters* in callbacks unless you really mean it. This c
 * https://www.typescriptlang.org/docs/handbook/declaration-files/do-s-and-don-ts.html
 
 [[↑] Back to top](#TypeScript)
-### What is the difference between "interface vs type" statements? (Expert)
+### What is the difference between "interface vs type" statements?
 
 Unlike an interface declaration, which always introduces a *named object type,* a type alias declaration can introduce a *name* for any kind of type, including primitive, union, and intersection types.
 
@@ -643,7 +643,7 @@ By using type instead of interface the following capabilities are lost:
 * https://stackoverflow.com/questions/37233735/typescript-interfaces-vs-types
 
 [[↑] Back to top](#TypeScript)
-### How would you overload a class constructor in TypeScript? (Expert)
+### How would you overload a class constructor in TypeScript?
 
 **TypeScript** allows you to declare overloads but you can only have one implementation and that implementation must have a signature that is compatible with all overloads. Some techniques for constructor overloading are:
 * with an optional parameter as in
@@ -735,7 +735,7 @@ var f2 = new foo(1);
 * https://stackoverflow.com/questions/12702548/constructor-overload-in-typescript
 
 [[↑] Back to top](#TypeScript)
-### What is one thing you would change about TypeScript? (Expert)
+### What is one thing you would change about TypeScript?
 
 
 
@@ -744,7 +744,7 @@ var f2 = new foo(1);
 * https://www.reddit.com/r/typescript/comments/7rhlng/basic_typescript_interview_questions/
 
 [[↑] Back to top](#TypeScript)
-### Explain when to use "declare" keyword in TypeScript (Expert)
+### Explain when to use "declare" keyword in TypeScript
 
 The TypeScript `declare` keyword is used to declare variables that may not have originated from a TypeScript file. 
 
@@ -766,7 +766,7 @@ Both of the code examples will result in the same JavaScript output but the `dec
 * https://stackoverflow.com/questions/35019987/what-does-declare-do-in-export-declare-class-actions
 
 [[↑] Back to top](#TypeScript)
-### What are Ambients in TypeScripts and when to use them? (Expert)
+### What are Ambients in TypeScripts and when to use them?
 
 **Ambients** or **Ambient declarations** are a way of telling the TypeScript compiler that the actual source code exists elsewhere. Ambient declarations help to seamlessly integrate other js libraries into TypeScript.
 
@@ -787,7 +787,7 @@ The ambient files should be referenced in the client TypeScript file as shown
 * https://stackoverflow.com/questions/35019987/what-does-declare-do-in-export-declare-class-actions
 
 [[↑] Back to top](#TypeScript)
-### Is it possible to generate TypeScript declaration files from JS library? (Expert)
+### Is it possible to generate TypeScript declaration files from JS library?
 
 JavaScript doesn't always contain enough type information for the TypeScript compiler to infer the structures in your code - so automatically generating a definition based on JavaScript is rarely an option but:
 

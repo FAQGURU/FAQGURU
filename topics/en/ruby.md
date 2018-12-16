@@ -1,176 +1,176 @@
 ## Ruby
 
-[What is the highest level in the object model? (Junior)](#what-is-the-highest-level-in-the-object-model-junior)
+[What is the highest level in the object model?](#what-is-the-highest-level-in-the-object-model-junior)
 
-[Which core object includes the "Kernel" module?   (Junior)](#which-core-object-includes-the-kernel-module---junior)
+[Which core object includes the "Kernel" module?  ](#which-core-object-includes-the-kernel-module---junior)
 
-[What can you say about an identifier that begins with a capital letter?   (Junior)](#what-can-you-say-about-an-identifier-that-begins-with-a-capital-letter---junior)
+[What can you say about an identifier that begins with a capital letter?  ](#what-can-you-say-about-an-identifier-that-begins-with-a-capital-letter---junior)
 
-[Why Ruby is known as a language of flexibility? (Junior)](#why-ruby-is-known-as-a-language-of-flexibility-junior)
+[Why Ruby is known as a language of flexibility?](#why-ruby-is-known-as-a-language-of-flexibility-junior)
 
-[What is an object? (Junior)](#what-is-an-object-junior)
+[What is an object?](#what-is-an-object-junior)
 
-[What is a class? (Junior)](#what-is-a-class-junior)
+[What is a class?](#what-is-a-class-junior)
 
-[What are rubygems? (Junior)](#what-are-rubygems-junior)
+[What are rubygems?](#what-are-rubygems-junior)
 
-[Is there an equivalent of “continue” in Ruby? (Junior)](#is-there-an-equivalent-of-continue-in-ruby-junior)
+[Is there an equivalent of “continue” in Ruby?](#is-there-an-equivalent-of-continue-in-ruby-junior)
 
-[Is everything in Ruby an object?   (Junior)](#is-everything-in-ruby-an-object---junior)
+[Is everything in Ruby an object?  ](#is-everything-in-ruby-an-object---junior)
 
-[Explain redo statement in Ruby (Mid)](#explain-redo-statement-in-ruby-mid)
+[Explain redo statement in Ruby](#explain-redo-statement-in-ruby-mid)
 
-[Why are symbols typically used as hash keys instead of strings? (Mid)](#why-are-symbols-typically-used-as-hash-keys-instead-of-strings-mid)
+[Why are symbols typically used as hash keys instead of strings?](#why-are-symbols-typically-used-as-hash-keys-instead-of-strings-mid)
 
-[How might you specify a default value for a hash?  (Mid)](#how-might-you-specify-a-default-value-for-a-hash--mid)
+[How might you specify a default value for a hash? ](#how-might-you-specify-a-default-value-for-a-hash--mid)
 
-[What is the difference between nil and false in Ruby? (Mid)](#what-is-the-difference-between-nil-and-false-in-ruby-mid)
+[What is the difference between nil and false in Ruby?](#what-is-the-difference-between-nil-and-false-in-ruby-mid)
 
-[Why might you use `Hash#fetch` over `Hash#[]` when querying values in a hash?   (Mid)](#why-might-you-use-hashfetch-over-hash-when-querying-values-in-a-hash---mid)
+[Why might you use `Hash#fetch` over `Hash#[]` when querying values in a hash?  ](#why-might-you-use-hashfetch-over-hash-when-querying-values-in-a-hash---mid)
 
-[Explain some differences between Ruby and Python (Mid)](#explain-some-differences-between-ruby-and-python-mid)
+[Explain some differences between Ruby and Python](#explain-some-differences-between-ruby-and-python-mid)
 
-[What are two uses of the splat operator?   (Mid)](#what-are-two-uses-of-the-splat-operator---mid)
+[What are two uses of the splat operator?  ](#what-are-two-uses-of-the-splat-operator---mid)
 
-[What is the difference between an instance variable and a class variable?   (Mid)](#what-is-the-difference-between-an-instance-variable-and-a-class-variable---mid)
+[What is the difference between an instance variable and a class variable?  ](#what-is-the-difference-between-an-instance-variable-and-a-class-variable---mid)
 
-[What is the return value for ... (Mid)](#what-is-the-return-value-for--mid)
+[What is the return value for ...](#what-is-the-return-value-for--mid)
 
-[ What is the difference between `#==` and `#===`?   (Mid)](#-what-is-the-difference-between--and----mid)
+[ What is the difference between `#==` and `#===`?  ](#-what-is-the-difference-between--and----mid)
 
-[How do you remove `nil` values in array using ruby? (Mid)](#how-do-you-remove-nil-values-in-array-using-ruby-mid)
+[How do you remove `nil` values in array using ruby?](#how-do-you-remove-nil-values-in-array-using-ruby-mid)
 
-[Can you call a private method outside a Ruby class using its object? (Mid)](#can-you-call-a-private-method-outside-a-ruby-class-using-its-object-mid)
+[Can you call a private method outside a Ruby class using its object?](#can-you-call-a-private-method-outside-a-ruby-class-using-its-object-mid)
 
-[What will be the values of ... (Mid)](#what-will-be-the-values-of--mid)
+[What will be the values of ...](#what-will-be-the-values-of--mid)
 
-[Explain each of the following operators and how and when they should be used (Mid)](#explain-each-of-the-following-operators-and-how-and-when-they-should-be-used-mid)
+[Explain each of the following operators and how and when they should be used](#explain-each-of-the-following-operators-and-how-and-when-they-should-be-used-mid)
 
-[Write a function that sorts the keys in a hash by the length of the key as a string. (Mid)](#write-a-function-that-sorts-the-keys-in-a-hash-by-the-length-of-the-key-as-a-string-mid)
+[Write a function that sorts the keys in a hash by the length of the key as a string.](#write-a-function-that-sorts-the-keys-in-a-hash-by-the-length-of-the-key-as-a-string-mid)
 
-[Which of the expressions listed below will result in "false"? (Mid)](#which-of-the-expressions-listed-below-will-result-in-false-mid)
+[Which of the expressions listed below will result in "false"?](#which-of-the-expressions-listed-below-will-result-in-false-mid)
 
-[Why might you use `#each` instead of `for/in`?   (Mid)](#why-might-you-use-each-instead-of-forin---mid)
+[Why might you use `#each` instead of `for/in`?  ](#why-might-you-use-each-instead-of-forin---mid)
 
-[There are three ways to invoke a method in ruby.  Can you give me at least two? (Mid)](#there-are-three-ways-to-invoke-a-method-in-ruby--can-you-give-me-at-least-two-mid)
+[There are three ways to invoke a method in ruby.  Can you give me at least two?](#there-are-three-ways-to-invoke-a-method-in-ruby--can-you-give-me-at-least-two-mid)
 
-[What is a module?  Can you tell me the difference between classes and modules? (Mid)](#what-is-a-module--can-you-tell-me-the-difference-between-classes-and-modules-mid)
+[What is a module?  Can you tell me the difference between classes and modules?](#what-is-a-module--can-you-tell-me-the-difference-between-classes-and-modules-mid)
 
-[What is a DSL and how does it pertain to Ruby?   (Mid)](#what-is-a-dsl-and-how-does-it-pertain-to-ruby---mid)
+[What is a DSL and how does it pertain to Ruby?  ](#what-is-a-dsl-and-how-does-it-pertain-to-ruby---mid)
 
-[What is duck typing and how does it pertain to Ruby?   (Mid)](#what-is-duck-typing-and-how-does-it-pertain-to-ruby---mid)
+[What is duck typing and how does it pertain to Ruby?  ](#what-is-duck-typing-and-how-does-it-pertain-to-ruby---mid)
 
-[Is Ruby a statically typed or a dynamically typed language?   (Mid)](#is-ruby-a-statically-typed-or-a-dynamically-typed-language---mid)
+[Is Ruby a statically typed or a dynamically typed language?  ](#is-ruby-a-statically-typed-or-a-dynamically-typed-language---mid)
 
-[Are instance methods public or private?   (Mid)](#are-instance-methods-public-or-private---mid)
+[Are instance methods public or private?  ](#are-instance-methods-public-or-private---mid)
 
-[What is a predicate in the context of Ruby method naming conventions?  (Mid)](#what-is-a-predicate-in-the-context-of-ruby-method-naming-conventions--mid)
+[What is a predicate in the context of Ruby method naming conventions? ](#what-is-a-predicate-in-the-context-of-ruby-method-naming-conventions--mid)
 
-[Is Ruby a strongly typed or a weakly typed language?   (Mid)](#is-ruby-a-strongly-typed-or-a-weakly-typed-language---mid)
+[Is Ruby a strongly typed or a weakly typed language?  ](#is-ruby-a-strongly-typed-or-a-weakly-typed-language---mid)
 
-[Check if a value exists in an array in Ruby (Mid)](#check-if-a-value-exists-in-an-array-in-ruby-mid)
+[Check if a value exists in an array in Ruby](#check-if-a-value-exists-in-an-array-in-ruby-mid)
 
-[What is the difference between private and protected methods?   (Mid)](#what-is-the-difference-between-private-and-protected-methods---mid)
+[What is the difference between private and protected methods?  ](#what-is-the-difference-between-private-and-protected-methods---mid)
 
-[Are class variables inherited?   (Mid)](#are-class-variables-inherited---mid)
+[Are class variables inherited?  ](#are-class-variables-inherited---mid)
 
-[What is the difference between a class variable and a class instance variable?   (Mid)](#what-is-the-difference-between-a-class-variable-and-a-class-instance-variable---mid)
+[What is the difference between a class variable and a class instance variable?  ](#what-is-the-difference-between-a-class-variable-and-a-class-instance-variable---mid)
 
-[What does it mean to coerce an object? Why would you do it?   (Mid)](#what-does-it-mean-to-coerce-an-object-why-would-you-do-it---mid)
+[What does it mean to coerce an object? Why would you do it?  ](#what-does-it-mean-to-coerce-an-object-why-would-you-do-it---mid)
 
-[What will val1 and val2 equal after the code below is executed? Explain your answer. (Senior)](#what-will-val1-and-val2-equal-after-the-code-below-is-executed-explain-your-answer-senior)
+[What will val1 and val2 equal after the code below is executed? Explain your answer.](#what-will-val1-and-val2-equal-after-the-code-below-is-executed-explain-your-answer-senior)
 
-[Explain redo vs. retry usage (Senior)](#explain-redo-vs-retry-usage-senior)
+[Explain redo vs. retry usage](#explain-redo-vs-retry-usage-senior)
 
-[Why might you want to avoid using string literals within loops?   (Senior)](#why-might-you-want-to-avoid-using-string-literals-within-loops---senior)
+[Why might you want to avoid using string literals within loops?  ](#why-might-you-want-to-avoid-using-string-literals-within-loops---senior)
 
-[What is the difference between Proc invocation and lambda invocation?   (Senior)](#what-is-the-difference-between-proc-invocation-and-lambda-invocation---senior)
+[What is the difference between Proc invocation and lambda invocation?  ](#what-is-the-difference-between-proc-invocation-and-lambda-invocation---senior)
 
-[ What is the main difference between procs and lambdas? (Senior)](#-what-is-the-main-difference-between-procs-and-lambdas-senior)
+[ What is the main difference between procs and lambdas?](#-what-is-the-main-difference-between-procs-and-lambdas-senior)
 
-[Why can you safely use a string as a hash key, even though a string is mutable?  (Senior)](#why-can-you-safely-use-a-string-as-a-hash-key-even-though-a-string-is-mutable--senior)
+[Why can you safely use a string as a hash key, even though a string is mutable? ](#why-can-you-safely-use-a-string-as-a-hash-key-even-though-a-string-is-mutable--senior)
 
-[What are two uses of ranges?   (Senior)](#what-are-two-uses-of-ranges---senior)
+[What are two uses of ranges?  ](#what-are-two-uses-of-ranges---senior)
 
-[What is the difference between `Module#remove_method` and `Module#undef_method`?   (Senior)](#what-is-the-difference-between-moduleremove_method-and-moduleundef_method---senior)
+[What is the difference between `Module#remove_method` and `Module#undef_method`?  ](#what-is-the-difference-between-moduleremove_method-and-moduleundef_method---senior)
 
-[Which operator must be defined in order to implement the `Comparable` module?   (Senior)](#which-operator-must-be-defined-in-order-to-implement-the-comparable-module---senior)
+[Which operator must be defined in order to implement the `Comparable` module?  ](#which-operator-must-be-defined-in-order-to-implement-the-comparable-module---senior)
 
-[What is the difference between `Kernel#require` and `Kernel#load`?   (Senior)](#what-is-the-difference-between-kernelrequire-and-kernelload---senior)
+[What is the difference between `Kernel#require` and `Kernel#load`?  ](#what-is-the-difference-between-kernelrequire-and-kernelload---senior)
 
-[How is the invocation of a private method different than the invocation of a public method from within its defining class?  (Senior)](#how-is-the-invocation-of-a-private-method-different-than-the-invocation-of-a-public-method-from-within-its-defining-class--senior)
+[How is the invocation of a private method different than the invocation of a public method from within its defining class? ](#how-is-the-invocation-of-a-private-method-different-than-the-invocation-of-a-public-method-from-within-its-defining-class--senior)
 
-[Why might you want to alias a method?   (Senior)](#why-might-you-want-to-alias-a-method---senior)
+[Why might you want to alias a method?  ](#why-might-you-want-to-alias-a-method---senior)
 
-[What will be the value of ... (Senior)](#what-will-be-the-value-of--senior)
+[What will be the value of ...](#what-will-be-the-value-of--senior)
 
-[What does a bang `!` at the end of a method signify?   (Senior)](#what-does-a-bang--at-the-end-of-a-method-signify---senior)
+[What does a bang `!` at the end of a method signify?  ](#what-does-a-bang--at-the-end-of-a-method-signify---senior)
 
-[What is the value of the variable "upcased" in the below piece of code? (Senior)](#what-is-the-value-of-the-variable-upcased-in-the-below-piece-of-code-senior)
+[What is the value of the variable "upcased" in the below piece of code?](#what-is-the-value-of-the-variable-upcased-in-the-below-piece-of-code-senior)
 
-[How does block invocation differ from method invocation? (Senior)](#how-does-block-invocation-differ-from-method-invocation-senior)
+[How does block invocation differ from method invocation?](#how-does-block-invocation-differ-from-method-invocation-senior)
 
-[Can you tell me the three levels of method access control for classes and modules?  What do they imply about the method? (Senior)](#can-you-tell-me-the-three-levels-of-method-access-control-for-classes-and-modules--what-do-they-imply-about-the-method-senior)
+[Can you tell me the three levels of method access control for classes and modules?  What do they imply about the method?](#can-you-tell-me-the-three-levels-of-method-access-control-for-classes-and-modules--what-do-they-imply-about-the-method-senior)
 
-[What is the difference between `#==` and `#equal?`?  (Senior)](#what-is-the-difference-between--and-equal--senior)
+[What is the difference between `#==` and `#equal?`? ](#what-is-the-difference-between--and-equal--senior)
 
-[Explain this ruby idiom: a ||= b (Senior)](#explain-this-ruby-idiom-a--b-senior)
+[Explain this ruby idiom: a ||= b](#explain-this-ruby-idiom-a--b-senior)
 
-[What does self mean? (Senior)](#what-does-self-mean-senior)
+[What does self mean?](#what-does-self-mean-senior)
 
-[What is a Proc? (Senior)](#what-is-a-proc-senior)
+[What is a Proc?](#what-is-a-proc-senior)
 
-[What is the difference between `#==` and `#eql?`?   (Senior)](#what-is-the-difference-between--and-eql---senior)
+[What is the difference between `#==` and `#eql?`?  ](#what-is-the-difference-between--and-eql---senior)
 
-[Describe a closure in Ruby (Senior)](#describe-a-closure-in-ruby-senior)
+[Describe a closure in Ruby](#describe-a-closure-in-ruby-senior)
 
-[What is the difference between `Array#map` and `Array#each`? (Senior)](#what-is-the-difference-between-arraymap-and-arrayeach-senior)
+[What is the difference between `Array#map` and `Array#each`?](#what-is-the-difference-between-arraymap-and-arrayeach-senior)
 
-[What is an iterator?  (Senior)](#what-is-an-iterator--senior)
+[What is an iterator? ](#what-is-an-iterator--senior)
 
-[What is the difference between `throw/catch` and `raise/rescue`?   (Senior)](#what-is-the-difference-between-throwcatch-and-raiserescue---senior)
+[What is the difference between `throw/catch` and `raise/rescue`?  ](#what-is-the-difference-between-throwcatch-and-raiserescue---senior)
 
-[What are some disadvantages of a case statement versus repeated `elsif` statements? (Senior)](#what-are-some-disadvantages-of-a-case-statement-versus-repeated-elsif-statements-senior)
+[What are some disadvantages of a case statement versus repeated `elsif` statements?](#what-are-some-disadvantages-of-a-case-statement-versus-repeated-elsif-statements-senior)
 
-[What is the difference between calling "super" and calling "super()" (Senior)](#what-is-the-difference-between-calling-super-and-calling-super-senior)
+[What is the difference between calling "super" and calling "super()"](#what-is-the-difference-between-calling-super-and-calling-super-senior)
 
-[When might you use the `do`/`end` syntax versus using the curly bracket syntax for a block?   (Senior)](#when-might-you-use-the-doend-syntax-versus-using-the-curly-bracket-syntax-for-a-block---senior)
+[When might you use the `do`/`end` syntax versus using the curly bracket syntax for a block?  ](#when-might-you-use-the-doend-syntax-versus-using-the-curly-bracket-syntax-for-a-block---senior)
 
-[Explain the difference between (Senior)](#explain-the-difference-between-senior)
+[Explain the difference between](#explain-the-difference-between-senior)
 
-[What happens if a block is passed two arguments but only accepts one argument?   (Expert)](#what-happens-if-a-block-is-passed-two-arguments-but-only-accepts-one-argument---expert)
+[What happens if a block is passed two arguments but only accepts one argument?  ](#what-happens-if-a-block-is-passed-two-arguments-but-only-accepts-one-argument---expert)
 
-[How exactly does it work? (Expert)](#how-exactly-does-it-work-expert)
+[How exactly does it work?](#how-exactly-does-it-work-expert)
 
-[Is the line of code below valid Ruby code? If so, what does it do? (Expert)](#is-the-line-of-code-below-valid-ruby-code-if-so-what-does-it-do-expert)
+[Is the line of code below valid Ruby code? If so, what does it do?](#is-the-line-of-code-below-valid-ruby-code-if-so-what-does-it-do-expert)
 
-[What will be the result of each of the following lines of code (Expert)](#what-will-be-the-result-of-each-of-the-following-lines-of-code-expert)
+[What will be the result of each of the following lines of code](#what-will-be-the-result-of-each-of-the-following-lines-of-code-expert)
 
-[What happens to a constant which is not assigned? (Expert)](#what-happens-to-a-constant-which-is-not-assigned-expert)
+[What happens to a constant which is not assigned?](#what-happens-to-a-constant-which-is-not-assigned-expert)
 
-[Is a block an object?  (Expert)](#is-a-block-an-object--expert)
+[Is a block an object? ](#is-a-block-an-object--expert)
 
-[What is the primary difference in these two code snippets? (Expert)](#what-is-the-primary-difference-in-these-two-code-snippets-expert)
+[What is the primary difference in these two code snippets?](#what-is-the-primary-difference-in-these-two-code-snippets-expert)
 
-[Write a single line of Ruby code that prints the Fibonacci sequence of any length as an array. (Expert)](#write-a-single-line-of-ruby-code-that-prints-the-fibonacci-sequence-of-any-length-as-an-array-expert)
+[Write a single line of Ruby code that prints the Fibonacci sequence of any length as an array.](#write-a-single-line-of-ruby-code-that-prints-the-fibonacci-sequence-of-any-length-as-an-array-expert)
 
-[Why doesn't Ruby support method overloading? (Expert)](#why-doesnt-ruby-support-method-overloading-expert)
+[Why doesn't Ruby support method overloading?](#why-doesnt-ruby-support-method-overloading-expert)
 
-[Is a method an object?   (Expert)](#is-a-method-an-object---expert)
+[Is a method an object?  ](#is-a-method-an-object---expert)
 
-[What is the difference between `BasicObject#instance_eval` and `BasicObject#instance_exec`? (Expert)](#what-is-the-difference-between-basicobjectinstance_eval-and-basicobjectinstance_exec-expert)
+[What is the difference between `BasicObject#instance_eval` and `BasicObject#instance_exec`?](#what-is-the-difference-between-basicobjectinstance_eval-and-basicobjectinstance_exec-expert)
 
-[What is the difference between `Object#dup` and `#clone`?   (Expert)](#what-is-the-difference-between-objectdup-and-clone---expert)
+[What is the difference between `Object#dup` and `#clone`?  ](#what-is-the-difference-between-objectdup-and-clone---expert)
 
-[What is an eigenclass? (Expert)](#what-is-an-eigenclass-expert)
+[What is an eigenclass?](#what-is-an-eigenclass-expert)
 
-[When might you encounter a `LocalJumpError`?   (Expert)](#when-might-you-encounter-a-localjumperror---expert)
+[When might you encounter a `LocalJumpError`?  ](#when-might-you-encounter-a-localjumperror---expert)
 
-[What is the differnece between `extend` and `include` in ruby? (Expert)](#what-is-the-differnece-between-extend-and-include-in-ruby-expert)
+[What is the differnece between `extend` and `include` in ruby?](#what-is-the-differnece-between-extend-and-include-in-ruby-expert)
 
 
 
-### What is the highest level in the object model? (Junior)
+### What is the highest level in the object model?
 
 `BasicObject`
 
@@ -179,7 +179,7 @@
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### Which core object includes the "Kernel" module?   (Junior)
+### Which core object includes the "Kernel" module?  
 
 `Object`
 
@@ -188,7 +188,7 @@
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### What can you say about an identifier that begins with a capital letter?   (Junior)
+### What can you say about an identifier that begins with a capital letter?  
 
 It is a constant.
 
@@ -197,7 +197,7 @@ It is a constant.
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### Why Ruby is known as a language of flexibility? (Junior)
+### Why Ruby is known as a language of flexibility?
 
 Ruby is known as a language of flexibility because it facilitates its author to alter the programming elements. Some specific parts of the language can be removed or redefined. Ruby does not restrict the user. For example, to add two numbers, Ruby allows to use `+` sign or the word `plus`. This alteration can be done with Ruby's built-in class Numeric.
 
@@ -206,7 +206,7 @@ Ruby is known as a language of flexibility because it facilitates its author to 
 * https://www.javatpoint.com/ruby-interview-questions
 
 [[↑] Back to top](#Ruby)
-### What is an object? (Junior)
+### What is an object?
 
 An instance of a class. To some, it's also the root class in ruby (Object). Classes themselves descend from the Object root class.
 
@@ -215,7 +215,7 @@ An instance of a class. To some, it's also the root class in ruby (Object). Clas
 * https://stackoverflow.com/questions/4010039/equivalent-of-continue-in-ruby
 
 [[↑] Back to top](#Ruby)
-### What is a class? (Junior)
+### What is a class?
 
 Classes hold **data**, have **methods** that interact with that data, and are used to **instantiate objects**.
 
@@ -240,7 +240,7 @@ object.method
 * https://stackoverflow.com/questions/4010039/equivalent-of-continue-in-ruby
 
 [[↑] Back to top](#Ruby)
-### What are rubygems? (Junior)
+### What are rubygems?
 
 **rubygems** is package manager software for ruby libraries (i.e. gems). The package manager has basic CRUD operations, dependency trees, and supports asynchronous communication between multiple gem servers.
 
@@ -249,7 +249,7 @@ object.method
 * https://stackoverflow.com/questions/4010039/equivalent-of-continue-in-ruby
 
 [[↑] Back to top](#Ruby)
-### Is there an equivalent of “continue” in Ruby? (Junior)
+### Is there an equivalent of “continue” in Ruby?
 
 Yes, it's called `next`.
 
@@ -267,7 +267,7 @@ end
 * https://stackoverflow.com/questions/4010039/equivalent-of-continue-in-ruby
 
 [[↑] Back to top](#Ruby)
-### Is everything in Ruby an object?   (Junior)
+### Is everything in Ruby an object?  
 
 Methods are not objects. Blocks are not objects. Keywords are not objects. However, there exist Method objects and Proc objects, and some keywords refer to objects.
 
@@ -276,7 +276,7 @@ Methods are not objects. Blocks are not objects. Keywords are not objects. Howev
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### Explain redo statement in Ruby (Mid)
+### Explain redo statement in Ruby
 
 Ruby `redo` statement is used to repeat the current iteration of the loop. The redo statement is executed without evaluating loop's condition.
 
@@ -285,7 +285,7 @@ Ruby `redo` statement is used to repeat the current iteration of the loop. The r
 * https://www.javatpoint.com/ruby-interview-questions
 
 [[↑] Back to top](#Ruby)
-### Why are symbols typically used as hash keys instead of strings? (Mid)
+### Why are symbols typically used as hash keys instead of strings?
 
 Strings are *mutable* while symbols are *immutable*. Though Ruby internally makes an immutable copy of a string when used as a hash key, comparing two symbols is faster than comparing two `String` objects. This is also a convention.
 
@@ -294,7 +294,7 @@ Strings are *mutable* while symbols are *immutable*. Though Ruby internally make
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### How might you specify a default value for a hash?  (Mid)
+### How might you specify a default value for a hash? 
 
 Pass the default values as arguments to `::new` on initialization or change the default directly with the method `Hash#default`. You may also provide a default at the time of query with `Hash#fetch`.
 
@@ -303,7 +303,7 @@ Pass the default values as arguments to `::new` on initialization or change the 
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### What is the difference between nil and false in Ruby? (Mid)
+### What is the difference between nil and false in Ruby?
 
 **nil**:
 * nil cannot be a value
@@ -323,7 +323,7 @@ Pass the default values as arguments to `::new` on initialization or change the 
 * https://www.javatpoint.com/ruby-interview-questions
 
 [[↑] Back to top](#Ruby)
-### Why might you use `Hash#fetch` over `Hash#[]` when querying values in a hash?   (Mid)
+### Why might you use `Hash#fetch` over `Hash#[]` when querying values in a hash?  
 
 `Hash#fetch` provides options for handling the case where a key does not exist in the hash.
 
@@ -332,7 +332,7 @@ Pass the default values as arguments to `::new` on initialization or change the 
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### Explain some differences between Ruby and Python (Mid)
+### Explain some differences between Ruby and Python
 
 Similarities:
 
@@ -353,7 +353,7 @@ Differences:
 * https://www.javatpoint.com/ruby-interview-questions
 
 [[↑] Back to top](#Ruby)
-### What are two uses of the splat operator?   (Mid)
+### What are two uses of the splat operator?  
 
 * Explode or expand the elements of an array. 
 * Collect arguments of a parameter list into an array.
@@ -363,7 +363,7 @@ Differences:
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### What is the difference between an instance variable and a class variable?   (Mid)
+### What is the difference between an instance variable and a class variable?  
 
 A class variable is evaluated in reference to the class object created by the enclosing class definition while an instance variable is evaluated in reference to `self`. Instance variables cannot be referenced outside of instance methods.
 
@@ -372,7 +372,7 @@ A class variable is evaluated in reference to the class object created by the en
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### What is the return value for ... (Mid)
+### What is the return value for ...
 
 All the statements for the invocation of the xyz method through the object are valid.
 
@@ -398,7 +398,7 @@ xyz in ABC
 * https://www.toptal.com/ruby/interview-questions
 
 [[↑] Back to top](#Ruby)
-###  What is the difference between `#==` and `#===`?   (Mid)
+###  What is the difference between `#==` and `#===`?  
 
 `#==` performs the generic comparison while `#===` performs case equality comparison and is useful for providing meaningful semantics in case statements.
 
@@ -408,7 +408,7 @@ xyz in ABC
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### How do you remove `nil` values in array using ruby? (Mid)
+### How do you remove `nil` values in array using ruby?
 
 `Array#compact` removes `nil` values.
 
@@ -422,7 +422,7 @@ xyz in ABC
 * https://www.toptal.com/ruby/interview-questions
 
 [[↑] Back to top](#Ruby)
-### Can you call a private method outside a Ruby class using its object? (Mid)
+### Can you call a private method outside a Ruby class using its object?
 
 Yes, with the help of the `send` method.
 
@@ -448,7 +448,7 @@ We can execute the private method using `send`:
 * https://www.toptal.com/ruby/interview-questions
 
 [[↑] Back to top](#Ruby)
-### What will be the values of ... (Mid)
+### What will be the values of ...
 
 *   var1 will be equal to `nil`
 *   var2 will be equal to `4`
@@ -460,7 +460,7 @@ A conditional statement in Ruby is an expression that returns `nil` if the condi
 * https://www.toptal.com/ruby/interview-questions
 
 [[↑] Back to top](#Ruby)
-### Explain each of the following operators and how and when they should be used (Mid)
+### Explain each of the following operators and how and when they should be used
 
 * `==` – Checks if the _value_ of two operands are equal (often overridden to provide a class-specific definition of equality).
 
@@ -476,7 +476,7 @@ A conditional statement in Ruby is an expression that returns `nil` if the condi
 * https://www.toptal.com/ruby/interview-questions
 
 [[↑] Back to top](#Ruby)
-### Write a function that sorts the keys in a hash by the length of the key as a string. (Mid)
+### Write a function that sorts the keys in a hash by the length of the key as a string.
 
 As is always true in programming, there are in fact multiple ways to accomplish this.
 The most straightforward answer would be of the form:
@@ -507,7 +507,7 @@ collect { |x| x.to_s }
 * https://www.toptal.com/ruby/interview-questions
 
 [[↑] Back to top](#Ruby)
-### Which of the expressions listed below will result in "false"? (Mid)
+### Which of the expressions listed below will result in "false"?
 
 In Ruby, the _only_ values that evaluate to false are `false` and `nil`. _Everything else_ – even zero (0) and an empty array (\[\]) – evaluates to true.
 
@@ -518,7 +518,7 @@ This comes as a real surprise to programmers who have previously been working in
 * https://www.toptal.com/ruby/interview-questions
 
 [[↑] Back to top](#Ruby)
-### Why might you use `#each` instead of `for/in`?   (Mid)
+### Why might you use `#each` instead of `for/in`?  
 
 It's the "Ruby way" - an example of how Ruby defines methods that mimic natural language concepts. Iterator methods such as `#each` read more naturally. `#each` is a block so it defines a new variable scope. `for/in` depends on the existence of `#each` which implies that `#each` is a more fundamental aspect of the language.
 
@@ -527,7 +527,7 @@ It's the "Ruby way" - an example of how Ruby defines methods that mimic natural 
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### There are three ways to invoke a method in ruby.  Can you give me at least two? (Mid)
+### There are three ways to invoke a method in ruby.  Can you give me at least two?
 
 We are looking for the **dot operator** (or period operator), the **Object#send** method, or **method(:foo).call**
 
@@ -548,7 +548,7 @@ puts object.method(:object_id).call # (Kudos to Ezra)
 * https://gist.github.com/ryansobol/5252653#file-gistfile1-md
 
 [[↑] Back to top](#Ruby)
-### What is a module?  Can you tell me the difference between classes and modules? (Mid)
+### What is a module?  Can you tell me the difference between classes and modules?
 
 Modules serve as a mechanism for **namespaces**.
 
@@ -592,7 +592,7 @@ AMixIn.new
 * https://gist.github.com/ryansobol/5252653#file-gistfile1-md
 
 [[↑] Back to top](#Ruby)
-### What is a DSL and how does it pertain to Ruby?   (Mid)
+### What is a DSL and how does it pertain to Ruby?  
 
 A **Domain Specific Language** is an API that allows a developer to solve a problem or represent data more naturally than they might otherwise. The flexible nature of Ruby's syntax and the ability to alias and alter existing methods and classes makes it conducive to creating rich DSL's.
 
@@ -601,7 +601,7 @@ A **Domain Specific Language** is an API that allows a developer to solve a prob
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### What is duck typing and how does it pertain to Ruby?   (Mid)
+### What is duck typing and how does it pertain to Ruby?  
 
 That an object may be acted upon even if it isn't the expected type as long as it looks and behaves like the expected object. This is a characteristic of Ruby because the lack of type checking of parameters makes this an effective programming technique.
 
@@ -610,7 +610,7 @@ That an object may be acted upon even if it isn't the expected type as long as i
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### Is Ruby a statically typed or a dynamically typed language?   (Mid)
+### Is Ruby a statically typed or a dynamically typed language?  
 
 Dynamically typed since type checking is done at runtime.
 
@@ -619,7 +619,7 @@ Dynamically typed since type checking is done at runtime.
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### Are instance methods public or private?   (Mid)
+### Are instance methods public or private?  
 
 They are public by default. You can change their visibility using `Module#private`, `Module#protected`, or back again using `Module#public`.
 
@@ -628,7 +628,7 @@ They are public by default. You can change their visibility using `Module#privat
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### What is a predicate in the context of Ruby method naming conventions?  (Mid)
+### What is a predicate in the context of Ruby method naming conventions? 
 
 A method that answers a question posed by the method invocation or method name. Predicates typically return a boolean.
 
@@ -652,7 +652,7 @@ $ irb
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### Is Ruby a strongly typed or a weakly typed language?   (Mid)
+### Is Ruby a strongly typed or a weakly typed language?  
 
 Strongly typed since an object's type is checked before an operation is performed on it.
 
@@ -661,7 +661,7 @@ Strongly typed since an object's type is checked before an operation is performe
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### Check if a value exists in an array in Ruby (Mid)
+### Check if a value exists in an array in Ruby
 
 You're looking for include?:
 ```js
@@ -674,7 +674,7 @@ You're looking for include?:
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### What is the difference between private and protected methods?   (Mid)
+### What is the difference between private and protected methods?  
 
 A private method can only be called by any instance methods of the defining class or any subclasses and must be invoked in a functional style and not explicitly on `self` such as with `self.my_method`. A protected method may be explicitly invoked by any instance of the defining class, and is not restricted to implicit invocation on `self`.
 
@@ -683,7 +683,7 @@ A private method can only be called by any instance methods of the defining clas
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### Are class variables inherited?   (Mid)
+### Are class variables inherited?  
 
 No. The behavior is different than inheritance. Any alteration of a class variable by a subclass affects that class variable in the superclass and all other subclasses of the superclass.
 
@@ -692,7 +692,7 @@ No. The behavior is different than inheritance. Any alteration of a class variab
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### What is the difference between a class variable and a class instance variable?   (Mid)
+### What is the difference between a class variable and a class instance variable?  
 
 Class instance variables are instance variables of a class. Class instance variables cannot be used within instance methods.
 
@@ -701,7 +701,7 @@ Class instance variables are instance variables of a class. Class instance varia
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### What does it mean to coerce an object? Why would you do it?   (Mid)
+### What does it mean to coerce an object? Why would you do it?  
 
 To *coerce an object* means to force it into an expected type. One might do this in order to try and force an unknown object type into the expected type or format required by the operation. This is a common practice involved in *duck typing*.
 
@@ -710,7 +710,7 @@ To *coerce an object* means to force it into an expected type. One might do this
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### What will val1 and val2 equal after the code below is executed? Explain your answer. (Senior)
+### What will val1 and val2 equal after the code below is executed? Explain your answer.
 
 Although these two statements might appear to be equivalent, they are not, due to the order of operations. Specifically, the `and` and `or` operators have _lower_ precedence than the `=` operator, whereas the `&&` and `||` operators have _higher_ precedence than the `=` operator, based on order of operations.
 
@@ -728,7 +728,7 @@ This is, incidentally, a great example of why using parentheses to clearly speci
 * https://www.toptal.com/ruby/interview-questions
 
 [[↑] Back to top](#Ruby)
-### Explain redo vs. retry usage (Senior)
+### Explain redo vs. retry usage
 
 `redo` and `retry` are both used to re-execute parts of a loop. But they differ in how much they re-execute: 
 * `redo` only repeats the current iteration, while 
@@ -739,7 +739,7 @@ This is, incidentally, a great example of why using parentheses to clearly speci
 * http://rubyquicktips.com/post/1122838559/redo-vs-retry
 
 [[↑] Back to top](#Ruby)
-### Why might you want to avoid using string literals within loops?   (Senior)
+### Why might you want to avoid using string literals within loops?  
 
 A new object is created for every string literal even when the values are identical. Consider using variables or symbols instead.
 
@@ -748,7 +748,7 @@ A new object is created for every string literal even when the values are identi
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### What is the difference between Proc invocation and lambda invocation?   (Senior)
+### What is the difference between Proc invocation and lambda invocation?  
 
 A block must be associated with lambda invocation. Lambdas must be invoked with the exact number of arguments such as is required by method invocation, whereas procs are more flexible in receiving arguments.
 
@@ -757,7 +757,7 @@ A block must be associated with lambda invocation. Lambdas must be invoked with 
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-###  What is the main difference between procs and lambdas? (Senior)
+###  What is the main difference between procs and lambdas?
 
 Calling a lambda is more akin to invoking a method where a return statement in a lambda will return from the lambda itself, instead of returning from the lexically enclosing method, as procs do. Adding to this notion, lambdas must be invoked with the exact number of arguments such as is required by method invocation, whereas procs are more flexible in receiving arguments.
 
@@ -766,7 +766,7 @@ Calling a lambda is more akin to invoking a method where a return statement in a
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### Why can you safely use a string as a hash key, even though a string is mutable?  (Senior)
+### Why can you safely use a string as a hash key, even though a string is mutable? 
 
 Because the interpreter makes a private copy of a string used as a hash key.
 
@@ -775,7 +775,7 @@ Because the interpreter makes a private copy of a string used as a hash key.
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### What are two uses of ranges?   (Senior)
+### What are two uses of ranges?  
 
 * comparison
 * iteration
@@ -785,7 +785,7 @@ Because the interpreter makes a private copy of a string used as a hash key.
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### What is the difference between `Module#remove_method` and `Module#undef_method`?   (Senior)
+### What is the difference between `Module#remove_method` and `Module#undef_method`?  
 
 `Module#undef_method` prevents any invocation of the method through an instance of the class, while `Module#remove_method` will remove the method definition from the class, but not prevent inherited methods of the same name from being invoked.
 
@@ -794,7 +794,7 @@ Because the interpreter makes a private copy of a string used as a hash key.
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### Which operator must be defined in order to implement the `Comparable` module?   (Senior)
+### Which operator must be defined in order to implement the `Comparable` module?  
 
 `<=>`
 
@@ -803,7 +803,7 @@ Because the interpreter makes a private copy of a string used as a hash key.
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### What is the difference between `Kernel#require` and `Kernel#load`?   (Senior)
+### What is the difference between `Kernel#require` and `Kernel#load`?  
 
 `Kernel#require` can load binary extensions. `Kernel#require` does not require a filename extension. `Kernel#require` prevents multiple loads of the same file path. `Kernel#load` loads the specified file at the current `$SAFE` level while `Kernel#require` loads the specified file with a `$SAFE` level of 0.
 
@@ -812,7 +812,7 @@ Because the interpreter makes a private copy of a string used as a hash key.
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### How is the invocation of a private method different than the invocation of a public method from within its defining class?  (Senior)
+### How is the invocation of a private method different than the invocation of a public method from within its defining class? 
 
 It must be referenced in a functional manner without an explicit receiver object and not on the class object itself or on the current object `self`.
 
@@ -821,7 +821,7 @@ It must be referenced in a functional manner without an explicit receiver object
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### Why might you want to alias a method?   (Senior)
+### Why might you want to alias a method?  
 
 To create a synonym for an existing method that is more readable or appropriate in the context of some problems or to add functionality to an existing method.
 
@@ -830,7 +830,7 @@ To create a synonym for an existing method that is more readable or appropriate 
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### What will be the value of ... (Senior)
+### What will be the value of ...
 
 ```ruby
 defined? foo
@@ -846,7 +846,7 @@ defined? bar
 * https://www.toptal.com/ruby/interview-questions
 
 [[↑] Back to top](#Ruby)
-### What does a bang `!` at the end of a method signify?   (Senior)
+### What does a bang `!` at the end of a method signify?  
 
 That it should be with caution. Methods with this naming convention typically perform a *mutation on the receiver object.
 
@@ -855,7 +855,7 @@ That it should be with caution. Methods with this naming convention typically pe
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### What is the value of the variable "upcased" in the below piece of code? (Senior)
+### What is the value of the variable "upcased" in the below piece of code?
 
 Let’s take a look at `puts` as below:
 
@@ -874,7 +874,7 @@ Similarly, evaluating the code in question we can understand that while it’s a
 * https://www.toptal.com/ruby/interview-questions
 
 [[↑] Back to top](#Ruby)
-### How does block invocation differ from method invocation? (Senior)
+### How does block invocation differ from method invocation?
 
 Ruby will throw an exception if more than the expected number of arguments are passed to a method. A block will simply ignore the extra values.
 
@@ -883,7 +883,7 @@ Ruby will throw an exception if more than the expected number of arguments are p
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### Can you tell me the three levels of method access control for classes and modules?  What do they imply about the method? (Senior)
+### Can you tell me the three levels of method access control for classes and modules?  What do they imply about the method?
 
 **All methods**, no matter the access control, can be **accessed within the class**.  But what about outside callers?
 
@@ -929,7 +929,7 @@ AccessLevel.new.something_interesting
 * https://gist.github.com/ryansobol/5252653#file-gistfile1-md
 
 [[↑] Back to top](#Ruby)
-### What is the difference between `#==` and `#equal?`?  (Senior)
+### What is the difference between `#==` and `#equal?`? 
 
 `#==` performs the generic comparison and is implemented differently across classes while `#equal?` is defined on `BasicObject` and compares object identity. Therefore, `#equal?` should not be overridden in subclasses.
 
@@ -938,7 +938,7 @@ AccessLevel.new.something_interesting
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### Explain this ruby idiom: a ||= b (Senior)
+### Explain this ruby idiom: a ||= b
 
 Is it a common idiom that strong ruby developers will use all the time.
 ```ruby
@@ -970,7 +970,7 @@ a ||= b #=> a = 2
 * https://gist.github.com/ryansobol/5252653#file-gistfile1-md
 
 [[↑] Back to top](#Ruby)
-### What does self mean? (Senior)
+### What does self mean?
 
 `self` _always_ refers to the current object.  But this question is more difficult than it seems because **Classes are also objects** in ruby. 
 
@@ -1002,7 +1002,7 @@ This short snippet indicates two things:
 * https://gist.github.com/ryansobol/5252653#file-gistfile1-md
 
 [[↑] Back to top](#Ruby)
-### What is a Proc? (Senior)
+### What is a Proc?
 
 Essentially, Procs are **anonymous methods** (or nameless functions) containing code. They can be placed inside a variable and **passed around** like any other object or scalar value. They are created by **Proc.new**, **lambda**, and **blocks** (invoked by the yield keyword).  
 
@@ -1034,7 +1034,7 @@ end
 * https://gist.github.com/ryansobol/5252653#file-gistfile1-md
 
 [[↑] Back to top](#Ruby)
-### What is the difference between `#==` and `#eql?`?   (Senior)
+### What is the difference between `#==` and `#eql?`?  
 
 `#eql?` is sometimes an alternate equality. `Hash` uses `#eql?` to test for hash key equality. `Numeric` types perform type conversion across `#==` but not across `#eql?`, thus `#eql?` performs a stricter comparison than `#==` in that case.
 
@@ -1043,7 +1043,7 @@ end
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### Describe a closure in Ruby (Senior)
+### Describe a closure in Ruby
 
 A closure is an object that is both an invocable function together with a variable binding. The object retains access to the local variables that were in scope at the time of the object definition.
 
@@ -1056,7 +1056,7 @@ It also possible to alter a closure. The binding of a closure can be altered usi
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### What is the difference between `Array#map` and `Array#each`? (Senior)
+### What is the difference between `Array#map` and `Array#each`?
 
 *   `Array#each` method iterates over the elements of the array and executes the provided block each time. However, it returns the original array unaffected.
 *   `Array#map` will return a new array of elements containing the values returned by the block it is provided. It also does not affect the original array
@@ -1066,7 +1066,7 @@ It also possible to alter a closure. The binding of a closure can be altered usi
 * https://www.toptal.com/ruby/interview-questions
 
 [[↑] Back to top](#Ruby)
-### What is an iterator?  (Senior)
+### What is an iterator? 
 
 An object that allows traversal of the elements of the container. In Ruby, an iterator is typically considered any method that uses the yield statement.
 
@@ -1075,7 +1075,7 @@ An object that allows traversal of the elements of the container. In Ruby, an it
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### What is the difference between `throw/catch` and `raise/rescue`?   (Senior)
+### What is the difference between `throw/catch` and `raise/rescue`?  
 
 `throw` and `catch` accept matching symbols as arguments and should be considered a control-flow structure where `raise` and `rescue` is used to raise and handle exceptions. `throw` and `catch` are not commonly used while exception handling with `raise` and `rescue` is used often.
 
@@ -1084,7 +1084,7 @@ An object that allows traversal of the elements of the container. In Ruby, an it
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### What are some disadvantages of a case statement versus repeated `elsif` statements? (Senior)
+### What are some disadvantages of a case statement versus repeated `elsif` statements?
 
 The statement is typically resistant to modification without a complete refactoring of the entire control structure. The case statement can be confusing if multiple comma-separated expressions are associated with a single when clause.
 
@@ -1093,7 +1093,7 @@ The statement is typically resistant to modification without a complete refactor
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### What is the difference between calling "super" and calling "super()" (Senior)
+### What is the difference between calling "super" and calling "super()"
 
 * A call to `super` invokes the parent method with the same arguments that were passed to the child method. An error will therefore occur if the arguments passed to the child method don’t match what the parent is expecting.
 
@@ -1104,7 +1104,7 @@ The statement is typically resistant to modification without a complete refactor
 * https://www.toptal.com/ruby/interview-questions
 
 [[↑] Back to top](#Ruby)
-### When might you use the `do`/`end` syntax versus using the curly bracket syntax for a block?   (Senior)
+### When might you use the `do`/`end` syntax versus using the curly bracket syntax for a block?  
 
 The `do`/`end` syntax for a block is commonly used for multi-line statements. An alternate convention is to use curly bracket syntax for blocks that return a value while using `do`/`end` syntax for blocks that change the state of the system somehow and do not return a value.
 
@@ -1113,7 +1113,7 @@ The `do`/`end` syntax for a block is commonly used for multi-line statements. An
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### Explain the difference between (Senior)
+### Explain the difference between
 
 The `+=` operator re-initializes the variable with a new value, so `a += b` is equivalent to `a = a + b`.
 
@@ -1147,7 +1147,7 @@ The difference has implications for performance and also has different mutation 
 * https://www.toptal.com/ruby/interview-questions
 
 [[↑] Back to top](#Ruby)
-### What happens if a block is passed two arguments but only accepts one argument?   (Expert)
+### What happens if a block is passed two arguments but only accepts one argument?  
 
 Nothing. Only the first argument will be passed to the block.
 
@@ -1156,7 +1156,7 @@ Nothing. Only the first argument will be passed to the block.
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### How exactly does it work? (Expert)
+### How exactly does it work?
 
 When a parameter is passed with `&` in front of it (indicating that is it to be used as a block), Ruby will call `to_proc` on it in an attempt to make it usable as a block. `Symbol#to_proc` quite handily returns a `Proc` that will invoke the method of the corresponding name on whatever is passed to it, thus enabling our little shorthand trick to work.
 
@@ -1165,7 +1165,7 @@ When a parameter is passed with `&` in front of it (indicating that is it to be 
 * https://www.toptal.com/ruby/interview-questions
 
 [[↑] Back to top](#Ruby)
-### Is the line of code below valid Ruby code? If so, what does it do? (Expert)
+### Is the line of code below valid Ruby code? If so, what does it do?
 
 Yes, it’s valid. Here’s how to understand what it does:
 
@@ -1182,7 +1182,7 @@ So putting that all together, this line of code (a) creates a Proc that takes a 
 * https://www.toptal.com/ruby/interview-questions
 
 [[↑] Back to top](#Ruby)
-### What will be the result of each of the following lines of code (Expert)
+### What will be the result of each of the following lines of code
 
 The first three lines of code will all print out 10, as expected.
 The next two lines of code will both print out 3, as expected.
@@ -1204,7 +1204,7 @@ Note that the problem does not occur with single argument methods (as shown with
 * https://www.toptal.com/ruby/interview-questions
 
 [[↑] Back to top](#Ruby)
-### What happens to a constant which is not assigned? (Expert)
+### What happens to a constant which is not assigned?
 
 It does not exist.
 
@@ -1213,7 +1213,7 @@ It does not exist.
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### Is a block an object?  (Expert)
+### Is a block an object? 
 
 No. A block is a syntactic structure of the interpreter. A block can be converted to a Proc object.
 
@@ -1222,7 +1222,7 @@ No. A block is a syntactic structure of the interpreter. A block can be converte
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### What is the primary difference in these two code snippets? (Expert)
+### What is the primary difference in these two code snippets?
 
 * The Java method **only** accepts Strings as arguments and **only** returns a boolean while...
 
@@ -1233,7 +1233,7 @@ No. A block is a syntactic structure of the interpreter. A block can be converte
 * https://gist.github.com/ryansobol/5252653#file-gistfile1-md
 
 [[↑] Back to top](#Ruby)
-### Write a single line of Ruby code that prints the Fibonacci sequence of any length as an array. (Expert)
+### Write a single line of Ruby code that prints the Fibonacci sequence of any length as an array.
 
 There are multiple ways to do this, but one possible answer is:
 
@@ -1250,7 +1250,7 @@ Note: `inject` is an alias of `reduce`
 * https://www.toptal.com/ruby/interview-questions
 
 [[↑] Back to top](#Ruby)
-### Why doesn't Ruby support method overloading? (Expert)
+### Why doesn't Ruby support method overloading?
 
 *Overloading* is a term that simply doesn't even make sense in Ruby. It is basically a synonym for "static argument-based dispatch", but Ruby doesn't have static dispatch at all. So, the reason why Ruby doesn't support static dispatch based on the arguments, is because it doesn't support static dispatch, period. It doesn't support static dispatch of any kind, whether argument-based or otherwise.
 
@@ -1259,7 +1259,7 @@ Note: `inject` is an alias of `reduce`
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### Is a method an object?   (Expert)
+### Is a method an object?  
 
 No, however, a `Method` object is of course, an object.
 
@@ -1268,7 +1268,7 @@ No, however, a `Method` object is of course, an object.
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### What is the difference between `BasicObject#instance_eval` and `BasicObject#instance_exec`? (Expert)
+### What is the difference between `BasicObject#instance_eval` and `BasicObject#instance_exec`?
 
 `BasicObject#instance_exec` can only accept a block, not a string, and it can accept arguments and pass them to the block, allowing the block to be evaluated in the context of the receiver object with parameters whose values come from the block.
 
@@ -1277,7 +1277,7 @@ No, however, a `Method` object is of course, an object.
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### What is the difference between `Object#dup` and `#clone`?   (Expert)
+### What is the difference between `Object#dup` and `#clone`?  
 
 `#clone` copies the frozen state of an object and any singleton methods of an object while `Object#dup` does neither.
 
@@ -1286,7 +1286,7 @@ No, however, a `Method` object is of course, an object.
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### What is an eigenclass? (Expert)
+### What is an eigenclass?
 
 An anonymous class associated with an object. An object's singleton methods are instance methods of its associated eigenclass.
 
@@ -1295,7 +1295,7 @@ An anonymous class associated with an object. An object's singleton methods are 
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### When might you encounter a `LocalJumpError`?   (Expert)
+### When might you encounter a `LocalJumpError`?  
 
 You might typically encounter this exception when attempting to yield when no block is given. You might also encounter this exception when attempting to return from a method that has already returned such as if you attempt to return from a `Proc` object whose lexically enclosing method has already returned.
 
@@ -1304,7 +1304,7 @@ You might typically encounter this exception when attempting to yield when no bl
 * https://raw.githubusercontent.com/undr/ruby-trivia/master/README.md
 
 [[↑] Back to top](#Ruby)
-### What is the differnece between `extend` and `include` in ruby? (Expert)
+### What is the differnece between `extend` and `include` in ruby?
 
 *   `include` mixes in specified module methods as instance methods in the target class
 *   `extend` mixes in specified module methods as class methods in the target class
