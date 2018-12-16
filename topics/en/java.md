@@ -12,17 +12,17 @@
 
 [What is the Difference between JDK and JRE? ](#what-is-the-difference-between-jdk-and-jre)
 
-[What are the two types of Exceptions in Java? Which are the differences between them? ](#what-are-the-two-types-of-exceptions-in-java-which-are-the-differences-between-them-)
+[What are the two types of Exceptions in Java? Which are the differences between them? ](#what-are-the-two-types-of-exceptions-in-java-which-are-the-differences-between-them)
 
 [Explain the architechure of a Servlet.](#explain-the-architechure-of-a-servlet)
 
 [What is the difference between an Interface and an Abstract class? ](#what-is-the-difference-between-an-interface-and-an-abstract-class-)
 
-[What are pass by reference and pass by value? ](#what-are-pass-by-reference-and-pass-by-value-)
+[What are pass by reference and pass by value? ](#what-are-pass-by-reference-and-pass-by-value)
 
 [What is the difference between processes and threads?](#what-is-the-difference-between-processes-and-threads)
 
-[Explain Serialization and Deserialization. ](#explain-serialization-and-deserialization-)
+[Explain Serialization and Deserialization. ](#explain-serialization-and-deserialization)
 
 [What are Expressions?](#what-are-expressions)
 
@@ -38,17 +38,17 @@
 
 [What does the “static” keyword mean? Can you override private or static method in Java?](#what-does-the-static-keyword-mean-can-you-override-private-or-static-method-in-java)
 
-[What is an Iterator? ](#what-is-an-iterator-)
+[What is an Iterator? ](#what-is-an-iterator)
 
 [What is the purpose Class.forName method?](#what-is-the-purpose-classforname-method)
 
 [What is JDBC?](#what-is-jdbc)
 
-[How HashMap works in Java? ](#how-hashmap-works-in-java-)
+[How HashMap works in Java? ](#how-hashmap-works-in-java)
 
 [What is the design pattern that Java uses for all Swing components?](#what-is-the-design-pattern-that-java-uses-for-all-swing-components)
 
-[What differences exist between HashMap and Hashtable? ](#what-differences-exist-between-hashmap-and-hashtable-)
+[What differences exist between HashMap and Hashtable? ](#what-differences-exist-between-hashmap-and-hashtable)
 
 [What advantage do Java’s layout managers provide over traditional windowing systems?](#what-advantage-do-javas-layout-managers-provide-over-traditional-windowing-systems)
 
@@ -78,9 +78,9 @@
 
 [What is meant by a Web Application?](#what-is-meant-by-a-web-application)
 
-[When does an Object becomes eligible for Garbage collection in Java ? ](#when-does-an-object-becomes-eligible-for-garbage-collection-in-java--)
+[When does an Object becomes eligible for Garbage collection in Java? ](#when-does-an-object-becomes-eligible-for-garbage-collection-in-java)
 
-[Why Collection doesn’t extend Cloneable and Serializable interfaces? ](#why-collection-doesnt-extend-cloneable-and-serializable-interfaces-)
+[Why Collection doesn’t extend Cloneable and Serializable interfaces? ](#why-collection-doesnt-extend-cloneable-and-serializable-interfaces)
 
 [What happens when an applet is loaded?](#what-happens-when-an-applet-is-loaded)
 
@@ -94,17 +94,17 @@
 
 [When is the finalize() called? What is the purpose of finalization? ](#when-is-the-finalize-called-what-is-the-purpose-of-finalization-)
 
-[What are the steps involved to make work a RMI program? ](#what-are-the-steps-involved-to-make-work-a-rmi-program-)
+[What are the steps involved to make work a RMI program? ](#what-are-the-steps-involved-to-make-work-a-rmi-program)
 
 [How does finally block differ from finalize() method?](#how-does-finally-block-differ-from-finalize-method)
 
-[What’s the difference between Enumeration and Iterator interfaces? ](#whats-the-difference-between-enumeration-and-iterator-interfaces-)
+[What’s the difference between Enumeration and Iterator interfaces? ](#whats-the-difference-between-enumeration-and-iterator-interfaces)
 
-[Explain the life cycle of an Applet. ](#explain-the-life-cycle-of-an-applet-)
+[Explain the life cycle of an Applet. ](#explain-the-life-cycle-of-an-applet)
 
 [Can you access non static variable in static context?](#can-you-access-non-static-variable-in-static-context)
 
-[What is the tradeoff between using an unordered array versus an ordered array? ](#what-is-the-tradeoff-between-using-an-unordered-array-versus-an-ordered-array-)
+[What is the tradeoff between using an unordered array versus an ordered array? ](#what-is-the-tradeoff-between-using-an-unordered-array-versus-an-ordered-array)
 
 [What are the restrictions imposed on Java applets?](#what-are-the-restrictions-imposed-on-java-applets)
 
@@ -112,7 +112,7 @@
 
 [ What is a Server Side Include (SSI)?](#-what-is-a-server-side-include-ssi)
 
-[What is a Constructor, Constructor Overloading in Java and Copy-Constructor? ](#what-is-a-constructor-constructor-overloading-in-java-and-copy-constructor-)
+[What is a Constructor, Constructor Overloading in Java and Copy-Constructor? ](#what-is-a-constructor-constructor-overloading-in-java-and-copy-constructor)
 
 [What is the applet security manager, and what does it provide?](#what-is-the-applet-security-manager-and-what-does-it-provide)
 
@@ -124,17 +124,17 @@
 
 [What is the relationship between an event-listener interface and an event-adapter class?](#what-is-the-relationship-between-an-event-listener-interface-and-an-event-adapter-class)
 
-[What is difference between ArrayList and LinkedList ? ](#what-is-difference-between-arraylist-and-linkedlist--)
+[What is difference between ArrayList and LinkedList ? ](#what-is-difference-between-arraylist-and-linkedlist)
 
 [What is difference between Array and ArrayList ? When will you use Array over ArrayList?](#what-is-difference-between-array-and-arraylist--when-will-you-use-array-over-arraylist)
 
-[What is the importance of hashCode() and equals() methods? ](#what-is-the-importance-of-hashcode-and-equals-methods-)
+[What is the importance of hashCode() and equals() methods? ](#what-is-the-importance-of-hashcode-and-equals-methods)
 
-[What is difference between fail-fast and fail-safe? ](#what-is-difference-between-fail-fast-and-fail-safe-)
+[What is difference between fail-fast and fail-safe? ](#what-is-difference-between-fail-fast-and-fail-safe)
 
-[Explain the role of Driver in JDBC. ](#explain-the-role-of-driver-in-jdbc-)
+[Explain the role of Driver in JDBC. ](#explain-the-role-of-driver-in-jdbc)
 
-[What differences exist between Iterator and ListIterator? ](#what-differences-exist-between-iterator-and-listiterator-)
+[What differences exist between Iterator and ListIterator? ](#what-differences-exist-between-iterator-and-listiterator)
 
 [What is the advantage of PreparedStatement over Statement?](#what-is-the-advantage-of-preparedstatement-over-statement)
 
