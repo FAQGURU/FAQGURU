@@ -124,7 +124,7 @@
 
 [What is the relationship between an event-listener interface and an event-adapter class?](#what-is-the-relationship-between-an-event-listener-interface-and-an-event-adapter-class)
 
-[What is difference between ArrayList and LinkedList ? ](#what-is-difference-between-arraylist-and-linkedlist)
+[What is difference between ArrayList and LinkedList? ](#what-is-difference-between-arraylist-and-linkedlist)
 
 [What is difference between Array and ArrayList ? When will you use Array over ArrayList?](#what-is-difference-between-array-and-arraylist--when-will-you-use-array-over-arraylist)
 
@@ -836,7 +836,7 @@ An event-listener interface defines the methods that must be implemented by an e
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is difference between ArrayList and LinkedList ? 
+### What is difference between ArrayList and LinkedList? 
 
 Both the [ArrayList](http://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html) and [LinkedList](http://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html) classes implement the List interface, but they differ on the following features:
 
@@ -849,7 +849,7 @@ Both the [ArrayList](http://docs.oracle.com/javase/7/docs/api/java/util/ArrayLis
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is difference between Array and ArrayList ? When will you use Array over ArrayList?
+### What is difference between Array and ArrayList? When will you use Array over ArrayList?
 
 The Array and ArrayList classes differ on the following features:
 
