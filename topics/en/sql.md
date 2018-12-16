@@ -60,7 +60,7 @@
 
 [What is collation?](#what-is-collation)
 
-[Describe the difference between truncate and delete ](#describe-the-difference-between-truncate-and-delete-)
+[Describe the difference between truncate and delete](#describe-the-difference-between-truncate-and-delete)
 
 [How does B-trees index work?](#how-does-b-trees-index-work)
 
