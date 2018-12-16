@@ -1,30 +1,30 @@
 ## GraphQL
 
-[What is GraphQL?](#what-is-graphql-junior)
+[What is GraphQL?](#what-is-graphql)
 
-[Is GraphQL a Database Technology?](#is-graphql-a-database-technology-junior)
+[Is GraphQL a Database Technology?](#is-graphql-a-database-technology)
 
-[Is GraphQL only for React / Javascript Developers?](#is-graphql-only-for-react--javascript-developers-junior)
+[Is GraphQL only for React / Javascript Developers?](#is-graphql-only-for-react--javascript-developers)
 
-[How to do Error Handling?](#how-to-do-error-handling-mid)
+[How to do Error Handling?](#how-to-do-error-handling)
 
-[Where is GraphQL useful?](#where-is-graphql-useful-mid)
+[Where is GraphQL useful?](#where-is-graphql-useful)
 
-[What is GraphQL schema?](#what-is-graphql-schema-mid)
+[What is GraphQL schema?](#what-is-graphql-schema)
 
-[How to do Authentication and Authorization?](#how-to-do-authentication-and-authorization-senior)
+[How to do Authentication and Authorization?](#how-to-do-authentication-and-authorization)
 
-[Does GraphQL Support Offline Usage?](#does-graphql-support-offline-usage-senior)
+[Does GraphQL Support Offline Usage?](#does-graphql-support-offline-usage)
 
-[How to do Server-side Caching?](#how-to-do-server-side-caching-senior)
+[How to do Server-side Caching?](#how-to-do-server-side-caching)
 
-[List the key concepts of the GraphQL query language](#list-the-key-concepts-of-the-graphql-query-language-senior)
+[List the key concepts of the GraphQL query language](#list-the-key-concepts-of-the-graphql-query-language)
 
-[Explain the main difference between REST and GraphQL](#explain-the-main-difference-between-rest-and-graphql-senior)
+[Explain the main difference between REST and GraphQL](#explain-the-main-difference-between-rest-and-graphql)
 
-[What kind of operations could GraphQL schema have?](#what-kind-of-operations-could-graphql-schema-have-senior)
+[What kind of operations could GraphQL schema have?](#what-kind-of-operations-could-graphql-schema-have)
 
-[Are there any disadvantages to GraphQL?](#are-there-any-disadvantages-to-graphql-expert)
+[Are there any disadvantages to GraphQL?](#are-there-any-disadvantages-to-graphql)
 
 
 

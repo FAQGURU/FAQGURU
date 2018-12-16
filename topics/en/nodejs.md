@@ -1,142 +1,142 @@
 ## Node.js
 
-[What is Node.js?](#what-is-nodejs-junior)
+[What is Node.js?](#what-is-nodejs)
 
-[What is npm?](#what-is-npm-junior)
+[What is npm?](#what-is-npm)
 
-[What are the two types of API functions in Node.js? ](#what-are-the-two-types-of-api-functions-in-nodejs--junior)
+[What are the two types of API functions in Node.js? ](#what-are-the-two-types-of-api-functions-in-nodejs-)
 
-[What are Event Listeners?  ](#what-are-event-listeners---mid)
+[What are Event Listeners?  ](#what-are-event-listeners--)
 
-[What is global installation of dependencies?](#what-is-global-installation-of-dependencies-mid)
+[What is global installation of dependencies?](#what-is-global-installation-of-dependencies)
 
-[What are the core modules of Node,js?](#what-are-the-core-modules-of-nodejs-mid)
+[What are the core modules of Node,js?](#what-are-the-core-modules-of-nodejs)
 
-[What is an error-first callback?](#what-is-an-error-first-callback-mid)
+[What is an error-first callback?](#what-is-an-error-first-callback)
 
-[ How you can monitor a file for modifications in Node.js ?](#-how-you-can-monitor-a-file-for-modifications-in-nodejs--mid)
+[ How you can monitor a file for modifications in Node.js ?](#-how-you-can-monitor-a-file-for-modifications-in-nodejs-)
 
-[Could we run an external process with Node.js?](#could-we-run-an-external-process-with-nodejs-mid)
+[Could we run an external process with Node.js?](#could-we-run-an-external-process-with-nodejs)
 
-[What's the difference between operational and programmer errors?](#whats-the-difference-between-operational-and-programmer-errors-mid)
+[What's the difference between operational and programmer errors?](#whats-the-difference-between-operational-and-programmer-errors)
 
-[What are the benefits of using Node.js?](#what-are-the-benefits-of-using-nodejs-mid)
+[What are the benefits of using Node.js?](#what-are-the-benefits-of-using-nodejs)
 
-[What is the difference between Nodejs, AJAX, and jQuery?](#what-is-the-difference-between-nodejs-ajax-and-jquery-mid)
+[What is the difference between Nodejs, AJAX, and jQuery?](#what-is-the-difference-between-nodejs-ajax-and-jquery)
 
-[How to make Post request in Node.js?](#how-to-make-post-request-in-nodejs-mid)
+[How to make Post request in Node.js?](#how-to-make-post-request-in-nodejs)
 
-[What is Callback Hell?](#what-is-callback-hell-mid)
+[What is Callback Hell?](#what-is-callback-hell)
 
-[If Node.js is single threaded then how it handles concurrency?](#if-nodejs-is-single-threaded-then-how-it-handles-concurrency-mid)
+[If Node.js is single threaded then how it handles concurrency?](#if-nodejs-is-single-threaded-then-how-it-handles-concurrency)
 
-[What do you mean by Asynchronous API?](#what-do-you-mean-by-asynchronous-api-mid)
+[What do you mean by Asynchronous API?](#what-do-you-mean-by-asynchronous-api)
 
-[What are the key features of Node.js?](#what-are-the-key-features-of-nodejs-mid)
+[What are the key features of Node.js?](#what-are-the-key-features-of-nodejs)
 
-[What is control flow function?  ](#what-is-control-flow-function---mid)
+[What is control flow function?  ](#what-is-control-flow-function--)
 
-[Is Node a single threaded application?](#is-node-a-single-threaded-application-mid)
+[Is Node a single threaded application?](#is-node-a-single-threaded-application)
 
-[ List out the differences between AngularJS and NodeJS?](#-list-out-the-differences-between-angularjs-and-nodejs-mid)
+[ List out the differences between AngularJS and NodeJS?](#-list-out-the-differences-between-angularjs-and-nodejs)
 
-[What is the purpose of setTimeout function?](#what-is-the-purpose-of-settimeout-function-senior)
+[What is the purpose of setTimeout function?](#what-is-the-purpose-of-settimeout-function)
 
-[What is REPL in context of Node?](#what-is-repl-in-context-of-node-senior)
+[What is REPL in context of Node?](#what-is-repl-in-context-of-node)
 
-[How can you avoid callback hells?](#how-can-you-avoid-callback-hells-senior)
+[How can you avoid callback hells?](#how-can-you-avoid-callback-hells)
 
-[What is Callback?](#what-is-callback-senior)
+[What is Callback?](#what-is-callback)
 
-[What's the event loop?](#whats-the-event-loop-senior)
+[What's the event loop?](#whats-the-event-loop)
 
-[What is a blocking code?](#what-is-a-blocking-code-senior)
+[What is a blocking code?](#what-is-a-blocking-code)
 
-[How Node prevents blocking code?](#how-node-prevents-blocking-code-senior)
+[How Node prevents blocking code?](#how-node-prevents-blocking-code)
 
-[What is Event Loop?](#what-is-event-loop-senior)
+[What is Event Loop?](#what-is-event-loop)
 
-[What is stream and what are types of streams available in Node.js?](#what-is-stream-and-what-are-types-of-streams-available-in-nodejs-senior)
+[What is stream and what are types of streams available in Node.js?](#what-is-stream-and-what-are-types-of-streams-available-in-nodejs)
 
-[What is Event Emmitter?](#what-is-event-emmitter-senior)
+[What is Event Emmitter?](#what-is-event-emmitter)
 
-[How to avoid callback hell in Node.js?](#how-to-avoid-callback-hell-in-nodejs-senior)
+[How to avoid callback hell in Node.js?](#how-to-avoid-callback-hell-in-nodejs)
 
-[What is purpose of Buffer class in Node?](#what-is-purpose-of-buffer-class-in-node-senior)
+[What is purpose of Buffer class in Node?](#what-is-purpose-of-buffer-class-in-node)
 
-[When should I use EventEmitter?](#when-should-i-use-eventemitter-senior)
+[When should I use EventEmitter?](#when-should-i-use-eventemitter)
 
-[What is difference between synchronous and asynchronous method of fs module?](#what-is-difference-between-synchronous-and-asynchronous-method-of-fs-module-senior)
+[What is difference between synchronous and asynchronous method of fs module?](#what-is-difference-between-synchronous-and-asynchronous-method-of-fs-module)
 
-[What are streams?](#what-are-streams-senior)
+[What are streams?](#what-are-streams)
 
-[What is the preferred method of resolving unhandled exceptions in Node.js?](#what-is-the-preferred-method-of-resolving-unhandled-exceptions-in-nodejs-senior)
+[What is the preferred method of resolving unhandled exceptions in Node.js?](#what-is-the-preferred-method-of-resolving-unhandled-exceptions-in-nodejs)
 
-[When should we use Node.js?](#when-should-we-use-nodejs-senior)
+[When should we use Node.js?](#when-should-we-use-nodejs)
 
-[How to use Buffer in Node.js?](#how-to-use-buffer-in-nodejs-senior)
+[How to use Buffer in Node.js?](#how-to-use-buffer-in-nodejs)
 
-[What is Chaining in Node?](#what-is-chaining-in-node-senior)
+[What is Chaining in Node?](#what-is-chaining-in-node)
 
-[What are the global objects of Node.js?](#what-are-the-global-objects-of-nodejs-senior)
+[What are the global objects of Node.js?](#what-are-the-global-objects-of-nodejs)
 
-[Explain how does Node.js work?](#explain-how-does-nodejs-work-senior)
+[Explain how does Node.js work?](#explain-how-does-nodejs-work)
 
-[How does Node.js handle child threads?](#how-does-nodejs-handle-child-threads-senior)
+[How does Node.js handle child threads?](#how-does-nodejs-handle-child-threads)
 
-[How can you listen on port 80 with Node?](#how-can-you-listen-on-port-80-with-node-expert)
+[How can you listen on port 80 with Node?](#how-can-you-listen-on-port-80-with-node)
 
-[When to not use Node.js?](#when-to-not-use-nodejs-expert)
+[When to not use Node.js?](#when-to-not-use-nodejs)
 
-[Is Node.js entirely based on a single-thread?](#is-nodejs-entirely-based-on-a-single-thread-expert)
+[Is Node.js entirely based on a single-thread?](#is-nodejs-entirely-based-on-a-single-thread)
 
-[Does Node.js support multi-core platforms? And is it capable of utilizing all the cores?](#does-nodejs-support-multi-core-platforms-and-is-it-capable-of-utilizing-all-the-cores-expert)
+[Does Node.js support multi-core platforms? And is it capable of utilizing all the cores?](#does-nodejs-support-multi-core-platforms-and-is-it-capable-of-utilizing-all-the-cores)
 
-[Why to use Buffers instead of binary strings to handle binary data ?](#why-to-use-buffers-instead-of-binary-strings-to-handle-binary-data--expert)
+[Why to use Buffers instead of binary strings to handle binary data ?](#why-to-use-buffers-instead-of-binary-strings-to-handle-binary-data-)
 
-[What's a stub? Name a use case.](#whats-a-stub-name-a-use-case-expert)
+[What's a stub? Name a use case.](#whats-a-stub-name-a-use-case)
 
-[What tools can be used to assure consistent code style?](#what-tools-can-be-used-to-assure-consistent-code-style-expert)
+[What tools can be used to assure consistent code style?](#what-tools-can-be-used-to-assure-consistent-code-style)
 
-[How to gracefully Shutdown Node.js Server?](#how-to-gracefully-shutdown-nodejs-server-expert)
+[How to gracefully Shutdown Node.js Server?](#how-to-gracefully-shutdown-nodejs-server)
 
-[Is Node.js entirely based on a single-thread?](#is-nodejs-entirely-based-on-a-single-thread-expert)
+[Is Node.js entirely based on a single-thread?](#is-nodejs-entirely-based-on-a-single-thread)
 
-[What is the purpose of __dirname variable?](#what-is-the-purpose-of-__dirname-variable-expert)
+[What is the purpose of __dirname variable?](#what-is-the-purpose-of-__dirname-variable)
 
-[What is the purpose of __filename variable?](#what-is-the-purpose-of-__filename-variable-expert)
+[What is the purpose of __filename variable?](#what-is-the-purpose-of-__filename-variable)
 
-[What are the timing features of Node.js?](#what-are-the-timing-features-of-nodejs-expert)
+[What are the timing features of Node.js?](#what-are-the-timing-features-of-nodejs)
 
-[Name some of the events fired by streams.](#name-some-of-the-events-fired-by-streams-expert)
+[Name some of the events fired by streams.](#name-some-of-the-events-fired-by-streams)
 
-[What is Piping in Node?](#what-is-piping-in-node-expert)
+[What is Piping in Node?](#what-is-piping-in-node)
 
-[Explain usage of NODE_ENV](#explain-usage-of-node_env-expert)
+[Explain usage of NODE_ENV](#explain-usage-of-node_env)
 
-[Provide some example of config file separation for dev and prod environments](#provide-some-example-of-config-file-separation-for-dev-and-prod-environments-expert)
+[Provide some example of config file separation for dev and prod environments](#provide-some-example-of-config-file-separation-for-dev-and-prod-environments)
 
-[How would you handle errors for async code in Node.js?](#how-would-you-handle-errors-for-async-code-in-nodejs-expert)
+[How would you handle errors for async code in Node.js?](#how-would-you-handle-errors-for-async-code-in-nodejs)
 
-[Explain what is Reactor Pattern in Node.js?](#explain-what-is-reactor-pattern-in-nodejs-expert)
+[Explain what is Reactor Pattern in Node.js?](#explain-what-is-reactor-pattern-in-nodejs)
 
-[Rewrite the code sample without try/catch block](#rewrite-the-code-sample-without-trycatch-block-expert)
+[Rewrite the code sample without try/catch block](#rewrite-the-code-sample-without-trycatch-block)
 
-[Consider following code snippet](#consider-following-code-snippet-expert)
+[Consider following code snippet](#consider-following-code-snippet)
 
-[Explain some Error Handling approaches in Node.js you know about. Which one will you use?](#explain-some-error-handling-approaches-in-nodejs-you-know-about-which-one-will-you-use-expert)
+[Explain some Error Handling approaches in Node.js you know about. Which one will you use?](#explain-some-error-handling-approaches-in-nodejs-you-know-about-which-one-will-you-use)
 
-[How would you scale Node application?](#how-would-you-scale-node-application-expert)
+[How would you scale Node application?](#how-would-you-scale-node-application)
 
-[What is LTS releases of Node.js why should you care?](#what-is-lts-releases-of-nodejs-why-should-you-care-expert)
+[What is LTS releases of Node.js why should you care?](#what-is-lts-releases-of-nodejs-why-should-you-care)
 
-[Why should you separate Express 'app' and 'server'?](#why-should-you-separate-express-app-and-server-expert)
+[Why should you separate Express 'app' and 'server'?](#why-should-you-separate-express-app-and-server)
 
-[Can Node.js use other engines than V8?](#can-nodejs-use-other-engines-than-v8-expert)
+[Can Node.js use other engines than V8?](#can-nodejs-use-other-engines-than-v8)
 
-[What is the difference between process.nextTick() and setImmediate() ?](#what-is-the-difference-between-processnexttick-and-setimmediate--expert)
+[What is the difference between process.nextTick() and setImmediate() ?](#what-is-the-difference-between-processnexttick-and-setimmediate-)
 
-[How to solve "Process out of Memory Exception" in Node.js ?](#how-to-solve-process-out-of-memory-exception-in-nodejs--expert)
+[How to solve "Process out of Memory Exception" in Node.js ?](#how-to-solve-process-out-of-memory-exception-in-nodejs-)
 
 
 

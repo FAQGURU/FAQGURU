@@ -1,226 +1,226 @@
 ## C#
 
-[What is C#?](#what-is-c-junior)
+[What is C#?](#what-is-c)
 
-[What is the difference between "continue" and "break" statements in C#?](#what-is-the-difference-between-continue-and-break-statements-in-c-junior)
+[What is the difference between "continue" and "break" statements in C#?](#what-is-the-difference-between-continue-and-break-statements-in-c)
 
-[What are property Accessors?](#what-are-property-accessors-junior)
+[What are property Accessors?](#what-are-property-accessors)
 
-[What is an Object?](#what-is-an-object-junior)
+[What is an Object?](#what-is-an-object)
 
-[What is the difference between a struct and a class in C#?](#what-is-the-difference-between-a-struct-and-a-class-in-c-mid)
+[What is the difference between a struct and a class in C#?](#what-is-the-difference-between-a-struct-and-a-class-in-c)
 
-[Filter out the first 3 even numbers from the list using LINQ](#filter-out-the-first-3-even-numbers-from-the-list-using-linq-mid)
+[Filter out the first 3 even numbers from the list using LINQ](#filter-out-the-first-3-even-numbers-from-the-list-using-linq)
 
-[What is enum in C#?](#what-is-enum-in-c-mid)
+[What is enum in C#?](#what-is-enum-in-c)
 
-[How is Exception Handling implemented in C#?](#how-is-exception-handling-implemented-in-c-mid)
+[How is Exception Handling implemented in C#?](#how-is-exception-handling-implemented-in-c)
 
-[Why to use “finally” block in C#?](#why-to-use-finally-block-in-c-mid)
+[Why to use “finally” block in C#?](#why-to-use-finally-block-in-c)
 
-[What are nullable types in C#?](#what-are-nullable-types-in-c-mid)
+[What are nullable types in C#?](#what-are-nullable-types-in-c)
 
-[What are dynamic type variables in C#?](#what-are-dynamic-type-variables-in-c-mid)
+[What are dynamic type variables in C#?](#what-are-dynamic-type-variables-in-c)
 
-[Can "this" be used within a static method?](#can-this-be-used-within-a-static-method-mid)
+[Can "this" be used within a static method?](#can-this-be-used-within-a-static-method)
 
-[Define Property in C#?](#define-property-in-c-mid)
+[Define Property in C#?](#define-property-in-c)
 
-[What is Managed or Unmanaged Code?](#what-is-managed-or-unmanaged-code-mid)
+[What is Managed or Unmanaged Code?](#what-is-managed-or-unmanaged-code)
 
-[What are reference types in C#?](#what-are-reference-types-in-c-mid)
+[What are reference types in C#?](#what-are-reference-types-in-c)
 
-[What is namespace in C#?](#what-is-namespace-in-c-mid)
+[What is namespace in C#?](#what-is-namespace-in-c)
 
-[What is the difference between string and StringBuilder in c#?](#what-is-the-difference-between-string-and-stringbuilder-in-c-mid)
+[What is the difference between string and StringBuilder in c#?](#what-is-the-difference-between-string-and-stringbuilder-in-c)
 
-[In how many ways you can pass parameters to a method?](#in-how-many-ways-you-can-pass-parameters-to-a-method-mid)
+[In how many ways you can pass parameters to a method?](#in-how-many-ways-you-can-pass-parameters-to-a-method)
 
-[Can you return multiple values from a function in C#?](#can-you-return-multiple-values-from-a-function-in-c-mid)
+[Can you return multiple values from a function in C#?](#can-you-return-multiple-values-from-a-function-in-c)
 
-[What are partial classes?](#what-are-partial-classes-mid)
+[What are partial classes?](#what-are-partial-classes)
 
-[What is an Abstract Class?](#what-is-an-abstract-class-mid)
+[What is an Abstract Class?](#what-is-an-abstract-class)
 
-[What is Boxing and Unboxing?](#what-is-boxing-and-unboxing-mid)
+[What is Boxing and Unboxing?](#what-is-boxing-and-unboxing)
 
-[What are the different types of classes in C#?](#what-are-the-different-types-of-classes-in-c-mid)
+[What are the different types of classes in C#?](#what-are-the-different-types-of-classes-in-c)
 
-[Why can't you specify the accessibility modifier for methods inside the interface?](#why-cant-you-specify-the-accessibility-modifier-for-methods-inside-the-interface-mid)
+[Why can't you specify the accessibility modifier for methods inside the interface?](#why-cant-you-specify-the-accessibility-modifier-for-methods-inside-the-interface)
 
-[What are Custom Exceptions?](#what-are-custom-exceptions-mid)
+[What are Custom Exceptions?](#what-are-custom-exceptions)
 
-[Can multiple catch blocks be executed?](#can-multiple-catch-blocks-be-executed-mid)
+[Can multiple catch blocks be executed?](#can-multiple-catch-blocks-be-executed)
 
-[What is LINQ in C#?](#what-is-linq-in-c-mid)
+[What is LINQ in C#?](#what-is-linq-in-c)
 
-[What is Serialization?](#what-is-serialization-mid)
+[What is Serialization?](#what-is-serialization)
 
-[What you understand by Value types and Reference types in C#.Net?](#what-you-understand-by-value-types-and-reference-types-in-cnet-mid)
+[What you understand by Value types and Reference types in C#.Net?](#what-you-understand-by-value-types-and-reference-types-in-cnet)
 
-[What are generics in C#?](#what-are-generics-in-c-mid)
+[What are generics in C#?](#what-are-generics-in-c)
 
-[What is the difference between ref and out keywords?](#what-is-the-difference-between-ref-and-out-keywords-senior)
+[What is the difference between ref and out keywords?](#what-is-the-difference-between-ref-and-out-keywords)
 
-[What is the difference between Equality Operator (==) and Equals() Method in C#?](#what-is-the-difference-between-equality-operator--and-equals-method-in-c-senior)
+[What is the difference between Equality Operator (==) and Equals() Method in C#?](#what-is-the-difference-between-equality-operator--and-equals-method-in-c)
 
-[What is an anonymous function in C#?](#what-is-an-anonymous-function-in-c-senior)
+[What is an anonymous function in C#?](#what-is-an-anonymous-function-in-c)
 
-[What is lambda expressions in C#?](#what-is-lambda-expressions-in-c-senior)
+[What is lambda expressions in C#?](#what-is-lambda-expressions-in-c)
 
-[What is the difference between Interface and Abstract Class?](#what-is-the-difference-between-interface-and-abstract-class-senior)
+[What is the difference between Interface and Abstract Class?](#what-is-the-difference-between-interface-and-abstract-class)
 
-[What is Virtual Method in C#?](#what-is-virtual-method-in-c-senior)
+[What is Virtual Method in C#?](#what-is-virtual-method-in-c)
 
-[Refactor the code](#refactor-the-code-senior)
+[Refactor the code](#refactor-the-code)
 
-[What is the output of the program below? Explain your answer.](#what-is-the-output-of-the-program-below-explain-your-answer-senior)
+[What is the output of the program below? Explain your answer.](#what-is-the-output-of-the-program-below-explain-your-answer)
 
-[Given an array of ints, write a C# method to total all the values that are even numbers.](#given-an-array-of-ints-write-a-c-method-to-total-all-the-values-that-are-even-numbers-senior)
+[Given an array of ints, write a C# method to total all the values that are even numbers.](#given-an-array-of-ints-write-a-c-method-to-total-all-the-values-that-are-even-numbers)
 
-[What is the difference between constant and readonly in c#?](#what-is-the-difference-between-constant-and-readonly-in-c-senior)
+[What is the difference between constant and readonly in c#?](#what-is-the-difference-between-constant-and-readonly-in-c)
 
-[What are the uses of “using” in C#](#what-are-the-uses-of-using-in-c-senior)
+[What are the uses of “using” in C#](#what-are-the-uses-of-using-in-c)
 
-[What is the use of Null Coalescing Operator (??) in C#?](#what-is-the-use-of-null-coalescing-operator--in-c-senior)
+[What is the use of Null Coalescing Operator (??) in C#?](#what-is-the-use-of-null-coalescing-operator--in-c)
 
-[What is scope of a Internal member variable of a C# class?](#what-is-scope-of-a-internal-member-variable-of-a-c-class-senior)
+[What is scope of a Internal member variable of a C# class?](#what-is-scope-of-a-internal-member-variable-of-a-c-class)
 
-[Explain Anonymous type in C#](#explain-anonymous-type-in-c-senior)
+[Explain Anonymous type in C#](#explain-anonymous-type-in-c)
 
-[What is difference between Throw Exception and Throw Clause?](#what-is-difference-between-throw-exception-and-throw-clause-senior)
+[What is difference between Throw Exception and Throw Clause?](#what-is-difference-between-throw-exception-and-throw-clause)
 
-[What is Reflection in C#.Net?](#what-is-reflection-in-cnet-senior)
+[What is Reflection in C#.Net?](#what-is-reflection-in-cnet)
 
-[How encapsulation is implemented in C#?](#how-encapsulation-is-implemented-in-c-senior)
+[How encapsulation is implemented in C#?](#how-encapsulation-is-implemented-in-c)
 
-[What is difference between constants and readonly?](#what-is-difference-between-constants-and-readonly-senior)
+[What is difference between constants and readonly?](#what-is-difference-between-constants-and-readonly)
 
-[What is the difference between dynamic type variables and object type variables?](#what-is-the-difference-between-dynamic-type-variables-and-object-type-variables-senior)
+[What is the difference between dynamic type variables and object type variables?](#what-is-the-difference-between-dynamic-type-variables-and-object-type-variables)
 
-[ What is extension method in C# and how to use them?](#-what-is-extension-method-in-c-and-how-to-use-them-senior)
+[ What is extension method in C# and how to use them?](#-what-is-extension-method-in-c-and-how-to-use-them)
 
-[What is delegates in C# and uses of delegates?](#what-is-delegates-in-c-and-uses-of-delegates-senior)
+[What is delegates in C# and uses of delegates?](#what-is-delegates-in-c-and-uses-of-delegates)
 
-[What is sealed class in C#?](#what-is-sealed-class-in-c-senior)
+[What is sealed class in C#?](#what-is-sealed-class-in-c)
 
-[What is the difference between overloading and overriding?](#what-is-the-difference-between-overloading-and-overriding-senior)
+[What is the difference between overloading and overriding?](#what-is-the-difference-between-overloading-and-overriding)
 
-[Explain Code compilation in C#](#explain-code-compilation-in-c-senior)
+[Explain Code compilation in C#](#explain-code-compilation-in-c)
 
-[What is the difference between Virtual method and Abstract method?](#what-is-the-difference-between-virtual-method-and-abstract-method-senior)
+[What is the difference between Virtual method and Abstract method?](#what-is-the-difference-between-virtual-method-and-abstract-method)
 
-[What is a Destructor in C#?](#what-is-a-destructor-in-c-senior)
+[What is a Destructor in C#?](#what-is-a-destructor-in-c)
 
-[What's the difference between StackOverflowError and OutOfMemoryError?](#whats-the-difference-between-stackoverflowerror-and-outofmemoryerror-expert)
+[What's the difference between StackOverflowError and OutOfMemoryError?](#whats-the-difference-between-stackoverflowerror-and-outofmemoryerror)
 
-[What is difference between late binding and early binding in C#?](#what-is-difference-between-late-binding-and-early-binding-in-c-expert)
+[What is difference between late binding and early binding in C#?](#what-is-difference-between-late-binding-and-early-binding-in-c)
 
-[What are the different ways a method can be overloaded?](#what-are-the-different-ways-a-method-can-be-overloaded-expert)
+[What are the different ways a method can be overloaded?](#what-are-the-different-ways-a-method-can-be-overloaded)
 
-[What is the difference between dispose and finalize methods in c#?](#what-is-the-difference-between-dispose-and-finalize-methods-in-c-expert)
+[What is the difference between dispose and finalize methods in c#?](#what-is-the-difference-between-dispose-and-finalize-methods-in-c)
 
-[What is marshalling and why do we need it?](#what-is-marshalling-and-why-do-we-need-it-expert)
+[What is marshalling and why do we need it?](#what-is-marshalling-and-why-do-we-need-it)
 
-[Describe the accessibility modifier "protected internal".](#describe-the-accessibility-modifier-protected-internal-expert)
+[Describe the accessibility modifier "protected internal".](#describe-the-accessibility-modifier-protected-internal)
 
-[What are pointer types in C#?](#what-are-pointer-types-in-c-expert)
+[What are pointer types in C#?](#what-are-pointer-types-in-c)
 
-[What are the differences between a multidimensional array and an array of arrays in C#?](#what-are-the-differences-between-a-multidimensional-array-and-an-array-of-arrays-in-c-expert)
+[What are the differences between a multidimensional array and an array of arrays in C#?](#what-are-the-differences-between-a-multidimensional-array-and-an-array-of-arrays-in-c)
 
-[What is scope of a Protected Internal member variable of a C# class?](#what-is-scope-of-a-protected-internal-member-variable-of-a-c-class-expert)
+[What is scope of a Protected Internal member variable of a C# class?](#what-is-scope-of-a-protected-internal-member-variable-of-a-c-class)
 
-[Can you create a function in C# which can accept varying number of arguments?](#can-you-create-a-function-in-c-which-can-accept-varying-number-of-arguments-expert)
+[Can you create a function in C# which can accept varying number of arguments?](#can-you-create-a-function-in-c-which-can-accept-varying-number-of-arguments)
 
-[Is operator overloading supported in C#?](#is-operator-overloading-supported-in-c-expert)
+[Is operator overloading supported in C#?](#is-operator-overloading-supported-in-c)
 
-[What is the use of conditional preprocessor directive in C#?](#what-is-the-use-of-conditional-preprocessor-directive-in-c-expert)
+[What is the use of conditional preprocessor directive in C#?](#what-is-the-use-of-conditional-preprocessor-directive-in-c)
 
-[What is the difference between System.ApplicationException class and System.SystemException class?](#what-is-the-difference-between-systemapplicationexception-class-and-systemsystemexception-class-expert)
+[What is the difference between System.ApplicationException class and System.SystemException class?](#what-is-the-difference-between-systemapplicationexception-class-and-systemsystemexception-class)
 
-[What is Indexer in C#?](#what-is-indexer-in-c-expert)
+[What is Indexer in C#?](#what-is-indexer-in-c)
 
-[Can we have only “try” block without “catch” block in C#?](#can-we-have-only-try-block-without-catch-block-in-c-expert)
+[Can we have only “try” block without “catch” block in C#?](#can-we-have-only-try-block-without-catch-block-in-c)
 
-[In try block if we add return statement whether finally block is executed in C#?](#in-try-block-if-we-add-return-statement-whether-finally-block-is-executed-in-c-expert)
+[In try block if we add return statement whether finally block is executed in C#?](#in-try-block-if-we-add-return-statement-whether-finally-block-is-executed-in-c)
 
-[What is the Constructor Chaining in C#?](#what-is-the-constructor-chaining-in-c-expert)
+[What is the Constructor Chaining in C#?](#what-is-the-constructor-chaining-in-c)
 
-[What are the uses of delegates in C#?](#what-are-the-uses-of-delegates-in-c-expert)
+[What are the uses of delegates in C#?](#what-are-the-uses-of-delegates-in-c)
 
-[Why to use lock statement in C#?](#why-to-use-lock-statement-in-c-expert)
+[Why to use lock statement in C#?](#why-to-use-lock-statement-in-c)
 
-[Can Multiple Inheritance implemented in C# ?](#can-multiple-inheritance-implemented-in-c--expert)
+[Can Multiple Inheritance implemented in C# ?](#can-multiple-inheritance-implemented-in-c-)
 
-[What is the output of the short program below? Explain your answer.](#what-is-the-output-of-the-short-program-below-explain-your-answer-expert)
+[What is the output of the short program below? Explain your answer.](#what-is-the-output-of-the-short-program-below-explain-your-answer)
 
-[Is the comparison of time and null in the if statement below valid or not? Why or why not?](#is-the-comparison-of-time-and-null-in-the-if-statement-below-valid-or-not-why-or-why-not-expert)
+[Is the comparison of time and null in the if statement below valid or not? Why or why not?](#is-the-comparison-of-time-and-null-in-the-if-statement-below-valid-or-not-why-or-why-not)
 
-[What is the output of the program below? Explain your answer.](#what-is-the-output-of-the-program-below-explain-your-answer-expert)
+[What is the output of the program below? Explain your answer.](#what-is-the-output-of-the-program-below-explain-your-answer)
 
-[What is the output of the program below?](#what-is-the-output-of-the-program-below-expert)
+[What is the output of the program below?](#what-is-the-output-of-the-program-below)
 
-[When to use ArrayList over array[] in c#?](#when-to-use-arraylist-over-array-in-c-expert)
+[When to use ArrayList over array[] in c#?](#when-to-use-arraylist-over-array-in-c)
 
-[What is the "yield" keyword used for in C#?](#what-is-the-yield-keyword-used-for-in-c-expert)
+[What is the "yield" keyword used for in C#?](#what-is-the-yield-keyword-used-for-in-c)
 
-[What is an Object Pool in .Net?](#what-is-an-object-pool-in-net-expert)
+[What is an Object Pool in .Net?](#what-is-an-object-pool-in-net)
 
-[What interface should your data structure implement to make the "Where" method work?](#what-interface-should-your-data-structure-implement-to-make-the-where-method-work-expert)
+[What interface should your data structure implement to make the "Where" method work?](#what-interface-should-your-data-structure-implement-to-make-the-where-method-work)
 
-[IEnumerable vs List - What to Use? How do they work?](#ienumerable-vs-list---what-to-use-how-do-they-work-expert)
+[IEnumerable vs List - What to Use? How do they work?](#ienumerable-vs-list---what-to-use-how-do-they-work)
 
-[Name difference between "is" and "as" operator in C#](#name-difference-between-is-and-as-operator-in-c-expert)
+[Name difference between "is" and "as" operator in C#](#name-difference-between-is-and-as-operator-in-c)
 
-[What is the difference between Func<string,string> and delegate?](#what-is-the-difference-between-funcstringstring-and-delegate-expert)
+[What is the difference between Func<string,string> and delegate?](#what-is-the-difference-between-funcstringstring-and-delegate)
 
-[Explain the difference between Select and Where](#explain-the-difference-between-select-and-where-expert)
+[Explain the difference between Select and Where](#explain-the-difference-between-select-and-where)
 
-[Explain what is short-circuit evaluation in C#](#explain-what-is-short-circuit-evaluation-in-c-expert)
+[Explain what is short-circuit evaluation in C#](#explain-what-is-short-circuit-evaluation-in-c)
 
-[List some different ways for equality check in .Net](#list-some-different-ways-for-equality-check-in-net-expert)
+[List some different ways for equality check in .Net](#list-some-different-ways-for-equality-check-in-net)
 
-[What is multicast delegate in C#?](#what-is-multicast-delegate-in-c-expert)
+[What is multicast delegate in C#?](#what-is-multicast-delegate-in-c)
 
-[What is jagged array in C#.Net and when to prefer jagged arrays over multi-dimensional arrays?](#what-is-jagged-array-in-cnet-and-when-to-prefer-jagged-arrays-over-multi-dimensional-arrays-expert)
+[What is jagged array in C#.Net and when to prefer jagged arrays over multi-dimensional arrays?](#what-is-jagged-array-in-cnet-and-when-to-prefer-jagged-arrays-over-multi-dimensional-arrays)
 
-[Can you create sealed abstract class in C#?](#can-you-create-sealed-abstract-class-in-c-expert)
+[Can you create sealed abstract class in C#?](#can-you-create-sealed-abstract-class-in-c)
 
-[What is deep or shallow copy concept in C#?](#what-is-deep-or-shallow-copy-concept-in-c-expert)
+[What is deep or shallow copy concept in C#?](#what-is-deep-or-shallow-copy-concept-in-c)
 
-[What is a preprocessor directives in C#?](#what-is-a-preprocessor-directives-in-c-expert)
+[What is a preprocessor directives in C#?](#what-is-a-preprocessor-directives-in-c)
 
-[Could you explain the difference between destructor, dispose and finalize method?](#could-you-explain-the-difference-between-destructor-dispose-and-finalize-method-expert)
+[Could you explain the difference between destructor, dispose and finalize method?](#could-you-explain-the-difference-between-destructor-dispose-and-finalize-method)
 
-[What's the difference between the System.Array.CopyTo() and System.Array.Clone()?](#whats-the-difference-between-the-systemarraycopyto-and-systemarrayclone-expert)
+[What's the difference between the System.Array.CopyTo() and System.Array.Clone()?](#whats-the-difference-between-the-systemarraycopyto-and-systemarrayclone)
 
-[What are the benefits of a Deferred Execution in LINQ?](#what-are-the-benefits-of-a-deferred-execution-in-linq-expert)
+[What are the benefits of a Deferred Execution in LINQ?](#what-are-the-benefits-of-a-deferred-execution-in-linq)
 
-[What is the method MemberwiseClone() doing?](#what-is-the-method-memberwiseclone-doing-expert)
+[What is the method MemberwiseClone() doing?](#what-is-the-method-memberwiseclone-doing)
 
-[What are circular references?](#what-are-circular-references-expert)
+[What are circular references?](#what-are-circular-references)
 
-[What is the difference between lambdas and delegates?](#what-is-the-difference-between-lambdas-and-delegates-expert)
+[What is the difference between lambdas and delegates?](#what-is-the-difference-between-lambdas-and-delegates)
 
-[What are the differences between IEnumerable and IQueryable?](#what-are-the-differences-between-ienumerable-and-iqueryable-expert)
+[What are the differences between IEnumerable and IQueryable?](#what-are-the-differences-between-ienumerable-and-iqueryable)
 
-[Could you explain the difference between Func vs. Action vs. Predicate?](#could-you-explain-the-difference-between-func-vs-action-vs-predicate-expert)
+[Could you explain the difference between Func vs. Action vs. Predicate?](#could-you-explain-the-difference-between-func-vs-action-vs-predicate)
 
-[Explain what is weak reference in C#?](#explain-what-is-weak-reference-in-c-expert)
+[Explain what is weak reference in C#?](#explain-what-is-weak-reference-in-c)
 
-[Explain the difference between IQueryable, ICollection, IList & IDictionary interfaces?](#explain-the-difference-between-iqueryable-icollection-ilist--idictionary-interfaces-expert)
+[Explain the difference between IQueryable, ICollection, IList & IDictionary interfaces?](#explain-the-difference-between-iqueryable-icollection-ilist--idictionary-interfaces)
 
-[ in C#, when should we use abstract classes instead of interfaces with extension methods?](#-in-c-when-should-we-use-abstract-classes-instead-of-interfaces-with-extension-methods-expert)
+[ in C#, when should we use abstract classes instead of interfaces with extension methods?](#-in-c-when-should-we-use-abstract-classes-instead-of-interfaces-with-extension-methods)
 
-[Can you add extension methods to an existing static class?](#can-you-add-extension-methods-to-an-existing-static-class-expert)
+[Can you add extension methods to an existing static class?](#can-you-add-extension-methods-to-an-existing-static-class)
 
-[Implement the "Where" method in C#](#implement-the-where-method-in-c-expert)
+[Implement the "Where" method in C#](#implement-the-where-method-in-c)
 
-[What is the “volatile” keyword used for?](#what-is-the-volatile-keyword-used-for-expert)
+[What is the “volatile” keyword used for?](#what-is-the-volatile-keyword-used-for)
 
-[Calculate the circumference of the circle](#calculate-the-circumference-of-the-circle-expert)
+[Calculate the circumference of the circle](#calculate-the-circumference-of-the-circle)
 
-[What is the use of static constructors?](#what-is-the-use-of-static-constructors-expert)
+[What is the use of static constructors?](#what-is-the-use-of-static-constructors)
 
 
 

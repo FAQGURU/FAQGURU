@@ -1,128 +1,128 @@
 ## AngularJS
 
-[Why to use AngularJS?](#why-to-use-angularjs-junior)
+[Why to use AngularJS?](#why-to-use-angularjs)
 
-[What is the difference between "ng-show"/"ng-hide" and "ng-if" directives?](#what-is-the-difference-between-ng-showng-hide-and-ng-if-directives-junior)
+[What is the difference between "ng-show"/"ng-hide" and "ng-if" directives?](#what-is-the-difference-between-ng-showng-hide-and-ng-if-directives)
 
-[Does AngularJS has dependency on jQuery?](#does-angularjs-has-dependency-on-jquery-mid)
+[Does AngularJS has dependency on jQuery?](#does-angularjs-has-dependency-on-jquery)
 
-[How do you hide an HTML element via a button click in AngularJS?](#how-do-you-hide-an-html-element-via-a-button-click-in-angularjs-mid)
+[How do you hide an HTML element via a button click in AngularJS?](#how-do-you-hide-an-html-element-via-a-button-click-in-angularjs)
 
-[What is a singleton pattern and where we can find it in AngularJS?](#what-is-a-singleton-pattern-and-where-we-can-find-it-in-angularjs-mid)
+[What is a singleton pattern and where we can find it in AngularJS?](#what-is-a-singleton-pattern-and-where-we-can-find-it-in-angularjs)
 
-[What are the AngularJS features?](#what-are-the-angularjs-features-mid)
+[What are the AngularJS features?](#what-are-the-angularjs-features)
 
-[When dependent modules of a module are loaded?](#when-dependent-modules-of-a-module-are-loaded-mid)
+[When dependent modules of a module are loaded?](#when-dependent-modules-of-a-module-are-loaded)
 
-[What is Angular’s prefixes $ and $$?](#what-is-angulars-prefixes--and--mid)
+[What is Angular’s prefixes $ and $$?](#what-is-angulars-prefixes--and-)
 
-[What are Filters in AngularJS?](#what-are-filters-in-angularjs-mid)
+[What are Filters in AngularJS?](#what-are-filters-in-angularjs)
 
-[What are Directives in AngularJS?](#what-are-directives-in-angularjs-mid)
+[What are Directives in AngularJS?](#what-are-directives-in-angularjs)
 
-[What are Directives?](#what-are-directives-mid)
+[What are Directives?](#what-are-directives)
 
-[Explain what is a "$scope" in AngularJS](#explain-what-is-a-scope-in-angularjs-mid)
+[Explain what is a "$scope" in AngularJS](#explain-what-is-a-scope-in-angularjs)
 
-[What directive would you use to hide elements from the HTML DOM by removing them from that DOM not changing their styling?](#what-directive-would-you-use-to-hide-elements-from-the-html-dom-by-removing-them-from-that-dom-not-changing-their-styling-mid)
+[What directive would you use to hide elements from the HTML DOM by removing them from that DOM not changing their styling?](#what-directive-would-you-use-to-hide-elements-from-the-html-dom-by-removing-them-from-that-dom-not-changing-their-styling)
 
-[What is the difference between one-way binding and two-way binding?](#what-is-the-difference-between-one-way-binding-and-two-way-binding-mid)
+[What is the difference between one-way binding and two-way binding?](#what-is-the-difference-between-one-way-binding-and-two-way-binding)
 
-[What is auto bootstrap process in AngularJS?](#what-is-auto-bootstrap-process-in-angularjs-mid)
+[What is auto bootstrap process in AngularJS?](#what-is-auto-bootstrap-process-in-angularjs)
 
-[How would you specify that a scope variable should have one-time binding only?](#how-would-you-specify-that-a-scope-variable-should-have-one-time-binding-only-mid)
+[How would you specify that a scope variable should have one-time binding only?](#how-would-you-specify-that-a-scope-variable-should-have-one-time-binding-only)
 
-[What is scope in AngularJS?](#what-is-scope-in-angularjs-mid)
+[What is scope in AngularJS?](#what-is-scope-in-angularjs)
 
-[How do you disable a button depending on a checkbox’s state?](#how-do-you-disable-a-button-depending-on-a-checkboxs-state-mid)
+[How do you disable a button depending on a checkbox’s state?](#how-do-you-disable-a-button-depending-on-a-checkboxs-state)
 
-[What is scope hierarchy?](#what-is-scope-hierarchy-mid)
+[What is scope hierarchy?](#what-is-scope-hierarchy)
 
-[How do you share data between controllers?](#how-do-you-share-data-between-controllers-mid)
+[How do you share data between controllers?](#how-do-you-share-data-between-controllers)
 
-[What are the basic steps to unit test an AngularJS filter?](#what-are-the-basic-steps-to-unit-test-an-angularjs-filter-mid)
+[What are the basic steps to unit test an AngularJS filter?](#what-are-the-basic-steps-to-unit-test-an-angularjs-filter)
 
-[What are the basic steps to unit test an AngularJS filter?](#what-are-the-basic-steps-to-unit-test-an-angularjs-filter-mid)
+[What are the basic steps to unit test an AngularJS filter?](#what-are-the-basic-steps-to-unit-test-an-angularjs-filter)
 
-[ What are the advantage of AngularJS?](#-what-are-the-advantage-of-angularjs-mid)
+[ What are the advantage of AngularJS?](#-what-are-the-advantage-of-angularjs)
 
-[Explain what is services in AngularJS](#explain-what-is-services-in-angularjs-mid)
+[Explain what is services in AngularJS](#explain-what-is-services-in-angularjs)
 
-[Explain what is directive and mention what are the different types of Directive?](#explain-what-is-directive-and-mention-what-are-the-different-types-of-directive-mid)
+[Explain what is directive and mention what are the different types of Directive?](#explain-what-is-directive-and-mention-what-are-the-different-types-of-directive)
 
-[How would you validate a text input field for a twitter username, including the @ symbol?](#how-would-you-validate-a-text-input-field-for-a-twitter-username-including-the--symbol-senior)
+[How would you validate a text input field for a twitter username, including the @ symbol?](#how-would-you-validate-a-text-input-field-for-a-twitter-username-including-the--symbol)
 
-[Explain what is the difference between link and compile in AngularJS?](#explain-what-is-the-difference-between-link-and-compile-in-angularjs-senior)
+[Explain what is the difference between link and compile in AngularJS?](#explain-what-is-the-difference-between-link-and-compile-in-angularjs)
 
-[How would you react on model changes to trigger some further action? ](#how-would-you-react-on-model-changes-to-trigger-some-further-action--senior)
+[How would you react on model changes to trigger some further action? ](#how-would-you-react-on-model-changes-to-trigger-some-further-action-)
 
-[What is jQLite/jQuery Lite?](#what-is-jqlitejquery-lite-senior)
+[What is jQLite/jQuery Lite?](#what-is-jqlitejquery-lite)
 
-[What should be the maximum number of concurrent “watches”?](#what-should-be-the-maximum-number-of-concurrent-watches-senior)
+[What should be the maximum number of concurrent “watches”?](#what-should-be-the-maximum-number-of-concurrent-watches)
 
-[What is a digest cycle in AngularJS?](#what-is-a-digest-cycle-in-angularjs-senior)
+[What is a digest cycle in AngularJS?](#what-is-a-digest-cycle-in-angularjs)
 
-[Where should we implement the DOM manipulation in AngularJS?](#where-should-we-implement-the-dom-manipulation-in-angularjs-senior)
+[Where should we implement the DOM manipulation in AngularJS?](#where-should-we-implement-the-dom-manipulation-in-angularjs)
 
-[Is it a good or bad practice to use AngularJS together with jQuery?](#is-it-a-good-or-bad-practice-to-use-angularjs-together-with-jquery-senior)
+[Is it a good or bad practice to use AngularJS together with jQuery?](#is-it-a-good-or-bad-practice-to-use-angularjs-together-with-jquery)
 
-[If you were to migrate from Angular 1.4 to Angular 1.5, what is the main thing that would need refactoring?](#if-you-were-to-migrate-from-angular-14-to-angular-15-what-is-the-main-thing-that-would-need-refactoring-senior)
+[If you were to migrate from Angular 1.4 to Angular 1.5, what is the main thing that would need refactoring?](#if-you-were-to-migrate-from-angular-14-to-angular-15-what-is-the-main-thing-that-would-need-refactoring)
 
-[ Explain what Angular JS routes does?](#-explain-what-angular-js-routes-does-senior)
+[ Explain what Angular JS routes does?](#-explain-what-angular-js-routes-does)
 
-[Explain what is Angular Expression? Explain what is key difference between angular expressions and JavaScript expressions?](#explain-what-is-angular-expression-explain-what-is-key-difference-between-angular-expressions-and-javascript-expressions-senior)
+[Explain what is Angular Expression? Explain what is key difference between angular expressions and JavaScript expressions?](#explain-what-is-angular-expression-explain-what-is-key-difference-between-angular-expressions-and-javascript-expressions)
 
-[What is restrict option in directive?](#what-is-restrict-option-in-directive-senior)
+[What is restrict option in directive?](#what-is-restrict-option-in-directive)
 
-[How would you make an Angular service return a promise?](#how-would-you-make-an-angular-service-return-a-promise-senior)
+[How would you make an Angular service return a promise?](#how-would-you-make-an-angular-service-return-a-promise)
 
-[What is the role of services in AngularJS and name any services made available by default?](#what-is-the-role-of-services-in-angularjs-and-name-any-services-made-available-by-default-senior)
+[What is the role of services in AngularJS and name any services made available by default?](#what-is-the-role-of-services-in-angularjs-and-name-any-services-made-available-by-default)
 
-[How do you reset a "$timeout", "$interval()", and disable a "$watch()"?](#how-do-you-reset-a-timeout-interval-and-disable-a-watch-senior)
+[How do you reset a "$timeout", "$interval()", and disable a "$watch()"?](#how-do-you-reset-a-timeout-interval-and-disable-a-watch)
 
-[What are different ways to invoke a directive?](#what-are-different-ways-to-invoke-a-directive-senior)
+[What are different ways to invoke a directive?](#what-are-different-ways-to-invoke-a-directive)
 
-[What is the role of ng-app, ng-init and ng-model directives?](#what-is-the-role-of-ng-app-ng-init-and-ng-model-directives-senior)
+[What is the role of ng-app, ng-init and ng-model directives?](#what-is-the-role-of-ng-app-ng-init-and-ng-model-directives)
 
-[How to access jQLite?](#how-to-access-jqlite-senior)
+[How to access jQLite?](#how-to-access-jqlite)
 
-[What is an interceptor? What are common uses of it?](#what-is-an-interceptor-what-are-common-uses-of-it-senior)
+[What is an interceptor? What are common uses of it?](#what-is-an-interceptor-what-are-common-uses-of-it)
 
-[What is manual bootstrap process in AngularJS?](#what-is-manual-bootstrap-process-in-angularjs-senior)
+[What is manual bootstrap process in AngularJS?](#what-is-manual-bootstrap-process-in-angularjs)
 
-[What makes the `angular.copy()` method so powerful?](#what-makes-the-angularcopy-method-so-powerful-expert)
+[What makes the `angular.copy()` method so powerful?](#what-makes-the-angularcopy-method-so-powerful)
 
-[Explain what is linking function and type of linking function?](#explain-what-is-linking-function-and-type-of-linking-function-expert)
+[Explain what is linking function and type of linking function?](#explain-what-is-linking-function-and-type-of-linking-function)
 
-[Explain what is injector?](#explain-what-is-injector-expert)
+[Explain what is injector?](#explain-what-is-injector)
 
-[When creating a directive, it can be used in several different ways in the view. Which ways for using a directive do you know? How do you define the way your directive will be used?](#when-creating-a-directive-it-can-be-used-in-several-different-ways-in-the-view-which-ways-for-using-a-directive-do-you-know-how-do-you-define-the-way-your-directive-will-be-used-expert)
+[When creating a directive, it can be used in several different ways in the view. Which ways for using a directive do you know? How do you define the way your directive will be used?](#when-creating-a-directive-it-can-be-used-in-several-different-ways-in-the-view-which-ways-for-using-a-directive-do-you-know-how-do-you-define-the-way-your-directive-will-be-used)
 
-[When should you use an attribute versus an element?](#when-should-you-use-an-attribute-versus-an-element-expert)
+[When should you use an attribute versus an element?](#when-should-you-use-an-attribute-versus-an-element)
 
-[Explain what is DI (Dependency Injection ) and how an object or function can get a hold of its dependencies?](#explain-what-is-di-dependency-injection--and-how-an-object-or-function-can-get-a-hold-of-its-dependencies-expert)
+[Explain what is DI (Dependency Injection ) and how an object or function can get a hold of its dependencies?](#explain-what-is-di-dependency-injection--and-how-an-object-or-function-can-get-a-hold-of-its-dependencies)
 
-[Explain how `$scope.$apply()` works?](#explain-how-scopeapply-works-expert)
+[Explain how `$scope.$apply()` works?](#explain-how-scopeapply-works)
 
-[How AngularJS is compiled?](#how-angularjs-is-compiled-expert)
+[How AngularJS is compiled?](#how-angularjs-is-compiled)
 
-[What is DDO (Directive Definition Object)?](#what-is-ddo-directive-definition-object-expert)
+[What is DDO (Directive Definition Object)?](#what-is-ddo-directive-definition-object)
 
-[Can you define multiple restrict options on a directive?](#can-you-define-multiple-restrict-options-on-a-directive-expert)
+[Can you define multiple restrict options on a directive?](#can-you-define-multiple-restrict-options-on-a-directive)
 
-[What is the difference between $scope and scope?](#what-is-the-difference-between-scope-and-scope-expert)
+[What is the difference between $scope and scope?](#what-is-the-difference-between-scope-and-scope)
 
-[How would you implement application-wide exception handling in your Angular app?](#how-would-you-implement-application-wide-exception-handling-in-your-angular-app-expert)
+[How would you implement application-wide exception handling in your Angular app?](#how-would-you-implement-application-wide-exception-handling-in-your-angular-app)
 
-[ What is $scope and $rootScope?](#-what-is-scope-and-rootscope-expert)
+[ What is $scope and $rootScope?](#-what-is-scope-and-rootscope)
 
-[How would you programatically change or adapt the template of a directive before it is executed and transformed?](#how-would-you-programatically-change-or-adapt-the-template-of-a-directive-before-it-is-executed-and-transformed-expert)
+[How would you programatically change or adapt the template of a directive before it is executed and transformed?](#how-would-you-programatically-change-or-adapt-the-template-of-a-directive-before-it-is-executed-and-transformed)
 
-[How AngularJS compilation is different from other JavaScript frameworks?](#how-angularjs-compilation-is-different-from-other-javascript-frameworks-expert)
+[How AngularJS compilation is different from other JavaScript frameworks?](#how-angularjs-compilation-is-different-from-other-javascript-frameworks)
 
-[How Directives are compiled?](#how-directives-are-compiled-expert)
+[How Directives are compiled?](#how-directives-are-compiled)
 
-[What are Compile, Pre and Post linking in AngularJS?](#what-are-compile-pre-and-post-linking-in-angularjs-expert)
+[What are Compile, Pre and Post linking in AngularJS?](#what-are-compile-pre-and-post-linking-in-angularjs)
 
 
 

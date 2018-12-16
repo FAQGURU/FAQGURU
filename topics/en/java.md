@@ -1,210 +1,210 @@
 ## Java
 
-[What is JVM? Why is Java called the “Platform Independent Programming Language”? ](#what-is-jvm-why-is-java-called-the-platform-independent-programming-language--junior)
+[What is JVM? Why is Java called the “Platform Independent Programming Language”? ](#what-is-jvm-why-is-java-called-the-platform-independent-programming-language-)
 
-[What is a Servlet?](#what-is-a-servlet-junior)
+[What is a Servlet?](#what-is-a-servlet)
 
-[What is a JSP Page?](#what-is-a-jsp-page-junior)
+[What is a JSP Page?](#what-is-a-jsp-page)
 
-[Let's talk Swing. What is the difference between a Choice and a List?](#lets-talk-swing-what-is-the-difference-between-a-choice-and-a-list-junior)
+[Let's talk Swing. What is the difference between a Choice and a List?](#lets-talk-swing-what-is-the-difference-between-a-choice-and-a-list)
 
-[What is the difference between an Applet and a Java Application?](#what-is-the-difference-between-an-applet-and-a-java-application-junior)
+[What is the difference between an Applet and a Java Application?](#what-is-the-difference-between-an-applet-and-a-java-application)
 
-[What is the Difference between JDK and JRE? ](#what-is-the-difference-between-jdk-and-jre--junior)
+[What is the Difference between JDK and JRE? ](#what-is-the-difference-between-jdk-and-jre-)
 
-[What are the two types of Exceptions in Java? Which are the differences between them? ](#what-are-the-two-types-of-exceptions-in-java-which-are-the-differences-between-them--junior)
+[What are the two types of Exceptions in Java? Which are the differences between them? ](#what-are-the-two-types-of-exceptions-in-java-which-are-the-differences-between-them-)
 
-[Explain the architechure of a Servlet.](#explain-the-architechure-of-a-servlet-mid)
+[Explain the architechure of a Servlet.](#explain-the-architechure-of-a-servlet)
 
-[What is the difference between an Interface and an Abstract class? ](#what-is-the-difference-between-an-interface-and-an-abstract-class--mid)
+[What is the difference between an Interface and an Abstract class? ](#what-is-the-difference-between-an-interface-and-an-abstract-class-)
 
-[What are pass by reference and pass by value? ](#what-are-pass-by-reference-and-pass-by-value--mid)
+[What are pass by reference and pass by value? ](#what-are-pass-by-reference-and-pass-by-value-)
 
-[What is the difference between processes and threads?](#what-is-the-difference-between-processes-and-threads-mid)
+[What is the difference between processes and threads?](#what-is-the-difference-between-processes-and-threads)
 
-[Explain Serialization and Deserialization. ](#explain-serialization-and-deserialization--mid)
+[Explain Serialization and Deserialization. ](#explain-serialization-and-deserialization-)
 
-[What are Expressions?](#what-are-expressions-mid)
+[What are Expressions?](#what-are-expressions)
 
-[What are Decalarations?](#what-are-decalarations-mid)
+[What are Decalarations?](#what-are-decalarations)
 
-[What are JSP actions?](#what-are-jsp-actions-mid)
+[What are JSP actions?](#what-are-jsp-actions)
 
-[What are Directives?](#what-are-directives-mid)
+[What are Directives?](#what-are-directives)
 
-[How are the JSP requests handled?](#how-are-the-jsp-requests-handled-mid)
+[How are the JSP requests handled?](#how-are-the-jsp-requests-handled)
 
-[What are the basic interfaces of Java Collections Framework? ](#what-are-the-basic-interfaces-of-java-collections-framework--mid)
+[What are the basic interfaces of Java Collections Framework? ](#what-are-the-basic-interfaces-of-java-collections-framework-)
 
-[What does the “static” keyword mean? Can you override private or static method in Java?](#what-does-the-static-keyword-mean-can-you-override-private-or-static-method-in-java-mid)
+[What does the “static” keyword mean? Can you override private or static method in Java?](#what-does-the-static-keyword-mean-can-you-override-private-or-static-method-in-java)
 
-[What is an Iterator? ](#what-is-an-iterator--mid)
+[What is an Iterator? ](#what-is-an-iterator-)
 
-[What is the purpose Class.forName method?](#what-is-the-purpose-classforname-method-mid)
+[What is the purpose Class.forName method?](#what-is-the-purpose-classforname-method)
 
-[What is JDBC?](#what-is-jdbc-mid)
+[What is JDBC?](#what-is-jdbc)
 
-[How HashMap works in Java? ](#how-hashmap-works-in-java--mid)
+[How HashMap works in Java? ](#how-hashmap-works-in-java-)
 
-[What is the design pattern that Java uses for all Swing components?](#what-is-the-design-pattern-that-java-uses-for-all-swing-components-mid)
+[What is the design pattern that Java uses for all Swing components?](#what-is-the-design-pattern-that-java-uses-for-all-swing-components)
 
-[What differences exist between HashMap and Hashtable? ](#what-differences-exist-between-hashmap-and-hashtable--mid)
+[What differences exist between HashMap and Hashtable? ](#what-differences-exist-between-hashmap-and-hashtable-)
 
-[What advantage do Java’s layout managers provide over traditional windowing systems?](#what-advantage-do-javas-layout-managers-provide-over-traditional-windowing-systems-mid)
+[What advantage do Java’s layout managers provide over traditional windowing systems?](#what-advantage-do-javas-layout-managers-provide-over-traditional-windowing-systems)
 
-[How can a GUI component handle its own events?](#how-can-a-gui-component-handle-its-own-events-mid)
+[How can a GUI component handle its own events?](#how-can-a-gui-component-handle-its-own-events)
 
-[What is a layout manager?](#what-is-a-layout-manager-mid)
+[What is a layout manager?](#what-is-a-layout-manager)
 
-[What’s the difference between sendRedirect and forward methods?](#whats-the-difference-between-sendredirect-and-forward-methods-mid)
+[What’s the difference between sendRedirect and forward methods?](#whats-the-difference-between-sendredirect-and-forward-methods)
 
-[What do you know about the big-O notation and can you give some examples with respect to different data structures?](#what-do-you-know-about-the-big-o-notation-and-can-you-give-some-examples-with-respect-to-different-data-structures-mid)
+[What do you know about the big-O notation and can you give some examples with respect to different data structures?](#what-do-you-know-about-the-big-o-notation-and-can-you-give-some-examples-with-respect-to-different-data-structures)
 
-[What are the Data Types supported by Java? What is Autoboxing and Unboxing?](#what-are-the-data-types-supported-by-java-what-is-autoboxing-and-unboxing-mid)
+[What are the Data Types supported by Java? What is Autoboxing and Unboxing?](#what-are-the-data-types-supported-by-java-what-is-autoboxing-and-unboxing)
 
-[What is Function Overriding and Overloading in Java?](#what-is-function-overriding-and-overloading-in-java-mid)
+[What is Function Overriding and Overloading in Java?](#what-is-function-overriding-and-overloading-in-java)
 
-[What is an Java Applet?](#what-is-an-java-applet-mid)
+[What is an Java Applet?](#what-is-an-java-applet)
 
-[What will happen to the Exception object after exception handling?](#what-will-happen-to-the-exception-object-after-exception-handling-mid)
+[What will happen to the Exception object after exception handling?](#what-will-happen-to-the-exception-object-after-exception-handling)
 
-[ What is the purpose of garbage collection in Java, and when is it used?](#-what-is-the-purpose-of-garbage-collection-in-java-and-when-is-it-used-mid)
+[ What is the purpose of garbage collection in Java, and when is it used?](#-what-is-the-purpose-of-garbage-collection-in-java-and-when-is-it-used)
 
-[What does System.gc() and Runtime.gc() methods do?](#what-does-systemgc-and-runtimegc-methods-do-mid)
+[What does System.gc() and Runtime.gc() methods do?](#what-does-systemgc-and-runtimegc-methods-do)
 
-[What is the importance of finally block in exception handling?](#what-is-the-importance-of-finally-block-in-exception-handling-mid)
+[What is the importance of finally block in exception handling?](#what-is-the-importance-of-finally-block-in-exception-handling)
 
-[What is the difference between Exception and Error in java?](#what-is-the-difference-between-exception-and-error-in-java-mid)
+[What is the difference between Exception and Error in java?](#what-is-the-difference-between-exception-and-error-in-java)
 
-[What is meant by a Web Application?](#what-is-meant-by-a-web-application-mid)
+[What is meant by a Web Application?](#what-is-meant-by-a-web-application)
 
-[When does an Object becomes eligible for Garbage collection in Java ? ](#when-does-an-object-becomes-eligible-for-garbage-collection-in-java---mid)
+[When does an Object becomes eligible for Garbage collection in Java ? ](#when-does-an-object-becomes-eligible-for-garbage-collection-in-java--)
 
-[Why Collection doesn’t extend Cloneable and Serializable interfaces? ](#why-collection-doesnt-extend-cloneable-and-serializable-interfaces--senior)
+[Why Collection doesn’t extend Cloneable and Serializable interfaces? ](#why-collection-doesnt-extend-cloneable-and-serializable-interfaces-)
 
-[What happens when an applet is loaded?](#what-happens-when-an-applet-is-loaded-senior)
+[What happens when an applet is loaded?](#what-happens-when-an-applet-is-loaded)
 
-[What is the role of stub in RMI?](#what-is-the-role-of-stub-in-rmi-senior)
+[What is the role of stub in RMI?](#what-is-the-role-of-stub-in-rmi)
 
-[What is structure of Java Heap?](#what-is-structure-of-java-heap-senior)
+[What is structure of Java Heap?](#what-is-structure-of-java-heap)
 
-[If an object reference is set to null, will the Garbage Collector immediately free the memory held by that object?](#if-an-object-reference-is-set-to-null-will-the-garbage-collector-immediately-free-the-memory-held-by-that-object-senior)
+[If an object reference is set to null, will the Garbage Collector immediately free the memory held by that object?](#if-an-object-reference-is-set-to-null-will-the-garbage-collector-immediately-free-the-memory-held-by-that-object)
 
-[What is the difference between throw and throws?](#what-is-the-difference-between-throw-and-throws-senior)
+[What is the difference between throw and throws?](#what-is-the-difference-between-throw-and-throws)
 
-[When is the finalize() called? What is the purpose of finalization? ](#when-is-the-finalize-called-what-is-the-purpose-of-finalization--senior)
+[When is the finalize() called? What is the purpose of finalization? ](#when-is-the-finalize-called-what-is-the-purpose-of-finalization-)
 
-[What are the steps involved to make work a RMI program? ](#what-are-the-steps-involved-to-make-work-a-rmi-program--senior)
+[What are the steps involved to make work a RMI program? ](#what-are-the-steps-involved-to-make-work-a-rmi-program-)
 
-[How does finally block differ from finalize() method?](#how-does-finally-block-differ-from-finalize-method-senior)
+[How does finally block differ from finalize() method?](#how-does-finally-block-differ-from-finalize-method)
 
-[What’s the difference between Enumeration and Iterator interfaces? ](#whats-the-difference-between-enumeration-and-iterator-interfaces--senior)
+[What’s the difference between Enumeration and Iterator interfaces? ](#whats-the-difference-between-enumeration-and-iterator-interfaces-)
 
-[Explain the life cycle of an Applet. ](#explain-the-life-cycle-of-an-applet--senior)
+[Explain the life cycle of an Applet. ](#explain-the-life-cycle-of-an-applet-)
 
-[Can you access non static variable in static context?](#can-you-access-non-static-variable-in-static-context-senior)
+[Can you access non static variable in static context?](#can-you-access-non-static-variable-in-static-context)
 
-[What is the tradeoff between using an unordered array versus an ordered array? ](#what-is-the-tradeoff-between-using-an-unordered-array-versus-an-ordered-array--senior)
+[What is the tradeoff between using an unordered array versus an ordered array? ](#what-is-the-tradeoff-between-using-an-unordered-array-versus-an-ordered-array-)
 
-[What are the restrictions imposed on Java applets?](#what-are-the-restrictions-imposed-on-java-applets-senior)
+[What are the restrictions imposed on Java applets?](#what-are-the-restrictions-imposed-on-java-applets)
 
-[What are untrusted applets?](#what-are-untrusted-applets-senior)
+[What are untrusted applets?](#what-are-untrusted-applets)
 
-[ What is a Server Side Include (SSI)?](#-what-is-a-server-side-include-ssi-senior)
+[ What is a Server Side Include (SSI)?](#-what-is-a-server-side-include-ssi)
 
-[What is a Constructor, Constructor Overloading in Java and Copy-Constructor? ](#what-is-a-constructor-constructor-overloading-in-java-and-copy-constructor--senior)
+[What is a Constructor, Constructor Overloading in Java and Copy-Constructor? ](#what-is-a-constructor-constructor-overloading-in-java-and-copy-constructor-)
 
-[What is the applet security manager, and what does it provide?](#what-is-the-applet-security-manager-and-what-does-it-provide-senior)
+[What is the applet security manager, and what does it provide?](#what-is-the-applet-security-manager-and-what-does-it-provide)
 
-[What is Java Priority Queue?](#what-is-java-priority-queue-senior)
+[What is Java Priority Queue?](#what-is-java-priority-queue)
 
-[What is Comparable and Comparator interface? List their differences.](#what-is-comparable-and-comparator-interface-list-their-differences-senior)
+[What is Comparable and Comparator interface? List their differences.](#what-is-comparable-and-comparator-interface-list-their-differences)
 
-[Which Swing methods are thread-safe?](#which-swing-methods-are-thread-safe-senior)
+[Which Swing methods are thread-safe?](#which-swing-methods-are-thread-safe)
 
-[What is the relationship between an event-listener interface and an event-adapter class?](#what-is-the-relationship-between-an-event-listener-interface-and-an-event-adapter-class-senior)
+[What is the relationship between an event-listener interface and an event-adapter class?](#what-is-the-relationship-between-an-event-listener-interface-and-an-event-adapter-class)
 
-[What is difference between ArrayList and LinkedList ? ](#what-is-difference-between-arraylist-and-linkedlist---senior)
+[What is difference between ArrayList and LinkedList ? ](#what-is-difference-between-arraylist-and-linkedlist--)
 
-[What is difference between Array and ArrayList ? When will you use Array over ArrayList?](#what-is-difference-between-array-and-arraylist--when-will-you-use-array-over-arraylist-senior)
+[What is difference between Array and ArrayList ? When will you use Array over ArrayList?](#what-is-difference-between-array-and-arraylist--when-will-you-use-array-over-arraylist)
 
-[What is the importance of hashCode() and equals() methods? ](#what-is-the-importance-of-hashcode-and-equals-methods--senior)
+[What is the importance of hashCode() and equals() methods? ](#what-is-the-importance-of-hashcode-and-equals-methods-)
 
-[What is difference between fail-fast and fail-safe? ](#what-is-difference-between-fail-fast-and-fail-safe--senior)
+[What is difference between fail-fast and fail-safe? ](#what-is-difference-between-fail-fast-and-fail-safe-)
 
-[Explain the role of Driver in JDBC. ](#explain-the-role-of-driver-in-jdbc--senior)
+[Explain the role of Driver in JDBC. ](#explain-the-role-of-driver-in-jdbc-)
 
-[What differences exist between Iterator and ListIterator? ](#what-differences-exist-between-iterator-and-listiterator--senior)
+[What differences exist between Iterator and ListIterator? ](#what-differences-exist-between-iterator-and-listiterator-)
 
-[What is the advantage of PreparedStatement over Statement?](#what-is-the-advantage-of-preparedstatement-over-statement-senior)
+[What is the advantage of PreparedStatement over Statement?](#what-is-the-advantage-of-preparedstatement-over-statement)
 
-[What is the use of CallableStatement? Name the method, which is used to prepare a CallableStatement.](#what-is-the-use-of-callablestatement-name-the-method-which-is-used-to-prepare-a-callablestatement-senior)
+[What is the use of CallableStatement? Name the method, which is used to prepare a CallableStatement.](#what-is-the-use-of-callablestatement-name-the-method-which-is-used-to-prepare-a-callablestatement)
 
-[What is the difference between doGet() and doPost()?](#what-is-the-difference-between-doget-and-dopost-senior)
+[What is the difference between doGet() and doPost()?](#what-is-the-difference-between-doget-and-dopost)
 
-[Explain the life cycle of a Servlet.](#explain-the-life-cycle-of-a-servlet-senior)
+[Explain the life cycle of a Servlet.](#explain-the-life-cycle-of-a-servlet)
 
-[What is the difference between GenericServlet and HttpServlet?](#what-is-the-difference-between-genericservlet-and-httpservlet-senior)
+[What is the difference between GenericServlet and HttpServlet?](#what-is-the-difference-between-genericservlet-and-httpservlet)
 
-[What are the advantages of JSP?](#what-are-the-advantages-of-jsp-senior)
+[What are the advantages of JSP?](#what-are-the-advantages-of-jsp)
 
-[What’s a deadlock? ](#whats-a-deadlock--senior)
+[What’s a deadlock? ](#whats-a-deadlock-)
 
-[What is the difference between an Applet and a Servlet?](#what-is-the-difference-between-an-applet-and-a-servlet-senior)
+[What is the difference between an Applet and a Servlet?](#what-is-the-difference-between-an-applet-and-a-servlet)
 
-[What are Scriptlets?](#what-are-scriptlets-senior)
+[What are Scriptlets?](#what-are-scriptlets)
 
-[Does Java support multiple inheritance? ](#does-java-support-multiple-inheritance--senior)
+[Does Java support multiple inheritance? ](#does-java-support-multiple-inheritance-)
 
-[Explain different ways of creating a thread. Which one would you prefer and why?](#explain-different-ways-of-creating-a-thread-which-one-would-you-prefer-and-why-senior)
+[Explain different ways of creating a thread. Which one would you prefer and why?](#explain-different-ways-of-creating-a-thread-which-one-would-you-prefer-and-why)
 
-[What is meant by JSP implicit objects and what are they?](#what-is-meant-by-jsp-implicit-objects-and-what-are-they-senior)
+[What is meant by JSP implicit objects and what are they?](#what-is-meant-by-jsp-implicit-objects-and-what-are-they)
 
-[What is RMI?](#what-is-rmi-expert)
+[What is RMI?](#what-is-rmi)
 
-[Explain the available thread states in a high-level.](#explain-the-available-thread-states-in-a-high-level-expert)
+[Explain the available thread states in a high-level.](#explain-the-available-thread-states-in-a-high-level)
 
-[Explain Marshalling and demarshalling.](#explain-marshalling-and-demarshalling-expert)
+[Explain Marshalling and demarshalling.](#explain-marshalling-and-demarshalling)
 
-[How do you ensure that N threads can access N resources without deadlock? ](#how-do-you-ensure-that-n-threads-can-access-n-resources-without-deadlock--expert)
+[How do you ensure that N threads can access N resources without deadlock? ](#how-do-you-ensure-that-n-threads-can-access-n-resources-without-deadlock-)
 
-[What is Perm Gen space in Heap?](#what-is-perm-gen-space-in-heap-expert)
+[What is Perm Gen space in Heap?](#what-is-perm-gen-space-in-heap)
 
-[What does Connection pooling mean?](#what-does-connection-pooling-mean-expert)
+[What does Connection pooling mean?](#what-does-connection-pooling-mean)
 
-[What is the applet class loader, and what does it provide?](#what-is-the-applet-class-loader-and-what-does-it-provide-expert)
+[What is the applet class loader, and what does it provide?](#what-is-the-applet-class-loader-and-what-does-it-provide)
 
-[ What is the difference between applets loaded over the internet and applets loaded via the file system?](#-what-is-the-difference-between-applets-loaded-over-the-internet-and-applets-loaded-via-the-file-system-expert)
+[ What is the difference between applets loaded over the internet and applets loaded via the file system?](#-what-is-the-difference-between-applets-loaded-over-the-internet-and-applets-loaded-via-the-file-system)
 
-[What is Servlet Chaining?](#what-is-servlet-chaining-expert)
+[What is Servlet Chaining?](#what-is-servlet-chaining)
 
-[How do you find out what client machine is making a request to your servlet?](#how-do-you-find-out-what-client-machine-is-making-a-request-to-your-servlet-expert)
+[How do you find out what client machine is making a request to your servlet?](#how-do-you-find-out-what-client-machine-is-making-a-request-to-your-servlet)
 
-[What are some of the best practices relating to the Java Collection framework?](#what-are-some-of-the-best-practices-relating-to-the-java-collection-framework-expert)
+[What are some of the best practices relating to the Java Collection framework?](#what-are-some-of-the-best-practices-relating-to-the-java-collection-framework)
 
-[What is the difference between a synchronized method and a synchronized block?](#what-is-the-difference-between-a-synchronized-method-and-a-synchronized-block-expert)
+[What is the difference between a synchronized method and a synchronized block?](#what-is-the-difference-between-a-synchronized-method-and-a-synchronized-block)
 
-[What is the basic principle of RMI architecture?](#what-is-the-basic-principle-of-rmi-architecture-expert)
+[What is the basic principle of RMI architecture?](#what-is-the-basic-principle-of-rmi-architecture)
 
-[What is the purpose of using RMISecurityManager in RMI?](#what-is-the-purpose-of-using-rmisecuritymanager-in-rmi-expert)
+[What is the purpose of using RMISecurityManager in RMI?](#what-is-the-purpose-of-using-rmisecuritymanager-in-rmi)
 
-[What is the role of Remote Interface in RMI?](#what-is-the-role-of-remote-interface-in-rmi-expert)
+[What is the role of Remote Interface in RMI?](#what-is-the-role-of-remote-interface-in-rmi)
 
-[What is the role of the java.rmi.Naming Class? ](#what-is-the-role-of-the-javarminaming-class--expert)
+[What is the role of the java.rmi.Naming Class? ](#what-is-the-role-of-the-javarminaming-class-)
 
-[What is meant by binding in RMI?](#what-is-meant-by-binding-in-rmi-expert)
+[What is meant by binding in RMI?](#what-is-meant-by-binding-in-rmi)
 
-[What is the difference between Serial and Throughput Garbage collector?](#what-is-the-difference-between-serial-and-throughput-garbage-collector-expert)
+[What is the difference between Serial and Throughput Garbage collector?](#what-is-the-difference-between-serial-and-throughput-garbage-collector)
 
-[What is the difference between HashSet and TreeSet?](#what-is-the-difference-between-hashset-and-treeset-expert)
+[What is the difference between HashSet and TreeSet?](#what-is-the-difference-between-hashset-and-treeset)
 
-[Does Garbage collection occur in permanent generation space in JVM?](#does-garbage-collection-occur-in-permanent-generation-space-in-jvm-expert)
+[Does Garbage collection occur in permanent generation space in JVM?](#does-garbage-collection-occur-in-permanent-generation-space-in-jvm)
 
-[What is DGC ? And how does it work?](#what-is-dgc--and-how-does-it-work-expert)
+[What is DGC ? And how does it work?](#what-is-dgc--and-how-does-it-work)
 
-[What are the layers of RMI Architecture?](#what-are-the-layers-of-rmi-architecture-expert)
+[What are the layers of RMI Architecture?](#what-are-the-layers-of-rmi-architecture)
 
-[How does thread synchronization occurs inside a monitor? What levels of synchronization can you apply? ](#how-does-thread-synchronization-occurs-inside-a-monitor-what-levels-of-synchronization-can-you-apply--expert)
+[How does thread synchronization occurs inside a monitor? What levels of synchronization can you apply? ](#how-does-thread-synchronization-occurs-inside-a-monitor-what-levels-of-synchronization-can-you-apply-)
 
 
 

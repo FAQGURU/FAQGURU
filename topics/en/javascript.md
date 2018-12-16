@@ -12,121 +12,121 @@
 
 [What is Scope in JavaScript?](#what-is-scope-in-javascript)
 
-[What is let keyword in JavaScript?](#what-is-let-keyword-in-javascript-mid)
+[What is let keyword in JavaScript?](#what-is-let-keyword-in-javascript)
 
-[Explain what a callback function is and provide a simple example.](#explain-what-a-callback-function-is-and-provide-a-simple-example-mid)
+[Explain what a callback function is and provide a simple example.](#explain-what-a-callback-function-is-and-provide-a-simple-example)
 
-[What is strict mode?](#what-is-strict-mode-mid)
+[What is strict mode?](#what-is-strict-mode)
 
-[What does "use strict" do?](#what-does-use-strict-do-mid)
+[What does "use strict" do?](#what-does-use-strict-do)
 
-[What is a Polyfill?](#what-is-a-polyfill-mid)
+[What is a Polyfill?](#what-is-a-polyfill)
 
-[How would you check if a number is an integer?](#how-would-you-check-if-a-number-is-an-integer-mid)
+[How would you check if a number is an integer?](#how-would-you-check-if-a-number-is-an-integer)
 
-[Explain Values and Types in JavaScript](#explain-values-and-types-in-javascript-mid)
+[Explain Values and Types in JavaScript](#explain-values-and-types-in-javascript)
 
-[Being told that an unsorted array contains (n - 1) of n consecutive numbers (where the bounds are defined), find the missing number in O(n) time](#being-told-that-an-unsorted-array-contains-n---1-of-n-consecutive-numbers-where-the-bounds-are-defined-find-the-missing-number-in-on-time-mid)
+[Being told that an unsorted array contains (n - 1) of n consecutive numbers (where the bounds are defined), find the missing number in O(n) time](#being-told-that-an-unsorted-array-contains-n---1-of-n-consecutive-numbers-where-the-bounds-are-defined-find-the-missing-number-in-on-time)
 
-[Remove duplicates of an array and return an array of only unique elements](#remove-duplicates-of-an-array-and-return-an-array-of-only-unique-elements-mid)
+[Remove duplicates of an array and return an array of only unique elements](#remove-duplicates-of-an-array-and-return-an-array-of-only-unique-elements)
 
-[Given a string, reverse each word in the sentence](#given-a-string-reverse-each-word-in-the-sentence-mid)
+[Given a string, reverse each word in the sentence](#given-a-string-reverse-each-word-in-the-sentence)
 
-[Write a function that would allow you to do this.](#write-a-function-that-would-allow-you-to-do-this-mid)
+[Write a function that would allow you to do this.](#write-a-function-that-would-allow-you-to-do-this)
 
-[Implement enqueue and dequeue using only two stacks](#implement-enqueue-and-dequeue-using-only-two-stacks-mid)
+[Implement enqueue and dequeue using only two stacks](#implement-enqueue-and-dequeue-using-only-two-stacks)
 
-[How would you use a closure to create a private counter?](#how-would-you-use-a-closure-to-create-a-private-counter-mid)
+[How would you use a closure to create a private counter?](#how-would-you-use-a-closure-to-create-a-private-counter)
 
-[Explain Null and Undefined in JavaScript](#explain-null-and-undefined-in-javascript-mid)
+[Explain Null and Undefined in JavaScript](#explain-null-and-undefined-in-javascript)
 
-[Explain event bubbling and how one may prevent it](#explain-event-bubbling-and-how-one-may-prevent-it-mid)
+[Explain event bubbling and how one may prevent it](#explain-event-bubbling-and-how-one-may-prevent-it)
 
-[How to check if an object is an array or not? Provide some code.](#how-to-check-if-an-object-is-an-array-or-not-provide-some-code-mid)
+[How to check if an object is an array or not? Provide some code.](#how-to-check-if-an-object-is-an-array-or-not-provide-some-code)
 
-[Write a "mul" function which will properly when invoked as below syntax.](#write-a-mul-function-which-will-properly-when-invoked-as-below-syntax-mid)
+[Write a "mul" function which will properly when invoked as below syntax.](#write-a-mul-function-which-will-properly-when-invoked-as-below-syntax)
 
-[How to empty an array in JavaScript?](#how-to-empty-an-array-in-javascript-mid)
+[How to empty an array in JavaScript?](#how-to-empty-an-array-in-javascript)
 
-[How to compare two objects in JavaScript?](#how-to-compare-two-objects-in-javascript-senior)
+[How to compare two objects in JavaScript?](#how-to-compare-two-objects-in-javascript)
 
-[Given an array of integers, find the largest difference between two elements such that the element of lesser value must come before the greater element](#given-an-array-of-integers-find-the-largest-difference-between-two-elements-such-that-the-element-of-lesser-value-must-come-before-the-greater-element-senior)
+[Given an array of integers, find the largest difference between two elements such that the element of lesser value must come before the greater element](#given-an-array-of-integers-find-the-largest-difference-between-two-elements-such-that-the-element-of-lesser-value-must-come-before-the-greater-element)
 
-[Find the intersection of two arrays. An intersection would be the common elements that exists within both arrays. In this case, these elements should be unique!](#find-the-intersection-of-two-arrays-an-intersection-would-be-the-common-elements-that-exists-within-both-arrays-in-this-case-these-elements-should-be-unique-senior)
+[Find the intersection of two arrays. An intersection would be the common elements that exists within both arrays. In this case, these elements should be unique!](#find-the-intersection-of-two-arrays-an-intersection-would-be-the-common-elements-that-exists-within-both-arrays-in-this-case-these-elements-should-be-unique)
 
-[Write a function that would allow you to do this](#write-a-function-that-would-allow-you-to-do-this-senior)
+[Write a function that would allow you to do this](#write-a-function-that-would-allow-you-to-do-this)
 
-[Given two strings, return true if they are anagrams of one another](#given-two-strings-return-true-if-they-are-anagrams-of-one-another-senior)
+[Given two strings, return true if they are anagrams of one another](#given-two-strings-return-true-if-they-are-anagrams-of-one-another)
 
-[Check if a given string is a palindrome. Case sensitivity should be taken into account.](#check-if-a-given-string-is-a-palindrome-case-sensitivity-should-be-taken-into-account-senior)
+[Check if a given string is a palindrome. Case sensitivity should be taken into account.](#check-if-a-given-string-is-a-palindrome-case-sensitivity-should-be-taken-into-account)
 
-[What is the difference between a shim and a polyfill?](#what-is-the-difference-between-a-shim-and-a-polyfill-senior)
+[What is the difference between a shim and a polyfill?](#what-is-the-difference-between-a-shim-and-a-polyfill)
 
-[What will the following code output?](#what-will-the-following-code-output-senior)
+[What will the following code output?](#what-will-the-following-code-output)
 
-[Could you explain the difference between ES5 and ES6](#could-you-explain-the-difference-between-es5-and-es6-senior)
+[Could you explain the difference between ES5 and ES6](#could-you-explain-the-difference-between-es5-and-es6)
 
-[What is IIFEs (Immediately Invoked Function Expressions)?](#what-is-iifes-immediately-invoked-function-expressions-senior)
+[What is IIFEs (Immediately Invoked Function Expressions)?](#what-is-iifes-immediately-invoked-function-expressions)
 
-[What will be the output of the following code?](#what-will-be-the-output-of-the-following-code-senior)
+[What will be the output of the following code?](#what-will-be-the-output-of-the-following-code)
 
-[What will be the output of the following code?](#what-will-be-the-output-of-the-following-code-senior)
+[What will be the output of the following code?](#what-will-be-the-output-of-the-following-code)
 
-[Provide some examples of non-bulean value coercion to a boolean one](#provide-some-examples-of-non-bulean-value-coercion-to-a-boolean-one-senior)
+[Provide some examples of non-bulean value coercion to a boolean one](#provide-some-examples-of-non-bulean-value-coercion-to-a-boolean-one)
 
-[Explain the difference between "undefined" and "not defined" in JavaScript](#explain-the-difference-between-undefined-and-not-defined-in-javascript-senior)
+[Explain the difference between "undefined" and "not defined" in JavaScript](#explain-the-difference-between-undefined-and-not-defined-in-javascript)
 
-[What will be the output of the following code?](#what-will-be-the-output-of-the-following-code-senior)
+[What will be the output of the following code?](#what-will-be-the-output-of-the-following-code)
 
-[What is the drawback of creating true private in JavaScript?](#what-is-the-drawback-of-creating-true-private-in-javascript-senior)
+[What is the drawback of creating true private in JavaScript?](#what-is-the-drawback-of-creating-true-private-in-javascript)
 
-[What is the difference between anonymous and named functions? ](#what-is-the-difference-between-anonymous-and-named-functions--senior)
+[What is the difference between anonymous and named functions? ](#what-is-the-difference-between-anonymous-and-named-functions-)
 
-[Given an array of integers, find the largest product yielded from three of the integers](#given-an-array-of-integers-find-the-largest-product-yielded-from-three-of-the-integers-senior)
+[Given an array of integers, find the largest product yielded from three of the integers](#given-an-array-of-integers-find-the-largest-product-yielded-from-three-of-the-integers)
 
-[Describe closure concept in JavaScript as best as you could](#describe-closure-concept-in-javascript-as-best-as-you-could-senior)
+[Describe closure concept in JavaScript as best as you could](#describe-closure-concept-in-javascript-as-best-as-you-could)
 
-[Write a recursive function that returns the binary string of a given decimal number](#write-a-recursive-function-that-returns-the-binary-string-of-a-given-decimal-number-senior)
+[Write a recursive function that returns the binary string of a given decimal number](#write-a-recursive-function-that-returns-the-binary-string-of-a-given-decimal-number)
 
-[What is “closure” in javascript? Provide an example?](#what-is-closure-in-javascript-provide-an-example-expert)
+[What is “closure” in javascript? Provide an example?](#what-is-closure-in-javascript-provide-an-example)
 
-[Explain what is hoisting in Javascript](#explain-what-is-hoisting-in-javascript-expert)
+[Explain what is hoisting in Javascript](#explain-what-is-hoisting-in-javascript)
 
-[Given an integer, determine if it is a power of 2. If so, return that number, else return -1](#given-an-integer-determine-if-it-is-a-power-of-2-if-so-return-that-number-else-return--1-expert)
+[Given an integer, determine if it is a power of 2. If so, return that number, else return -1](#given-an-integer-determine-if-it-is-a-power-of-2-if-so-return-that-number-else-return--1)
 
-[What will be the output of the following code?](#what-will-be-the-output-of-the-following-code-expert)
+[What will be the output of the following code?](#what-will-be-the-output-of-the-following-code)
 
-[Describe the JS module design pattern](#describe-the-js-module-design-pattern-expert)
+[Describe the JS module design pattern](#describe-the-js-module-design-pattern)
 
-[How would you create a private variable in JavaScript?](#how-would-you-create-a-private-variable-in-javascript-expert)
+[How would you create a private variable in JavaScript?](#how-would-you-create-a-private-variable-in-javascript)
 
-[Explain the Prototype Design Pattern](#explain-the-prototype-design-pattern-expert)
+[Explain the Prototype Design Pattern](#explain-the-prototype-design-pattern)
 
-[Write a recursive function that performs a binary search](#write-a-recursive-function-that-performs-a-binary-search-expert)
+[Write a recursive function that performs a binary search](#write-a-recursive-function-that-performs-a-binary-search)
 
-[Create a function that will evaluate if a given expression has balanced parentheses using stacks](#create-a-function-that-will-evaluate-if-a-given-expression-has-balanced-parentheses-using-stacks-expert)
+[Create a function that will evaluate if a given expression has balanced parentheses using stacks](#create-a-function-that-will-evaluate-if-a-given-expression-has-balanced-parentheses-using-stacks)
 
-[What will be the output of the following code?](#what-will-be-the-output-of-the-following-code-expert)
+[What will be the output of the following code?](#what-will-be-the-output-of-the-following-code)
 
-[Explain prototype inheritance in JavaScript?](#explain-prototype-inheritance-in-javascript-expert)
+[Explain prototype inheritance in JavaScript?](#explain-prototype-inheritance-in-javascript)
 
-[What does the term "Transpiling" stand for?](#what-does-the-term-transpiling-stand-for-expert)
+[What does the term "Transpiling" stand for?](#what-does-the-term-transpiling-stand-for)
 
-[What is the "new" keyword in JavaScript?](#what-is-the-new-keyword-in-javascript-expert)
+[What is the "new" keyword in JavaScript?](#what-is-the-new-keyword-in-javascript)
 
-[When would you use the "bind" function?](#when-would-you-use-the-bind-function-expert)
+[When would you use the "bind" function?](#when-would-you-use-the-bind-function)
 
-[How does the “this” keyword work? Provide some code examples.](#how-does-the-this-keyword-work-provide-some-code-examples-expert)
+[How does the “this” keyword work? Provide some code examples.](#how-does-the-this-keyword-work-provide-some-code-examples)
 
-[How would you add your own method to the Array object so the following code would work?](#how-would-you-add-your-own-method-to-the-array-object-so-the-following-code-would-work-expert)
+[How would you add your own method to the Array object so the following code would work?](#how-would-you-add-your-own-method-to-the-array-object-so-the-following-code-would-work)
 
-[What is Hoisting in JavaScript?](#what-is-hoisting-in-javascript-expert)
+[What is Hoisting in JavaScript?](#what-is-hoisting-in-javascript)
 
-[What will the following code output?](#what-will-the-following-code-output-expert)
+[What will the following code output?](#what-will-the-following-code-output)
 
-[Check if a given string is a isomorphic](#check-if-a-given-string-is-a-isomorphic-expert)
+[Check if a given string is a isomorphic](#check-if-a-given-string-is-a-isomorphic)
 
-[Describe the Revealing Module Pattern design pattern](#describe-the-revealing-module-pattern-design-pattern-expert)
+[Describe the Revealing Module Pattern design pattern](#describe-the-revealing-module-pattern-design-pattern)
 
 
 

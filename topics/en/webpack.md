@@ -1,68 +1,68 @@
 ## Webpack
 
-[What is webpack?](#what-is-webpack-junior)
+[What is webpack?](#what-is-webpack)
 
-[Why and when should I Use Webpack?](#why-and-when-should-i-use-webpack-junior)
+[Why and when should I Use Webpack?](#why-and-when-should-i-use-webpack)
 
-[What is a bundle in webpack?](#what-is-a-bundle-in-webpack-junior)
+[What is a bundle in webpack?](#what-is-a-bundle-in-webpack)
 
-[What is the advantage of CompressionPlugin?](#what-is-the-advantage-of-compressionplugin-mid)
+[What is the advantage of CompressionPlugin?](#what-is-the-advantage-of-compressionplugin)
 
-[Describe a plugin in webpack](#describe-a-plugin-in-webpack-mid)
+[Describe a plugin in webpack](#describe-a-plugin-in-webpack)
 
-[Do loaders work in a synchronous or an asynchronous way?](#do-loaders-work-in-a-synchronous-or-an-asynchronous-way-mid)
+[Do loaders work in a synchronous or an asynchronous way?](#do-loaders-work-in-a-synchronous-or-an-asynchronous-way)
 
-[What is the main difference between Webpack and other build tools like Gulp or Grunt?](#what-is-the-main-difference-between-webpack-and-other-build-tools-like-gulp-or-grunt-mid)
+[What is the main difference between Webpack and other build tools like Gulp or Grunt?](#what-is-the-main-difference-between-webpack-and-other-build-tools-like-gulp-or-grunt)
 
-[How would you remove unused selectors from css using webpack?](#how-would-you-remove-unused-selectors-from-css-using-webpack-mid)
+[How would you remove unused selectors from css using webpack?](#how-would-you-remove-unused-selectors-from-css-using-webpack)
 
-[What is an "entry" point?](#what-is-an-entry-point-mid)
+[What is an "entry" point?](#what-is-an-point)
 
-[What is a dependency graph and how does webpack build it?](#what-is-a-dependency-graph-and-how-does-webpack-build-it-mid)
+[What is a dependency graph and how does webpack build it?](#what-is-a-dependency-graph-and-how-does-webpack-build-it)
 
-[What is a loader in webpack?](#what-is-a-loader-in-webpack-mid)
+[What is a loader in webpack?](#what-is-a-loader-in-webpack)
 
-[Which modules design patterns webpack supports out of the box?](#which-modules-design-patterns-webpack-supports-out-of-the-box-senior)
+[Which modules design patterns webpack supports out of the box?](#which-modules-design-patterns-webpack-supports-out-of-the-box)
 
-[Name some loaders features](#name-some-loaders-features-senior)
+[Name some loaders features](#name-some-loaders-features)
 
-[Name some benefits of using webpack](#name-some-benefits-of-using-webpack-senior)
+[Name some benefits of using webpack](#name-some-benefits-of-using-webpack)
 
-[Name some plugins you think are very important and helpful](#name-some-plugins-you-think-are-very-important-and-helpful-senior)
+[Name some plugins you think are very important and helpful](#name-some-plugins-you-think-are-very-important-and-helpful)
 
-[What are some advantages of using webpack-dev-server over simple "http" server or "nginx"?](#what-are-some-advantages-of-using-webpack-dev-server-over-simple-http-server-or-nginx-senior)
+[What are some advantages of using webpack-dev-server over simple "http" server or "nginx"?](#what-are-some-advantages-of-using-webpack-dev-server-over-simple-http-server-or-nginx)
 
-[Explain this code](#explain-this-code-senior)
+[Explain this code](#explain-this-code)
 
-[Why is OccurenceOrderPlugin the part of webpack optimization?](#why-is-occurenceorderplugin-the-part-of-webpack-optimization-senior)
+[Why is OccurenceOrderPlugin the part of webpack optimization?](#why-is-occurenceorderplugin-the-part-of-webpack-optimization)
 
-[What is difference between "hash" and "chunkhash"?](#what-is-difference-between-hash-and-chunkhash-senior)
+[What is difference between "hash" and "chunkhash"?](#what-is-difference-between-hash-and-chunkhash)
 
-[Webpack gives us a dependency graph. What does that mean?](#webpack-gives-us-a-dependency-graph-what-does-that-mean-senior)
+[Webpack gives us a dependency graph. What does that mean?](#webpack-gives-us-a-dependency-graph-what-does-that-mean)
 
-[List some pitfalls of Webpack](#list-some-pitfalls-of-webpack-expert)
+[List some pitfalls of Webpack](#list-some-pitfalls-of-webpack)
 
-[Explain me the difference between NPM vs. Bower vs. Browserify vs. Gulp vs. Grunt vs. Webpack?](#explain-me-the-difference-between-npm-vs-bower-vs-browserify-vs-gulp-vs-grunt-vs-webpack-expert)
+[Explain me the difference between NPM vs. Bower vs. Browserify vs. Gulp vs. Grunt vs. Webpack?](#explain-me-the-difference-between-npm-vs-bower-vs-browserify-vs-gulp-vs-grunt-vs-webpack)
 
-[What's the difference between webpack loaders and plugins?](#whats-the-difference-between-webpack-loaders-and-plugins-expert)
+[What's the difference between webpack loaders and plugins?](#whats-the-difference-between-webpack-loaders-and-plugins)
 
-[Briefly describe long-term caching and how to achieve it using webpack?](#briefly-describe-long-term-caching-and-how-to-achieve-it-using-webpack-expert)
+[Briefly describe long-term caching and how to achieve it using webpack?](#briefly-describe-long-term-caching-and-how-to-achieve-it-using-webpack)
 
-[How to move some data (e.g css code) from a bundle to a separate file in webpack?](#how-to-move-some-data-eg-css-code-from-a-bundle-to-a-separate-file-in-webpack-expert)
+[How to move some data (e.g css code) from a bundle to a separate file in webpack?](#how-to-move-some-data-eg-css-code-from-a-bundle-to-a-separate-file-in-webpack)
 
-[Explain this code](#explain-this-code-expert)
+[Explain this code](#explain-this-code)
 
-[Explain this code](#explain-this-code-expert)
+[Explain this code](#explain-this-code)
 
-[Describe the webpack runtime and manifest](#describe-the-webpack-runtime-and-manifest-expert)
+[Describe the webpack runtime and manifest](#describe-the-webpack-runtime-and-manifest)
 
-[What is Hot-Modules-Replacement?](#what-is-hot-modules-replacement-expert)
+[What is Hot-Modules-Replacement?](#what-is-hot-modules-replacement)
 
-[What is parallel-webpack and how does it affect webpack's build process?](#what-is-parallel-webpack-and-how-does-it-affect-webpacks-build-process-expert)
+[What is parallel-webpack and how does it affect webpack's build process?](#what-is-parallel-webpack-and-how-does-it-affect-webpacks-build-process)
 
-[Is it possible to use other languages (except javascript) for the webpack config file?](#is-it-possible-to-use-other-languages-except-javascript-for-the-webpack-config-file-expert)
+[Is it possible to use other languages (except javascript) for the webpack config file?](#is-it-possible-to-use-other-languages-except-javascript-for-the-webpack-config-file)
 
-[Describe tree shaking mechanism in webpack](#describe-tree-shaking-mechanism-in-webpack-expert)
+[Describe tree shaking mechanism in webpack](#describe-tree-shaking-mechanism-in-webpack)
 
 
 

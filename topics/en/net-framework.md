@@ -1,110 +1,110 @@
 ## .NET Framework
 
-[What is the difference between String and string in C#?](#what-is-the-difference-between-string-and-string-in-c-junior)
+[What is the difference between String and string in C#?](#what-is-the-difference-between-string-and-string-in-c)
 
-[What is the .NET Framework?](#what-is-the-net-framework-junior)
+[What is the .NET Framework?](#what-is-the-net-framework)
 
-[What is .NET Core?](#what-is-net-core-junior)
+[What is .NET Core?](#what-is-net-core)
 
-[What is ASP.NET Core?](#what-is-aspnet-core-mid)
+[What is ASP.NET Core?](#what-is-aspnet-core)
 
-[What is CLR?](#what-is-clr-mid)
+[What is CLR?](#what-is-clr)
 
-[How to configure your ASP.NET Core app?](#how-to-configure-your-aspnet-core-app-mid)
+[How to configure your ASP.NET Core app?](#how-to-configure-your-aspnet-core-app)
 
-[Talk about Logging in ASP.NET Core?](#talk-about-logging-in-aspnet-core-mid)
+[Talk about Logging in ASP.NET Core?](#talk-about-logging-in-aspnet-core)
 
-[Name some CLR services?](#name-some-clr-services-mid)
+[Name some CLR services?](#name-some-clr-services)
 
-[Explain startup process in ASP.NET Core?](#explain-startup-process-in-aspnet-core-mid)
+[Explain startup process in ASP.NET Core?](#explain-startup-process-in-aspnet-core)
 
-[What is a .NET application domain?](#what-is-a-net-application-domain-mid)
+[What is a .NET application domain?](#what-is-a-net-application-domain)
 
-[What is MSIL?](#what-is-msil-mid)
+[What is MSIL?](#what-is-msil)
 
-[What is an unmanaged resource? ](#what-is-an-unmanaged-resource--mid)
+[What is an unmanaged resource? ](#what-is-an-unmanaged-resource-)
 
-[What is Razor Pages?](#what-is-razor-pages-mid)
+[What is Razor Pages?](#what-is-razor-pages)
 
-[What is the difference between .NET Core and Mono?](#what-is-the-difference-between-net-core-and-mono-mid)
+[What is the difference between .NET Core and Mono?](#what-is-the-difference-between-net-core-and-mono)
 
-[Can ASP.NET Core work with the .NET framework?](#can-aspnet-core-work-with-the-net-framework-mid)
+[Can ASP.NET Core work with the .NET framework?](#can-aspnet-core-work-with-the-net-framework)
 
-[What are some characteristics of .NET Core?](#what-are-some-characteristics-of-net-core-mid)
+[What are some characteristics of .NET Core?](#what-are-some-characteristics-of-net-core)
 
-[What is the difference between decimal, float and double in .NET? ](#what-is-the-difference-between-decimal-float-and-double-in-net--mid)
+[What is the difference between decimal, float and double in .NET? ](#what-is-the-difference-between-decimal-float-and-double-in-net-)
 
-[What's the difference between SDK and Runtime in .NET Core?](#whats-the-difference-between-sdk-and-runtime-in-net-core-mid)
+[What's the difference between SDK and Runtime in .NET Core?](#whats-the-difference-between-sdk-and-runtime-in-net-core)
 
-[What is CTS?](#what-is-cts-mid)
+[What is CTS?](#what-is-cts)
 
-[What is .NET Standard?](#what-is-net-standard-senior)
+[What is .NET Standard?](#what-is-net-standard)
 
-[Explain the difference between “managed” and “unmanaged” code?](#explain-the-difference-between-managed-and-unmanaged-code-senior)
+[Explain the difference between “managed” and “unmanaged” code?](#explain-the-difference-between-managed-and-unmanaged-code)
 
-[Explain two types of deployment for .NET Core applications](#explain-two-types-of-deployment-for-net-core-applications-senior)
+[Explain two types of deployment for .NET Core applications](#explain-two-types-of-deployment-for-net-core-applications)
 
-[What is Kestrel?](#what-is-kestrel-senior)
+[What is Kestrel?](#what-is-kestrel)
 
-[What is CoreCLR?](#what-is-coreclr-senior)
+[What is CoreCLR?](#what-is-coreclr)
 
-[Explain usage of Dependency Injection in ASP.NET Core](#explain-usage-of-dependency-injection-in-aspnet-core-senior)
+[Explain usage of Dependency Injection in ASP.NET Core](#explain-usage-of-dependency-injection-in-aspnet-core)
 
-[Explain what is included in .NET Core?](#explain-what-is-included-in-net-core-senior)
+[Explain what is included in .NET Core?](#explain-what-is-included-in-net-core)
 
-[What is difference between .NET Core and .NET Framework?](#what-is-difference-between-net-core-and-net-framework-senior)
+[What is difference between .NET Core and .NET Framework?](#what-is-difference-between-net-core-and-net-framework)
 
-[Is there a way to catch multiple exceptions at once and without code duplication?](#is-there-a-way-to-catch-multiple-exceptions-at-once-and-without-code-duplication-senior)
+[Is there a way to catch multiple exceptions at once and without code duplication?](#is-there-a-way-to-catch-multiple-exceptions-at-once-and-without-code-duplication)
 
-[What is new in ASP.NET Core 2, compared to ASP.NET Core 1?](#what-is-new-in-aspnet-core-2-compared-to-aspnet-core-1-senior)
+[What is new in ASP.NET Core 2, compared to ASP.NET Core 1?](#what-is-new-in-aspnet-core-2-compared-to-aspnet-core-1)
 
-[Why to use of the IDisposable interface?](#why-to-use-of-the-idisposable-interface-senior)
+[Why to use of the IDisposable interface?](#why-to-use-of-the-idisposable-interface)
 
-[Explain Middleware in ASP.NET Core?](#explain-middleware-in-aspnet-core-senior)
+[Explain Middleware in ASP.NET Core?](#explain-middleware-in-aspnet-core)
 
-[What does Common Language Specification (CLS) mean?](#what-does-common-language-specification-cls-mean-senior)
+[What does Common Language Specification (CLS) mean?](#what-does-common-language-specification-cls-mean)
 
-[Talk about new .csproj file?](#talk-about-new-csproj-file-senior)
+[Talk about new .csproj file?](#talk-about-new-csproj-file)
 
-[Explain the difference between Task and Thread in .NET](#explain-the-difference-between-task-and-thread-in-net-senior)
+[Explain the difference between Task and Thread in .NET](#explain-the-difference-between-task-and-thread-in-net)
 
-[What is FCL?](#what-is-fcl-senior)
+[What is FCL?](#what-is-fcl)
 
-[What's the difference between .NET Core, .NET Framework, and Xamarin?](#whats-the-difference-between-net-core-net-framework-and-xamarin-senior)
+[What's the difference between .NET Core, .NET Framework, and Xamarin?](#whats-the-difference-between-net-core-net-framework-and-xamarin)
 
-[What is implicit compilation?](#what-is-implicit-compilation-senior)
+[What is implicit compilation?](#what-is-implicit-compilation)
 
-[What is JIT compiler?](#what-is-jit-compiler-senior)
+[What is JIT compiler?](#what-is-jit-compiler)
 
-[What about NuGet packages and packages.config?](#what-about-nuget-packages-and-packagesconfig-senior)
+[What about NuGet packages and packages.config?](#what-about-nuget-packages-and-packagesconfig)
 
-[What is Explicit Compilation?](#what-is-explicit-compilation-senior)
+[What is Explicit Compilation?](#what-is-explicit-compilation)
 
-[What are the benefits of explicit compilation?](#what-are-the-benefits-of-explicit-compilation-senior)
+[What are the benefits of explicit compilation?](#what-are-the-benefits-of-explicit-compilation)
 
-[What's is BCL?](#whats-is-bcl-senior)
+[What's is BCL?](#whats-is-bcl)
 
-[Why does .NET use a JIT compiler instead of just compiling the code once on the target machine?](#why-does-net-use-a-jit-compiler-instead-of-just-compiling-the-code-once-on-the-target-machine-expert)
+[Why does .NET use a JIT compiler instead of just compiling the code once on the target machine?](#why-does-net-use-a-jit-compiler-instead-of-just-compiling-the-code-once-on-the-target-machine)
 
-[What are benefits of using JIT?](#what-are-benefits-of-using-jit-expert)
+[What are benefits of using JIT?](#what-are-benefits-of-using-jit)
 
-[What is the difference between AppDomain, Assembly, Process, and a Thread?](#what-is-the-difference-between-appdomain-assembly-process-and-a-thread-expert)
+[What is the difference between AppDomain, Assembly, Process, and a Thread?](#what-is-the-difference-between-appdomain-assembly-process-and-a-thread)
 
-[Explain how does Asynchronous tasks (Async/Await) work in .NET?](#explain-how-does-asynchronous-tasks-asyncawait-work-in-net-expert)
+[Explain how does Asynchronous tasks (Async/Await) work in .NET?](#explain-how-does-asynchronous-tasks-asyncawait-work-in-net)
 
-[What is the difference between CIL and MSIL (IL)?](#what-is-the-difference-between-cil-and-msil-il-expert)
+[What is the difference between CIL and MSIL (IL)?](#what-is-the-difference-between-cil-and-msil-il)
 
-[What is the difference between .NET Framework/Core and .NET Standard Class Library project types?](#what-is-the-difference-between-net-frameworkcore-and-net-standard-class-library-project-types-expert)
+[What is the difference between .NET Framework/Core and .NET Standard Class Library project types?](#what-is-the-difference-between-net-frameworkcore-and-net-standard-class-library-project-types)
 
-[What's the difference between RyuJIT and Roslyn?](#whats-the-difference-between-ryujit-and-roslyn-expert)
+[What's the difference between RyuJIT and Roslyn?](#whats-the-difference-between-ryujit-and-roslyn)
 
-[What is the difference between ASP.NET Core Web (.NET Core) vs ASP.NET Core Web (.NET Framework)?](#what-is-the-difference-between-aspnet-core-web-net-core-vs-aspnet-core-web-net-framework-expert)
+[What is the difference between ASP.NET Core Web (.NET Core) vs ASP.NET Core Web (.NET Framework)?](#what-is-the-difference-between-aspnet-core-web-net-core-vs-aspnet-core-web-net-framework)
 
-[How many types of JIT Compilations do you know?](#how-many-types-of-jit-compilations-do-you-know-expert)
+[How many types of JIT Compilations do you know?](#how-many-types-of-jit-compilations-do-you-know)
 
-[What is the difference between Node.js async model and async/await in .NET?](#what-is-the-difference-between-nodejs-async-model-and-asyncawait-in-net-expert)
+[What is the difference between Node.js async model and async/await in .NET?](#what-is-the-difference-between-nodejs-async-model-and-asyncawait-in-net)
 
-[Explain Finalize vs Dispose usage?](#explain-finalize-vs-dispose-usage-expert)
+[Explain Finalize vs Dispose usage?](#explain-finalize-vs-dispose-usage)
 
 
 

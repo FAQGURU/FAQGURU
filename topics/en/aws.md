@@ -1,92 +1,92 @@
 ## AWS
 
-[What is AWS?](#what-is-aws-junior)
+[What is AWS?](#what-is-aws)
 
-[Explain the key components of AWS?](#explain-the-key-components-of-aws-junior)
+[Explain the key components of AWS?](#explain-the-key-components-of-aws)
 
-[What is buckets in AWS?](#what-is-buckets-in-aws-junior)
+[What is buckets in AWS?](#what-is-buckets-in-aws)
 
-[What is AWS Cloudfront?](#what-is-aws-cloudfront-mid)
+[What is AWS Cloudfront?](#what-is-aws-cloudfront)
 
-[What do you mean by AMI? What does it include?](#what-do-you-mean-by-ami-what-does-it-include-mid)
+[What do you mean by AMI? What does it include?](#what-do-you-mean-by-ami-what-does-it-include)
 
-[How can I download a file from EC2?](#how-can-i-download-a-file-from-ec2-mid)
+[How can I download a file from EC2?](#how-can-i-download-a-file-from-ec2)
 
-[Is it possible to clone a EC2 instance data?](#is-it-possible-to-clone-a-ec2-instance-data-mid)
+[Is it possible to clone a EC2 instance data?](#is-it-possible-to-clone-a-ec2-instance-data)
 
-[What is AWS Data Pipeline?](#what-is-aws-data-pipeline-mid)
+[What is AWS Data Pipeline?](#what-is-aws-data-pipeline)
 
-[Explain the features of Amazon EC2 services](#explain-the-features-of-amazon-ec2-services-mid)
+[Explain the features of Amazon EC2 services](#explain-the-features-of-amazon-ec2-services)
 
-[What is the connection between AMI and Instance?](#what-is-the-connection-between-ami-and-instance-mid)
+[What is the connection between AMI and Instance?](#what-is-the-connection-between-ami-and-instance)
 
-[Are S3 buckets region specific?](#are-s3-buckets-region-specific-mid)
+[Are S3 buckets region specific?](#are-s3-buckets-region-specific)
 
-[What is AWS Direct Connect?](#what-is-aws-direct-connect-mid)
+[What is AWS Direct Connect?](#what-is-aws-direct-connect)
 
-[What is AWS EBS?](#what-is-aws-ebs-mid)
+[What is AWS EBS?](#what-is-aws-ebs)
 
-[What is AWS Lambda?](#what-is-aws-lambda-mid)
+[What is AWS Lambda?](#what-is-aws-lambda)
 
-[What is AWS DynamoDB?](#what-is-aws-dynamodb-mid)
+[What is AWS DynamoDB?](#what-is-aws-dynamodb)
 
-[What is AWS EMR?](#what-is-aws-emr-mid)
+[What is AWS EMR?](#what-is-aws-emr)
 
-[Is data stored in S3 is always encrypted?](#is-data-stored-in-s3-is-always-encrypted-mid)
+[Is data stored in S3 is always encrypted?](#is-data-stored-in-s3-is-always-encrypted)
 
-[Can we attach single EBS to multiple EC2s same time?](#can-we-attach-single-ebs-to-multiple-ec2s-same-time-mid)
+[Can we attach single EBS to multiple EC2s same time?](#can-we-attach-single-ebs-to-multiple-ec2s-same-time)
 
-[What is AWS API gateway?](#what-is-aws-api-gateway-mid)
+[What is AWS API gateway?](#what-is-aws-api-gateway)
 
-[What is AWS Direct Connect?](#what-is-aws-direct-connect-mid)
+[What is AWS Direct Connect?](#what-is-aws-direct-connect)
 
-[What are the security best practices for Amazon EC2 instances?](#what-are-the-security-best-practices-for-amazon-ec2-instances-senior)
+[What are the security best practices for Amazon EC2 instances?](#what-are-the-security-best-practices-for-amazon-ec2-instances)
 
-[Can I automatically start and terminate my Amazon instance using Amazon API? ](#can-i-automatically-start-and-terminate-my-amazon-instance-using-amazon-api--senior)
+[Can I automatically start and terminate my Amazon instance using Amazon API? ](#can-i-automatically-start-and-terminate-my-amazon-instance-using-amazon-api-)
 
-[Can we still continue working on EBS while creating snapshot of it?](#can-we-still-continue-working-on-ebs-while-creating-snapshot-of-it-senior)
+[Can we still continue working on EBS while creating snapshot of it?](#can-we-still-continue-working-on-ebs-while-creating-snapshot-of-it)
 
-[What is AWS Auto Scaling?](#what-is-aws-auto-scaling-senior)
+[What is AWS Auto Scaling?](#what-is-aws-auto-scaling)
 
-[What is AWS Auto Scaling group?](#what-is-aws-auto-scaling-group-senior)
+[What is AWS Auto Scaling group?](#what-is-aws-auto-scaling-group)
 
-[What is the maximum size of a single S3 object?](#what-is-the-maximum-size-of-a-single-s3-object-senior)
+[What is the maximum size of a single S3 object?](#what-is-the-maximum-size-of-a-single-s3-object)
 
-[What is AWS bucket policy?](#what-is-aws-bucket-policy-senior)
+[What is AWS bucket policy?](#what-is-aws-bucket-policy)
 
-[Does AWS has the option for vertical "auto" scaling of EC2 instance?](#does-aws-has-the-option-for-vertical-auto-scaling-of-ec2-instance-senior)
+[Does AWS has the option for vertical "auto" scaling of EC2 instance?](#does-aws-has-the-option-for-vertical-auto-scaling-of-ec2-instance)
 
-[What is AWS WAF? What are the potential benefits of using WAF?](#what-is-aws-waf-what-are-the-potential-benefits-of-using-waf-senior)
+[What is AWS WAF? What are the potential benefits of using WAF?](#what-is-aws-waf-what-are-the-potential-benefits-of-using-waf)
 
-[How to get the instance id from within an EC2 instance?](#how-to-get-the-instance-id-from-within-an-ec2-instance-senior)
+[How to get the instance id from within an EC2 instance?](#how-to-get-the-instance-id-from-within-an-ec2-instance)
 
-[What is AWS Cloudwatch?](#what-is-aws-cloudwatch-senior)
+[What is AWS Cloudwatch?](#what-is-aws-cloudwatch)
 
-[What is the difference between Amazon EC2 and AWS Elastic Beanstalk?](#what-is-the-difference-between-amazon-ec2-and-aws-elastic-beanstalk-senior)
+[What is the difference between Amazon EC2 and AWS Elastic Beanstalk?](#what-is-the-difference-between-amazon-ec2-and-aws-elastic-beanstalk)
 
-[How many storage options are there for EC2 Instance?](#how-many-storage-options-are-there-for-ec2-instance-senior)
+[How many storage options are there for EC2 Instance?](#how-many-storage-options-are-there-for-ec2-instance)
 
-[What is AWS Route 53?](#what-is-aws-route-53-expert)
+[What is AWS Route 53?](#what-is-aws-route-53)
 
-[How would you implement vertical auto scaling of EC2 instance?](#how-would-you-implement-vertical-auto-scaling-of-ec2-instance-expert)
+[How would you implement vertical auto scaling of EC2 instance?](#how-would-you-implement-vertical-auto-scaling-of-ec2-instance)
 
-[What is Amazon Kinesis?](#what-is-amazon-kinesis-expert)
+[What is Amazon Kinesis?](#what-is-amazon-kinesis)
 
-[How to find a region from within an EC2 instance?](#how-to-find-a-region-from-within-an-ec2-instance-expert)
+[How to find a region from within an EC2 instance?](#how-to-find-a-region-from-within-an-ec2-instance)
 
-[Where are EC2 snapshots stored?](#where-are-ec2-snapshots-stored-expert)
+[Where are EC2 snapshots stored?](#where-are-ec2-snapshots-stored)
 
-[When should one use the following: Amazon EC2, Google App Engine, Microsoft Azure and Salesforce.com?](#when-should-one-use-the-following-amazon-ec2-google-app-engine-microsoft-azure-and-salesforcecom-expert)
+[When should one use the following: Amazon EC2, Google App Engine, Microsoft Azure and Salesforce.com?](#when-should-one-use-the-following-amazon-ec2-google-app-engine-microsoft-azure-and-salesforcecom)
 
-[When to use Amazon CloudFront and when S3?](#when-to-use-amazon-cloudfront-and-when-s3-expert)
+[When to use Amazon CloudFront and when S3?](#when-to-use-amazon-cloudfront-and-when-s3)
 
-[Our EC2 micro instance occasionally runs out of memory. Other than using a larger instance size, what else can be done?](#our-ec2-micro-instance-occasionally-runs-out-of-memory-other-than-using-a-larger-instance-size-what-else-can-be-done-expert)
+[Our EC2 micro instance occasionally runs out of memory. Other than using a larger instance size, what else can be done?](#our-ec2-micro-instance-occasionally-runs-out-of-memory-other-than-using-a-larger-instance-size-what-else-can-be-done)
 
-[What is difference between Lightsail and EC2?](#what-is-difference-between-lightsail-and-ec2-expert)
+[What is difference between Lightsail and EC2?](#what-is-difference-between-lightsail-and-ec2)
 
-[What is the underlying hypervisor for EC2?](#what-is-the-underlying-hypervisor-for-ec2-expert)
+[What is the underlying hypervisor for EC2?](#what-is-the-underlying-hypervisor-for-ec2)
 
-[How to safely upgrade an Amazon EC2 instance from t1.micro to large?](#how-to-safely-upgrade-an-amazon-ec2-instance-from-t1micro-to-large-expert)
+[How to safely upgrade an Amazon EC2 instance from t1.micro to large?](#how-to-safely-upgrade-an-amazon-ec2-instance-from-t1micro-to-large)
 
 
 

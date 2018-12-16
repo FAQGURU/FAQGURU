@@ -1,64 +1,64 @@
 ## ASP.NET MVC
 
-[What is Layout in MVC?](#what-is-layout-in-mvc-junior)
+[What is Layout in MVC?](#what-is-layout-in-mvc)
 
-[What are Actions in MVC?](#what-are-actions-in-mvc-mid)
+[What are Actions in MVC?](#what-are-actions-in-mvc)
 
-[What is Razor View Engine?](#what-is-razor-view-engine-mid)
+[What is Razor View Engine?](#what-is-razor-view-engine)
 
-[What is the use of ViewModel in MVC?](#what-is-the-use-of-viewmodel-in-mvc-mid)
+[What is the use of ViewModel in MVC?](#what-is-the-use-of-viewmodel-in-mvc)
 
-[What you mean by Routing in MVC?](#what-you-mean-by-routing-in-mvc-mid)
+[What you mean by Routing in MVC?](#what-you-mean-by-routing-in-mvc)
 
-[What are the advantages of MVC over ASP.NET?](#what-are-the-advantages-of-mvc-over-aspnet-mid)
+[What are the advantages of MVC over ASP.NET?](#what-are-the-advantages-of-mvc-over-aspnet)
 
-[What are Scaffold templates in MVC?](#what-are-scaffold-templates-in-mvc-mid)
+[What are Scaffold templates in MVC?](#what-are-scaffold-templates-in-mvc)
 
-[Explain Bundle.Config in MVC4?](#explain-bundleconfig-in-mvc4-mid)
+[Explain Bundle.Config in MVC4?](#explain-bundleconfig-in-mvc4)
 
-[Can you explain Model, Controller and View in MVC?](#can-you-explain-model-controller-and-view-in-mvc-mid)
+[Can you explain Model, Controller and View in MVC?](#can-you-explain-model-controller-and-view-in-mvc)
 
-[Explain Sections is MVC?](#explain-sections-is-mvc-mid)
+[Explain Sections is MVC?](#explain-sections-is-mvc)
 
-[What are Non Action methods in MVC?](#what-are-non-action-methods-in-mvc-mid)
+[What are Non Action methods in MVC?](#what-are-non-action-methods-in-mvc)
 
-[What is RouteConfig.cs in MVC 4?](#what-is-routeconfigcs-in-mvc-4-senior)
+[What is RouteConfig.cs in MVC 4?](#what-is-routeconfigcs-in-mvc-4)
 
-[What is the difference between ViewBag and ViewData in MVC?](#what-is-the-difference-between-viewbag-and-viewdata-in-mvc-senior)
+[What is the difference between ViewBag and ViewData in MVC?](#what-is-the-difference-between-viewbag-and-viewdata-in-mvc)
 
-[What is the "HelperPage.IsAjax" Property?](#what-is-the-helperpageisajax-property-senior)
+[What is the "HelperPage.IsAjax" Property?](#what-is-the-helperpageisajax-property)
 
-[What are HTML Helpers in MVC?](#what-are-html-helpers-in-mvc-senior)
+[What are HTML Helpers in MVC?](#what-are-html-helpers-in-mvc)
 
-[Can you explain the page life cycle of MVC?](#can-you-explain-the-page-life-cycle-of-mvc-senior)
+[Can you explain the page life cycle of MVC?](#can-you-explain-the-page-life-cycle-of-mvc)
 
-[What is Attribute Routing in MVC?](#what-is-attribute-routing-in-mvc-senior)
+[What is Attribute Routing in MVC?](#what-is-attribute-routing-in-mvc)
 
-[What is PartialView in MVC?](#what-is-partialview-in-mvc-senior)
+[What is PartialView in MVC?](#what-is-partialview-in-mvc)
 
-[Can you explain RenderBody and RenderPage in MVC?](#can-you-explain-renderbody-and-renderpage-in-mvc-senior)
+[Can you explain RenderBody and RenderPage in MVC?](#can-you-explain-renderbody-and-renderpage-in-mvc)
 
-[Explain the methods used to render the views in MVC?](#explain-the-methods-used-to-render-the-views-in-mvc-senior)
+[Explain the methods used to render the views in MVC?](#explain-the-methods-used-to-render-the-views-in-mvc)
 
-[Explain ASP.NET WebApi vs MVC?](#explain-aspnet-webapi-vs-mvc-senior)
+[Explain ASP.NET WebApi vs MVC?](#explain-aspnet-webapi-vs-mvc)
 
-[Can a view be shared across multiple controllers? If Yes, How we can do that?](#can-a-view-be-shared-across-multiple-controllers-if-yes-how-we-can-do-that-senior)
+[Can a view be shared across multiple controllers? If Yes, How we can do that?](#can-a-view-be-shared-across-multiple-controllers-if-yes-how-we-can-do-that)
 
-[Explain TempData in MVC?](#explain-tempdata-in-mvc-expert)
+[Explain TempData in MVC?](#explain-tempdata-in-mvc)
 
-[What are Validation Annotations?](#what-are-validation-annotations-expert)
+[What are Validation Annotations?](#what-are-validation-annotations)
 
-[Why to use Html.Partial in MVC?](#why-to-use-htmlpartial-in-mvc-expert)
+[Why to use Html.Partial in MVC?](#why-to-use-htmlpartial-in-mvc)
 
-[How route table has been created in ASP.NET MVC?](#how-route-table-has-been-created-in-aspnet-mvc-expert)
+[How route table has been created in ASP.NET MVC?](#how-route-table-has-been-created-in-aspnet-mvc)
 
-[Explain Dependency Resolution?](#explain-dependency-resolution-expert)
+[Explain Dependency Resolution?](#explain-dependency-resolution)
 
-[What is Separation of Concerns in ASP.NET MVC?](#what-is-separation-of-concerns-in-aspnet-mvc-expert)
+[What is Separation of Concerns in ASP.NET MVC?](#what-is-separation-of-concerns-in-aspnet-mvc)
 
-[What are AJAX Helpers in MVC?](#what-are-ajax-helpers-in-mvc-expert)
+[What are AJAX Helpers in MVC?](#what-are-ajax-helpers-in-mvc)
 
-[What is Html.RenderPartial?](#what-is-htmlrenderpartial-expert)
+[What is Html.RenderPartial?](#what-is-htmlrenderpartial)
 
 
 

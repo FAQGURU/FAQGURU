@@ -1,86 +1,86 @@
 ## ASP.NET
 
-[What is ViewData?](#what-is-viewdata-junior)
+[What is ViewData?](#what-is-viewdata)
 
-[What is ASP.Net?](#what-is-aspnet-junior)
+[What is ASP.Net?](#what-is-aspnet)
 
-[What is ViewState?](#what-is-viewstate-mid)
+[What is ViewState?](#what-is-viewstate)
 
-[How you can add an event handler?](#how-you-can-add-an-event-handler-mid)
+[How you can add an event handler?](#how-you-can-add-an-event-handler)
 
-[What's the use of Response.Output.Write()?](#whats-the-use-of-responseoutputwrite-mid)
+[What's the use of Response.Output.Write()?](#whats-the-use-of-responseoutputwrite)
 
-[What is the difference between ASP.NET and ASP.NET MVC?](#what-is-the-difference-between-aspnet-and-aspnet-mvc-mid)
+[What is the difference between ASP.NET and ASP.NET MVC?](#what-is-the-difference-between-aspnet-and-aspnet-mvc)
 
-[What is a postback?](#what-is-a-postback-mid)
+[What is a postback?](#what-is-a-postback)
 
-[What is the good practice to implement validations in aspx page?](#what-is-the-good-practice-to-implement-validations-in-aspx-page-mid)
+[What is the good practice to implement validations in aspx page?](#what-is-the-good-practice-to-implement-validations-in-aspx-page)
 
-[What is the file extension of ASP.NET web service?](#what-is-the-file-extension-of-aspnet-web-service-mid)
+[What is the file extension of ASP.NET web service?](#what-is-the-file-extension-of-aspnet-web-service)
 
-[What is the meaning of Unobtrusive JavaScript?](#what-is-the-meaning-of-unobtrusive-javascript-senior)
+[What is the meaning of Unobtrusive JavaScript?](#what-is-the-meaning-of-unobtrusive-javascript)
 
-[Explain JSON Binding?](#explain-json-binding-senior)
+[Explain JSON Binding?](#explain-json-binding)
 
-[What are the different types of caching?](#what-are-the-different-types-of-caching-senior)
+[What are the different types of caching?](#what-are-the-different-types-of-caching)
 
-[What are the sub types of ActionResult?](#what-are-the-sub-types-of-actionresult-senior)
+[What are the sub types of ActionResult?](#what-are-the-sub-types-of-actionresult)
 
-[ How do you register JavaScript for webcontrols?](#-how-do-you-register-javascript-for-webcontrols-senior)
+[ How do you register JavaScript for webcontrols?](#-how-do-you-register-javascript-for-webcontrols)
 
-[What is the difference between Server.Transfer and Response.Redirect?](#what-is-the-difference-between-servertransfer-and-responseredirect-senior)
+[What is the difference between Server.Transfer and Response.Redirect?](#what-is-the-difference-between-servertransfer-and-responseredirect)
 
-[Where the viewstate is stored after the page postback?](#where-the-viewstate-is-stored-after-the-page-postback-senior)
+[Where the viewstate is stored after the page postback?](#where-the-viewstate-is-stored-after-the-page-postback)
 
-[How long the items in ViewState exists?](#how-long-the-items-in-viewstate-exists-senior)
+[How long the items in ViewState exists?](#how-long-the-items-in-viewstate-exists)
 
-[What are the different validators in ASP.NET? ](#what-are-the-different-validators-in-aspnet--senior)
+[What are the different validators in ASP.NET? ](#what-are-the-different-validators-in-aspnet-)
 
-[What is ViewState? How is it encoded? Is it encrypted? Who uses ViewState?](#what-is-viewstate-how-is-it-encoded-is-it-encrypted-who-uses-viewstate-senior)
+[What is ViewState? How is it encoded? Is it encrypted? Who uses ViewState?](#what-is-viewstate-how-is-it-encoded-is-it-encrypted-who-uses-viewstate)
 
-[List the events in ASP.NET page life cycle](#list-the-events-in-aspnet-page-life-cycle-senior)
+[List the events in ASP.NET page life cycle](#list-the-events-in-aspnet-page-life-cycle)
 
-[Can we add code files of different languages in App_Code folder?](#can-we-add-code-files-of-different-languages-in-app_code-folder-senior)
+[Can we add code files of different languages in App_Code folder?](#can-we-add-code-files-of-different-languages-in-app_code-folder)
 
-[How can we prevent browser from caching an ASPX page?](#how-can-we-prevent-browser-from-caching-an-aspx-page-senior)
+[How can we prevent browser from caching an ASPX page?](#how-can-we-prevent-browser-from-caching-an-aspx-page)
 
-[In which event of page cycle is the ViewState available?](#in-which-event-of-page-cycle-is-the-viewstate-available-senior)
+[In which event of page cycle is the ViewState available?](#in-which-event-of-page-cycle-is-the-viewstate-available)
 
-[What are the event handlers that we can have in Global.asax file?](#what-are-the-event-handlers-that-we-can-have-in-globalasax-file-senior)
+[What are the event handlers that we can have in Global.asax file?](#what-are-the-event-handlers-that-we-can-have-in-globalasax-file)
 
-[From which base class all Web Forms are inherited?](#from-which-base-class-all-web-forms-are-inherited-senior)
+[From which base class all Web Forms are inherited?](#from-which-base-class-all-web-forms-are-inherited)
 
-[What is the difference between an HtmlInputCheckBox control and an HtmlInputRadioButton control?](#what-is-the-difference-between-an-htmlinputcheckbox-control-and-an-htmlinputradiobutton-control-senior)
+[What is the difference between an HtmlInputCheckBox control and an HtmlInputRadioButton control?](#what-is-the-difference-between-an-htmlinputcheckbox-control-and-an-htmlinputradiobutton-control)
 
-[In which event are the controls fully loaded?](#in-which-event-are-the-controls-fully-loaded-senior)
+[In which event are the controls fully loaded?](#in-which-event-are-the-controls-fully-loaded)
 
-[What is the difference between web config and machine config?](#what-is-the-difference-between-web-config-and-machine-config-expert)
+[What is the difference between web config and machine config?](#what-is-the-difference-between-web-config-and-machine-config)
 
-[What is RedirectPermanent in ASP.Net?](#what-is-redirectpermanent-in-aspnet-expert)
+[What is RedirectPermanent in ASP.Net?](#what-is-redirectpermanent-in-aspnet)
 
-[What are the different Session state management options available in ASP.NET?](#what-are-the-different-session-state-management-options-available-in-aspnet-expert)
+[What are the different Session state management options available in ASP.NET?](#what-are-the-different-session-state-management-options-available-in-aspnet)
 
-[List the major built-in objects in ASP.NET?](#list-the-major-built-in-objects-in-aspnet-expert)
+[List the major built-in objects in ASP.NET?](#list-the-major-built-in-objects-in-aspnet)
 
-[Which type if caching will be used if we want to cache the portion of a page instead of whole page?](#which-type-if-caching-will-be-used-if-we-want-to-cache-the-portion-of-a-page-instead-of-whole-page-expert)
+[Which type if caching will be used if we want to cache the portion of a page instead of whole page?](#which-type-if-caching-will-be-used-if-we-want-to-cache-the-portion-of-a-page-instead-of-whole-page)
 
-[How can we apply Themes to an asp.net application?](#how-can-we-apply-themes-to-an-aspnet-application-expert)
+[How can we apply Themes to an asp.net application?](#how-can-we-apply-themes-to-an-aspnet-application)
 
-[What are the different types of cookies in ASP.NET?](#what-are-the-different-types-of-cookies-in-aspnet-expert)
+[What are the different types of cookies in ASP.NET?](#what-are-the-different-types-of-cookies-in-aspnet)
 
-[How we can force all the validation controls to run?](#how-we-can-force-all-the-validation-controls-to-run-expert)
+[How we can force all the validation controls to run?](#how-we-can-force-all-the-validation-controls-to-run)
 
-[What is the difference between Web Service and WCF Service?](#what-is-the-difference-between-web-service-and-wcf-service-expert)
+[What is the difference between Web Service and WCF Service?](#what-is-the-difference-between-web-service-and-wcf-service)
 
-[Is it possible to create web application with both webforms and mvc?](#is-it-possible-to-create-web-application-with-both-webforms-and-mvc-expert)
+[Is it possible to create web application with both webforms and mvc?](#is-it-possible-to-create-web-application-with-both-webforms-and-mvc)
 
-[What is the difference between a web API and a web service?](#what-is-the-difference-between-a-web-api-and-a-web-service-expert)
+[What is the difference between a web API and a web service?](#what-is-the-difference-between-a-web-api-and-a-web-service)
 
-[What is Cross Page Posting?](#what-is-cross-page-posting-expert)
+[What is Cross Page Posting?](#what-is-cross-page-posting)
 
-[What is the equivalent of WebForms in ASP.NET Core?](#what-is-the-equivalent-of-webforms-in-aspnet-core-expert)
+[What is the equivalent of WebForms in ASP.NET Core?](#what-is-the-equivalent-of-webforms-in-aspnet-core)
 
-[Name some ASP.NET WebForms disadvantages over MVC?](#name-some-aspnet-webforms-disadvantages-over-mvc-expert)
+[Name some ASP.NET WebForms disadvantages over MVC?](#name-some-aspnet-webforms-disadvantages-over-mvc)
 
 
 

@@ -1,80 +1,80 @@
 ## CSS
 
-[Explain the three main ways to apply CSS styles to a web page](#explain-the-three-main-ways-to-apply-css-styles-to-a-web-page-junior)
+[Explain the three main ways to apply CSS styles to a web page](#explain-the-three-main-ways-to-apply-css-styles-to-a-web-page)
 
-[What is CSS?](#what-is-css-junior)
+[What is CSS?](#what-is-css)
 
-[What is DOM (Document Object Model) and how is it linked to CSS?](#what-is-dom-document-object-model-and-how-is-it-linked-to-css-mid)
+[What is DOM (Document Object Model) and how is it linked to CSS?](#what-is-dom-document-object-model-and-how-is-it-linked-to-css)
 
-[Explain the CSS “box model” and the layout components that it consists of](#explain-the-css-box-model-and-the-layout-components-that-it-consists-of-mid)
+[Explain the CSS “box model” and the layout components that it consists of](#explain-the-css-box-model-and-the-layout-components-that-it-consists-of)
 
-[What is a CSS rule?](#what-is-a-css-rule-mid)
+[What is a CSS rule?](#what-is-a-css-rule)
 
-[What existing CSS frameworks have you used locally, or in production? How would you change/improve them?](#what-existing-css-frameworks-have-you-used-locally-or-in-production-how-would-you-changeimprove-them-mid)
+[What existing CSS frameworks have you used locally, or in production? How would you change/improve them?](#what-existing-css-frameworks-have-you-used-locally-or-in-production-how-would-you-changeimprove-them)
 
-[Have you played around with the new CSS Flexbox or Grid specs?](#have-you-played-around-with-the-new-css-flexbox-or-grid-specs-mid)
+[Have you played around with the new CSS Flexbox or Grid specs?](#have-you-played-around-with-the-new-css-flexbox-or-grid-specs)
 
-[What is the difference between classes and IDs in CSS?](#what-is-the-difference-between-classes-and-ids-in-css-mid)
+[What is the difference between classes and IDs in CSS?](#what-is-the-difference-between-classes-and-ids-in-css)
 
-[Describe floats and how they work](#describe-floats-and-how-they-work-mid)
+[Describe floats and how they work](#describe-floats-and-how-they-work)
 
-[Explain CSS sprites, and how you would implement them on a page or site.](#explain-css-sprites-and-how-you-would-implement-them-on-a-page-or-site-mid)
+[Explain CSS sprites, and how you would implement them on a page or site.](#explain-css-sprites-and-how-you-would-implement-them-on-a-page-or-site)
 
-[How would you approach fixing browser-specific styling issues?](#how-would-you-approach-fixing-browser-specific-styling-issues-senior)
+[How would you approach fixing browser-specific styling issues?](#how-would-you-approach-fixing-browser-specific-styling-issues)
 
-[What is CSS preprocessor and why to user one?](#what-is-css-preprocessor-and-why-to-user-one-senior)
+[What is CSS preprocessor and why to user one?](#what-is-css-preprocessor-and-why-to-user-one)
 
-[Have you ever worked with retina graphics? If so, when and what techniques did you use?](#have-you-ever-worked-with-retina-graphics-if-so-when-and-what-techniques-did-you-use-senior)
+[Have you ever worked with retina graphics? If so, when and what techniques did you use?](#have-you-ever-worked-with-retina-graphics-if-so-when-and-what-techniques-did-you-use)
 
-[How is responsive design different from adaptive design?](#how-is-responsive-design-different-from-adaptive-design-senior)
+[How is responsive design different from adaptive design?](#how-is-responsive-design-different-from-adaptive-design)
 
-[How to create a zebra striped table with CSS?](#how-to-create-a-zebra-striped-table-with-css-senior)
+[How to create a zebra striped table with CSS?](#how-to-create-a-zebra-striped-table-with-css)
 
-[What’s the difference between “resetting” and “normalizing” CSS? Which would you choose, and why?](#whats-the-difference-between-resetting-and-normalizing-css-which-would-you-choose-and-why-senior)
+[What’s the difference between “resetting” and “normalizing” CSS? Which would you choose, and why?](#whats-the-difference-between-resetting-and-normalizing-css-which-would-you-choose-and-why)
 
-[How does CSS actually work (under the hood of browser)?](#how-does-css-actually-work-under-the-hood-of-browser-senior)
+[How does CSS actually work (under the hood of browser)?](#how-does-css-actually-work-under-the-hood-of-browser)
 
-[Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.](#explain-your-understanding-of-the-box-model-and-how-you-would-tell-the-browser-in-css-to-render-your-layout-in-different-box-models-senior)
+[Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.](#explain-your-understanding-of-the-box-model-and-how-you-would-tell-the-browser-in-css-to-render-your-layout-in-different-box-models)
 
-[What is CSS selectors? Name some.](#what-is-css-selectors-name-some-senior)
+[What is CSS selectors? Name some.](#what-is-css-selectors-name-some)
 
-[Explain the usage of "table-layout" property](#explain-the-usage-of-table-layout-property-senior)
+[Explain the usage of "table-layout" property](#explain-the-usage-of-table-layout-property)
 
-[Describe pseudo-elements and discuss what they are used for.](#describe-pseudo-elements-and-discuss-what-they-are-used-for-senior)
+[Describe pseudo-elements and discuss what they are used for.](#describe-pseudo-elements-and-discuss-what-they-are-used-for)
 
-[What does Accessibility (a11y) mean?](#what-does-accessibility-a11y-mean-senior)
+[What does Accessibility (a11y) mean?](#what-does-accessibility-a11y-mean)
 
-[What are the advantages/disadvantages of using CSS preprocessors?](#what-are-the-advantagesdisadvantages-of-using-css-preprocessors-senior)
+[What are the advantages/disadvantages of using CSS preprocessors?](#what-are-the-advantagesdisadvantages-of-using-css-preprocessors)
 
-[What is a Grid System in CSS?](#what-is-a-grid-system-in-css-senior)
+[What is a Grid System in CSS?](#what-is-a-grid-system-in-css)
 
-[What's the difference between a `relative`, `fixed`, `absolute` and `static`ally positioned element?](#whats-the-difference-between-a-relative-fixed-absolute-and-statically-positioned-element-senior)
+[What's the difference between a `relative`, `fixed`, `absolute` and `static`ally positioned element?](#whats-the-difference-between-a-relative-fixed-absolute-and-statically-positioned-element)
 
-[Explain the purpose of clearing floats in CSS](#explain-the-purpose-of-clearing-floats-in-css-expert)
+[Explain the purpose of clearing floats in CSS](#explain-the-purpose-of-clearing-floats-in-css)
 
-[How do you optimize your webpages for print?](#how-do-you-optimize-your-webpages-for-print-expert)
+[How do you optimize your webpages for print?](#how-do-you-optimize-your-webpages-for-print)
 
-[Have you ever used a grid system, and if so, what do you prefer?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer-expert)
+[Have you ever used a grid system, and if so, what do you prefer?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
 
-[What are the different ways to visually hide content (and make it available only for screen readers)?](#what-are-the-different-ways-to-visually-hide-content-and-make-it-available-only-for-screen-readers-expert)
+[What are the different ways to visually hide content (and make it available only for screen readers)?](#what-are-the-different-ways-to-visually-hide-content-and-make-it-available-only-for-screen-readers)
 
-[Describe z-index and how a stacking context is formed](#describe-z-index-and-how-a-stacking-context-is-formed-expert)
+[Describe z-index and how a stacking context is formed](#describe-z-index-and-how-a-stacking-context-is-formed)
 
-[What does * { box-sizing: border-box; } do? What are its advantages?](#what-does---box-sizing-border-box--do-what-are-its-advantages-expert)
+[What does * { box-sizing: border-box; } do? What are its advantages?](#what-does---box-sizing-border-box--do-what-are-its-advantages)
 
-[Can you explain the difference between coding a website to be responsive versus using a mobile-first strategy?](#can-you-explain-the-difference-between-coding-a-website-to-be-responsive-versus-using-a-mobile-first-strategy-expert)
+[Can you explain the difference between coding a website to be responsive versus using a mobile-first strategy?](#can-you-explain-the-difference-between-coding-a-website-to-be-responsive-versus-using-a-mobile-first-strategy)
 
-[Explain the basic rules of CSS Specificity](#explain-the-basic-rules-of-css-specificity-expert)
+[Explain the basic rules of CSS Specificity](#explain-the-basic-rules-of-css-specificity)
 
-[Is there any reason you'd want to use `translate()` instead of `absolute` positioning, or vice-versa? And why?](#is-there-any-reason-youd-want-to-use-translate-instead-of-absolute-positioning-or-vice-versa-and-why-expert)
+[Is there any reason you'd want to use `translate()` instead of `absolute` positioning, or vice-versa? And why?](#is-there-any-reason-youd-want-to-use-translate-instead-of-absolute-positioning-or-vice-versa-and-why)
 
-[What the code fragment has the greater CSS specificity? ](#what-the-code-fragment-has-the-greater-css-specificity--expert)
+[What the code fragment has the greater CSS specificity? ](#what-the-code-fragment-has-the-greater-css-specificity-)
 
-[What clearfix methods do you know? Provide some examples.](#what-clearfix-methods-do-you-know-provide-some-examples-expert)
+[What clearfix methods do you know? Provide some examples.](#what-clearfix-methods-do-you-know-provide-some-examples)
 
-[How to style every element which has an adjacent item right before it?](#how-to-style-every-element-which-has-an-adjacent-item-right-before-it-expert)
+[How to style every element which has an adjacent item right before it?](#how-to-style-every-element-which-has-an-adjacent-item-right-before-it)
 
-[Write down a selector that will match any links end in .zip, .ZIP, .Zip etc...](#write-down-a-selector-that-will-match-any-links-end-in-zip-zip-zip-etc-expert)
+[Write down a selector that will match any links end in .zip, .ZIP, .Zip etc...](#write-down-a-selector-that-will-match-any-links-end-in-zip-zip-zip-etc)
 
 
 

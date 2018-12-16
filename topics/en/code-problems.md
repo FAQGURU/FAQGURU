@@ -1,56 +1,56 @@
 ## Code Problems
 
-[Test divisors of three](#test-divisors-of-three-junior)
+[Test divisors of three](#test-divisors-of-three)
 
-[Sum of Array Plus One](#sum-of-array-plus-one-junior)
+[Sum of Array Plus One](#sum-of-array-plus-one)
 
-[String Rotation](#string-rotation-junior)
+[String Rotation](#string-rotation)
 
-[Oddball sum](#oddball-sum-junior)
+[Oddball sum](#oddball-sum)
 
-[Simple clock angle](#simple-clock-angle-junior)
+[Simple clock angle](#simple-clock-angle)
 
-[Sum of several arrays](#sum-of-several-arrays-junior)
+[Sum of several arrays](#sum-of-several-arrays)
 
-[Lucky sevens](#lucky-sevens-junior)
+[Lucky sevens](#lucky-sevens)
 
-[Two sum problem](#two-sum-problem-mid)
+[Two sum problem](#two-sum-problem)
 
-[Implement a queue using a linked list](#implement-a-queue-using-a-linked-list-mid)
+[Implement a queue using a linked list](#implement-a-queue-using-a-linked-list)
 
-[Tree Level Order Print](#tree-level-order-print-mid)
+[Tree Level Order Print](#tree-level-order-print)
 
-[Stock maximum profit](#stock-maximum-profit-mid)
+[Stock maximum profit](#stock-maximum-profit)
 
-[Find Word Positions in Text](#find-word-positions-in-text-mid)
+[Find Word Positions in Text](#find-word-positions-in-text)
 
-[Determine overlapping numbers in ranges](#determine-overlapping-numbers-in-ranges-mid)
+[Determine overlapping numbers in ranges](#determine-overlapping-numbers-in-ranges)
 
-[Throttle Function Implementation](#throttle-function-implementation-mid)
+[Throttle Function Implementation](#throttle-function-implementation)
 
-[Dutch national flag sorting problem](#dutch-national-flag-sorting-problem-mid)
+[Dutch national flag sorting problem](#dutch-national-flag-sorting-problem)
 
-[Step-by-step solution for step counting using recursion](#step-by-step-solution-for-step-counting-using-recursion-mid)
+[Step-by-step solution for step counting using recursion](#step-by-step-solution-for-step-counting-using-recursion)
 
-[Implement Bubble Sort](#implement-bubble-sort-mid)
+[Implement Bubble Sort](#implement-bubble-sort)
 
-[Implement a queue using two stacks](#implement-a-queue-using-two-stacks-mid)
+[Implement a queue using two stacks](#implement-a-queue-using-two-stacks)
 
-[Implement pow(a,b) without multiplication or division](#implement-powab-without-multiplication-or-division-senior)
+[Implement pow(a,b) without multiplication or division](#implement-powab-without-multiplication-or-division)
 
-[Generate all balanced bracket combinations](#generate-all-balanced-bracket-combinations-senior)
+[Generate all balanced bracket combinations](#generate-all-balanced-bracket-combinations)
 
-[All Permutations (Anagrams) of a String](#all-permutations-anagrams-of-a-string-senior)
+[All Permutations (Anagrams) of a String](#all-permutations-anagrams-of-a-string)
 
-[Merge two sorted linked lists](#merge-two-sorted-linked-lists-senior)
+[Merge two sorted linked lists](#merge-two-sorted-linked-lists)
 
-[Insert an interval into a list of sorted disjoint intervals](#insert-an-interval-into-a-list-of-sorted-disjoint-intervals-senior)
+[Insert an interval into a list of sorted disjoint intervals](#insert-an-interval-into-a-list-of-sorted-disjoint-intervals)
 
-[Find all string combinations consisting only of 0, 1 and ?](#find-all-string-combinations-consisting-only-of-0-1-and--senior)
+[Find all string combinations consisting only of 0, 1 and ?](#find-all-string-combinations-consisting-only-of-0-1-and-)
 
-[Quickly calculate the cube root of 6 digit numbers](#quickly-calculate-the-cube-root-of-6-digit-numbers-senior)
+[Quickly calculate the cube root of 6 digit numbers](#quickly-calculate-the-cube-root-of-6-digit-numbers)
 
-[Transform Word](#transform-word-expert)
+[Transform Word](#transform-word)
 
 
 

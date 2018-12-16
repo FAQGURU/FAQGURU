@@ -1,84 +1,84 @@
 ## Vue.js
 
-[How to create an instance of Vue.js?](#how-to-create-an-instance-of-vuejs-junior)
+[How to create an instance of Vue.js?](#how-to-create-an-instance-of-vuejs)
 
-[What is Vue.js?](#what-is-vuejs-junior)
+[What is Vue.js?](#what-is-vuejs)
 
-[How to use local storage with Vue.js?](#how-to-use-local-storage-with-vuejs-mid)
+[How to use local storage with Vue.js?](#how-to-use-local-storage-with-vuejs)
 
-[How to create Two-Way Bindings in Vue.js?](#how-to-create-two-way-bindings-in-vuejs-mid)
+[How to create Two-Way Bindings in Vue.js?](#how-to-create-two-way-bindings-in-vuejs)
 
-[What are filters in Vue.js?](#what-are-filters-in-vuejs-mid)
+[What are filters in Vue.js?](#what-are-filters-in-vuejs)
 
-[What are components props?](#what-are-components-props-mid)
+[What are components props?](#what-are-components-props)
 
-[How to deploy Vue.js app?](#how-to-deploy-vuejs-app-mid)
+[How to deploy Vue.js app?](#how-to-deploy-vuejs-app)
 
-[What are Components in Vue.js?](#what-are-components-in-vuejs-mid)
+[What are Components in Vue.js?](#what-are-components-in-vuejs)
 
-[What are Directives in Vue.js, List some of them you used?](#what-are-directives-in-vuejs-list-some-of-them-you-used-mid)
+[What are Directives in Vue.js, List some of them you used?](#what-are-directives-in-vuejs-list-some-of-them-you-used)
 
-[What is filters in Vue.js?](#what-is-filters-in-vuejs-mid)
+[What is filters in Vue.js?](#what-is-filters-in-vuejs)
 
-[List some features of Vue.js](#list-some-features-of-vuejs-mid)
+[List some features of Vue.js](#list-some-features-of-vuejs)
 
-[How can you redirect to another page in Vue.js?](#how-can-you-redirect-to-another-page-in-vuejs-mid)
+[How can you redirect to another page in Vue.js?](#how-can-you-redirect-to-another-page-in-vuejs)
 
-[Can I pass parameters in computer properties in Vue.js?](#can-i-pass-parameters-in-computer-properties-in-vuejs-mid)
+[Can I pass parameters in computer properties in Vue.js?](#can-i-pass-parameters-in-computer-properties-in-vuejs)
 
-[Explain the basic logical Vue.js app organisation](#explain-the-basic-logical-vuejs-app-organisation-mid)
+[Explain the basic logical Vue.js app organisation](#explain-the-basic-logical-vuejs-app-organisation)
 
-[What are the Advantages/Disadvantages of Vuejs?](#what-are-the-advantagesdisadvantages-of-vuejs-mid)
+[What are the Advantages/Disadvantages of Vuejs?](#what-are-the-advantagesdisadvantages-of-vuejs)
 
-[Explain the differences between one-way data flow and two-way data binding?](#explain-the-differences-between-one-way-data-flow-and-two-way-data-binding-mid)
+[Explain the differences between one-way data flow and two-way data binding?](#explain-the-differences-between-one-way-data-flow-and-two-way-data-binding)
 
-[How can I fetch query parameters in Vue.js?](#how-can-i-fetch-query-parameters-in-vuejs-mid)
+[How can I fetch query parameters in Vue.js?](#how-can-i-fetch-query-parameters-in-vuejs)
 
-[List type of Directive are available in Vue.js.](#list-type-of-directive-are-available-in-vuejs-senior)
+[List type of Directive are available in Vue.js.](#list-type-of-directive-are-available-in-vuejs)
 
-[How to loop in Vue.js?](#how-to-loop-in-vuejs-senior)
+[How to loop in Vue.js?](#how-to-loop-in-vuejs)
 
-[What is the difference v-bind and v-model? Provide some code example.](#what-is-the-difference-v-bind-and-v-model-provide-some-code-example-senior)
+[What is the difference v-bind and v-model? Provide some code example.](#what-is-the-difference-v-bind-and-v-model-provide-some-code-example)
 
-[How to call function on child component on parent events?](#how-to-call-function-on-child-component-on-parent-events-senior)
+[How to call function on child component on parent events?](#how-to-call-function-on-child-component-on-parent-events)
 
-[List some benefits of Vue.js](#list-some-benefits-of-vuejs-senior)
+[List some benefits of Vue.js](#list-some-benefits-of-vuejs)
 
-[How to pass an argument to Vue.js filters?](#how-to-pass-an-argument-to-vuejs-filters-senior)
+[How to pass an argument to Vue.js filters?](#how-to-pass-an-argument-to-vuejs-filters)
 
-[How can you prevent layout jumps in Vue.js?](#how-can-you-prevent-layout-jumps-in-vuejs-senior)
+[How can you prevent layout jumps in Vue.js?](#how-can-you-prevent-layout-jumps-in-vuejs)
 
-[How to use Gulp with Vue.js?](#how-to-use-gulp-with-vuejs-expert)
+[How to use Gulp with Vue.js?](#how-to-use-gulp-with-vuejs)
 
-[Can you force Vue.js to reload/rerender?](#can-you-force-vuejs-to-reloadrerender-expert)
+[Can you force Vue.js to reload/rerender?](#can-you-force-vuejs-to-reloadrerender)
 
-[Are there any drawback of Vue.js you know?](#are-there-any-drawback-of-vuejs-you-know-expert)
+[Are there any drawback of Vue.js you know?](#are-there-any-drawback-of-vuejs-you-know)
 
-[How can you bind styles in Vue.js?](#how-can-you-bind-styles-in-vuejs-expert)
+[How can you bind styles in Vue.js?](#how-can-you-bind-styles-in-vuejs)
 
-[Could you listen for components props changes?](#could-you-listen-for-components-props-changes-expert)
+[Could you listen for components props changes?](#could-you-listen-for-components-props-changes)
 
-[What's the equivalent of Angular Service in Vue.js?](#whats-the-equivalent-of-angular-service-in-vuejs-expert)
+[What's the equivalent of Angular Service in Vue.js?](#whats-the-equivalent-of-angular-service-in-vuejs)
 
-[What is Vuex?](#what-is-vuex-expert)
+[What is Vuex?](#what-is-vuex)
 
-[How to save new value to data variables in Vue.js whenever the user types?](#how-to-save-new-value-to-data-variables-in-vuejs-whenever-the-user-types-expert)
+[How to save new value to data variables in Vue.js whenever the user types?](#how-to-save-new-value-to-data-variables-in-vuejs-whenever-the-user-types)
 
-[How to implement simple routing in Vue.js (without external library)?](#how-to-implement-simple-routing-in-vuejs-without-external-library-expert)
+[How to implement simple routing in Vue.js (without external library)?](#how-to-implement-simple-routing-in-vuejs-without-external-library)
 
-[List some types of components communication channels in Vue.js app](#list-some-types-of-components-communication-channels-in-vuejs-app-expert)
+[List some types of components communication channels in Vue.js app](#list-some-types-of-components-communication-channels-in-vuejs-app)
 
-[How can I watch an array length using Vue.js?](#how-can-i-watch-an-array-length-using-vuejs-expert)
+[How can I watch an array length using Vue.js?](#how-can-i-watch-an-array-length-using-vuejs)
 
-[Why we need Vue.js mixins?](#why-we-need-vuejs-mixins-expert)
+[Why we need Vue.js mixins?](#why-we-need-vuejs-mixins)
 
-[What is the best way to create a constant, that can be accessible from entire application in VueJs ?](#what-is-the-best-way-to-create-a-constant-that-can-be-accessible-from-entire-application-in-vuejs--expert)
+[What is the best way to create a constant, that can be accessible from entire application in VueJs ?](#what-is-the-best-way-to-create-a-constant-that-can-be-accessible-from-entire-application-in-vuejs-)
 
-[What is the main difference between a method and a computed value in Vue.js?](#what-is-the-main-difference-between-a-method-and-a-computed-value-in-vuejs-expert)
+[What is the main difference between a method and a computed value in Vue.js?](#what-is-the-main-difference-between-a-method-and-a-computed-value-in-vuejs)
 
-[What is a proper way to communicate between sibling components in vuejs 2.0?](#what-is-a-proper-way-to-communicate-between-sibling-components-in-vuejs-20-expert)
+[What is a proper way to communicate between sibling components in vuejs 2.0?](#what-is-a-proper-way-to-communicate-between-sibling-components-in-vuejs-20)
 
-[How do you toggle a class in Vue.js?](#how-do-you-toggle-a-class-in-vuejs-expert)
+[How do you toggle a class in Vue.js?](#how-do-you-toggle-a-class-in-vuejs)
 
 
 

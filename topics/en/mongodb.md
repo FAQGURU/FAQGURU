@@ -1,162 +1,162 @@
 ## MongoDB
 
-[Does Mongodb Support Foreign Key Constraints?](#does-mongodb-support-foreign-key-constraints-junior)
+[Does Mongodb Support Foreign Key Constraints?](#does-mongodb-support-foreign-key-constraints)
 
-[Which are the most important features of MongoDB?](#which-are-the-most-important-features-of-mongodb-junior)
+[Which are the most important features of MongoDB?](#which-are-the-most-important-features-of-mongodb)
 
-[Explain what is MongoDB?](#explain-what-is-mongodb-junior)
+[Explain what is MongoDB?](#explain-what-is-mongodb)
 
-[How many indexes does MongoDB create by default for a new collection?](#how-many-indexes-does-mongodb-create-by-default-for-a-new-collection-junior)
+[How many indexes does MongoDB create by default for a new collection?](#how-many-indexes-does-mongodb-create-by-default-for-a-new-collection)
 
-[Compare SQL databases and MongoDB at a high level.](#compare-sql-databases-and-mongodb-at-a-high-level-mid)
+[Compare SQL databases and MongoDB at a high level.](#compare-sql-databases-and-mongodb-at-a-high-level)
 
-[What Is Replication In MongoDB?](#what-is-replication-in-mongodb-mid)
+[What Is Replication In MongoDB?](#what-is-replication-in-mongodb)
 
-[What is “Namespace” in MongoDB?](#what-is-namespace-in-mongodb-mid)
+[What is “Namespace” in MongoDB?](#what-is-namespace-in-mongodb)
 
-[If you remove an object attribute, is it deleted from the database?](#if-you-remove-an-object-attribute-is-it-deleted-from-the-database-mid)
+[If you remove an object attribute, is it deleted from the database?](#if-you-remove-an-object-attribute-is-it-deleted-from-the-database)
 
-[Why does Profiler use in MongoDB?](#why-does-profiler-use-in-mongodb-mid)
+[Why does Profiler use in MongoDB?](#why-does-profiler-use-in-mongodb)
 
-[What is BSON in MongoDB?](#what-is-bson-in-mongodb-mid)
+[What is BSON in MongoDB?](#what-is-bson-in-mongodb)
 
-[Does MongoDB need a lot space of Random Access Memory (RAM)?](#does-mongodb-need-a-lot-space-of-random-access-memory-ram-mid)
+[Does MongoDB need a lot space of Random Access Memory (RAM)?](#does-mongodb-need-a-lot-space-of-random-access-memory-ram)
 
-[How is data stored in MongoDB?](#how-is-data-stored-in-mongodb-mid)
+[How is data stored in MongoDB?](#how-is-data-stored-in-mongodb)
 
-[Mention the command to insert a document in a database called school and collection called persons.](#mention-the-command-to-insert-a-document-in-a-database-called-school-and-collection-called-persons-mid)
+[Mention the command to insert a document in a database called school and collection called persons.](#mention-the-command-to-insert-a-document-in-a-database-called-school-and-collection-called-persons)
 
-[What are Indexes in MongoDB?](#what-are-indexes-in-mongodb-mid)
+[What are Indexes in MongoDB?](#what-are-indexes-in-mongodb)
 
-[What is a replica set?](#what-is-a-replica-set-mid)
+[What is a replica set?](#what-is-a-replica-set)
 
-[Can you create an index on an array field in MongoDB? If yes, what happens in this case?](#can-you-create-an-index-on-an-array-field-in-mongodb-if-yes-what-happens-in-this-case-mid)
+[Can you create an index on an array field in MongoDB? If yes, what happens in this case?](#can-you-create-an-index-on-an-array-field-in-mongodb-if-yes-what-happens-in-this-case)
 
-[When should we embed one document within another in MongoDB?](#when-should-we-embed-one-document-within-another-in-mongodb-mid)
+[When should we embed one document within another in MongoDB?](#when-should-we-embed-one-document-within-another-in-mongodb)
 
-[How is MongoDB better than other SQL databases?](#how-is-mongodb-better-than-other-sql-databases-senior)
+[How is MongoDB better than other SQL databases?](#how-is-mongodb-better-than-other-sql-databases)
 
-[Should I normalize my data before storing it in MongoDB?](#should-i-normalize-my-data-before-storing-it-in-mongodb-senior)
+[Should I normalize my data before storing it in MongoDB?](#should-i-normalize-my-data-before-storing-it-in-mongodb)
 
-[What is use of capped collection in MongoDB?](#what-is-use-of-capped-collection-in-mongodb-senior)
+[What is use of capped collection in MongoDB?](#what-is-use-of-capped-collection-in-mongodb)
 
-[What does MongoDB not being ACID compliant really mean?](#what-does-mongodb-not-being-acid-compliant-really-mean-senior)
+[What does MongoDB not being ACID compliant really mean?](#what-does-mongodb-not-being-acid-compliant-really-mean)
 
-[How to query MongoDB with %like%?](#how-to-query-mongodb-with-like-senior)
+[How to query MongoDB with %like%?](#how-to-query-mongodb-with-like)
 
-[How do I perform the SQL JOIN equivalent in MongoDB?](#how-do-i-perform-the-sql-join-equivalent-in-mongodb-senior)
+[How do I perform the SQL JOIN equivalent in MongoDB?](#how-do-i-perform-the-sql-join-equivalent-in-mongodb)
 
-[When to use MongoDB or other document oriented database systems?](#when-to-use-mongodb-or-other-document-oriented-database-systems-senior)
+[When to use MongoDB or other document oriented database systems?](#when-to-use-mongodb-or-other-document-oriented-database-systems)
 
-[What is the difference between MongoDB and MySQL?](#what-is-the-difference-between-mongodb-and-mysql-senior)
+[What is the difference between MongoDB and MySQL?](#what-is-the-difference-between-mongodb-and-mysql)
 
-[How can you achieve primary key - foreign key relationships in MongoDB?](#how-can-you-achieve-primary-key---foreign-key-relationships-in-mongodb-senior)
+[How can you achieve primary key - foreign key relationships in MongoDB?](#how-can-you-achieve-primary-key---foreign-key-relationships-in-mongodb)
 
-[Does MongoDB pushes the writes to disk immediately or lazily?](#does-mongodb-pushes-the-writes-to-disk-immediately-or-lazily-senior)
+[Does MongoDB pushes the writes to disk immediately or lazily?](#does-mongodb-pushes-the-writes-to-disk-immediately-or-lazily)
 
-[If you remove a document from database, does MongoDB remove it from disk?](#if-you-remove-a-document-from-database-does-mongodb-remove-it-from-disk-senior)
+[If you remove a document from database, does MongoDB remove it from disk?](#if-you-remove-a-document-from-database-does-mongodb-remove-it-from-disk)
 
-[What is the difference b/w MongoDB and CouchDB?](#what-is-the-difference-bw-mongodb-and-couchdb-senior)
+[What is the difference b/w MongoDB and CouchDB?](#what-is-the-difference-bw-mongodb-and-couchdb)
 
-[What is sharding?](#what-is-sharding-senior)
+[What is sharding?](#what-is-sharding)
 
-[What are NoSQL databases? What are the different types of NoSQL databases?](#what-are-nosql-databases-what-are-the-different-types-of-nosql-databases-senior)
+[What are NoSQL databases? What are the different types of NoSQL databases?](#what-are-nosql-databases-what-are-the-different-types-of-nosql-databases)
 
-[Explain the structure of ObjectID in MongoDB](#explain-the-structure-of-objectid-in-mongodb-senior)
+[Explain the structure of ObjectID in MongoDB](#explain-the-structure-of-objectid-in-mongodb)
 
-[What is a covered query in MongoDB?](#what-is-a-covered-query-in-mongodb-senior)
+[What is a covered query in MongoDB?](#what-is-a-covered-query-in-mongodb)
 
-[How can I combine data from multiple collections into one collection?](#how-can-i-combine-data-from-multiple-collections-into-one-collection-senior)
+[How can I combine data from multiple collections into one collection?](#how-can-i-combine-data-from-multiple-collections-into-one-collection)
 
-[Find objects between two dates MongoDB](#find-objects-between-two-dates-mongodb-senior)
+[Find objects between two dates MongoDB](#find-objects-between-two-dates-mongodb)
 
-[How to query MongoDB with “like”?](#how-to-query-mongodb-with-like-senior)
+[How to query MongoDB with “like”?](#how-to-query-mongodb-with-like)
 
-[Is there an “upsert” option in the mongodb insert command?](#is-there-an-upsert-option-in-the-mongodb-insert-command-senior)
+[Is there an “upsert” option in the mongodb insert command?](#is-there-an-upsert-option-in-the-mongodb-insert-command)
 
-[What is oplog?](#what-is-oplog-senior)
+[What is oplog?](#what-is-oplog)
 
-[How can you achieve transaction and locking in MongoDB?](#how-can-you-achieve-transaction-and-locking-in-mongodb-senior)
+[How can you achieve transaction and locking in MongoDB?](#how-can-you-achieve-transaction-and-locking-in-mongodb)
 
-[What do you understand by NoSQL databases? Explain.](#what-do-you-understand-by-nosql-databases-explain-senior)
+[What do you understand by NoSQL databases? Explain.](#what-do-you-understand-by-nosql-databases-explain)
 
-[What is Sharding in MongoDB? Explain.](#what-is-sharding-in-mongodb-explain-senior)
+[What is Sharding in MongoDB? Explain.](#what-is-sharding-in-mongodb-explain)
 
-[Can one MongoDB operation lock more than one databases? If yes, how?](#can-one-mongodb-operation-lock-more-than-one-databases-if-yes-how-senior)
+[Can one MongoDB operation lock more than one databases? If yes, how?](#can-one-mongodb-operation-lock-more-than-one-databases-if-yes-how)
 
-[Mention the command to check whether you are on the master server or not.](#mention-the-command-to-check-whether-you-are-on-the-master-server-or-not-senior)
+[Mention the command to check whether you are on the master server or not.](#mention-the-command-to-check-whether-you-are-on-the-master-server-or-not)
 
-[Why are MongoDB data files large in size?](#why-are-mongodb-data-files-large-in-size-senior)
+[Why are MongoDB data files large in size?](#why-are-mongodb-data-files-large-in-size)
 
-[Does MongoDB support ACID transaction management and locking functionalities?](#does-mongodb-support-acid-transaction-management-and-locking-functionalities-senior)
+[Does MongoDB support ACID transaction management and locking functionalities?](#does-mongodb-support-acid-transaction-management-and-locking-functionalities)
 
-[Why MongoDB is not preferred over a 32-bit system?](#why-mongodb-is-not-preferred-over-a-32-bit-system-senior)
+[Why MongoDB is not preferred over a 32-bit system?](#why-mongodb-is-not-preferred-over-a-32-bit-system)
 
-[What is Aggregation in MongoDB?](#what-is-aggregation-in-mongodb-senior)
+[What is Aggregation in MongoDB?](#what-is-aggregation-in-mongodb)
 
-[How replication works in MongoDB?](#how-replication-works-in-mongodb-expert)
+[How replication works in MongoDB?](#how-replication-works-in-mongodb)
 
-[By default, MongoDB writes and reads data from both primary and secondary replica sets. True or False.](#by-default-mongodb-writes-and-reads-data-from-both-primary-and-secondary-replica-sets-true-or-false-expert)
+[By default, MongoDB writes and reads data from both primary and secondary replica sets. True or False.](#by-default-mongodb-writes-and-reads-data-from-both-primary-and-secondary-replica-sets-true-or-false)
 
-[How does MongoDB provide concurrency?](#how-does-mongodb-provide-concurrency-expert)
+[How does MongoDB provide concurrency?](#how-does-mongodb-provide-concurrency)
 
-[How can you isolate your cursors from intervening with the write operations?](#how-can-you-isolate-your-cursors-from-intervening-with-the-write-operations-expert)
+[How can you isolate your cursors from intervening with the write operations?](#how-can-you-isolate-your-cursors-from-intervening-with-the-write-operations)
 
-[What are Primary and Secondary Replica sets?](#what-are-primary-and-secondary-replica-sets-expert)
+[What are Primary and Secondary Replica sets?](#what-are-primary-and-secondary-replica-sets)
 
-[At what interval does MongoDB write updates to the disk?](#at-what-interval-does-mongodb-write-updates-to-the-disk-expert)
+[At what interval does MongoDB write updates to the disk?](#at-what-interval-does-mongodb-write-updates-to-the-disk)
 
-[Mention the command to list all the indexes on a particular collection.](#mention-the-command-to-list-all-the-indexes-on-a-particular-collection-expert)
+[Mention the command to list all the indexes on a particular collection.](#mention-the-command-to-list-all-the-indexes-on-a-particular-collection)
 
-[What happens if an index does not fit into RAM?](#what-happens-if-an-index-does-not-fit-into-ram-expert)
+[What happens if an index does not fit into RAM?](#what-happens-if-an-index-does-not-fit-into-ram)
 
-[Does MongoDB provide a facility to do text searches? How?](#does-mongodb-provide-a-facility-to-do-text-searches-how-expert)
+[Does MongoDB provide a facility to do text searches? How?](#does-mongodb-provide-a-facility-to-do-text-searches-how)
 
-[Update MongoDB field using value of another field](#update-mongodb-field-using-value-of-another-field-expert)
+[Update MongoDB field using value of another field](#update-mongodb-field-using-value-of-another-field)
 
-[How does Journaling work in MongoDB?](#how-does-journaling-work-in-mongodb-expert)
+[How does Journaling work in MongoDB?](#how-does-journaling-work-in-mongodb)
 
-[Why is a covered query important?](#why-is-a-covered-query-important-expert)
+[Why is a covered query important?](#why-is-a-covered-query-important)
 
-[When to Redis or MongoDB?](#when-to-redis-or-mongodb-expert)
+[When to Redis or MongoDB?](#when-to-redis-or-mongodb)
 
-[MongoDB relationships. What to use - embed or reference?](#mongodb-relationships-what-to-use---embed-or-reference-expert)
+[MongoDB relationships. What to use - embed or reference?](#mongodb-relationships-what-to-use---embed-or-reference)
 
-[Is MongoDB schema-less?](#is-mongodb-schema-less-expert)
+[Is MongoDB schema-less?](#is-mongodb-schema-less)
 
-[How to get the last N records from find?](#how-to-get-the-last-n-records-from-find-expert)
+[How to get the last N records from find?](#how-to-get-the-last-n-records-from-find)
 
-[How does MongoDB ensure high availability?](#how-does-mongodb-ensure-high-availability-expert)
+[How does MongoDB ensure high availability?](#how-does-mongodb-ensure-high-availability)
 
-[How to find MongoDB records where array field is not empty?](#how-to-find-mongodb-records-where-array-field-is-not-empty-expert)
+[How to find MongoDB records where array field is not empty?](#how-to-find-mongodb-records-where-array-field-is-not-empty)
 
-[How to check if a field contains a substring?](#how-to-check-if-a-field-contains-a-substring-expert)
+[How to check if a field contains a substring?](#how-to-check-if-a-field-contains-a-substring)
 
-[Where can I run MongoDB?](#where-can-i-run-mongodb-expert)
+[Where can I run MongoDB?](#where-can-i-run-mongodb)
 
-[What are alternatives to MongoDB?](#what-are-alternatives-to-mongodb-expert)
+[What are alternatives to MongoDB?](#what-are-alternatives-to-mongodb)
 
-[How to remove a field completely from a MongoDB document?](#how-to-remove-a-field-completely-from-a-mongodb-document-expert)
+[How to remove a field completely from a MongoDB document?](#how-to-remove-a-field-completely-from-a-mongodb-document)
 
-[What is a Storage Engine in MongoDB](#what-is-a-storage-engine-in-mongodb-expert)
+[What is a Storage Engine in MongoDB](#what-is-a-storage-engine-in-mongodb)
 
-[How to find document with array that contains a specific value?](#how-to-find-document-with-array-that-contains-a-specific-value-expert)
+[How to find document with array that contains a specific value?](#how-to-find-document-with-array-that-contains-a-specific-value)
 
-[What is splitting in mongodb?](#what-is-splitting-in-mongodb-expert)
+[What is splitting in mongodb?](#what-is-splitting-in-mongodb)
 
-[Is it possible to update MongoDB field using value of another field?](#is-it-possible-to-update-mongodb-field-using-value-of-another-field-expert)
+[Is it possible to update MongoDB field using value of another field?](#is-it-possible-to-update-mongodb-field-using-value-of-another-field)
 
-[Explain what is horizontal scalability?](#explain-what-is-horizontal-scalability-expert)
+[Explain what is horizontal scalability?](#explain-what-is-horizontal-scalability)
 
-[What are the differences between MongoDB and MySQL?](#what-are-the-differences-between-mongodb-and-mysql-expert)
+[What are the differences between MongoDB and MySQL?](#what-are-the-differences-between-mongodb-and-mysql)
 
-[How to condense large volumes of data in Mongo?](#how-to-condense-large-volumes-of-data-in-mongo-expert)
+[How to condense large volumes of data in Mongo?](#how-to-condense-large-volumes-of-data-in-mongo)
 
-[Which are the two storage engines used by MongoDB?](#which-are-the-two-storage-engines-used-by-mongodb-expert)
+[Which are the two storage engines used by MongoDB?](#which-are-the-two-storage-engines-used-by-mongodb)
 
-[What's the advantage of the backup features in Ops Manager versus traditional backup strategies?](#whats-the-advantage-of-the-backup-features-in-ops-manager-versus-traditional-backup-strategies-expert)
+[What's the advantage of the backup features in Ops Manager versus traditional backup strategies?](#whats-the-advantage-of-the-backup-features-in-ops-manager-versus-traditional-backup-strategies)
 
-[What are three primary concerns when choosing a data management system?](#what-are-three-primary-concerns-when-choosing-a-data-management-system-expert)
+[What are three primary concerns when choosing a data management system?](#what-are-three-primary-concerns-when-choosing-a-data-management-system)
 
 
 

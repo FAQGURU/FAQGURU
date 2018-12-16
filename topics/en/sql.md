@@ -1,116 +1,116 @@
 ## SQL
 
-[What is PRIMARY KEY?](#what-is-primary-key-junior)
+[What is PRIMARY KEY?](#what-is-primary-key)
 
-[Define a temp table ](#define-a-temp-table--junior)
+[Define a temp table ](#define-a-temp-table-)
 
-[What is a view?](#what-is-a-view-junior)
+[What is a view?](#what-is-a-view)
 
-[What’s the difference between a local  temp table and a global temp table? ](#whats-the-difference-between-a-local--temp-table-and-a-global-temp-table--mid)
+[What’s the difference between a local  temp table and a global temp table? ](#whats-the-difference-between-a-local--temp-table-and-a-global-temp-table-)
 
-[What is blocking?](#what-is-blocking-mid)
+[What is blocking?](#what-is-blocking)
 
-[What is the difference between WHERE clause and HAVING clause?](#what-is-the-difference-between-where-clause-and-having-clause-mid)
+[What is the difference between WHERE clause and HAVING clause?](#what-is-the-difference-between-where-clause-and-having-clause)
 
-[What is FOREIGN KEY?](#what-is-foreign-key-mid)
+[What is FOREIGN KEY?](#what-is-foreign-key)
 
-[What is Normalization?](#what-is-normalization-mid)
+[What is Normalization?](#what-is-normalization)
 
-[How can a column with a default value be added to an existing table?](#how-can-a-column-with-a-default-value-be-added-to-an-existing-table-mid)
+[How can a column with a default value be added to an existing table?](#how-can-a-column-with-a-default-value-be-added-to-an-existing-table)
 
-[What is DEFAULT?](#what-is-default-mid)
+[What is DEFAULT?](#what-is-default)
 
-[What is the difference between inner and outer join?](#what-is-the-difference-between-inner-and-outer-join-senior)
+[What is the difference between inner and outer join?](#what-is-the-difference-between-inner-and-outer-join)
 
-[Discuss INNER JOIN ON vs WHERE clause](#discuss-inner-join-on-vs-where-clause-senior)
+[Discuss INNER JOIN ON vs WHERE clause](#discuss-inner-join-on-vs-where-clause)
 
-[What are the difference between clustered and a non-clustered index?](#what-are-the-difference-between-clustered-and-a-non-clustered-index-senior)
+[What are the difference between clustered and a non-clustered index?](#what-are-the-difference-between-clustered-and-a-non-clustered-index)
 
-[How do I perform an IF…THEN in an SQL SELECT?](#how-do-i-perform-an-ifthen-in-an-sql-select-senior)
+[How do I perform an IF…THEN in an SQL SELECT?](#how-do-i-perform-an-ifthen-in-an-sql-select)
 
-[Finding duplicate values in a SQL table](#finding-duplicate-values-in-a-sql-table-senior)
+[Finding duplicate values in a SQL table](#finding-duplicate-values-in-a-sql-table)
 
-[How does a hash table index work?](#how-does-a-hash-table-index-work-senior)
+[How does a hash table index work?](#how-does-a-hash-table-index-work)
 
-[What are the advantages of using Stored Procedures?](#what-are-the-advantages-of-using-stored-procedures-senior)
+[What are the advantages of using Stored Procedures?](#what-are-the-advantages-of-using-stored-procedures)
 
-[What is Denormalization?](#what-is-denormalization-senior)
+[What is Denormalization?](#what-is-denormalization)
 
-[How to select first 5 records from a table?](#how-to-select-first-5-records-from-a-table-senior)
+[How to select first 5 records from a table?](#how-to-select-first-5-records-from-a-table)
 
-[Define ACID Properties](#define-acid-properties-senior)
+[Define ACID Properties](#define-acid-properties)
 
-[How a database index can help performance?](#how-a-database-index-can-help-performance-senior)
+[How a database index can help performance?](#how-a-database-index-can-help-performance)
 
-[What is the difference between UNION and UNION ALL?	](#what-is-the-difference-between-union-and-union-all	-senior)
+[What is the difference between UNION and UNION ALL?	](#what-is-the-difference-between-union-and-union-all	)
 
-[What is a cursor how does it work?](#what-is-a-cursor-how-does-it-work-senior)
+[What is a cursor how does it work?](#what-is-a-cursor-how-does-it-work)
 
-[How do I UPDATE from a SELECT in SQL Server?](#how-do-i-update-from-a-select-in-sql-server-senior)
+[How do I UPDATE from a SELECT in SQL Server?](#how-do-i-update-from-a-select-in-sql-server)
 
-[What is the difference between “INNER JOIN” and “OUTER JOIN”?](#what-is-the-difference-between-inner-join-and-outer-join-senior)
+[What is the difference between “INNER JOIN” and “OUTER JOIN”?](#what-is-the-difference-between-inner-join-and-outer-join)
 
-[Is table size reduced, when you delete data from the table?](#is-table-size-reduced-when-you-delete-data-from-the-table-senior)
+[Is table size reduced, when you delete data from the table?](#is-table-size-reduced-when-you-delete-data-from-the-table)
 
-[Explain Function vs. Stored Procedure in SQL Server](#explain-function-vs-stored-procedure-in-sql-server-senior)
+[Explain Function vs. Stored Procedure in SQL Server](#explain-function-vs-stored-procedure-in-sql-server)
 
-[What are row constructors?](#what-are-row-constructors-senior)
+[What are row constructors?](#what-are-row-constructors)
 
-[What is the difference between JOIN and UNION?](#what-is-the-difference-between-join-and-union-senior)
+[What is the difference between JOIN and UNION?](#what-is-the-difference-between-join-and-union)
 
-[What is collation?](#what-is-collation-senior)
+[What is collation?](#what-is-collation)
 
-[Describe the difference between truncate and delete ](#describe-the-difference-between-truncate-and-delete--senior)
+[Describe the difference between truncate and delete ](#describe-the-difference-between-truncate-and-delete-)
 
-[How does B-trees index work?](#how-does-b-trees-index-work-expert)
+[How does B-trees index work?](#how-does-b-trees-index-work)
 
-[What are statistics?](#what-are-statistics-expert)
+[What are statistics?](#what-are-statistics)
 
-[How deadlock is resolved?](#how-deadlock-is-resolved-expert)
+[How deadlock is resolved?](#how-deadlock-is-resolved)
 
-[What is the difference among UNION, MINUS and INTERSECT?](#what-is-the-difference-among-union-minus-and-intersect-expert)
+[What is the difference among UNION, MINUS and INTERSECT?](#what-is-the-difference-among-union-minus-and-intersect)
 
-[What is a filegroup?](#what-is-a-filegroup-expert)
+[What is a filegroup?](#what-is-a-filegroup)
 
-[How can I do an UPDATE statement with JOIN in SQL?](#how-can-i-do-an-update-statement-with-join-in-sql-expert)
+[How can I do an UPDATE statement with JOIN in SQL?](#how-can-i-do-an-update-statement-with-join-in-sql)
 
-[How does truncate and delete operation effect Identity?](#how-does-truncate-and-delete-operation-effect-identity-expert)
+[How does truncate and delete operation effect Identity?](#how-does-truncate-and-delete-operation-effect-identity)
 
-[Explain a usage difference between user defined functions and stored procedures](#explain-a-usage-difference-between-user-defined-functions-and-stored-procedures-expert)
+[Explain a usage difference between user defined functions and stored procedures](#explain-a-usage-difference-between-user-defined-functions-and-stored-procedures)
 
-[What is a linked server?](#what-is-a-linked-server-expert)
+[What is a linked server?](#what-is-a-linked-server)
 
-[How can we transpose a table using SQL (changing rows to column or vice-versa) ?](#how-can-we-transpose-a-table-using-sql-changing-rows-to-column-or-vice-versa--expert)
+[How can we transpose a table using SQL (changing rows to column or vice-versa) ?](#how-can-we-transpose-a-table-using-sql-changing-rows-to-column-or-vice-versa-)
 
-[What would happen without an index?](#what-would-happen-without-an-index-expert)
+[What would happen without an index?](#what-would-happen-without-an-index)
 
-[Name types of Triggers](#name-types-of-triggers-expert)
+[Name types of Triggers](#name-types-of-triggers)
 
-[What are DMV's and DMF's?](#what-are-dmvs-and-dmfs-expert)
+[What are DMV's and DMF's?](#what-are-dmvs-and-dmfs)
 
-[What's the difference between a primary key and a unique key?](#whats-the-difference-between-a-primary-key-and-a-unique-key-expert)
+[What's the difference between a primary key and a unique key?](#whats-the-difference-between-a-primary-key-and-a-unique-key)
 
-[Delete duplicate values in a SQL table](#delete-duplicate-values-in-a-sql-table-expert)
+[Delete duplicate values in a SQL table](#delete-duplicate-values-in-a-sql-table)
 
-[What is the cost of having a database index?](#what-is-the-cost-of-having-a-database-index-expert)
+[What is the cost of having a database index?](#what-is-the-cost-of-having-a-database-index)
 
-[How to generate row number in SQL Without ROWNUM](#how-to-generate-row-number-in-sql-without-rownum-expert)
+[How to generate row number in SQL Without ROWNUM](#how-to-generate-row-number-in-sql-without-rownum)
 
-[Explain the difference between exclusive lock and update lock](#explain-the-difference-between-exclusive-lock-and-update-lock-expert)
+[Explain the difference between exclusive lock and update lock](#explain-the-difference-between-exclusive-lock-and-update-lock)
 
-[Insert results of a stored procedure into a temporary table](#insert-results-of-a-stored-procedure-into-a-temporary-table-expert)
+[Insert results of a stored procedure into a temporary table](#insert-results-of-a-stored-procedure-into-a-temporary-table)
 
-[What are some other types of indexes?](#what-are-some-other-types-of-indexes-expert)
+[What are some other types of indexes?](#what-are-some-other-types-of-indexes)
 
-[Name some disadvantages of a hash index](#name-some-disadvantages-of-a-hash-index-expert)
+[Name some disadvantages of a hash index](#name-some-disadvantages-of-a-hash-index)
 
-[How does database indexing work?](#how-does-database-indexing-work-expert)
+[How does database indexing work?](#how-does-database-indexing-work)
 
-[How does primary key constraint and unique key constraint effect null?](#how-does-primary-key-constraint-and-unique-key-constraint-effect-null-expert)
+[How does primary key constraint and unique key constraint effect null?](#how-does-primary-key-constraint-and-unique-key-constraint-effect-null)
 
-[Select first row in each GROUP BY group (greatest-n-per-group problem)?](#select-first-row-in-each-group-by-group-greatest-n-per-group-problem-expert)
+[Select first row in each GROUP BY group (greatest-n-per-group problem)?](#select-first-row-in-each-group-by-group-greatest-n-per-group-problem)
 
-[What is Optimistic Locking and Pessimistic locking?](#what-is-optimistic-locking-and-pessimistic-locking-expert)
+[What is Optimistic Locking and Pessimistic locking?](#what-is-optimistic-locking-and-pessimistic-locking)
 
 
 

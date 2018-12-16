@@ -1,80 +1,80 @@
 ## Bootstrap
 
-[Explain Bootstrap?](#explain-bootstrap-junior)
+[Explain Bootstrap?](#explain-bootstrap)
 
-[Explain what is Bootstrap?](#explain-what-is-bootstrap-junior)
+[Explain what is Bootstrap?](#explain-what-is-bootstrap)
 
-[Explain the two codes that are used for code display in Bootstrap?](#explain-the-two-codes-that-are-used-for-code-display-in-bootstrap-mid)
+[Explain the two codes that are used for code display in Bootstrap?](#explain-the-two-codes-that-are-used-for-code-display-in-bootstrap)
 
-[What are the types of layout available in Bootstrap?](#what-are-the-types-of-layout-available-in-bootstrap-mid)
+[What are the types of layout available in Bootstrap?](#what-are-the-types-of-layout-available-in-bootstrap)
 
-[What will be the output of the following HTML code](#what-will-be-the-output-of-the-following-html-code-mid)
+[What will be the output of the following HTML code](#what-will-be-the-output-of-the-following-html-code)
 
-[Explain why you prefer Bootstrap for website development?](#explain-why-you-prefer-bootstrap-for-website-development-mid)
+[Explain why you prefer Bootstrap for website development?](#explain-why-you-prefer-bootstrap-for-website-development)
 
-[What are the key components of Bootstrap?](#what-are-the-key-components-of-bootstrap-mid)
+[What are the key components of Bootstrap?](#what-are-the-key-components-of-bootstrap)
 
-[How many types of layout are available in Bootstrap?](#how-many-types-of-layout-are-available-in-bootstrap-mid)
+[How many types of layout are available in Bootstrap?](#how-many-types-of-layout-are-available-in-bootstrap)
 
-[Why do we use Jumbotron in Bootstrap?](#why-do-we-use-jumbotron-in-bootstrap-mid)
+[Why do we use Jumbotron in Bootstrap?](#why-do-we-use-jumbotron-in-bootstrap)
 
-[What is Twitter Bootstrap?](#what-is-twitter-bootstrap-mid)
+[What is Twitter Bootstrap?](#what-is-twitter-bootstrap)
 
-[Explain why to choose Bootstrap for building the websites?](#explain-why-to-choose-bootstrap-for-building-the-websites-mid)
+[Explain why to choose Bootstrap for building the websites?](#explain-why-to-choose-bootstrap-for-building-the-websites)
 
-[What global styles are applied as a part of Bootstrap’s default typography?](#what-global-styles-are-applied-as-a-part-of-bootstraps-default-typography-mid)
+[What global styles are applied as a part of Bootstrap’s default typography?](#what-global-styles-are-applied-as-a-part-of-bootstraps-default-typography)
 
-[What is the procedure to create Nav elements in Bootstrap?](#what-is-the-procedure-to-create-nav-elements-in-bootstrap-mid)
+[What is the procedure to create Nav elements in Bootstrap?](#what-is-the-procedure-to-create-nav-elements-in-bootstrap)
 
-[ What are Glyphicons?](#-what-are-glyphicons-mid)
+[ What are Glyphicons?](#-what-are-glyphicons)
 
-[When to use "lead" in Bootstrap?](#when-to-use-lead-in-bootstrap-mid)
+[When to use "lead" in Bootstrap?](#when-to-use-lead-in-bootstrap)
 
-[Explain the typography and links in Bootstrap.](#explain-the-typography-and-links-in-bootstrap-mid)
+[Explain the typography and links in Bootstrap.](#explain-the-typography-and-links-in-bootstrap)
 
-[How do you make images responsive?](#how-do-you-make-images-responsive-mid)
+[How do you make images responsive?](#how-do-you-make-images-responsive)
 
-[What is missing for a tooltip to show properly?](#what-is-missing-for-a-tooltip-to-show-properly-mid)
+[What is missing for a tooltip to show properly?](#what-is-missing-for-a-tooltip-to-show-properly)
 
-[What do you mean by Bootstrap collapsing elements?](#what-do-you-mean-by-bootstrap-collapsing-elements-senior)
+[What do you mean by Bootstrap collapsing elements?](#what-do-you-mean-by-bootstrap-collapsing-elements)
 
-[What is a list group in Bootstrap and where does it finds its application?](#what-is-a-list-group-in-bootstrap-and-where-does-it-finds-its-application-senior)
+[What is a list group in Bootstrap and where does it finds its application?](#what-is-a-list-group-in-bootstrap-and-where-does-it-finds-its-application)
 
-[Explain Modal plugin in Bootstrap?](#explain-modal-plugin-in-bootstrap-senior)
+[Explain Modal plugin in Bootstrap?](#explain-modal-plugin-in-bootstrap)
 
-[What is a Bootstrap Container?](#what-is-a-bootstrap-container-senior)
+[What is a Bootstrap Container?](#what-is-a-bootstrap-container)
 
-[Why do we use Bootstrap Carousel plugin?](#why-do-we-use-bootstrap-carousel-plugin-senior)
+[Why do we use Bootstrap Carousel plugin?](#why-do-we-use-bootstrap-carousel-plugin)
 
-[What is the role of media object in Bootstrap and how many types are available?](#what-is-the-role-of-media-object-in-bootstrap-and-how-many-types-are-available-senior)
+[What is the role of media object in Bootstrap and how many types are available?](#what-is-the-role-of-media-object-in-bootstrap-and-how-many-types-are-available)
 
-[What are the key components of Bootstrap?](#what-are-the-key-components-of-bootstrap-senior)
+[What are the key components of Bootstrap?](#what-are-the-key-components-of-bootstrap)
 
-[What is the step-wise procedure for creating basic or vertical forms?](#what-is-the-step-wise-procedure-for-creating-basic-or-vertical-forms-senior)
+[What is the step-wise procedure for creating basic or vertical forms?](#what-is-the-step-wise-procedure-for-creating-basic-or-vertical-forms)
 
-[What do you mean by Bootstrap "well"?](#what-do-you-mean-by-bootstrap-well-senior)
+[What do you mean by Bootstrap "well"?](#what-do-you-mean-by-bootstrap-well)
 
-[What is the difference between the following two lines of code? Explain your answer.](#what-is-the-difference-between-the-following-two-lines-of-code-explain-your-answer-senior)
+[What is the difference between the following two lines of code? Explain your answer.](#what-is-the-difference-between-the-following-two-lines-of-code-explain-your-answer)
 
-[What will be the default Bootstrap look of the alert created with this following code?](#what-will-be-the-default-bootstrap-look-of-the-alert-created-with-this-following-code-senior)
+[What will be the default Bootstrap look of the alert created with this following code?](#what-will-be-the-default-bootstrap-look-of-the-alert-created-with-this-following-code)
 
-[Explain what the following code does, and where they are useful](#explain-what-the-following-code-does-and-where-they-are-useful-senior)
+[Explain what the following code does, and where they are useful](#explain-what-the-following-code-does-and-where-they-are-useful)
 
-[What is the role of pagination in bootstrap and what are their classifications?](#what-is-the-role-of-pagination-in-bootstrap-and-what-are-their-classifications-senior)
+[What is the role of pagination in bootstrap and what are their classifications?](#what-is-the-role-of-pagination-in-bootstrap-and-what-are-their-classifications)
 
-[What is Normalize in Bootstrap?](#what-is-normalize-in-bootstrap-expert)
+[What is Normalize in Bootstrap?](#what-is-normalize-in-bootstrap)
 
-[Consider the HTML code snippet below. What will the output be, and why?](#consider-the-html-code-snippet-below-what-will-the-output-be-and-why-expert)
+[Consider the HTML code snippet below. What will the output be, and why?](#consider-the-html-code-snippet-below-what-will-the-output-be-and-why)
 
-[Explain column ordering in Bootstrap?](#explain-column-ordering-in-bootstrap-expert)
+[Explain column ordering in Bootstrap?](#explain-column-ordering-in-bootstrap)
 
-[What is screen reader in bootstrap documentation?](#what-is-screen-reader-in-bootstrap-documentation-expert)
+[What is screen reader in bootstrap documentation?](#what-is-screen-reader-in-bootstrap-documentation)
 
-[How can you differentiate between Bootstrap and Foundation?](#how-can-you-differentiate-between-bootstrap-and-foundation-expert)
+[How can you differentiate between Bootstrap and Foundation?](#how-can-you-differentiate-between-bootstrap-and-foundation)
 
-[How many different media queries are used by the Bootstrap grid system by default?](#how-many-different-media-queries-are-used-by-the-bootstrap-grid-system-by-default-expert)
+[How many different media queries are used by the Bootstrap grid system by default?](#how-many-different-media-queries-are-used-by-the-bootstrap-grid-system-by-default)
 
-[What is the class sr-only used for? Is it important or can I remove it?](#what-is-the-class-sr-only-used-for-is-it-important-or-can-i-remove-it-expert)
+[What is the class sr-only used for? Is it important or can I remove it?](#what-is-the-class-sr-only-used-for-is-it-important-or-can-i-remove-it)
 
 
 

@@ -1,28 +1,28 @@
 ## Sass
 
-[How to use variables in Sass?](#how-to-use-variables-in-sass-junior)
+[How to use variables in Sass?](#how-to-use-variables-in-sass)
 
-[What Selector Nesting in Sass is used for?](#what-selector-nesting-in-sass-is-used-for-mid)
+[What Selector Nesting in Sass is used for?](#what-selector-nesting-in-sass-is-used-for)
 
-[List out the key features for Sass?](#list-out-the-key-features-for-sass-mid)
+[List out the key features for Sass?](#list-out-the-key-features-for-sass)
 
-[What is variable interpolation in Sass? Provide some examples. ](#what-is-variable-interpolation-in-sass-provide-some-examples--mid)
+[What is variable interpolation in Sass? Provide some examples. ](#what-is-variable-interpolation-in-sass-provide-some-examples-)
 
-[List out the data types that Sass supports](#list-out-the-data-types-that-sass-supports-mid)
+[List out the data types that Sass supports](#list-out-the-data-types-that-sass-supports)
 
-[What is Sass?](#what-is-sass-mid)
+[What is Sass?](#what-is-sass)
 
-[Explain what is a @extend directive used for in Sass?](#explain-what-is-a-extend-directive-used-for-in-sass-mid)
+[Explain what is a @extend directive used for in Sass?](#explain-what-is-a-extend-directive-used-for-in-sass)
 
-[What's the difference between SCSS and Sass?](#whats-the-difference-between-scss-and-sass-senior)
+[What's the difference between SCSS and Sass?](#whats-the-difference-between-scss-and-sass)
 
-[What is a Mixin and how to use on?](#what-is-a-mixin-and-how-to-use-on-senior)
+[What is a Mixin and how to use on?](#what-is-a-mixin-and-how-to-use-on)
 
-[What will be the CSS output for the following Sass code?](#what-will-be-the-css-output-for-the-following-sass-code-expert)
+[What will be the CSS output for the following Sass code?](#what-will-be-the-css-output-for-the-following-sass-code)
 
-[What is the '@content' directive used for?](#what-is-the-content-directive-used-for-expert)
+[What is the '@content' directive used for?](#what-is-the-content-directive-used-for)
 
-[What’s wrong with Sass nesting? Provide some example.](#whats-wrong-with-sass-nesting-provide-some-example-expert)
+[What’s wrong with Sass nesting? Provide some example.](#whats-wrong-with-sass-nesting-provide-some-example)
 
 
 

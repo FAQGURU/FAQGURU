@@ -1,120 +1,120 @@
 ## Azure
 
-[What are the benefits of severless applications?](#what-are-the-benefits-of-severless-applications-junior)
+[What are the benefits of severless applications?](#what-are-the-benefits-of-severless-applications)
 
-[What is Azure Cloud Service?](#what-is-azure-cloud-service-junior)
+[What is Azure Cloud Service?](#what-is-azure-cloud-service)
 
-[What is a web role?](#what-is-a-web-role-junior)
+[What is a web role?](#what-is-a-web-role)
 
-[What is Azure Functions?](#what-is-azure-functions-junior)
+[What is Azure Functions?](#what-is-azure-functions)
 
-[What is serverless computing?](#what-is-serverless-computing-junior)
+[What is serverless computing?](#what-is-serverless-computing)
 
-[What is Azure Resource Group?](#what-is-azure-resource-group-mid)
+[What is Azure Resource Group?](#what-is-azure-resource-group)
 
-[What is Kudu?](#what-is-kudu-mid)
+[What is Kudu?](#what-is-kudu)
 
-[What is a role instance?](#what-is-a-role-instance-mid)
+[What is a role instance?](#what-is-a-role-instance)
 
-[What is a guest operating system?](#what-is-a-guest-operating-system-mid)
+[What is a guest operating system?](#what-is-a-guest-operating-system)
 
-[What is Azure Blob Storage?](#what-is-azure-blob-storage-mid)
+[What is Azure Blob Storage?](#what-is-azure-blob-storage)
 
-[How to include external dll into Azure Function?](#how-to-include-external-dll-into-azure-function-mid)
+[How to include external dll into Azure Function?](#how-to-include-external-dll-into-azure-function)
 
-[Is Azure Table Storage Nosql?](#is-azure-table-storage-nosql-mid)
+[Is Azure Table Storage Nosql?](#is-azure-table-storage-nosql)
 
-[What is an Azure subscription?](#what-is-an-azure-subscription-mid)
+[What is an Azure subscription?](#what-is-an-azure-subscription)
 
-[What is Azure ARM?](#what-is-azure-arm-mid)
+[What is Azure ARM?](#what-is-azure-arm)
 
-[Explain the Azure ARM Templates](#explain-the-azure-arm-templates-mid)
+[Explain the Azure ARM Templates](#explain-the-azure-arm-templates)
 
-[What is a cloud service role?](#what-is-a-cloud-service-role-mid)
+[What is a cloud service role?](#what-is-a-cloud-service-role)
 
-[What is Azure Redis Cache?](#what-is-azure-redis-cache-mid)
+[What is Azure Redis Cache?](#what-is-azure-redis-cache)
 
-[What is Azure Service Fabric?](#what-is-azure-service-fabric-mid)
+[What is Azure Service Fabric?](#what-is-azure-service-fabric)
 
-[How can I use applications with Azure AD that I’m using on-premises?](#how-can-i-use-applications-with-azure-ad-that-im-using-on-premises-mid)
+[How can I use applications with Azure AD that I’m using on-premises?](#how-can-i-use-applications-with-azure-ad-that-im-using-on-premises)
 
-[What Is Azure Key Vault?](#what-is-azure-key-vault-mid)
+[What Is Azure Key Vault?](#what-is-azure-key-vault)
 
-[What is a Blob Container?](#what-is-a-blob-container-mid)
+[What is a Blob Container?](#what-is-a-blob-container)
 
-[How can you stop a VM using Power Shell?](#how-can-you-stop-a-vm-using-power-shell-senior)
+[How can you stop a VM using Power Shell?](#how-can-you-stop-a-vm-using-power-shell)
 
-[How can you retrieve the state of a particular VM?](#how-can-you-retrieve-the-state-of-a-particular-vm-senior)
+[How can you retrieve the state of a particular VM?](#how-can-you-retrieve-the-state-of-a-particular-vm)
 
-[How can one create a VM in Azure CLI?](#how-can-one-create-a-vm-in-azure-cli-senior)
+[How can one create a VM in Azure CLI?](#how-can-one-create-a-vm-in-azure-cli)
 
-[What do you know about Azure WebJobs?](#what-do-you-know-about-azure-webjobs-senior)
+[What do you know about Azure WebJobs?](#what-do-you-know-about-azure-webjobs)
 
-[What is a worker role?](#what-is-a-worker-role-senior)
+[What is a worker role?](#what-is-a-worker-role)
 
-[How can one create a Virtual Machine in Powershell?](#how-can-one-create-a-virtual-machine-in-powershell-senior)
+[How can one create a Virtual Machine in Powershell?](#how-can-one-create-a-virtual-machine-in-powershell)
 
-[How much storage can I use with a virtual machine?](#how-much-storage-can-i-use-with-a-virtual-machine-senior)
+[How much storage can I use with a virtual machine?](#how-much-storage-can-i-use-with-a-virtual-machine)
 
-[Is it possible to add an existing VM to an availability set?](#is-it-possible-to-add-an-existing-vm-to-an-availability-set-senior)
+[Is it possible to add an existing VM to an availability set?](#is-it-possible-to-add-an-existing-vm-to-an-availability-set)
 
-[What is deployment environments?](#what-is-deployment-environments-senior)
+[What is deployment environments?](#what-is-deployment-environments)
 
-[What is Azure VPN?](#what-is-azure-vpn-senior)
+[What is Azure VPN?](#what-is-azure-vpn)
 
-[What is the difference between Service Bus Queues and Storage Queues?](#what-is-the-difference-between-service-bus-queues-and-storage-queues-senior)
+[What is the difference between Service Bus Queues and Storage Queues?](#what-is-the-difference-between-service-bus-queues-and-storage-queues)
 
-[What are the differences between Subscription Administrator and Directory Administrator?](#what-are-the-differences-between-subscription-administrator-and-directory-administrator-senior)
+[What are the differences between Subscription Administrator and Directory Administrator?](#what-are-the-differences-between-subscription-administrator-and-directory-administrator)
 
-[What is a VNet?](#what-is-a-vnet-senior)
+[What is a VNet?](#what-is-a-vnet)
 
-[What are stateful and stateless microservices for Service Fabric?](#what-are-stateful-and-stateless-microservices-for-service-fabric-senior)
+[What are stateful and stateless microservices for Service Fabric?](#what-are-stateful-and-stateless-microservices-for-service-fabric)
 
-[What is key vault in Azure?](#what-is-key-vault-in-azure-senior)
+[What is key vault in Azure?](#what-is-key-vault-in-azure)
 
-[Do scale sets work with Azure availability sets?](#do-scale-sets-work-with-azure-availability-sets-senior)
+[Do scale sets work with Azure availability sets?](#do-scale-sets-work-with-azure-availability-sets)
 
-[What are Network Security Groups?](#what-are-network-security-groups-senior)
+[What are Network Security Groups?](#what-are-network-security-groups)
 
-[What are Update Domains?](#what-are-update-domains-senior)
+[What are Update Domains?](#what-are-update-domains)
 
-[What are Fault Domains?](#what-are-fault-domains-senior)
+[What are Fault Domains?](#what-are-fault-domains)
 
-[What is an Availability Set?](#what-is-an-availability-set-senior)
+[What is an Availability Set?](#what-is-an-availability-set)
 
-[What are virtual machine scale sets in Azure?](#what-are-virtual-machine-scale-sets-in-azure-senior)
+[What are virtual machine scale sets in Azure?](#what-are-virtual-machine-scale-sets-in-azure)
 
-[What is Azure MFA?](#what-is-azure-mfa-senior)
+[What is Azure MFA?](#what-is-azure-mfa)
 
-[What are Cloud Service Roles and why do we use them?](#what-are-cloud-service-roles-and-why-do-we-use-them-senior)
+[What are Cloud Service Roles and why do we use them?](#what-are-cloud-service-roles-and-why-do-we-use-them)
 
-[What is Azure Table Storage?](#what-is-azure-table-storage-senior)
+[What is Azure Table Storage?](#what-is-azure-table-storage)
 
-[What is Azure Resource Manager and why we need to use one?](#what-is-azure-resource-manager-and-why-we-need-to-use-one-senior)
+[What is Azure Resource Manager and why we need to use one?](#what-is-azure-resource-manager-and-why-we-need-to-use-one)
 
-[What is Azure Search?](#what-is-azure-search-senior)
+[What is Azure Search?](#what-is-azure-search)
 
-[What are Redis databases?](#what-are-redis-databases-senior)
+[What are Redis databases?](#what-are-redis-databases)
 
-[Is it possible to create a Virtual Machine using Azure Resource Manager in a Virtual Network that was created using classic deployment?](#is-it-possible-to-create-a-virtual-machine-using-azure-resource-manager-in-a-virtual-network-that-was-created-using-classic-deployment-expert)
+[Is it possible to create a Virtual Machine using Azure Resource Manager in a Virtual Network that was created using classic deployment?](#is-it-possible-to-create-a-virtual-machine-using-azure-resource-manager-in-a-virtual-network-that-was-created-using-classic-deployment)
 
-[How to create a new storage account and container using Power Shell?](#how-to-create-a-new-storage-account-and-container-using-power-shell-expert)
+[How to create a new storage account and container using Power Shell?](#how-to-create-a-new-storage-account-and-container-using-power-shell)
 
-[ What is the meaning of application partitions?](#-what-is-the-meaning-of-application-partitions-expert)
+[ What is the meaning of application partitions?](#-what-is-the-meaning-of-application-partitions)
 
-[What is Azure VNET?](#what-is-azure-vnet-expert)
+[What is Azure VNET?](#what-is-azure-vnet)
 
-[What is the difference between “price,” “software price,” and “total price” in the cost structure for Virtual Machine offers in the Azure Marketplace?](#what-is-the-difference-between-price-software-price-and-total-price-in-the-cost-structure-for-virtual-machine-offers-in-the-azure-marketplace-expert)
+[What is the difference between “price,” “software price,” and “total price” in the cost structure for Virtual Machine offers in the Azure Marketplace?](#what-is-the-difference-between-price-software-price-and-total-price-in-the-cost-structure-for-virtual-machine-offers-in-the-azure-marketplace)
 
-[How to create a Network Security Group and a Network Security Group Rule?](#how-to-create-a-network-security-group-and-a-network-security-group-rule-expert)
+[How to create a Network Security Group and a Network Security Group Rule?](#how-to-create-a-network-security-group-and-a-network-security-group-rule)
 
-[How are Azure Marketplace subscriptions priced?](#how-are-azure-marketplace-subscriptions-priced-expert)
+[How are Azure Marketplace subscriptions priced?](#how-are-azure-marketplace-subscriptions-priced)
 
-[Explain Azure NSG](#explain-azure-nsg-expert)
+[Explain Azure NSG](#explain-azure-nsg)
 
-[What VPN types are supported by Azure?](#what-vpn-types-are-supported-by-azure-expert)
+[What VPN types are supported by Azure?](#what-vpn-types-are-supported-by-azure)
 
-[What are special Azure Regions?](#what-are-special-azure-regions-expert)
+[What are special Azure Regions?](#what-are-special-azure-regions)
 
 
 ### What are the benefits of severless applications?

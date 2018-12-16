@@ -1,56 +1,56 @@
 ## Git
 
-[What is the command to write a commit message in Git?](#what-is-the-command-to-write-a-commit-message-in-git-junior)
+[What is the command to write a commit message in Git?](#what-is-the-command-to-write-a-commit-message-in-git)
 
-[What is difference between Git vs SVN?](#what-is-difference-between-git-vs-svn-junior)
+[What is difference between Git vs SVN?](#what-is-difference-between-git-vs-svn)
 
-[What is Git?](#what-is-git-junior)
+[What is Git?](#what-is-git)
 
-[How to undo the most recent commits in Git?](#how-to-undo-the-most-recent-commits-in-git-mid)
+[How to undo the most recent commits in Git?](#how-to-undo-the-most-recent-commits-in-git)
 
-[What is Git fork? What is difference between fork, branch and clone?](#what-is-git-fork-what-is-difference-between-fork-branch-and-clone-mid)
+[What is Git fork? What is difference between fork, branch and clone?](#what-is-git-fork-what-is-difference-between-fork-branch-and-clone)
 
-[What is the difference between "git pull" and "git fetch"?](#what-is-the-difference-between-git-pull-and-git-fetch-mid)
+[What is the difference between "git pull" and "git fetch"?](#what-is-the-difference-between-git-pull-and-git-fetch)
 
-[What's the difference between a "pull request" and a "branch"?](#whats-the-difference-between-a-pull-request-and-a-branch-mid)
+[What's the difference between a "pull request" and a "branch"?](#whats-the-difference-between-a-pull-request-and-a-branch)
 
-[How does the Centralized Workflow work?](#how-does-the-centralized-workflow-work-mid)
+[How does the Centralized Workflow work?](#how-does-the-centralized-workflow-work)
 
-[You need to update your local repos. What git commands will you use?](#you-need-to-update-your-local-repos-what-git-commands-will-you-use-mid)
+[You need to update your local repos. What git commands will you use?](#you-need-to-update-your-local-repos-what-git-commands-will-you-use)
 
-[You need to rollback to a previous commit and don't care about recent changes. What commands should you use?](#you-need-to-rollback-to-a-previous-commit-and-dont-care-about-recent-changes-what-commands-should-you-use-senior)
+[You need to rollback to a previous commit and don't care about recent changes. What commands should you use?](#you-need-to-rollback-to-a-previous-commit-and-dont-care-about-recent-changes-what-commands-should-you-use)
 
-[What is "git cherry-pick"?](#what-is-git-cherry-pick-senior)
+[What is "git cherry-pick"?](#what-is-git-cherry-pick)
 
-[Tell me the difference between HEAD, working tree and index, in Git?](#tell-me-the-difference-between-head-working-tree-and-index-in-git-senior)
+[Tell me the difference between HEAD, working tree and index, in Git?](#tell-me-the-difference-between-head-working-tree-and-index-in-git)
 
-[When should I use "git stash"?](#when-should-i-use-git-stash-senior)
+[When should I use "git stash"?](#when-should-i-use-git-stash)
 
-[How to revert previous commit in git?](#how-to-revert-previous-commit-in-git-senior)
+[How to revert previous commit in git?](#how-to-revert-previous-commit-in-git)
 
-[Explain the advantages of Forking Workflow](#explain-the-advantages-of-forking-workflow-senior)
+[Explain the advantages of Forking Workflow](#explain-the-advantages-of-forking-workflow)
 
-[Could you explain the Gitflow workflow?](#could-you-explain-the-gitflow-workflow-senior)
+[Could you explain the Gitflow workflow?](#could-you-explain-the-gitflow-workflow)
 
-[Write down a sequence of git commands for a "Rebase Workflow"](#write-down-a-sequence-of-git-commands-for-a-rebase-workflow-expert)
+[Write down a sequence of git commands for a "Rebase Workflow"](#write-down-a-sequence-of-git-commands-for-a-rebase-workflow)
 
-[What is the "HEAD" in Git?](#what-is-the-head-in-git-expert)
+[What is the "HEAD" in Git?](#what-is-the-head-in-git)
 
-[How to remove a file from git without removing it from your file system?](#how-to-remove-a-file-from-git-without-removing-it-from-your-file-system-expert)
+[How to remove a file from git without removing it from your file system?](#how-to-remove-a-file-from-git-without-removing-it-from-your-file-system)
 
-[What is difference between "git stash pop" and "git stash apply"?](#what-is-difference-between-git-stash-pop-and-git-stash-apply-expert)
+[What is difference between "git stash pop" and "git stash apply"?](#what-is-difference-between-git-stash-pop-and-git-stash-apply)
 
-[Can you explain what “git reset” does in plain english?](#can-you-explain-what-git-reset-does-in-plain-english-expert)
+[Can you explain what “git reset” does in plain english?](#can-you-explain-what-git-reset-does-in-plain-english)
 
-[Write down a git command to check difference between two commits](#write-down-a-git-command-to-check-difference-between-two-commits-expert)
+[Write down a git command to check difference between two commits](#write-down-a-git-command-to-check-difference-between-two-commits)
 
-[How to amend older Git commit?](#how-to-amend-older-git-commit-expert)
+[How to amend older Git commit?](#how-to-amend-older-git-commit)
 
-[What git command do you need to use to know who changed certain lines in a specific file?](#what-git-command-do-you-need-to-use-to-know-who-changed-certain-lines-in-a-specific-file-expert)
+[What git command do you need to use to know who changed certain lines in a specific file?](#what-git-command-do-you-need-to-use-to-know-who-changed-certain-lines-in-a-specific-file)
 
-[When do you use "git rebase" instead of "git merge"?](#when-do-you-use-git-rebase-instead-of-git-merge-expert)
+[When do you use "git rebase" instead of "git merge"?](#when-do-you-use-git-rebase-instead-of-git-merge)
 
-[Do you know how to easily undo a git rebase? ](#do-you-know-how-to-easily-undo-a-git-rebase--expert)
+[Do you know how to easily undo a git rebase? ](#do-you-know-how-to-easily-undo-a-git-rebase-)
 
 
 
@@ -150,7 +150,7 @@ In the simplest terms, `git pull` does a `git fetch` followed by a `git merge`.
 [[↑] Back to top](#Git)
 ### How does the Centralized Workflow work?
 
-The **Centralized Workflow** uses a central repository to serve as the single point-of-entry for all changes to the project. The default development branch is called master and all changes are committed into this branch.
+The **Centralized Workflow** uses a central repository to serve as the single point-of for all changes to the project. The default development branch is called master and all changes are committed into this branch.
 
 Developers start by cloning the central repository. In their own local copies of the project, they edit files and commit changes. These new commits are stored locally.
 

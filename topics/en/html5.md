@@ -1,112 +1,112 @@
 ## HTML5
 
-[Write a HTML table tag sequence that outputs the following](#write-a-html-table-tag-sequence-that-outputs-the-following-junior)
+[Write a HTML table tag sequence that outputs the following](#write-a-html-table-tag-sequence-that-outputs-the-following)
 
-[What is an iframe and how it works?](#what-is-an-iframe-and-how-it-works-junior)
+[What is an iframe and how it works?](#what-is-an-iframe-and-how-it-works)
 
-[Explain meta tags in HTML](#explain-meta-tags-in-html-junior)
+[Explain meta tags in HTML](#explain-meta-tags-in-html)
 
-[What is the purpose of the alt attribute on images?](#what-is-the-purpose-of-the-alt-attribute-on-images-junior)
+[What is the purpose of the alt attribute on images?](#what-is-the-purpose-of-the-alt-attribute-on-images)
 
-[What is a self closing tag? ](#what-is-a-self-closing-tag--mid)
+[What is a self closing tag? ](#what-is-a-self-closing-tag-)
 
-[What is the difference between span and div?](#what-is-the-difference-between-span-and-div-mid)
+[What is the difference between span and div?](#what-is-the-difference-between-span-and-div)
 
-[How Can I Get Indexed Better by Search Engines?](#how-can-i-get-indexed-better-by-search-engines-mid)
+[How Can I Get Indexed Better by Search Engines?](#how-can-i-get-indexed-better-by-search-engines)
 
-[How can you highlight text in HTML?](#how-can-you-highlight-text-in-html-mid)
+[How can you highlight text in HTML?](#how-can-you-highlight-text-in-html)
 
-[Briefly describe the correct usage of the following HTML5 semantic elements: `<header>`, `<article>`, `<section>`, `<footer>`](#briefly-describe-the-correct-usage-of-the-following-html5-semantic-elements-header-article-section-footer-mid)
+[Briefly describe the correct usage of the following HTML5 semantic elements: `<header>`, `<article>`, `<section>`, `<footer>`](#briefly-describe-the-correct-usage-of-the-following-html5-semantic-elements-header-article-section-footer)
 
-[What is Character Encoding?](#what-is-character-encoding-mid)
+[What is Character Encoding?](#what-is-character-encoding)
 
-[What were some of the key goals and motivations for the HTML5 specification?](#what-were-some-of-the-key-goals-and-motivations-for-the-html5-specification-mid)
+[What were some of the key goals and motivations for the HTML5 specification?](#what-were-some-of-the-key-goals-and-motivations-for-the-html5-specification)
 
-[How do you change the direction of html text?](#how-do-you-change-the-direction-of-html-text-senior)
+[How do you change the direction of html text?](#how-do-you-change-the-direction-of-html-text)
 
-[What is WebSQL?](#what-is-websql-senior)
+[What is WebSQL?](#what-is-websql)
 
-[Explain the difference between block elements and inline elements](#explain-the-difference-between-block-elements-and-inline-elements-senior)
+[Explain the difference between block elements and inline elements](#explain-the-difference-between-block-elements-and-inline-elements)
 
-[What is an optional tag?](#what-is-an-optional-tag-senior)
+[What is an optional tag?](#what-is-an-optional-tag)
 
-[When is it appropriate to use the small element?](#when-is-it-appropriate-to-use-the-small-element-senior)
+[When is it appropriate to use the small element?](#when-is-it-appropriate-to-use-the-small-element)
 
-[What is the difference between `<section>` and `<div>`?](#what-is-the-difference-between-section-and-div-senior)
+[What is the difference between `<section>` and `<div>`?](#what-is-the-difference-between-section-and-div)
 
-[What are Web Workers?](#what-are-web-workers-senior)
+[What are Web Workers?](#what-are-web-workers)
 
-[What does a DOCTYPE do?](#what-does-a-doctype-do-senior)
+[What does a DOCTYPE do?](#what-does-a-doctype-do)
 
-[How do you serve a page with content in multiple languages?](#how-do-you-serve-a-page-with-content-in-multiple-languages-senior)
+[How do you serve a page with content in multiple languages?](#how-do-you-serve-a-page-with-content-in-multiple-languages)
 
-[What is the purpose of cache busting and how can you achieve it?](#what-is-the-purpose-of-cache-busting-and-how-can-you-achieve-it-senior)
+[What is the purpose of cache busting and how can you achieve it?](#what-is-the-purpose-of-cache-busting-and-how-can-you-achieve-it)
 
-[Can a web page contain multiple <header> elements? What about <footer> elements?](#can-a-web-page-contain-multiple-header-elements-what-about-footer-elements-senior)
+[Can a web page contain multiple <header> elements? What about <footer> elements?](#can-a-web-page-contain-multiple-header-elements-what-about-footer-elements)
 
-[What are `data-` attributes good for?](#what-are-data--attributes-good-for-senior)
+[What are `data-` attributes good for?](#what-are-data--attributes-good-for)
 
-[What are `defer` and `async` attributes on a `<script>` tag?](#what-are-defer-and-async-attributes-on-a-script-tag-senior)
+[What are `defer` and `async` attributes on a `<script>` tag?](#what-are-defer-and-async-attributes-on-a-script-tag)
 
-[What is the DOM?](#what-is-the-dom-senior)
+[What is the DOM?](#what-is-the-dom)
 
-[Discuss the differences between an HTML specification and a browser’s implementation thereof.](#discuss-the-differences-between-an-html-specification-and-a-browsers-implementation-thereof-senior)
+[Discuss the differences between an HTML specification and a browser’s implementation thereof.](#discuss-the-differences-between-an-html-specification-and-a-browsers-implementation-thereof)
 
-[What are some differences that XHTML has compared to HTML?](#what-are-some-differences-that-xhtml-has-compared-to-html-senior)
+[What are some differences that XHTML has compared to HTML?](#what-are-some-differences-that-xhtml-has-compared-to-html)
 
-[Where and why is the `rel="noopener"` attribute used?](#where-and-why-is-the-relnoopener-attribute-used-senior)
+[Where and why is the `rel="noopener"` attribute used?](#where-and-why-is-the-relnoopener-attribute-used)
 
-[What is HTML5 Web Storage? Explain `localStorage` and `sessionStorage`.](#what-is-html5-web-storage-explain-localstorage-and-sessionstorage-senior)
+[What is HTML5 Web Storage? Explain `localStorage` and `sessionStorage`.](#what-is-html5-web-storage-explain-localstorage-and-sessionstorage)
 
-[What is WebSQL?](#what-is-websql-senior)
+[What is WebSQL?](#what-is-websql)
 
-[Describe the difference between a 'cookie', 'sessionStorage' and 'localStorage'.](#describe-the-difference-between-a-cookie-sessionstorage-and-localstorage-senior)
+[Describe the difference between a 'cookie', 'sessionStorage' and 'localStorage'.](#describe-the-difference-between-a-cookie-sessionstorage-and-localstorage)
 
-[How do you set IE compatibility mode?](#how-do-you-set-ie-compatibility-mode-senior)
+[How do you set IE compatibility mode?](#how-do-you-set-ie-compatibility-mode)
 
-[What's new in HTML 5?](#whats-new-in-html-5-senior)
+[What's new in HTML 5?](#whats-new-in-html-5)
 
-[Have you used different HTML templating languages before?](#have-you-used-different-html-templating-languages-before-senior)
+[Have you used different HTML templating languages before?](#have-you-used-different-html-templating-languages-before)
 
-[Explain the difference between cookies, session and local storage](#explain-the-difference-between-cookies-session-and-local-storage-senior)
+[Explain the difference between cookies, session and local storage](#explain-the-difference-between-cookies-session-and-local-storage)
 
-[Explain almost standard, full standard and quirks mode](#explain-almost-standard-full-standard-and-quirks-mode-senior)
+[Explain almost standard, full standard and quirks mode](#explain-almost-standard-full-standard-and-quirks-mode)
 
-[Describe the difference between `<script>`, `<script async>` and `<script defer>`.](#describe-the-difference-between-script-script-async-and-script-defer-expert)
+[Describe the difference between `<script>`, `<script async>` and `<script defer>`.](#describe-the-difference-between-script-script-async-and-script-defer)
 
-[What is WebP?](#what-is-webp-expert)
+[What is WebP?](#what-is-webp)
 
-[What is progressive rendering?](#what-is-progressive-rendering-expert)
+[What is progressive rendering?](#what-is-progressive-rendering)
 
-[Why you would use a `srcset` attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute.](#why-you-would-use-a-srcset-attribute-in-an-image-tag-explain-the-process-the-browser-uses-when-evaluating-the-content-of-this-attribute-expert)
+[Why you would use a `srcset` attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute.](#why-you-would-use-a-srcset-attribute-in-an-image-tag-explain-the-process-the-browser-uses-when-evaluating-the-content-of-this-attribute)
 
-[Why to use HTML5 semantic tags?](#why-to-use-html5-semantic-tags-expert)
+[Why to use HTML5 semantic tags?](#why-to-use-html5-semantic-tags)
 
-[HTML Markup Validity](#html-markup-validity-expert)
+[HTML Markup Validity](#html-markup-validity)
 
-[Why do I need a doctype and what does it do?](#why-do-i-need-a-doctype-and-what-does-it-do-expert)
+[Why do I need a doctype and what does it do?](#why-do-i-need-a-doctype-and-what-does-it-do)
 
-[What's the difference between Full Standard, Almost Standard and Quirks Mode?](#whats-the-difference-between-full-standard-almost-standard-and-quirks-mode-expert)
+[What's the difference between Full Standard, Almost Standard and Quirks Mode?](#whats-the-difference-between-full-standard-almost-standard-and-quirks-mode)
 
-[What kind of things must you be wary of when designing or developing for multilingual sites?](#what-kind-of-things-must-you-be-wary-of-when-designing-or-developing-for-multilingual-sites-expert)
+[What kind of things must you be wary of when designing or developing for multilingual sites?](#what-kind-of-things-must-you-be-wary-of-when-designing-or-developing-for-multilingual-sites)
 
-[How would you select svg or canvas for your site?](#how-would-you-select-svg-or-canvas-for-your-site-expert)
+[How would you select svg or canvas for your site?](#how-would-you-select-svg-or-canvas-for-your-site)
 
-[What are the building blocks of HTML5?](#what-are-the-building-blocks-of-html5-expert)
+[What are the building blocks of HTML5?](#what-are-the-building-blocks-of-html5)
 
-[What is an HTML preprocessor and are you using it?](#what-is-an-html-preprocessor-and-are-you-using-it-expert)
+[What is an HTML preprocessor and are you using it?](#what-is-an-html-preprocessor-and-are-you-using-it)
 
-[What is the purpose of 'main' element?](#what-is-the-purpose-of-main-element-expert)
+[What is the purpose of 'main' element?](#what-is-the-purpose-of-main-element)
 
-[What are Web Components?](#what-are-web-components-expert)
+[What are Web Components?](#what-are-web-components)
 
-[What is accessibility & ARIA role means in a web application?](#what-is-accessibility--aria-role-means-in-a-web-application-expert)
+[What is accessibility & ARIA role means in a web application?](#what-is-accessibility--aria-role-means-in-a-web-application)
 
-[Could you generate a public key in HTML?](#could-you-generate-a-public-key-in-html-expert)
+[Could you generate a public key in HTML?](#could-you-generate-a-public-key-in-html)
 
-[Why is it generally a good idea to position CSS `<link>s` between `<head></head>` and JS `<script>s` just before `</body>`? Do you know any exceptions?](#why-is-it-generally-a-good-idea-to-position-css-links-between-headhead-and-js-scripts-just-before-body-do-you-know-any-exceptions-expert)
+[Why is it generally a good idea to position CSS `<link>s` between `<head></head>` and JS `<script>s` just before `</body>`? Do you know any exceptions?](#why-is-it-generally-a-good-idea-to-position-css-links-between-headhead-and-js-scripts-just-before-body-do-you-know-any-exceptions)
 
-[What is an IndexedDB?](#what-is-an-indexeddb-expert)
+[What is an IndexedDB?](#what-is-an-indexeddb)
 
 
 

@@ -1,298 +1,298 @@
 ## React
 
-[What is the use of refs?](#what-is-the-use-of-refs-junior)
+[What is the use of refs?](#what-is-the-use-of-refs)
 
-[What is JEST?](#what-is-jest-junior)
+[What is JEST?](#what-is-jest)
 
-[What are the advantages of ReactJS?](#what-are-the-advantages-of-reactjs-junior)
+[What are the advantages of ReactJS?](#what-are-the-advantages-of-reactjs)
 
-[How to write comments in ReactJS?](#how-to-write-comments-in-reactjs-junior)
+[How to write comments in ReactJS?](#how-to-write-comments-in-reactjs)
 
-[What is context?](#what-is-context-junior)
+[What is context?](#what-is-context)
 
-[What is virtual DOM?](#what-is-virtual-dom-junior)
+[What is virtual DOM?](#what-is-virtual-dom)
 
-[How does React work?](#how-does-react-work-junior)
+[How does React work?](#how-does-react-work)
 
-[What is React?](#what-is-react-junior)
+[What is React?](#what-is-react)
 
-[What is props in ReactJS?](#what-is-props-in-reactjs-junior)
+[What is props in ReactJS?](#what-is-props-in-reactjs)
 
-[What are the major features of ReactJS?](#what-are-the-major-features-of-reactjs-junior)
+[What are the major features of ReactJS?](#what-are-the-major-features-of-reactjs)
 
-[What is ReactJS?](#what-is-reactjs-junior)
+[What is ReactJS?](#what-is-reactjs)
 
-[What are props in React?](#what-are-props-in-react-junior)
+[What are props in React?](#what-are-props-in-react)
 
-[How would you write an inline style in React?](#how-would-you-write-an-inline-style-in-react-junior)
+[How would you write an inline style in React?](#how-would-you-write-an-inline-style-in-react)
 
-[What are the limitations of ReactJS?](#what-are-the-limitations-of-reactjs-mid)
+[What are the limitations of ReactJS?](#what-are-the-limitations-of-reactjs)
 
-[What’s the difference between an "Element" and a "Component" in React?](#whats-the-difference-between-an-element-and-a-component-in-react-mid)
+[What’s the difference between an "Element" and a "Component" in React?](#whats-the-difference-between-an-element-and-a-component-in-react)
 
-[What are stateful components?](#what-are-stateful-components-mid)
+[What are stateful components?](#what-are-stateful-components)
 
-[What are stateless components?](#what-are-stateless-components-mid)
+[What are stateless components?](#what-are-stateless-components)
 
-[What are portals in ReactJS?](#what-are-portals-in-reactjs-mid)
+[What are portals in ReactJS?](#what-are-portals-in-reactjs)
 
-[What are fragments?](#what-are-fragments-mid)
+[What are fragments?](#what-are-fragments)
 
-[Why is it necessary to capitalize the components?](#why-is-it-necessary-to-capitalize-the-components-mid)
+[Why is it necessary to capitalize the components?](#why-is-it-necessary-to-capitalize-the-components)
 
-[What is reconciliation?](#what-is-reconciliation-mid)
+[What is reconciliation?](#what-is-reconciliation)
 
-[What is the purpose of using super constructor with props argument?](#what-is-the-purpose-of-using-super-constructor-with-props-argument-mid)
+[What is the purpose of using super constructor with props argument?](#what-is-the-purpose-of-using-super-constructor-with-props-argument)
 
-[When to use a Class Component over a Functional Component?](#when-to-use-a-class-component-over-a-functional-component-mid)
+[When to use a Class Component over a Functional Component?](#when-to-use-a-class-component-over-a-functional-component)
 
-[What are the advantages of using React?](#what-are-the-advantages-of-using-react-mid)
+[What are the advantages of using React?](#what-are-the-advantages-of-using-react)
 
-[What are Higher-Order components?](#what-are-higher-order-components-mid)
+[What are Higher-Order components?](#what-are-higher-order-components)
 
-[What are controlled components?](#what-are-controlled-components-mid)
+[What are controlled components?](#what-are-controlled-components)
 
-[What is the difference between a Presentational component and a Container component?](#what-is-the-difference-between-a-presentational-component-and-a-container-component-mid)
+[What is the difference between a Presentational component and a Container component?](#what-is-the-difference-between-a-presentational-component-and-a-container-component)
 
-[How to create refs?](#how-to-create-refs-mid)
+[How to create refs?](#how-to-create-refs)
 
-[What are the differences between a class component and functional component?](#what-are-the-differences-between-a-class-component-and-functional-component-mid)
+[What are the differences between a class component and functional component?](#what-are-the-differences-between-a-class-component-and-functional-component)
 
-[What do you like about React?](#what-do-you-like-about-react-mid)
+[What do you like about React?](#what-do-you-like-about-react)
 
-[What is inline conditional expressions?](#what-is-inline-conditional-expressions-mid)
+[What is inline conditional expressions?](#what-is-inline-conditional-expressions)
 
-[What is the difference between state and props?](#what-is-the-difference-between-state-and-props-mid)
+[What is the difference between state and props?](#what-is-the-difference-between-state-and-props)
 
-[How is React different from AngularJS (1.x)?](#how-is-react-different-from-angularjs-1x-mid)
+[How is React different from AngularJS (1.x)?](#how-is-react-different-from-angularjs-1x)
 
-[What happens during the lifecycle of a React component?](#what-happens-during-the-lifecycle-of-a-react-component-mid)
+[What happens during the lifecycle of a React component?](#what-happens-during-the-lifecycle-of-a-react-component)
 
-[How to pass a parameter to an event handler or callback?](#how-to-pass-a-parameter-to-an-event-handler-or-callback-mid)
+[How to pass a parameter to an event handler or callback?](#how-to-pass-a-parameter-to-an-event-handler-or-callback)
 
-[What is the purpose of callback function as an argument of setState?](#what-is-the-purpose-of-callback-function-as-an-argument-of-setstate-mid)
+[What is the purpose of callback function as an argument of setState?](#what-is-the-purpose-of-callback-function-as-an-argument-of-setstate)
 
-[What is the difference between component and container in react Redux?](#what-is-the-difference-between-component-and-container-in-react-redux-mid)
+[What is the difference between component and container in react Redux?](#what-is-the-difference-between-component-and-container-in-react-redux)
 
-[What is the difference between state and props?](#what-is-the-difference-between-state-and-props-mid)
+[What is the difference between state and props?](#what-is-the-difference-between-state-and-props)
 
-[What is state in ReactJS?](#what-is-state-in-reactjs-mid)
+[What is state in ReactJS?](#what-is-state-in-reactjs)
 
-[How to create components in ReactJS?](#how-to-create-components-in-reactjs-mid)
+[How to create components in ReactJS?](#how-to-create-components-in-reactjs)
 
-[What is the difference between Element and Component?](#what-is-the-difference-between-element-and-component-mid)
+[What is the difference between Element and Component?](#what-is-the-difference-between-element-and-component)
 
-[What are refs used for in React?](#what-are-refs-used-for-in-react-mid)
+[What are refs used for in React?](#what-are-refs-used-for-in-react)
 
-[When rendering a list what is a key and what is it's purpose?](#when-rendering-a-list-what-is-a-key-and-what-is-its-purpose-mid)
+[When rendering a list what is a key and what is it's purpose?](#when-rendering-a-list-what-is-a-key-and-what-is-its-purpose)
 
-[What is JSX?](#what-is-jsx-mid)
+[What is JSX?](#what-is-jsx)
 
-[Where in a React component should you make an AJAX request?](#where-in-a-react-component-should-you-make-an-ajax-request-mid)
+[Where in a React component should you make an AJAX request?](#where-in-a-react-component-should-you-make-an-ajax-request)
 
-[What is the difference between React Native and React?](#what-is-the-difference-between-react-native-and-react-mid)
+[What is the difference between React Native and React?](#what-is-the-difference-between-react-native-and-react)
 
-[Describe how events are handled in React.](#describe-how-events-are-handled-in-react-mid)
+[Describe how events are handled in React.](#describe-how-events-are-handled-in-react)
 
-[What is Flux?](#what-is-flux-mid)
+[What is Flux?](#what-is-flux)
 
-[Where is the state kept in a React + Redux application?](#where-is-the-state-kept-in-a-react--redux-application-mid)
+[Where is the state kept in a React + Redux application?](#where-is-the-state-kept-in-a-react--redux-application)
 
-[What is the point of Redux?](#what-is-the-point-of-redux-mid)
+[What is the point of Redux?](#what-is-the-point-of-redux)
 
-[What is Flow?](#what-is-flow-mid)
+[What is Flow?](#what-is-flow)
 
-[How do we pass a property from a parent component props to a child component?](#how-do-we-pass-a-property-from-a-parent-component-props-to-a-child-component-mid)
+[How do we pass a property from a parent component props to a child component?](#how-do-we-pass-a-property-from-a-parent-component-props-to-a-child-component)
 
-[What is JSX?](#what-is-jsx-mid)
+[What is JSX?](#what-is-jsx)
 
-[How error boundaries handled in React (15)?](#how-error-boundaries-handled-in-react-15-mid)
+[How error boundaries handled in React (15)?](#how-error-boundaries-handled-in-react-15)
 
-[What does it mean for a component to be mounted in React?](#what-does-it-mean-for-a-component-to-be-mounted-in-react-mid)
+[What does it mean for a component to be mounted in React?](#what-does-it-mean-for-a-component-to-be-mounted-in-react)
 
-[What happens when you call "setState"?](#what-happens-when-you-call-setstate-mid)
+[What happens when you call "setState"?](#what-happens-when-you-call-setstate)
 
-[What happens when you call setState?](#what-happens-when-you-call-setstate-mid)
+[What happens when you call setState?](#what-happens-when-you-call-setstate)
 
-[What's the difference between a controlled component and an uncontrolled one in React?](#whats-the-difference-between-a-controlled-component-and-an-uncontrolled-one-in-react-mid)
+[What's the difference between a controlled component and an uncontrolled one in React?](#whats-the-difference-between-a-controlled-component-and-an-uncontrolled-one-in-react)
 
-[How would you prevent a component from rendering in React?](#how-would-you-prevent-a-component-from-rendering-in-react-mid)
+[How would you prevent a component from rendering in React?](#how-would-you-prevent-a-component-from-rendering-in-react)
 
-[How do you prevent the default behavior in an event callback in React?](#how-do-you-prevent-the-default-behavior-in-an-event-callback-in-react-mid)
+[How do you prevent the default behavior in an event callback in React?](#how-do-you-prevent-the-default-behavior-in-an-event-callback-in-react)
 
-[What is Key and benefit of using it in lists?](#what-is-key-and-benefit-of-using-it-in-lists-senior)
+[What is Key and benefit of using it in lists?](#what-is-key-and-benefit-of-using-it-in-lists)
 
-[What's an alternative way to avoid having to bind to this in event callback methods?](#whats-an-alternative-way-to-avoid-having-to-bind-to-this-in-event-callback-methods-senior)
+[What's an alternative way to avoid having to bind to this in event callback methods?](#whats-an-alternative-way-to-avoid-having-to-bind-to-this-in-event-callback-methods)
 
-[What is the point of using keys in React?](#what-is-the-point-of-using-keys-in-react-senior)
+[What is the point of using keys in React?](#what-is-the-point-of-using-keys-in-react)
 
-[What's the typical pattern for rendering a list of components from an array of data?](#whats-the-typical-pattern-for-rendering-a-list-of-components-from-an-array-of-data-senior)
+[What's the typical pattern for rendering a list of components from an array of data?](#whats-the-typical-pattern-for-rendering-a-list-of-components-from-an-array-of-data)
 
-[What is the render method for?](#what-is-the-render-method-for-senior)
+[What is the render method for?](#what-is-the-render-method-for)
 
-[What is reconciliation in React?](#what-is-reconciliation-in-react-senior)
+[What is reconciliation in React?](#what-is-reconciliation-in-react)
 
-[What's the difference between an Element and a Component in React?](#whats-the-difference-between-an-element-and-a-component-in-react-senior)
+[What's the difference between an Element and a Component in React?](#whats-the-difference-between-an-element-and-a-component-in-react)
 
-[What is the point of shouldComponentUpdate() method?](#what-is-the-point-of-shouldcomponentupdate-method-senior)
+[What is the point of shouldComponentUpdate() method?](#what-is-the-point-of-shouldcomponentupdate-method)
 
-[What are PropTypes in React?](#what-are-proptypes-in-react-senior)
+[What are PropTypes in React?](#what-are-proptypes-in-react)
 
-[What's the difference between a "smart" component and a "dumb" component?](#whats-the-difference-between-a-smart-component-and-a-dumb-component-senior)
+[What's the difference between a "smart" component and a "dumb" component?](#whats-the-difference-between-a-smart-component-and-a-dumb-component)
 
-[What is ReactDOM?](#what-is-reactdom-senior)
+[What is ReactDOM?](#what-is-reactdom)
 
-[What are typical middleware choices for handling asynchronous calls in Redux?](#what-are-typical-middleware-choices-for-handling-asynchronous-calls-in-redux-senior)
+[What are typical middleware choices for handling asynchronous calls in Redux?](#what-are-typical-middleware-choices-for-handling-asynchronous-calls-in-redux)
 
-[What's the typical flow of data like in a React + Redux app?](#whats-the-typical-flow-of-data-like-in-a-react--redux-app-senior)
+[What's the typical flow of data like in a React + Redux app?](#whats-the-typical-flow-of-data-like-in-a-react--redux-app)
 
-[What is the difference between createElement and cloneElement?](#what-is-the-difference-between-createelement-and-cloneelement-senior)
+[What is the difference between createElement and cloneElement?](#what-is-the-difference-between-createelement-and-cloneelement)
 
-[Name the different lifecycle methods.](#name-the-different-lifecycle-methods-senior)
+[Name the different lifecycle methods.](#name-the-different-lifecycle-methods)
 
-[Given the code defined above, can you identify two problems?](#given-the-code-defined-above-can-you-identify-two-problems-senior)
+[Given the code defined above, can you identify two problems?](#given-the-code-defined-above-can-you-identify-two-problems)
 
-[What are stateless components?](#what-are-stateless-components-senior)
+[What are stateless components?](#what-are-stateless-components)
 
-[What are Pure Components?](#what-are-pure-components-senior)
+[What are Pure Components?](#what-are-pure-components)
 
-[Name some popular Flux Libraries](#name-some-popular-flux-libraries-senior)
+[Name some popular Flux Libraries](#name-some-popular-flux-libraries)
 
-[Why should not we update the state directly?](#why-should-not-we-update-the-state-directly-senior)
+[Why should not we update the state directly?](#why-should-not-we-update-the-state-directly)
 
-[What are controlled components?](#what-are-controlled-components-senior)
+[What are controlled components?](#what-are-controlled-components)
 
-[What is the difference between HTML and React event handling?](#what-is-the-difference-between-html-and-react-event-handling-senior)
+[What is the difference between HTML and React event handling?](#what-is-the-difference-between-html-and-react-event-handling)
 
-[How to bind methods or event handlers in JSX callbacks?](#how-to-bind-methods-or-event-handlers-in-jsx-callbacks-senior)
+[How to bind methods or event handlers in JSX callbacks?](#how-to-bind-methods-or-event-handlers-in-jsx-callbacks)
 
-[What can you tell me about JSX?](#what-can-you-tell-me-about-jsx-senior)
+[What can you tell me about JSX?](#what-can-you-tell-me-about-jsx)
 
-[What are synthetic events in ReactJS?](#what-are-synthetic-events-in-reactjs-senior)
+[What are synthetic events in ReactJS?](#what-are-synthetic-events-in-reactjs)
 
-[What don't you like about React?](#what-dont-you-like-about-react-senior)
+[What don't you like about React?](#what-dont-you-like-about-react)
 
-[What are some limitations of things you shouldn't do in the component's render method?](#what-are-some-limitations-of-things-you-shouldnt-do-in-the-components-render-method-senior)
+[What are some limitations of things you shouldn't do in the component's render method?](#what-are-some-limitations-of-things-you-shouldnt-do-in-the-components-render-method)
 
-[What are forward refs?](#what-are-forward-refs-senior)
+[What are forward refs?](#what-are-forward-refs)
 
-[What is the difference between ShadowDOM and VirtualDOM?](#what-is-the-difference-between-shadowdom-and-virtualdom-senior)
+[What is the difference between ShadowDOM and VirtualDOM?](#what-is-the-difference-between-shadowdom-and-virtualdom)
 
-[What is an action?](#what-is-an-action-senior)
+[What is an action?](#what-is-an-action)
 
-[What are uncontrolled components?](#what-are-uncontrolled-components-senior)
+[What are uncontrolled components?](#what-are-uncontrolled-components)
 
-[What is the difference between createElement and cloneElement?](#what-is-the-difference-between-createelement-and-cloneelement-senior)
+[What is the difference between createElement and cloneElement?](#what-is-the-difference-between-createelement-and-cloneelement)
 
-[What is Lifting State Up in ReactJS?](#what-is-lifting-state-up-in-reactjs-senior)
+[What is Lifting State Up in ReactJS?](#what-is-lifting-state-up-in-reactjs)
 
-[What are the different phases of ReactJS component lifecycle?](#what-are-the-different-phases-of-reactjs-component-lifecycle-senior)
+[What are the different phases of ReactJS component lifecycle?](#what-are-the-different-phases-of-reactjs-component-lifecycle)
 
-[What are the lifecycle methods of ReactJS?](#what-are-the-lifecycle-methods-of-reactjs-senior)
+[What are the lifecycle methods of ReactJS?](#what-are-the-lifecycle-methods-of-reactjs)
 
-[What is a store in redux?](#what-is-a-store-in-redux-senior)
+[What is a store in redux?](#what-is-a-store-in-redux)
 
-[What is children prop?](#what-is-children-prop-senior)
+[What is children prop?](#what-is-children-prop)
 
-[ What is state in react?](#-what-is-state-in-react-senior)
+[ What is state in react?](#-what-is-state-in-react)
 
-[What is equivalent of the following using React.createElement?](#what-is-equivalent-of-the-following-using-reactcreateelement-senior)
+[What is equivalent of the following using React.createElement?](#what-is-equivalent-of-the-following-using-reactcreateelement)
 
-[How to set state with a dynamic key name?](#how-to-set-state-with-a-dynamic-key-name-senior)
+[How to set state with a dynamic key name?](#how-to-set-state-with-a-dynamic-key-name)
 
-[What would be the common mistake of function being called every time the component renders?](#what-would-be-the-common-mistake-of-function-being-called-every-time-the-component-renders-senior)
+[What would be the common mistake of function being called every time the component renders?](#what-would-be-the-common-mistake-of-function-being-called-every-time-the-component-renders)
 
-[What is JSX?](#what-is-jsx-senior)
+[What is JSX?](#what-is-jsx)
 
-[Why ReactJS uses className over class attribute?](#why-reactjs-uses-classname-over-class-attribute-senior)
+[Why ReactJS uses className over class attribute?](#why-reactjs-uses-classname-over-class-attribute)
 
-[Why fragments are better than container divs?](#why-fragments-are-better-than-container-divs-senior)
+[Why fragments are better than container divs?](#why-fragments-are-better-than-container-divs)
 
-[What does "shouldComponentUpdate" do and why is it important?](#what-does-shouldcomponentupdate-do-and-why-is-it-important-senior)
+[What does "shouldComponentUpdate" do and why is it important?](#what-does-shouldcomponentupdate-do-and-why-is-it-important)
 
-[How would you prevent a component from rendering?](#how-would-you-prevent-a-component-from-rendering-senior)
+[How would you prevent a component from rendering?](#how-would-you-prevent-a-component-from-rendering)
 
-[What is the alternative of binding `this` in the constructor?](#what-is-the-alternative-of-binding-this-in-the-constructor-senior)
+[What is the alternative of binding `this` in the constructor?](#what-is-the-alternative-of-binding-this-in-the-constructor)
 
-[Why is it advised to pass a callback function to setState as opposed to an object?](#why-is-it-advised-to-pass-a-callback-function-to-setstate-as-opposed-to-an-object-senior)
+[Why is it advised to pass a callback function to setState as opposed to an object?](#why-is-it-advised-to-pass-a-callback-function-to-setstate-as-opposed-to-an-object)
 
-[What advantages are using arrow functions?](#what-advantages-are-using-arrow-functions-senior)
+[What advantages are using arrow functions?](#what-advantages-are-using-arrow-functions)
 
-[What are error boundaries in ReactJS (16)?](#what-are-error-boundaries-in-reactjs-16-senior)
+[What are error boundaries in ReactJS (16)?](#what-are-error-boundaries-in-reactjs-16)
 
-[What is a higher order component?](#what-is-a-higher-order-component-senior)
+[What is a higher order component?](#what-is-a-higher-order-component)
 
-[What are the advantages of React over VueJS?](#what-are-the-advantages-of-react-over-vuejs-senior)
+[What are the advantages of React over VueJS?](#what-are-the-advantages-of-react-over-vuejs)
 
-[How do you tell React to build in Production mode and what will that do?](#how-do-you-tell-react-to-build-in-production-mode-and-what-will-that-do-senior)
+[How do you tell React to build in Production mode and what will that do?](#how-do-you-tell-react-to-build-in-production-mode-and-what-will-that-do)
 
-[Describe Flux vs MVC?](#describe-flux-vs-mvc-expert)
+[Describe Flux vs MVC?](#describe-flux-vs-mvc)
 
-[Are you familiar with Flux?](#are-you-familiar-with-flux-expert)
+[Are you familiar with Flux?](#are-you-familiar-with-flux)
 
-[What is the second argument that can optionally be passed to setState and what is its purpose?](#what-is-the-second-argument-that-can-optionally-be-passed-to-setstate-and-what-is-its-purpose-expert)
+[What is the second argument that can optionally be passed to setState and what is its purpose?](#what-is-the-second-argument-that-can-optionally-be-passed-to-setstate-and-what-is-its-purpose)
 
-[What is wrong with this code?](#what-is-wrong-with-this-code-expert)
+[What is wrong with this code?](#what-is-wrong-with-this-code)
 
-[How to create props proxy for HOC component?](#how-to-create-props-proxy-for-hoc-component-expert)
+[How to create props proxy for HOC component?](#how-to-create-props-proxy-for-hoc-component)
 
-[Why would you eject from create-react-app?](#why-would-you-eject-from-create-react-app-expert)
+[Why would you eject from create-react-app?](#why-would-you-eject-from-create-react-app)
 
-[What are some recent changes in the React library (e.g. in version 14, 15)?](#what-are-some-recent-changes-in-the-react-library-eg-in-version-14-15-expert)
+[What are some recent changes in the React library (e.g. in version 14, 15)?](#what-are-some-recent-changes-in-the-react-library-eg-in-version-14-15)
 
-[What is mapStateToProps and mapDispatchToProps?](#what-is-mapstatetoprops-and-mapdispatchtoprops-expert)
+[What is mapStateToProps and mapDispatchToProps?](#what-is-mapstatetoprops-and-mapdispatchtoprops)
 
-[What is "Children"?](#what-is-children-expert)
+[What is "Children"?](#what-is-children)
 
-[What's a pure functional component in React?](#whats-a-pure-functional-component-in-react-expert)
+[What's a pure functional component in React?](#whats-a-pure-functional-component-in-react)
 
-[Why does React use SyntheticEvents?](#why-does-react-use-syntheticevents-expert)
+[Why does React use SyntheticEvents?](#why-does-react-use-syntheticevents)
 
-[Why would you use React.Children.map(props.children, () => ) instead of props.children.map(() => )?](#why-would-you-use-reactchildrenmappropschildren----instead-of-propschildrenmap---expert)
+[Why would you use React.Children.map(props.children, () => ) instead of props.children.map(() => )?](#why-would-you-use-reactchildrenmappropschildren----instead-of-propschildrenmap--)
 
-[What is the difference between a controlled component and an uncontrolled component?](#what-is-the-difference-between-a-controlled-component-and-an-uncontrolled-component-expert)
+[What is the difference between a controlled component and an uncontrolled component?](#what-is-the-difference-between-a-controlled-component-and-an-uncontrolled-component)
 
-[What is the difference between Flow and PropTypes?](#what-is-the-difference-between-flow-and-proptypes-expert)
+[What is the difference between Flow and PropTypes?](#what-is-the-difference-between-flow-and-proptypes)
 
-[What is the purpose of super(props)?](#what-is-the-purpose-of-superprops-expert)
+[What is the purpose of super(props)?](#what-is-the-purpose-of-superprops)
 
-[Why would you need to bind event handlers to "this"?](#why-would-you-need-to-bind-event-handlers-to-this-expert)
+[Why would you need to bind event handlers to "this"?](#why-would-you-need-to-bind-event-handlers-to-this)
 
-[If you created a React element like Twitter below, what would the component definition of Twitter look like?](#if-you-created-a-react-element-like-twitter-below-what-would-the-component-definition-of-twitter-look-like-expert)
+[If you created a React element like Twitter below, what would the component definition of Twitter look like?](#if-you-created-a-react-element-like-twitter-below-what-would-the-component-definition-of-twitter-look-like)
 
-[Which is preferred option with in callback refs and findDOMNode()?](#which-is-preferred-option-with-in-callback-refs-and-finddomnode-expert)
+[Which is preferred option with in callback refs and findDOMNode()?](#which-is-preferred-option-with-in-callback-refs-and-finddomnode)
 
-[Why are String Refs legacy?](#why-are-string-refs-legacy-expert)
+[Why are String Refs legacy?](#why-are-string-refs-legacy)
 
-[How to apply validation on Props in ReactJS?](#how-to-apply-validation-on-props-in-reactjs-expert)
+[How to apply validation on Props in ReactJS?](#how-to-apply-validation-on-props-in-reactjs)
 
-[What is a reducer?](#what-is-a-reducer-expert)
+[What is a reducer?](#what-is-a-reducer)
 
-[Why would you use forceUpdate in a React component?](#why-would-you-use-forceupdate-in-a-react-component-expert)
+[Why would you use forceUpdate in a React component?](#why-would-you-use-forceupdate-in-a-react-component)
 
-[What is React Fiber?](#what-is-react-fiber-expert)
+[What is React Fiber?](#what-is-react-fiber)
 
-[If you need to access the underlying DOM node for a React component, what's the typical way to do this in React?](#if-you-need-to-access-the-underlying-dom-node-for-a-react-component-whats-the-typical-way-to-do-this-in-react-expert)
+[If you need to access the underlying DOM node for a React component, what's the typical way to do this in React?](#if-you-need-to-access-the-underlying-dom-node-for-a-react-component-whats-the-typical-way-to-do-this-in-react)
 
-[ What are the recommended ways for static type checking?](#-what-are-the-recommended-ways-for-static-type-checking-expert)
+[ What are the recommended ways for static type checking?](#-what-are-the-recommended-ways-for-static-type-checking)
 
-[What is the difference between ReactJS and Angular?](#what-is-the-difference-between-reactjs-and-angular-expert)
+[What is the difference between ReactJS and Angular?](#what-is-the-difference-between-reactjs-and-angular)
 
-[What is the React context?](#what-is-the-react-context-expert)
+[What is the React context?](#what-is-the-react-context)
 
-[Explain the Virtual DOM concept in React.](#explain-the-virtual-dom-concept-in-react-expert)
+[Explain the Virtual DOM concept in React.](#explain-the-virtual-dom-concept-in-react)
 
-[What is reselect and how it works?](#what-is-reselect-and-how-it-works-expert)
+[What is reselect and how it works?](#what-is-reselect-and-how-it-works)
 
-[How to use Polymer in ReactJS?](#how-to-use-polymer-in-reactjs-expert)
+[How to use Polymer in ReactJS?](#how-to-use-polymer-in-reactjs)
 
-[What is a pure function?](#what-is-a-pure-function-expert)
+[What is a pure function?](#what-is-a-pure-function)
 
-[Explain some difference between Flux and AngularJS (1.x) approach](#explain-some-difference-between-flux-and-angularjs-1x-approach-expert)
+[Explain some difference between Flux and AngularJS (1.x) approach](#explain-some-difference-between-flux-and-angularjs-1x-approach)
 
-[What is React Fiber?](#what-is-react-fiber-expert)
+[What is React Fiber?](#what-is-react-fiber)
 
-[What is Redux Thunk used for?](#what-is-redux-thunk-used-for-expert)
+[What is Redux Thunk used for?](#what-is-redux-thunk-used-for)
 
 
 

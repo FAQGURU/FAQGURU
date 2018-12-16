@@ -1,64 +1,64 @@
 ## Data Structures
 
-[What is data-structure?](#what-is-data-structure-junior)
+[What is data-structure?](#what-is-data-structure)
 
-[What is a graph?](#what-is-a-graph-junior)
+[What is a graph?](#what-is-a-graph)
 
-[What is linear searching?](#what-is-linear-searching-junior)
+[What is linear searching?](#what-is-linear-searching)
 
-[What is algorithm?](#what-is-algorithm-junior)
+[What is algorithm?](#what-is-algorithm)
 
-[What is linear data structure and what are common operations to perform on it?](#what-is-linear-data-structure-and-what-are-common-operations-to-perform-on-it-mid)
+[What is linear data structure and what are common operations to perform on it?](#what-is-linear-data-structure-and-what-are-common-operations-to-perform-on-it)
 
-[What is an average case complexity of Bubble Sort?](#what-is-an-average-case-complexity-of-bubble-sort-mid)
+[What is an average case complexity of Bubble Sort?](#what-is-an-average-case-complexity-of-bubble-sort)
 
-[What examples of greedy algorithms do you know?](#what-examples-of-greedy-algorithms-do-you-know-mid)
+[What examples of greedy algorithms do you know?](#what-examples-of-greedy-algorithms-do-you-know)
 
-[What are some examples of divide and conquer algorithms?](#what-are-some-examples-of-divide-and-conquer-algorithms-mid)
+[What are some examples of divide and conquer algorithms?](#what-are-some-examples-of-divide-and-conquer-algorithms)
 
-[What are some examples of dynamic programming algorithms?](#what-are-some-examples-of-dynamic-programming-algorithms-mid)
+[What are some examples of dynamic programming algorithms?](#what-are-some-examples-of-dynamic-programming-algorithms)
 
-[Why do we use stacks?](#why-do-we-use-stacks-mid)
+[Why do we use stacks?](#why-do-we-use-stacks)
 
-[Why do we use queues?](#why-do-we-use-queues-mid)
+[Why do we use queues?](#why-do-we-use-queues)
 
-[What is Selection Sort?](#what-is-selection-sort-mid)
+[What is Selection Sort?](#what-is-selection-sort)
 
-[Why we need to do algorithm analysis?](#why-we-need-to-do-algorithm-analysis-mid)
+[Why we need to do algorithm analysis?](#why-we-need-to-do-algorithm-analysis)
 
-[What is the difference between Linear Search and Binary Search?](#what-is-the-difference-between-linear-search-and-binary-search-mid)
+[What is the difference between Linear Search and Binary Search?](#what-is-the-difference-between-linear-search-and-binary-search)
 
-[What is asymptotic analysis of an algorithm?](#what-is-asymptotic-analysis-of-an-algorithm-mid)
+[What is asymptotic analysis of an algorithm?](#what-is-asymptotic-analysis-of-an-algorithm)
 
-[Name some approaches to develop algorithms](#name-some-approaches-to-develop-algorithms-senior)
+[Name some approaches to develop algorithms](#name-some-approaches-to-develop-algorithms)
 
-[What is Circular Queue and why will you use one?](#what-is-circular-queue-and-why-will-you-use-one-senior)
+[What is Circular Queue and why will you use one?](#what-is-circular-queue-and-why-will-you-use-one)
 
-[Why is Insertion sort better than Quick sort for small list of elements?](#why-is-insertion-sort-better-than-quick-sort-for-small-list-of-elements-senior)
+[Why is Insertion sort better than Quick sort for small list of elements?](#why-is-insertion-sort-better-than-quick-sort-for-small-list-of-elements)
 
-[Tell me something about Insertion sort?](#tell-me-something-about-insertion-sort-senior)
+[Tell me something about Insertion sort?](#tell-me-something-about-insertion-sort)
 
-[List some advantages of Insertion Sort](#list-some-advantages-of-insertion-sort-senior)
+[List some advantages of Insertion Sort](#list-some-advantages-of-insertion-sort)
 
-[How Insertion sort and Selection sorts are different?](#how-insertion-sort-and-selection-sorts-are-different-senior)
+[How Insertion sort and Selection sorts are different?](#how-insertion-sort-and-selection-sorts-are-different)
 
-[What is Merge Sort and how it works?](#what-is-merge-sort-and-how-it-works-senior)
+[What is Merge Sort and how it works?](#what-is-merge-sort-and-how-it-works)
 
-[How Quick Sort works?](#how-quick-sort-works-senior)
+[How Quick Sort works?](#how-quick-sort-works)
 
-[What is Shell Sort?](#what-is-shell-sort-senior)
+[What is Shell Sort?](#what-is-shell-sort)
 
-[Is there ever a good reason to use Insertion Sort?](#is-there-ever-a-good-reason-to-use-insertion-sort-expert)
+[Is there ever a good reason to use Insertion Sort?](#is-there-ever-a-good-reason-to-use-insertion-sort)
 
-[Is there any advantages of Bubble Sort?](#is-there-any-advantages-of-bubble-sort-expert)
+[Is there any advantages of Bubble Sort?](#is-there-any-advantages-of-bubble-sort)
 
-[What is Bucket Sort?](#what-is-bucket-sort-expert)
+[What is Bucket Sort?](#what-is-bucket-sort)
 
-[What is Tim Sort and how would you compare it with Quick Sort?](#what-is-tim-sort-and-how-would-you-compare-it-with-quick-sort-expert)
+[What is Tim Sort and how would you compare it with Quick Sort?](#what-is-tim-sort-and-how-would-you-compare-it-with-quick-sort)
 
-[Why is Quick Sort better than Merge Sort?](#why-is-quick-sort-better-than-merge-sort-expert)
+[Why is Quick Sort better than Merge Sort?](#why-is-quick-sort-better-than-merge-sort)
 
-[What is stability in sorting algorithms and why is it important?](#what-is-stability-in-sorting-algorithms-and-why-is-it-important-expert)
+[What is stability in sorting algorithms and why is it important?](#what-is-stability-in-sorting-algorithms-and-why-is-it-important)
 
 
 

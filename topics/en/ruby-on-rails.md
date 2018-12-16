@@ -1,148 +1,148 @@
 ## Ruby on Rails
 
-[Explain what is ORM (Object-Relationship-Model) in Rails?](#explain-what-is-orm-object-relationship-model-in-rails-junior)
+[Explain what is ORM (Object-Relationship-Model) in Rails?](#explain-what-is-orm-object-relationship-model-in-rails)
 
-[Mention what is Rails Migration?](#mention-what-is-rails-migration-junior)
+[Mention what is Rails Migration?](#mention-what-is-rails-migration)
 
-[Explain what is rake in Rails?](#explain-what-is-rake-in-rails-junior)
+[Explain what is rake in Rails?](#explain-what-is-rake-in-rails)
 
-[What Is ORM In Rails?](#what-is-orm-in-rails-junior)
+[What Is ORM In Rails?](#what-is-orm-in-rails)
 
-[Explain what is Ruby on Rails?](#explain-what-is-ruby-on-rails-junior)
+[Explain what is Ruby on Rails?](#explain-what-is-ruby-on-rails)
 
-[What is the purpose of the resources method in the code snippet below?](#what-is-the-purpose-of-the-resources-method-in-the-code-snippet-below-mid)
+[What is the purpose of the resources method in the code snippet below?](#what-is-the-purpose-of-the-resources-method-in-the-code-snippet-below)
 
-[What is the use of load and require in Ruby?](#what-is-the-use-of-load-and-require-in-ruby-mid)
+[What is the use of load and require in Ruby?](#what-is-the-use-of-load-and-require-in-ruby)
 
-[List out what can Rails Migration do?](#list-out-what-can-rails-migration-do-mid)
+[List out what can Rails Migration do?](#list-out-what-can-rails-migration-do)
 
-[Mention what is the role of Rails Controller?](#mention-what-is-the-role-of-rails-controller-mid)
+[Mention what is the role of Rails Controller?](#mention-what-is-the-role-of-rails-controller)
 
-[Explain how you define Instance Variable, Global Variable and Class Variable in Ruby?](#explain-how-you-define-instance-variable-global-variable-and-class-variable-in-ruby-mid)
+[Explain how you define Instance Variable, Global Variable and Class Variable in Ruby?](#explain-how-you-define-instance-variable-global-variable-and-class-variable-in-ruby)
 
-[How Is Visibility Of Methods Changed In Ruby (encapsulation)?](#how-is-visibility-of-methods-changed-in-ruby-encapsulation-mid)
+[How Is Visibility Of Methods Changed In Ruby (encapsulation)?](#how-is-visibility-of-methods-changed-in-ruby-encapsulation)
 
-[Mention what are the positive aspects of Rails?](#mention-what-are-the-positive-aspects-of-rails-mid)
+[Mention what are the positive aspects of Rails?](#mention-what-are-the-positive-aspects-of-rails)
 
-[What Is The Difference Between Nil And False In Ruby?](#what-is-the-difference-between-nil-and-false-in-ruby-mid)
+[What Is The Difference Between Nil And False In Ruby?](#what-is-the-difference-between-nil-and-false-in-ruby)
 
-[What Is MVC? And How It Works?](#what-is-mvc-and-how-it-works-mid)
+[What Is MVC? And How It Works?](#what-is-mvc-and-how-it-works)
 
-[What Are Helpers And How To Use Helpers In ROR?](#what-are-helpers-and-how-to-use-helpers-in-ror-mid)
+[What Are Helpers And How To Use Helpers In ROR?](#what-are-helpers-and-how-to-use-helpers-in-ror)
 
-[Mention what are the limits of Ruby on Rails?](#mention-what-are-the-limits-of-ruby-on-rails-mid)
+[Mention what are the limits of Ruby on Rails?](#mention-what-are-the-limits-of-ruby-on-rails)
 
-[How Many Types Of Associations Relationships Does A Model Have?](#how-many-types-of-associations-relationships-does-a-model-have-mid)
+[How Many Types Of Associations Relationships Does A Model Have?](#how-many-types-of-associations-relationships-does-a-model-have)
 
-[Explain what is a class library in Ruby?](#explain-what-is-a-class-library-in-ruby-mid)
+[Explain what is a class library in Ruby?](#explain-what-is-a-class-library-in-ruby)
 
-[Mention what is the difference in scope for these two variables: @@name and @name?](#mention-what-is-the-difference-in-scope-for-these-two-variables-name-and-name-mid)
+[Mention what is the difference in scope for these two variables: @@name and @name?](#mention-what-is-the-difference-in-scope-for-these-two-variables-name-and-name)
 
-[Explain what is the role of sub-directory app/controllers and app/helpers?](#explain-what-is-the-role-of-sub-directory-appcontrollers-and-apphelpers-mid)
+[Explain what is the role of sub-directory app/controllers and app/helpers?](#explain-what-is-the-role-of-sub-directory-appcontrollers-and-apphelpers)
 
-[Mention what is the difference between a gem and a plugin in Ruby?](#mention-what-is-the-difference-between-a-gem-and-a-plugin-in-ruby-mid)
+[Mention what is the difference between a gem and a plugin in Ruby?](#mention-what-is-the-difference-between-a-gem-and-a-plugin-in-ruby)
 
-[What Do You Mean By Render And Redirect_to?](#what-do-you-mean-by-render-and-redirect_to-mid)
+[What Do You Mean By Render And Redirect_to?](#what-do-you-mean-by-render-and-redirect_to)
 
-[What Are The Various Components Of Rail?](#what-are-the-various-components-of-rail-mid)
+[What Are The Various Components Of Rail?](#what-are-the-various-components-of-rail)
 
-[ Explain what is Rails Active Record in Ruby on Rails?](#-explain-what-is-rails-active-record-in-ruby-on-rails-mid)
+[ Explain what is Rails Active Record in Ruby on Rails?](#-explain-what-is-rails-active-record-in-ruby-on-rails)
 
-[How Many Types Of Relationships Does A Model Has?](#how-many-types-of-relationships-does-a-model-has-mid)
+[How Many Types Of Relationships Does A Model Has?](#how-many-types-of-relationships-does-a-model-has)
 
-[What do you mean by the term Scaffolding and what sort of advantages the Ruby can offer when it comes to same?](#what-do-you-mean-by-the-term-scaffolding-and-what-sort-of-advantages-the-ruby-can-offer-when-it-comes-to-same-mid)
+[What do you mean by the term Scaffolding and what sort of advantages the Ruby can offer when it comes to same?](#what-do-you-mean-by-the-term-scaffolding-and-what-sort-of-advantages-the-ruby-can-offer-when-it-comes-to-same)
 
-[Practical test: Genres of music](#practical-test-genres-of-music-senior)
+[Practical test: Genres of music](#practical-test-genres-of-music)
 
-[What is the difference between symbol and string?](#what-is-the-difference-between-symbol-and-string-senior)
+[What is the difference between symbol and string?](#what-is-the-difference-between-symbol-and-string)
 
-[What is the use of Destructive Method?](#what-is-the-use-of-destructive-method-senior)
+[What is the use of Destructive Method?](#what-is-the-use-of-destructive-method)
 
-[Explain Ruby on Rails Exception Handling](#explain-ruby-on-rails-exception-handling-senior)
+[Explain Ruby on Rails Exception Handling](#explain-ruby-on-rails-exception-handling)
 
-[How should you use nested layouts?](#how-should-you-use-nested-layouts-senior)
+[How should you use nested layouts?](#how-should-you-use-nested-layouts)
 
-[Can you explain the difference between ActiveSupport’s “HashWithIndifferentAccess” and Ruby’s “Hash”?](#can-you-explain-the-difference-between-activesupports-hashwithindifferentaccess-and-rubys-hash-senior)
+[Can you explain the difference between ActiveSupport’s “HashWithIndifferentAccess” and Ruby’s “Hash”?](#can-you-explain-the-difference-between-activesupports-hashwithindifferentaccess-and-rubys-hash)
 
-[How does Ruby on Rails use the Model View Controller (MVC) framework?](#how-does-ruby-on-rails-use-the-model-view-controller-mvc-framework-senior)
+[How does Ruby on Rails use the Model View Controller (MVC) framework?](#how-does-ruby-on-rails-use-the-model-view-controller-mvc-framework)
 
-[What is the purpose of the rakefile available in the demo directory in Ruby?](#what-is-the-purpose-of-the-rakefile-available-in-the-demo-directory-in-ruby-senior)
+[What is the purpose of the rakefile available in the demo directory in Ruby?](#what-is-the-purpose-of-the-rakefile-available-in-the-demo-directory-in-ruby)
 
-[Explain what is Interpolation in Ruby?](#explain-what-is-interpolation-in-ruby-senior)
+[Explain what is Interpolation in Ruby?](#explain-what-is-interpolation-in-ruby)
 
-[What is the difference between &&, || operators and "and, or"?](#what-is-the-difference-between---operators-and-and-or-senior)
+[What is the difference between &&, || operators and "and, or"?](#what-is-the-difference-between---operators-and-and-or)
 
-[Explain what is Polymorphic Association in Ruby on Rails?](#explain-what-is-polymorphic-association-in-ruby-on-rails-senior)
+[Explain what is Polymorphic Association in Ruby on Rails?](#explain-what-is-polymorphic-association-in-ruby-on-rails)
 
-[What Are Filters?](#what-are-filters-senior)
+[What Are Filters?](#what-are-filters)
 
-[Mention what is the purpose of RJs in Rails?](#mention-what-is-the-purpose-of-rjs-in-rails-senior)
+[Mention what is the purpose of RJs in Rails?](#mention-what-is-the-purpose-of-rjs-in-rails)
 
-[What Things We Can Define In The Model?](#what-things-we-can-define-in-the-model-senior)
+[What Things We Can Define In The Model?](#what-things-we-can-define-in-the-model)
 
-[What Is The Difference Between Delete And Destroy?](#what-is-the-difference-between-delete-and-destroy-senior)
+[What Is The Difference Between Delete And Destroy?](#what-is-the-difference-between-delete-and-destroy)
 
-[What Is A Proc?](#what-is-a-proc-senior)
+[What Is A Proc?](#what-is-a-proc)
 
-[Mention what is the function of garbage collection in Ruby on Rails?](#mention-what-is-the-function-of-garbage-collection-in-ruby-on-rails-senior)
+[Mention what is the function of garbage collection in Ruby on Rails?](#mention-what-is-the-function-of-garbage-collection-in-ruby-on-rails)
 
-[Mention what is the difference between the Observers and Callbacks in Ruby on Rails?](#mention-what-is-the-difference-between-the-observers-and-callbacks-in-ruby-on-rails-senior)
+[Mention what is the difference between the Observers and Callbacks in Ruby on Rails?](#mention-what-is-the-difference-between-the-observers-and-callbacks-in-ruby-on-rails)
 
-[What exactly are Harnesses and Fixtures in the Ruby?](#what-exactly-are-harnesses-and-fixtures-in-the-ruby-senior)
+[What exactly are Harnesses and Fixtures in the Ruby?](#what-exactly-are-harnesses-and-fixtures-in-the-ruby)
 
-[Mention what is the difference between calling super() and super call?](#mention-what-is-the-difference-between-calling-super-and-super-call-senior)
+[Mention what is the difference between calling super() and super call?](#mention-what-is-the-difference-between-calling-super-and-super-call)
 
-[What are Strong Parameters?](#what-are-strong-parameters-expert)
+[What are Strong Parameters?](#what-are-strong-parameters)
 
-[What Do You Mean By Naming Convention In Rails?](#what-do-you-mean-by-naming-convention-in-rails-expert)
+[What Do You Mean By Naming Convention In Rails?](#what-do-you-mean-by-naming-convention-in-rails)
 
-[Does Ruby Support Single Inheritance/multiple Inheritance Or Both?](#does-ruby-support-single-inheritancemultiple-inheritance-or-both-expert)
+[Does Ruby Support Single Inheritance/multiple Inheritance Or Both?](#does-ruby-support-single-inheritancemultiple-inheritance-or-both)
 
-[Hw would you choose between Belongs_to And Has_one?](#hw-would-you-choose-between-belongs_to-and-has_one-expert)
+[Hw would you choose between Belongs_to And Has_one?](#hw-would-you-choose-between-belongs_to-and-has_one)
 
-[What Is The Difference Between "Save" And "Save!"?](#what-is-the-difference-between-save-and-save-expert)
+[What Is The Difference Between "Save" And "Save!"?](#what-is-the-difference-between-save-and-save)
 
-[What is the difference between content_for and yield?](#what-is-the-difference-between-content_for-and-yield-expert)
+[What is the difference between content_for and yield?](#what-is-the-difference-between-content_for-and-yield)
 
-[What Are Filters? And How Many Types Of Filters Are There In Ruby?](#what-are-filters-and-how-many-types-of-filters-are-there-in-ruby-expert)
+[What Are Filters? And How Many Types Of Filters Are There In Ruby?](#what-are-filters-and-how-many-types-of-filters-are-there-in-ruby)
 
-[What Is The Flash?](#what-is-the-flash-expert)
+[What Is The Flash?](#what-is-the-flash)
 
-[How to rollback a specific migration?](#how-to-rollback-a-specific-migration-expert)
+[How to rollback a specific migration?](#how-to-rollback-a-specific-migration)
 
-[How to check if a specific key is present in a hash or not?](#how-to-check-if-a-specific-key-is-present-in-a-hash-or-not-expert)
+[How to check if a specific key is present in a hash or not?](#how-to-check-if-a-specific-key-is-present-in-a-hash-or-not)
 
-[Is Rails Scalable?](#is-rails-scalable-expert)
+[Is Rails Scalable?](#is-rails-scalable)
 
-[Explain the difference between Page, Action, Fragment, Low-Level, SQL caching types.](#explain-the-difference-between-page-action-fragment-low-level-sql-caching-types-expert)
+[Explain the difference between Page, Action, Fragment, Low-Level, SQL caching types.](#explain-the-difference-between-page-action-fragment-low-level-sql-caching-types)
 
-[What is the Difference Between Gem And Plugin?](#what-is-the-difference-between-gem-and-plugin-expert)
+[What is the Difference Between Gem And Plugin?](#what-is-the-difference-between-gem-and-plugin)
 
-[What is ActiveJob? When should we use it?](#what-is-activejob-when-should-we-use-it-expert)
+[What is ActiveJob? When should we use it?](#what-is-activejob-when-should-we-use-it)
 
-[How To Find Second Max Element From Database?](#how-to-find-second-max-element-from-database-expert)
+[How To Find Second Max Element From Database?](#how-to-find-second-max-element-from-database)
 
-[What is the difference between string and text in Rails?](#what-is-the-difference-between-string-and-text-in-rails-expert)
+[What is the difference between string and text in Rails?](#what-is-the-difference-between-string-and-text-in-rails)
 
-[How Many Types Of Callbacks Available In Ror?](#how-many-types-of-callbacks-available-in-ror-expert)
+[How Many Types Of Callbacks Available In Ror?](#how-many-types-of-callbacks-available-in-ror)
 
-[What is Rack?](#what-is-rack-expert)
+[What is Rack?](#what-is-rack)
 
-[What is the best thing which you find about the Ruby on Rail so far?](#what-is-the-best-thing-which-you-find-about-the-ruby-on-rail-so-far-expert)
+[What is the best thing which you find about the Ruby on Rail so far?](#what-is-the-best-thing-which-you-find-about-the-ruby-on-rail-so-far)
 
-[What sort of problems you have faced with Ruby on Rails and how do you think the same can affect the projects?](#what-sort-of-problems-you-have-faced-with-ruby-on-rails-and-how-do-you-think-the-same-can-affect-the-projects-expert)
+[What sort of problems you have faced with Ruby on Rails and how do you think the same can affect the projects?](#what-sort-of-problems-you-have-faced-with-ruby-on-rails-and-how-do-you-think-the-same-can-affect-the-projects)
 
-[What is a Rails engine?](#what-is-a-rails-engine-expert)
+[What is a Rails engine?](#what-is-a-rails-engine)
 
-[What is Asset Pipeline?](#what-is-asset-pipeline-expert)
+[What is Asset Pipeline?](#what-is-asset-pipeline)
 
-[How Do I Find Only Duplicate Entries In A Database Table?](#how-do-i-find-only-duplicate-entries-in-a-database-table-expert)
+[How Do I Find Only Duplicate Entries In A Database Table?](#how-do-i-find-only-duplicate-entries-in-a-database-table)
 
-[What is Dynamic Finders?](#what-is-dynamic-finders-expert)
+[What is Dynamic Finders?](#what-is-dynamic-finders)
 
-[How To Use Two Databases Into A Single Application?](#how-to-use-two-databases-into-a-single-application-expert)
+[How To Use Two Databases Into A Single Application?](#how-to-use-two-databases-into-a-single-application)
 
-[Node.js vs Ruby on Rails. Which would you choose?](#nodejs-vs-ruby-on-rails-which-would-you-choose-expert)
+[Node.js vs Ruby on Rails. Which would you choose?](#nodejs-vs-ruby-on-rails-which-would-you-choose)
 
 
 

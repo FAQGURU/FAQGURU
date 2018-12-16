@@ -1,42 +1,42 @@
 ## Golang
 
-[What is Go?](#what-is-go-junior)
+[What is Go?](#what-is-go)
 
-[Is Go a new language, framework or library?](#is-go-a-new-language-framework-or-library-junior)
+[Is Go a new language, framework or library?](#is-go-a-new-language-framework-or-library)
 
-[What is static type declaration of a variable in Go?](#what-is-static-type-declaration-of-a-variable-in-go-mid)
+[What is static type declaration of a variable in Go?](#what-is-static-type-declaration-of-a-variable-in-go)
 
-[What is dynamic type declaration of a variable in Go?](#what-is-dynamic-type-declaration-of-a-variable-in-go-mid)
+[What is dynamic type declaration of a variable in Go?](#what-is-dynamic-type-declaration-of-a-variable-in-go)
 
-[Can you declared multiple types of variables in single declaration in Go?](#can-you-declared-multiple-types-of-variables-in-single-declaration-in-go-mid)
+[Can you declared multiple types of variables in single declaration in Go?](#can-you-declared-multiple-types-of-variables-in-single-declaration-in-go)
 
-[What is a pointer?](#what-is-a-pointer-mid)
+[What is a pointer?](#what-is-a-pointer)
 
-[Can you return multiple values from a function?](#can-you-return-multiple-values-from-a-function-mid)
+[Can you return multiple values from a function?](#can-you-return-multiple-values-from-a-function)
 
-[What are some advantages of using Go?](#what-are-some-advantages-of-using-go-mid)
+[What are some advantages of using Go?](#what-are-some-advantages-of-using-go)
 
-[What kind of type conversion is supported by Go?](#what-kind-of-type-conversion-is-supported-by-go-mid)
+[What kind of type conversion is supported by Go?](#what-kind-of-type-conversion-is-supported-by-go)
 
-[What are the benefits of using Go programming?](#what-are-the-benefits-of-using-go-programming-mid)
+[What are the benefits of using Go programming?](#what-are-the-benefits-of-using-go-programming)
 
-[Why the Go language was created?](#why-the-go-language-was-created-mid)
+[Why the Go language was created?](#why-the-go-language-was-created)
 
-[Does Go have exceptions?](#does-go-have-exceptions-mid)
+[Does Go have exceptions?](#does-go-have-exceptions)
 
-[What are Goroutines?](#what-are-goroutines-mid)
+[What are Goroutines?](#what-are-goroutines)
 
-[Let's talk variable declaration in Go. Could you explain what is a variable "zero value"?](#lets-talk-variable-declaration-in-go-could-you-explain-what-is-a-variable-zero-value-mid)
+[Let's talk variable declaration in Go. Could you explain what is a variable "zero value"?](#lets-talk-variable-declaration-in-go-could-you-explain-what-is-a-variable-zero-value)
 
-[Is Go an object-oriented language?](#is-go-an-object-oriented-language-senior)
+[Is Go an object-oriented language?](#is-go-an-object-oriented-language)
 
-[Name some advantages of Goroutines over threads](#name-some-advantages-of-goroutines-over-threads-senior)
+[Name some advantages of Goroutines over threads](#name-some-advantages-of-goroutines-over-threads)
 
-[Have you worked with Go 2?](#have-you-worked-with-go-2-senior)
+[Have you worked with Go 2?](#have-you-worked-with-go-2)
 
-[What is "rune" type in Go?](#what-is-rune-type-in-go-senior)
+[What is "rune" type in Go?](#what-is-rune-type-in-go)
 
-[What is so special about constants in Go?](#what-is-so-special-about-constants-in-go-senior)
+[What is so special about constants in Go?](#what-is-so-special-about-constants-in-go)
 
 
 

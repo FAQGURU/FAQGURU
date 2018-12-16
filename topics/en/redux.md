@@ -1,64 +1,64 @@
 ## Redux
 
-[What is Flux?](#what-is-flux-junior)
+[What is Flux?](#what-is-flux)
 
-[What is Redux DevTools?](#what-is-redux-devtools-junior)
+[What is Redux DevTools?](#what-is-redux-devtools)
 
-[What is Redux?](#what-is-redux-junior)
+[What is Redux?](#what-is-redux)
 
-[Do you need to keepIs all component states in Redux store?](#do-you-need-to-keepis-all-component-states-in-redux-store-junior)
+[Do you need to keepIs all component states in Redux store?](#do-you-need-to-keepis-all-component-states-in-redux-store)
 
-[How to add multiple middlewares to Redux?](#how-to-add-multiple-middlewares-to-redux-mid)
+[How to add multiple middlewares to Redux?](#how-to-add-multiple-middlewares-to-redux)
 
-[What are Redux selectors and Why to use them?](#what-are-redux-selectors-and-why-to-use-them-mid)
+[What are Redux selectors and Why to use them?](#what-are-redux-selectors-and-why-to-use-them)
 
-[What are the features of Redux DevTools?](#what-are-the-features-of-redux-devtools-mid)
+[What are the features of Redux DevTools?](#what-are-the-features-of-redux-devtools)
 
-[What are reducers in redux?](#what-are-reducers-in-redux-mid)
+[What are reducers in redux?](#what-are-reducers-in-redux)
 
-[What is Redux Thunk?](#what-is-redux-thunk-mid)
+[What is Redux Thunk?](#what-is-redux-thunk)
 
-[What is the difference between React context and React redux?](#what-is-the-difference-between-react-context-and-react-redux-mid)
+[What is the difference between React context and React redux?](#what-is-the-difference-between-react-context-and-react-redux)
 
-[What is redux-saga?](#what-is-redux-saga-mid)
+[What is redux-saga?](#what-is-redux-saga)
 
-[What are the core principles of Redux?](#what-are-the-core-principles-of-redux-mid)
+[What are the core principles of Redux?](#what-are-the-core-principles-of-redux)
 
-[How to set initial state in Redux?](#how-to-set-initial-state-in-redux-mid)
+[How to set initial state in Redux?](#how-to-set-initial-state-in-redux)
 
-[How to structure Redux top level directories?](#how-to-structure-redux-top-level-directories-mid)
+[How to structure Redux top level directories?](#how-to-structure-redux-top-level-directories)
 
-[What are the downsides of Redux over Flux?](#what-are-the-downsides-of-redux-over-flux-senior)
+[What are the downsides of Redux over Flux?](#what-are-the-downsides-of-redux-over-flux)
 
-[What are the differences between redux-saga and redux-thunk?](#what-are-the-differences-between-redux-saga-and-redux-thunk-senior)
+[What are the differences between redux-saga and redux-thunk?](#what-are-the-differences-between-redux-saga-and-redux-thunk)
 
-[What is the purpose of the constants in Redux?](#what-is-the-purpose-of-the-constants-in-redux-senior)
+[What is the purpose of the constants in Redux?](#what-is-the-purpose-of-the-constants-in-redux)
 
-[How to use connect from react redux?](#how-to-use-connect-from-react-redux-senior)
+[How to use connect from react redux?](#how-to-use-connect-from-react-redux)
 
-[Are there any similarities between Redux and RxJS?](#are-there-any-similarities-between-redux-and-rxjs-senior)
+[Are there any similarities between Redux and RxJS?](#are-there-any-similarities-between-redux-and-rxjs)
 
-[What is Redux form?](#what-is-redux-form-senior)
+[What is Redux form?](#what-is-redux-form)
 
-[What are the main features of Redux Form?](#what-are-the-main-features-of-redux-form-senior)
+[What are the main features of Redux Form?](#what-are-the-main-features-of-redux-form)
 
-[How to access redux store outside a react component?](#how-to-access-redux-store-outside-a-react-component-senior)
+[How to access redux store outside a react component?](#how-to-access-redux-store-outside-a-react-component)
 
-[What is the proper way to access Redux store?](#what-is-the-proper-way-to-access-redux-store-expert)
+[What is the proper way to access Redux store?](#what-is-the-proper-way-to-access-redux-store)
 
-[What are the differences between call and put in redux-saga?](#what-are-the-differences-between-call-and-put-in-redux-saga-expert)
+[What are the differences between call and put in redux-saga?](#what-are-the-differences-between-call-and-put-in-redux-saga)
 
-[Whats the purpose of at (@) symbol in the redux connect decorator?](#whats-the-purpose-of-at--symbol-in-the-redux-connect-decorator-expert)
+[Whats the purpose of at (@) symbol in the redux connect decorator?](#whats-the-purpose-of-at--symbol-in-the-redux-connect-decorator)
 
-[How to make Ajax request in Redux?](#how-to-make-ajax-request-in-redux-expert)
+[How to make Ajax request in Redux?](#how-to-make-ajax-request-in-redux)
 
-[Why are Redux state functions called as reducers?](#why-are-redux-state-functions-called-as-reducers-expert)
+[Why are Redux state functions called as reducers?](#why-are-redux-state-functions-called-as-reducers)
 
-[How to reset state in redux?](#how-to-reset-state-in-redux-expert)
+[How to reset state in redux?](#how-to-reset-state-in-redux)
 
-[What is the mental model of redux-saga?](#what-is-the-mental-model-of-redux-saga-expert)
+[What is the mental model of redux-saga?](#what-is-the-mental-model-of-redux-saga)
 
-[How Relay is different from Redux?](#how-relay-is-different-from-redux-expert)
+[How Relay is different from Redux?](#how-relay-is-different-from-redux)
 
 
 
