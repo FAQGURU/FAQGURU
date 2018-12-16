@@ -2,91 +2,91 @@
 
 [What is Coercion in JavaScript? (Entry)](#what-is-coercion-in-javascript-entry)
 
-[What is typeof operator? (Junior)](#what-is-typeof-operator-junior)
+[What is typeof operator?](#what-is-typeof-operator-junior)
 
-[What is the object type? (Junior)](#what-is-the-object-type-junior)
+[What is the object type?](#what-is-the-object-type-junior)
 
-[Explain arrays in JavaScript (Junior)](#explain-arrays-in-javascript-junior)
+[Explain arrays in JavaScript](#explain-arrays-in-javascript-junior)
 
-[Explain equality in JavaScript (Junior)](#explain-equality-in-javascript-junior)
+[Explain equality in JavaScript](#explain-equality-in-javascript-junior)
 
-[What is Scope in JavaScript? (Junior)](#what-is-scope-in-javascript-junior)
+[What is Scope in JavaScript?](#what-is-scope-in-javascript-junior)
 
-[What is let keyword in JavaScript? (Mid)](#what-is-let-keyword-in-javascript-mid)
+[What is let keyword in JavaScript?](#what-is-let-keyword-in-javascript-mid)
 
-[Explain what a callback function is and provide a simple example. (Mid)](#explain-what-a-callback-function-is-and-provide-a-simple-example-mid)
+[Explain what a callback function is and provide a simple example.](#explain-what-a-callback-function-is-and-provide-a-simple-example-mid)
 
-[What is strict mode? (Mid)](#what-is-strict-mode-mid)
+[What is strict mode?](#what-is-strict-mode-mid)
 
-[What does "use strict" do? (Mid)](#what-does-use-strict-do-mid)
+[What does "use strict" do?](#what-does-use-strict-do-mid)
 
-[What is a Polyfill? (Mid)](#what-is-a-polyfill-mid)
+[What is a Polyfill?](#what-is-a-polyfill-mid)
 
-[How would you check if a number is an integer? (Mid)](#how-would-you-check-if-a-number-is-an-integer-mid)
+[How would you check if a number is an integer?](#how-would-you-check-if-a-number-is-an-integer-mid)
 
-[Explain Values and Types in JavaScript (Mid)](#explain-values-and-types-in-javascript-mid)
+[Explain Values and Types in JavaScript](#explain-values-and-types-in-javascript-mid)
 
-[Being told that an unsorted array contains (n - 1) of n consecutive numbers (where the bounds are defined), find the missing number in O(n) time (Mid)](#being-told-that-an-unsorted-array-contains-n---1-of-n-consecutive-numbers-where-the-bounds-are-defined-find-the-missing-number-in-on-time-mid)
+[Being told that an unsorted array contains (n - 1) of n consecutive numbers (where the bounds are defined), find the missing number in O(n) time](#being-told-that-an-unsorted-array-contains-n---1-of-n-consecutive-numbers-where-the-bounds-are-defined-find-the-missing-number-in-on-time-mid)
 
-[Remove duplicates of an array and return an array of only unique elements (Mid)](#remove-duplicates-of-an-array-and-return-an-array-of-only-unique-elements-mid)
+[Remove duplicates of an array and return an array of only unique elements](#remove-duplicates-of-an-array-and-return-an-array-of-only-unique-elements-mid)
 
-[Given a string, reverse each word in the sentence (Mid)](#given-a-string-reverse-each-word-in-the-sentence-mid)
+[Given a string, reverse each word in the sentence](#given-a-string-reverse-each-word-in-the-sentence-mid)
 
-[Write a function that would allow you to do this. (Mid)](#write-a-function-that-would-allow-you-to-do-this-mid)
+[Write a function that would allow you to do this.](#write-a-function-that-would-allow-you-to-do-this-mid)
 
-[Implement enqueue and dequeue using only two stacks (Mid)](#implement-enqueue-and-dequeue-using-only-two-stacks-mid)
+[Implement enqueue and dequeue using only two stacks](#implement-enqueue-and-dequeue-using-only-two-stacks-mid)
 
-[How would you use a closure to create a private counter? (Mid)](#how-would-you-use-a-closure-to-create-a-private-counter-mid)
+[How would you use a closure to create a private counter?](#how-would-you-use-a-closure-to-create-a-private-counter-mid)
 
-[Explain Null and Undefined in JavaScript (Mid)](#explain-null-and-undefined-in-javascript-mid)
+[Explain Null and Undefined in JavaScript](#explain-null-and-undefined-in-javascript-mid)
 
-[Explain event bubbling and how one may prevent it (Mid)](#explain-event-bubbling-and-how-one-may-prevent-it-mid)
+[Explain event bubbling and how one may prevent it](#explain-event-bubbling-and-how-one-may-prevent-it-mid)
 
-[How to check if an object is an array or not? Provide some code. (Mid)](#how-to-check-if-an-object-is-an-array-or-not-provide-some-code-mid)
+[How to check if an object is an array or not? Provide some code.](#how-to-check-if-an-object-is-an-array-or-not-provide-some-code-mid)
 
-[Write a "mul" function which will properly when invoked as below syntax. (Mid)](#write-a-mul-function-which-will-properly-when-invoked-as-below-syntax-mid)
+[Write a "mul" function which will properly when invoked as below syntax.](#write-a-mul-function-which-will-properly-when-invoked-as-below-syntax-mid)
 
-[How to empty an array in JavaScript? (Mid)](#how-to-empty-an-array-in-javascript-mid)
+[How to empty an array in JavaScript?](#how-to-empty-an-array-in-javascript-mid)
 
-[How to compare two objects in JavaScript? (Senior)](#how-to-compare-two-objects-in-javascript-senior)
+[How to compare two objects in JavaScript?](#how-to-compare-two-objects-in-javascript-senior)
 
-[Given an array of integers, find the largest difference between two elements such that the element of lesser value must come before the greater element (Senior)](#given-an-array-of-integers-find-the-largest-difference-between-two-elements-such-that-the-element-of-lesser-value-must-come-before-the-greater-element-senior)
+[Given an array of integers, find the largest difference between two elements such that the element of lesser value must come before the greater element](#given-an-array-of-integers-find-the-largest-difference-between-two-elements-such-that-the-element-of-lesser-value-must-come-before-the-greater-element-senior)
 
-[Find the intersection of two arrays. An intersection would be the common elements that exists within both arrays. In this case, these elements should be unique! (Senior)](#find-the-intersection-of-two-arrays-an-intersection-would-be-the-common-elements-that-exists-within-both-arrays-in-this-case-these-elements-should-be-unique-senior)
+[Find the intersection of two arrays. An intersection would be the common elements that exists within both arrays. In this case, these elements should be unique!](#find-the-intersection-of-two-arrays-an-intersection-would-be-the-common-elements-that-exists-within-both-arrays-in-this-case-these-elements-should-be-unique-senior)
 
-[Write a function that would allow you to do this (Senior)](#write-a-function-that-would-allow-you-to-do-this-senior)
+[Write a function that would allow you to do this](#write-a-function-that-would-allow-you-to-do-this-senior)
 
-[Given two strings, return true if they are anagrams of one another (Senior)](#given-two-strings-return-true-if-they-are-anagrams-of-one-another-senior)
+[Given two strings, return true if they are anagrams of one another](#given-two-strings-return-true-if-they-are-anagrams-of-one-another-senior)
 
-[Check if a given string is a palindrome. Case sensitivity should be taken into account. (Senior)](#check-if-a-given-string-is-a-palindrome-case-sensitivity-should-be-taken-into-account-senior)
+[Check if a given string is a palindrome. Case sensitivity should be taken into account.](#check-if-a-given-string-is-a-palindrome-case-sensitivity-should-be-taken-into-account-senior)
 
-[What is the difference between a shim and a polyfill? (Senior)](#what-is-the-difference-between-a-shim-and-a-polyfill-senior)
+[What is the difference between a shim and a polyfill?](#what-is-the-difference-between-a-shim-and-a-polyfill-senior)
 
-[What will the following code output? (Senior)](#what-will-the-following-code-output-senior)
+[What will the following code output?](#what-will-the-following-code-output-senior)
 
-[Could you explain the difference between ES5 and ES6 (Senior)](#could-you-explain-the-difference-between-es5-and-es6-senior)
+[Could you explain the difference between ES5 and ES6](#could-you-explain-the-difference-between-es5-and-es6-senior)
 
-[What is IIFEs (Immediately Invoked Function Expressions)? (Senior)](#what-is-iifes-immediately-invoked-function-expressions-senior)
+[What is IIFEs (Immediately Invoked Function Expressions)?](#what-is-iifes-immediately-invoked-function-expressions-senior)
 
-[What will be the output of the following code? (Senior)](#what-will-be-the-output-of-the-following-code-senior)
+[What will be the output of the following code?](#what-will-be-the-output-of-the-following-code-senior)
 
-[What will be the output of the following code? (Senior)](#what-will-be-the-output-of-the-following-code-senior)
+[What will be the output of the following code?](#what-will-be-the-output-of-the-following-code-senior)
 
-[Provide some examples of non-bulean value coercion to a boolean one (Senior)](#provide-some-examples-of-non-bulean-value-coercion-to-a-boolean-one-senior)
+[Provide some examples of non-bulean value coercion to a boolean one](#provide-some-examples-of-non-bulean-value-coercion-to-a-boolean-one-senior)
 
-[Explain the difference between "undefined" and "not defined" in JavaScript (Senior)](#explain-the-difference-between-undefined-and-not-defined-in-javascript-senior)
+[Explain the difference between "undefined" and "not defined" in JavaScript](#explain-the-difference-between-undefined-and-not-defined-in-javascript-senior)
 
-[What will be the output of the following code? (Senior)](#what-will-be-the-output-of-the-following-code-senior)
+[What will be the output of the following code?](#what-will-be-the-output-of-the-following-code-senior)
 
-[What is the drawback of creating true private in JavaScript? (Senior)](#what-is-the-drawback-of-creating-true-private-in-javascript-senior)
+[What is the drawback of creating true private in JavaScript?](#what-is-the-drawback-of-creating-true-private-in-javascript-senior)
 
-[What is the difference between anonymous and named functions?  (Senior)](#what-is-the-difference-between-anonymous-and-named-functions--senior)
+[What is the difference between anonymous and named functions? ](#what-is-the-difference-between-anonymous-and-named-functions--senior)
 
-[Given an array of integers, find the largest product yielded from three of the integers (Senior)](#given-an-array-of-integers-find-the-largest-product-yielded-from-three-of-the-integers-senior)
+[Given an array of integers, find the largest product yielded from three of the integers](#given-an-array-of-integers-find-the-largest-product-yielded-from-three-of-the-integers-senior)
 
-[Describe closure concept in JavaScript as best as you could (Senior)](#describe-closure-concept-in-javascript-as-best-as-you-could-senior)
+[Describe closure concept in JavaScript as best as you could](#describe-closure-concept-in-javascript-as-best-as-you-could-senior)
 
-[Write a recursive function that returns the binary string of a given decimal number (Senior)](#write-a-recursive-function-that-returns-the-binary-string-of-a-given-decimal-number-senior)
+[Write a recursive function that returns the binary string of a given decimal number](#write-a-recursive-function-that-returns-the-binary-string-of-a-given-decimal-number-senior)
 
 [What is “closure” in javascript? Provide an example? (Expert)](#what-is-closure-in-javascript-provide-an-example-expert)
 
@@ -156,7 +156,7 @@ b;				// 42 -- the number!
 
 
 [[↑] Back to top](#JavaScript)
-### What is typeof operator? (Junior)
+### What is typeof operator?
 
 JavaScript provides a `typeof` operator that can examine a value and tell you what type it is:
 ```js
@@ -186,7 +186,7 @@ typeof a;				// "object"
 
 
 [[↑] Back to top](#JavaScript)
-### What is the object type? (Junior)
+### What is the object type?
 
 The object type refers to a compound value where you can set properties (named locations) that each hold their own values of any type. 
 
@@ -221,7 +221,7 @@ obj["b"];		// 42
 
 
 [[↑] Back to top](#JavaScript)
-### Explain arrays in JavaScript (Junior)
+### Explain arrays in JavaScript
 
 An `array` is an object that holds values (of any type) not particularly in named properties/keys, but rather in numerically indexed positions:
 
@@ -244,7 +244,7 @@ typeof arr;		// "object"
 
 
 [[↑] Back to top](#JavaScript)
-### Explain equality in JavaScript (Junior)
+### Explain equality in JavaScript
 
 JavaScript has both strict and type–converting comparisons: 
 * **Strict comparison (e.g., ===)** checks for value equality without allowing *coercion*
@@ -265,7 +265,7 @@ Some simple equalityrules:
 
 
 [[↑] Back to top](#JavaScript)
-### What is Scope in JavaScript? (Junior)
+### What is Scope in JavaScript?
 
 In JavaScript, each function gets its own *scope*. Scope is basically a collection of variables as well as the rules for how those variables are accessed by name. Only code inside that function can access that function's scoped variables.
 
@@ -274,7 +274,7 @@ A variable name has to be unique within the same scope. A scope can be nested in
 
 
 [[↑] Back to top](#JavaScript)
-### What is let keyword in JavaScript? (Mid)
+### What is let keyword in JavaScript?
 
 In addition to creating declarations for variables at the function level, ES6 lets you declare variables to belong to individual blocks (pairs of { .. }), using the `let` keyword. 
 
@@ -283,7 +283,7 @@ In addition to creating declarations for variables at the function level, ES6 le
 * https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch2.md
 
 [[↑] Back to top](#JavaScript)
-### Explain what a callback function is and provide a simple example. (Mid)
+### Explain what a callback function is and provide a simple example.
 
 A `callback` function is a function that is passed to another function as an argument and is executed after some operation has been completed. Below is an example of a simple callback function that logs to the console *after* some operations have been completed.
 
@@ -307,7 +307,7 @@ modifyArray(arr, function() {
 * https://coderbyte.com/algorithm/10-common-javascript-interview-questions
 
 [[↑] Back to top](#JavaScript)
-### What is strict mode? (Mid)
+### What is strict mode?
 
 *Strict Mode* is a new feature in ECMAScript 5 that allows you to place a program, or a function, in a "strict" operating context. This strict context prevents certain actions from being taken and throws more exceptions.
 
@@ -326,7 +326,7 @@ modifyArray(arr, function() {
 
 
 [[↑] Back to top](#JavaScript)
-### What does "use strict" do? (Mid)
+### What does "use strict" do?
 
 The `use strict` literal is entered at the top of a JavaScript program or at the top of a function and it helps you write safer JavaScript code by throwing an error if a global variable is created by mistake. For example, the following program will throw an error:
 
@@ -351,7 +351,7 @@ function doSomething(val) {
 * https://coderbyte.com/algorithm/10-common-javascript-interview-questions
 
 [[↑] Back to top](#JavaScript)
-### What is a Polyfill? (Mid)
+### What is a Polyfill?
 
 A polyfill is essentially the specific code (or plugin) that would allow you to have some specific functionality that you expect in current or “modern” browsers to also work in other browsers that do not have the support for that functionality built in.
 * Polyfills are not part of the HTML5 standard
@@ -362,7 +362,7 @@ A polyfill is essentially the specific code (or plugin) that would allow you to 
 * http://www.programmerinterview.com/index.php/html5/html5-polyfill/
 
 [[↑] Back to top](#JavaScript)
-### How would you check if a number is an integer? (Mid)
+### How would you check if a number is an integer?
 
 A very simply way to check if a number is a decimal or integer is to see if there is a remainder left when you divide by 1.
 
@@ -381,7 +381,7 @@ console.log(isInt(0.3)); // false
 * https://coderbyte.com/algorithm/10-common-javascript-interview-questions
 
 [[↑] Back to top](#JavaScript)
-### Explain Values and Types in JavaScript (Mid)
+### Explain Values and Types in JavaScript
 
 JavaScript has typed values, not typed variables. The following built-in types are available:
 * `string`
@@ -394,7 +394,7 @@ JavaScript has typed values, not typed variables. The following built-in types a
 
 
 [[↑] Back to top](#JavaScript)
-### Being told that an unsorted array contains (n - 1) of n consecutive numbers (where the bounds are defined), find the missing number in O(n) time (Mid)
+### Being told that an unsorted array contains (n - 1) of n consecutive numbers (where the bounds are defined), find the missing number in O(n) time
 
 ```js
 // The output of the function should be 8
@@ -429,7 +429,7 @@ function findMissingNumber(arrayOfIntegers, upperBound, lowerBound) {
 * https://github.com/kennymkchan/interview-questions-in-javascript
 
 [[↑] Back to top](#JavaScript)
-### Remove duplicates of an array and return an array of only unique elements (Mid)
+### Remove duplicates of an array and return an array of only unique elements
 
 ```js
 // ES6 Implementation
@@ -463,7 +463,7 @@ function uniqueArray(array) {
 * https://github.com/kennymkchan/interview-questions-in-javascript
 
 [[↑] Back to top](#JavaScript)
-### Given a string, reverse each word in the sentence (Mid)
+### Given a string, reverse each word in the sentence
 
 ```js
 var string = "Welcome to this Javascript Guide!";
@@ -484,7 +484,7 @@ function reverseBySeparator(string, separator) {
 * https://github.com/kennymkchan/interview-questions-in-javascript
 
 [[↑] Back to top](#JavaScript)
-### Write a function that would allow you to do this. (Mid)
+### Write a function that would allow you to do this.
 
 You can create a closure to keep the value passed to the function `createBase` even after the inner function is returned. The inner function that is being returned is created within an outer function, making it a closure, and it has access to the variables within the outer function, in this case the variable `baseNumber`.
 
@@ -507,7 +507,7 @@ addSix(21);
 * https://coderbyte.com/algorithm/3-common-javascript-closure-questions
 
 [[↑] Back to top](#JavaScript)
-### Implement enqueue and dequeue using only two stacks (Mid)
+### Implement enqueue and dequeue using only two stacks
 
 *Enqueue* means to add an element, *dequeue* to remove an element.
 
@@ -540,7 +540,7 @@ function dequeue(stackInput, stackOutput) {
 * https://github.com/kennymkchan/interview-questions-in-javascript
 
 [[↑] Back to top](#JavaScript)
-### How would you use a closure to create a private counter? (Mid)
+### How would you use a closure to create a private counter?
 
 You can create a function within an outer function (a closure) that allows you to update a private variable but the variable wouldn't be accessible from outside the function without the use of a helper function.
 
@@ -572,7 +572,7 @@ c.retrieve(); // => The counter is currently at: 14
 * https://coderbyte.com/algorithm/3-common-javascript-closure-questions
 
 [[↑] Back to top](#JavaScript)
-### Explain Null and Undefined in JavaScript (Mid)
+### Explain Null and Undefined in JavaScript
 
 JavaScript (and by extension TypeScript) has two bottom types: `null` and `undefined`. They are *intended* to mean different things:
 * Something hasn't been initialized : `undefined`.
@@ -581,7 +581,7 @@ JavaScript (and by extension TypeScript) has two bottom types: `null` and `undef
 
 
 [[↑] Back to top](#JavaScript)
-### Explain event bubbling and how one may prevent it (Mid)
+### Explain event bubbling and how one may prevent it
 
 **Event bubbling** is the concept in which an event triggers at the deepest possible element, and triggers on parent elements in nesting order. As a result, when clicking on a child element one may exhibit the handler of the parent activating.
 
@@ -592,7 +592,7 @@ One way to prevent event bubbling is using `event.stopPropagation()` or `event.c
 * https://github.com/kennymkchan/interview-questions-in-javascript
 
 [[↑] Back to top](#JavaScript)
-### How to check if an object is an array or not? Provide some code. (Mid)
+### How to check if an object is an array or not? Provide some code.
 
 > The best way to find whether an object is instance of a particular class or not using `toString` method from `Object.prototype`
 
@@ -659,7 +659,7 @@ Array.isArray(arrayList);
 * https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Question/blob/master/README.md
 
 [[↑] Back to top](#JavaScript)
-### Write a "mul" function which will properly when invoked as below syntax. (Mid)
+### Write a "mul" function which will properly when invoked as below syntax.
 
 ```javascript
 function mul (x) {
@@ -685,7 +685,7 @@ In JavaScript function defined inside has access to outer function variable and 
 * https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Question/blob/master/README.md
 
 [[↑] Back to top](#JavaScript)
-### How to empty an array in JavaScript? (Mid)
+### How to empty an array in JavaScript?
 
 **Method 1**
 
@@ -751,7 +751,7 @@ Above implementation can also empty the array. But not recommended to use often.
 * https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Question/blob/master/README.md
 
 [[↑] Back to top](#JavaScript)
-### How to compare two objects in JavaScript? (Senior)
+### How to compare two objects in JavaScript?
 
 Two non-primitive values, like objects (including function and array) held by reference, so both `==` and `===` comparisons will simply check whether the references match, not anything about the underlying values.
 
@@ -772,7 +772,7 @@ For *deep object comparison* use external libs like `deep-equal` or implement yo
 
 
 [[↑] Back to top](#JavaScript)
-### Given an array of integers, find the largest difference between two elements such that the element of lesser value must come before the greater element (Senior)
+### Given an array of integers, find the largest difference between two elements such that the element of lesser value must come before the greater element
 
 ```js
 var array = [7, 8, 4, 9, 9, 15, 3, 1, 10];
@@ -814,7 +814,7 @@ function findLargestDifference(array) {
 * https://github.com/kennymkchan/interview-questions-in-javascript
 
 [[↑] Back to top](#JavaScript)
-### Find the intersection of two arrays. An intersection would be the common elements that exists within both arrays. In this case, these elements should be unique! (Senior)
+### Find the intersection of two arrays. An intersection would be the common elements that exists within both arrays. In this case, these elements should be unique!
 
 ```js
 var firstArray = [2, 2, 4, 1];
@@ -853,7 +853,7 @@ function intersection(firstArray, secondArray) {
 * https://github.com/kennymkchan/interview-questions-in-javascript
 
 [[↑] Back to top](#JavaScript)
-### Write a function that would allow you to do this (Senior)
+### Write a function that would allow you to do this
 
 You can create a *closure* to keep the value of a even after the inner function is returned. The inner function that is being returned is created within an outer function, making it a closure, and it has access to the variables within the outer function, in this case the variable `a`.
 
@@ -874,7 +874,7 @@ multiply(5)(6);
 * https://coderbyte.com/algorithm/10-common-javascript-interview-questions
 
 [[↑] Back to top](#JavaScript)
-### Given two strings, return true if they are anagrams of one another (Senior)
+### Given two strings, return true if they are anagrams of one another
 
 ```js
 var firstWord = "Mary";
@@ -900,7 +900,7 @@ function isAnagram(first, second) {
 * https://github.com/kennymkchan/interview-questions-in-javascript
 
 [[↑] Back to top](#JavaScript)
-### Check if a given string is a palindrome. Case sensitivity should be taken into account. (Senior)
+### Check if a given string is a palindrome. Case sensitivity should be taken into account.
 
 A **palindrome** is a word, phrase, number, or other sequence of characters which reads the same backward or forward. 
 
@@ -929,7 +929,7 @@ function isPalindrome(s,i) {
 * https://github.com/kennymkchan/interview-questions-in-javascript
 
 [[↑] Back to top](#JavaScript)
-### What is the difference between a shim and a polyfill? (Senior)
+### What is the difference between a shim and a polyfill?
 
 * A **shim** is any piece of code that performs interception of an API call and provides a layer of abstraction. It isn't necessarily restricted to a web application or HTML5/CSS3.
 
@@ -942,7 +942,7 @@ A shim is a library that brings a new API to an older environment, using only th
 * https://stackoverflow.com/questions/6599815/what-is-the-difference-between-a-shim-and-a-polyfill
 
 [[↑] Back to top](#JavaScript)
-### What will the following code output? (Senior)
+### What will the following code output?
 
 The code above will output 5 even though it seems as if the variable was declared within a function and can't be accessed outside of it. This is because
 
@@ -964,7 +964,7 @@ But `b` is not declared anywhere in the function with `var` so it is set equal t
 * https://coderbyte.com/algorithm/10-common-javascript-interview-questions
 
 [[↑] Back to top](#JavaScript)
-### Could you explain the difference between ES5 and ES6 (Senior)
+### Could you explain the difference between ES5 and ES6
 
 * **ECMAScript 5 (ES5)**: The 5th edition of ECMAScript, standardized in 2009. This standard has been implemented fairly completely in all modern browsers
 
@@ -1049,7 +1049,7 @@ import myModule from './myModule';
 
 
 [[↑] Back to top](#JavaScript)
-### What is IIFEs (Immediately Invoked Function Expressions)? (Senior)
+### What is IIFEs (Immediately Invoked Function Expressions)?
 
 It’s an Immediately-Invoked Function Expression, or IIFE for short. It executes immediately after it’s created:
 ```js
@@ -1066,7 +1066,7 @@ This pattern is often used when trying to avoid polluting the global namespace, 
 * https://stackoverflow.com/questions/8228281/what-is-the-function-construct-in-javascript
 
 [[↑] Back to top](#JavaScript)
-### What will be the output of the following code? (Senior)
+### What will be the output of the following code?
 
 Above code will output `undefined` as output. `delete` operator is used to delete a property from an object. Here `x` is an object which has foo as a property and from self-invoking function we are deleting foo property of object `x` and after deletion we are trying to reference deleted property `foo` which result `undefined`.
 
@@ -1075,7 +1075,7 @@ Above code will output `undefined` as output. `delete` operator is used to delet
 * https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Question/blob/master/README.md
 
 [[↑] Back to top](#JavaScript)
-### What will be the output of the following code? (Senior)
+### What will be the output of the following code?
 
 Above code will output `1` as output. `delete` operator is used to delete property from object. Here `x` is not an object it's **global variable** of type `number`.
 
@@ -1085,7 +1085,7 @@ Above code will output `1` as output. `delete` operator is used to delete proper
 * https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Question/blob/master/README.md
 
 [[↑] Back to top](#JavaScript)
-### Provide some examples of non-bulean value coercion to a boolean one (Senior)
+### Provide some examples of non-bulean value coercion to a boolean one
 
 The question is when a non-boolean value is coerced to a boolean, does it become `true` or `false`, respectively?
 
@@ -1109,7 +1109,7 @@ Any value that's not on this "falsy" list is "truthy." Here are some examples of
 
 
 [[↑] Back to top](#JavaScript)
-### Explain the difference between "undefined" and "not defined" in JavaScript (Senior)
+### Explain the difference between "undefined" and "not defined" in JavaScript
 
 In JavaScript if you try to use a variable that doesn't exist and has not been declared, then JavaScript will throw an error `var name is not defined` and the script will stop execute thereafter. But If you use `typeof undeclared_variable` then it will return `undefined`.
 
@@ -1142,7 +1142,7 @@ console.log(y);  // Output: ReferenceError: y is not defined
 * http://stackoverflow.com/questions/20822022/javascript-variable-definition-declaration
 
 [[↑] Back to top](#JavaScript)
-### What will be the output of the following code? (Senior)
+### What will be the output of the following code?
 
 Above code would give output `1undefined`. If condition statement evaluate using `eval` so `eval(function f() {})` which return `function f() {}` which is true so inside if statement code execute. `typeof f` return undefined because if statement code execute at run time, so statement inside `if` condition evaluated at run time.  
 
@@ -1171,7 +1171,7 @@ console.log(k); // output 1function
 * https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Question/blob/master/README.md
 
 [[↑] Back to top](#JavaScript)
-### What is the drawback of creating true private in JavaScript? (Senior)
+### What is the drawback of creating true private in JavaScript?
 
 One of the drawback of creating a true private method in JavaScript is that they are very memory inefficient because a new copy of the method would be created for each instance.
 
@@ -1210,7 +1210,7 @@ So as recommendation don't go for a private method unless it's necessary.
 * https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Question/blob/master/README.md
 
 [[↑] Back to top](#JavaScript)
-### What is the difference between anonymous and named functions?  (Senior)
+### What is the difference between anonymous and named functions? 
 
 Consider:
 ```js
@@ -1229,7 +1229,7 @@ x();
 
 
 [[↑] Back to top](#JavaScript)
-### Given an array of integers, find the largest product yielded from three of the integers (Senior)
+### Given an array of integers, find the largest product yielded from three of the integers
 
  ```javascript
 var unsortedArray = [-10, 7, 29, 30, 5, -10, -70];
@@ -1265,7 +1265,7 @@ function computeProduct(unsorted) {
 * https://github.com/kennymkchan/interview-questions-in-javascript
 
 [[↑] Back to top](#JavaScript)
-### Describe closure concept in JavaScript as best as you could (Senior)
+### Describe closure concept in JavaScript as best as you could
 
 Consider:
 ```js
@@ -1301,7 +1301,7 @@ A closure is a stack frame which is allocated when a function starts its executi
 
 
 [[↑] Back to top](#JavaScript)
-### Write a recursive function that returns the binary string of a given decimal number (Senior)
+### Write a recursive function that returns the binary string of a given decimal number
 
 Given 4 as the decimal input, the function should return 100.
 
