@@ -417,7 +417,7 @@ The [Iterator](http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html)
 [[↑] Back to top](#Java)
 ### What is the purpose Class.forName method?
 
-This method is used to method is used to load the driver that will establish a connection to the database.
+This method is used to load the driver that will establish a connection to the database.
 
 ###### Source
 
