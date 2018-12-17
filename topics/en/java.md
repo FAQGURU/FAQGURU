@@ -989,7 +989,7 @@ An Applet is a client side java program that runs within a Web browser on the cl
 [[↑] Back to top](#Java)
 ### What are Scriptlets?
 
-In Java Server Pages (JSP) technology, a scriptlet is a piece of Java-code embedded in a JSP page. The scriptlet is everything inside the tags. Between these tags, a user can add any valid scriplet.
+In Java Server Pages (JSP) technology, a scriptlet is a piece of Java-code embedded in a JSP page. The scriptlet is everything inside the tags. Between these tags, a user can add any valid scriptlet.
 
 ###### Source
 
