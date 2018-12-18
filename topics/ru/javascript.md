@@ -2,11 +2,11 @@
 
 [Что такое принуждение в JavaScript?](#что-такое-принуждение-в-javascript)
 
-[Что такое оператор typeof?](#what-is-typeof-operator)
+[Что такое оператор typeof?](#что-такое-оператор-typeof)
 
-[Что такое тип объекта?](#what-is-the-object-type)
+[Что такое тип объекта?](#что-такое-тип-объекта)
 
-[Что такое массивы в JavaScript](#explain-arrays-in-javascript)
+[Что такое массивы в JavaScript](#что-такое-массивы-в-javascript)
 
 [Explain equality in JavaScript](#explain-equality-in-javascript)
 
