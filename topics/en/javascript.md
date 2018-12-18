@@ -72,7 +72,7 @@
 
 [What will be the output of the following code? (Senior)](#what-will-be-the-output-of-the-following-code-senior)
 
-[Provide some examples of non-boolean value coercion to a boolean one (Senior)](#provide-some-examples-of-non-boolean-value-coercion-to-a-boolean-one-senior)
+[Provide some examples of non-boolean value coercion to a boolean one](#provide-some-examples-of-non-boolean-value-coercion-to-a-boolean-one)
 
 [Explain the difference between "undefined" and "not defined" in JavaScript (Senior)](#explain-the-difference-between-undefined-and-not-defined-in-javascript-senior)
 
@@ -1085,7 +1085,7 @@ Above code will output `1` as output. `delete` operator is used to delete proper
 * https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Question/blob/master/README.md
 
 [[↑] Back to top](#JavaScript)
-### Provide some examples of non-boolean value coercion to a boolean one (Senior)
+### Provide some examples of non-boolean value coercion to a boolean one
 
 The question is when a non-boolean value is coerced to a boolean, does it become `true` or `false`, respectively?
 
