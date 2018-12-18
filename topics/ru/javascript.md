@@ -1,6 +1,6 @@
 ## JavaScript
 
-[Что такое принуждение в JavaScript?](#Что-такое-принуждение-в-JavaScript)
+[Что такое принуждение в JavaScript?](#что-такое-принуждение-в-javascript)
 
 [Что такое оператор typeof?](#what-is-typeof-operator)
 
