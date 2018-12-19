@@ -43,6 +43,7 @@ Note: Keep in mind that many of these questions are open-ended and could lead to
 1. [Git](/topics/en/git.md)
 1. [Code Problems](/topics/en/code-problems.md)
 1. [Data Structures](/topics/en/data-structures.md)
+1. [Design Patterns](/topics/en/design-patterns.md)
 
 ### Translations
 See [TRANSLATIONS.md](TRANSLATIONS.md)
