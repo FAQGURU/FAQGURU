@@ -13,6 +13,7 @@ In order to create a new translation, you need to follow these steps:
 * Add yourself to the watch list of the main repo, to keep up with changes.
 * When translating topics, **create NEW directory with suffix of your language in folder topics**.
   * For example, Spanish tranlation for `topics/en/sql.md` will be on `topics/es/sql.md`.
+* Create `topics/*YOUR_LANG*/readme.md` like [original README](readme.md)
 * Open a [new issue](https://github.com/FAQGURU/FAQGURU/issues/new) and ask to be part of the organization.
 * Transfer the repo to the organization.
 * Merge new content from the main repo.
