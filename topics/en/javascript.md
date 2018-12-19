@@ -72,7 +72,7 @@
 
 [What will be the output of the following code?](#what-will-be-the-output-of-the-following-code)
 
-[Provide some examples of non-bulean value coercion to a boolean one](#provide-some-examples-of-non-bulean-value-coercion-to-a-boolean-one)
+[Provide some examples of non-boolean value coercion to a boolean one](#provide-some-examples-of-non-boolean-value-coercion-to-a-boolean-one)
 
 [Explain the difference between "undefined" and "not defined" in JavaScript](#explain-the-difference-between-undefined-and-not-defined-in-javascript)
 
@@ -942,7 +942,16 @@ A shim is a library that brings a new API to an older environment, using only th
 * https://stackoverflow.com/questions/6599815/what-is-the-difference-between-a-shim-and-a-polyfill
 
 [[↑] Back to top](#JavaScript)
+
 ### What will the following code output?
+
+```js
+(function() {
+  var a = b = 5;
+})();
+
+console.log(b);
+```
 
 The code above will output 5 even though it seems as if the variable was declared within a function and can't be accessed outside of it. This is because
 
@@ -1085,7 +1094,7 @@ Above code will output `1` as output. `delete` operator is used to delete proper
 * https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Question/blob/master/README.md
 
 [[↑] Back to top](#JavaScript)
-### Provide some examples of non-bulean value coercion to a boolean one
+### Provide some examples of non-boolean value coercion to a boolean one
 
 The question is when a non-boolean value is coerced to a boolean, does it become `true` or `false`, respectively?
 
@@ -1579,7 +1588,17 @@ function isBalanced(expression) {
 * https://github.com/kennymkchan/interview-questions-in-javascript
 
 [[↑] Back to top](#JavaScript)
+
 ### What will be the output of the following code?
+
+```js
+var output = (function(x) {
+  delete x;
+  return x;
+})(0);
+
+console.log(output);
+```
 
 Above code will output `0` as output. `delete` operator is used to delete a property from an object. Here `x` is not an object it's **local variable**. `delete` operator doesn't affect local variable.
 
@@ -1588,6 +1607,7 @@ Above code will output `0` as output. `delete` operator is used to delete a prop
 * https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Question/blob/master/README.md
 
 [[↑] Back to top](#JavaScript)
+
 ### Explain prototype inheritance in JavaScript?
 
 In a language implementing classical inheritance like Java, C# or C++ you start by creating a class--a blueprint for your objects - and then you can create new objects from that class or you can extend the class, defining a new class that augments the original class.
@@ -1743,24 +1763,26 @@ Wherever a `var` (or function declaration) appears inside a scope, that declarat
 
 ```js
 var a = 2;
-foo();				   // works because `foo()`
-						 // declaration is "hoisted"
+foo();	// works because `foo()`
+        // declaration is "hoisted"
 
 function foo() {
 	a = 3;
-	console.log( a );	// 3
-	var a;			   // declaration is "hoisted"
-					     // to the top of `foo()`
+	console.log( a );   // 3
+	var a;              // declaration is "hoisted"
+                            // to the top of `foo()`
 }
 
-console.log( a );	// 2
+console.log( a ); // 2
 ```
 
-
-
-
 [[↑] Back to top](#JavaScript)
+
 ### What will the following code output?
+
+```js
+0.1 + 0.2 === 0.3
+```
 
 This will surprisingly output `false` because of floating point errors in internally representing certain numbers. `0.1 + 0.2` does not nicely come out to `0.3` but instead the result is actually `0.30000000000000004` because the computer cannot internally represent the correct number. One solution to get around this problem is to round the results when doing arithmetic with decimal numbers.
 
