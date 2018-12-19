@@ -56,7 +56,7 @@
 
 [What is Event Loop?](#what-is-event-loop)
 
-[What is stream and what are types of streams available in Node.js?](#what-is-stream-and-what-are-types-of-streams-available-in-nodejs)
+[What is stream and what types of streams are available in Node.js?](#what-is-stream-and-what-types-of-streams-are-available-in-nodejs)
 
 [What is Event Emmitter?](#what-is-event-emmitter)
 
@@ -475,7 +475,7 @@ Node.js is a single threaded application but it support concurrency via concept 
 * http://www.tutorialspoint.com/nodejs/nodejs_interview_questions.htm
 
 [[↑] Back to top](#Nodejs)
-### What is stream and what are types of streams available in Node.js?
+### What is stream and what types of streams are available in Node.js?
 
 **Streams** are a collection of data that might not be available all at once and don’t have to fit in memory. Streams provide chunks of data in a continuous manner. It is useful to read a large set of data and process it.
 
