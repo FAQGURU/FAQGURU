@@ -76,7 +76,7 @@ Data structure availability may vary by programming languages. Commonly availabl
 
 * https://www.tutorialspoint.com/data_structures_algorithms/data_structures_algorithms_interview_questions.htm
 
-[[↑] Back to top](#Data%20Structures)
+[[↑] Back to top](#Data-Structures)
 ### What is a graph?
 
 A **graph** is a pictorial representation of a set of objects where some pairs of objects are connected by links. The interconnected objects are represented by points termed as vertices, and the links that connect the vertices are called edges.
