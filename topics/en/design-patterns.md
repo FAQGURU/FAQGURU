@@ -104,7 +104,7 @@ The Design patterns can be classified into three main categories:
 
 * https://www.educba.com/design-pattern-interview-questions/
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### What is a pattern?
 
 *Patterns* in programming are like recipes in cooking. They are not ready dishes, but instructions for slicing and dicing products, cooking them, serving them and so forth.
@@ -123,7 +123,7 @@ relations with other patterns.
 
 * https://refactoring.guru/design-patterns/what-is-pattern
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### What is Singleton pattern?
 
 **Singleton pattern** comes under *creational* patterns category and introduces a single class which is responsible to create an object while making sure that only single object gets created. This class provides a way to access its only object which can be accessed directly without need to instantiate the object of the class.
@@ -137,7 +137,7 @@ relations with other patterns.
 
 * https://refactoring.guru/design-patterns/what-is-pattern
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### What is Design Patterns and why anyone should use them?
 
 Design patterns are a well-described solution to the most commonly encountered problems which occur during software development. 
@@ -148,7 +148,7 @@ Design pattern represents the best practices evolved over a period of time by ex
 
 * https://www.educba.com/design-pattern-interview-questions/
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### What is Factory pattern?
 
 **Factory pattern** is one of most used design pattern and comes under *creational* patterns category.
@@ -175,7 +175,7 @@ In Factory pattern, we create object without exposing the creation logic to the 
 
 * https://www.tutorialspoint.com/design_pattern/design_pattern_interview_questions.htm
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### What is Iterator pattern?
 
 **Iterator pattern** is very commonly used design pattern in Java and .Net programming environment. This pattern is used to get a way to access the elements of a collection object in sequential manner without any need to know its underlying representation. Iterator pattern falls under _behavioral_ pattern category.
@@ -188,7 +188,7 @@ In Factory pattern, we create object without exposing the creation logic to the 
 
 * https://www.tutorialspoint.com/design_pattern/design_pattern_interview_questions.htm
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### What is Inversion of Control?
 
 
@@ -229,7 +229,7 @@ TextEditor textEditor = new TextEditor(sc);
 
 * https://stackoverflow.com/questions/3058/what-is-inversion-of-control?page=1&tab=votes#tab-top
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### Can we create a clone of a singleton object?
 
 Yesl, we can but the purpose of Singleton Object creation is to have single instance serving all requests. 
@@ -238,7 +238,7 @@ Yesl, we can but the purpose of Singleton Object creation is to have single inst
 
 * https://www.tutorialspoint.com/design_pattern/design_pattern_interview_questions.htm
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### Name types of Design Patterns?
 
 Design patterns can be classified in three categories: Creational, Structural and Behavioral patterns.
@@ -253,7 +253,7 @@ Design patterns can be classified in three categories: Creational, Structural an
 
 * https://www.tutorialspoint.com/design_pattern/design_pattern_interview_questions.htm
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### What is Template pattern?
 
 In **Template pattern**, an abstract class exposes defined way(s)/template(s) to execute its methods. Its subclasses can override the method implementation as per need but the invocation is to be in the same way as defined by an abstract class. This pattern comes under _behavior_ pattern category.
@@ -266,7 +266,7 @@ In **Template pattern**, an abstract class exposes defined way(s)/template(s) to
 
 * https://www.tutorialspoint.com/design_pattern/design_pattern_interview_questions.htm
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### What is Filter pattern?
 
 **Filter pattern** or **Criteria pattern** is a design pattern that enables developers to filter a set of objects using different criteria and chaining them in a decoupled way through logical operations. This type of design pattern comes under *structural* pattern as this pattern combines multiple criteria to obtain single criteria.
@@ -286,7 +286,7 @@ List<Laptop> filteredLaptops = searchCriteria.meets(laptops);
 
 * https://www.tutorialspoint.com/design_pattern/design_pattern_interview_questions.htm
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### What is Strategy pattern?
 
 In **Strategy pattern**, a class behavior or its algorithm can be changed at run time. This type of design pattern comes under _behavior_ pattern.
@@ -303,7 +303,7 @@ In Strategy pattern, we create objects which represent various strategies and a 
 
 * https://www.tutorialspoint.com/design_pattern/design_pattern_interview_questions.htm
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### What is Dependency Injection?
 
 *Dependency injection* makes it easy to create loosely coupled components, which typically means that components consume functionality defined by interfaces without having any first-hand knowledge of which implementation classes are being used.
@@ -314,7 +314,7 @@ In Strategy pattern, we create objects which represent various strategies and a 
 
 * https://github.com/TechBookHunter/Free-CSharp-Books/blob/master/book/Pro%20ASP.NET%20Core%20MVC%202%20-%20Seventh%20Edition.pdf
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### What is Null Object pattern?
 
 In **Null Object pattern**, a null object replaces check of NULL object instance. Instead of putting if check for a null value, Null Object reflects a do nothing relationship. Such Null object can also be used to provide default behaviour in case data is not available.
@@ -330,7 +330,7 @@ In Null Object pattern, we create an abstract class specifying various operation
 
 * https://www.tutorialspoint.com/design_pattern/design_pattern_interview_questions.htm
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### What is State pattern?
 
 In **State pattern** a class behavior changes based on its state. This type of design pattern comes under _behavior_ pattern. In State pattern, we create objects which represent various states and a context object whose behavior varies as its state object changes.
@@ -343,7 +343,7 @@ In **State pattern** a class behavior changes based on its state. This type of d
 
 * https://www.tutorialspoint.com/design_pattern/design_pattern_interview_questions.htm
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### What is Proxy pattern?
 
 In **proxy pattern**, a class represents functionality of another class. This type of design pattern comes under _structural_ pattern.
@@ -358,7 +358,7 @@ In proxy pattern, we create object having original object to interface its funct
 
 * https://www.tutorialspoint.com/design_pattern/design_pattern_interview_questions.htm
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### What is Builder pattern?
 
 *Builder pattern* builds a complex object using simple objects and using a step by step approach. This builder is independent of other objects.
@@ -381,7 +381,7 @@ Pizza pizza = new Pizza.Builder()
 
 * https://www.tutorialspoint.com/design_pattern/design_pattern_interview_questions.htm
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### What are the difference between a static class and a singleton class?
 
 Following are the differences between a static class and a singleton class.
@@ -395,7 +395,7 @@ Following are the differences between a static class and a singleton class.
 
 * https://www.tutorialspoint.com/design_pattern/design_pattern_interview_questions.htm
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### When should I use composite design pattern?
 
 Use the **Composite Pattern** when
@@ -413,7 +413,7 @@ A common usage is a display system of graphic windows which can contain other wi
 
 * https://www.tutorialspoint.com/design_pattern/design_pattern_interview_questions.htm
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### What does “program to interfaces, not implementations” mean?
 
 *Coding against interface* means, the client code always holds an Interface object which is supplied by a *factory*. 
@@ -426,7 +426,7 @@ This approach can be used to change the behavior of a program at run-time. It al
 
 * https://www.tutorialspoint.com/design_pattern/design_pattern_interview_questions.htm
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### What is Abstract Factory pattern?
 
 **Abstract Factory patterns** work around a super-factory which creates other factories. This factory is also called as factory of factories. This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object.
@@ -448,7 +448,7 @@ In Abstract Factory pattern an interface is responsible for creating a factory o
 
 * https://www.tutorialspoint.com/design_pattern/design_pattern_interview_questions.htm
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### What is Decorator pattern?
 
 **Decorator pattern** allows a user to add new functionality to an existing object without altering its structure. This type of design pattern comes under *structural pattern* as this pattern acts as a wrapper to existing class.
@@ -463,7 +463,7 @@ This pattern creates a decorator class which wraps the original class and provid
 
 * https://www.tutorialspoint.com/design_pattern/design_pattern_interview_questions.htm
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### What is Prototype pattern?
 
 *Prototype pattern* refers to creating duplicate object while keeping performance in mind. This pattern involves implementing a prototype interface which tells to create a clone of the current object.
@@ -476,7 +476,7 @@ This pattern creates a decorator class which wraps the original class and provid
 
 * https://www.tutorialspoint.com/design_pattern/design_pattern_interview_questions.htm
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### What is Memento pattern?
 
 **Memento pattern** is used to restore state of an object to a previous state. Memento pattern falls under _behavioral_ pattern category.
@@ -495,7 +495,7 @@ Memento pattern uses three actor classes:
 
 * https://www.tutorialspoint.com/design_pattern/design_pattern_interview_questions.htm
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### Can you give any good explanation what is the difference between Proxy and Decorator?
 
 **Decorator Pattern** focuses on dynamically adding functions to an object, while **Proxy Pattern** focuses on controlling access to an object.
@@ -504,7 +504,7 @@ Memento pattern uses three actor classes:
 
 * https://stackoverflow.com/questions/18618779/differences-between-proxy-and-decorator-pattern/
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### What is Adapter Pattern?
 
 *Adapter pattern* works as a bridge between two incompatible interfaces. This pattern involves a single class which is responsible to join functionalities of independent or incompatible interfaces (adaptees).
@@ -517,7 +517,7 @@ A real life example could be a case of card reader which acts as an adapter betw
 
 * https://www.tutorialspoint.com/design_pattern/design_pattern_interview_questions.htm
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### What is Bridge pattern?
 
 **Bridge pattern** is used when we need to decouple an abstraction from its implementation so that the two can vary independently. This type of design pattern comes under *structural* pattern as this pattern decouples implementation class and abstract class by providing a bridge structure between them.
@@ -563,7 +563,7 @@ Aa(N) Ab(N)  1   2
 
 * https://www.tutorialspoint.com/design_pattern/design_pattern_interview_questions.htm
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### What is the Chain of Responsibility pattern?
 
 As the name suggests, the **chain of responsibility** pattern creates a chain of receiver objects for a request. This pattern decouples sender and receiver of a request based on type of request. This pattern comes under _behavioural_ patterns.
@@ -579,7 +579,7 @@ In this pattern, normally each receiver contains reference to another receiver. 
 
 * https://www.tutorialspoint.com/design_pattern/design_pattern_interview_questions.htm
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### What is Observer pattern?
 
 **Observer pattern**  (also known as *Publish-Subscribe Pattern*) is used when there is one-to-many relationship between objects such as if one object is modified, its dependent objects are to be notified automatically. Observer pattern falls under _behavioral_ pattern category.
@@ -600,7 +600,7 @@ Observer pattern uses two actor classes:
 
 * https://www.sitepoint.com/understanding-the-observer-pattern/
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### What is Command pattern?
 
 **Command** pattern is a data driven design pattern and falls under _behavioural_ pattern category. A request is wrapped under an object as _command_ and passed to _invoker_ object. _Invoker_ object looks for the appropriate object which can handle this command and passes the command to the corresponding _receiver_ which executes the command.
@@ -614,7 +614,7 @@ Observer pattern uses two actor classes:
 
 * https://www.tutorialspoint.com/design_pattern/design_pattern_interview_questions.htm
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### What is Interpreter pattern?
 
 **Interpreter** pattern provides a way to evaluate language grammar or expression. This type of pattern comes under _behavioral_ pattern. This pattern involves implementing an expression interface which tells to interpret a particular context.
@@ -631,7 +631,7 @@ Any mechanism for interpreting formal languages suites this pattern perfectly, i
 
 * https://www.tutorialspoint.com/design_pattern/design_pattern_interview_questions.htm
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### What is Facade pattern?
 
 **Facade pattern** hides the complexities of the system and provides an interface to the client using which the client can access the system. This type of design pattern comes under *structural pattern* as this pattern adds an interface to existing system to hide its complexities.
@@ -644,7 +644,7 @@ This pattern involves a single class which provides simplified methods required 
 
 * https://www.tutorialspoint.com/design_pattern/design_pattern_interview_questions.htm
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### What is Mediator pattern?
 
 **Mediator pattern** is used to reduce communication complexity between multiple objects or classes. This pattern provides a mediator class which normally handles all the communications between different classes and supports easy maintenance of the code by loose coupling. Mediator pattern falls under _behavioral_ pattern category.
@@ -657,7 +657,7 @@ This pattern involves a single class which provides simplified methods required 
 
 * https://www.tutorialspoint.com/design_pattern/design_pattern_interview_questions.htm
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### When would you use the Builder Pattern? Why not just use a Factory Pattern?
 
 The *builder pattern* is a good choice when designing classes whose constructors or static factories would have more than a handful of parameters.
@@ -670,7 +670,7 @@ The builder appears if you order a custom pizza. In this case, the waiter tells 
 
 * https://stackoverflow.com/questions/328496/when-would-you-use-the-builder-pattern
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### Why would I ever use a Chain of Responsibility over a Decorator?
 
 The key difference is that a **Decorator** adds new behaviour that in effect widens the original interface. It is similar to how normal extension can add methods except the "subclass" is only coupled by a reference which means that any "superclass" can be used.
@@ -681,7 +681,7 @@ The **Chain of Responsibility** pattern can modify an existing behaviour which i
 
 * https://stackoverflow.com/questions/747913/why-would-i-ever-use-a-chain-of-responsibility-over-a-decorator
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### What is Flyweight pattern?
 
 **Flyweight pattern** is primarily used to reduce the number of objects created and to decrease memory footprint and increase performance. This type of design pattern comes under *structural pattern* as this pattern provides ways to decrease object count thus improving the object structure of application.
@@ -696,7 +696,7 @@ Flyweight pattern tries to reuse already existing similar kind objects by storin
 
 * https://www.tutorialspoint.com/design_pattern/design_pattern_interview_questions.htm
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### Explain usage of Service Locator Pattern
 
 The **service locator** pattern is a design pattern used in software development to encapsulate the processes involved in obtaining a service with a strong abstraction layer. This pattern uses a central registry known as the “service locator” which on request returns the information necessary to perform a certain task. The ServiceLocator is responsible for returning instances of services when they are requested for by the service consumers or the service clients.
@@ -716,7 +716,7 @@ https://contribute.geeksforgeeks.org/wp-content/uploads/dPattern.jpg" class="img
 
 * https://www.geeksforgeeks.org/service-locator-pattern/
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### What is the difference between Strategy design pattern and State design pattern?
 
 The difference simply lies in that they solve different problems:
@@ -730,7 +730,7 @@ The constructs for achieving these different goals are however very similar; bot
 
 * https://stackoverflow.com/questions/1658192/what-is-the-difference-between-strategy-design-pattern-and-state-design-pattern
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### How is Bridge pattern is different from Adapter pattern?
 
 The intent of the *Adapter pattern* is to make one or more classes' interfaces look the same as that of a particular class. 
@@ -741,7 +741,7 @@ The *Bridge pattern* is designed to separate a class's interface from its implem
 
 * https://www.tutorialspoint.com/design_pattern/design_pattern_interview_questions.htm
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### Explain what is Composition over inheritance?
 
 **Composition over inheritance** (or composite reuse principle) in object-oriented programming (OOP) is the principle that classes should achieve *polymorphic behavior* and code reuse by their composition (by containing instances of other classes that implement the desired functionality) rather than inheritance from a base or parent class. It is more natural to build business-domain classes out of various components than trying to find commonality between them and creating a family tree. 
@@ -754,7 +754,7 @@ Some languages, notably *Go*, use type composition exclusively.
 
 * https://en.wikipedia.org/wiki/Composition_over_inheritance
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### Could you explain the difference between Façade vs. Mediator?
 
 * The **facade** only exposes the existing functionality from a different perspective.
@@ -764,7 +764,7 @@ Some languages, notably *Go*, use type composition exclusively.
 
 * https://stackoverflow.com/questions/481984/fa%C3%A7ade-vs-mediator
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### Explain difference between the Facade, Proxy, Adapter and Decorator design patterns?
 
 * **Adapter** adapts a given class/object to a new interface. In the case of the former, multiple inheritance is typically employed. In the latter case, the object is wrapped by a conforming adapter object and passed around. The problem we are solving here is that of non-compatible interfaces.
@@ -776,7 +776,7 @@ Some languages, notably *Go*, use type composition exclusively.
 
 * https://stackoverflow.com/questions/3489131/difference-between-the-facade-proxy-adapter-and-decorator-design-patterns
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### What is the difference between the template patterns and the strategy pattern?
 
 The main difference between the two is when the concrete algorithm is chosen.
@@ -793,7 +793,7 @@ The main difference between the two is when the concrete algorithm is chosen.
 
 * https://stackoverflow.com/questions/669271/what-is-the-difference-between-the-template-method-and-the-strategy-patterns
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### What's the difference between the Dependency Injection and Service Locator patterns?
 
 * With the **ServiceLocator**, the class is still responsible for creating its dependencies. It just uses the service locator to do it. 
@@ -806,7 +806,7 @@ One important result of this is that the DI example is much easier to unit test 
 
 * https://stackoverflow.com/questions/1557781/whats-the-difference-between-the-dependency-injection-and-service-locator-patte
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
 ### Could you explain what is the "deadly diamond of death"?
 
 The **diamond problem** (sometimes referred to as the "deadly diamond of death") is an ambiguity that arises when two classes `B` and `C` inherit from `A`, and class `D` inherits from both `B` and `C`. If there is a method in `A` that `B` and `C` have overridden, and `D` does not override it, then which version of the method does `D` inherit: that of `B`, or that of `C`?
@@ -823,4 +823,4 @@ If a structure `D` embeds two structures `B` and `C` which both have a method `F
 
 * https://en.wikipedia.org/wiki/Composition_over_inheritance
 
-[[↑] Back to top](#Design%20Patterns)
+[[↑] Back to top](#Design-Patterns)
