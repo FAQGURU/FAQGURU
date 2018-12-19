@@ -45,7 +45,7 @@ Note: Keep in mind that many of these questions are open-ended and could lead to
 1. [Data Structures](/topics/en/data-structures.md)
 1. [Design Patterns](/topics/en/design-patterns.md)
 1. PHP
-1. Adnroid
+1. Android
 1. Swift
 1. DevOps
 1. REST API
