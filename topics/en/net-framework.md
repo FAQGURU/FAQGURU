@@ -458,7 +458,7 @@ Consider:
 [[↑] Back to top](#net-framework)
 ### Explain usage of Dependency Injection in ASP.NET Core
 
-**Dependency Injection **comes as a part of ASP.NET Core Framework and everything is built around it. When you want to use some tool and its services, you usually add the NuGet package and you use one of its extension methods to add the package to the ASP.NET Core’s DI container. You can extend the current DI with a container of your choice (AutoFac, StructureMap, CastleWindsor etc).
+**Dependency Injection** comes as a part of ASP.NET Core Framework and everything is built around it. When you want to use some tool and its services, you usually add the NuGet package and you use one of its extension methods to add the package to the ASP.NET Core’s DI container. You can extend the current DI with a container of your choice (AutoFac, StructureMap, CastleWindsor etc).
 
 ###### Source
 
