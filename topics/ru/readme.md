@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/FAQGURU">
-    <img src="./assets/readme.svg" alt="FAQGURU" />
+    <img src="../../assets/readme.svg" alt="FAQGURU" />
   </a>
 </div>
 
@@ -14,61 +14,60 @@
 
 ### Темы
 
-1. [JavaScript](/topics/ru/javascript.md)
-1. [React](/topics/ru/react.md)
-1. [Redux](/topics/ru/redux.md)
-1. [Vue.js](/topics/ru/vuejs.md)
-1. [Angular](/topics/ru/angular.md)
-1. [Node.js](/topics/ru/nodejs.md)
-1. [AngularJS](/topics/ru/angularjs.md)
-1. [Bootstrap](/topics/ru/bootstrap.md)
-1. [CSS](/topics/ru/css.md)
-1. [HTML5](/topics/ru/html5.md)
-1. [Sass](/topics/ru/sass.md)
-1. [Webpack](/topics/ru/webpack.md)
-1. [MongoDB](/topics/ru/mongodb.md)
-1. [SQL](/topics/ru/sql.md)
-1. [GraphQL](/topics/ru/graphql.md)
-1. [C#](/topics/ru/c.md)
-1. [Golang](/topics/ru/golang.md)
-1. [Java](/topics/ru/java.md)
-1. [ASP.NET](/topics/ru/asp.net.md)
-1. [ASP.NET MVC](/topics/ru/asp.net-mvc.md)
-1. [.NET Framework](/topics/ru/net-framework.md)
-1. [Ruby](/topics/ru/ruby.md)
-1. [Ruby On Rails](/topics/ru/ruby-on-rails.md)
-1. [TypeScript](/topics/ru/typeScript.md)
-1. [AWS](/topics/ru/aws.md)
-1. [Azure](/topics/ru/azure.md)
-1. [Git](/topics/ru/git.md)
-1. [Проблемы с кодом](/topics/ru/code-problems.md)
-1. [Структуры данных](/topics/ru/data-structures.md)
-1. [Шаблоны проектирования](/topics/ru/design-patterns.md)
-1. PHP
-1. Adnroid
-1. Swift
-1. DevOps
-1. REST API
-1. Архитектура программного обеспечения
-1. Веб-безопасность
-1. Тестирование производительности
-1. UX дизайн
-1. Agile
-1. Scrum
+1. JavaScript
+2. React
+3. Redux
+4. Vue.js
+5. Angular
+6. Node.js
+7. AngularJS
+8. Bootstrap
+9. CSS
+10. HTML5
+11. Sass
+12. Webpack
+13. MongoDB
+14. SQL
+15. GraphQL
+16. C#
+17. Golang
+18. Java
+19. ASP.NET
+20. ASP.NET MVC
+21. .NET Framework
+22. Ruby
+23. Ruby On Rails
+24. TypeScript
+25. AWS
+26. Azure
+27. Git
+28. Проблемы с кодом
+29. Структуры данных
+30. Шаблоны проектирования
+31. PHP
+32. Android
+33. Swift
+34. DevOps
+35. REST API
+36. Архитектура программного обеспечения
+37. Веб-безопасность
+38. Тестирование производительности
+39. UX дизайн
+40. Agile
+41. Scrum
 
 ## Переводы
 
 ### В будущем
 
+- [x] [English (English)](../../readme.md)
 - [ ] 中文版 (Chinese)
-- [ ] Русский (Russian)
-- [ ] Українська (Ukrainian)
 - [ ] Español (Spanish)
 
 ### Создание новых переводов
 
-Смотрите [Создание новых переводов](CONTRIBUTING.md#Translations)
+Смотрите [Создание новых переводов](../../CONTRIBUTING.md#Translations)
 
 ## Лицензия
 
-Все проекты и пакеты в этом репозитории под [MIT лицензией](/LICENSE).
+Все проекты и пакеты в этом репозитории под [MIT лицензией](../../LICENSE).
