@@ -28,19 +28,19 @@
 
 [Posto di avere un array non ordinato contenente (n - 1) di n numeri consecutivi (avendo definito i limiti) trovare il numero mancante mantenendo un tempo di esecuzione di O(n). (Mid)]()
 
-[Rimuovere gli elementi duplicati di un array e restituire un nuovo array con gli elementi rimasti. (Mid)]()
+[Rimuovere gli elementi duplicati da un array e restituire un nuovo array con gli elementi restanti. (Mid)]()
 
 [Data una stringa, invertire il verso di ogni parola. (Mid)]()
 
 [Scrivere una funzione che ti permetta di fare questo. (Mid)]()
 
-[Implementare l'accodamento(enqueue) e l'estrazione(dequeue) di un elemento usando solamente due array. (Mid)]()
+[Implementare l'accodamento(enqueue) e l'estrazione(dequeue) di un elemento usando solamente due stack. (Mid)]()
 
 [Come usare una closure per creare un contatore di tipo private. (Mid)]()
 
-[Spiegazione di Null e Undefined in JavaScript. (Sesior)]()
+[Spiegazione di Null e Undefined in JavaScript. (Senior)]()
 
-[Spiegazione dell'Event Bubbling e del modo per impedirlo. (Mig)]()
+[Spiegazione dell'Event Bubbling e del metodo per impedirlo. (Mid)]()
 
 [Come verificare che un oggetto sia un array? (Mid)]()
 
@@ -60,7 +60,7 @@
 
 [Verificare se una stringa data è un palindromo. Attenzione alla Case Sensitivity. (Senior)]()
 
-[Qual è la differenza tra un Shim e un Polyfill? (Senior)]()
+[Qual è la differenza tra uno Shim e un Polyfill? (Senior)]()
 
 [Quale sarà l'output del seguente blocco di codice? (Senior)]()
 
@@ -430,7 +430,7 @@ function findMissingNumber(arrayOfIntegers, upperBound, lowerBound) {
 
 
 [[↑] Back to top](#JavaScript)
-### Rimuovere gli elementi duplicati di un array e restituire un nuovo array con gli elementi rimasti. (Mid)
+### Rimuovere gli elementi duplicati da un array e restituire un nuovo array con gli elementi restanti. (Mid)
 
 ```js
 // ES6
@@ -513,22 +513,23 @@ addSix(21);
 
 
 [[↑] Back to top](#JavaScript)
-### Implementare l'accodamento(enqueue) e l'estrazione(dequeue) di un elemento usando solamente due array. (Mid)
+### Implementare l'accodamento(enqueue) e l'estrazione(dequeue) di un elemento usando solamente due stack. (Mid)
 
 *Accodare* significa aggiungere un elemento, *Estrarre* significa rimuoverlo.
 ```js
-var inputStack = []     // Primo array
-var outputStack = [];   // Secondo array
+var inputStack = []     // Prima stack
+var outputStack = [];   // Seconda stack
 
-// Per l'accodamento ci basta *pushare* l'elemento nella primo array
+// Per l'accodamento ci basta aggiungere l'elemento nella prima stack
 function enqueue(stackInput, item) {
   return stackInput.push(item);
 }
 
 function dequeue(stackInput, stackOutput) {
-  // Invertiamo l'array facendo si che il primo elemento diventi l'ultimo e viceversa.
-  // A questo punto rimuoviamo l'ultimo elemento dall'array per restituire il primo
-  // elemento inserito all'interno dell'array.
+  // Invertiamo ora la stack facendo si che il primo elemento diventi l'ultimo
+  // e viceversa
+  // A questo punto rimuoviamo l'ultimo elemento dalla stack per restituire il primo
+  // elemento inserito all'interno della stessa.
   if (stackOutput.length <= 0) {
     while(stackInput.length > 0) {
       var elementToOutput = stackInput.pop();
@@ -581,7 +582,15 @@ c.retrieve();       // Il contatore attualmente è a: 14
 
 [[↑] Back to top](#JavaScript)
 ### Spiegazione di Null e Undefined in JavaScript. (Sesior)
+
 JavaScript (e per estensione TypeScript) hanno due tipi di dato primitivi: `null` e `undefined`.
 Questi, come vediamo, rappresentano due concetti differenti:
 * Qualcosa non è stato inizializzato : `undefined`.
 * Qualcosa non è attualmente disponibile : `null`.
+
+
+
+[[↑] Back to top](#JavaScript)
+### Spiegazione dell'Event Bubbling e del metodo per impedirlo. (Mid)
+
+L'**Event Bubbling** è un concetto per il quale se un evento viene scatenato in un elemento annidato ad un altro elemento cosiddetto padre, anche l'evento dell'elemento padre sarà scatenato, proseguendo così per altri eventuali annidamenti.
