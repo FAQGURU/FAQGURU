@@ -60,7 +60,7 @@ Note: Keep in mind that many of these questions are open-ended and could lead to
 
 ### Future
 
-- [ ] 中文版 (Chinese)
+- [ ] [中文版 (Chinese)](./topics/zh/readme.md)
 - [ ] [Русский (Russian)](./topics/ru/readme.md)
 - [ ] Español (Spanish)
 
