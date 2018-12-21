@@ -14,7 +14,7 @@
 
 ### Темы
 
-1. [JavaScript](/topics/ru/javascript.md)
+1. [JavaScript](/javascript.md)
 1. [React](/topics/ru/react.md)
 1. [Redux](/topics/ru/redux.md)
 1. [Vue.js](/topics/ru/vuejs.md)
