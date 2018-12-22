@@ -551,7 +551,6 @@ function dequeue(stackInput, stackOutput) {
 ### Come usare una closure per creare un contatore di tipo private. (Mid)
 
 Si può scrivere una funzione all'interno di un'altra funzione (*closure*) che permetta di aggiornare una variabile privata, senza però renderla accessibile all'esterno senza l'utilizzo di una funzione che venga in aiuto.
-
 ```js
 function counter() {
     var _counter = 0;
@@ -581,7 +580,7 @@ c.retrieve();       // Il contatore attualmente è a: 14
 
 
 [[↑] Back to top](#JavaScript)
-### Spiegazione di Null e Undefined in JavaScript. (Sesior)
+### Spiegazione di Null e Undefined in JavaScript. (Senior)
 
 JavaScript (e per estensione TypeScript) hanno due tipi di dato primitivi: `null` e `undefined`.
 Questi, come vediamo, rappresentano due concetti differenti:
@@ -594,3 +593,87 @@ Questi, come vediamo, rappresentano due concetti differenti:
 ### Spiegazione dell'Event Bubbling e del metodo per impedirlo. (Mid)
 
 L'**Event Bubbling** è un concetto per il quale se un evento viene scatenato in un elemento annidato ad un altro elemento cosiddetto padre, anche l'evento dell'elemento padre sarà scatenato, proseguendo così per altri eventuali annidamenti.
+
+Un metodo per prevenire l'*event bubbling* è tramite l'utilizzo di `event.stopPropagation()`  oppure `event.cancelBubble` in IE < 9.
+
+###### Source
+
+* https://github.com/kennymkchan/interview-questions-in-javascript
+
+
+
+[[↑] Back to top](#JavaScript)
+### Come verificare che un oggetto sia un array? (Mid)
+
+Il metodo migliore per scoprire se un oggetto è un'istanza di una particolare classe o meno è tramite l'utilizzo del metodo `toString` della proprietà `Object.prototype`.
+```js
+var arrayList = [1, 2, 3];
+```
+
+Uno dei migliori casi d'uso per il controllo dei tipi di un oggetto è quando eseguiamo l'overloading dei metodi in JavaScript. Per capire al meglio questo concetto poniamo di avere un metodo chiamato `greet` che prende una singola stringa e una lista di stringhe.
+
+Per permettere al nostro metodo `greet` di funzionare in entrambe le situazioni abbiamo bisogno di sapere la tipologia del parametro passato, se una singola stringa o una lista di stringhe.
+```js
+function greet(param) {
+    if() {
+        // Abbiamo bisogno di verificare se il parametro è un array o meno
+    } else {
+
+    }
+}
+```
+
+Tuttavia, nell'implementazione sopra riportata potrebbe non essere necessario controllare se il parametro è un array, possiamo verificare per un singolo valore (in questo caso la stringa) e quindi implementare la logica per la gestione dell'array nel blocco *else*. Vediamo come fare di seguito.
+```js
+function greet(param) {
+    if(typeof param === "string") {
+        // TO DO
+    } else {
+        // Se il parametro è di tipo array allora questo blocco di codice sarà eseguito
+    }
+}
+```
+
+Ad ora potremmo rimanere tranqilli con le due implementazioni appena riportate, ma qualora il tipo di parametro, oltre a stringa e lista di stringhe, potesse essere un `object` ci troveremmo in difficoltà.
+
+Per ovviare a questo problema, come abbiamo menzionato sopra, potremmo utilizzare `Object.prototype.toString`.
+```js
+if(Object.prototype.toString.call(arrayList) === "[object Array]") {
+    console.log("Array!");
+}
+```
+
+Se si sta utilizzando `jQuery` si può utilizzare il metodo proprietario `isArray`:
+```js
+if($.isArray(arrayList)) {
+    console.log("Array!");
+} else {
+    console.log("Not array!");
+}
+```
+
+FYI jQuery utilizza `Object.prototype.toString.call` internamente.
+
+Nei browser più moderni (Chrome 5, Firefox 4.0, IE 9, Opera 10.5 e Safari 5) si può anche utilizzare:
+```js
+Array.isArray(arrayList);
+```
+
+###### Source
+
+* https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Question/blob/master/README.md
+
+
+
+[[↑] Back to top](#JavaScript)
+### Scrivere una "mul" function (Funzione per moltiplicare). (Mid)
+```js
+function mul(x) {
+    return function (y) {   // Funzione anonima
+        return function (z) {   //Funzione anonima
+            return x * y * z;
+        };
+    };
+}
+```
+
