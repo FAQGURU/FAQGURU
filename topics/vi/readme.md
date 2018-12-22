@@ -61,8 +61,8 @@ Lưu ý: Hãy nhớ rằng nhiều câu hỏi trong số này là câu hỏi m�
 ### Tương lai
 
 -   [x] [English (English)](../../readme.md)
--   [x] [中文版 (Chinese)](./topics/zh/readme.md)
--   [x] [Русский (Russian)](./topics/ru/readme.md)
+-   [x] [中文版 (Chinese)](../../topics/zh/readme.md)
+-   [x] [Русский (Russian)](../../topics/ru/readme.md)
 -   [ ] Español (Spanish)
 
 ### Tạo thêm các bản dịch mới
