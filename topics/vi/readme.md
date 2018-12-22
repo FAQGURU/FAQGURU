@@ -4,71 +4,71 @@
   </a>
 </div>
 
-## What is this?
+## Đây là gì?
 
-A collection of super-popular Interview questions, along with answers, and some code-snippets that will help you to prepare for technical interviews. Many of these questions a real questions from real interviews. It is by no means comprehensive, and the answers are relatively short ( and for each of the concepts, there are probably better and/or more in depth coverage in the web), but this repo like reference tool, that helps you to prepare for technical interview.
+Một bộ sưu tập các câu hỏi phỏng vấn siêu phổ biến, cùng với câu trả lời và một vài đoạn code mẫu sẽ giúp bạn chuẩn bị cho các buổi phỏng vấn (về kỹ thuật). Rất nhiều câu hỏi ở đây đều đến từ các buổi phỏng thực tế. Nó chưa thật sự hoàn thiện, và các câu trả lời tương đối ngắn (và đối với mỗi khái niệm, có thể có độ bao phủ tốt hơn và/hoặc nhiều hơn trên web), nhưng repo này giống như công cụ tham khảo, nó có thể giúp bạn chuẩn bị cho những buổi phỏng vấn.
 
-Note: Keep in mind that many of these questions are open-ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would.
+Lưu ý: Hãy nhớ rằng nhiều câu hỏi trong số này là câu hỏi mở và có thể dẫn đến các cuộc thảo luận thú vị, cho bạn biết nhiều hơn về khả năng của người đó hơn là một câu trả lời thẳng thắn.
 
-## Table of Contents
+## Mục lục
 
-### Topics
+### Chủ đề
 
-1. [JavaScript](/topics/en/javascript.md)
-1. [React](/topics/en/react.md)
-1. [Redux](/topics/en/redux.md)
-1. [Vue.js](/topics/en/vuejs.md)
-1. [Angular](/topics/en/angular.md)
-1. [Node.js](/topics/en/nodejs.md)
-1. [AngularJS](/topics/en/angularjs.md)
-1. [Bootstrap](/topics/en/bootstrap.md)
-1. [CSS](/topics/en/css.md)
-1. [HTML5](/topics/en/html5.md)
-1. [Sass](/topics/en/sass.md)
-1. [Webpack](/topics/en/webpack.md)
-1. [MongoDB](/topics/en/mongodb.md)
-1. [SQL](/topics/en/sql.md)
-1. [GraphQL](/topics/en/graphql.md)
-1. [C#](/topics/en/c.md)
-1. [Golang](/topics/en/golang.md)
-1. [Java](/topics/en/java.md)
-1. [ASP.NET](/topics/en/asp.net.md)
-1. [ASP.NET MVC](/topics/en/asp.net-mvc.md)
-1. [.NET Framework](/topics/en/net-framework.md)
-1. [Ruby](/topics/en/ruby.md)
-1. [Ruby On Rails](/topics/en/ruby-on-rails.md)
-1. [TypeScript](/topics/en/typeScript.md)
-1. [AWS](/topics/en/aws.md)
-1. [Azure](/topics/en/azure.md)
-1. [Git](/topics/en/git.md)
-1. [Code Problems](/topics/en/code-problems.md)
-1. [Data Structures](/topics/en/data-structures.md)
-1. [Design Patterns](/topics/en/design-patterns.md)
-1. PHP
-1. Adnroid
-1. Swift
-1. DevOps
-1. REST API
-1. Software Architecture
-1. Web Security
-1. Performance Testing
-1. UX Design
-1. Agile
-1. Scrum
+1.  JavaScript
+2.  React
+3.  Redux
+4.  Vue.js
+5.  Angular
+6.  Node.js
+7.  AngularJS
+8.  Bootstrap
+9.  CSS
+10. HTML5
+11. Sass
+12. Webpack
+13. MongoDB
+14. SQL
+15. GraphQL
+16. C#
+17. Golang
+18. Java
+19. ASP.NET
+20. ASP.NET MVC
+21. .NET Framework
+22. Ruby
+23. Ruby On Rails
+24. TypeScript
+25. AWS
+26. Azure
+27. Git
+28. Code Problems
+29. Data Structures
+30. Design Patterns
+31. PHP
+32. Android
+33. Swift
+34. DevOps
+35. REST API
+36. Software Architecture
+37. Web Security
+38. Performance Testing
+39. UX Design
+40. Agile
+41. Scrum
 
-## Translations
+## Các bản dịch
 
-### Future
+### Tương lai
 
-- [ ] 中文版 (Chinese)
-- [ ] Русский (Russian)
-- [ ] Українська (Ukrainian)
-- [ ] Español (Spanish)
+-   [x] [English (English)](../../readme.md)
+-   [x] [中文版 (Chinese)](./topics/zh/readme.md)
+-   [x] [Русский (Russian)](./topics/ru/readme.md)
+-   [ ] Español (Spanish)
 
-### Creating new Translations
+### Tạo thêm các bản dịch mới
 
-See [Creating new translations](CONTRIBUTING.md#Translations)
+Xem [Tạo thêm các bản dịch mới](./CONTRIBUTING.md#Translations)
 
-## License
+## Bản quyền
 
-All projects and packages in this repository are [MIT licensed](/LICENSE).
+Toàn bộ dự án và các gói trong kho lưu trữ này là [MIT licensed](/LICENSE).
