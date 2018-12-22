@@ -14,7 +14,7 @@
 
 ### Темы
 
-1. JavaScript
+1. [JavaScript](javascript.md)
 2. React
 3. Redux
 4. Vue.js
@@ -61,7 +61,7 @@
 ### В будущем
 
 - [x] [English (English)](../../readme.md)
-- [ ] 中文版 (Chinese)
+- [ ] [中文版 (Chinese)](../zh/readme.md)
 - [ ] Español (Spanish)
 
 ### Создание новых переводов
