@@ -174,7 +174,7 @@ You can make an AMI of an existing instance, and then launch other instances usi
 
 ###### Source
 
-* https://docs.aws.amazon.com/datapipeline/latest/.../what-is-datapipeline.html
+* https://docs.aws.amazon.com/datapipeline/latest/DeveloperGuide/what-is-datapipeline.html
 
 [[↑] Back to top](#AWS)
 ### Explain the features of Amazon EC2 services
