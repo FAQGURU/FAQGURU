@@ -24,7 +24,7 @@ Note: Keep in mind that many of these questions are open-ended and could lead to
 1. [Bootstrap](/topics/en/bootstrap.md)
 1. [CSS](/topics/en/css.md)
 1. [HTML5](/topics/en/html5.md)
-1. [SASS](/topics/en/sass.md)
+1. [Sass](/topics/en/sass.md)
 1. [Webpack](/topics/en/webpack.md)
 1. [MongoDB](/topics/en/mongodb.md)
 1. [SQL](/topics/en/sql.md)
@@ -34,7 +34,7 @@ Note: Keep in mind that many of these questions are open-ended and could lead to
 1. [Java](/topics/en/java.md)
 1. [ASP.NET](/topics/en/asp.net.md)
 1. [ASP.NET MVC](/topics/en/asp.net-mvc.md)
-1. [NET Framework](/topics/en/net-framework.md)
+1. [.NET Framework](/topics/en/net-framework.md)
 1. [Ruby](/topics/en/ruby.md)
 1. [Ruby On Rails](/topics/en/ruby-on-rails.md)
 1. [TypeScript](/topics/en/typeScript.md)
@@ -43,10 +43,30 @@ Note: Keep in mind that many of these questions are open-ended and could lead to
 1. [Git](/topics/en/git.md)
 1. [Code Problems](/topics/en/code-problems.md)
 1. [Data Structures](/topics/en/data-structures.md)
+1. [Design Patterns](/topics/en/design-patterns.md)
+1. PHP
+1. Android
+1. Swift
+1. DevOps
+1. REST API
+1. Software Architecture
+1. Web Security
+1. Performance Testing
+1. UX Design
+1. Agile
+1. Scrum
 
-### Translations
-See [TRANSLATIONS.md](TRANSLATIONS.md)
+## Translations
 
+### Future
+
+- [ ] [中文版 (Chinese)](./topics/zh/readme.md)
+- [ ] [Русский (Russian)](./topics/ru/readme.md)
+- [ ] Español (Spanish)
+
+### Creating new Translations
+
+See [Creating new translations](CONTRIBUTING.md#Translations)
 
 ## License
 
