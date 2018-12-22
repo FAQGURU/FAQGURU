@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/FAQGURU">
-    <img src="./assets/readme.svg" alt="FAQGURU" />
+    <img src="../../assets/readme.svg" alt="FAQGURU" />
   </a>
 </div>
 
