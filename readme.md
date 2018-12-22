@@ -14,55 +14,56 @@ Note: Keep in mind that many of these questions are open-ended and could lead to
 
 ### Topics
 
-1. [JavaScript](/topics/en/javascript.md)
-1. [React](/topics/en/react.md)
-1. [Redux](/topics/en/redux.md)
-1. [Vue.js](/topics/en/vuejs.md)
-1. [Angular](/topics/en/angular.md)
-1. [Node.js](/topics/en/nodejs.md)
-1. [AngularJS](/topics/en/angularjs.md)
-1. [Bootstrap](/topics/en/bootstrap.md)
-1. [CSS](/topics/en/css.md)
-1. [HTML5](/topics/en/html5.md)
-1. [Sass](/topics/en/sass.md)
-1. [Webpack](/topics/en/webpack.md)
-1. [MongoDB](/topics/en/mongodb.md)
-1. [SQL](/topics/en/sql.md)
-1. [GraphQL](/topics/en/graphql.md)
-1. [C#](/topics/en/c.md)
-1. [Golang](/topics/en/golang.md)
-1. [Java](/topics/en/java.md)
-1. [ASP.NET](/topics/en/asp.net.md)
-1. [ASP.NET MVC](/topics/en/asp.net-mvc.md)
-1. [.NET Framework](/topics/en/net-framework.md)
-1. [Ruby](/topics/en/ruby.md)
-1. [Ruby On Rails](/topics/en/ruby-on-rails.md)
-1. [TypeScript](/topics/en/typeScript.md)
-1. [AWS](/topics/en/aws.md)
-1. [Azure](/topics/en/azure.md)
-1. [Git](/topics/en/git.md)
-1. [Code Problems](/topics/en/code-problems.md)
-1. [Data Structures](/topics/en/data-structures.md)
-1. [Design Patterns](/topics/en/design-patterns.md)
-1. PHP
-1. Android
-1. Swift
-1. DevOps
-1. REST API
-1. Software Architecture
-1. Web Security
-1. Performance Testing
-1. UX Design
-1. Agile
-1. Scrum
+1.  [JavaScript](/topics/en/javascript.md)
+2.  [React](/topics/en/react.md)
+3.  [Redux](/topics/en/redux.md)
+4.  [Vue.js](/topics/en/vuejs.md)
+5.  [Angular](/topics/en/angular.md)
+6.  [Node.js](/topics/en/nodejs.md)
+7.  [AngularJS](/topics/en/angularjs.md)
+8.  [Bootstrap](/topics/en/bootstrap.md)
+9.  [CSS](/topics/en/css.md)
+10. [HTML5](/topics/en/html5.md)
+11. [Sass](/topics/en/sass.md)
+12. [Webpack](/topics/en/webpack.md)
+13. [MongoDB](/topics/en/mongodb.md)
+14. [SQL](/topics/en/sql.md)
+15. [GraphQL](/topics/en/graphql.md)
+16. [C#](/topics/en/c.md)
+17. [Golang](/topics/en/golang.md)
+18. [Java](/topics/en/java.md)
+19. [ASP.NET](/topics/en/asp.net.md)
+20. [ASP.NET MVC](/topics/en/asp.net-mvc.md)
+21. [.NET Framework](/topics/en/net-framework.md)
+22. [Ruby](/topics/en/ruby.md)
+23. [Ruby On Rails](/topics/en/ruby-on-rails.md)
+24. [TypeScript](/topics/en/typeScript.md)
+25. [AWS](/topics/en/aws.md)
+26. [Azure](/topics/en/azure.md)
+27. [Git](/topics/en/git.md)
+28. [Code Problems](/topics/en/code-problems.md)
+29. [Data Structures](/topics/en/data-structures.md)
+30. [Design Patterns](/topics/en/design-patterns.md)
+31. PHP
+32. Android
+33. Swift
+34. DevOps
+35. REST API
+36. Software Architecture
+37. Web Security
+38. Performance Testing
+39. UX Design
+40. Agile
+41. Scrum
 
 ## Translations
 
 ### Future
 
-- [ ] [中文版 (Chinese)](./topics/zh/readme.md)
-- [ ] [Русский (Russian)](./topics/ru/readme.md)
-- [ ] Español (Spanish)
+-   [x] [中文版 (Chinese)](./topics/zh/readme.md)
+-   [x] [Русский (Russian)](./topics/ru/readme.md)
+-   [x] [Tiếng Việt (Vietnamese)](./topics/vi/readme.md)
+-   [ ] Español (Spanish)
 
 ### Creating new Translations
 
