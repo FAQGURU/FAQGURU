@@ -67,7 +67,7 @@ Lưu ý: Hãy nhớ rằng nhiều câu hỏi trong số này là câu hỏi m�
 
 ### Tạo thêm các bản dịch mới
 
-Xem [Tạo thêm các bản dịch mới](./CONTRIBUTING.md#Translations)
+Xem [Tạo thêm các bản dịch mới](../../CONTRIBUTING.md#Translations)
 
 ## Bản quyền
 
