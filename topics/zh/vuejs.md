@@ -706,7 +706,7 @@ var vm = new Vue({
     }
 });
 ```
-或者兼容一个计算好的length属性:
+或者监听一个计算好的length属性:
 ```js
 vm.$watch('item_length', function(newVal, oldVal) {
     console.log('caught!');
