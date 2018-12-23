@@ -12,7 +12,7 @@
 
 [组件的props是什么?](#组件的props是什么)
 
-[如何部署一个Vue.js app?](#如何部署一个vuejs-app)
+[如何部署一个Vue.js应用?](#如何部署一个vuejs应用)
 
 [Vue.js的组件是什么?](#vuejs的组件是什么)
 
@@ -42,43 +42,43 @@
 
 [如何在父组件调用子组件的函数?](#如何在父组件调用子组件的函数)
 
-[List some benefits of Vue.js](#list-some-benefits-of-vuejs)
+[列举Vue.js的一些好处](#列举vuejs的一些好处)
 
-[How to pass an argument to Vue.js filters?](#how-to-pass-an-argument-to-vuejs-filters)
+[如何往过滤器传参?](#如何往过滤器传参)
 
-[How can you prevent layout jumps in Vue.js?](#how-can-you-prevent-layout-jumps-in-vuejs)
+[如何避免Vue.js的内容跳动?](#如何避免vuejs的内容跳动)
 
-[How to use Gulp with Vue.js?](#how-to-use-gulp-with-vuejs)
+[如何在Vue.js中使用gulp?](#如何在vuejs中使用gulp)
 
-[Can you force Vue.js to reload/rerender?](#can-you-force-vuejs-to-reloadrerender)
+[可以让Vue.js重新加载或者重新渲染吗?](#可以让vuejs重新加载或者重新渲染吗)
 
-[Are there any drawback of Vue.js you know?](#are-there-any-drawback-of-vuejs-you-know)
+[如何把你的样式绑定到Vue.js上?](#如何把你的样式绑定到vuejs上)
 
-[How can you bind styles in Vue.js?](#how-can-you-bind-styles-in-vuejs)
+[可以监听组件里面props的变化吗?](#可以监听组件里面props的变化吗)
 
-[Could you listen for components props changes?](#could-you-listen-for-components-props-changes)
+[可以实现监听组件里面props的变化吗?](#可以实现监听组件里面props的变化吗)
 
-[What's the equivalent of Angular Service in Vue.js?](#whats-the-equivalent-of-angular-service-in-vuejs)
+[Vue.js里面跟Angular的Service等价的是什么?](#vuejs里面跟angular的service等价的是什么)
 
-[What is Vuex?](#what-is-vuex)
+[Vuex是什么?](#vuex是什么)
 
-[How to save new value to data variables in Vue.js whenever the user types?](#how-to-save-new-value-to-data-variables-in-vuejs-whenever-the-user-types)
+[如何使用Vue.js实现无论在什么时候，都要把用户类型的值保存到data变量里面的功能?](#如何使用vuejs实现无论在什么时候都要把用户类型的值保存到data变量里面的功能)
 
-[How to implement simple routing in Vue.js (without external library)?](#how-to-implement-simple-routing-in-vuejs-without-external-library)
+[如何实现简易的Vue.js路由(不使用第三方库)?](#如何实现简易的vuejs路由不使用第三方库)
 
-[List some types of components communication channels in Vue.js app](#list-some-types-of-components-communication-channels-in-vuejs-app)
+[列举一些Vue.js app里面组件通信的方式](#列举一些vuejs-app里面组件通信的方式)
 
-[How can I watch an array length using Vue.js?](#how-can-i-watch-an-array-length-using-vuejs)
+[如何在Vue.js监听一个数组长度的变化?](#如何在vuejs监听一个数组长度的变化)
 
-[Why we need Vue.js mixins?](#why-we-need-vuejs-mixins)
+[我们为什么需要Vue.js的混入(mixins)?](#我们为什么需要vuejs的混入mixins)
 
-[What is the best way to create a constant, that can be accessible from entire application in VueJs ?](#what-is-the-best-way-to-create-a-constant-that-can-be-accessible-from-entire-application-in-vuejs-)
+[创建一个可以让整个Vue.js应用访问的常量的最佳方式是什么?](#创建一个可以让整个vuejs应用访问的常量的最佳方式是什么)
 
-[What is the main difference between a method and a computed value in Vue.js?](#what-is-the-main-difference-between-a-method-and-a-computed-value-in-vuejs)
+[在Vue.js中method跟computed value有什么区别?](#在vuejs中method跟computed-value有什么区别)
 
-[What is a proper way to communicate between sibling components in vuejs 2.0?](#what-is-a-proper-way-to-communicate-between-sibling-components-in-vuejs-20)
+[在Vue.js 2.0中兄弟组件间通信的正确方式是什么?](#在vuejs-20中兄弟组件间通信的正确方式是什么)
 
-[How do you toggle a class in Vue.js?](#how-do-you-toggle-a-class-in-vuejs)
+[如何在Vue.js切换class?](#如何在vuejs切换class)
 
 
 
@@ -175,7 +175,7 @@ Vue.component('blog-post', {
 * https://vuejs.org/v2/guide/components-props.html#ad
 
 [[↑] 返回顶部](#vuejs)
-### 如何部署一个Vue.js app?
+### 如何部署一个Vue.js应用?
 
 如果你已经按照以下步骤创建项目:
 ```sh
@@ -453,30 +453,30 @@ new Vue({
 * https://stackoverflow.com/questions/42632711/how-to-call-function-on-child-component-on-parent-events
 
 [[↑] Back to top](#vuejs)
-### List some benefits of Vue.js
+### 列举Vue.js的一些好处
 
-* Empowered HTML. This means that Vue.js has many similar characteristics with Angular and this can help to optimize HTML blocks handling with a usage of different components.
-* Detailed documentation. Vue.js has very circumstantial documentation which can fasten learning curve for developers and save a lot of time to develop an app using only the basic knowledge of HTML and JavaScript.
-* Adaptability. It provides a rapid switching period from other frameworks to Vue.js because of the similarity with Angular and React in terms of design and architecture.
-* Awesome integration. Vue.js can be used for both building single-page applications and more difficult web interfaces of apps. The main thing is that smaller interactive parts can be easily integrated into the existing infrastructure with no negative effect on the entire system.
-* Large scaling. Vue.js can help to develop pretty large reusable templates that can be made with no extra time allocated for that according to its simple structure.
-* Tiny size. Vue.js can weight around 20KB keeping its speed and flexibility that allows reaching much better performance in comparison to other frameworks.
+* 允许使用HTML。这意味着Vue.js跟Angular有很多相似的特征，可以使用不同的组件进行来优化HTML代码块。
+* 详细的文档。Vue.js拥有一个非常详细的文档，使得开发者的学习曲线更平缓、更快速的学习，仅使用简单的HTML和JavaScript知识就可以开发出一个应用程序。
+* 平滑过渡。由于Vue.js在设计和架构上跟Angular和React很相似，它给开发者提供了一个从其他框架转到Vue.js的快速切换周期。
+* 高度集成。Vue.js可以创建单页面应用和不同的应用接口。主要是小的交互模块很容易地集成到整个系统里已有的基础设施当中，这个过程不会产生副作用。
+* 大型化。Vue.js可以帮助你开发非常大型的可复用的模板，由于它结构简单，你不需要花费很多的时间去开发。
+* 体积小。Vue.js的体积只有20KB左右来保持它的速度跟灵活性，对比其他框架，它拥有更好的性能。
 
-###### Source
+###### 来源
 
 * https://medium.com/@TechMagic/reactjs-vs-angular5-vs-vue-js-what-to-choose-in-2018-b91e028fa91d
 
-[[↑] Back to top](#vuejs)
-### How to pass an argument to Vue.js filters?
+[[↑] 返回顶部](#vuejs)
+### 如何往过滤器传参?
 
-Consider:
+思考以下代码:
 ```js
 filters:{
    currency: function(value, arg1){
      return arg1+value;
 }
 ```
-And usage:
+使用方法:
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.1/vue.js"></script>
 <div id="vue-instance">
@@ -484,19 +484,19 @@ And usage:
 </div>
 ```
 
-###### Source
+###### 来源
 
 * https://vuejs.org/v2/guide/filters.html
 
-[[↑] Back to top](#vuejs)
-### How can you prevent layout jumps in Vue.js?
+[[↑] 返回顶部](#vuejs)
+### 如何避免Vue.js的内容跳动?
 
-You want to totally nullify the time of the first rendering, the only way to go is to do **server-side rendering**. So your app will be served with the initial html structure already there.
+如果你想完全取消客户端首次渲染，唯一的途径是使用**服务端渲染**。所有你的应用初始化的时候发送一个html结构。
 
-[[↑] Back to top](#vuejs)
-### How to use Gulp with Vue.js?
+[[↑] 返回顶部](#vuejs)
+### 如何在Vue.js中使用gulp?
 
-You can use `Vueify`. it's a `browserify` transform.
+你可以使用`Vueify`，它是一个`browserify`的转换。
 
 ```js
 gulp.task('browserify', function() {
@@ -511,33 +511,32 @@ gulp.task('browserify', function() {
 });
 ```
 
-[[↑] Back to top](#vuejs)
-### Can you force Vue.js to reload/rerender?
+[[↑] 返回顶部](#vuejs)
+### 可以让Vue.js重新加载或者重新渲染吗?
 
-Yes. Consider:
+可以的。思考以下代码:
 ```js
 vm.$forceUpdate();
 ```
 
-###### Source
+###### 来源
 
 * https://stackoverflow.com/questions/32106155/can-you-force-vue-js-to-reload-re-render
 
-[[↑] Back to top](#vuejs)
-### Are there any drawback of Vue.js you know?
+[[↑] 返回顶部](#vuejs)
+### 你知道Vue.js有哪些不好的地方吗?
 
-* Lack of resources. Vue.js still has a pretty small market share in comparison with React or Angular, which means that knowledge sharing in this framework is still in the beginning phase.
-* Risk of over flexibility. Sometimes, Vue.js might have issues while integrating into huge projects and there is still no experience with possible solutions, but they will definitely come soon.
-* Chinese background. As far as Vue.js has a bit of Chinese background, a lot of elements and descriptions are still available in Chinese. This leads to a partial complexity on some stages of development, nevertheless, more and more materials are being translated into English.
+* 资源少。Vue.js相对于React或者Angular来说占有较少的市场份额，意味着这个框架的知识分享仍处于起步阶段。
+* 灵活性上的风险。有时候，把Vue.js集成到到大项目的时候会出现一些问题，对于可能的解决方案没有相关的经验。
 
-###### Source
+###### 来源
 
 * https://medium.com/@TechMagic/reactjs-vs-angular5-vs-vue-js-what-to-choose-in-2018-b91e028fa91d
 
-[[↑] Back to top](#vuejs)
-### How can you bind styles in Vue.js?
+[[↑] 返回顶部](#vuejs)
+### 如何把你的样式绑定到Vue.js上?
 
-Consider:
+思考以下代码:
 ```html
 <div id="table">
     <div v-for="table in tables">
@@ -546,14 +545,15 @@ Consider:
 </div>
 ```
 
-###### Source
+###### 来源
 
 * https://stackoverflow.com/questions/45604244/binding-styles-in-vue-js
 
-[[↑] Back to top](#vuejs)
-### Could you listen for components props changes?
+[[↑] 返回顶部](#vuejs)
+### 可以实现监听组件里面props的变化吗?
 
-Yes. You can `watch` props to execute some code upon props changes:
+可以的。你可以使用`watch`来监听props的变化，props变化的时候执行一些代码:
+
 ```js
 new Vue({
   el: '#app',
@@ -573,7 +573,7 @@ new Vue({
   }
 });
 ```
-And in HTML:
+在HTML上使用:
 ```html
 <script src="https://unpkg.com/vue/dist/vue.js"></script>
 
@@ -583,42 +583,41 @@ And in HTML:
 </div>
 ```
 
-###### Source
+###### 来源
 
 * https://stackoverflow.com/questions/44584292/vuejs-2-0-how-to-listen-for-props-changes
 
-[[↑] Back to top](#vuejs)
-### What's the equivalent of Angular Service in Vue.js?
+[[↑] 返回顶部](#vuejs)
+### Vue.js里面跟Angular的Service等价的是什么?
 
-There are 4 ways:
+有四种方法:
 
-* Stateless service: then you should use mixins
-* Statefull service: use Vuex
-* Export service and import from a vue code
-* any javascript global object
+* 无状态service: 使用mixins
+* 有状态service: 使用Vuex
+* 导出service和导入一段vue的代码
+* 任何JavaScript全局对象
 
-###### Source
-
-* https://stackoverflow.com/questions/41164672/whats-the-equivalent-of-angular-service-in-vuejs
-
-[[↑] Back to top](#vuejs)
-### What is Vuex?
-
-
-Vuex is a **state management pattern + library** for Vue.js applications. It serves as a centralized store for all the components in an application, with rules ensuring that the state can only be mutated in a predictable fashion. The basic idea behind Vuex, inspired by Flux, Redux and The Elm Architecture.
-
-Vuex resolves two problems:
-* Multiple views may depend on the same piece of state. Passing props can be tedious for deeply nested components, and simply doesn't work for sibling components. 
-* Actions from different views may need to mutate the same piece of state. We often find ourselves resorting to solutions such as reaching for direct parent/child instance references or trying to mutate and synchronize multiple copies of the state via events. Both of these patterns are brittle and quickly lead to unmaintainable code.
-
-###### Source
+###### 资源
 
 * https://stackoverflow.com/questions/41164672/whats-the-equivalent-of-angular-service-in-vuejs
 
-[[↑] Back to top](#vuejs)
-### How to save new value to data variables in Vue.js whenever the user types?
+[[↑] 返回顶部](#vuejs)
+### Vuex是什么?
 
-Use `watch` method to detect changes on variable you are storing data on like this:
+Vuex是一个为Vue.js应用程序开发的**状态管理模式和库**。它采用集中式存储来管理应用里面所有组件的状态，并以相应的规则来确保状态是以一种可预测的方式发生变化的。Vuex的灵感来自于Flux，Redux跟Elm的架构。
+
+Vuex解决两个问题:
+* 多个视图公用一个state。给多层嵌套的组件传递props是非常繁琐的，并且对于兄弟组件之间的传递也是无能为力的。
+* 不同视图的行为，改变的是同一个状态。我们通常使用比如直接在父/子组件实例上直接引用或者通过事件来改变，和同步状态的多份拷贝。这些模式都非常脆弱，而且很容易导致代码不可维护。
+
+###### 来源
+
+* https://stackoverflow.com/questions/41164672/whats-the-equivalent-of-angular-service-in-vuejs
+
+[[↑] 返回顶部](#vuejs)
+### 如何使用Vue.js实现无论在什么时候，都要把用户类型的值保存到data变量里面的功能?
+
+使用`watch`方法监测储存在data的变量的变化，像这样:
 
 ```js
 watch: {
@@ -630,14 +629,14 @@ watch: {
 }
 ```
 
-###### Source
+###### 来源
 
 * https://stackoverflow.com/questions/41425889/vue-js-how-to-use-localstorage-with-vue-js
 
-[[↑] Back to top](#vuejs)
-### How to implement simple routing in Vue.js (without external library)?
+[[↑] 返回顶部](#vuejs)
+### 如何实现简易的Vue.js路由(不使用第三方库)?
 
-If you only need very simple routing and do not wish to involve a full-featured router library, you can do so by dynamically rendering a page-level component like this:
+如果你只需要非常简单的路由，并且不想引入整一个router库，你可以像下面这样动态地渲染一个页面级别的组件:
 
 ```js
 const NotFound = { template: '<p>Page not found</p>' }
@@ -662,30 +661,30 @@ new Vue({
   render (h) { return h(this.ViewComponent) }
 })
 ```
-For most Single Page Applications, it’s recommended to use the officially-supported vue-router library.
 
-###### Source
+对于大多数单页面应用来说，推荐使用官方的vue-router库。
+
+###### 来源
 
 * https://vuejs.org/v2/guide/routing.html
 
-[[↑] Back to top](#vuejs)
-### List some types of components communication channels in Vue.js app
+[[↑] 返回顶部](#vuejs)
+### 列举一些Vue.js app里面组件通信的方式
 
-* **Props** (`props`) - The simplest communication channel in Vue for direct Parent-Child communication. It should mostly be used to pass data relating to presentation logic or a restricted set of data down the hierarchy.
-* **Refs and methods** (`ref`) - When it doesn't make sense to use a prop to let a child handle an event from a parent, setting up a ref on the child component and calling its methods is just fine.
-* **Events** (`$emit` and `$on`) - The simplest communication channel for direct Child-Parent communication. Again, should be used for presentation logic.
-* **Event bus** (`this.$root.$emit`, `this.$root.$on`) - This can become useful when passing props all over the place from far up down to deeply nested children components, with almost no other components needing these in between.
-* **Centralized store** (_Vuex_) - Vuex is the way to go with Vue for state management. It offers a lot more than just events and it's ready for full scale application.
+* **Props** (`props`) - Vue.js里面最简单的父子组件直接通信的方式。主要用于传递与表示逻辑相关的数据，或者限制层次结构的数据集。
+* **Refs 和 methods** (`ref`) - 它对于子组件处理父组件的事件似乎不太合乎情理。在子组件上设置ref，然后调用它的方法(methods)就可以实现。
+* **Events** (`$emit`和`$on`) - 它是父子组件直接通信最简单的方式。同样，它应该用于表示逻辑。
+* **Event bus** (`this.$root.$emit`, `this.$root.$on`) - 当它要往深层嵌套的组件传递props给子组件的时候非常有用，在这两个组件之间几乎没有其他组件需要传递。
+* **集中式储存** (_Vuex_) -Vuex是是Vue.js里面一种状态管理方式。它提供了比单纯通过events传递的更多方式，它为整一个应用的通信做好了充分的准备。
 
-
-###### Source
+###### 来源
 
 * https://stackoverflow.com/questions/38616167/communication-between-sibling-components-in-vuejs-2-0
 
-[[↑] Back to top](#vuejs)
-### How can I watch an array length using Vue.js?
+[[↑] 返回顶部](#vuejs)
+### 如何在Vue.js监听一个数组长度的变化?
 
-Use the watch section in your vm creation:
+在创建的vm中使用watch:
 ```js
 var vm = new Vue({
     el: 'body',
@@ -707,25 +706,25 @@ var vm = new Vue({
     }
 });
 ```
-Or watch a computed length attribute:
+或者兼容一个计算好的length属性:
 ```js
 vm.$watch('item_length', function(newVal, oldVal) {
     console.log('caught!');
 });
 ```
 
-###### Source
+###### 来源
 
 * https://stackoverflow.com/questions/37041720/vue-js-watch-array-length
 
-[[↑] Back to top](#vuejs)
-### Why we need Vue.js mixins?
+[[↑] 返回顶部](#vuejs)
+### 我们为什么需要Vue.js的混入(mixins)?
 
-Mixins are a flexible way to _distribute reusable functionalities_ for Vue components. A mixin object can contain any component options. When a component uses a mixin, all options in the mixin will be “mixed” into the component’s own options. 
+混入(mixins)是一种分发Vue组件中 _可复用的功能_ 的非常灵活的方式。混入对象可以包含任意组件选项。当一个组件使用混入对象时，所有的混入对象选项都会被"混入"该组件本身的选项。
 
-Consider:
+思考以下代码:
 ```js
-// define a mixin object
+// 定义一个混入对象
 var myMixin = {
   methods: {
      getProducts () {
@@ -734,12 +733,12 @@ var myMixin = {
   }
 }
 
-// define a component that uses this mixin
+// 定义一个使用混入的组件
 var Component = Vue.extend({
   mixins: [myMixin]
 })
 
-// alternate way to have a mixin while initialising
+// 在初始化的时候使用混入的替代方法
 new Vue({
   mixins: [myMixin],
   created: function () {
@@ -748,14 +747,14 @@ new Vue({
 })
 ```
 
-###### Source
+###### 来源
 
 * https://stackoverflow.com/questions/41164672/whats-the-equivalent-of-angular-service-in-vuejs
 
-[[↑] Back to top](#vuejs)
-### What is the best way to create a constant, that can be accessible from entire application in VueJs ?
+[[↑] 返回顶部](#vuejs)
+### 创建一个可以让整个Vue.js应用访问的常量的最佳方式是什么?
 
-You can always define a variable outside of the Vue app scope and use it throughout the application.
+你可以在Vue应用程序范围外定义一个变量，然后在里面使用它。
 
 ```js
 //const.js
@@ -778,31 +777,30 @@ export default {
 }
 ```
 
-###### Source
+###### 来源
 
 * https://stackoverflow.com/questions/46882944/what-is-the-best-way-to-create-a-constant-that-can-be-accessible-from-entire-ap
 
-[[↑] Back to top](#vuejs)
-### What is the main difference between a method and a computed value in Vue.js?
+[[↑] 返回顶部](#vuejs)
+### 在Vue.js中method跟computed value有什么区别?
 
-Computed values and methods are very different in Vue and are definitely not interchangeable in most cases.
-* A more appropriate name for a computed value is a **computed property**. You can think of a computed value as a derived value that will be _automatically_ updated whenever one of the underlying values used to calculate it is updated.
-* A **method** is just a function bound to the Vue instance. It will only be evaluated when you _explicitly call_ it. 
-
-###### Source
+* computed value跟methods很不同，在Vue.js里面，大多数情况下绝对不能互换。
+* 对于computed value有一个更贴切的名字叫**计算属性**。你可以把computed value看成一个派生值，当计算该值的一个值发生改变时，它将会自动更新.
+* **method** 只是一个Vue实例上的一个函数。当你显式调用的时候它才会计算。
+###### 来源
 
 * https://stackoverflow.com/questions/42936588/how-to-deploy-vue-app
 
-[[↑] Back to top](#vuejs)
-### What is a proper way to communicate between sibling components in vuejs 2.0?
+[[↑] 返回顶部](#vuejs)
+### 在Vue.js 2.0中兄弟组件间通信的正确方式是什么?
 
-With Vue 2.0, we using the eventHub mechanism.
+在Vue.js 2.0，我们可以使用eventHub机制。
 
-Consider:
+思考下面代码:
 ```js
-const eventHub = new Vue() // Single event hub
+const eventHub = new Vue() // 单独的event hub
 
-// Distribute to components using global mixin
+// 使用全局混入分配给组件
 Vue.mixin({
     data: function () {
         return {
@@ -810,18 +808,18 @@ Vue.mixin({
         }
     }
 })
-// your component you can emit events with
+// 你的组件可以用emit触发事件
 this.eventHub.$emit('update', data)
-// And to listen you do
+// 监听你的你要做的
 this.eventHub.$on('update', data => {
-// do your thing
+// 你要做的事情
 })
 ```
-You can even make it shorter and use root Vue instance as `global` Event Hub:
+你甚至可以在Vue根实例上使用`全局`的Event Hub让它变得更简洁:
 ```js
-// Component 1
+// 组件 1
 this.$root.$emit('eventing', data);
-// Component 2
+// 组件 2
 mounted() {
     this.$root.$on('eventing', data => {
         console.log(data);
@@ -829,14 +827,14 @@ mounted() {
 }
 ```
 
-###### Source
+###### 来源
 
 * https://stackoverflow.com/questions/42632711/how-to-call-function-on-child-component-on-parent-events
 
-[[↑] Back to top](#vuejs)
-### How do you toggle a class in Vue.js?
+[[↑] 返回顶部](#vuejs)
+### 如何在Vue.js切换class?
 
-For Vue.js 2 you could have the active class be dependent upon a boolean data value:
+在Vue.js 2中你可以使用一个取决于数据属性isActive的布尔值来切换active class。
 
 ```html
 <th 
@@ -852,13 +850,13 @@ For Vue.js 2 you could have the active class be dependent upon a boolean data va
 methods: {
      myFilter: function(){          
         this.isActive = !this.isActive;
-        // some code to filter users
+        // 过滤用户的代码
     }
 }
 ```
 
-###### Source
+###### 来源
 
 * https://stackoverflow.com/questions/33731939/vue-js-toggle-class-on-click
 
-[[↑] Back to top](#vuejs)
+[[↑] 返回顶部](#vuejs)
