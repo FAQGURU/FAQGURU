@@ -54,8 +54,6 @@
 
 [如何把你的样式绑定到Vue.js上?](#如何把你的样式绑定到vuejs上)
 
-[可以监听组件里面props的变化吗?](#可以监听组件里面props的变化吗)
-
 [可以实现监听组件里面props的变化吗?](#可以实现监听组件里面props的变化吗)
 
 [Vue.js里面跟Angular的Service等价的是什么?](#vuejs里面跟angular的service等价的是什么)
