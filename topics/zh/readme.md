@@ -61,7 +61,7 @@
 ### 未来
 
 - [x] [English (English)](../../readme.md)
-- [ ] 中文版 (Chinese)
+- [ ] [Русский (Russian)](../ru/readme.md)
 - [ ] Español (Spanish)
 
 ### 添加新的翻译
