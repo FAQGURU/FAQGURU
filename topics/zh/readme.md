@@ -17,7 +17,7 @@
 1. JavaScript
 2. React
 3. Redux
-4. Vue.js(/topics/zh/vuejs.md)
+4. [Vue.js](vuejs.md)
 5. Angular
 6. Node.js
 7. AngularJS
