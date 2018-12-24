@@ -8,7 +8,7 @@
  
   [Что такое массивы в JavaScript](#что-такое-массивы-в-javascript)
    
-  [Что такое равенство в JavaScript](#что-равенство-в-javascript)
+  [Что такое равенство в JavaScript](#что-такое-равенство-в-javascript)
 
   [Что такое область видимости в JavaScript?](#что-такое-область-видимости-в-javascript)
 
@@ -23,6 +23,19 @@
   [Что такое полифилл?](#что-такое-полифилл)
 
   [Как бы вы проверили, является ли число целым?](#как-бы-вы-проверили-является-ли-число-целым)
+  
+  [Объясните значения и типы в JavaScript](#объясните-значения-и-типы-в-javascript)
+
+  [Несортированный массив содержит (n - 1) из n последовательных чисел (где определены границы), найдите недостающее число за O (n) раз](#несортированный-массив-содержит-n---1-из-n-последовательных-чисел-где-определены-границы-найдите-недостающее-число-за-in-on- раз)
+
+  [Удалите дубликаты в массиве и верните массив только уникальных элементов](#удалите-дубликаты-в-массиве-и-верните-массив-только-уникальных-элементов)
+
+  [Верните строку, перевернув каждое слово в предложении](# верните-строку-перевернув-каждое-слово-в-предложении)
+
+  [Напишите функцию, которая позволит вам сделать это](# напишите-функцию-которая-позволит-вам-сделать-это)
+
+  [Реализуйте enqueue и dequeue, используя только два стека](#реализуйте-enqueue-и-dequeue-используя-только-два-стека)
+
   
   ### Что такое принуждение в JavaScript?
  
@@ -275,3 +288,162 @@ console.log(isInt(0.3)); // false
 * https://coderbyte.com/algorithm/10-common-javascript-interview-questions
 
 [[↑] Вернуться к началу](#JavaScript)  
+### Объясните значения и типы в JavaScript
+
+JavaScript имеет типизированные значения, а не типизированные переменные. Доступны следующие встроенные типы:
+* `string`
+* `number`
+* `boolean`
+* `null` и `undefined`
+* `object`
+* `symbol` (новое в ES6)
+
+
+
+[[↑] Вернуться к началу](#JavaScript)
+### Несортированный массив содержит (n - 1) из n последовательных чисел (где определены границы), найдите недостающее число за O (n) раз
+
+```js
+// Вывод функции должен быть 8
+var arrayOfIntegers = [2, 5, 1, 4, 9, 6, 3, 7];
+var upperBound = 9;
+var lowerBound = 1;
+
+findMissingNumber(arrayOfIntegers, upperBound, lowerBound); // 8
+
+function findMissingNumber(arrayOfIntegers, upperBound, lowerBound) {
+  // Выполните итерацию по массиву, чтобы найти сумму чисел
+  var sumOfIntegers = 0;
+  for (var i = 0; i < arrayOfIntegers.length; i++) {
+    sumOfIntegers += arrayOfIntegers[i];
+  }
+
+  // Найдите теоретическую сумму последовательных чисел, используя вариацию суммы Гаусса.
+  // формула: [(N * (N + 1)) / 2] - [(M * (M - 1)) / 2];
+  // N - верхняя граница, а M - нижняя граница
+
+  upperLimitSum = (upperBound * (upperBound + 1)) / 2;
+  lowerLimitSum = (lowerBound * (lowerBound - 1)) / 2;
+
+  theoreticalSum = upperLimitSum - lowerLimitSum;
+
+  return theoreticalSum - sumOfIntegers;
+}
+```
+
+###### Источник
+
+* https://github.com/kennymkchan/interview-questions-in-javascript
+
+[[↑] Вернуться к началу](#JavaScript)
+### Удалите дубликаты в массиве и верните массив только уникальных элементов
+
+```js
+// ES6 реализация
+var array = [1, 2, 3, 5, 1, 5, 9, 1, 2, 8];
+
+Array.from(new Set(array)); // [1, 2, 3, 5, 9, 8]
+
+// ES5 реализация
+var array = [1, 2, 3, 5, 1, 5, 9, 1, 2, 8];
+
+uniqueArray(array); // [1, 2, 3, 5, 9, 8]
+
+function uniqueArray(array) {
+  var hashmap = {};
+  var unique = [];
+
+  for(var i = 0; i < array.length; i++) {
+    // Если ключ возвращает undefined (уникальный), он оценивается как ложный.
+    if(!hashmap.hasOwnProperty(array[i])) {
+      hashmap[array[i]] = 1;
+      unique.push(array[i]);
+    }
+  }
+
+  return unique;
+}
+```
+
+###### Источник
+
+* https://github.com/kennymkchan/interview-questions-in-javascript
+
+[[↑] Вернуться к началу](#JavaScript)
+### Верните строку, перевернув каждое слово в предложении
+
+```js
+var string = "Welcome to this Javascript Guide!";
+
+// Должно вернуть !ediuG tpircsavaJ siht ot emocleW
+var reverseEntireSentence = reverseBySeparator(string, "");
+
+// Возвращает emocleW ot siht tpircsavaJ !ediuG
+var reverseEachWord = reverseBySeparator(reverseEntireSentence, " ");
+
+function reverseBySeparator(string, separator) {
+  return string.split(separator).reverse().join(separator);
+}
+```
+
+###### Источник
+
+* https://github.com/kennymkchan/interview-questions-in-javascript
+
+[[↑] Вернуться к началу](#JavaScript)
+### Напишите функцию, которая позволит вам сделать это
+
+Вы можете создать замыкание, чтобы сохранить значение, переданное функции `createBase`, даже после того, как внутренняя функция возвращена. Возвращаемая внутренняя функция создается внутри внешней функции, делая ее закрытой, и она имеет доступ к переменным внутри внешней функции, в данном случае к переменной `baseNumber`.
+
+```js
+function createBase(baseNumber) {
+  return function(N) {
+    // мы ссылаемся на baseNumber здесь, даже если он был объявлен
+    // вне этой функции. Замыкания позволяют нам делать это в JavaScript
+    return baseNumber + N;
+  }
+}
+
+var addSix = createBase(6);
+addSix(10);
+addSix(21);
+```
+
+###### Источник
+
+* https://coderbyte.com/algorithm/3-common-javascript-closure-questions
+
+[[↑] Вернуться к началу](#JavaScript)
+### Реализуйте enqueue и dequeue, используя только два стека
+
+*Enqueue* означает добавить элемент(поставить в очередь), *dequeue*, означает удалить элемент( убрать из очереди).
+
+```js
+var inputStack = []; // Первый стек
+var outputStack = []; // Второй стек
+
+// Для постановки в очередь просто поместите предмет в первый стек
+function enqueue(stackInput, item) {
+  return stackInput.push(item);
+}
+
+function dequeue(stackInput, stackOutput) {
+  // Обратный стек, так что первый элемент выходного стека является
+  // последний элемент входного стека. После этого откройте верхнюю часть вывода и
+  // получите первый элемент, который когда-либо был помещен в стек ввода
+  if (stackOutput.length <= 0) {
+    while(stackInput.length > 0) {
+      var elementToOutput = stackInput.pop();
+      stackOutput.push(elementToOutput);
+    }
+  }
+
+  return stackOutput.pop();
+}
+```
+
+###### Источник
+
+* https://github.com/kennymkchan/interview-questions-in-javascript
+
+[[↑] Вернуться к началу](#JavaScript)
