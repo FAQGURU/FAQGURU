@@ -44,6 +44,7 @@ Note: Keep in mind that many of these questions are open-ended and could lead to
 1. [Code Problems](/topics/en/code-problems.md)
 1. [Data Structures](/topics/en/data-structures.md)
 1. [Design Patterns](/topics/en/design-patterns.md)
+1. [Agile](/topics/en/agile.md)
 1. PHP
 1. Android
 1. Swift
@@ -53,7 +54,6 @@ Note: Keep in mind that many of these questions are open-ended and could lead to
 1. Web Security
 1. Performance Testing
 1. UX Design
-1. Agile
 1. Scrum
 
 ## Translations
@@ -67,6 +67,11 @@ Note: Keep in mind that many of these questions are open-ended and could lead to
 ### Creating new Translations
 
 See [Creating new translations](CONTRIBUTING.md#Translations)
+
+## Authors
+
+- **Yl Markov** - [GITHUB](https://github.com/uliaaan) / [TWITTER](https://twitter.com/ylmarkov)
+- **Dennis** - [GITHUB](https://github.com/denisschmidt)
 
 ## License
 
