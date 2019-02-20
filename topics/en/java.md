@@ -226,15 +226,15 @@ The servlet is a Java programming language class used to process client requests
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is a JSP Page?
+### O que é uma página JSP?
 
-A Java Server Page (JSP) is a text document that contains two types of text: static data and JSP elements. Static data can be expressed in any text-based format, such as HTML or XML. JSP is a technology that mixes static content with dynamically-generated content.
+Uma página JSP (Java Server PAge) é um documento de texto que contem dois tipos de texto: dados estáticos e elementos JSP. Dados estáticos podem ser expressados em qualquer foramto baseado em texto, como HTML ou XML. JSP é uma tecnologia que mistura conteúdo estático com conteúdo gerado dinamicamente.
 
-###### Source
+###### Fonte
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
+[[↑] Voltar para o início](#Java)
 ### Let's talk Swing. What is the difference between a Choice and a List?
 
 A Choice is displayed in a compact form that must be pulled down, in order for a user to be able to see the list of all available choices. Only one item may be selected from a Choice. A List may be displayed in such a way that several List items are visible. A List supports the selection of one or more List items.
