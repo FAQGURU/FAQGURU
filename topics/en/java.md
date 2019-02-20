@@ -4,7 +4,7 @@
 
 [What is a Servlet?](#what-is-a-servlet)
 
-[What is a JSP Page?](#what-is-a-jsp-page)
+[O que é uma página JSP?](#O-que-é-uma-página-JSP)
 
 [Let's talk Swing. What is the difference between a Choice and a List?](#lets-talk-swing-what-is-the-difference-between-a-choice-and-a-list)
 
