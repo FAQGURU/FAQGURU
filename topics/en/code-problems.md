@@ -52,6 +52,7 @@
 
 [Transform Word](#transform-word)
 
+[Find the missing value in a set of number from 1 to n](#missing-value-set-of-numbers-1-to-n)
 
 
 ### Test divisors of three
@@ -1261,5 +1262,73 @@ module.exports = function (dictionary, start, end) {
 ###### Source
 
 * https://github.com/blakeembrey/code-problems/tree/master/problems/throttle
+
+[[↑] Back to top](#Code%20Problems)
+
+### Find the missing value in a set of number from 1 to n
+
+You are given a list of n-1 integers and these integers are in the range of 1 to n. There are no duplicates in list. One of the integers is missing in the list. Write an efficient code to find the missing integer.
+
+METHOD 1(Use sum formula)
+Algorithm:
+
+1. Get the sum of numbers 
+       total = n*(n+1)/2
+2  Subtract all the numbers from sum and
+   you will get the missing number.
+
+Time Complexity : O(n)
+   
+```js
+  // Function to find missing number
+  function getMissingNo (a, n)
+{
+  var i, total;
+  total  = (n+1)*(n+2)/2;
+  for ( i = 0; i< n; i++)
+  total -= a[i];
+  return total;
+}
+
+ getMissingNo([1,2,4,5,6],5);
+ 
+```
+
+METHOD 2(Use XOR)
+
+  1) XOR all the array elements, let the result of XOR be X1.
+  2) XOR all numbers from 1 to n, let XOR be X2.
+  3) XOR of X1 and X2 gives the missing number.
+ 
+Time Complexity : O(n) 
+ 
+```js
+
+  function getMissingNo (a, n)
+  {
+    var x1 = a[0];
+    var x2 = 1;
+
+    /* For xor of all the elements
+       in array */
+    for (var i = 1; i < n; i++)
+    x1 = x1 ^ a[i];
+
+    /* For xor of all the elements
+       from 1 to n+1 */
+    for (var i = 2; i <= n+1; i++)
+    x2 = x2 ^ i;
+
+    return (x1 ^ x2);
+  }
+  
+  var array = [1, 2, 4, 6, 3, 7, 8];
+  getMissingNo(array,array.length);
+ 
+```
+
+###### Source
+
+* https://www.geeksforgeeks.org/find-the-missing-number/
 
 [[↑] Back to top](#Code%20Problems)
