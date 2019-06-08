@@ -99,7 +99,7 @@ var vm = new Vue({
 [[↑] Back to top](#vuejs)
 ### What is Vue.js?
 
-**Vue js** is progressive javascript script used to create dynamic user interfaces.Vue js is very easy to learn.In order to work with Vue js you just need to add few dynamic features to a website.You don’t need to install any thing to use Vue js just need add Vue js library in your project.
+**Vue.js** is a progressive javascript framework used to create dynamic user interfaces. Vue.js is very easy to learn. In order to work with Vue.js you just need to add few dynamic features to a website. You don’t need to install any thing to use Vue.js you just need add the Vue.js library in your project.
 
 ###### Source
 
