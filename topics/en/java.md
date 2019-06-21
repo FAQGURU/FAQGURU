@@ -14,7 +14,7 @@
 
 [What are the two types of Exceptions in Java? Which are the differences between them? ](#what-are-the-two-types-of-exceptions-in-java-which-are-the-differences-between-them)
 
-[Explain the architechure of a Servlet.](#explain-the-architechure-of-a-servlet)
+[Explain the architecture of a Servlet.](#explain-the-architecture-of-a-servlet)
 
 [What is the difference between an Interface and an Abstract class? ](#what-is-the-difference-between-an-interface-and-an-abstract-class-)
 
@@ -26,7 +26,7 @@
 
 [What are Expressions?](#what-are-expressions)
 
-[What are Decalarations?](#what-are-decalarations)
+[What are Declarations?](#what-are-declarations)
 
 [What are JSP actions?](#what-are-jsp-actions)
 
@@ -271,7 +271,7 @@ Java has two types of exceptions: checked exceptions and unchecked exceptions. U
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### Explain the architechure of a Servlet.
+### Explain the architecture of a Servlet.
 
 The core abstraction that must be implemented by all servlets is the javax.servlet.Servlet interface. Each servlet must implement it either directly or indirectly, either by extending javax.servlet.GenericServlet or javax.servlet.http.HTTPServlet. Finally, each servlet is able to serve multiple requests in parallel using multithreading.
 
@@ -335,7 +335,7 @@ A JSP expression is used to insert the value of a scripting language expression,
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What are Decalarations?
+### What are Declarations?
 
 Declarations are similar to variable declarations in Java. Declarations are used to declare variables for subsequent use in expressions or scriptlets. To add a declaration, you must use the sequences to enclose your declarations.
 
@@ -417,7 +417,7 @@ The [Iterator](http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html)
 [[↑] Back to top](#Java)
 ### What is the purpose Class.forName method?
 
-This method is used to method is used to load the driver that will establish a connection to the database.
+This method is used to load the driver that will establish a connection to the database.
 
 ###### Source
 
@@ -989,7 +989,7 @@ An Applet is a client side java program that runs within a Web browser on the cl
 [[↑] Back to top](#Java)
 ### What are Scriptlets?
 
-In Java Server Pages (JSP) technology, a scriptlet is a piece of Java-code embedded in a JSP page. The scriptlet is everything inside the tags. Between these tags, a user can add any valid scriplet.
+In Java Server Pages (JSP) technology, a scriptlet is a piece of Java-code embedded in a JSP page. The scriptlet is everything inside the tags. Between these tags, a user can add any valid scriptlet.
 
 ###### Source
 
