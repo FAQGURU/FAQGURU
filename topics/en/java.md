@@ -1,6 +1,6 @@
 ## Java
 
-[O que é uma JVM? Por quê Java é chamada de “Linguagem de programação independente de plataforma”?](#o-que-é-jvm-por-quê-java-é-chamado-de-linguagem-de-programação-independente-de-plataforma)
+[O que é uma JVM? Por quê Java é chamada de “Linguagem de programação independente de plataforma”?](#o-que-e-jvm-por-que-java-e-chamado-de-linguagem-de-programacao-independente-de-plataforma)
 
 [What is a Servlet?](#what-is-a-servlet)
 
