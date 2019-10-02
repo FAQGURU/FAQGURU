@@ -8,7 +8,7 @@
 
 [Let's talk Swing. What is the difference between a Choice and a List?](#lets-talk-swing-what-is-the-difference-between-a-choice-and-a-list)
 
-[What is the difference between an Applet and a Java Application?](#what-is-the-difference-between-an-applet-and-a-java-application)
+[Qual a diferença entre uma applet e uma aplicação Java?](#qual-a-diferença-entre-uma-applet-e-uma-aplicação-java)
 
 [What is the Difference between JDK and JRE? ](#what-is-the-difference-between-jdk-and-jre)
 
@@ -244,9 +244,9 @@ A Choice is displayed in a compact form that must be pulled down, in order for a
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is the difference between an Applet and a Java Application?
+### Qual a diferença entre uma applet e uma aplicação Java?
 
-Applets are executed within a java enabled browser, but a Java application is a standalone Java program that can be executed outside of a browser. However, they both require the existence of a Java Virtual Machine (JVM). Furthermore, a Java application requires a main method with a specific signature, in order to start its execution. Java applets don’t need such a method to start their execution. Finally, Java applets typically use a restrictive security policy, while Java applications usually use more relaxed security policies.
+Applets são executados dentro de um navegador habilitado. Uma aplicação Java é um programa Java independente que pode ser executada sem um navegador habilitado. No entnado, ambos requeream uma Java Virtual Machine (JVM). Além disso, uma aplicação Java requer um método principal, com uma assinatura específica, a fim de possibilitar a inicialização da execução. Applets Java não precisam de um método para inicializar sua execução. Finalmente, applets Java tipicamente possuem uma política de segurança restritiva, enquanto aplicações Java suas políticas são mais relaxadas.
 
 ###### Source
 
