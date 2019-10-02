@@ -1,6 +1,6 @@
 ## Java
 
-[What is JVM? Why is Java called the “Platform Independent Programming Language”? ](#what-is-jvm-why-is-java-called-the-platform-independent-programming-language)
+[O que é uma JVM? Por quê Java é chamada de “Linguagem de programação independente de plataforma”?](#o-que-e-jvm-por-que-java-e-chamado-de-linguagem-de-programacao-independente-de-plataforma)
 
 [What is a Servlet?](#what-is-a-servlet)
 
@@ -207,10 +207,10 @@
 [How does thread synchronization occurs inside a monitor? What levels of synchronization can you apply? ](#how-does-thread-synchronization-occurs-inside-a-monitor-what-levels-of-synchronization-can-you-apply)
 
 
+[[↑] Back to top](#Java)
+### O que é JVM ? Por quê Java é chamado de “Linguagem de Programação Independente de Plataforma” ? 
 
-### What is JVM? Why is Java called the “Platform Independent Programming Language”? 
-
-A Java virtual machine (JVM) is a process virtual machine that can execute Java bytecode. Each Java source file is compiled into a bytecode file, which is executed by the JVM. Java was designed to allow application programs to be built that could be run on any platform, without having to be rewritten or recompiled by the programmer for each separate platform. A Java virtual machine makes this possible, because it is aware of the specific instruction lengths and other particularities of the underlying hardware platform.
+Uma Java Virtual Machine (JVM) é um processo de máquina virtual que pode executar bytecode Java. Cada arquivo de código Java é compilado em um arquivo bytecode, que é executado pela JVM. Java foi planejado para permitir criar programas para serem rodados em qualquer plataforma, sem necessidade de serem reescritos ou recompilados pelo programador separadamente, para cada plataforma. Uma Java Virtual Machine possibilita isso pois esta preparado para instruções específicas e outras particularidades pro baixo do hardware da plataforma.
 
 ###### Source
 
