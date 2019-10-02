@@ -2,7 +2,7 @@
 
 [O que é uma JVM? Por quê Java é chamada de “Linguagem de programação independente de plataforma”?](#o-que-e-jvm-por-que-java-e-chamado-de-linguagem-de-programacao-independente-de-plataforma)
 
-[What is a Servlet?](#what-is-a-servlet)
+[O que é uma Servlet?](#o-que-e-uma-servlet)
 
 [O que é uma página JSP?](#O-que-é-uma-página-JSP)
 
@@ -217,9 +217,9 @@ Uma Java Virtual Machine (JVM) é um processo de máquina virtual que pode execu
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is a Servlet?
+### O que é uma Servlet?
 
-The servlet is a Java programming language class used to process client requests and generate dynamic web content. Servlets are mostly used to process or store data submitted by an HTML form, provide dynamic content and manage state information that does not exist in the stateless HTTP protocol.
+A servlet é uma classe da linguagem de programação Java usada para processar requisições dos clientes e gerar conteúdo web dinâmico. Servlets são geralmente usadas para processar ou armazenar dados submetidos por um formulário HTML, provendo conteúdo dinâmico e gerenciar o status da informação que não existe no protocolo HTTP "stateless".
 
 ###### Source
 
