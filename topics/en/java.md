@@ -10,7 +10,7 @@
 
 [Qual a diferença entre uma applet e uma aplicação Java?](#qual-a-diferença-entre-uma-applet-e-uma-aplicação-java)
 
-[What is the Difference between JDK and JRE? ](#what-is-the-difference-between-jdk-and-jre)
+[qual é a diferença entre JDK e JRE? ](#qual-é-a-diferença-entre-jdk-e-jre)
 
 [What are the two types of Exceptions in Java? Which are the differences between them? ](#what-are-the-two-types-of-exceptions-in-java-which-are-the-differences-between-them)
 
@@ -253,9 +253,9 @@ Applets são executados dentro de um navegador habilitado. Uma aplicação Java 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is the Difference between JDK and JRE? 
+### Qual é a diferença entre JDK e JRE? 
 
-The Java Runtime Environment (JRE) is basically the Java Virtual Machine (JVM) where your Java programs are being executed. It also includes browser plugins for applet execution. The Java Development Kit (JDK) is the full featured Software Development Kit for Java, including the JRE, the compilers and tools (like JavaDoc, and Java Debugger), in order for a user to develop, compile and execute Java applications.
+A Java Runtime Environment (JRE) é basicamente a Java Virtual Machine (JVM) onde seus programas java estão sendo executados. A JRE também inclue plugins para navegador para execução de applets. O Java Development Kit (JDK) é um kit Java completo de desenvolvimento de software, includido a JRE, os compiladores and ferramentas (como JavaDoc, e Java Debugger), para que um usuário desenvolva, compile and execute aplicações Java.
 
 ###### Source
 
