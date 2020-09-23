@@ -94,7 +94,7 @@
 * https://github.com/sudheerj/reactjs-interview-questions
 
 [[↑] Back to top](#Redux)
-### Do you need to keepIs all component states in Redux store?
+### Do you need to keep all component states in Redux store?
 
 You need to keep your application state as small as possible. You don't have to push everything in there. Only do it makes a lot of sense to keep something there Or if it makes your life easier when using Dev Tools. But we shouldn't overload its importance too much.
 
