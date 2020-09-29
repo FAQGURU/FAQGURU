@@ -4,7 +4,7 @@
 
 [O que é uma Servlet?](#o-que-e-uma-servlet)
 
-[What is a JSP Page?](#what-is-a-jsp-page)
+[O que é uma página JSP?](#O-que-é-uma-página-JSP)
 
 [Let's talk Swing. What is the difference between a Choice and a List?](#lets-talk-swing-what-is-the-difference-between-a-choice-and-a-list)
 
@@ -228,13 +228,14 @@ A servlet é uma classe da linguagem de programação Java usada para processar 
 [[↑] Back to top](#Java)
 ### O que é uma página JSP?
 
-Uma Java Server Page (JSP) é um documento de texto que contém dois tipos de texto: dados estáticos e elementos JSP. Os dados estáticos podem ser expressos em qualquer formato baseado em texto, como HTML ou XML. JSP é uma tecnologia que mistura conteúdo estático com conteúdo gerado dinamicamente.
+Uma página JSP (Java Server PAge) é um documento de texto que contem dois tipos de texto: dados estáticos e elementos JSP. Dados estáticos podem ser expressados em qualquer foramto baseado em texto, como HTML ou XML. JSP é uma tecnologia que mistura conteúdo estático com conteúdo gerado dinamicamente.
 
-###### Source
+###### Fonte
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
+
+[[↑] Voltar para o início](#Java)
 ### Vamos conversar sobre o Swing. Qual é a diferença entre um Choice e um List?
 
 Um Choice é exibido em um formato compacto que deve ser puxado para baixo, para que um usuário possa ver a lista de todas as opções disponíveis. Apenas um item pode ser selecionado em um Choice. Um List pode ser exibido de forma que vários itens da lista sejam visíveis. Um List suporta a seleção de um ou mais itens do List.
