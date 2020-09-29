@@ -226,18 +226,18 @@ A servlet é uma classe da linguagem de programação Java usada para processar 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is a JSP Page?
+### O que é uma página JSP?
 
-A Java Server Page (JSP) is a text document that contains two types of text: static data and JSP elements. Static data can be expressed in any text-based format, such as HTML or XML. JSP is a technology that mixes static content with dynamically-generated content.
+Uma Java Server Page (JSP) é um documento de texto que contém dois tipos de texto: dados estáticos e elementos JSP. Os dados estáticos podem ser expressos em qualquer formato baseado em texto, como HTML ou XML. JSP é uma tecnologia que mistura conteúdo estático com conteúdo gerado dinamicamente.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### Let's talk Swing. What is the difference between a Choice and a List?
+### Vamos conversar sobre o Swing. Qual é a diferença entre um Choice e um List?
 
-A Choice is displayed in a compact form that must be pulled down, in order for a user to be able to see the list of all available choices. Only one item may be selected from a Choice. A List may be displayed in such a way that several List items are visible. A List supports the selection of one or more List items.
+Um Choice é exibido em um formato compacto que deve ser puxado para baixo, para que um usuário possa ver a lista de todas as opções disponíveis. Apenas um item pode ser selecionado em um Choice. Um List pode ser exibido de forma que vários itens da lista sejam visíveis. Um List suporta a seleção de um ou mais itens do List.
 
 ###### Source
 
@@ -262,73 +262,72 @@ A Java Runtime Environment (JRE) é basicamente a Java Virtual Machine (JVM) ond
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What are the two types of Exceptions in Java? Which are the differences between them? 
+### Quais são os dois tipos de exceção em Java? Qual a diferença entre eles? 
 
-Java has two types of exceptions: checked exceptions and unchecked exceptions. Unchecked exceptions do not need to be declared in a method or a constructor’s throws clause, if they can be thrown by the execution of the method or the constructor, and propagate outside the method or constructor boundary. On the other hand, checked exceptions must be declared in a method or a constructor’s throws clause. See here for tips on [Java exception handling](http://www.javacodegeeks.com/2013/07/java-exception-handling-tutorial-with-examples-and-best-practices.html).
-
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### Explain the architechure of a Servlet.
-
-The core abstraction that must be implemented by all servlets is the javax.servlet.Servlet interface. Each servlet must implement it either directly or indirectly, either by extending javax.servlet.GenericServlet or javax.servlet.http.HTTPServlet. Finally, each servlet is able to serve multiple requests in parallel using multithreading.
+Java tem dois tipos de exceções: exceções checked e exceções unchecked. As exceções unchecked não precisam ser declaradas em um método ou cláusula throws do construtor, se elas puderem ser lançadas pela execução do método ou do construtor e se propagarem fora do método ou limite do construtor. Por outro lado, as exceções verificadas devem ser declaradas em um método ou cláusula throws do construtor. Veja aqui dicas sobre [tratamento de exceções Java] (http://www.javacodegeeks.com/2013/07/java-exception-handling-tutorial-with-examples-and-best-practices.html).
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is the difference between an Interface and an Abstract class? 
+### Explique a arquitetura de uma Servlet.
 
-Java provides and supports the creation both of [abstract classes](http://examples.javacodegeeks.com/java-basics/java-abstract-class-example/) and interfaces. Both implementations share some common characteristics, but they differ in the following features:
-
-* All methods in an interface are implicitly abstract. On the other hand, an abstract class may contain both abstract and non-abstract methods.
-* A class may implement a number of Interfaces, but can extend only one abstract class.
-* In order for a class to implement an interface, it must implement all its declared methods. However, a class may not implement all declared methods of an abstract class. Though, in this case, the sub-class must also be declared as abstract.
-* Abstract classes can implement interfaces without even providing the implementation of interface methods.
-* Variables declared in a Java interface is by default final. An abstract class may contain non-final variables.
-* Members of a Java interface are public by default. A member of an abstract class can either be private, protected or public.
-* An interface is absolutely abstract and cannot be instantiated. An abstract class also cannot be instantiated, but can be invoked if it contains a main method.
-* 
-Also check out the [Abstract class and Interface differences for JDK 8](http://www.javacodegeeks.com/2014/04/abstract-class-versus-interface-in-the-jdk-8-era.html).
+A abstração central que deve ser implementada por todos os servlets é a interface javax.servlet.Servlet. Cada servlet deve implementá-lo direta ou indiretamente, estendendo javax.servlet.GenericServlet ou javax.servlet.http.HTTPServlet. Por fim, cada servlet é capaz de atender a vários requests em paralelo usando multithreading. 
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What are pass by reference and pass by value? 
+### Qual é a diferença entre uma interface e uma classe abstrata? 
 
-When an object is passed by value, this means that a copy of the object is passed. Thus, even if changes are made to that object, it doesn’t affect the original value. When an object is passed by reference, this means that the actual object is not passed, rather a reference of the object is passed. Thus, any changes made by the external method, are also reflected in all places.
+Java fornece e suporta a criação de [classes abstratas] (http://examples.javacodegeeks.com/java-basics/java-abstract-class-example/) e interfaces. Ambas as implementações compartilham algumas características comuns, mas diferem nos seguintes recursos: 
 
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### What is the difference between processes and threads?
-
-A process is an execution of a program, while a [Thread](http://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html) is a single execution sequence within a process. A process can contain multiple threads. A [Thread](http://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html) is sometimes called a lightweight process.
-
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### Explain Serialization and Deserialization. 
-
-Java provides a mechanism, called object serialization where an object can be represented as a sequence of bytes and includes the object’s data, as well as information about the object’s type, and the types of data stored in the object. Thus, serialization can be seen as a way of flattening objects, in order to be stored on disk, and later, read back and reconstituted. Deserialisation is the reverse process of converting an object from its flattened state to a live object.
+* Todos os métodos em uma interface são implicitamente abstratos. Por outro lado, uma classe abstrata pode conter métodos abstratos e não abstratos.
+* Uma classe pode implementar várias interfaces, mas pode estender apenas uma classe abstrata. 
+* Para que uma classe implemente uma interface, ela deve implementar todos os seus métodos declarados. No entanto, uma classe pode não implementar todos os métodos declarados de uma classe abstrata. Porém, neste caso, a subclasse também deve ser declarada como abstrata.
+* As classes abstratas podem implementar interfaces sem nem mesmo fornecer a implementação de métodos de interface.
+* As variáveis ​​declaradas em uma interface Java são, por padrão, finais. Uma classe abstrata pode conter variáveis ​​não finais. 
+* Os membros de uma interface Java são públicos por padrão. Um membro de uma classe abstrata pode ser privado, protegido ou público.
+* Uma interface é absolutamente abstrata e não pode ser instanciada. Uma classe abstrata também não pode ser instanciada, mas pode ser chamada se contiver um método main.
+* Veja também [Classe abstrata e diferenças de interface para JDK 8] (http://www.javacodegeeks.com/2014/04/abstract-class-versus-interface-in-the-jdk-8-era. html). 
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What are Expressions?
+### O que são passagem por referência e passagem por valor? 
 
-A JSP expression is used to insert the value of a scripting language expression, converted into a string, into the data stream returned to the client, by the web server. Expressions are defined between <% = and %> tags.
+Quando um objeto é passado por valor, significa que uma cópia do objeto é passada. Assim, mesmo que sejam feitas alterações nesse objeto, isso não afeta o valor original. Quando um objeto é passado por referência, isso significa que o objeto real não é passado, em vez disso, uma referência do objeto é passada. Assim, quaisquer alterações feitas pelo método externo, também são refletidas em todos os lugares.
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### Qual é a diferença entre processos e threads?
+
+Um processo é a execução de um programa, enquanto um [Thread] (http://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html) é uma sequência de execução única dentro de um processo. Um processo pode conter vários threads. Um [Thread] (http://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html) às vezes é chamado de processo leve.
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### Explique Serialização e Desserialização. 
+
+Java fornece um mecanismo, chamado de serialização de objeto, onde um objeto pode ser representado como uma sequência de bytes e inclui os dados do objeto, bem como informações sobre o tipo do objeto e os tipos de dados armazenados no objeto. Assim, a serialização pode ser vista como uma forma de achatar objetos, a fim de serem armazenados em disco e, posteriormente, relidos e reconstituídos. A desserialização é o processo reverso de conversão de um objeto de seu estado achatado em um objeto vivo.
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### O que são expressões?
+
+Uma expressão JSP é usada para inserir o valor de uma expressão de linguagem de script, convertida em uma string, no fluxo de dados retornado ao cliente pelo servidor web. As expressões são definidas entre as tags <% = e%>.
 
 ###### Source
 
@@ -1214,27 +1213,26 @@ The throughput garbage collector uses a parallel version of the young generation
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is the difference between HashSet and TreeSet?
+### Qual é a diferença entre HashSet e TreeSet?
 
-The [HashSet](http://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html) is Implemented using a hash table and thus, its elements are not ordered. The add, remove, and contains methods of a [HashSet](http://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html)  have constant time complexity O(1). On the other hand, a [TreeSet](http://docs.oracle.com/javase/7/docs/api/java/util/TreeSet.html) is implemented using a tree structure. The elements in a [TreeSet](http://docs.oracle.com/javase/7/docs/api/java/util/TreeSet.html) are sorted, and thus, the add, remove, and contains methods have time complexity of O(logn).
+O HashSet é implementado usando uma tabela hash e, portanto, seus elementos não são ordenados. Os métodos add, remove e contains de um HashSet têm complexidade de tempo constante O (1). Por outro lado, um TreeSet é implementado usando uma estrutura de árvore. Os elementos em um TreeSet são classificados e, portanto, os métodos add, remove e contains têm complexidade de tempo de O (logn).
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### O Garbage Collection ocorre no espaço de geração permanente na JVM?
+
+O Garbage Collection ocorre no espaço PermGen e se o espaço PermGen estiver cheio ou ultrapassar um limite, pode acionar uma Garbage Collection completa. Se você olhar cuidadosamente para a saída do garbage collector, verá que o espaço PermGen também é coletado. Esta é a razão pela qual o dimensionamento correto do espaço PermGen é importante para evitar coletas de lixo completas frequentes.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### Does Garbage collection occur in permanent generation space in JVM?
+### O que é DGC? E como funciona?
 
-Garbage Collection does occur in PermGen space and if PermGen space is full or cross a threshold, it can trigger a full garbage collection. If you look carefully at the output of the garbage collector, you will find that PermGen space is also garbage collected. This is the reason why correct sizing of PermGen space is important to avoid frequent full garbage collections. 
-
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### What is DGC ? And how does it work?
-
-DGC stands for Distributed Garbage Collection. Remote Method Invocation (RMI) uses DGC for automatic garbage collection. Since RMI involves remote object references across JVM’s, garbage collection can be quite difficult. DGC uses a reference counting algorithm to provide automatic memory management for remote objects.
+DGC significa Distributed Garbage Collection (Coleta de Lixo Distribuída). O Método de Invocação Remota (RMI-Remote Method Invocation ) usa o DGC para a coleta automática de lixo. Uma vez que RMI envolve referências de objetos remotos em JVMs, o Garbage Collection pode ser bastante difícil. O DGC usa um algoritmo de contagem de referência para fornecer gerenciamento automático de memória para objetos remotos.
 
 
 ###### Source
@@ -1242,22 +1240,23 @@ DGC stands for Distributed Garbage Collection. Remote Method Invocation (RMI) us
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What are the layers of RMI Architecture?
+### Quais são as camadas da arquitetura RMI?
 
-The RMI architecture consists of the following layers:
+A arquitetura RMI architecture consiste nas seguintes camadas:
 
-* Stub and Skeleton layer: This layer lies just beneath the view of the developer. This layer is responsible for intercepting method calls made by the client to the interface and redirect these calls to a remote RMI Service.
-* Remote Reference Layer: The second layer of the RMI architecture deals with the interpretation of references made from the client to the server’s remote objects. This layer interprets and manages references made from clients to the remote service objects. The connection is a one-to-one (unicast) link.
-* Transport layer: This layer is responsible for connecting the two JVM participating in the service. This layer is based on TCP/IP connections between machines in a network. It provides basic connectivity, as well as some firewall penetration strategies.
+* Camada de esboço e esqueleto: esta camada fica logo abaixo da visão do desenvolvedor. Essa camada é responsável por interceptar chamadas de método feitas pelo cliente para a interface e redirecionar essas chamadas para um serviço RMI remoto.
+* Camada de referência remota: A segunda camada da arquitetura RMI lida com a interpretação das referências feitas a partir do cliente para os objetos remotos do servidor. Essa camada interpreta e gerencia as referências feitas dos clientes aos objetos de serviço remoto. A conexão é um link um-para-um (unicast).
+* Camada de transporte: Esta camada é responsável por conectar as duas JVM participantes do serviço. Esta camada é baseada em conexões TCP / IP entre máquinas em uma rede. Ele fornece conectividade básica, bem como algumas estratégias de penetração de firewall.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### How does thread synchronization occurs inside a monitor? What levels of synchronization can you apply? 
 
-The JVM uses locks in conjunction with monitors. A monitor is basically a guardian that watches over a sequence of synchronized code and ensuring that only one thread at a time executes a synchronized piece of code. Each monitor is associated with an object reference. The thread is not allowed to execute the code until it obtains the lock.
+### Como a sincronização de thread ocorre dentro de um monitor? Que níveis de sincronização você pode aplicar?
+
+A JVM usa bloqueios em conjunto com monitores. Um monitor é basicamente um guardião que zela por uma sequência de código sincronizado e garante que apenas uma thread de cada vez execute uma parte sincronizada do código. Cada monitor está associado a uma referência de objeto. O thread não tem permissão para executar o código até obter o bloqueio.
 
 ###### Source
 
