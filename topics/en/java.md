@@ -335,9 +335,9 @@ Uma expressão JSP é usada para inserir o valor de uma expressão de linguagem 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What are Decalarations?
+### O que são Declarações?
 
-Declarations are similar to variable declarations in Java. Declarations are used to declare variables for subsequent use in expressions or scriptlets. To add a declaration, you must use the sequences to enclose your declarations.
+Declarações são similares às declarações de variáveis em Java. Declarações são usadas para declarar variáveis para uso subsequente em esperessões ou scriptlets. Para adicionar uma declaração, você deverá usar as sequencias para fechar suas declarações.
 
 ###### Source
 
