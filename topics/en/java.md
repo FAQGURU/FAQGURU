@@ -344,16 +344,56 @@ Declarações são similares às declarações de variáveis em Java. Declaraç�
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What are JSP actions?
+### O que são JSP actions?
 
-JSP actions use constructs in XML syntax to control the behavior of the servlet engine. JSP actions are executed when a JSP page is requested. They can be dynamically inserted into a file, re-use JavaBeans components, forward the user to another page, or generate HTML for the Java plugin.Some of the available actions are listed below:
+JSP actions são construtos na sintaxe XML para controlar o comportamento do motor da servlet. As JSP actions são executadas quando uma página JSP é solicitada. Eles podem ser inseridos dinamicamente em um arquivo, reutilizar componentes JavaBeans, encaminhar o usuário para outra página ou gerar HTML para o plugin Java. Algumas das ações disponíveis estão listadas abaixo:
 
-* jsp:include – includes a file, when the JSP page is requested.
-* jsp:useBean – finds or instantiates a JavaBean.
-* jsp:setProperty – sets the property of a JavaBean.
-* jsp:getProperty – gets the property of a JavaBean.
-* jsp:forward – forwards the requester to a new page.
-* jsp:plugin – generates browser-specific code.
+* jsp:include - inclui um arquivo, quando a página JSP é solicitada.
+* jsp:useBean - encontra ou instancia um JavaBean.
+* jsp:setProperty - define a propriedade de um JavaBean.
+* jsp:getProperty - obtém a propriedade de um JavaBean.
+* jsp:forward - encaminha o solicitante para uma nova página.
+* jsp:plugin - gera código específico do navegador.
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+
+### O que são Diretivas?
+
+Quais são os diferentes tipos de diretivas disponíveis no JSP? As diretivas são instruções processadas pelo mecanismo JSP, quando a página é compilada para um servlet. As diretivas são usadas para definir instruções no nível da página, inserir dados de arquivos externos e especificar bibliotecas de tags personalizadas. As diretivas são definidas entre <% @ e%>. Os diferentes tipos de diretivas são mostrados abaixo:
+
+* Include: é usada para incluir um arquivo e mesclar o conteúdo do arquivo com a página atual.
+* Page: é usada para definir atributos específicos na página JSP, como página de erro e buffer.
+* Taglib: é usado para declarar uma biblioteca de tags personalizadas que é usada na página.
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+
+### Como as solicitações JSP são tratadas?
+
+Na chegada de uma solicitação JSP, o navegador primeiro solicita uma página com uma extensão .jsp. Em seguida, o servidor da Web lê a solicitação e, usando o compilador JSP, converte a página JSP em uma classe de servlet. Observe que o arquivo JSP é compilado apenas na primeira solicitação da página, ou se o arquivo JSP foi alterado. A classe de servlet gerada é chamada, a fim de lidar com a solicitação do navegador. Assim que a execução da solicitação termina, o servlet envia uma resposta de volta ao cliente. Veja
+ [how to get Request parameters in a JSP](http://examples.javacodegeeks.com/enterprise-java/jsp/get-request-parameter-in-jsp-page/).
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+
+### Quais são as interfaces básicas do Java Collections Framework?
+
+[Java Collections Framework] (http://docs.oracle.com/javase/7/docs/technotes/guides/collections/overview.html) fornece um conjunto bem projetado de interfaces e classes que suportam operações em coleções de objetos. As interfaces mais básicas que residem no Java Collections Framework são:
+
+* [Collection] (http://docs.oracle.com/javase/7/docs/api/java/util/Collection.html), que representa um grupo de objetos conhecidos como seus elementos.
+* [Set] (http://docs.oracle.com/javase/7/docs/api/java/util/Set.html), que é uma coleção que não pode conter elementos duplicados.
+* [List] (http://docs.oracle.com/javase/7/docs/api/java/util/List.html), que é uma coleção ordenada e pode conter elementos duplicados.
+* [Map] (http://docs.oracle.com/javase/7/docs/api/java/util/Map.html), que é um objeto que mapeia chaves para valores e não pode conter chaves duplicadas.
 
 
 ###### Source
@@ -361,158 +401,121 @@ JSP actions use constructs in XML syntax to control the behavior of the servlet 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What are Directives?
+### O que significa a palavra-chave static ? Você pode substituir o método privado ou estático em Java?
 
-What are the different types of Directives available in JSP ? Directives are instructions that are processed by the JSP engine, when the page is compiled to a servlet. Directives are used to set page-level instructions, insert data from external files, and specify custom tag libraries. Directives are defined between < %@ and % >.The different types of directives are shown below:
-
-* Include directive: it is used to include a file and merges the content of the file with the current page.
-* Page directive: it is used to define specific attributes in the JSP page, like error page and buffer.
-* Taglib: it is used to declare a custom tag library which is used in the page.
+A palavra-chave static denota que uma variável de membro ou método pode ser acessado, sem exigir uma instanciação da classe à qual pertence. Um usuário não pode substituir métodos estáticos em Java, porque a substituição de método é baseada na ligação dinâmica no tempo de execução e os métodos estáticos são ligados estaticamente no tempo de compilação. Um método estático não está associado a nenhuma instância de uma classe, portanto, o conceito não é aplicável.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### How are the JSP requests handled?
+### O que é um Iterador?
 
-On the arrival of a JSP request, the browser first requests a page with a .jsp extension. Then, the Web server reads the request and using the JSP compiler, the Web server converts the JSP page into a servlet class. Notice that the JSP file is compiled only on the first request of the page, or if the JSP file has changed.The generated servlet class is invoked, in order to handle the browser’s request. Once the execution of the request is over, the servlet sends a response back to the client. See [how to get Request parameters in a JSP](http://examples.javacodegeeks.com/enterprise-java/jsp/get-request-parameter-in-jsp-page/).
-
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### What are the basic interfaces of Java Collections Framework? 
-
-[Java Collections Framework](http://docs.oracle.com/javase/7/docs/technotes/guides/collections/overview.html) provides a well designed set of interfaces and classes that support operations on a collections of objects. The most basic interfaces that reside in the Java Collections Framework are:
-
-* [Collection](http://docs.oracle.com/javase/7/docs/api/java/util/Collection.html), which represents a group of objects known as its elements.
-* [Set](http://docs.oracle.com/javase/7/docs/api/java/util/Set.html), which is a collection that cannot contain duplicate elements.
-* [List](http://docs.oracle.com/javase/7/docs/api/java/util/List.html), which is an ordered collection and can contain duplicate elements.
-* [Map](http://docs.oracle.com/javase/7/docs/api/java/util/Map.html), which is an object that maps keys to values and cannot contain duplicate keys.
+A interface do [Iterator] (http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html) fornece vários métodos que podem iterar sobre qualquer [Coleção] (http: //docs.oracle.com/javase/7/docs/api/java/util/Collection.html). Cada Java [Collection] (http://docs.oracle.com/javase/7/docs/api/java/util/Collection.html) contém o [Iterator] (http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html) método que retorna uma instância [Iterator] (http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html). Os iteradores são capazes de remover elementos da coleção subjacente durante a iteração.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What does the “static” keyword mean? Can you override private or static method in Java?
+### Qual é o propósito do método Class.forName?
 
-The static keyword denotes that a member variable or method can be accessed, without requiring an instantiation of the class to which it belongs. A user cannot override static methods in Java, because method overriding is based upon dynamic binding at runtime and static methods are statically binded at compile time. A static method is not associated with any instance of a class so the concept is not applicable.
+Este método é utilizado para carregar o driver que estabelecerá uma conexão com o banco de dados.
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### O que é JDBC?
+
+JDBC é uma camada de abstração que permite aos usuários escolher entre os bancos de dados. [JDBC permite que os desenvolvedores escrevam aplicativos de banco de dados em Java] (http://www.javacodegeeks.com/2014/03/java-8-friday-java-8-will-revolutionize-database-access.html), sem ter que preocupam-se com os detalhes subjacentes de um determinado banco de dados.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is an Iterator? 
+### Como o HashMap funciona em Java?
 
-The [Iterator](http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html) interface provides a number of methods that are able to iterate over any [Collection](http://docs.oracle.com/javase/7/docs/api/java/util/Collection.html). Each Java [Collection](http://docs.oracle.com/javase/7/docs/api/java/util/Collection.html) contains the [Iterator](http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html)  method that returns an [Iterator](http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html)  instance. Iterators are capable of removing elements from the underlying collection during the iteration.
-
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### What is the purpose Class.forName method?
-
-This method is used to method is used to load the driver that will establish a connection to the database.
+[Um HashMap em Java armazena pares de valores-chave] (http://www.javacodegeeks.com/2014/03/how-hashmap-works-in-java.html). O [HashMap] (http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html) requer uma função hash e usa hashCode e métodos equals, a fim de colocar e recuperar elementos para e da coleção, respectivamente. Quando o método put é invocado, o [HashMap] (http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html) calcula o valor hash da chave e armazena o par em o índice apropriado dentro da coleção. Se a chave existir, seu valor será atualizado com o novo valor. Algumas características importantes de um [HashMap] (http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html) são sua capacidade, seu fator de carga e o redimensionamento do limite.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is JDBC?
+### Qual é o padrão de design que o Java usa para todos os componentes Swing?
 
-JDBC is an abstraction layer that allows users to choose between databases. [JDBC enables developers to write database applications in Java](http://www.javacodegeeks.com/2014/03/java-8-friday-java-8-will-revolutionize-database-access.html), without having to concern themselves with the underlying details of a particular database.
-
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### How HashMap works in Java? 
-
-[A HashMap in Java stores key-value pairs](http://www.javacodegeeks.com/2014/03/how-hashmap-works-in-java.html). The [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html) requires a hash function and uses hashCode and equals methods, in order to put and retrieve elements to and from the collection respectively. When the put method is invoked, the [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html) calculates the hash value of the key and stores the pair in the appropriate index inside the collection. If the key exists, its value is updated with the new value. Some important characteristics of a [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html) are its capacity, its load factor and the threshold resizing.
+O padrão de design usado por Java para todos os componentes Swing é o padrão Model View Controller (MVC).
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is the design pattern that Java uses for all Swing components?
+### Que diferenças existem entre HashMap e Hashtable?
 
-The design pattern used by Java for all Swing components is the Model View Controller (MVC) pattern.
+Tanto o [HashMap] (http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html) e [Hashtable] (http://docs.oracle.com/javase/7/docs/api/java/util/Hashtable.html) implementam a interface Map e, portanto, têm características muito semelhantes. No entanto, eles diferem nos seguintes recursos:
 
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### What differences exist between HashMap and Hashtable? 
-
-Both the [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html) and [Hashtable](http://docs.oracle.com/javase/7/docs/api/java/util/Hashtable.html) classes implement the Map interface and thus, have very similar characteristics. However, they differ in the following features:
-
-* A [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html) allows the existence of null keys and values, while a [Hashtable](http://docs.oracle.com/javase/7/docs/api/java/util/Hashtable.html) doesn’t allow neither null keys, nor null values.
-* A [Hashtable](http://docs.oracle.com/javase/7/docs/api/java/util/Hashtable.html) is synchronized, while a [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html) is not. Thus, [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html) is preferred in single-threaded environments, while a [Hashtable](http://docs.oracle.com/javase/7/docs/api/java/util/Hashtable.html) is suitable for multi-threaded environments.
-* A [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html) provides its set of keys and a Java application can iterate over them. Thus, a [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html) is fail-fast. On the other hand, a [Hashtable](http://docs.oracle.com/javase/7/docs/api/java/util/Hashtable.html) provides an [Enumeration](http://docs.oracle.com/javase/7/docs/api/java/util/Enumeration.html) of its keys.
-* The [Hashtable](http://docs.oracle.com/javase/7/docs/api/java/util/Hashtable.html) class is considered to be a legacy class.
+* Um [HashMap] (http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html) permite a existência de chaves e valores nulos, enquanto um [Hashtable] (http: / /docs.oracle.com/javase/7/docs/api/java/util/Hashtable.html) não permite nem chaves nulas, nem valores nulos.
+* Um [Hashtable] (http://docs.oracle.com/javase/7/docs/api/java/util/Hashtable.html) é sincronizado, enquanto um [HashMap] (http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html) não é. Assim, [HashMap] (http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html) é preferido em ambientes de thread único, enquanto [Hashtable] (http: // docs.oracle.com/javase/7/docs/api/java/util/Hashtable.html) é adequado para ambientes multithread.
+* Um [HashMap] (http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html) fornece seu conjunto de chaves e um aplicativo Java pode iterar sobre elas. Assim, um [HashMap] (http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html) é fail-fast (relata imediatamente em sua interface qualquer condição que possa indicar uma falha). Por outro lado, uma [Hashtable] (http://docs.oracle.com/javase/7/docs/api/java/util/Hashtable.html) fornece uma [Enumeração] (http://docs.oracle.com/javase/7/docs/api/java/util/Enumeration.html) de suas chaves.
+* A classe [Hashtable] (http://docs.oracle.com/javase/7/docs/api/java/util/Hashtable.html) é considerada uma classe legada.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What advantage do Java’s layout managers provide over traditional windowing systems?
+### Que vantagem os gerenciadores de layout do Java oferecem em relação aos sistemas de janelas tradicionais?
 
-Java uses layout managers to lay out components in a consistent manner, across all windowing platforms. Since layout managers aren’t tied to absolute sizing and positioning, they are able to accomodate platform-specific differences among windowing systems
-
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### How can a GUI component handle its own events?
-
-A GUI component can handle its own events, by implementing the corresponding event-listener interface and adding itself as its own event listener.
+Java usa gerenciadores de layout para definir componentes de maneira consistente, em todas as plataformas de janelas. Uma vez que os gerenciadores de layout não estão vinculados a dimensionamento e posicionamento absolutos, eles são capazes de acomodar diferenças específicas de plataforma entre sistemas de janelas
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is a layout manager?
+### Como um componente GUI pode lidar com seus próprios eventos?
 
-A layout manager is the used to organize the components in a container.
-
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### What’s the difference between sendRedirect and forward methods?
-
-The sendRedirect method creates a new request, while the forward method just forwards a request to a new target. The previous request scope objects are not available after a redirect, because it results in a new request. On the other hand, the previous request scope objects are available after forwarding. FInally, in general, the sendRedirect method is considered to be slower compare to the forward method.
+Um componente GUI pode manipular seus próprios eventos, implementando a event-listener correspondente e adicionando a si mesmo como seu próprio event-listener.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What do you know about the big-O notation and can you give some examples with respect to different data structures?
+### O que é um layout manager?
 
-The Big-O notation simply describes how well an algorithm scales or performs in the worst case scenario as the number of elements in a data structure increases. The Big-O notation can also be used to describe other behavior such as memory consumption. Since the collection classes are actually data structures, we usually use the Big-O notation to chose the best implementation to use, based on time, memory and performance. Big-O notation can give a good indication about performance for large amounts of data.
+Um layout manager é usadi para organizar os componentes em um container.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What are the Data Types supported by Java? What is Autoboxing and Unboxing?
+### Qual é a diferença entre os métodos sendRedirect e forward?
 
-The eight primitive data types supported by the Java programming language are:
+O método sendRedirect cria uma nova solicitação, enquanto o método forward apenas encaminha uma solicitação para um novo destino. Os objetos de escopo de solicitação anteriores não estão disponíveis após um redirecionamento, porque resulta em uma nova solicitação. Por outro lado, os objetos do escopo da solicitação anterior ficam disponíveis após o encaminhamento. Finalmente, em geral, o método sendRedirect é considerado mais lento em comparação com o método forward.
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### O que você sabe sobre a notação big-O e pode dar alguns exemplos com relação a diferentes estruturas de dados?
+
+A notação Big-O simplesmente descreve quão bem um algoritmo é escalonado ou executado no pior cenário possível conforme o número de elementos em uma estrutura de dados aumenta. A notação Big-O também pode ser usada para descrever outro comportamento, como consumo de memória. Como as classes de coleção são, na verdade, estruturas de dados, geralmente usamos a notação Big-O para escolher a melhor implementação a ser usada, com base em tempo, memória e desempenho. A notação Big-O pode dar uma boa indicação sobre o desempenho de grandes quantidades de dados.
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### Quais sã os tipos de dados suportados pelo Java? O que é Autoboxing e Unboxing?
+
+Os oito tipos de dados primitivos suportados pela linguagem de programação Java são:
 
 * byte
 * short
@@ -523,7 +526,7 @@ The eight primitive data types supported by the Java programming language are:
 * boolean
 * char
 
-Autoboxing is [the automatic conversion made by the Java compiler](http://www.javacodegeeks.com/2013/07/java-generics-tutorial-example-class-interface-methods-wildcards-and-much-more.html) between the primitive types and their corresponding object wrapper classes. For example, the compiler converts an int to an [Integer](http://docs.oracle.com/javase/7/docs/api/java/lang/Integer.html?is-external=true), a double to a [Double](http://docs.oracle.com/javase/7/docs/api/java/lang/Double.html), and so on. If the conversion goes the other way, this operation is called unboxing.
+Autoboxing esta [the automatic conversion made by the Java compiler](http://www.javacodegeeks.com/2013/07/java-generics-tutorial-example-class-interface-methods-wildcards-and-much-more.html) entre os tipos primitivos e suas correspondentes classes de objeto wrapper. Por examplo, o compilador converte um int para um [Integer](http://docs.oracle.com/javase/7/docs/api/java/lang/Integer.html?is-external=true), um double para o [Double](http://docs.oracle.com/javase/7/docs/api/java/lang/Double.html), e assim por diante. Se a conversão for no sentido contrário, essa operação é chamada de unboxing.
 
 ###### Source
 
