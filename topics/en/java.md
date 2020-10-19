@@ -14,9 +14,9 @@
 
 [What are the two types of Exceptions in Java? Which are the differences between them? ](#what-are-the-two-types-of-exceptions-in-java-which-are-the-differences-between-them)
 
-[Explain the architechure of a Servlet.](#explain-the-architechure-of-a-servlet)
+[Explain the architecture of a Servlet.](#explain-the-architecture-of-a-servlet)
 
-[What is the difference between an Interface and an Abstract class? ](#what-is-the-difference-between-an-interface-and-an-abstract-class-)
+[What is the difference between an Interface and an Abstract class? ](#what-is-the-difference-between-an-interface-and-an-abstract-class)
 
 [What are pass by reference and pass by value? ](#what-are-pass-by-reference-and-pass-by-value)
 
@@ -26,7 +26,7 @@
 
 [What are Expressions?](#what-are-expressions)
 
-[What are Decalarations?](#what-are-decalarations)
+[What are Declarations?](#what-are-declarations)
 
 [What are JSP actions?](#what-are-jsp-actions)
 
@@ -34,7 +34,7 @@
 
 [How are the JSP requests handled?](#how-are-the-jsp-requests-handled)
 
-[What are the basic interfaces of Java Collections Framework? ](#what-are-the-basic-interfaces-of-java-collections-framework-)
+[What are the basic interfaces of Java Collections Framework? ](#what-are-the-basic-interfaces-of-java-collections-framework)
 
 [What does the “static” keyword mean? Can you override private or static method in Java?](#what-does-the-static-keyword-mean-can-you-override-private-or-static-method-in-java)
 
@@ -68,7 +68,7 @@
 
 [What will happen to the Exception object after exception handling?](#what-will-happen-to-the-exception-object-after-exception-handling)
 
-[ What is the purpose of garbage collection in Java, and when is it used?](#-what-is-the-purpose-of-garbage-collection-in-java-and-when-is-it-used)
+[ What is the purpose of garbage collection in Java, and when is it used?](#what-is-the-purpose-of-garbage-collection-in-java-and-when-is-it-used)
 
 [What does System.gc() and Runtime.gc() methods do?](#what-does-systemgc-and-runtimegc-methods-do)
 
@@ -78,7 +78,7 @@
 
 [What is meant by a Web Application?](#what-is-meant-by-a-web-application)
 
-[When does an Object becomes eligible for Garbage collection in Java? ](#when-does-an-object-becomes-eligible-for-garbage-collection-in-java)
+[When does an Object becomes eligible for Garbage collection in Java? ](#when-does-an-object-becomes-eligible-for-garbage-collection-in-java-)
 
 [Why Collection doesn’t extend Cloneable and Serializable interfaces? ](#why-collection-doesnt-extend-cloneable-and-serializable-interfaces)
 
@@ -92,7 +92,7 @@
 
 [What is the difference between throw and throws?](#what-is-the-difference-between-throw-and-throws)
 
-[When is the finalize() called? What is the purpose of finalization? ](#when-is-the-finalize-called-what-is-the-purpose-of-finalization-)
+[When is the finalize() called? What is the purpose of finalization? ](#when-is-the-finalize-called-what-is-the-purpose-of-finalization)
 
 [What are the steps involved to make work a RMI program? ](#what-are-the-steps-involved-to-make-work-a-rmi-program)
 
@@ -110,7 +110,7 @@
 
 [What are untrusted applets?](#what-are-untrusted-applets)
 
-[ What is a Server Side Include (SSI)?](#-what-is-a-server-side-include-ssi)
+[ What is a Server Side Include (SSI)?](#what-is-a-server-side-include-ssi)
 
 [What is a Constructor, Constructor Overloading in Java and Copy-Constructor? ](#what-is-a-constructor-constructor-overloading-in-java-and-copy-constructor)
 
@@ -148,13 +148,13 @@
 
 [What are the advantages of JSP?](#what-are-the-advantages-of-jsp)
 
-[What’s a deadlock? ](#whats-a-deadlock-)
+[What’s a deadlock? ](#whats-a-deadlock)
 
 [What is the difference between an Applet and a Servlet?](#what-is-the-difference-between-an-applet-and-a-servlet)
 
 [What are Scriptlets?](#what-are-scriptlets)
 
-[Does Java support multiple inheritance? ](#does-java-support-multiple-inheritance-)
+[Does Java support multiple inheritance? ](#does-java-support-multiple-inheritance)
 
 [Explain different ways of creating a thread. Which one would you prefer and why?](#explain-different-ways-of-creating-a-thread-which-one-would-you-prefer-and-why)
 
@@ -166,7 +166,7 @@
 
 [Explain Marshalling and demarshalling.](#explain-marshalling-and-demarshalling)
 
-[How do you ensure that N threads can access N resources without deadlock? ](#how-do-you-ensure-that-n-threads-can-access-n-resources-without-deadlock-)
+[How do you ensure that N threads can access N resources without deadlock? ](#how-do-you-ensure-that-n-threads-can-access-n-resources-without-deadlock)
 
 [What is Perm Gen space in Heap?](#what-is-perm-gen-space-in-heap)
 
@@ -174,7 +174,7 @@
 
 [What is the applet class loader, and what does it provide?](#what-is-the-applet-class-loader-and-what-does-it-provide)
 
-[ What is the difference between applets loaded over the internet and applets loaded via the file system?](#-what-is-the-difference-between-applets-loaded-over-the-internet-and-applets-loaded-via-the-file-system)
+[ What is the difference between applets loaded over the internet and applets loaded via the file system?](#what-is-the-difference-between-applets-loaded-over-the-internet-and-applets-loaded-via-the-file-system)
 
 [What is Servlet Chaining?](#what-is-servlet-chaining)
 
@@ -200,7 +200,7 @@
 
 [Does Garbage collection occur in permanent generation space in JVM?](#does-garbage-collection-occur-in-permanent-generation-space-in-jvm)
 
-[What is DGC ? And how does it work?](#what-is-dgc-and-how-does-it-work)
+[What is DGC ? And how does it work?](#what-is-dgc--and-how-does-it-work)
 
 [What are the layers of RMI Architecture?](#what-are-the-layers-of-rmi-architecture)
 
@@ -272,6 +272,7 @@ Java tem dois tipos de exceções: exceções checked e exceções unchecked. As
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
+
 ### Explique a arquitetura de uma Servlet.
 
 A abstração central que deve ser implementada por todos os servlets é a interface javax.servlet.Servlet. Cada servlet deve implementá-lo direta ou indiretamente, estendendo javax.servlet.GenericServlet ou javax.servlet.http.HTTPServlet. Por fim, cada servlet é capaz de atender a vários requests em paralelo usando multithreading. 
@@ -335,6 +336,7 @@ Uma expressão JSP é usada para inserir o valor de uma expressão de linguagem 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
+
 ### O que são Declarações?
 
 Declarações são similares às declarações de variáveis em Java. Declarações são usadas para declarar variáveis para uso subsequente em esperessões ou scriptlets. Para adicionar uma declaração, você deverá usar as sequencias para fechar suas declarações.
@@ -419,6 +421,7 @@ A interface do [Iterator] (http://docs.oracle.com/javase/7/docs/api/java/util/It
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
+
 ### Qual é o propósito do método Class.forName?
 
 Este método é utilizado para carregar o driver que estabelecerá uma conexão com o banco de dados.
@@ -803,7 +806,7 @@ O gerenciador de segurança do applet é um mecanismo para impor restrições ao
 [[↑] Back to top](#Java)
 ### What is Java Priority Queue?
 
-The [PriorityQueue](http://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html) is an unbounded queue, based on a priority heap and its elements are ordered in their natural order. At the time of its creation, we can provide a Comparator that is responsible for ordering the elements of the [PriorityQueue](http://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html). A [PriorityQueue](http://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html) doesn’t allow null values, those objects that doesn’t provide natural ordering, or those objects that don’t have any comparator associated with them. Finally, the Java [PriorityQueue](http://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html) is not thread-safe and it requires O(log(n)) time for its enqueing and dequeing operations.
+The [PriorityQueue](http://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html) is an unbounded queue, based on a priority heap and its elements are ordered in their natural order. At the time of its creation, we can provide a Comparator that is responsible for ordering the elements of the [PriorityQueue](http://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html). A [PriorityQueue](http://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html) doesn’t allow null values, those objects that doesn’t provide natural ordering, or those objects that don’t have any comparator associated with them. Finally, the Java [PriorityQueue](http://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html) is not thread-safe and it requires O(log(n)) time for its enqueuing and dequeing operations.
 
 ###### Source
 
@@ -993,7 +996,7 @@ An Applet is a client side java program that runs within a Web browser on the cl
 [[↑] Back to top](#Java)
 ### What are Scriptlets?
 
-In Java Server Pages (JSP) technology, a scriptlet is a piece of Java-code embedded in a JSP page. The scriptlet is everything inside the tags. Between these tags, a user can add any valid scriplet.
+In Java Server Pages (JSP) technology, a scriptlet is a piece of Java-code embedded in a JSP page. The scriptlet is everything inside the tags. Between these tags, a user can add any valid scriptlet.
 
 ###### Source
 
@@ -1218,9 +1221,11 @@ The throughput garbage collector uses a parallel version of the young generation
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
+
 ### Qual é a diferença entre HashSet e TreeSet?
 
 O HashSet é implementado usando uma tabela hash e, portanto, seus elementos não são ordenados. Os métodos add, remove e contains de um HashSet têm complexidade de tempo constante O (1). Por outro lado, um TreeSet é implementado usando uma estrutura de árvore. Os elementos em um TreeSet são classificados e, portanto, os métodos add, remove e contains têm complexidade de tempo de O (logn).
+
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers

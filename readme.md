@@ -6,7 +6,7 @@
 
 ## What is this?
 
-A collection of super-popular Interview questions, along with answers, and some code-snippets that will help you to prepare for technical interviews. Many of these questions a real questions from real interviews. It is by no means comprehensive, and the answers are relatively short ( and for each of the concepts, there are probably better and/or more in depth coverage in the web), but this repo like reference tool, that helps you to prepare for technical interview.
+A collection of super-popular Interview questions, along with answers, and some code-snippets that will help you to prepare for technical interviews. Many of these questions are real questions from real interviews. It is by no means comprehensive, and the answers are relatively short ( and for each of the concepts, there are probably better and/or more in depth coverage in the web), but this repo like reference tool, that helps you to prepare for technical interview.
 
 Note: Keep in mind that many of these questions are open-ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would.
 
@@ -44,8 +44,9 @@ Note: Keep in mind that many of these questions are open-ended and could lead to
 1. [Code Problems](/topics/en/code-problems.md)
 1. [Data Structures](/topics/en/data-structures.md)
 1. [Design Patterns](/topics/en/design-patterns.md)
+1. [Agile](/topics/en/agile.md)
 1. PHP
-1. Adnroid
+1. Android
 1. Swift
 1. DevOps
 1. REST API
@@ -53,21 +54,24 @@ Note: Keep in mind that many of these questions are open-ended and could lead to
 1. Web Security
 1. Performance Testing
 1. UX Design
-1. Agile
 1. Scrum
 
 ## Translations
 
 ### Future
 
-- [ ] 中文版 (Chinese)
-- [ ] Русский (Russian)
-- [ ] Українська (Ukrainian)
+- [ ] [中文版 (Chinese)](./topics/zh/readme.md)
+- [ ] [Русский (Russian)](./topics/ru/readme.md)
 - [ ] Español (Spanish)
 
 ### Creating new Translations
 
 See [Creating new translations](CONTRIBUTING.md#Translations)
+
+## Authors
+
+- **Yl Markov** - [GITHUB](https://github.com/uliaaan) / [TWITTER](https://twitter.com/ylmarkov)
+- **Dennis** - [GITHUB](https://github.com/denisschmidt)
 
 ## License
 

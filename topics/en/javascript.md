@@ -486,6 +486,12 @@ function reverseBySeparator(string, separator) {
 [[↑] Back to top](#JavaScript)
 ### Write a function that would allow you to do this.
 
+```js
+var addSix = createBase(6);
+addSix(10); // returns 16
+addSix(21); // returns 27
+```
+
 You can create a closure to keep the value passed to the function `createBase` even after the inner function is returned. The inner function that is being returned is created within an outer function, making it a closure, and it has access to the variables within the outer function, in this case the variable `baseNumber`.
 
 ```js
@@ -1011,7 +1017,7 @@ function multiply (a, b = 2) {
 }
 multiply(5); // 10
 ```
-* ** Class Definition and Inheritance**<br>
+* **Class Definition and Inheritance**<br>
 ES6 introduces language support for classes (`class` keyword), constructors (`constructor` keyword), and the `extend` keyword for inheritance.
 
 * **for-of operator**<br>
@@ -1077,6 +1083,16 @@ This pattern is often used when trying to avoid polluting the global namespace, 
 [[↑] Back to top](#JavaScript)
 ### What will be the output of the following code?
 
+```js
+var x = { foo : 1};
+var output = (function() {
+  delete x.foo;
+  return x.foo;
+})();
+
+console.log(output);
+```
+
 Above code will output `undefined` as output. `delete` operator is used to delete a property from an object. Here `x` is an object which has foo as a property and from self-invoking function we are deleting foo property of object `x` and after deletion we are trying to reference deleted property `foo` which result `undefined`.
 
 ###### Source
@@ -1084,7 +1100,18 @@ Above code will output `undefined` as output. `delete` operator is used to delet
 * https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Question/blob/master/README.md
 
 [[↑] Back to top](#JavaScript)
+
 ### What will be the output of the following code?
+
+```js
+var x = 1;
+var output = (function() {
+  delete x;
+  return x;
+})();
+
+console.log(output);
+```
 
 Above code will output `1` as output. `delete` operator is used to delete property from object. Here `x` is not an object it's **global variable** of type `number`.
 
@@ -1153,6 +1180,16 @@ console.log(y);  // Output: ReferenceError: y is not defined
 [[↑] Back to top](#JavaScript)
 ### What will be the output of the following code?
 
+```js
+var y = 1;
+
+if (function f(){}) {
+  y += typeof f;
+}
+
+console.log(y);
+```
+
 Above code would give output `1undefined`. If condition statement evaluate using `eval` so `eval(function f() {})` which return `function f() {}` which is true so inside if statement code execute. `typeof f` return undefined because if statement code execute at run time, so statement inside `if` condition evaluated at run time.  
 
 ```js
@@ -1177,7 +1214,7 @@ console.log(k); // output 1function
 
 ###### Source
 
-* https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Question/blob/master/README.md
+* https://www.codementor.io/nihantanu/21-essential-javascript-tech-interview-practice-questions-answers-du107p62z
 
 [[↑] Back to top](#JavaScript)
 ### What is the drawback of creating true private in JavaScript?
@@ -1438,6 +1475,15 @@ function isPowerOfTwoZeroCase(number) {
 
 [[↑] Back to top](#JavaScript)
 ### What will be the output of the following code?
+
+```js
+var Employee = {
+  company: 'xyz'
+}
+var emp1 = Object.create(Employee);
+delete emp1.company
+console.log(emp1.company);
+```
 
 Above code will output `xyz` as output. 
 Here `emp1` object got company as **prototype** property. 
