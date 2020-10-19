@@ -533,267 +533,268 @@ Autoboxing esta [the automatic conversion made by the Java compiler](http://www.
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is Function Overriding and Overloading in Java?
 
-Method overloading in Java occurs when two or more methods in the same class have the exact same name, but different parameters. On the other hand, method overriding is defined as the case when a child class redefines the same method as a parent class. Overridden methods must have the same name, argument list, and return type. The overriding method may not limit the access of the method it overrides.
+### que é sobrescrita e sobrecarga de função em Java?
 
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### What is an Java Applet?
-
-A Java Applet is program that can be included in a HTML page and be executed in a java enabled client browser. Applets are used for creating dynamic and interactive web applications.
+A sobrecarga de método em Java ocorre quando dois ou mais métodos na mesma classe têm exatamente o mesmo nome, mas parâmetros diferentes. Por outro lado, a sobrescrita de método é definida como o caso em que uma classe filha redefine o mesmo método que uma classe pai. Os métodos sobrescritos devem ter o mesmo nome, lista de argumentos e tipo de retorno. O método de sobrescrita não pode limitar o acesso do método que ele substitui.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What will happen to the Exception object after exception handling?
+### O que é um Applet Java?
 
-The [Exception](http://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html) object will be garbage collected in the next garbage collection.
-
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-###  What is the purpose of garbage collection in Java, and when is it used?
-
-The purpose of garbage collection is to identify and discard those objects that are no longer needed by the application, in order for the resources to be reclaimed and reused.
+Um Applet Java é um programa que pode ser incluído em uma página HTML e executado em um navegador habilitado para java. Os miniaplicativos são usados para criar aplicativos da web dinâmicos e interativos.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What does System.gc() and Runtime.gc() methods do?
+### O que ira acontecer a Exception depois do tratamento da exceção?
 
-These methods can be used as a hint to the JVM, in order to start a garbage collection. However, this it is up to the Java Virtual Machine (JVM) to start the garbage collection immediately or later in time.
-
-
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### What is the importance of finally block in exception handling?
-
-A *finally* block will always be executed, whether or not an exception is actually thrown. Even in the case where the catch statement is missing and an exception is thrown, the finally block will still be executed. Last thing to mention is that the finally block is used to release resources like I/O buffers, database connections, etc.
+A [Exception](http://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html) elegível para o garbage collection.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is the difference between Exception and Error in java?
+###  Qual é o propósito do garbage collection em Java, e quando é usado?
 
-[Exception](http://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html) and [Error](http://docs.oracle.com/javase/7/docs/api/java/lang/Error.html) classes are both subclasses of the [Throwable](http://docs.oracle.com/javase/7/docs/api/java/lang/Throwable.html) class. The [Exception](http://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html)  class is used for exceptional conditions that a user’s program should catch. The [Error](http://docs.oracle.com/javase/7/docs/api/java/lang/Error.html)  class defines exceptions that are not excepted to be caught by the user program.
-
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### What is meant by a Web Application?
-
-A Web application is a dynamic extension of a Web or application server. There are two types of web applications: presentation-oriented and service-oriented. A presentation-oriented Web application generates interactive web pages, which contain various types of markup language and dynamic content in response to requests. On the other hand, a service-oriented web application implements the endpoint of a web service. In general, a Web application can be seen as a collection of servlets installed under a specific subset of the server’s URL namespace.
+O propósito do garbage collection é identificar e descartar os objetos que não são mais necessários para o aplicativo, para que os recursos sejam recuperados e reutilizados.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### When does an Object becomes eligible for Garbage collection in Java ? 
+### O que os métodos System.gc() e Runtime.gc() fazem?
 
-A Java object is subject to garbage collection when it becomes unreachable to the program in which it is currently used.
-
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### Why Collection doesn’t extend Cloneable and Serializable interfaces? 
-
-The [Collection](http://docs.oracle.com/javase/7/docs/api/java/util/Collection.html) interface specifies groups of objects known as elements. Each concrete implementation of a [Collection](http://docs.oracle.com/javase/7/docs/api/java/util/Collection.html) can choose its own way of how to maintain and order its elements. Some collections allow duplicate keys, while some other collections don’t. The semantics and the implications of either cloning or serialization come into play when dealing with actual implementations. Thus, the concrete implementations of collections should decide how they can be cloned or serialized.
+Esses métodos podem ser usados como uma dica para a JVM, a fim de iniciar um garbage collection. No entanto, cabe à Java Virtual Machine (JVM) iniciar a coleta de lixo imediatamente ou posteriormente.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What happens when an applet is loaded?
+### Qual é a importância do bloco finally no tratamento de exceções?
 
-First of all, an instance of the applet’s controlling class is created. Then, the applet initializes itself and finally, it starts running.
-
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### What is the role of stub in RMI?
-
-A stub for a remote object acts as a client’s local representative or proxy for the remote object. The caller invokes a method on the local stub, which is responsible for executing the method on the remote object. When a stub’s method is invoked, it undergoes the following steps:
-
-* It initiates a connection to the remote JVM containing the remote object.
-* It marshals the parameters to the remote JVM.
-* It waits for the result of the method invocation and execution.
-* It unmarshals the return value or an exception if the method has not been successfully executed.
-* It returns the value to the caller.
+Um bloco * finally * sempre será executado, independentemente de uma exceção ser lançada ou não. Mesmo no caso em que a instrução catch está faltando e uma exceção é lançada, o bloco finally ainda será executado. A última coisa a mencionar é que o bloco finally é usado para liberar recursos como buffers de E / S, conexões de banco de dados, etc.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is structure of Java Heap?
+### Qual é a diferença entre exceção e erro em java?
 
-The JVM has a heap that is the runtime data area from which memory for all class instances and arrays is allocated. It is created at the JVM start-up. Heap memory for objects is reclaimed by an automatic memory management system which is known as a garbage collector. Heap memory consists of live and dead objects. Live objects are accessible by the application and will not be a subject of garbage collection. Dead objects are those which will never be accessible by the application, but have not been collected by the garbage collector yet. Such objects occupy the heap memory space until they are eventually collected by the garbage collector.
-
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### If an object reference is set to null, will the Garbage Collector immediately free the memory held by that object?
-
-No, the object will be available for garbage collection in the next cycle of the garbage collector.
+[Exceção] (http://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html) e [Erro] (http://docs.oracle.com/javase/7/docs/api/java/lang/Error.html) são ambas subclasses da classe [Throwable] (http://docs.oracle.com/javase/7/docs/api/java/lang/Throwable.html). A classe [Exception] (http://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html) é usada para condições excepcionais que o programa de um usuário deve capturar. A classe [Error] (http://docs.oracle.com/javase/7/docs/api/java/lang/Error.html) define exceções que não devem ser capturadas pelo programa do usuário.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is the difference between throw and throws?
 
-The `throw` keyword is used to explicitly raise a exception within the program. On the contrary, the `throws` clause is used to indicate those exceptions that are not handled by a method. Each method must explicitly specify which exceptions does not handle, so the callers of that method can guard against possible exceptions. Finally, multiple exceptions are separated by a comma.
+### O que significa uma aplicação Web?
 
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### When is the finalize() called? What is the purpose of finalization? 
-
-The finalize method is called by the garbage collector, just before releasing the object’s memory. It is normally advised to release resources held by the object inside the finalize method.
+Uma aplicação Web é uma extensão dinâmica de um servidor Web ou de aplicação. Existem dois tipos de aplicações web: orientados para apresentação e orientados para serviços. Um aplicativo da Web orientado para apresentação gera páginas da Web interativas, que contêm vários tipos de linguagem de marcação e conteúdo dinâmico em resposta às solicitações. Por outro lado, um aplicativo da web orientado a serviços implementa o endpoint de um serviço da web. Em geral, uma aplicação Web pode ser visto como uma coleção de servlets instalados em um subconjunto específico do namespace de URL do servidor.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What are the steps involved to make work a RMI program? 
+### Quando um objeto se torna elegível para o Garbage Collection em Java?
 
-The following steps must be involved in order for a RMI program to work properly:
-
-* Compilation of all source files.
-* Generatation of the stubs using rmic.
-* Start the rmiregistry.
-* Start the RMIServer.
-* Run the client program.
+Um objeto Java está sujeito ao garbage Collection quando se torna inacessível para o programa no qual está sendo usado.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### How does finally block differ from finalize() method?
+### Por que Collection não estende as interfaces Cloneable e Serializable?
 
-A finally block will be executed whether or not an exception is thrown and is used to release those resources held by the application. `Finalize` is a protected method of the Object class, which is called by the Java Virtual Machine (JVM) just before an object is garbage collected.
-
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### What’s the difference between Enumeration and Iterator interfaces? 
-
-[Enumeration](http://docs.oracle.com/javase/7/docs/api/java/util/Enumeration.html) is twice as fast as compared to an Iterator and uses very less memory. However, the [Iterator](http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html) is much safer compared to [Enumeration](http://docs.oracle.com/javase/7/docs/api/java/util/Enumeration.html), because other threads are not able to modify the collection object that is currently traversed by the iterator. Also, [Iterators](http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html) allow the caller to remove elements from the underlying collection, something which is not possible with [Enumeration](http://docs.oracle.com/javase/7/docs/api/java/util/Enumeration.html).
+A interface [Collection] (http://docs.oracle.com/javase/7/docs/api/java/util/Collection.html) especifica grupos de objetos conhecidos como elementos. Cada implementação concreta de uma [Collection] (http://docs.oracle.com/javase/7/docs/api/java/util/Collection.html) pode escolher sua própria maneira de manter e ordenar seus elementos. Algumas coleções permitem chaves duplicadas, enquanto outras não. A semântica e as implicações de clonagem ou serialização entram em conflito ao lidar com implementações reais. Assim, as implementações concretas de coleções devem decidir como elas podem ser clonadas ou serializadas.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### Explain the life cycle of an Applet. 
+### O que acontece quando um applet é carregado?
 
-An applet may undergo the following states:
-
-* Init: An applet is initialized each time is loaded.
-* Start: Begin the execution of an applet.
-* Stop: Stop the execution of an applet.
-* Destroy: Perform a final cleanup, before unloading the applet.
+Primeiro de tudo, uma instância da classe de controle do applet é criada. Em seguida, o applet se inicializa e, finalmente, começa a ser executado.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### Can you access non static variable in static context?
+### Qual é a função do stub no RMI?
 
-A static variable in Java belongs to its class and its value remains the same for all its instances. A static variable is initialized when the class is loaded by the JVM. If your code tries to access a non-static variable, without any instance, the compiler will complain, because those variables are not created yet and they are not associated with any instance.
+Um stub para um objeto remoto atua como um representante local do cliente ou proxy para o objeto remoto. O requisitante invoca um método no stub local, que é responsável por executar o método no objeto remoto. Quando um método de stub é invocado, ele passa pelas seguintes etapas:
 
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### What is the tradeoff between using an unordered array versus an ordered array? 
-
-The major advantage of an ordered array is that the search times have time complexity of O(log n), compared to that of an unordered array, which is O (n). The disadvantage of an ordered array is that the insertion operation has a time complexity of O(n), because the elements with higher values must be moved to make room for the new element. Instead, the insertion operation for an unordered array takes constant time of O(1).
+* Ele inicia uma conexão com o JVM remoto contendo o objeto remoto.
+* Ele empacota os parâmetros para a JVM remota.
+* Aguarda o resultado da invocação e execução do método.
+* Ele desempacota o valor de retorno ou uma exceção se o método não foi executado com sucesso.
+* Ele retorna o valor para o requisitante.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What are the restrictions imposed on Java applets?
+### Qual é a estrutura do Java Heap?
 
-Mostly due to security reasons, the following restrictions are imposed on Java applets:
-
-* An applet cannot load libraries or define native methods.
-* An applet cannot ordinarily read or write files on the execution host.
-* An applet cannot read certain system properties.
-* An applet cannot make network connections except to the host that it came from.
-* An applet cannot start any program on the host that’s executing it.
+A JVM possui um heap que é a área de dados de tempo de execução a partir da qual a memória para todas as instâncias de classe e matrizes é alocada. Ele é criado na inicialização da JVM. A memória heap para objetos é recuperada por um sistema de gerenciamento automático de memória conhecido como Garbage Collector. A memória de heap consiste em objetos vivos e mortos. Os objetos vivos podem ser acessados pelo aplicativo e não serão objeto de coleta de lixo. Objetos mortos são aqueles que nunca estarão acessíveis pela aplicação, mas ainda não foram coletados pelo Garbage Collector. Esses objetos ocupam o espaço da memória heap até que sejam finalmente coletados pelo Garbage Collector.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What are untrusted applets?
+### Se uma referência de objeto for definida como nula, o Garbage Collector liberará imediatamente a memória mantida por esse objeto?
 
-Untrusted applets are those Java applets that cannot access or execute local system files. By default, all downloaded applets are considered as untrusted.
-
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-###  What is a Server Side Include (SSI)?
-
-Server Side Includes (SSI) is a simple interpreted server-side scripting language, used almost exclusively for the Web, and is embedded with a servlet tag. The most frequent use of SSI is to include the contents of one or more files into a Web page on a Web server. When a Web page is accessed by a browser, the Web server replaces the servlet tag in that Web page with the hyper text generated by the corresponding servlet.
+Não, o objeto estará disponível para coleta de lixo no próximo ciclo do Garbage Collector.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is a Constructor, Constructor Overloading in Java and Copy-Constructor? 
+### Qual é a diferença entre throw e throws?
 
-A constructor gets invoked when a new object is created. Every class [has a constructor](http://www.javacodegeeks.com/2014/01/which-is-better-option-cloning-or-copy-constructors.html). In case the programmer does not provide a constructor for a class, the Java compiler (Javac) creates a default constructor for that class. The constructor overloading is similar to method overloading in Java. Different constructors can be created for a single class. Each constructor must have its own unique parameter list. Finally, Java does support copy constructors like C++, but the difference lies in the fact that Java doesn’t create a default copy constructor if you don’t write your own.
+A palavra-chave `throw` é usada para levantar explicitamente uma exceção dentro do programa. Ao contrário, a cláusula `throws` é usada para indicar as exceções que não são tratadas por um método. Cada método deve especificar explicitamente quais exceções não trata, para que os invocadores desse método possam se proteger contra possíveis exceções. Finalmente, várias exceções são separadas por uma vírgula.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is the applet security manager, and what does it provide?
+### Quando finalize () é chamado? Qual é o propósito da finalização?
 
-The applet security manager is a mechanism to impose restrictions on Java applets. A browser may only have one security manager. The security manager is established at startup, and it cannot thereafter be replaced, overloaded, overridden, or extended.
+O método finalize é chamado pelo Garbage \collector, pouco antes de liberar a memória do objeto. Normalmente é aconselhável liberar recursos mantidos pelo objeto dentro do método finalize.
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### Quais são as etapas envolvidas para o trabalho de um programa RMI?
+
+As seguintes etapas devem estar envolvidas para que um programa RMI funcione corretamente:
+
+* Compilação de todos os arquivos de origem.
+* Geração dos stubs usando rmic.
+* Inicie o rmiregistry.
+* Inicie o RMIServer.
+* Execute o programa cliente.
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### Como o finally block difere do método finalize ()?
+
+Um bloco finally será executado, independentemente de uma exceção ser lançada ou não, e é usado para liberar os recursos mantidos pela aplicação. `Finalize` é um método protegido da classe Object, que é chamado pela Java Virtual Machine (JVM) antes de um objeto ser coletado como lixo.
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### Qual é a diferença entre as interfaces Enumeration e Iterator?
+
+[Enumeration] (http://docs.oracle.com/javase/7/docs/api/java/util/Enumeration.html) é duas vezes mais rápido do que um Iterator e usa muito menos memória. No entanto, o [Iterator] (http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html) é muito mais seguro em comparação com [Enumeration] (http://docs.oracle.com/javase/7/docs/api/java/util/Enumeration.html), porque outros threads não são capazes de modificar o objeto de coleção que é percorrido atualmente pelo iterador. Além disso, [Iterators] (http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html) permite que o invocador remova elementos da coleção subjacente, algo que não é possível com [Enumeration] (http://docs.oracle.com/javase/7/docs/api/java/util/Enumeration.html).
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### Explique o ciclo de vida de um applet.
+
+Um applet pode passar pelos seguintes estados:
+
+* Init: Um applet é inicializado cada vez que é carregado.
+* Start: começa a execução de um applet.
+* Stop: interrompe a execução de um applet.
+* Destroy: Execute uma limpeza final, antes de descarregar o applet.
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### Você pode acessar variáveis não estáticas em contexto estático?
+
+Uma variável estática em Java pertence à sua classe e seu valor permanece o mesmo para todas as suas instâncias. Uma variável estática é inicializada quando a classe é carregada pela JVM. Se o seu código tentar acessar uma variável não estática, sem nenhuma instância, o compilador irá reclamar, pois essas variáveis ainda não foram criadas e não estão associadas a nenhuma instância.
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### Qual é a vantagem e desvantagem entre usar uma matriz não ordenada e uma matriz ordenada?
+
+A principal vantagem de uma matriz ordenada é que os tempos de pesquisa têm complexidade de tempo O (log n), em comparação com a de uma matriz não ordenada, que é O (n). A desvantagem de um array ordenado é que a operação de inserção tem uma complexidade de tempo de O (n), pois os elementos com valores mais altos devem ser movidos para abrir espaço para o novo elemento. Em vez disso, a operação de inserção para uma matriz não ordenada leva um tempo constante de O (1).
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### Quais são as restrições impostas aos apllets Java?
+
+Principalmente por motivos de segurança, as seguintes restrições são impostas aos applets Java:
+
+* Um applet não pode carregar bibliotecas ou definir métodos nativos.
+* Normalmente, um applet não pode ler ou gravar arquivos no host de execução.
+* Um applet não pode ler certas propriedades do sistema.
+* Um applet não pode fazer conexões de rede, exceto para o host de onde veio.
+* Um applet não pode iniciar nenhum programa no host que o está executando.
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### O que são applets não confiáveis?
+
+Applets não confiáveis são aqueles applets Java que não podem acessar ou executar arquivos de sistema local. Por padrão, todos os applets baixados são considerados não confiáveis.
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+###  O que é um Server Side Include (SSI)?
+
+Server Side Includes (SSI) é uma linguagem de script do lado do servidor interpretada de forma simples, usada quase exclusivamente para a Web e incorporada com uma tag de servlet. O uso mais frequente de SSI é incluir o conteúdo de um ou mais arquivos em uma página Web em um servidor Web. Quando uma página Web é acessada por um navegador, o servidor Web substitui a tag do servlet nessa página da Web pelo hipertexto gerado pelo servlet correspondente.
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### O que é um Construtor, Sobrecarga de Construtor em Java e Construtor de Cópia?
+
+Um construtor é chamado quando um novo objeto é criado. Cada classe [tem um construtor] (http://www.javacodegeeks.com/2014/01/which-is-better-option-cloning-or-copy-constructors.html). Caso o programador não forneça um construtor para uma classe, o compilador Java (Javac) cria um construtor padrão para essa classe. A sobrecarga do construtor é semelhante à sobrecarga do método em Java. Diferentes construtores podem ser criados para uma única classe. Cada construtor deve ter sua própria lista de parâmetros exclusiva. Finalmente, o Java suporta construtores de cópia como C ++, mas a diferença está no fato de que Java não cria um construtor de cópia padrão se você não escrever o seu próprio.
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### O que é o gerenciador de segurança do applet e o que ele fornece?
+
+O gerenciador de segurança do applet é um mecanismo para impor restrições aos applets Java. Um navegador pode ter apenas um gerenciador de segurança. O gerenciador de segurança é estabelecido na inicialização e depois não pode ser substituído, sobrecarregado, substituído ou estendido.
 
 ###### Source
 
