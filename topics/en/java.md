@@ -804,28 +804,28 @@ O gerenciador de segurança do applet é um mecanismo para impor restrições ao
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is Java Priority Queue?
+### O que é Java Priority Queue?
 
-The [PriorityQueue](http://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html) is an unbounded queue, based on a priority heap and its elements are ordered in their natural order. At the time of its creation, we can provide a Comparator that is responsible for ordering the elements of the [PriorityQueue](http://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html). A [PriorityQueue](http://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html) doesn’t allow null values, those objects that doesn’t provide natural ordering, or those objects that don’t have any comparator associated with them. Finally, the Java [PriorityQueue](http://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html) is not thread-safe and it requires O(log(n)) time for its enqueuing and dequeing operations.
-
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### What is Comparable and Comparator interface? List their differences.
-
-Java provides the [Comparable](http://docs.oracle.com/javase/7/docs/api/java/lang/Comparable.html) interface, which contains only one method, called [compareTo](http://docs.oracle.com/javase/7/docs/api/java/lang/Comparable.html#compareTo(T)). This method compares two objects, in order to impose an order between them. Specifically, it returns a negative integer, zero, or a positive integer to indicate that the input object is less than, equal or greater than the existing object. Java provides the [Comparator](http://docs.oracle.com/javase/7/docs/api/java/util/Comparator.html) interface, which contains two methods, called [compare](http://docs.oracle.com/javase/7/docs/api/java/util/Comparator.html#compare(T,%20T)) and [equals](http://docs.oracle.com/javase/7/docs/api/java/util/Comparator.html#equals(java.lang.Object)). The first method compares its two input arguments and imposes an order between them. It returns a negative integer, zero, or a positive integer to indicate that the first argument is less than, equal to, or greater than the second. The second method requires an object as a parameter and aims to decide whether the input object is equal to the comparator. The method returns true, only if the specified object is also a comparator and it imposes the same ordering as the comparator.
+A [PriorityQueue] (http://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html) é uma fila ilimitada, baseada em um heap de prioridade e seus elementos são ordenados em sua ordem natural . No momento de sua criação, podemos fornecer um Comparator que é responsável por ordenar os elementos da [PriorityQueue] (http://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html ) Um [PriorityQueue] (http://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html) não permite valores nulos, aqueles objetos que não fornecem ordenação natural, ou aqueles objetos que não têm nenhum Comparator associado a eles. Finalmente, o Java [PriorityQueue] (http://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html) não é thread-safe e requer tempo O (log (n)) para suas operações de enfileiramento e desenfileiramento.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### Which Swing methods are thread-safe?
+### O que é a interface Comparable e Comparator? Liste suas diferenças.
 
-There are only three thread-safe methods: 
-* repaint, 
+Java fornece a interface [Comparable] (http://docs.oracle.com/javase/7/docs/api/java/lang/Comparable.html), que contém apenas um método, chamado [compareTo] (http://docs.oracle.com/javase/7/docs/api/java/lang/Comparable.html#compareTo(T)). Este método compara dois objetos, a fim de impor uma ordem entre eles. Especificamente, ele retorna um inteiro negativo, zero ou um inteiro positivo para indicar que o objeto de entrada é menor, igual ou maior que o objeto existente. Java fornece a interface [Comparator] (http://docs.oracle.com/javase/7/docs/api/java/util/Comparator.html), que contém dois métodos, chamados [compare] (http://docs.oracle.com/javase/7/docs/api/java/util/Comparator.html#compare(T,%20T)) e [equals] (http://docs.oracle.com/javase/7/docs/api/java/util/Comparator.html#equals(java.lang.Object)). O primeiro método compara seus dois argumentos de entrada e impõe uma ordem entre eles. Ele retorna um inteiro negativo, zero ou um inteiro positivo para indicar que o primeiro argumento é menor, igual ou maior que o segundo. O segundo método requer um objeto como parâmetro e visa decidir se o objeto de entrada é igual ao comparador. O método retorna verdadeiro, apenas se o objeto especificado também for um comparador e impõe a mesma ordem do comparador.
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### Quais métodos Swing são thread-safe?
+
+Existem apenas três métodos thread-safe:
+* repaint,
 * revalidate,
 * invalidate.
 
@@ -834,94 +834,94 @@ There are only three thread-safe methods:
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is the relationship between an event-listener interface and an event-adapter class?
+### Qual é o relacionamento entre uma interface event-listener e uma classe do adaptador de eventos?
 
-An event-listener interface defines the methods that must be implemented by an event handler for a particular event. An event adapter provides a default implementation of an event-listener interface.
-
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### What is difference between ArrayList and LinkedList? 
-
-Both the [ArrayList](http://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html) and [LinkedList](http://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html) classes implement the List interface, but they differ on the following features:
-
-* An [ArrayList](http://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html) is an index based data structure backed by an [Array](http://docs.oracle.com/javase/7/docs/api/java/lang/reflect/Array.html). It provides random access to its elements with a performance equal to O(1). On the other hand, a [LinkedList](http://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html) stores its data as list of elements and every element is linked to its previous and next element. In this case, the search operation for an element has execution time equal to O(n).
-* The Insertion, addition and removal operations of an element are faster in a [LinkedList](http://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html) compared to an [ArrayList](http://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html), because there is no need of resizing an array or updating the index when an element is added in some arbitrary position inside the collection.
-* A [LinkedList](http://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html) consumes more memory than an [ArrayList](http://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html), because every node in a [LinkedList](http://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html) stores two references, one for its previous element and one for its next element.
+Uma interface event-listener define os métodos que devem ser implementados por um manipulador de eventos para um evento específico. Um adaptador de eventos fornece uma implementação padrão de uma interface event-listener.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is difference between Array and ArrayList? When will you use Array over ArrayList?
+### Qual é a diferença entre ArrayList e LinkedList?
 
-The Array and ArrayList classes differ on the following features:
+Tanto o [ArrayList] (http://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html) e [LinkedList] (http://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html) implementam a interface List, mas diferem nos seguintes recursos:
 
-* [Arrays](http://docs.oracle.com/javase/7/docs/api/java/util/Arrays.html) can contain primitive or objects, while an [ArrayList](http://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html) can contain only objects.
-* [Arrays](http://docs.oracle.com/javase/7/docs/api/java/util/Arrays.html) have fixed size, while an [ArrayList](http://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html) is dynamic.
-* An [ArrayList](http://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html) provides more methods and features, such as addAll, removeAll, iterator, etc.
-* For a list of primitive data types, the collections use autoboxing to reduce the coding effort. However, this approach makes them slower when working on fixed size primitive data types.
-
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### What is the importance of hashCode() and equals() methods? 
-
-A [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html) in Java uses the hashCode and equals methods to determine the index of the key-value pair. These methods are also used when we request the value of a specific key. If these methods are not implemented correctly, two different keys might produce the same hash value and thus, will be considered as equal by the collection. Furthermore, these methods are also used to detect duplicates. Thus, the implementation of both methods is crucial to the accuracy and correctness of the [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html).
+* Um [ArrayList] (http://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html) é uma estrutura de dados baseada em índice apoiada por um [Array] (http://docs.oracle.com/javase/7/docs/api/java/lang/reflect/Array.html). Ele fornece acesso aleatório aos seus elementos com desempenho igual a O (1). Por outro lado, uma [LinkedList] (http://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html) armazena seus dados como uma lista de elementos e cada elemento está vinculado ao seu elemento anterior e próximo. Nesse caso, a operação de busca por um elemento tem tempo de execução igual a O (n).
+* As operações de inserção, adição e remoção de um elemento são mais rápidas em um [LinkedList] (http://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html) em comparação com um [ArrayList ] (http://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html), porque não há necessidade de redimensionar uma matriz ou atualizar o índice quando um elemento é adicionado em algum posição dentro da coleção.
+* Uma [LinkedList] (http://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html) consome mais memória do que uma [ArrayList] (http://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html), porque cada nó em um [LinkedList] (http://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html) armazena duas referências, uma para seu elemento anterior e outra para seu próximo elemento.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is difference between fail-fast and fail-safe? 
+### Qual é a diferença entre Array e ArrayList? Quando você usará Array em vez de ArrayList?
 
-The [Iterator's](http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html)  fail-safe property works with the clone of the underlying collection and thus, it is not affected by any modification in the collection. All the collection classes in java.util package are fail-fast, while the collection classes in java.util.concurrent are fail-safe. Fail-fast iterators throw a [ConcurrentModificationException](http://examples.javacodegeeks.com/java-basics/exceptions/java-util-concurrentmodificationexception-how-to-handle-concurrent-modification-exception/), while fail-safe iterator never throws such an exception.
+As classes Array e ArrayList diferem nos seguintes recursos:
 
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### Explain the role of Driver in JDBC. 
-
-The JDBC Driver provides vendor-specific implementations of the abstract classes provided by the JDBC API. Each driver must provide implementations for the following classes of the java.sql package: [Connection](http://docs.oracle.com/javase/7/docs/api/java/sql/Connection.html), [Statement](http://docs.oracle.com/javase/7/docs/api/java/sql/Statement.html), [PreparedStatement](http://docs.oracle.com/javase/7/docs/api/java/sql/PreparedStatement.html), [CallableStatement](http://docs.oracle.com/javase/7/docs/api/java/sql/CallableStatement.html), [ResultSet](http://docs.oracle.com/javase/7/docs/api/java/sql/ResultSet.html) and [Driver](http://docs.oracle.com/javase/7/docs/api/java/sql/Driver.html).
+* [Arrays] (http://docs.oracle.com/javase/7/docs/api/java/util/Arrays.html) pode conter primitivos ou objetos, enquanto um [ArrayList] (http://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html) pode conter apenas objetos.
+* [Arrays] (http://docs.oracle.com/javase/7/docs/api/java/util/Arrays.html) têm tamanho fixo, enquanto um [ArrayList] (http://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html) é dinâmico.
+* Um [ArrayList] (http://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html) fornece mais métodos e recursos, como addAll, removeAll, iterator, etc.
+* Para uma lista de tipos de dados primitivos, as coleções usam autoboxing para reduzir o esforço de codificação. No entanto, essa abordagem os torna mais lentos ao trabalhar em tipos de dados primitivos de tamanho fixo.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What differences exist between Iterator and ListIterator? 
+### Qual é a importância dos métodos hashCode() e equals()?
 
-The differences of these elements are listed below:
-
-* An [Iterator](http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html)  can be used to traverse the [Set](http://docs.oracle.com/javase/7/docs/api/java/util/Set.html) and [List](http://docs.oracle.com/javase/7/docs/api/java/util/List.html)  collections, while the [ListIterator](http://docs.oracle.com/javase/7/docs/api/java/util/ListIterator.html) can be used to iterate only over [List](http://docs.oracle.com/javase/7/docs/api/java/util/List.html) .
-* The [Iterator](http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html)  can traverse a collection only in forward direction, while the [ListIterator](http://docs.oracle.com/javase/7/docs/api/java/util/ListIterator.html) can traverse a [List](http://docs.oracle.com/javase/7/docs/api/java/util/List.html) in both directions.
-* The [ListIterator](http://docs.oracle.com/javase/7/docs/api/java/util/ListIterator.html) implements the [Iterator](http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html)  interface and contains extra functionality, such as adding an element, replacing an element, getting the index position for previous and next elements, etc
+Um [HashMap] (http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html) em Java usa o hashCode e os métodos equals para determinar o índice do par chave-valor. Esses métodos também são usados quando solicitamos o valor de uma chave específica. Se esses métodos não forem implementados corretamente, duas chaves diferentes podem produzir o mesmo valor de hash e, portanto, serão consideradas iguais pela coleção. Além disso, esses métodos também são usados para detectar duplicatas. Assim, a implementação de ambos os métodos é crucial para a precisão e correção do [HashMap] (http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html).
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is the advantage of PreparedStatement over Statement?
+### Qual é a diferença entre fail-fast e fail-safe?
 
-PreparedStatements are precompiled and thus, [their performance is much better](http://examples.javacodegeeks.com/core-java/sql/batch-statement-execution-example/). Also, PreparedStatement objects can be reused with different input values to their queries.
+A propriedade fail-safe [Iterator's] (http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html) funciona com o clone da coleção subjacente e, portanto, não é afetada por qualquer modificação na coleção. Todas as classes de coleção no pacote java.util são fail-fast, enquanto as classes de coleção em java.util.concurrent são fail-safe. Os iteradores fail-fast lançam uma [ConcurrentModificationException] (http://examples.javacodegeeks.com/java-basics/exceptions/java-util-concurrentmodificationexception-how-to-handle-concurrent-modification-exception/), enquanto os iteradores fail-safe nunca lançam tal exceção.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is the use of CallableStatement? Name the method, which is used to prepare a CallableStatement.
+### Explique a função do driver no JDBC.
 
-A [CallableStatement](http://docs.oracle.com/javase/7/docs/api/java/sql/CallableStatement.html) is used to execute stored procedures. Stored procedures are stored and offered by a database. Stored procedures may take input values from the user and may return a result. The usage of stored procedures is highly encouraged, because it offers security and modularity.The method that prepares a [CallableStatement](http://docs.oracle.com/javase/7/docs/api/java/sql/CallableStatement.html) is the following:
+O driver JDBC fornece implementações específicas do fornecedor das classes abstratas fornecidas pela API JDBC. Cada driver deve fornecer implementações para as seguintes classes do pacote java.sql: [Connection] (http://docs.oracle.com/javase/7/docs/api/java/sql/Connection.html), [Statement] (http://docs.oracle.com/javase/7/docs/api/java/sql/Statement.html), [PreparedStatement] (http://docs.oracle.com/javase/7/docs/api/java/sql/PreparedStatement.html), [CallableStatement] (http://docs.oracle.com/javase/7/docs/api/java/sql/CallableStatement.html), [ResultSet] (http://docs.oracle.com/javase/7/docs/api/java/sql/ResultSet.html) e [Driver] (http://docs.oracle.com/javase/7/docs/api/java/sql/Driver.html )
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### Que diferenças existem entre Iterator e ListIterator?
+
+As diferenças desses elementos estão listadas abaixo:
+
+* Um [Iterator] (http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html) pode ser usado para percorrer o [Set] (http://docs.oracle.com/javase/7/docs/api/java/util/Set.html) e coleções [List] (http://docs.oracle.com/javase/7/docs/api/java/util/List.html) , enquanto o [ListIterator] (http://docs.oracle.com/javase/7/docs/api/java/util/ListIterator.html) pode ser usado para iterar apenas em [List] (http://docs.oracle.com/javase/7/docs/api/java/util/List.html).
+* O [Iterator] (http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html) pode percorrer uma coleção apenas para frente, enquanto o [ListIterator] (http: / /docs.oracle.com/javase/7/docs/api/java/util/ListIterator.html) pode percorrer uma [Lista] (http://docs.oracle.com/javase/7/docs/api/java/util/List.html) em ambas as direções.
+* O [ListIterator] (http://docs.oracle.com/javase/7/docs/api/java/util/ListIterator.html) implementa o [Iterator] (http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html) e contém funcionalidades extras, como adicionar um elemento, substituir um elemento, obter a posição do índice para os elementos anteriores e seguintes, etc.
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### Qual é a vantagem de PreparedStatement em relação à Statement?
+
+PreparedStatements são pré-compilados e, portanto, [seu desempenho é muito melhor] (http://examples.javacodegeeks.com/core-java/sql/batch-statement-execution-example/). Além disso, os objetos PreparedStatement podem ser reutilizados com diferentes valores de entrada para suas consultas.
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### Qual é a utilidade de CallableStatement? Nomeie o método, que é usado para preparar um CallableStatement.
+
+Um [CallableStatement] (http://docs.oracle.com/javase/7/docs/api/java/sql/CallableStatement.html) é usado para executar stored procedures. As stored procedures são armazenados e oferecidos por um banco de dados. As stored procedures podem obter valores de entrada do usuário e podem retornar um resultado. O uso de stored procedures é altamente encorajado, pois oferece segurança e modularidade. O método que prepara um [CallableStatement] (http://docs.oracle.com/javase/7/docs/api/java/sql/CallableStatement.html ) é o seguinte:
 
 ```java
 CallableStament.prepareCall();
@@ -933,70 +933,72 @@ CallableStament.prepareCall();
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is the difference between doGet() and doPost()?
 
-* **doGET**: The GET method appends the name-value pairs on the request’s URL. Thus, there is a limit on the number of characters and subsequently on the number of values that can be used in a client’s request. Furthermore, the values of the request are made visible and thus, sensitive information must not be passed in that way.       
-* **doPOST**: The POST method overcomes the limit imposed by the GET request, by sending the values of the request inside its body. Also, there is no limitations on the number of values to be sent across. Finally, the sensitive information passed through a POST request is not visible to an external client.
+### Qual é a diferença entre doGet() e doPost()?
 
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### Explain the life cycle of a Servlet.
-
-On every client’s request, the Servlet Engine loads the servlets and invokes its init methods, in order for the servlet to be initialized. Then, the Servlet object handles all subsequent requests coming from that client, by invoking the service method for each request separately. Finally, the servlet is removed by calling the server’s destroy method.
+* **doGET**: O método GET anexa os pares nome-valor da URL da solicitação. Assim, há um limite para o número de caracteres e, posteriormente, para o número de valores que podem ser usados na solicitação de um cliente. Além disso, os valores da solicitação ficam visíveis e, portanto, informações confidenciais não devem ser passadas dessa forma.
+* **doPOST**: O método POST supera o limite imposto pela solicitação GET, enviando os valores da solicitação dentro de seu corpo. Além disso, não há limitações quanto ao número de valores a serem enviados. Por fim, as informações confidenciais transmitidas por meio de uma solicitação POST não são visíveis para um cliente externo.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is the difference between GenericServlet and HttpServlet?
+### Explique o ciclo de vida de um Servlet.
 
-GenericServlet is a generalized and protocol-independent servlet that implements the Servlet and ServletConfig interfaces. Those servlets extending the GenericServlet class shall override the service method. Finally, in order to develop an HTTP servlet for use on the Web that serves requests using the HTTP protocol, your servlet must extend the HttpServlet instead. Check [Servlet examples here](http://examples.javacodegeeks.com/tag/servlet/).
-
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### What are the advantages of JSP?
-
-The advantages of using the JSP technology are shown below:
-
-* JSP pages are dynamically compiled into servlets and thus, the developers can easily make updates to presentation code.
-* JSP pages can be pre-compiled.
-* JSP pages can be easily combined to static templates, including HTML or XML fragments, with code that generates dynamic content.
-* Developers can offer customized JSP tag libraries that page authors access using an XML-like syntax.
-* Developers can make logic changes at the component level, without editing the individual pages that use the application’s logic.
+Em cada solicitação do cliente, a Servlet Engine carrega os servlets e invoca seus métodos init, para que o servlet seja inicializado. Em seguida, o objeto Servlet trata todas as solicitações subsequentes provenientes desse cliente, invocando o método de serviço para cada solicitação separadamente. Finalmente, o servlet é removido chamando o método destroy do servidor.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What’s a deadlock? 
 
-A condition that occurs when [two processes are waiting for each other to complete](http://www.javacodegeeks.com/2013/01/java-deadlock-example-how-to-analyze-deadlock-situation.html), before proceeding. The result is that both processes wait endlessly.
+### Qual é a diferença entre GenericServlet e HttpServlet?
 
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### What is the difference between an Applet and a Servlet?
-
-An Applet is a client side java program that runs within a Web browser on the client machine. On the other hand, a servlet is a server side component that runs on the web server.An applet can use the user interface classes, while a servlet does not have a user interface. Instead, a servlet waits for client’s HTTP requests and generates a response in every request.
+GenericServlet é um servlet generalizado e independente de protocolo que implementa as interfaces Servlet e ServletConfig. Esses servlets que estendem a classe GenericServlet devem substituir o método de serviço. Finalmente, para desenvolver um servlet HTTP para uso na Web que atenda a solicitações usando o protocolo HTTP, seu servlet deve estender o HttpServlet. Verifique [exemplos de servlet aqui] (http://examples.javacodegeeks.com/tag/servlet/).
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What are Scriptlets?
+### Quais são as vantagens do JSP?
 
-In Java Server Pages (JSP) technology, a scriptlet is a piece of Java-code embedded in a JSP page. The scriptlet is everything inside the tags. Between these tags, a user can add any valid scriptlet.
+As vantagens de usar a tecnologia JSP são mostradas abaixo:
+
+* As páginas JSP são compiladas dinamicamente em servlets e, portanto, os desenvolvedores podem facilmente fazer atualizações no código de apresentação.
+* As páginas JSP podem ser pré-compiladas.
+* As páginas JSP podem ser facilmente combinadas a modelos estáticos, incluindo fragmentos HTML ou XML, com código que gera conteúdo dinâmico.
+* Os desenvolvedores podem oferecer bibliotecas de tags JSP personalizadas que os autores das páginas acessam usando uma sintaxe semelhante a XML.
+* Os desenvolvedores podem fazer alterações lógicas no nível de componente, sem editar as páginas individuais que usam a lógica do aplicativo.
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### O que é um deadlock?
+
+Uma condição que ocorre quando [dois processos estão aguardando a conclusão um do outro] (http://www.javacodegeeks.com/2013/01/java-deadlock-example-how-to-analyze-deadlock-situation.html), antes de proceder. O resultado é que os dois processos esperam indefinidamente.
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### Qual é a diferença entre um Applet e um Servlet?
+
+Um applet é um programa java do lado do cliente executado em um navegador Web na máquina cliente. Por outro lado, um servlet é um componente do lado do servidor executado no servidor web. Um applet pode usar as classes de interface de usuário, enquanto um servlet não possui uma interface de usuário. Em vez disso, um servlet aguarda as solicitações HTTP do cliente e gera uma resposta a cada solicitação.
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### O que são Scriptlets?
+
+Na tecnologia Java Server Pages (JSP), um scriptlet é um pedaço de código Java embutido em uma página JSP. O scriptlet é tudo dentro das tags. Entre essas tags, um usuário pode adicionar qualquer scriptlet válido.
 
 ###### Source
 
