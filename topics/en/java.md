@@ -1005,33 +1005,33 @@ Na tecnologia Java Server Pages (JSP), um scriptlet é um pedaço de código Jav
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### Does Java support multiple inheritance? 
+### Java oferece suporte a herança múltipla?
 
-No, Java does not support multiple inheritance. Each class is able to extend only on one class, but is able to implement more than one interfaces.
-
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### Explain different ways of creating a thread. Which one would you prefer and why?
-
-There are three ways that can be used in order for a [Thread](http://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html) to be created:
-
-* A class may extend the [Thread](http://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html) class.
-* A class may implement the [Runnable](http://docs.oracle.com/javase/7/docs/api/java/lang/Runnable.html) interface.
-* An application can use the [Executor](http://docs.oracle.com/javase/7/docs/api/java/util/concurrent/Executor.html) framework, in order to create a thread pool.
-
-The [Runnable](http://docs.oracle.com/javase/7/docs/api/java/lang/Runnable.html) interface is preferred, as it does not require an object to inherit the [Thread](http://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html) class. In case your application design requires multiple inheritance, only interfaces can help you. Also, the thread pool is very efficient and can be implemented and used very easily.
+Não, o Java não oferece suporte a herança múltipla. Cada classe pode estender apenas uma classe, mas é capaz de implementar mais de uma interface.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is meant by JSP implicit objects and what are they?
+### Explique as diferentes maneiras de criar uma thread. Qual você prefere e por quê?
 
-JSP implicit objects are those Java objects that the JSP Container makes available to developers in each page. A developer can call them directly, without being explicitly declared. JSP Implicit Objects are also called pre-defined variables.The following objects are considered implicit in a JSP page:
+Existem três maneiras que podem ser usadas para que uma [Thread] (http://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html) seja criado:
+
+* Uma classe pode estender a classe [Thread] (http://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html).
+* Uma classe pode implementar a interface [Runnable] (http://docs.oracle.com/javase/7/docs/api/java/lang/Runnable.html).
+* Uma aplicação pode usar o framework [Executor] (http://docs.oracle.com/javase/7/docs/api/java/util/concurrent/Executor.html), a fim de criar um pool de threads.
+
+A interface [Runnable] (http://docs.oracle.com/javase/7/docs/api/java/lang/Runnable.html) é preferida, pois não requer um objeto para herdar a classe [Thread] (http://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html). Caso o design da sua aplicação exija herança múltipla, apenas as interfaces podem ajudá-lo. Além disso, o pool de threads é muito eficiente e pode ser implementado e usado com muita facilidade.
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### O que significa objetos implícitos JSP e o que são?
+
+Os objetos JSP implícitos são aqueles objetos Java que o Container JSP disponibiliza aos desenvolvedores em cada página. Um desenvolvedor pode chamá-los diretamente, sem ser explicitamente declarado. Objetos JSP Implícitos também são chamados de variáveis predefinidas. Os seguintes objetos são considerados implícitos em uma página JSP:
 
 * application
 * page
@@ -1048,175 +1048,175 @@ JSP implicit objects are those Java objects that the JSP Container makes availab
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is RMI?
+### O que é RMI?
 
-The Java Remote Method Invocation (Java RMI) is a Java API that performs the object-oriented equivalent of remote procedure calls (RPC), with support for direct transfer of serialized Java classes and distributed garbage collection. Remote Method Invocation (RMI) can also be seen as the process of activating a method on a remotely running object. RMI offers location transparency because a user feels that a method is executed on a locally running object. 
-
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### Explain the available thread states in a high-level.
-
-During its execution, a thread can reside in one of the following states:
-
-* Runnable: A thread becomes ready to run, but does not necessarily start running immediately.
-* Running: The processor is actively executing the thread code.
-* Waiting: A thread is in a blocked state waiting for some external processing to finish.
-* Sleeping: The thread is forced to sleep.
-* Blocked on I/O: Waiting for an I/O operation to complete.
-* Blocked on Synchronization: Waiting to acquire a lock.
-* Dead: The thread has finished its execution.
+O Java Remote Method Invocation (Java RMI) é uma API Java que executa equivalentemente orientado a objetos as chamadas de procedimento remoto (RPC), com suporte para transferência direta de classes Java serializadas e garbage collection distribuída. A invocação de método remoto (RMI) também pode ser vista como o processo de ativação de um método em um objeto em execução remota. O RMI oferece transparência de localização porque o usuário sente que um método é executado em um objeto em execução local. 
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### Explain Marshalling and demarshalling.
+### Explique os estados de thread disponíveis em alto nível.
 
-When an application wants to pass its memory objects across a network to another host or persist it to storage, the in-memory representation must be converted to a suitable format. This process is called marshalling and the revert operation is called demarshalling.
+Durante sua execução, um thread pode residir em um dos seguintes estados:
 
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### How do you ensure that N threads can access N resources without deadlock? 
-
-A very simple way to avoid deadlock while using N threads is to impose an ordering on the locks and force each thread to follow that ordering. Thus, if all threads lock and unlock the mutexes in the same order, no deadlocks can arise.
-
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### What is Perm Gen space in Heap?
-
-Perm Gen stands for permanent generation. It is the space on Java Heap that holds meta-data describing user classes (classes that are not part of the Java language). Examples of such meta-data are objects describing classes and methods and they are stored in the Permanent Generation. Applications with large code-base can quickly fill up this segment of the heap which will cause ```java.lang.OutOfMemoryError: PermGen``` no matter how high your ```-Xmx``` (maximum size of the memory allocation pool) and how much memory you have on the machine.
+* Runnable: um thread fica pronto para ser executado, mas não necessariamente começa a ser executado imediatamente.
+* Running: O processador está executando ativamente o código da thread.
+* Waiting: uma thread está em um estado bloqueado, aguardando a conclusão de algum processamento externo.
+* Sleeping: O thread é forçado a dormir.
+* Blocked on I/O: Aguardando a conclusão de uma operação de I/O.
+* Blocked on Synchronization: Aguardando um bloqueio.
+* Dead: O thread terminou sua execução.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What does Connection pooling mean?
+### Explique Marshalling e Demarshalling.
 
-The interaction with a database can be costly, regarding the opening and closing of database connections. Especially, when the number of database clients increases, this cost is very high and a large number of resources is consumed.A pool of database connections is obtained at start up by the application server and is maintained in a pool. A request for a connection is served by [a connection residing in the pool](http://examples.javacodegeeks.com/enterprise-java/hibernate/hibernate-connection-pool-configuration-with-c3p0-example/). In the end of the connection, the request is returned to the pool and can be used to satisfy future requests.
-
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### What is the applet class loader, and what does it provide?
-
-When an applet is loaded over the internet, the applet is loaded by the applet classloader. The class loader enforces the Java name space hierarchy. Also, the class loader guarantees that a unique namespace exists for classes that come from the local file system, and that a unique namespace exists for each network source. When a browser loads an applet over the net, that applet’s classes are placed in a private namespace associated with the applet’s origin. Then, those classes loaded by the class loader are passed through the verifier.The verifier checks that the class file conforms to the Java language specification . Among other things, the verifier ensures that there are no stack overflows or underflows and that the parameters to all bytecode instructions are correct.
+Quando uma aplicação deseja passar seus objetos de memória através de uma rede para outro host ou persisti-los no armazenamento, a representação na memória deve ser convertida em um formato adequado. Esse processo é chamado de marshalling e a operação de reversão é chamada demarshalling.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-###  What is the difference between applets loaded over the internet and applets loaded via the file system?
+### Como você garante que N threads podem acessar N recursos sem deadlock?
 
-Regarding the case where an applet is loaded over the internet, the applet is loaded by the applet classloader and is subject to the restrictions enforced by the applet security manager. Regarding the case where an applet is loaded from the client’s local disk, the applet is loaded by the file system loader. Applets loaded via the file system are allowed to read files, write files and to load libraries on the client. Also, applets loaded via the file system are allowed to execute processes and finally, applets loaded via the file system are not passed through the byte code verifier.
-
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### What is Servlet Chaining?
-
-Servlet Chaining is the method where the output of one servlet is sent to a second servlet. The output of the second servlet can be sent to a third servlet, and so on. The last servlet in the chain is responsible for sending the response to the client.
+Uma maneira muito simples de evitar conflito ao usar N threads é impor uma ordem aos bloqueios e forçar cada thread a seguir essa ordem. Portanto, se todos os threads bloquear e desbloquear as exclusões mutuas na mesma ordem, nenhum conflito poderá ocorrer.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### How do you find out what client machine is making a request to your servlet?
+### O que é o espaço Perm Gen no Heap?
 
-The ServletRequest class has functions for finding out the IP address or host name of the client machine. getRemoteAddr() gets the IP address of the client machine and getRemoteHost() gets the host name of the client machine. See example [here](http://examples.javacodegeeks.com/enterprise-java/servlet/get-client-s-address-and-hostname-in-servlet/).
-
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### What are some of the best practices relating to the Java Collection framework?
-
-* Choosing the right type of the collection to use, based on the application’s needs, is very crucial for its performance. For example if the size of the elements is fixed and know a priori, we shall use an [Array](http://docs.oracle.com/javase/7/docs/api/java/lang/reflect/Array.html), instead of an [ArrayList](http://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html).
-* Some collection classes allow us to specify their initial capacity. Thus, if we have an estimation on the number of elements that will be stored, we can use it to avoid rehashing or resizing.
-* Always use Generics for type-safety, readability, and robustness. Also, by using Generics you avoid the [ClassCastException](http://docs.oracle.com/javase/7/docs/api/java/lang/ClassCastException.html) during runtime.
-* Use immutable classes provided by the Java Development Kit (JDK) as a key in a Map, in order to avoid the implementation of the [hashCode](http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html#hashCode%28%29) and equals methods for our custom class.
-* Program in terms of interface not implementation.
-* Return zero-length collections or arrays as opposed to returning a null in case the underlying collection is actually empty.
+Perm Gen significa geração permanente. É o espaço no Java Heap que contém metadados que descrevem as classes do usuário (classes que não fazem parte da linguagem Java). Exemplos de tais metadados são objetos que descrevem classes e métodos e são armazenados na Perm Gen. Aplicações com grande base de código podem preencher rapidamente este segmento do heap que causará ```java.lang.OutOfMemoryError: PermGen``` não importa o quão alto seu ``` -Xmx``` (tamanho máximo da memória pool de alocação) e quanta memória você tem na máquina.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is the difference between a synchronized method and a synchronized block?
+### O que significa pool de conexão?
 
-In Java programming, each object has a lock. A thread can acquire the lock for an object by using the synchronized keyword. The synchronized keyword can be applied in a method level (coarse grained lock) or block level of code (fine grained lock).
-
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### What is the basic principle of RMI architecture?
-
-The RMI architecture is based on a very important principle which states that the definition of the behavior and the implementation of that behavior, are separate concepts. RMI allows the code that defines the behavior and the code that implements the behavior to remain separate and to run on separate JVMs.
+A interação com um banco de dados pode ser onerosa, no que diz respeito à abertura e fechamento de conexões de banco de dados. Especialmente, quando o número de clientes de banco de dados aumenta, esse custo é muito alto e um grande número de recursos é consumido. Um pool de conexões de banco de dados é obtido na inicialização pelo servidor de aplicações e é mantido em um pool. Uma solicitação de conexão é atendida por [uma conexão residente no pool] (http://examples.javacodegeeks.com/enterprise-java/hibernate/hibernate-connection-pool-configuration-with-c3p0-example/). No final da conexão, a solicitação é retornada ao pool e pode ser usada para atender a solicitações futuras.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is the purpose of using RMISecurityManager in RMI?
+### O que é o classloader de applet e o que ele fornece?
 
-RMISecurityManager provides a security manager that can be used by RMI applications, which use downloaded code. The class loader of RMI will not download any classes from remote locations, if the security manager has not been set.
-
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### What is the role of Remote Interface in RMI?
-
-The Remote interface serves to identify interfaces whose methods may be invoked from a non-local virtual machine. Any object that is a remote object must directly or indirectly implement this interface. A class that implements a remote interface should declare the remote interfaces being implemented, define the constructor for each remote object and provide an implementation for each remote method in all remote interfaces.
+Um applet é carregado pelo classloader quando na internet. O classloader reforça a hierarquia do namespace Java. Além disso, o classloader garante que exista um namespace exclusivo para as classes que vêm do sistema de arquivos local e que exista um namespace exclusivo para cada origem de rede. Quando um navegador carrega um applet na rede, as classes desse applet são colocadas em um namespace privado associado à origem do applet. Em seguida, essas classes carregadas pelo classloader são passadas pelo verificador. O verificador verifica se o arquivo de classe está em conformidade com a especificação da linguagem Java. Entre outras coisas, o verificador garante que não haja overflows ou underflows de pilha e que os parâmetros para todas as instruções de bytecode estejam corretos.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is the role of the java.rmi.Naming Class? 
+###  Qual é a diferença entre applets carregados pela Internet e applets carregados por meio do sistema de arquivos?
 
-The java.rmi.Naming class provides methods for storing and obtaining references to remote objects in the remote object registry. Each method of the Naming class takes as one of its arguments a name that is a String in URL format.
-
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### What is meant by binding in RMI?
-
-Binding is the process of associating or registering a name for a remote object, which can be used at a later time, in order to look up that remote object. A remote object can be associated with a name using the bind or rebind methods of the Naming class.
+Qunado um applet é carregado pela Internet, o applet é carregado pelo classloader do applet e está sujeito às restrições impostas pelo gerenciador de segurança do applet. Quando um applet é carregado do disco local do cliente, o applet é carregado pelo carregador do sistema de arquivos. Applets carregados por meio do sistema de arquivos têm permissão para ler e gravar arquivos e carregar bibliotecas no cliente. Além disso, os applets carregados por meio do sistema de arquivos têm permissão para executar processos e, finalmente, os applets carregados por meio do sistema de arquivos não são passados pelo verificador de bytecode.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is the difference between Serial and Throughput Garbage collector?
+### O que é Servlet Chaining?
 
-The throughput garbage collector uses a parallel version of the young generation collector and is meant to be used with applications that have medium to large data sets. On the other hand, the serial collector is usually adequate for most small applications (those requiring heaps of up to approximately 100MB on modern processors).
+Servlet Chaining é o método onde a saída de um servlet é enviada para um segundo servlet. A saída do segundo servlet pode ser enviada para um terceiro servlet e assim por diante. O último servlet da cadeia é responsável por enviar a resposta ao cliente.
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### Como você descobre qual máquina cliente está fazendo uma solicitação ao seu servlet?
+
+A classe ServletRequest tem funções para descobrir o endereço IP ou nome do host da máquina cliente. getRemoteAddr() obtém o endereço IP da máquina cliente e getRemoteHost() obtém o nome do host da máquina cliente. Veja o exemplo [aqui] (http://examples.javacodegeeks.com/enterprise-java/servlet/get-client-s-address-and-hostname-in-servlet/).
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### Quais são as melhores práticas relacionadas à estrutura Java Collection?
+
+* Escolher o tipo certo de coleção a ser usado, com base nas necessidades da aplicação é muito importante para seu desempenho. Por exemplo, se o tamanho dos elementos é fixo e conhecido a priori, devemos usar um [Array] (http://docs.oracle.com/javase/7/docs/api/java/lang/reflect/Array.html ), em vez de um [ArrayList] (http://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html).
+* Algumas classes de coleção nos permitem especificar sua capacidade inicial. Assim, se tivermos uma estimativa do número de elementos que serão armazenados, podemos usá-la para evitar o rearranjo ou redimensionamento.
+* Sempre use Generics para segurança de tipo, legibilidade e robustez. Além disso, usando Generics, você evita o [ClassCastException] (http://docs.oracle.com/javase/7/docs/api/java/lang/ClassCastException.html) durante o tempo de execução.
+* Use classes imutáveis fornecidas pelo Java Development Kit (JDK) como chave em um Map, a fim de evitar a implementação do [hashCode] (http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html#hashCode%28%29) e métodos equals para nossa classe personalizada.
+* Programa em termos de interface, não implementação.
+* Retorne coleções ou matrizes de comprimento zero ao invés de retornar um nulo caso a coleção subjacente esteja realmente vazia.
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### Qual é a diferença entre um método sincronizado e um bloco sincronizado?
+
+Na programação Java, cada objeto possui um bloqueio. Um thread pode adquirir o bloqueio de um objeto usando a palavra-chave synchronized. A palavra-chave synchronized pode ser aplicada em um nível de método (bloqueio de baixa granulação) ou nível de bloco de código (bloqueio de baixa granularidade).
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### Qual é o princípio básico da arquitetura RMI?
+
+A arquitetura RMI é baseada em um princípio muito importante que afirma que a definição do comportamento e a implementação desse comportamento são conceitos separados. O RMI permite que o código que define o comportamento e o código que implementa o comportamento permaneçam separados e sejam executados em JVMs separados.
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### Qual é o propósito de usar RMISecurityManager em RMI?
+
+RMISecurityManager fornece um gerenciador de segurança que pode ser usado por aplicativos RMI, que usam código baixado. O carregador de classes do RMI não fará download de nenhuma classe de locais remotos, se o gerenciador de segurança não tiver sido definido.
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### Qual é a função da Interface Remota no RMI?
+
+A interface remota serve para identificar interfaces cujos métodos podem ser chamados de uma máquina virtual não local. Qualquer objeto que seja um objeto remoto deve implementar direta ou indiretamente esta interface. Uma classe que implementa uma interface remota deve declarar as interfaces remotas sendo implementadas, definir o construtor para cada objeto remoto e fornecer uma implementação para cada método remoto em todas as interfaces remotas.
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### Qual é a função da classe java.rmi.Naming?
+
+A classe java.rmi.Naming fornece métodos para armazenar e obter referências a objetos remotos no registro de objeto remoto. Cada método da classe Naming leva como um de seus argumentos um nome que é uma String no formato de URL.
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### O que significa binding em RMI?
+
+Binding é o processo de associar ou registrar um nome para um objeto remoto, que pode ser usado posteriormente, para pesquisar esse objeto remoto. Um objeto remoto pode ser associado a um nome usando os métodos bind ou rebind da classe Naming.
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### Qual é a diferença entre Garbage Collector serial e throughput?
+
+O Garbage Collector de melhor rendimento usa uma versão paralela do coletor de nova geração e deve ser usado com aplicativos que possuem volumes de dados médios a grandes. Por outro lado, o coletor serial geralmente é adequado para a maioria das aplicações pequenas (aquelas que requerem heaps de até aproximadamente 100 MB nos processadores modernos).
 
 ###### Source
 
