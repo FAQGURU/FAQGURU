@@ -1,6 +1,6 @@
 ## Java
 
-[O que é JVM ? Por quê Java é chamado de “Linguagem de Programação Independente de Plataforma” ?](#O-que-é-JVM--Por-quê-Java-é-chamado-de-“Linguagem-de-Programação-Independente-de-Plataforma”
+[O que é JVM ? Por quê Java é chamado de “Linguagem de Programação Independente de Plataforma” ?](#O-que-é-JVM--Por-quê-Java-é-chamado-de-“Linguagem-de-Programação-Independente-de-Plataforma”)
 
 [O que é uma Servlet?](#O-que-é-uma-Servlet)
 
@@ -10,19 +10,19 @@
 
 [Qual a diferença entre uma applet e uma aplicação Java?](#Qual-a-diferença-entre-uma-applet-e-uma-aplicação-Java)
 
-[Qual é a diferença entre JDK e JRE? ](#Qual-é-a-diferença-entre-JDK-e-JRE
+[Qual é a diferença entre JDK e JRE? ](#Qual-é-a-diferença-entre-JDK-e-JRE)
 
-[Quais são os dois tipos de exceção em Java? Qual a diferença entre eles? ](#Quais-são-os-dois-tipos-de-exceção-em-Java-Qual-a-diferença-entre-eles
+[Quais são os dois tipos de exceção em Java? Qual a diferença entre eles? ](#Quais-são-os-dois-tipos-de-exceção-em-Java-Qual-a-diferença-entre-eles)
 
 [Explique a arquitetura de uma Servlet.](#Explique-a-arquitetura-de-uma-Servlet.)
 
-[Qual é a diferença entre uma interface e uma classe abstrata? ](#Qual-é-a-diferença-entre-uma-interface-e-uma-classe-abstrata
+[Qual é a diferença entre uma interface e uma classe abstrata? ](#Qual-é-a-diferença-entre-uma-interface-e-uma-classe-abstrata)
 
-[O que são passagem por referência e passagem por valor? ](#O-que-são-passagem-por-referência-e-passagem-por-valor
+[O que são passagem por referência e passagem por valor? ](#O-que-são-passagem-por-referência-e-passagem-por-valor)
 
 [Qual é a diferença entre processos e threads?](#Qual-é-a-diferença-entre-processos-e-threads)
 
-[Explique Serialização e Desserialização. ](#Explique-Serialização-e-Desserialização.
+[Explique Serialização e Desserialização. ](#Explique-Serialização-e-Desserialização.)
 
 [O que são expressões?](#O-que-são-expressões)
 
@@ -110,7 +110,7 @@
 
 [O que são applets não confiáveis?](#O-que-são-applets-não-confiáveis)
 
-#NOME?
+[ O que é um Server Side Include (SSI) ?](#o-que-é-um-Server-Side-Include-(SSI))
 
 [O que é um Construtor, Sobrecarga de Construtor em Java e Construtor de Cópia?](#O-que-é-um-Construtor,-Sobrecarga-de-Construtor-em-Java-e-Construtor-de-Cópia)
 
@@ -174,7 +174,7 @@
 
 [O que é o classloader de applet e o que ele fornece?](#O-que-é-o-classloader-de-applet-e-o-que-ele-fornece)
 
-#NOME?
+[Qual é a diferença entre applets carregados pela Internet e applets carregados por meio do sistema de arquivos?](#Qual-é-a-diferença-entre-applets-carregados-pela-Internet-e-applets-carregados-por-meio-do-sistema-de-arquivos)
 
 [O que é Servlet Chaining?](#O-que-é-Servlet-Chaining)
 
