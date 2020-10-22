@@ -1,211 +1,210 @@
 ## Java
 
-[O que é uma JVM? Por quê Java é chamada de “Linguagem de programação independente de plataforma”?](#o-que-e-jvm-por-que-java-e-chamado-de-linguagem-de-programacao-independente-de-plataforma)
+[O que é JVM ? Por quê Java é chamado de “Linguagem de Programação Independente de Plataforma” ?](#O-que-é-JVM--Por-quê-Java-é-chamado-de-“Linguagem-de-Programação-Independente-de-Plataforma”
 
-[O que é uma Servlet?](#o-que-e-uma-servlet)
+[O que é uma Servlet?](#O-que-é-uma-Servlet)
 
 [O que é uma página JSP?](#O-que-é-uma-página-JSP)
 
-[Let's talk Swing. What is the difference between a Choice and a List?](#lets-talk-swing-what-is-the-difference-between-a-choice-and-a-list)
+[Vamos conversar sobre o Swing. Qual é a diferença entre um Choice e um List?](#Vamos-conversar-sobre-o-Swing.-Qual-é-a-diferença-entre-um-Choice-e-um-List)
 
-[Qual a diferença entre uma applet e uma aplicação Java?](#qual-a-diferença-entre-uma-applet-e-uma-aplicação-java)
+[Qual a diferença entre uma applet e uma aplicação Java?](#Qual-a-diferença-entre-uma-applet-e-uma-aplicação-Java)
 
-[qual é a diferença entre JDK e JRE? ](#qual-é-a-diferença-entre-jdk-e-jre)
+[Qual é a diferença entre JDK e JRE? ](#Qual-é-a-diferença-entre-JDK-e-JRE
 
-[What are the two types of Exceptions in Java? Which are the differences between them? ](#what-are-the-two-types-of-exceptions-in-java-which-are-the-differences-between-them)
+[Quais são os dois tipos de exceção em Java? Qual a diferença entre eles? ](#Quais-são-os-dois-tipos-de-exceção-em-Java-Qual-a-diferença-entre-eles
 
-[Explain the architecture of a Servlet.](#explain-the-architecture-of-a-servlet)
+[Explique a arquitetura de uma Servlet.](#Explique-a-arquitetura-de-uma-Servlet.)
 
-[What is the difference between an Interface and an Abstract class? ](#what-is-the-difference-between-an-interface-and-an-abstract-class)
+[Qual é a diferença entre uma interface e uma classe abstrata? ](#Qual-é-a-diferença-entre-uma-interface-e-uma-classe-abstrata
 
-[What are pass by reference and pass by value? ](#what-are-pass-by-reference-and-pass-by-value)
+[O que são passagem por referência e passagem por valor? ](#O-que-são-passagem-por-referência-e-passagem-por-valor
 
-[What is the difference between processes and threads?](#what-is-the-difference-between-processes-and-threads)
+[Qual é a diferença entre processos e threads?](#Qual-é-a-diferença-entre-processos-e-threads)
 
-[Explain Serialization and Deserialization. ](#explain-serialization-and-deserialization)
+[Explique Serialização e Desserialização. ](#Explique-Serialização-e-Desserialização.
 
-[What are Expressions?](#what-are-expressions)
+[O que são expressões?](#O-que-são-expressões)
 
-[What are Declarations?](#what-are-declarations)
+[O que são Declarações?](#O-que-são-Declarações)
 
-[What are JSP actions?](#what-are-jsp-actions)
+[O que são JSP actions?](#O-que-são-JSP-actions)
 
-[What are Directives?](#what-are-directives)
+[O que são Diretivas?](#O-que-são-Diretivas)
 
-[How are the JSP requests handled?](#how-are-the-jsp-requests-handled)
+[Como as solicitações JSP são tratadas?](#Como-as-solicitações-JSP-são-tratadas)
 
-[What are the basic interfaces of Java Collections Framework? ](#what-are-the-basic-interfaces-of-java-collections-framework)
+[Quais são as interfaces básicas do Java Collections Framework?](#Quais-são-as-interfaces-básicas-do-Java-Collections-Framework)
 
-[What does the “static” keyword mean? Can you override private or static method in Java?](#what-does-the-static-keyword-mean-can-you-override-private-or-static-method-in-java)
+[O que significa a palavra-chave static ? Você pode substituir o método privado ou estático em Java?](#O-que-significa-a-palavra-chave-static--Você-pode-substituir-o-método-privado-ou-estático-em-Java)
 
-[What is an Iterator? ](#what-is-an-iterator)
+[O que é um Iterador?](#O-que-é-um-Iterador)
 
-[What is the purpose Class.forName method?](#what-is-the-purpose-classforname-method)
+[Qual é o propósito do método Class.forName?](#Qual-é-o-propósito-do-método-Class.forName)
 
-[What is JDBC?](#what-is-jdbc)
+[O que é JDBC?](#O-que-é-JDBC)
 
-[How HashMap works in Java? ](#how-hashmap-works-in-java)
+[Como o HashMap funciona em Java?](#Como-o-HashMap-funciona-em-Java)
 
-[What is the design pattern that Java uses for all Swing components?](#what-is-the-design-pattern-that-java-uses-for-all-swing-components)
+[Qual é o padrão de design que o Java usa para todos os componentes Swing?](#Qual-é-o-padrão-de-design-que-o-Java-usa-para-todos-os-componentes-Swing)
 
-[What differences exist between HashMap and Hashtable? ](#what-differences-exist-between-hashmap-and-hashtable)
+[Que diferenças existem entre HashMap e Hashtable?](#Que-diferenças-existem-entre-HashMap-e-Hashtable)
 
-[What advantage do Java’s layout managers provide over traditional windowing systems?](#what-advantage-do-javas-layout-managers-provide-over-traditional-windowing-systems)
+[Que vantagem os gerenciadores de layout do Java oferecem em relação aos sistemas de janelas tradicionais?](#Que-vantagem-os-gerenciadores-de-layout-do-Java-oferecem-em-relação-aos-sistemas-de-janelas-tradicionais)
 
-[How can a GUI component handle its own events?](#how-can-a-gui-component-handle-its-own-events)
+[Como um componente GUI pode lidar com seus próprios eventos?](#Como-um-componente-GUI-pode-lidar-com-seus-próprios-eventos)
 
-[What is a layout manager?](#what-is-a-layout-manager)
+[O que é um layout manager?](#O-que-é-um-layout-manager)
 
-[What’s the difference between sendRedirect and forward methods?](#whats-the-difference-between-sendredirect-and-forward-methods)
+[Qual é a diferença entre os métodos sendRedirect e forward?](#Qual-é-a-diferença-entre-os-métodos-sendRedirect-e-forward)
 
-[What do you know about the big-O notation and can you give some examples with respect to different data structures?](#what-do-you-know-about-the-big-o-notation-and-can-you-give-some-examples-with-respect-to-different-data-structures)
+[O que você sabe sobre a notação big-O e pode dar alguns exemplos com relação a diferentes estruturas de dados?](#O-que-você-sabe-sobre-a-notação-big-O-e-pode-dar-alguns-exemplos-com-relação-a-diferentes-estruturas-de-dados)
 
-[What are the Data Types supported by Java? What is Autoboxing and Unboxing?](#what-are-the-data-types-supported-by-java-what-is-autoboxing-and-unboxing)
+[Quais sã os tipos de dados suportados pelo Java? O que é Autoboxing e Unboxing?](#Quais-sã-os-tipos-de-dados-suportados-pelo-Java-O-que-é-Autoboxing-e-Unboxing)
 
-[What is Function Overriding and Overloading in Java?](#what-is-function-overriding-and-overloading-in-java)
+[que é sobrescrita e sobrecarga de função em Java?](#que-é-sobrescrita-e-sobrecarga-de-função-em-Java)
 
-[What is an Java Applet?](#what-is-an-java-applet)
+[O que é um Applet Java?](#O-que-é-um-Applet-Java)
 
-[What will happen to the Exception object after exception handling?](#what-will-happen-to-the-exception-object-after-exception-handling)
+[O que ira acontecer a Exception depois do tratamento da exceção?](#O-que-ira-acontecer-a-Exception-depois-do-tratamento-da-exceção)
 
-[ What is the purpose of garbage collection in Java, and when is it used?](#what-is-the-purpose-of-garbage-collection-in-java-and-when-is-it-used)
+[ Qual é o propósito do garbage collection em Java, e quando é usado?](#-Qual-é-o-propósito-do-garbage-collection-em-Java,-e-quando-é-usado)
 
-[What does System.gc() and Runtime.gc() methods do?](#what-does-systemgc-and-runtimegc-methods-do)
+[O que os métodos System.gc() e Runtime.gc() fazem?](#O-que-os-métodos-System.gc()-e-Runtime.gc()-fazem)
 
-[What is the importance of finally block in exception handling?](#what-is-the-importance-of-finally-block-in-exception-handling)
+[Qual é a importância do bloco finally no tratamento de exceções?](#Qual-é-a-importância-do-bloco-finally-no-tratamento-de-exceções)
 
-[What is the difference between Exception and Error in java?](#what-is-the-difference-between-exception-and-error-in-java)
+[Qual é a diferença entre exceção e erro em java?](#Qual-é-a-diferença-entre-exceção-e-erro-em-java)
 
-[What is meant by a Web Application?](#what-is-meant-by-a-web-application)
+[O que significa uma aplicação Web?](#O-que-significa-uma-aplicação-Web)
 
-[When does an Object becomes eligible for Garbage collection in Java? ](#when-does-an-object-becomes-eligible-for-garbage-collection-in-java-)
+[Quando um objeto se torna elegível para o Garbage Collection em Java?](#Quando-um-objeto-se-torna-elegível-para-o-Garbage-Collection-em-Java)
 
-[Why Collection doesn’t extend Cloneable and Serializable interfaces? ](#why-collection-doesnt-extend-cloneable-and-serializable-interfaces)
+[Por que Collection não estende as interfaces Cloneable e Serializable?](#Por-que-Collection-não-estende-as-interfaces-Cloneable-e-Serializable)
 
-[What happens when an applet is loaded?](#what-happens-when-an-applet-is-loaded)
+[O que acontece quando um applet é carregado?](#O-que-acontece-quando-um-applet-é-carregado)
 
-[What is the role of stub in RMI?](#what-is-the-role-of-stub-in-rmi)
+[Qual é a função do stub no RMI?](#Qual-é-a-função-do-stub-no-RMI)
 
-[What is structure of Java Heap?](#what-is-structure-of-java-heap)
+[Qual é a estrutura do Java Heap?](#Qual-é-a-estrutura-do-Java-Heap)
 
-[If an object reference is set to null, will the Garbage Collector immediately free the memory held by that object?](#if-an-object-reference-is-set-to-null-will-the-garbage-collector-immediately-free-the-memory-held-by-that-object)
+[Se uma referência de objeto for definida como nula, o Garbage Collector liberará imediatamente a memória mantida por esse objeto?](#Se-uma-referência-de-objeto-for-definida-como-nula,-o-Garbage-Collector-liberará-imediatamente-a-memória-mantida-por-esse-objeto)
 
-[What is the difference between throw and throws?](#what-is-the-difference-between-throw-and-throws)
+[Qual é a diferença entre throw e throws?](#Qual-é-a-diferença-entre-throw-e-throws)
 
-[When is the finalize() called? What is the purpose of finalization? ](#when-is-the-finalize-called-what-is-the-purpose-of-finalization)
+[Quando finalize () é chamado? Qual é o propósito da finalização?](#Quando-finalize-()-é-chamado-Qual-é-o-propósito-da-finalização)
 
-[What are the steps involved to make work a RMI program? ](#what-are-the-steps-involved-to-make-work-a-rmi-program)
+[Quais são as etapas envolvidas para o trabalho de um programa RMI?](#Quais-são-as-etapas-envolvidas-para-o-trabalho-de-um-programa-RMI)
 
-[How does finally block differ from finalize() method?](#how-does-finally-block-differ-from-finalize-method)
+[Como o finally block difere do método finalize ()?](#Como-o-finally-block-difere-do-método-finalize-())
 
-[What’s the difference between Enumeration and Iterator interfaces? ](#whats-the-difference-between-enumeration-and-iterator-interfaces)
+[Qual é a diferença entre as interfaces Enumeration e Iterator?](#Qual-é-a-diferença-entre-as-interfaces-Enumeration-e-Iterator)
 
-[Explain the life cycle of an Applet. ](#explain-the-life-cycle-of-an-applet)
+[Explique o ciclo de vida de um applet.](#Explique-o-ciclo-de-vida-de-um-applet.)
 
-[Can you access non static variable in static context?](#can-you-access-non-static-variable-in-static-context)
+[Você pode acessar variáveis não estáticas em contexto estático?](#Você-pode-acessar-variáveis-não-estáticas-em-contexto-estático)
 
-[What is the tradeoff between using an unordered array versus an ordered array? ](#what-is-the-tradeoff-between-using-an-unordered-array-versus-an-ordered-array)
+[Qual é a vantagem e desvantagem entre usar uma matriz não ordenada e uma matriz ordenada?](#Qual-é-a-vantagem-e-desvantagem-entre-usar-uma-matriz-não-ordenada-e-uma-matriz-ordenada)
 
-[What are the restrictions imposed on Java applets?](#what-are-the-restrictions-imposed-on-java-applets)
+[Quais são as restrições impostas aos apllets Java?](#Quais-são-as-restrições-impostas-aos-apllets-Java)
 
-[What are untrusted applets?](#what-are-untrusted-applets)
+[O que são applets não confiáveis?](#O-que-são-applets-não-confiáveis)
 
-[ What is a Server Side Include (SSI)?](#what-is-a-server-side-include-ssi)
+#NOME?
 
-[What is a Constructor, Constructor Overloading in Java and Copy-Constructor? ](#what-is-a-constructor-constructor-overloading-in-java-and-copy-constructor)
+[O que é um Construtor, Sobrecarga de Construtor em Java e Construtor de Cópia?](#O-que-é-um-Construtor,-Sobrecarga-de-Construtor-em-Java-e-Construtor-de-Cópia)
 
-[What is the applet security manager, and what does it provide?](#what-is-the-applet-security-manager-and-what-does-it-provide)
+[O que é o gerenciador de segurança do applet e o que ele fornece?](#O-que-é-o-gerenciador-de-segurança-do-applet-e-o-que-ele-fornece)
 
-[What is Java Priority Queue?](#what-is-java-priority-queue)
+[O que é Java Priority Queue?](#O-que-é-Java-Priority-Queue)
 
-[What is Comparable and Comparator interface? List their differences.](#what-is-comparable-and-comparator-interface-list-their-differences)
+[O que é a interface Comparable e Comparator? Liste suas diferenças.](#O-que-é-a-interface-Comparable-e-Comparator-Liste-suas-diferenças.)
 
-[Which Swing methods are thread-safe?](#which-swing-methods-are-thread-safe)
+[Quais métodos Swing são thread-safe?](#Quais-métodos-Swing-são-thread-safe)
 
-[What is the relationship between an event-listener interface and an event-adapter class?](#what-is-the-relationship-between-an-event-listener-interface-and-an-event-adapter-class)
+[Qual é o relacionamento entre uma interface event-listener e uma classe do adaptador de eventos?](#Qual-é-o-relacionamento-entre-uma-interface-event-listener-e-uma-classe-do-adaptador-de-eventos)
 
-[What is difference between ArrayList and LinkedList? ](#what-is-difference-between-arraylist-and-linkedlist)
+[Qual é a diferença entre ArrayList e LinkedList?](#Qual-é-a-diferença-entre-ArrayList-e-LinkedList)
 
-[What is difference between Array and ArrayList? When will you use Array over ArrayList?](#what-is-difference-between-array-and-arraylist-when-will-you-use-array-over-arraylist)
+[Qual é a diferença entre Array e ArrayList? Quando você usará Array em vez de ArrayList?](#Qual-é-a-diferença-entre-Array-e-ArrayList-Quando-você-usará-Array-em-vez-de-ArrayList)
 
-[What is the importance of hashCode() and equals() methods? ](#what-is-the-importance-of-hashcode-and-equals-methods)
+[Qual é a importância dos métodos hashCode() e equals()?](#Qual-é-a-importância-dos-métodos-hashCode()-e-equals())
 
-[What is difference between fail-fast and fail-safe? ](#what-is-difference-between-fail-fast-and-fail-safe)
+[Qual é a diferença entre fail-fast e fail-safe?](#Qual-é-a-diferença-entre-fail-fast-e-fail-safe)
 
-[Explain the role of Driver in JDBC. ](#explain-the-role-of-driver-in-jdbc)
+[Explique a função do driver no JDBC.](#Explique-a-função-do-driver-no-JDBC.)
 
-[What differences exist between Iterator and ListIterator? ](#what-differences-exist-between-iterator-and-listiterator)
+[Que diferenças existem entre Iterator e ListIterator?](#Que-diferenças-existem-entre-Iterator-e-ListIterator)
 
-[What is the advantage of PreparedStatement over Statement?](#what-is-the-advantage-of-preparedstatement-over-statement)
+[Qual é a vantagem de PreparedStatement em relação à Statement?](#Qual-é-a-vantagem-de-PreparedStatement-em-relação-à-Statement)
 
-[What is the use of CallableStatement? Name the method, which is used to prepare a CallableStatement.](#what-is-the-use-of-callablestatement-name-the-method-which-is-used-to-prepare-a-callablestatement)
+[Qual é a utilidade de CallableStatement? Nomeie o método, que é usado para preparar um CallableStatement.](#Qual-é-a-utilidade-de-CallableStatement-Nomeie-o-método,-que-é-usado-para-preparar-um-CallableStatement.)
 
-[What is the difference between doGet() and doPost()?](#what-is-the-difference-between-doget-and-dopost)
+[Qual é a diferença entre doGet() e doPost()?](#Qual-é-a-diferença-entre-doGet()-e-doPost())
 
-[Explain the life cycle of a Servlet.](#explain-the-life-cycle-of-a-servlet)
+[Explique o ciclo de vida de um Servlet.](#Explique-o-ciclo-de-vida-de-um-Servlet.)
 
-[What is the difference between GenericServlet and HttpServlet?](#what-is-the-difference-between-genericservlet-and-httpservlet)
+[Qual é a diferença entre GenericServlet e HttpServlet?](#Qual-é-a-diferença-entre-GenericServlet-e-HttpServlet)
 
-[What are the advantages of JSP?](#what-are-the-advantages-of-jsp)
+[Quais são as vantagens do JSP?](#Quais-são-as-vantagens-do-JSP)
 
-[What’s a deadlock? ](#whats-a-deadlock)
+[O que é um deadlock?](#O-que-é-um-deadlock)
 
-[What is the difference between an Applet and a Servlet?](#what-is-the-difference-between-an-applet-and-a-servlet)
+[Qual é a diferença entre um Applet e um Servlet?](#Qual-é-a-diferença-entre-um-Applet-e-um-Servlet)
 
-[What are Scriptlets?](#what-are-scriptlets)
+[O que são Scriptlets?](#O-que-são-Scriptlets)
 
-[Does Java support multiple inheritance? ](#does-java-support-multiple-inheritance)
+[Java oferece suporte a herança múltipla?](#Java-oferece-suporte-a-herança-múltipla)
 
-[Explain different ways of creating a thread. Which one would you prefer and why?](#explain-different-ways-of-creating-a-thread-which-one-would-you-prefer-and-why)
+[Explique as diferentes maneiras de criar uma thread. Qual você prefere e por quê?](#Explique-as-diferentes-maneiras-de-criar-uma-thread.-Qual-você-prefere-e-por-quê)
 
-[What is meant by JSP implicit objects and what are they?](#what-is-meant-by-jsp-implicit-objects-and-what-are-they)
+[O que significa objetos implícitos JSP e o que são?](#O-que-significa-objetos-implícitos-JSP-e-o-que-são)
 
-[What is RMI?](#what-is-rmi)
+[O que é RMI?](#O-que-é-RMI)
 
-[Explain the available thread states in a high-level.](#explain-the-available-thread-states-in-a-high-level)
+[Explique os estados de thread disponíveis em alto nível.](#Explique-os-estados-de-thread-disponíveis-em-alto-nível.)
 
-[Explain Marshalling and demarshalling.](#explain-marshalling-and-demarshalling)
+[Explique Marshalling e Demarshalling.](#Explique-Marshalling-e-Demarshalling.)
 
-[How do you ensure that N threads can access N resources without deadlock? ](#how-do-you-ensure-that-n-threads-can-access-n-resources-without-deadlock)
+[Como você garante que N threads podem acessar N recursos sem deadlock?](#Como-você-garante-que-N-threads-podem-acessar-N-recursos-sem-deadlock)
 
-[What is Perm Gen space in Heap?](#what-is-perm-gen-space-in-heap)
+[O que é o espaço Perm Gen no Heap?](#O-que-é-o-espaço-Perm-Gen-no-Heap)
 
-[What does Connection pooling mean?](#what-does-connection-pooling-mean)
+[O que significa pool de conexão?](#O-que-significa-pool-de-conexão)
 
-[What is the applet class loader, and what does it provide?](#what-is-the-applet-class-loader-and-what-does-it-provide)
+[O que é o classloader de applet e o que ele fornece?](#O-que-é-o-classloader-de-applet-e-o-que-ele-fornece)
 
-[ What is the difference between applets loaded over the internet and applets loaded via the file system?](#what-is-the-difference-between-applets-loaded-over-the-internet-and-applets-loaded-via-the-file-system)
+#NOME?
 
-[What is Servlet Chaining?](#what-is-servlet-chaining)
+[O que é Servlet Chaining?](#O-que-é-Servlet-Chaining)
 
-[How do you find out what client machine is making a request to your servlet?](#how-do-you-find-out-what-client-machine-is-making-a-request-to-your-servlet)
+[Como você descobre qual máquina cliente está fazendo uma solicitação ao seu servlet?](#Como-você-descobre-qual-máquina-cliente-está-fazendo-uma-solicitação-ao-seu-servlet)
 
-[What are some of the best practices relating to the Java Collection framework?](#what-are-some-of-the-best-practices-relating-to-the-java-collection-framework)
+[Quais são as melhores práticas relacionadas à estrutura Java Collection?](#Quais-são-as-melhores-práticas-relacionadas-à-estrutura-Java-Collection)
 
-[What is the difference between a synchronized method and a synchronized block?](#what-is-the-difference-between-a-synchronized-method-and-a-synchronized-block)
+[Qual é a diferença entre um método sincronizado e um bloco sincronizado?](#Qual-é-a-diferença-entre-um-método-sincronizado-e-um-bloco-sincronizado)
 
-[What is the basic principle of RMI architecture?](#what-is-the-basic-principle-of-rmi-architecture)
+[Qual é o princípio básico da arquitetura RMI?](#Qual-é-o-princípio-básico-da-arquitetura-RMI)
 
-[What is the purpose of using RMISecurityManager in RMI?](#what-is-the-purpose-of-using-rmisecuritymanager-in-rmi)
+[Qual é o propósito de usar RMISecurityManager em RMI?](#Qual-é-o-propósito-de-usar-RMISecurityManager-em-RMI)
 
-[What is the role of Remote Interface in RMI?](#what-is-the-role-of-remote-interface-in-rmi)
+[Qual é a função da Interface Remota no RMI?](#Qual-é-a-função-da-Interface-Remota-no-RMI)
 
-[What is the role of the java.rmi.Naming Class? ](#what-is-the-role-of-the-javarminaming-class)
+[Qual é a função da classe java.rmi.Naming?](#Qual-é-a-função-da-classe-java.rmi.Naming)
 
-[What is meant by binding in RMI?](#what-is-meant-by-binding-in-rmi)
+[O que significa binding em RMI?](#O-que-significa-binding-em-RMI)
 
-[What is the difference between Serial and Throughput Garbage collector?](#what-is-the-difference-between-serial-and-throughput-garbage-collector)
+[Qual é a diferença entre Garbage Collector serial e throughput?](#Qual-é-a-diferença-entre-Garbage-Collector-serial-e-throughput)
 
-[What is the difference between HashSet and TreeSet?](#what-is-the-difference-between-hashset-and-treeset)
+[Qual é a diferença entre HashSet e TreeSet?](#Qual-é-a-diferença-entre-HashSet-e-TreeSet)
 
-[Does Garbage collection occur in permanent generation space in JVM?](#does-garbage-collection-occur-in-permanent-generation-space-in-jvm)
+[O Garbage Collection ocorre no espaço de geração permanente na JVM?](#O-Garbage-Collection-ocorre-no-espaço-de-geração-permanente-na-JVM)
 
-[What is DGC ? And how does it work?](#what-is-dgc--and-how-does-it-work)
+[O que é DGC? E como funciona?](#O-que-é-DGC-E-como-funciona)
 
-[What are the layers of RMI Architecture?](#what-are-the-layers-of-rmi-architecture)
+[Quais são as camadas da arquitetura RMI?](#Quais-são-as-camadas-da-arquitetura-RMI)
 
-[How does thread synchronization occurs inside a monitor? What levels of synchronization can you apply? ](#how-does-thread-synchronization-occurs-inside-a-monitor-what-levels-of-synchronization-can-you-apply)
-
+[Como a sincronização de thread ocorre dentro de um monitor? Que níveis de sincronização você pode aplicar?](#Como-a-sincronização-de-thread-ocorre-dentro-de-um-monitor-Que-níveis-de-sincronização-você-pode-aplicar)
 
 [[↑] Back to top](#Java)
 ### O que é JVM ? Por quê Java é chamado de “Linguagem de Programação Independente de Plataforma” ? 
