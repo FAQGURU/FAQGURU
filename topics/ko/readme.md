@@ -67,7 +67,7 @@ Note: Keep in mind that many of these questions are open-ended and could lead to
 
 ### Creating new Translations
 
-See [Creating new translations](CONTRIBUTING.md#Translations)
+See [Creating new translations](../../CONTRIBUTING.md#Translations)
 
 ## Authors
 
