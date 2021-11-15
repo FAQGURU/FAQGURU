@@ -14,7 +14,7 @@
 
 ### Topics
 
-1. JavaScript
+1. [JavaScript](javascript.md)
 2. React
 3. Redux
 4. Vue.js
