@@ -1,6 +1,6 @@
 ## JavaScript
 
-[What is Coercion in JavaScript?](#what-is-coercion-in-javascript)
+[JavaScript에서 강제 변환이란 무엇입니까?](#what-is-coercion-in-javascript)
 
 [What is typeof operator?](#what-is-typeof-operator)
 
