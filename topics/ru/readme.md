@@ -62,6 +62,7 @@
 
 - [x] [English (English)](../../readme.md)
 - [ ] [中文版 (Chinese)](../zh/readme.md)
+- [ ] [한국어 (Korean)](../ko/readme.md)
 - [ ] Español (Spanish)
 
 ### Создание новых переводов
