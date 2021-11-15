@@ -60,19 +60,15 @@ Note: Keep in mind that many of these questions are open-ended and could lead to
 
 ### Future
 
-- [ ] [中文版 (Chinese)](./topics/zh/readme.md)
-- [ ] [Русский (Russian)](./topics/ru/readme.md)
-- [ ] [한국어(Korean)](./topics/ko/readme.md)
+- [x] [English (English)](../../readme.md)
+- [ ] [中文版 (Chinese)](../zh/readme.md)
+- [ ] - [ ] [Русский (Russian)](./topics/ru/readme.md)
 - [ ] Español (Spanish)
 
 ### Creating new Translations
 
 See [Creating new translations](../../CONTRIBUTING.md#Translations)
 
-## Authors
-
-- **Yl Markov** - [GITHUB](https://github.com/uliaaan) / [TWITTER](https://twitter.com/ylmarkov)
-- **Dennis** - [GITHUB](https://github.com/denisschmidt)
 
 ## License
 
