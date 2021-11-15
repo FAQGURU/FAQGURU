@@ -4,72 +4,72 @@
   </a>
 </div>
 
-## What is this?
+## 이게 뭔가요?
 
-A collection of super-popular Interview questions, along with answers, and some code-snippets that will help you to prepare for technical interviews. Many of these questions are real questions from real interviews. It is by no means comprehensive, and the answers are relatively short ( and for each of the concepts, there are probably better and/or more in depth coverage in the web), but this repo like reference tool, that helps you to prepare for technical interview.
+매우 인기 있는 인터뷰 질문 모음과 답변 및 기술 인터뷰를 준비하는 데 도움이 되는 코드 스니펫입니다. 이 질문들 중 많은 것들이 실제 면접에서 나온 진짜 질문들이다. 이는 결코 포괄적이지 않으며, 이에 대한 답변은 비교적 짧습니다(그리고 각 개념에 대해 웹에서 더 나은 심층 커버리지가 있을 수 있음). 그러나 이 레포(repo)와 유사한 레퍼런스 툴은 기술 인터뷰를 준비하는 데 도움이 됩니다.
 
-Note: Keep in mind that many of these questions are open-ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would.
+참고: 이러한 질문의 대부분은 개방형이며 직접적인 답변보다 그 사람의 능력에 대해 더 많은 것을 알려주는 흥미로운 토론으로 이어질 수 있음을 명심하십시오.
 
 ## Table of Contents
 
 ### Topics
 
-1. [JavaScript](/topics/en/javascript.md)
-1. [React](/topics/en/react.md)
-1. [Redux](/topics/en/redux.md)
-1. [Vue.js](/topics/en/vuejs.md)
-1. [Angular](/topics/en/angular.md)
-1. [Node.js](/topics/en/nodejs.md)
-1. [AngularJS](/topics/en/angularjs.md)
-1. [Bootstrap](/topics/en/bootstrap.md)
-1. [CSS](/topics/en/css.md)
-1. [HTML5](/topics/en/html5.md)
-1. [Sass](/topics/en/sass.md)
-1. [Webpack](/topics/en/webpack.md)
-1. [MongoDB](/topics/en/mongodb.md)
-1. [SQL](/topics/en/sql.md)
-1. [GraphQL](/topics/en/graphql.md)
-1. [C#](/topics/en/c.md)
-1. [Golang](/topics/en/golang.md)
-1. [Java](/topics/en/java.md)
-1. [ASP.NET](/topics/en/asp.net.md)
-1. [ASP.NET MVC](/topics/en/asp.net-mvc.md)
-1. [.NET Framework](/topics/en/net-framework.md)
-1. [Ruby](/topics/en/ruby.md)
-1. [Ruby On Rails](/topics/en/ruby-on-rails.md)
-1. [TypeScript](/topics/en/typeScript.md)
-1. [AWS](/topics/en/aws.md)
-1. [Azure](/topics/en/azure.md)
-1. [Git](/topics/en/git.md)
-1. [Code Problems](/topics/en/code-problems.md)
-1. [Data Structures](/topics/en/data-structures.md)
-1. [Design Patterns](/topics/en/design-patterns.md)
-1. [Agile](/topics/en/agile.md)
-1. PHP
-1. Android
-1. Swift
-1. DevOps
-1. REST API
-1. Software Architecture
-1. Web Security
-1. Performance Testing
-1. UX Design
-1. Scrum
+1. JavaScript
+2. React
+3. Redux
+4. Vue.js
+5. Angular
+6. Node.js
+7. AngularJS
+8. Bootstrap
+9. CSS
+10. HTML5
+11. Sass
+12. Webpack
+13. MongoDB
+14. SQL
+15. GraphQL
+16. C#
+17. Golang
+18. Java
+19. ASP.NET
+20. ASP.NET MVC
+21. .NET Framework
+22. Ruby
+23. Ruby On Rails
+24. TypeScript
+25. AWS
+26. Azure
+27. Git
+28. Code Problems
+29. Data Structures
+30. Design Patterns
+31. Agile
+32. PHP
+33. Android
+34. Swift
+35. DevOps
+36. REST API
+37. Software Architecture
+38. Web Security
+39. Performance Testing
+40. UX Design
+41. Scrum
 
-## Translations
+## 번역
 
-### Future
+### 미래
 
 - [x] [English (English)](../../readme.md)
 - [ ] [中文版 (Chinese)](../zh/readme.md)
 - [ ] [Русский (Russian)](../ru/readme.md)
 - [ ] Español (Spanish)
 
-### Creating new Translations
+### 새 번역 만들기
 
-See [Creating new translations](../../CONTRIBUTING.md#Translations)
+참조 [새 번역 만들기](../../CONTRIBUTING.md#Translations)
 
 
-## License
+## 라이선스
 
-All projects and packages in this repository are [MIT licensed](/LICENSE).
+이 저장소의 모든 프로젝트 및 패키지는 [MIT licensed](/LICENSE).
