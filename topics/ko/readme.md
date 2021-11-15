@@ -62,7 +62,7 @@ Note: Keep in mind that many of these questions are open-ended and could lead to
 
 - [x] [English (English)](../../readme.md)
 - [ ] [中文版 (Chinese)](../zh/readme.md)
-- [ ] [Русский (Russian)](./topics/ru/readme.md)
+- [ ] [Русский (Russian)](../ru/readme.md)
 - [ ] Español (Spanish)
 
 ### Creating new Translations
