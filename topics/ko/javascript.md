@@ -6,133 +6,133 @@
 
 [개체 유형은 무엇입니까?](#what-is-the-object-type)
 
-[Explain arrays in JavaScript](#explain-arrays-in-javascript)
+[JavaScript에서 배열 설명](#explain-arrays-in-javascript)
 
-[Explain equality in JavaScript](#explain-equality-in-javascript)
+[JavaScript에서 동등 설명](#explain-equality-in-javascript)
 
-[What is Scope in JavaScript?](#what-is-scope-in-javascript)
+[JavaScript에서 스코프란?](#what-is-scope-in-javascript)
 
-[What is let keyword in JavaScript?](#what-is-let-keyword-in-javascript)
+[JavaScript에서 let 키워드는 무엇입니까?](#what-is-let-keyword-in-javascript)
 
-[Explain what a callback function is and provide a simple example.](#explain-what-a-callback-function-is-and-provide-a-simple-example)
+[콜백 함수가 무엇인지 설명하고 간단한 예제를 설명하시오](#explain-what-a-callback-function-is-and-provide-a-simple-example)
 
-[What is strict mode?](#what-is-strict-mode)
+[엄격 모드는 무엇입니까?](#what-is-strict-mode)
 
-[What does "use strict" do?](#what-does-use-strict-do)
+["엄격한 사용"은 무엇을 합니까?](#what-does-use-strict-do)
 
-[What is a Polyfill?](#what-is-a-polyfill)
+[폴리필이란?](#what-is-a-polyfill)
 
-[How would you check if a number is an integer?](#how-would-you-check-if-a-number-is-an-integer)
+[숫자가 정수인지 어떻게 확인합니까?](#how-would-you-check-if-a-number-is-an-integer)
 
-[Explain Values and Types in JavaScript](#explain-values-and-types-in-javascript)
+[JavaScript의 값과 유형 설명](#explain-values-and-types-in-javascript)
 
-[Being told that an unsorted array contains (n - 1) of n consecutive numbers (where the bounds are defined), find the missing number in O(n) time](#being-told-that-an-unsorted-array-contains-n---1-of-n-consecutive-numbers-where-the-bounds-are-defined-find-the-missing-number-in-on-time)
+[정렬되지 않은 배열에 (n - 1)개의 연속된 숫자가 포함되어 있다고 하면(한계가 정의된 경우), O(n) 시간에서 결측 수를 찾습니다.](#being-told-that-an-unsorted-array-contains-n---1-of-n-consecutive-numbers-where-the-bounds-are-defined-find-the-missing-number-in-on-time)
 
-[Remove duplicates of an array and return an array of only unique elements](#remove-duplicates-of-an-array-and-return-an-array-of-only-unique-elements)
+[배열의 중복을 제거하고 고유한 요소의 배열만 반환합니다.](#remove-duplicates-of-an-array-and-return-an-array-of-only-unique-elements)
 
-[Given a string, reverse each word in the sentence](#given-a-string-reverse-each-word-in-the-sentence)
+[문자열이 주어지면 문장의 각 단어를 뒤집습니다.](#given-a-string-reverse-each-word-in-the-sentence)
 
-[Write a function that would allow you to do this.](#write-a-function-that-would-allow-you-to-do-this)
+[이것을 할 수 있는 함수를 작성하세요.](#write-a-function-that-would-allow-you-to-do-this)
 
-[Implement enqueue and dequeue using only two stacks](#implement-enqueue-and-dequeue-using-only-two-stacks)
+[두 개의 스택만 사용하여 enqueue 및 dequeue 구현](#implement-enqueue-and-dequeue-using-only-two-stacks)
 
-[How would you use a closure to create a private counter?](#how-would-you-use-a-closure-to-create-a-private-counter)
+[클로저를 사용하여 개인 카운터를 만드는 방법은 무엇입니까?](#how-would-you-use-a-closure-to-create-a-private-counter)
 
-[Explain Null and Undefined in JavaScript](#explain-null-and-undefined-in-javascript)
+[JavaScript에서 Null 및 Undefined 설명](#explain-null-and-undefined-in-javascript)
 
-[Explain event bubbling and how one may prevent it](#explain-event-bubbling-and-how-one-may-prevent-it)
+[이벤트 버블링 및 이를 방지할 수 있는 방법 설명](#explain-event-bubbling-and-how-one-may-prevent-it)
 
-[How to check if an object is an array or not? Provide some code.](#how-to-check-if-an-object-is-an-array-or-not-provide-some-code)
+[객체가 배열인지 확인하는 방법은 무엇입니까? 코드를 제공하십시오.](#how-to-check-if-an-object-is-an-array-or-not-provide-some-code)
 
-[Write a "mul" function which will properly when invoked as below syntax.](#write-a-mul-function-which-will-properly-when-invoked-as-below-syntax)
+[아래 구문과 같이 호출될 때 제대로 작동하는 "mul" 함수를 작성하십시오.](#write-a-mul-function-which-will-properly-when-invoked-as-below-syntax)
 
-[How to empty an array in JavaScript?](#how-to-empty-an-array-in-javascript)
+[JavaScript에서 배열을 비우는 방법은 무엇입니까?](#how-to-empty-an-array-in-javascript)
 
-[How to compare two objects in JavaScript?](#how-to-compare-two-objects-in-javascript)
+[JavaScript에서 두 객체를 비교하는 방법은 무엇입니까?](#how-to-compare-two-objects-in-javascript)
 
-[Given an array of integers, find the largest difference between two elements such that the element of lesser value must come before the greater element](#given-an-array-of-integers-find-the-largest-difference-between-two-elements-such-that-the-element-of-lesser-value-must-come-before-the-greater-element)
+[정수 배열이 주어지면 두 요소 사이의 가장 큰 차이를 구하여 값이 작은 요소가 큰 요소보다 앞에 와야 합니다.](#given-an-array-of-integers-find-the-largest-difference-between-two-elements-such-that-the-element-of-lesser-value-must-come-before-the-greater-element)
 
-[Find the intersection of two arrays. An intersection would be the common elements that exists within both arrays. In this case, these elements should be unique!](#find-the-intersection-of-two-arrays-an-intersection-would-be-the-common-elements-that-exists-within-both-arrays-in-this-case-these-elements-should-be-unique)
+[두 배열의 교집합을 찾습니다. 교차는 두 배열 내에 존재하는 공통 요소입니다. 이 경우 이러한 요소는 고유해야 합니다!](#find-the-intersection-of-two-arrays-an-intersection-would-be-the-common-elements-that-exists-within-both-arrays-in-this-case-these-elements-should-be-unique)
 
-[Write a function that would allow you to do this](#write-a-function-that-would-allow-you-to-do-this)
+[이 작업을 수행할 수 있는 함수를 작성하십시오.](#write-a-function-that-would-allow-you-to-do-this)
 
-[Given two strings, return true if they are anagrams of one another](#given-two-strings-return-true-if-they-are-anagrams-of-one-another)
+[두 개의 문자열이 주어지면 서로의 아나그램이면 true를 반환합니다.](#given-two-strings-return-true-if-they-are-anagrams-of-one-another)
 
-[Check if a given string is a palindrome. Case sensitivity should be taken into account.](#check-if-a-given-string-is-a-palindrome-case-sensitivity-should-be-taken-into-account)
+[주어진 문자열이 회문인지 확인하십시오. 대소문자 구분을 고려해야 합니다.](#check-if-a-given-string-is-a-palindrome-case-sensitivity-should-be-taken-into-account)
 
-[What is the difference between a shim and a polyfill?](#what-is-the-difference-between-a-shim-and-a-polyfill)
+[심과 폴리필의 차이점은 무엇입니까?](#what-is-the-difference-between-a-shim-and-a-polyfill)
 
-[What will the following code output?](#what-will-the-following-code-output)
+[다음 코드는 무엇을 출력할까요?](#what-will-the-following-code-output)
 
-[Could you explain the difference between ES5 and ES6](#could-you-explain-the-difference-between-es5-and-es6)
+[ES5와 ES6의 차이점을 설명해 주시겠습니까?](#could-you-explain-the-difference-between-es5-and-es6)
 
-[What is IIFEs (Immediately Invoked Function Expressions)?](#what-is-iifes-immediately-invoked-function-expressions)
+[IIFE(즉시 호출된 함수 표현식)란 무엇입니까?](#what-is-iifes-immediately-invoked-function-expressions)
 
-[What will be the output of the following code?](#what-will-be-the-output-of-the-following-code)
+[다음 코드의 출력은 무엇입니까?](#what-will-be-the-output-of-the-following-code)
 
-[What will be the output of the following code?](#what-will-be-the-output-of-the-following-code)
+[다음 코드의 출력은 무엇입니까?](#what-will-be-the-output-of-the-following-code)
 
-[Provide some examples of non-boolean value coercion to a boolean one](#provide-some-examples-of-non-boolean-value-coercion-to-a-boolean-one)
+[부울 값을 부울 값으로 강제 변환하는 몇 가지 예를 제공합니다.](#provide-some-examples-of-non-boolean-value-coercion-to-a-boolean-one)
 
-[Explain the difference between "undefined" and "not defined" in JavaScript](#explain-the-difference-between-undefined-and-not-defined-in-javascript)
+[JavaScript에서 "정의되지 않음"과 "정의되지 않음"의 차이점 설명](#explain-the-difference-between-undefined-and-not-defined-in-javascript)
 
-[What will be the output of the following code?](#what-will-be-the-output-of-the-following-code)
+[다음 코드의 출력은 무엇입니까?](#what-will-be-the-output-of-the-following-code)
 
-[What is the drawback of creating true private in JavaScript?](#what-is-the-drawback-of-creating-true-private-in-javascript)
+[JavaScript에서 진정한 private을 생성할 때의 단점은 무엇입니까?](#what-is-the-drawback-of-creating-true-private-in-javascript)
 
-[What is the difference between anonymous and named functions? ](#what-is-the-difference-between-anonymous-and-named-functions-)
+[익명 함수와 명명 함수의 차이점은 무엇입니까? ](#what-is-the-difference-between-anonymous-and-named-functions-)
 
-[Given an array of integers, find the largest product yielded from three of the integers](#given-an-array-of-integers-find-the-largest-product-yielded-from-three-of-the-integers)
+[정수 배열이 주어졌을 때 세 개의 정수에서 가장 큰 곱을 찾습니다.](#given-an-array-of-integers-find-the-largest-product-yielded-from-three-of-the-integers)
 
-[Describe closure concept in JavaScript as best as you could](#describe-closure-concept-in-javascript-as-best-as-you-could)
+[가능한 한 JavaScript에서 클로저 개념을 설명하십시오.](#describe-closure-concept-in-javascript-as-best-as-you-could)
 
-[Write a recursive function that returns the binary string of a given decimal number](#write-a-recursive-function-that-returns-the-binary-string-of-a-given-decimal-number)
+[주어진 십진수의 이진 문자열을 반환하는 재귀 함수를 작성하십시오.](#write-a-recursive-function-that-returns-the-binary-string-of-a-given-decimal-number)
 
-[What is “closure” in javascript? Provide an example?](#what-is-closure-in-javascript-provide-an-example)
+[자바 스크립트에서 "닫힘"이란 무엇입니까? 예를 들어주시겠습니까?](#what-is-closure-in-javascript-provide-an-example)
 
-[Explain what is hoisting in Javascript](#explain-what-is-hoisting-in-javascript)
+[Javascript에서 hoisting이 무엇인지 설명](#explain-what-is-hoisting-in-javascript)
 
-[Given an integer, determine if it is a power of 2. If so, return that number, else return -1](#given-an-integer-determine-if-it-is-a-power-of-2-if-so-return-that-number-else-return--1)
+[정수가 주어지면 2의 거듭제곱인지 확인합니다. 그렇다면 해당 숫자를 반환하고, 그렇지 않으면 -1을 반환합니다.](#given-an-integer-determine-if-it-is-a-power-of-2-if-so-return-that-number-else-return--1)
 
-[What will be the output of the following code?](#what-will-be-the-output-of-the-following-code)
+[다음 코드의 출력은 무엇입니까?](#what-will-be-the-output-of-the-following-code)
 
-[Describe the JS module design pattern](#describe-the-js-module-design-pattern)
+[JS 모듈 디자인 패턴 설명](#describe-the-js-module-design-pattern)
 
-[How would you create a private variable in JavaScript?](#how-would-you-create-a-private-variable-in-javascript)
+[JavaScript에서 private variable를 어떻게 만듭니까?](#how-would-you-create-a-private-variable-in-javascript)
 
-[Explain the Prototype Design Pattern](#explain-the-prototype-design-pattern)
+[프로토타입 디자인 패턴 설명](#explain-the-prototype-design-pattern)
 
-[Write a recursive function that performs a binary search](#write-a-recursive-function-that-performs-a-binary-search)
+[이진 검색을 수행하는 재귀 함수 작성](#write-a-recursive-function-that-performs-a-binary-search)
 
-[Create a function that will evaluate if a given expression has balanced parentheses using stacks](#create-a-function-that-will-evaluate-if-a-given-expression-has-balanced-parentheses-using-stacks)
+[주어진 표현식에 스택을 사용하여 균형 잡힌 괄호가 있는지 평가하는 함수를 만듭니다.](#create-a-function-that-will-evaluate-if-a-given-expression-has-balanced-parentheses-using-stacks)
 
-[What will be the output of the following code?](#what-will-be-the-output-of-the-following-code)
+[다음 코드의 출력은 무엇입니까?](#what-will-be-the-output-of-the-following-code)
 
-[Explain prototype inheritance in JavaScript?](#explain-prototype-inheritance-in-javascript)
+[JavaScript에서 프로토타입 상속을 설명하시겠습니까?](#explain-prototype-inheritance-in-javascript)
 
-[What does the term "Transpiling" stand for?](#what-does-the-term-transpiling-stand-for)
+["Transpiling"는 무엇을 의미합니까?](#what-does-the-term-transpiling-stand-for)
 
-[What is the "new" keyword in JavaScript?](#what-is-the-new-keyword-in-javascript)
+[JavaScript에서 "new" 키워드는 무엇입니까?](#what-is-the-new-keyword-in-javascript)
 
-[When would you use the "bind" function?](#when-would-you-use-the-bind-function)
+[언제 "바인드" 기능을 사용하시겠습니까?](#when-would-you-use-the-bind-function)
 
-[How does the “this” keyword work? Provide some code examples.](#how-does-the-this-keyword-work-provide-some-code-examples)
+["이" 키워드는 어떻게 작동합니까? 몇 가지 코드 예제를 제공하십시오.](#how-does-the-this-keyword-work-provide-some-code-examples)
 
-[How would you add your own method to the Array object so the following code would work?](#how-would-you-add-your-own-method-to-the-array-object-so-the-following-code-would-work)
+[다음 코드가 작동하도록 Array 객체에 고유한 메서드를 어떻게 추가하시겠습니까?](#how-would-you-add-your-own-method-to-the-array-object-so-the-following-code-would-work)
 
-[What is Hoisting in JavaScript?](#what-is-hoisting-in-javascript)
+[JavaScript에서 Hoisting은 무엇입니까?](#what-is-hoisting-in-javascript)
 
-[What will the following code output?](#what-will-the-following-code-output)
+[다음 코드는 무엇을 출력할까요?](#what-will-the-following-code-output)
 
-[Check if a given string is a isomorphic](#check-if-a-given-string-is-a-isomorphic)
+[주어진 문자열이 동형인지 확인](#check-if-a-given-string-is-a-isomorphic)
 
-[Describe the Revealing Module Pattern design pattern](#describe-the-revealing-module-pattern-design-pattern)
+[Revealing Module Pattern 디자인 패턴 설명](#describe-the-revealing-module-pattern-design-pattern)
 
 
 
-### What is Coercion in JavaScript?
+### JavaScript에서 강제 변환이란 무엇입니까??
 
-In JavaScript conversion between different two build-in types called `coercion`.  Coercion comes in two forms in JavaScript: *explicit* and *implicit*.
+JavaScript에서 'coercion'이라고 하는 서로 다른 두 가지 기본 제공 유형 간의 변환. 강제는 JavaScript에서 *explicit* 및 *implicit*의 두 가지 형식으로 제공됩니다.
 
 Here's an example of explicit coercion:
 ```js
