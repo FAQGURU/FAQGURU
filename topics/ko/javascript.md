@@ -2,9 +2,9 @@
 
 [JavaScript에서 강제 변환이란 무엇입니까?](#what-is-coercion-in-javascript)
 
-[What is typeof operator?](#what-is-typeof-operator)
+[typeof 연산자는 무엇입니까?](#what-is-typeof-operator)
 
-[What is the object type?](#what-is-the-object-type)
+[개체 유형은 무엇입니까?](#what-is-the-object-type)
 
 [Explain arrays in JavaScript](#explain-arrays-in-javascript)
 
