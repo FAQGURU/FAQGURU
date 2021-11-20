@@ -134,7 +134,7 @@
 
 JavaScript에서 'coercion'이라고 하는 서로 다른 두 가지 기본 제공 유형 간의 변환. 강제는 JavaScript에서 *explicit* 및 *implicit*의 두 가지 형식으로 제공됩니다.
 
-Here's an example of explicit coercion:
+다음은 explicit coercion의 예입니다.
 ```js
 var a = "42";
 
@@ -143,7 +143,7 @@ var b = Number( a );
 a;				// "42"
 b;				// 42 -- the number!
 ```
-And here's an example of implicit coercion:
+다음은 implicit coercion의 예입니다.
 ```js
 var a = "42";
 
@@ -155,8 +155,8 @@ b;				// 42 -- the number!
 
 
 
-[[↑] Back to top](#JavaScript)
-### What is typeof operator?
+[[↑] 맨 위로](#JavaScript)
+### typeof 연산자 란 무엇입니까?
 
 JavaScript provides a `typeof` operator that can examine a value and tell you what type it is:
 ```js
