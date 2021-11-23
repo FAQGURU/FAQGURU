@@ -224,77 +224,77 @@
 
 
 
-### What is C#?
+### C#이란?
 
-C# is the programming language for writing Microsoft .NET applications. C# provides the rapid application development found in Visual Basic with the power of C++. Its syntax is similar to C++ syntax and meets 100% of the requirements of OOPs like the following: 
-* Abstraction
-* Encapsulation
-* Polymorphism
-* Inheritance
-
-###### Source
-
-* https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
-
-[[↑] 맨 위로](#C%23)
-### What is the difference between "continue" and "break" statements in C#?
-
-* using **break** statement, you can jump out of a loop
-* using **continue** statement, you can jump over one iteration and then resume your loop execution
+C#은 Microsoft .NET 응용 프로그램을 작성하기 위한 프로그래밍 언어입니다. C#은 C++의 강력한 기능을 통해 Visual Basic에서 볼 수 있는 빠른 응용 프로그램 개발을 제공합니다. 구문은 C++ 구문과 유사하며 다음과 같은 OOP 요구 사항을 100% 충족합니다.
+* 추상화
+* 캡슐화
+* 다형성
+* 상속
 
 ###### Source
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
 [[↑] 맨 위로](#C%23)
-### What are property Accessors?
+### C#에서 "continue" 및 "break" 문의 차이점은 무엇입니까?
 
-The _get_ and _set_ portions or blocks of a property are called accessors. These are useful to restrict the accessibility of a property, the set accessor specifies that we can assign a value to a private field in a property and without the set accessor property it is like a read-only field. By the get accessor we can access the value of the private field, in other words it returns a single value. A Get accessor specifies that we can access the value of a field publically.
-
-###### Source
-
-* https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
-
-[[↑] 맨 위로](#C%23)
-### What is an Object?
-
-According to MSDN, "_a class or struct definition is like a blueprint that specifies what the type can do. An object is basically a block of memory that has been allocated and configured according to the blueprint. A program may create many objects of the same class. Objects are also called instances, and they can be stored in either a named variable or in an array or collection. Client code is the code that uses these variables to call the methods and access the public properties of the object. In an object-oriented language such as C#, a typical program consists of multiple objects interacting dynamically"._
-
-Objects helps us to access the member of a class or struct either they can be fields, methods or properties, by using the dot. 
+* **break** 문을 사용하면 루프에서 벗어날 수 있습니다.
+* **continue** 문을 사용하면 한 반복을 건너뛰고 루프 실행을 재개할 수 있습니다.
 
 ###### Source
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
 [[↑] 맨 위로](#C%23)
-### What is the difference between a struct and a class in C#?
+### property Accessors란 무엇입니까?
 
-Class and struct both are the user defined data type but have some major difference:  
+속성의 _get_ 및 _set_ 부분 또는 블록을 접근자라고 합니다. 이는 속성의 액세스 가능성을 제한하는 데 유용합니다. set 접근자는 속성의 개인 필드에 값을 할당할 수 있도록 지정하고 set 접근자 속성이 없으면 읽기 전용 필드와 같습니다. get 접근자를 통해 private 필드의 값에 액세스할 수 있습니다. 즉, 단일 값을 반환합니다. Get 접근자는 공개적으로 필드 값에 액세스할 수 있음을 지정합니다.
+
+###### Source
+
+* https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
+
+[[↑] 맨 위로](#C%23)
+### Object란 무엇입니까?
+
+MSDN에 따르면 "_a 클래스 또는 구조체 정의는 유형이 수행할 수 있는 작업을 지정하는 청사진과 같습니다. 객체는 기본적으로 청사진에 따라 할당 및 구성된 메모리 블록입니다. 프로그램은 동일한 객체를 여러 개 생성할 수 있습니다. 개체는 인스턴스라고도 하며 명명된 변수나 배열 또는 컬렉션에 저장할 수 있습니다. 클라이언트 코드는 이러한 변수를 사용하여 메서드를 호출하고 개체의 공용 속성에 액세스하는 코드입니다. C#과 같은 지향 언어, 일반적인 프로그램은 동적으로 상호 작용하는 여러 개체로 구성됩니다."
+
+개체는 점을 사용하여 필드, 메서드 또는 속성이 될 수 있는 클래스 또는 구조체의 멤버에 액세스하는 데 도움이 됩니다.
+
+###### Source
+
+* https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
+
+[[↑] 맨 위로](#C%23)
+### C#에서 구조체와 클래스의 차이점은 무엇입니까?
+
+클래스와 구조체는 모두 사용자 정의 데이터 유형이지만 몇 가지 주요 차이점이 있습니다:
 **  
-Struct**
+구조체**
 
-* The struct is value type in C# and it inherits from System.Value Type.
-* Struct is usually used for smaller amounts of data.
-* Struct can't be inherited to other type.
-* A structure can't be abstract.
-* No need to create object by new keyword.
-* Do not have permission to create any default constructor.
+* 구조체는 C#의 값 형식이며 System.Value 형식에서 상속됩니다.
+* Struct는 일반적으로 더 적은 양의 데이터에 사용됩니다.
+* 구조체는 다른 유형으로 상속될 수 없습니다.
+* 구조는 추상적일 수 없습니다.
+* new 키워드로 객체를 생성할 필요가 없습니다.
+* 기본 생성자를 만들 권한이 없습니다.
 
-**Class**
+**클래스**
 
-* The class is reference type in C# and it inherits from the System.Object Type.
-* Classes are usually used for large amounts of data.
-* Classes can be inherited to other class.
-* A class can be abstract type.
-* We can't use an object of a class with using new keyword.
-* We can create a default constructor.
+* 클래스는 C#의 참조 유형이며 System.Object 유형에서 상속됩니다.
+* 클래스는 일반적으로 많은 양의 데이터에 사용됩니다.
+* 클래스는 다른 클래스로 상속될 수 있습니다.
+* 클래스는 추상 유형이 될 수 있습니다.
+* new 키워드를 사용하여 클래스의 객체를 사용할 수 없습니다.
+* 기본 생성자를 만들 수 있습니다.
 
 ###### Source
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
 [[↑] 맨 위로](#C%23)
-### Filter out the first 3 even numbers from the list using LINQ
+### LINQ를 사용하여 목록에서 처음 3개의 짝수를 필터링합니다.
 
 ```csharp
 var evenNumbers = List
@@ -307,299 +307,299 @@ var evenNumbers = List
 * https://medium.com/sears-israel/my-number-one-c-interview-question-39cdaac16c
 
 [[↑] 맨 위로](#C%23)
-### What is enum in C#?
+### C#에서 enum(열거형)은 무엇입니까?
 
-An **enum** is a value type with a set of related named constants often referred to as an enumerator list. The enum keyword is used to declare an enumeration. It is a primitive data type, which is user defined. An enum is used to create numeric constants in .NET framework. All the members of enum are of enum type. Their must be a numeric value for each enum type.
+**enum**은 종종 열거자 목록이라고 하는 관련 명명된 상수 집합이 있는 값 유형입니다. enum 키워드는 열거형을 선언하는 데 사용됩니다. 사용자가 정의한 원시 데이터 유형입니다. 열거형은 .NET 프레임워크에서 숫자 상수를 만드는 데 사용됩니다. enum의 모든 멤버는 enum 유형입니다. 각 열거형 유형에 대한 숫자 값이어야 합니다.
 
-**Some points about enum**
+**enum에 대한 몇 가지 사항**
 
-* Enums are enumerated data type in C#.  
-* Enums are strongly typed constant. They are strongly typed, i.e. an enum of one type may not be implicitly assigned to an enum of another type even though the underlying value of their members are the same.  
-* Enumerations (enums) make your code much more readable and understandable.  
-* Enum values are fixed. Enum can be displayed as a string and processed as an integer.  
-* The default type is int, and the approved types are byte, sbyte, short, ushort, uint, long, and ulong.  
-* Every enum type automatically derives from System.Enum and thus we can use System.Enum methods on enums.  
-* Enums are value types and are created on the stack and not on the heap.
+* 열거형은 C#의 열거형 데이터 형식입니다.
+* 열거형은 강력한 형식의 상수입니다. 강력한 형식이 지정됩니다. 즉, 해당 멤버의 기본 값이 동일하더라도 한 형식의 열거형이 다른 형식의 열거형에 암시적으로 할당되지 않을 수 있습니다.  
+* 열거(열거)는 코드를 훨씬 더 읽기 쉽고 이해하기 쉽게 만듭니다.
+* 열거형 값은 고정되어 있습니다. 열거형은 문자열로 표시하고 정수로 처리할 수 있습니다.
+* 기본 유형은 int이고 승인된 유형은 byte, sbyte, short, ushort, uint, long, ulong입니다. 
+* 모든 열거형 유형은 자동으로 System.Enum에서 파생되므로 열거형에서 System.Enum 메서드를 사용할 수 있습니다.
+* 열거형은 값 유형이며 힙이 아닌 스택에서 생성됩니다.
 
 ###### Source
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
 [[↑] 맨 위로](#C%23)
-### How is Exception Handling implemented in C#?
+### 예외 처리는 C#에서 어떻게 구현됩니까?
 
-Exception handling is done using four keywords in C#:
+예외 처리는 C#에서 4개의 키워드를 사용하여 수행됩니다:
 
-*   **try** – Contains a block of code for which an exception will be checked.
-*   **catch** – It is a program that catches an exception with the help of exception handler.
-*   **finally** – It is a block of code written to execute regardless whether an exception is caught or not.
-*   **Throw** – Throws an exception when a problem occurs.
+*   **try** – 예외를 검사할 코드 블록을 포함합니다.
+*   **catch** – 예외 핸들러의 도움으로 예외를 잡아내는 프로그램입니다.
+*   **finally** – 예외가 발생했는지 여부에 관계없이 실행되도록 작성된 코드 블록입니다.
+*   **Throw** – 문제가 발생하면 예외를 throw합니다.
 
 ###### Source
 
 * https://www.softwaretestinghelp.com/c-sharp-interview-questions/
 
 [[↑] 맨 위로](#C%23)
-### Why to use “finally” block in C#?
+### C#에서 "finally" 블록을 사용하는 이유는 무엇입니까?
 
-**Finally** block will be executed irrespective of exception. So while executing the code in try block when exception is occurred, control is returned to catch block and at last `finally` block will be executed. So closing connection to database / releasing the file handlers can be kept in `finally` block.
+**Finally** 블록은 예외와 상관없이 실행됩니다. 따라서 예외가 발생하면 try 블록에서 코드를 실행하는 동안 catch 블록으로 제어가 반환되어 마침내 'finally' 블록이 실행됩니다. 따라서 데이터베이스 연결을 닫거나 파일 핸들러를 해제하는 것은 `finally` 블록에 보관할 수 있습니다.
 
 ###### Source
 
 * http://a4academics.com/interview-questions/52-dot-net-interview-questions/417-c-oops-interview-questions-and-answers?showall=&start=1
 
 [[↑] 맨 위로](#C%23)
-### What are nullable types in C#?
+### C#에서 nullable 형식이란 무엇입니까?
 
-C# provides a special data types, the **nullable types**, to which you can assign normal range of values as well as null values.
+C#은 특수 데이터 형식인 **nullable types**을 제공하며 여기에는 일반적인 값 범위와 null 값을 할당할 수 있습니다.
 
-For example, you can store any value from -2,147,483,648 to 2,147,483,647 or null in a `Nullable<Int32>` variable. Similarly, you can assign true, false, or null in a `Nullable<bool>` variable.
-
-###### Source
-
-* https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm
-
-[[↑] 맨 위로](#C%23)
-### What are dynamic type variables in C#?
-
-You can store any type of value in the dynamic data type variable. Type checking for these types of variables takes place at run-time.
+예를 들어, -2,147,483,648에서 2,147,483,647 사이의 값이나 null을 `Nullable<Int32>` 변수에 저장할 수 있습니다. 마찬가지로 `Nullable<bool>` 변수에 true, false 또는 null을 할당할 수 있습니다.
 
 ###### Source
 
 * https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm
 
 [[↑] 맨 위로](#C%23)
-### Can "this" be used within a static method?
+### C#의 동적 유형 변수는 무엇입니까?
 
-We can't use _this_ in static method because keyword _this_ returns a reference to the current instance of the class containing it. Static methods (or any static member) do not belong to a particular instance. They exist without creating an instance of the class and call with the name of a class not by instance so we can't use this keyword in the body of static Methods, but in case of Extension Methods we can use it as the functions parameters.
+동적 데이터 유형 변수에 모든 유형의 값을 저장할 수 있습니다. 이러한 유형의 변수에 대한 유형 검사는 런타임에 발생합니다.
+
+###### Source
+
+* https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm
+
+[[↑] 맨 위로](#C%23)
+### "this"를 정적 메서드 내에서 사용할 수 있습니까?
+
+키워드 _this_는 그것을 포함하는 클래스의 현재 인스턴스에 대한 참조를 반환하기 때문에 정적 메소드에서 _this_를 사용할 수 없습니다. 정적 메서드(또는 정적 멤버)는 특정 인스턴스에 속하지 않습니다. 클래스의 인스턴스를 생성하지 않고 존재하며 인스턴스가 아닌 클래스 이름으로 호출하므로 정적 메소드의 본문에서 이 키워드를 사용할 수 없지만 확장 메소드의 경우 함수 매개변수로 사용할 수 있습니다.
 
 ###### Source
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
 [[↑] 맨 위로](#C%23)
-### Define Property in C#?
+### C#에서 속성을 정의하시겠습니까?
 
-**Properties** are members that provide a flexible mechanism to read, write or compute the values of private fields, in other words by the property we can access private fields. In other words we can say that a property is a return type function/method with one parameter or without a parameter. These are always public data members. It uses methods to access and assign values to private fields called accessors.
-
-###### Source
-
-* https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
-
-[[↑] 맨 위로](#C%23)
-### What is Managed or Unmanaged Code?
-
-* **Managed Code**  - The code, which is developed in .NET framework is known as managed code. This code is directly executed by CLR with the help of managed code execution. Any language that is written in .NET Framework is managed code.
-* **Unmanaged Code** - The code, which is developed outside .NET framework is known as unmanaged code. Applications that do not run under the control of the CLR are said to be unmanaged, and certain languages such as C++ can be used to write such applications, which, for example, access low - level functions of the operating system. Background compatibility with the code of VB, ASP and COM are examples of unmanaged code.
-
+**Properties** 은 개인 필드의 값을 읽고, 쓰고, 계산하는 유연한 메커니즘을 제공하는 멤버입니다. 즉, 속성을 통해 개인 필드에 액세스할 수 있습니다. 다시 말해서 속성은 하나의 매개변수가 있거나 매개변수가 없는 반환 유형 함수/메서드라고 말할 수 있습니다. 이들은 항상 공개 데이터 멤버입니다. 접근자라고 하는 개인 필드에 액세스하고 값을 할당하는 메서드를 사용합니다.
 
 ###### Source
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
 [[↑] 맨 위로](#C%23)
-### What are reference types in C#?
+### 관리 코드 또는 비관리 코드란 무엇입니까?
 
-The **reference types** do not contain the actual data stored in a variable, but they contain a reference to the variables.
+* **Managed Code**  - .NET 프레임워크에서 개발된 코드를 관리 코드라고 합니다. 이 코드는 관리 코드 실행을 통해 CLR에서 직접 실행됩니다. .NET Framework로 작성된 모든 언어는 관리 코드입니다.
+* **Unmanaged Code** - .NET 프레임워크 외부에서 개발된 코드를 비관리 코드라고 합니다. CLR의 제어 하에 실행되지 않는 응용 프로그램을 관리되지 않는 응용 프로그램이라고 하며, C++와 같은 특정 언어를 사용하여 이러한 응용 프로그램을 작성할 수 있습니다. 예를 들어 운영 체제의 하위 수준 기능에 액세스합니다. VB, ASP 및 COM 코드와의 백그라운드 호환성은 비관리 코드의 예입니다.
 
-In other words, they refer to a memory location. Using multiple variables, the reference types can refer to a memory location. If the data in the memory location is changed by one of the variables, the other variable automatically reflects this change in value. Example of built-in reference types are: object, dynamic, and string.
+
+###### Source
+
+* https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
+
+[[↑] 맨 위로](#C%23)
+### C#의 참조 유형은 무엇입니까?
+
+**reference types** 은 변수에 저장된 실제 데이터를 포함하지 않지만 변수에 대한 참조를 포함합니다.
+
+즉, 메모리 위치를 나타냅니다. 여러 변수를 사용하여 참조 유형은 메모리 위치를 참조할 수 있습니다. 메모리 위치의 데이터가 변수 중 하나에 의해 변경되면 다른 변수는 이 값 변경을 자동으로 반영합니다. 기본 제공 참조 유형의 예는 객체, 동적 및 문자열입니다.
 
 ###### Source
 
 * https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm
 
 [[↑] 맨 위로](#C%23)
-### What is namespace in C#?
+### C#에서 namespace란 무엇입니까?
 
-A **namespace** is designed for providing a way to keep one set of names separate from another. The class names declared in one namespace does not conflict with the same class names declared in another.
+**namespace** 는 한 세트의 이름을 다른 세트와 분리하는 방법을 제공하기 위해 설계되었습니다. 한 네임스페이스에서 선언된 클래스 이름은 다른 네임스페이스에서 선언된 동일한 클래스 이름과 충돌하지 않습니다.
 
 ###### Source
 
 * https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm
 
 [[↑] 맨 위로](#C%23)
-### What is the difference between string and StringBuilder in c#?
+### C#에서 string과 StringBuilder의 차이점은 무엇입니까?
 
 **String**
-* It's an immutable object that hold string value.
-* Performance wise string is slow because its' create a new instance to override or change the previous value.
-* String belongs to System namespace.
+* 문자열 값을 보유하는 변경할 수 없는 개체입니다.
+* 새 인스턴스를 생성하여 이전 값을 재정의하거나 변경하기 때문에 성능 측면에서의 문자열 속도가 느립니다.
+* 문자열은 시스템 네임스페이스에 속합니다.
 
 **StringBuilder**
-* StringBuilder is a mutable object.  
-* Performance wise StringBuilder is very fast because it will use same instance of StringBuilder object to perform any operation like insert value in existing string.  
-* StringBuilder belongs to System.Text.Stringbuilder namespace.
+* StringBuilder는 변경 가능한 개체입니다.
+* 성능 측면에서 StringBuilder는 StringBuilder 개체의 동일한 인스턴스를 사용하여 기존 문자열에 값 삽입과 같은 작업을 수행하기 때문에 매우 빠릅니다.
+* StringBuilder는 System.Text.Stringbuilder 네임스페이스에 속합니다.
 
 ###### Source
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
 [[↑] 맨 위로](#C%23)
-### In how many ways you can pass parameters to a method?
+### 메소드에 매개변수를 전달할 수 있는 방법은 몇 가지입니까?
 
-There are three ways that parameters can be passed to a method:
+매개 변수를 메서드에 전달할 수 있는 세 가지 방법이 있습니다:
 
-*   **Value parameters** − This method copies the actual value of an argument into the formal parameter of the function. In this case, changes made to the parameter inside the function have no effect on the argument.
-*   **Reference parameters** − This method copies the reference to the memory location of an argument into the formal parameter. This means that changes made to the parameter affect the argument.
-*   **Output parameters** − This method helps in returning more than one value.
+*   **Value parameters** − 이 메서드는 인수의 실제 값을 함수의 형식 매개변수에 복사합니다. 이 경우 함수 내부의 매개변수에 대한 변경 사항은 인수에 영향을 미치지 않습니다.
+*   **Reference parameters** − 이 메서드는 인수의 메모리 위치에 대한 참조를 형식 매개변수에 복사합니다. 이는 매개변수에 대한 변경 사항이 인수에 영향을 미친다는 것을 의미합니다.
+*   **Output parameters** − 이 메서드는 둘 이상의 값을 반환하는 데 도움이 됩니다.
 
 ###### Source
 
 * https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm
 
 [[↑] 맨 위로](#C%23)
-### Can you return multiple values from a function in C#?
+### C#의 함수에서 여러 값을 반환할 수 있습니까?
 
-Yes! Using output parameters. A return statement can be used for returning only one value from a function. However, using output parameters, you can return two values from a function.
+네! 출력 매개변수 사용. return 문은 함수에서 하나의 값만 반환하는 데 사용할 수 있습니다. 그러나 출력 매개변수를 사용하면 함수에서 두 개의 값을 반환할 수 있습니다.
 
 ###### Source
 
 * https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm
 
 [[↑] 맨 위로](#C%23)
-### What are partial classes?
+### partial classes은 무엇입니까?
 
-A **partial** class is only use to splits the definition of a class in two or more classes in a same source code file or more than one source files. You can create a class definition in multiple files but it will be compiled as one class at run time and also when you'll create an instance of this class so you can access all the methods from all source file with a same object. Partial classes can be create in the same namespace it's doesn't allowed to create a partial class in different namespace. 
+**partial** 클래스는 동일한 소스 코드 파일 또는 둘 이상의 소스 파일에서 둘 이상의 클래스에서 클래스 정의를 분할하는 데만 사용됩니다. 여러 파일에 클래스 정의를 만들 수 있지만 런타임에 하나의 클래스로 컴파일되고 이 클래스의 인스턴스를 만들 때도 동일한 개체를 사용하여 모든 소스 파일의 모든 메서드에 액세스할 수 있습니다. 부분 클래스는 동일한 네임스페이스에 생성할 수 있으며 다른 네임스페이스에 부분 클래스를 생성할 수 없습니다.
 
 ###### Source
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
 [[↑] 맨 위로](#C%23)
-### What is an Abstract Class?
+### 추상 클래스 란 무엇입니까?
 
-An **Abstract class** is a class which is denoted by abstract keyword and can be used only as a Base class. An Abstract class should always be inherited. An instance of the class itself cannot be created. If we do not want any program to create an object of a class, then such classes can be made abstract.
+**Abstract class** 은 abstract 키워드로 표시되는 클래스로 Base 클래스로만 사용할 수 있습니다. Abstract 클래스는 항상 상속되어야 합니다. 클래스 자체의 인스턴스를 만들 수 없습니다. 어떤 프로그램이 클래스의 객체를 생성하는 것을 원하지 않는다면 그러한 클래스를 추상화할 수 있습니다.
 
-Any method in the abstract class does not have implementations in the same class. But they must be implemented in the child class.
+추상 클래스의 모든 메서드에는 동일한 클래스에 구현이 없습니다. 그러나 자식 클래스에서 구현해야 합니다.
 
 ###### Source
 
 * https://www.softwaretestinghelp.com/c-sharp-interview-questions/
 
 [[↑] 맨 위로](#C%23)
-### What is Boxing and Unboxing?
+### Boxing과 Unboxing이란?
 
-Boxing and Unboxing both are used for type conversion but have some difference:
+Boxing과 Unboxing은 모두 유형 변환에 사용되지만 몇 가지 차이점이 있습니다.
 
-* **Boxing** - Boxing is the process of converting a value type data type to the object or to any interface data type which is implemented by this value type. When the CLR boxes a value means when CLR is converting a value type to Object Type, it wraps the value inside a System.Object and stores it on the heap area in application domain.
+* **Boxing** - Boxing은 값 유형 데이터 유형을 개체 또는 이 값 유형에 의해 구현되는 인터페이스 데이터 유형으로 변환하는 프로세스입니다. CLR이 값을 상자에 넣으면 CLR이 값 형식을 개체 형식으로 변환할 때 System.Object 내부에 값을 래핑하고 응용 프로그램 도메인의 힙 영역에 저장합니다.
 
-* **Unboxing** - Unboxing is also a process which is used to extract the value type from the object or any implemented interface type. Boxing may be done implicitly, but unboxing have to be explicit by code. 
+* **Unboxing** - Unboxing은 객체 또는 구현된 인터페이스 유형에서 값 유형을 추출하는 데 사용되는 프로세스이기도 합니다. 박싱은 암시적으로 수행될 수 있지만 언박싱은 코드로 명시적이어야 합니다.
 
-The concept of boxing and unboxing underlines the C# unified view of the type system in which a value of any type can be treated as an object.
+boxing 및 unboxing의 개념은 모든 형식의 값을 개체로 취급할 수 있는 형식 시스템의 C# 통합 보기를 강조합니다.
 
 ###### Source
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
 [[↑] 맨 위로](#C%23)
-### What are the different types of classes in C#?
+### C#의 다양한 클래스 유형은 무엇입니까?
 
-The different types of class in C# are:
+C#의 다양한 클래스 유형은 다음과 같습니다:
 
-*   **Partial class** – Allows its members to be divided or shared with multiple .cs files. It is denoted by the keyword _Partial._
-*   **Sealed class** – It is a class which cannot be inherited. To access the members of a sealed class, we need to create the object of the class.  It is denoted by the keyword _Sealed_.
-*   **Abstract class** – It is a class whose object cannot be instantiated. The class can only be inherited. It should contain at least one method.  It is denoted by the keyword _abstract._
-*   **Static class** – It is a class which does not allow inheritance. The members of the class are also static.  It is denoted by the keyword _static_. This keyword tells the compiler to check for any accidental instances of the static class.
+*   **Partial class** – 구성원을 여러 .cs 파일로 나누거나 공유할 수 있습니다. _Partial._ 키워드로 표시됩니다.
+*   **Sealed class** – 상속할 수 없는 클래스입니다. 봉인된 클래스의 멤버에 액세스하려면 해당 클래스의 개체를 만들어야 합니다. _Sealed_ 키워드로 표시됩니다.
+*   **Abstract class** – 개체를 인스턴스화할 수 없는 클래스입니다. 클래스는 상속만 가능합니다. 최소한 하나의 메소드를 포함해야 합니다. _abstract._ 키워드로 표시됩니다.
+*   **Static class** – 상속을 허용하지 않는 클래스입니다. 클래스의 멤버도 정적입니다. _static_ 키워드로 표시됩니다. 이 키워드는 정적 클래스의 우발적인 인스턴스를 확인하도록 컴파일러에 지시합니다.
 
 ###### Source
 
 * https://www.softwaretestinghelp.com/c-sharp-interview-questions/
 
 [[↑] 맨 위로](#C%23)
-### Why can't you specify the accessibility modifier for methods inside the interface?
+### 인터페이스 내부의 메서드에 대한 접근성 한정자를 지정할 수 없는 이유는 무엇입니까?
 
-In an interface, we have virtual methods that do not have method definition. All the methods are there to be overridden in the derived class. That's why they all are public.
-
-###### Source
-
-* https://www.guru99.com/c-sharp-interview-questions.html
-
-[[↑] 맨 위로](#C%23)
-### What are Custom Exceptions?
-
-Sometimes there are some errors that need to be handeled as per user requirements. Custom exceptions are used for them and are used defined exceptions.
+인터페이스에는 메서드 정의가 없는 가상 메서드가 있습니다. 모든 메서드는 파생 클래스에서 재정의되어야 합니다. 그것이 그들이 모두 공개적인 이유입니다.
 
 ###### Source
 
 * https://www.guru99.com/c-sharp-interview-questions.html
 
 [[↑] 맨 위로](#C%23)
-### Can multiple catch blocks be executed?
+### 사용자 지정 예외란 무엇입니까?
 
-No, Multiple catch blocks can't be executed. Once the proper catch code executed, the control is transferred to the finally block and then the code that follows the finally block gets executed.
+때때로 사용자 요구 사항에 따라 처리해야 하는 몇 가지 오류가 있습니다. 사용자 정의 예외가 사용되며 정의된 예외로 사용됩니다.
 
 ###### Source
 
 * https://www.guru99.com/c-sharp-interview-questions.html
 
 [[↑] 맨 위로](#C%23)
-### What is LINQ in C#?
+### 여러 catch 블록을 실행할 수 있습니까?
 
-**LINQ** stands for Language Integrated Query. LINQ has a great power of querying on any source of data. The data source could be collections of objects, database or XML files. We can easily retrieve data from any object that implements the `IEnumerable<T>` interface. 
+아니요, 캐치 블록을 여러 개 실행할 수 없습니다. 일단 적절한 캐치 코드가 실행되면, 컨트롤은 최종 블록으로 전송되고 그 다음에 최종 블록을 따르는 코드가 실행된다.
+
+###### Source
+
+* https://www.guru99.com/c-sharp-interview-questions.html
+
+[[↑] 맨 위로](#C%23)
+### C#에서 LINQ는 무엇입니까?
+
+**LINQ** 은 언어 통합 쿼리를 나타냅니다. LINQ는 모든 데이터 소스를 쿼리할 수 있는 강력한 기능을 가지고 있습니다. 데이터 소스는 개체, 데이터베이스 또는 XML 파일의 컬렉션일 수 있습니다. `IEnumerable<T>` 인터페이스를 구현하는 모든 개체에서 데이터를 쉽게 검색할 수 있습니다.
 
 ###### Source
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
 [[↑] 맨 위로](#C%23)
-### What is Serialization?
+### Serialization란?
 
-**Serialization** means saving the state of your object to secondary memory, such as a file.
+**Serialization** 은 파일과 같은 보조 메모리에 개체의 상태를 저장하는 것을 의미합니다.
 
-1.  Binary serialization (Save your object data into binary format).  
-2.  Soap Serialization (Save your object data into binary format; mainly used in network related communication).  
-3.  XmlSerialization (Save your object data into an XML file).
+1.  바이너리 직렬화(객체 데이터를 바이너리 형식으로 저장).
+2.  soap 직렬화(객체 데이터를 바이너리 형식으로 저장, 주로 네트워크 관련 통신에 사용).
+3.  XmlSerialization(객체 데이터를 XML 파일로 저장).
 
 ###### Source
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
 [[↑] 맨 위로](#C%23)
-### What you understand by Value types and Reference types in C#.Net?
+### C#.Net의 값 유형 및 참조 유형으로 무엇을 이해합니까?
 
-In C# data types can be of two types: **Value Types** and **Reference Types**. Value type variables contain their object (or data) directly. If we copy one value type variable to another then we are actually making a copy of the object for the second variable. Value Type member will located into Stack and reference member will located in Heap always.  
+C#에서 데이터 유형은 **값 유형**과 **참조 유형**의 두 가지 유형일 수 있습니다. 값 유형 변수에는 해당 개체(또는 데이터)가 직접 포함됩니다. 하나의 값 유형 변수를 다른 변수에 복사하면 실제로 두 번째 변수에 대한 개체의 복사본을 만드는 것입니다. 값 유형 멤버는 스택에 위치하며 참조 멤버는 항상 힙에 위치합니다.
 
 ###### Source
 
 * https://stackoverflow.com/questions/412813/when-to-use-arraylist-over-array-in-c
 
 [[↑] 맨 위로](#C%23)
-### What are generics in C#?
+### C#에서 제네릭이란 무엇입니까?
 
-**Generics** allow you to delay the specification of the data type of programming elements in a class or a method, until it is actually used in the program. In other words, generics allow you to write a class or method that can work with any data type.
-
-###### Source
-
-* https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
-
-[[↑] 맨 위로](#C%23)
-### What is the difference between ref and out keywords?
-
-* The **out** keyword causes arguments to be passed by reference. This is similar to the ref keyword, except that ref requires that the variable _be initialized before_ being passed
-* The **ref** keyword causes an argument to be passed by reference, not by value. The effect of passing by reference is that any change to the parameter in the method is reflected in the underlying argument variable in the calling method.
-
+**Generics** 은 프로그램에서 실제로 사용될 때까지 클래스나 메서드에서 프로그래밍 요소의 데이터 유형 지정을 지연할 수 있습니다. 다시 말해, 제네릭을 사용하면 모든 데이터 유형에서 작동할 수 있는 클래스 또는 메서드를 작성할 수 있습니다.
 
 ###### Source
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
 [[↑] 맨 위로](#C%23)
-### What is the difference between Equality Operator (==) and Equals() Method in C#?
+### ref와 out 키워드의 차이점은 무엇입니까?
 
-The == Operator (usually means the same as ReferenceEquals, could be overrided) compares the reference identity while the Equals() (virtual Equals()) method compares if two objects are equivalent.
+* **out**은 키워드는 인수가 참조로 전달되도록 합니다. 이것은 ref가 전달되기 전에 변수 _be를 초기화해야 한다는 점을 제외하고는 ref 키워드와 유사합니다.
+* **ref** 키워드는 인수가 값이 아닌 참조로 전달되도록 합니다. 참조로 전달하면 메서드의 매개변수에 대한 모든 변경 사항이 호출 메서드의 기본 인수 변수에 반영됩니다.
+
+
+###### Source
+
+* https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
+
+[[↑] 맨 위로](#C%23)
+### C#에서 등호 연산자(==)와 Equals() 메서드의 차이점은 무엇입니까?
+
+== 연산자(일반적으로 ReferenceEquals와 동일함, 재정의될 수 있음)는 참조 ID를 비교하는 반면 Equals()(가상 Equals()) 메서드는 두 개체가 동일한지 비교합니다.
 
 ###### Source
 
 * https://stackoverflow.com/questions/3191969/5-ways-for-equality-check-in-net-why-and-which-to-use
 
 [[↑] 맨 위로](#C%23)
-### What is an anonymous function in C#?
+### C#에서 Anonymous function란 무엇입니까?
 
-An **anonymous function** is an "inline" statement or expression that can be used wherever a delegate type is expected. You can use it to initialize a named delegate or pass it instead of a named delegate type as a method parameter.
+**anonymous function**은 대리자 형식이 예상되는 모든 위치에서 사용할 수 있는 "인라인" 문 또는 식입니다. 이를 사용하여 명명된 대리자를 초기화하거나 명명된 대리자 형식 대신 메서드 매개 변수로 전달할 수 있습니다.
 
-There are two kinds of anonymous functions:
+anonymous function에는 두 가지 종류가 있습니다:
 
-* Lambda Expressions
+* 람다 표현식
 * Anonymous Methods
 
 Consider:
@@ -633,47 +633,47 @@ testDelC("I'm a famous author.");
 * https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/anonymous-functions
 
 [[↑] 맨 위로](#C%23)
-### What is lambda expressions in C#?
+### C#에서 lambda식은 무엇입니까?
 
-A **lambda expression** is an anonymous function that you can use to create delegates or _expression tree_ types. By using lambda expressions, you can write local functions that can be passed as arguments or returned as the value of function calls. Lambda expressions are particularly helpful for writing LINQ query expressions.
+**lambda expression**는 대리자 또는 _expression tree_ 유형을 만드는 데 사용할 수 있는 익명 함수입니다. 람다 식을 사용하여 인수로 전달되거나 함수 호출의 값으로 반환될 수 있는 로컬 함수를 작성할 수 있습니다. 람다 식은 LINQ 쿼리 식을 작성할 때 특히 유용합니다.
 
 ###### Source
 
 * https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/lambda-expressions
 
 [[↑] 맨 위로](#C%23)
-### What is the difference between Interface and Abstract Class?
+### 인터페이스와 추상 클래스의 차이점은 무엇입니까?
 
-There are some differences between **Abstract Class** and **Interface** which are listed below:
+**추상 클래스**와 **인터페이스** 사이에는 다음과 같은 몇 가지 차이점이 있습니다.
 
-* A class can implement any number of interfaces but a subclass can at most use only one abstract class.  
-* An abstract class can have non-abstract methods (concrete methods) while in case of interface all the methods has to be abstract.  
-* An abstract class can declare or use any variables while an interface is not allowed to do so.
-* In an abstract class all data member or functions are private by default while in interface all are public, we can't change them manually.  
-* In an abstract class we need to use abstract keyword to declare abstract methods while in an interface we don't need to use that.  
-* An abstract class can't be used for multiple inheritance while interface can be used as multiple inheritance.  
-* An abstract class use constructor while in an interface we don't have any type of constructor.
-
-###### Source
-
-* https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
-
-[[↑] 맨 위로](#C%23)
-### What is Virtual Method in C#?
-
-A virtual method is a method that can be redefined in derived classes. A virtual method has an implementation in a base class as well as derived class. When a virtual method is invoked, the run-time type of the object is checked for an overriding member. 
-
-1.  By default, methods are non-virtual. We can't override a non-virtual method.  
-2.  We can't use the virtual modifier with the static, abstract, private or override modifiers.
+* 클래스는 여러 인터페이스를 구현할 수 있지만 하위 클래스는 기껏해야 하나의 추상 클래스만 사용할 수 있습니다. 
+* 추상 클래스는 비추상 메서드(구체 메서드)를 가질 수 있지만 인터페이스의 경우 모든 메서드는 추상이어야 합니다.
+* 추상 클래스는 인터페이스가 허용되지 않는 동안 모든 변수를 선언하거나 사용할 수 있습니다.
+* 추상 클래스에서 모든 데이터 멤버 또는 함수는 기본적으로 비공개이고 인터페이스에서는 모두 공개이므로 수동으로 변경할 수 없습니다.
+* 추상 클래스에서는 추상 메서드를 선언하기 위해 추상 키워드를 사용해야 하는 반면 인터페이스에서는 사용할 필요가 없습니다.
+* 추상 클래스는 다중 상속에 사용할 수 없지만 인터페이스는 다중 상속으로 사용할 수 있습니다.
+* 추상 클래스는 생성자를 사용하지만 인터페이스에는 생성자 유형이 없습니다.
 
 ###### Source
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
 [[↑] 맨 위로](#C%23)
-### Refactor the code
+### C#에서 가상 메서드란 무엇입니까?
 
-The `this` keyword is used to call other constructors, to initialize the class object. The following shows the implementation:
+가상 메서드는 파생 클래스에서 재정의할 수 있는 메서드입니다. 가상 메서드는 파생 클래스뿐만 아니라 기본 클래스에서도 구현됩니다. 가상 메서드가 호출되면 개체의 런타임 형식에서 재정의 멤버가 있는지 확인합니다.
+
+1.  기본적으로 메서드는 가상이 아닙니다. 비가상 메서드를 재정의할 수 없습니다. 
+2.  정적, 추상, 개인 또는 재정의 수정자와 함께 가상 수정자를 사용할 수 없습니다.
+
+###### Source
+
+* https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
+
+[[↑] 맨 위로](#C%23)
+### 코드 리팩토링
+
+`this` 키워드는 다른 생성자를 호출하여 클래스 객체를 초기화하는 데 사용됩니다. 다음은 구현을 보여줍니다.
 
 ```csharp
 class ClassA
@@ -691,18 +691,18 @@ class ClassA
 * https://www.toptal.com/c-sharp/interview-questions
 
 [[↑] 맨 위로](#C%23)
-### What is the output of the program below? Explain your answer.
+### 아래 프로그램의 출력은 무엇입니까? 당신의 대답을 설명하십시오.
 
-This program will output the number 10 ten times.
+이 프로그램은 숫자 10을 10번 출력합니다.
 
-Here’s why: The delegate is added in the for loop and “reference” (or perhaps “pointer” would be a better choice of words) to `i` is stored, rather than the value itself. Therefore, after we exit the loop, the variable `i` has been set to 10, so by the time each delegate is invoked, the value passed to all of them is 10.
+이유는 다음과 같습니다. 대리자가 for 루프에 추가되고 값 자체보다는 `i`에 대한 "참조"(또는 "포인터"가 더 나은 단어 선택일 수 있음)가 저장됩니다. 따라서 루프를 종료한 후 변수 `i`는 10으로 설정되었으므로 각 대리자가 호출될 때까지 모두에게 전달된 값은 10입니다.
 
 ###### Source
 
 * https://www.toptal.com/c-sharp/interview-questions
 
 [[↑] 맨 위로](#C%23)
-### Given an array of ints, write a C# method to total all the values that are even numbers.
+### int 배열이 주어지면 짝수인 모든 값의 합계를 구하는 C# 메서드를 작성합니다.
 
 ```csharp
 static long TotalAllEvenNumbers(int[] intArray) {
@@ -721,22 +721,22 @@ static long TotalAllEvenNumbers(int[] intArray) {
 * https://www.toptal.com/c-sharp/interview-questions
 
 [[↑] 맨 위로](#C%23)
-### What is the difference between constant and readonly in c#?
+### C#에서 상수와 읽기 전용의 차이점은 무엇입니까?
 
-**Constant** (const) and **Readonly **(readonly) both looks like same as per the uses but they have some differences: 
+**Const**(const) 및 **Readonly **(readonly) 둘 다 용도에 따라 같아 보이지만 몇 가지 차이점이 있습니다.
 
-* **Constant **is known as "const" keyword in C# which is also known immutable values which are known at compile time and do not change their values at run time like in any function or constructor for the life of application till the application is running.
+* **Constant **은 C#에서 "const" 키워드로 알려져 있으며 이는 컴파일 시간에 알려지고 응용 프로그램이 실행될 때까지 응용 프로그램의 수명 동안 응용 프로그램의 수명 동안 어떤 함수나 생성자와 같이 런타임에 값을 변경하지 않는 불변 값으로도 알려져 있습니다.
 
-* **Readonly** is known as "readonly" keyword in C# which is also known immutable values and are known at compile and run time and do not change their values at run time like in any function for the life of application till the application is running. You can assay their value by constructor when we call constructor with "new" keyword.
+* **Readonly** 은 C#에서 "읽기 전용" 키워드로 알려져 있으며 이는 변경할 수 없는 값으로도 알려져 있으며 컴파일 및 런타임에 알려져 있으며 응용 프로그램이 실행될 때까지 응용 프로그램의 수명 동안 다른 함수와 같이 런타임에 값을 변경하지 않습니다. "new" 키워드로 생성자를 호출할 때 생성자별로 값을 분석할 수 있습니다.
 
 ###### Source
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
 [[↑] 맨 위로](#C%23)
-### What are the uses of “using” in C#
+### C#에서 "using"의 용도는 무엇입니까?
 
-The reason for the using statement is to ensure that the object is disposed (call IDisposable) as soon as it goes out of scope, and it doesn't require explicit code to ensure that this happens.
+using 문을 사용하는 이유는 개체가 범위를 벗어나는 즉시 삭제되고(IDisposable 호출) 이러한 일이 발생하도록 하기 위해 명시적 코드가 필요하지 않도록 하기 위함입니다.
 
 The .NET CLR converts:
 ```csharp
@@ -768,9 +768,9 @@ to:
 * https://stackoverflow.com/questions/75401/what-are-the-uses-of-using-in-c-sharp
 
 [[↑] 맨 위로](#C%23)
-### What is the use of Null Coalescing Operator (??) in C#?
+### C#에서 Null 병합 연산자(??)의 용도는 무엇입니까?
 
-The **??** operator is called the **null-coalescing operator** and is used to define a default value for nullable value types or reference types. It returns the left-hand operand if the operand is not null; otherwise, it returns the right operand. 
+**??** 연산자는 **null-coalescing operator**라고 하며 nullable 값 유형 또는 참조 유형에 대한 기본값을 정의하는 데 사용됩니다. 피연산자가 null이 아니면 왼쪽 피연산자를 반환합니다. 그렇지 않으면 오른쪽 피연산자를 반환합니다.
 
 ```csharp
 string name = null;  
@@ -783,9 +783,9 @@ Console.WriteLine(myname);
 * https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm
 
 [[↑] 맨 위로](#C%23)
-### What is scope of a Internal member variable of a C# class?
+### C# 클래스의 내부 멤버 변수 범위는 무엇입니까?
 
-**Internal** access specifier allows a class to expose its member variables and member functions to other functions and objects in the _current assembly_. In other words, any member with internal access specifier can be accessed from any class or method defined within the application in which the member is defined.
+**Internal** 액세스 지정자는 클래스가 _현재 어셈블리_의 다른 함수 및 개체에 해당 멤버 변수 및 멤버 함수를 노출할 수 있도록 합니다. 즉, 내부 액세스 지정자가 있는 모든 멤버는 해당 멤버가 정의된 응용 프로그램 내에 정의된 모든 클래스 또는 메서드에서 액세스할 수 있습니다.
 
 
 ###### Source
@@ -793,9 +793,9 @@ Console.WriteLine(myname);
 * https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm
 
 [[↑] 맨 위로](#C%23)
-### Explain Anonymous type in C#
+### C#에서 Anonymous type 설명
 
-**Anonymous types** allow us to create a new type without defining them. This is way to defining read only properties into a single object without having to define type explicitly. Here Type is generating by the compiler and it is accessible only for the current block of code. The type of properties is also inferred by the compiler.  
+**Anonymous types** 을 사용하면 정의하지 않고 새 유형을 만들 수 있습니다. 이것은 유형을 명시적으로 정의하지 않고 단일 객체에 읽기 전용 속성을 정의하는 방법입니다. 여기서 Type은 컴파일러에 의해 생성되며 현재 코드 블록에 대해서만 액세스할 수 있습니다. 속성 유형은 컴파일러에서도 유추됩니다.
 
 Consider:
 ```csharp
@@ -813,32 +813,32 @@ Console.WriteLine("First Name : " + anonymousData.ForeName);
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
 [[↑] 맨 위로](#C%23)
-### What is difference between Throw Exception and Throw Clause?
+### throw 예외와 throw 절의 차이점은 무엇입니까?
 
-* The basic difference is that the **Throw exception** overwrites the stack trace and this makes it hard to find the original code line number that has thrown the exception.
-* **Throw** retains the stack information and adds to the stack information in the exception that it is thrown.
+* 기본적인 차이점은 **Throw exception**이 스택 추적을 덮어쓰므로 예외를 throw한 원래 코드 줄 번호를 찾기가 어렵습니다.
+* **Throw**는 스택 정보를 유지하고 throw된 예외의 스택 정보에 추가합니다.
 
 ###### Source
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
 [[↑] 맨 위로](#C%23)
-### What is Reflection in C#.Net?
+### C#.Net에서 리플렉션이란 무엇입니까?
 
-**Reflection** is the ability to query and interact with the type system in a dynamic way. Generally speaking Reflection allows you access to metadata about objects. For instance you can load a DLL and determine if it contains an implementation of an interface. You could use this to discover dll's that support functionality at runtime. Use could use this to extend an application without a recompilation and without having to restart it.
+**Reflection** 은 동적 방식으로 유형 시스템을 쿼리하고 상호 작용하는 기능입니다. 일반적으로 리플렉션을 사용하면 개체에 대한 메타데이터에 액세스할 수 있습니다. 예를 들어 DLL을 로드하고 인터페이스 구현이 포함되어 있는지 확인할 수 있습니다. 이것을 사용하여 런타임에 기능을 지원하는 dll을 찾을 수 있습니다. 이를 사용하여 다시 컴파일하거나 다시 시작할 필요 없이 응용 프로그램을 확장할 수 있습니다.
 
 ###### Source
 
 * https://stackoverflow.com/questions/1859902/in-3-minutes-what-is-reflection
 
 [[↑] 맨 위로](#C%23)
-### How encapsulation is implemented in C#?
+### 캡슐화는 C#에서 어떻게 구현됩니까?
 
-**Encapsulation** is implemented by using **access specifiers**. An access specifier defines the scope and visibility of a class member.
+**캡슐화**는 **액세스 지정자**를 사용하여 구현됩니다. 액세스 지정자는 클래스 멤버의 범위와 가시성을 정의합니다.
 
-* **Public** access specifier allows a class to expose its member variables and member functions to other functions and objects. Any public member can be accessed from outside the class.
-* **Private** access specifier allows a class to hide its member variables and member functions from other functions and objects. Only functions of the same class can access its private members. Even an instance of a class cannot access its private members.
-* **Protected** access specifier allows a child class to access the member variables and member functions of its base class. This way it helps in implementing inheritance.
+* **Public** 접근 지정자는 클래스가 자신의 멤버 변수와 멤버 함수를 다른 함수와 객체에 노출할 수 있도록 합니다. 모든 public 멤버는 클래스 외부에서 액세스할 수 있습니다.
+* **Private** 접근 지정자는 클래스가 자신의 멤버 변수와 멤버 함수를 다른 함수와 객체로부터 숨길 수 있도록 합니다. 같은 클래스의 함수만 private 멤버에 액세스할 수 있습니다. 클래스의 인스턴스라도 private 멤버에 액세스할 수 없습니다.
+* **Protected**  액세스 지정자는 자식 클래스가 기본 클래스의 멤버 변수 및 멤버 함수에 액세스할 수 있도록 합니다. 이렇게 하면 상속을 구현하는 데 도움이 됩니다.
 
 
 ###### Source
@@ -846,27 +846,27 @@ Console.WriteLine("First Name : " + anonymousData.ForeName);
 * https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm
 
 [[↑] 맨 위로](#C%23)
-### What is difference between constants and readonly?
+### 상수와 읽기 전용의 차이점은 무엇입니까?
 
-Constant variables are declared and initialized at compile time. The value can't be changed afterwards. Readonly is used only when we want to assign the value at run time.
+상수 변수는 컴파일 타임에 선언되고 초기화됩니다. 값은 나중에 변경할 수 없습니다. Readonly는 런타임에 값을 할당하려는 경우에만 사용됩니다.
 
 ###### Source
 
 * https://www.guru99.com/c-sharp-interview-questions.html
 
 [[↑] 맨 위로](#C%23)
-### What is the difference between dynamic type variables and object type variables?
+### 동적 유형 변수와 객체 유형 변수의 차이점은 무엇입니까?
 
-Dynamic types are similar to object types except that type checking for object type variables takes place at compile time, whereas that for the dynamic type variables takes place at run time.
+동적 유형은 개체 유형 변수에 대한 유형 검사가 컴파일 시간에 발생하는 반면 동적 유형 변수에 대한 유형 검사는 런타임에 발생한다는 점을 제외하고는 개체 유형과 유사합니다.
 
 ###### Source
 
 * https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm
 
 [[↑] 맨 위로](#C%23)
-###  What is extension method in C# and how to use them?
+###  C#의 확장 메서드는 무엇이며 어떻게 사용합니까?
 
-**Extension methods** enable you to add methods to existing types without creating a new derived type, recompiling, or otherwise modifying the original type. An extension method is a special kind of static method, but they are called as if they were instance methods on the extended type. 
+**Extension methods** 을 사용하면 새 파생 형식을 만들거나, 다시 컴파일하거나, 원래 형식을 수정하지 않고도 기존 형식에 메서드를 추가할 수 있습니다. 확장 메소드는 특별한 종류의 정적 메소드이지만 확장 유형의 인스턴스 메소드인 것처럼 호출됩니다.
 
 ```csharp
 namespace ExtensionMethods
@@ -887,31 +887,31 @@ namespace ExtensionMethods
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
 [[↑] 맨 위로](#C%23)
-### What is delegates in C# and uses of delegates?
+### C#에서 delegates란 무엇이며 delegates uses은 무엇입니까?
 
-C# delegates are same as pointers to functions, in C or C++. A delegate Object is a reference type variable that use to holds the reference to a method. The reference can be changed at runtime which is hold by an object of delegate, a delegate object can hold many functions reference which is also known as Invocation List that refers functions in a sequence FIFO, we can new functions ref in this list at run time by += operator and can remove by -= operator. 
+C# 대리자는 C 또는 C++에서 함수에 대한 포인터와 동일합니다. 대리자 개체는 메서드에 대한 참조를 유지하는 데 사용하는 참조 형식 변수입니다. 참조는 델리게이트의 객체에 의해 유지되는 런타임에 변경될 수 있습니다. 델리게이트 개체는 시퀀스 FIFO의 함수를 참조하는 호출 목록이라고도 하는 많은 함수 참조를 보유할 수 있습니다. 런타임에 이 목록에서 새로운 기능을 참조할 수 있습니다. += 연산자를 사용하고 -= 연산자로 제거할 수 있습니다.
 
-Delegates are especially used for implementing events and the call-back methods. All delegates are implicitly derived from the System.Delegate class.
+대리자는 특히 이벤트 및 콜백 메서드를 구현하는 데 사용됩니다. 모든 대리자는 System.Delegate 클래스에서 암시적으로 파생됩니다.
 
 ###### Source
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
 [[↑] 맨 위로](#C%23)
-### What is sealed class in C#?
+### C#에서 sealed class는 무엇입니까?
 
-**Sealed** classes are used to restrict the inheritance feature of object oriented programming. Once a class is defined as a sealed class, the class cannot be inherited. 
+**Sealed** 클래스는 객체 지향 프로그래밍의 상속 기능을 제한하는 데 사용됩니다. 클래스가 봉인된 클래스로 정의되면 클래스를 상속할 수 없습니다.
  
-Structs are also sealed. You cannot derive a class from a struct. 
+구조체도 밀봉됩니다. 구조체에서 클래스를 파생시킬 수 없습니다.
 
 ###### Source
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
 [[↑] 맨 위로](#C%23)
-### What is the difference between overloading and overriding?
+### 오버로딩과 오버라이드의 차이점은 무엇입니까?
 
-* **Overloading** is when you have multiple methods in the same scope, with the same name but different signatures.
+* **Overloading** 은 같은 범위에 이름은 같지만 서명이 다른 여러 메서드가 있는 경우입니다.
 
 ```csharp
 //Overloading
@@ -923,7 +923,7 @@ public class test
     {}
 }
 ```
-* **Overriding** is a principle that allows you to change the functionality of a method in a child class.
+* **Overriding** 자식 클래스에서 메서드의 기능을 변경할 수 있도록 하는 원리입니다.
 
 ```csharp
 //Overriding
@@ -950,43 +950,43 @@ public class test2 : test
 * https://stackoverflow.com/questions/673721/overloading-and-overriding
 
 [[↑] 맨 위로](#C%23)
-### Explain Code compilation in C#
+### C#의 코드 컴파일 설명
 
-There are four steps in code compilation which include:  
+코드 컴파일에는 다음과 같은 4단계가 있습니다:
 
-*   Compiling the source code into Managed code by C# compiler.
-*   Combining the newly created code into assemblies.
-*   Loading the Common Language Runtime(CLR).
-*   Executing the assembly by CLR.
-
-###### Source
-
-* https://www.softwaretestinghelp.com/c-sharp-interview-questions/
-
-[[↑] 맨 위로](#C%23)
-### What is the difference between Virtual method and Abstract method?
-
-* A **Virtual method** must always have a default implementation. However, it can be overridden in the derived class, though not mandatory. It can be overridden using _override_ keyword.
-* An **Abstract method** does not have an implementation. It resides in the abstract class. It is mandatory that the derived class implements the abstract method. An _override_ keyword is not necessary here though it can be used.
+*   소스 코드를 C# 컴파일러로 관리 코드로 컴파일합니다.
+*   새로 생성된 코드를 어셈블리로 결합합니다.
+*   CLR(공용 언어 런타임)을 로드합니다.
+*   CLR로 어셈블리를 실행합니다.
 
 ###### Source
 
 * https://www.softwaretestinghelp.com/c-sharp-interview-questions/
 
 [[↑] 맨 위로](#C%23)
-### What is a Destructor in C#?
+### Virtual method와 Abstract method의 차이점은 무엇입니까?
 
-A **Destructor** is used to clean up the memory and free the resources. But in C# this is done by the garbage collector on its own. System.GC.Collect() is called internally for cleaning up. But sometimes it may be necessary to implement destructors manually.
+* **Virtual method** 은 항상 기본 구현이 있어야 합니다. 그러나 필수는 아니지만 파생 클래스에서 재정의할 수 있습니다. _override_ 키워드를 사용하여 재정의할 수 있습니다.
+* **Abstract method** 은 구현이 없습니다. 추상 클래스에 있습니다. 파생 클래스가 추상 메서드를 구현하는 것은 필수입니다. _override_ 키워드는 사용할 수 있지만 여기에는 필요하지 않습니다.
 
 ###### Source
 
 * https://www.softwaretestinghelp.com/c-sharp-interview-questions/
 
 [[↑] 맨 위로](#C%23)
-### What's the difference between StackOverflowError and OutOfMemoryError?
+### C#에서 소멸자란 무엇입니까?
 
-* **OutOfMemoryError** is related to Heap. To avoid: Make sure un-necessary objects are available for GC
-* **StackOverflowError** is related to stack. To avoid: Make sure method calls are ending (not in an infinite loop)
+**Destructor** 메모리를 정리하고 리소스를 해제하는 데 사용됩니다. 그러나 C#에서는 가비지 수집기가 자체적으로 수행합니다. System.GC.Collect()는 정리를 위해 내부적으로 호출됩니다. 그러나 때로는 소멸자를 수동으로 구현해야 할 수도 있습니다.
+
+###### Source
+
+* https://www.softwaretestinghelp.com/c-sharp-interview-questions/
+
+[[↑] 맨 위로](#C%23)
+### StackOverflowError와 OutOfMemoryError의 차이점은 무엇입니까?
+
+* **OutOfMemoryError** 는 힙과 관련이 있습니다. 피하려면: GC에 불필요한 개체를 사용할 수 있는지 확인하십시오.
+* **StackOverflowError**는 스택과 관련이 있습니다. 피하려면: 메서드 호출이 종료되고 있는지 확인하십시오(무한 루프가 아님).
 
 
 ###### Source
@@ -994,10 +994,10 @@ A **Destructor** is used to clean up the memory and free the resources. But in C
 * http://a4academics.com/interview-questions/52-dot-net-interview-questions/417-c-oops-interview-questions-and-answers?showall=&start=1
 
 [[↑] 맨 위로](#C%23)
-### What is difference between late binding and early binding in C#?
+### C#에서 late binding과 early binding의 차이점은 무엇입니까?
 
-* In **Compile time polymorphism** or **Early Binding** we will use multiple methods with same name but different type of parameter or may be the number or parameter because of this we can perform different-different tasks with same method name in the same class which is also known as Method **overloading**.
-* **Run time polymorphism** also known as **late binding**, in Run Time polymorphism or Late Binding we can do use same method names with same signatures means same type or same number of parameters but not in same class because compiler doesn't allowed that at compile time so we can use in derived class that bind at run time when a child class or derived class object will instantiated that's way we says that Late Binding also known as Method **overriding**.
+* **Compile time polymorphism** 또는 **Early Binding**에서는 이름은 같지만 매개변수 유형이 다른 여러 메서드를 사용하거나 숫자 또는 매개변수가 될 수 있습니다. 메서드 **오버로딩**이라고도 하는 동일한 클래스입니다.
+* **Run time polymorphism**은 **late binding**이라고도 하며 런타임 다형성 또는 후기 바인딩에서는 동일한 서명을 가진 동일한 메서드 이름을 사용할 수 있습니다. 컴파일 타임에 이를 허용하지 않으므로 런타임에 바인딩하는 파생 클래스에서 자식 클래스 또는 파생 클래스 개체가 인스턴스화될 때 사용할 수 있습니다. 이러한 방식은 후기 바인딩을 메서드 **overriding**라고도 합니다.
 
 
 ###### Source
@@ -1005,60 +1005,60 @@ A **Destructor** is used to clean up the memory and free the resources. But in C
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
 [[↑] 맨 위로](#C%23)
-### What are the different ways a method can be overloaded?
+### 메소드가 오버로드될 수 있는 다른 방법은 무엇입니까?
 
-Methods can be overloaded using different data types for parameter, different order of parameters, and different number of parameters.
+매개변수에 대해 다른 데이터 유형, 매개변수 순서 및 매개변수 수를 사용하여 메소드를 오버로드할 수 있습니다.
 
 ###### Source
 
 * https://www.guru99.com/c-sharp-interview-questions.html
 
 [[↑] 맨 위로](#C%23)
-### What is the difference between dispose and finalize methods in c#?
+### C#에서 dispose와 finalize 메소드의 차이점은 무엇입니까?
 
-Finalizer and Dispose both are used for same task like to free unmanaged resources but have some differences see. 
+Finalizer와 Dispose는 모두 관리되지 않는 리소스를 해제하는 것과 같은 동일한 작업에 사용되지만 몇 가지 차이점이 있습니다.
 
 **Finalize:**
 
-* Finalize used to free unmanaged resources those are not in use like files, database connections in application domain and more, held by an object before that object is destroyed.  
-* In the Internal process it is called by Garbage Collector and can't called manual by user code or any service.  
-* Finalize belongs to System.Object class.  
-* Implement it when you have unmanaged resources in your code, and make sure that these resources are freed when the Garbage collection happens.
+* 파일, 응용 프로그램 도메인의 데이터베이스 연결 등과 같이 사용되지 않는 관리되지 않는 리소스를 해제하는 데 사용되는 Finalize는 해당 개체가 파괴되기 전에 개체가 보유하고 있습니다.
+* 내부 프로세스에서는 Garbage Collector에 의해 호출되며 사용자 코드 또는 서비스에 의해 수동으로 호출될 수 없습니다.
+* Finalize는 System.Object 클래스에 속합니다.
+* 코드에 관리되지 않는 리소스가 있는 경우 이를 구현하고 가비지 수집이 발생할 때 이러한 리소스가 해제되는지 확인합니다.
 
 **Dispose:**
 
-* Dispose is also used to free unmanaged resources those are not in use like files, database connections in Application domain at any time.  
-* Dispose explicitly it is called by manual user code.  
-* If we need to dispose method so must implement that class by IDisposable interface.  
-* It belongs to IDisposable interface.  
-* Implement this when you are writing a custom class that will be used by other users.
+* Dispose 또한 파일이나 응용 프로그램 도메인의 데이터베이스 연결과 같이 사용되지 않는 관리되지 않는 리소스를 언제든지 해제하는 데 사용됩니다.  
+* 명시적으로 삭제는 수동 사용자 코드에 의해 호출됩니다. 
+* 메서드를 폐기해야 하는 경우 해당 클래스를 IDisposable 인터페이스로 구현해야 합니다.
+* IDisposable 인터페이스에 속합니다.
+* 다른 사용자가 사용할 사용자 정의 클래스를 작성할 때 이것을 구현하십시오.
 
 ###### Source
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
 [[↑] 맨 위로](#C%23)
-### What is marshalling and why do we need it?
+### marshalling은 무엇이며 왜 필요한가?
 
-Because different languages and environments have different calling conventions, different layout conventions, different sizes of primitives (cf. char in C# and char in C), different object creation/destruction conventions, and different design guidelines. You need a way to get the stuff out of managed land an into somewhere where unmanaged land can see and understand it and vice versa. That's what marshalling is for.
+언어와 환경에 따라 호출 규칙, 레이아웃 규칙, 기본 형식의 크기(C#의 char 및 C의 char 참조), 개체 생성/파기 규칙 및 디자인 지침이 다르기 때문입니다. 관리되는 토지의 물건을 관리되지 않는 토지가 보고 이해할 수 있는 곳으로 가져갈 수 있는 방법이 필요합니다. 마샬링이 바로 그것입니다.
 
 ###### Source
 
 * https://stackoverflow.com/questions/2240804/marshalling-what-is-it-and-why-do-we-need-it
 
 [[↑] 맨 위로](#C%23)
-### Describe the accessibility modifier "protected internal".
+### 접근성 수정자 "protected internal"를 설명합니다.
 
-Protected Internal variables/methods are accessible within the same assembly and also from the classes that are derived from this parent class.
+보호된 내부 변수/메서드는 동일한 어셈블리 내에서 그리고 이 부모 클래스에서 파생된 클래스에서도 액세스할 수 있습니다.
 
 ###### Source
 
 * https://www.guru99.com/c-sharp-interview-questions.html
 
 [[↑] 맨 위로](#C%23)
-### What are pointer types in C#?
+### C#의 포인터 유형은 무엇입니까?
 
-**Pointer type** variables store the memory address of another type. Pointers in C# have the same capabilities as the pointers in C or C++.
+**Pointer type** 변수는 다른 유형의 메모리 주소를 저장합니다. C#의 포인터는 C 또는 C++의 포인터와 동일한 기능을 가지고 있습니다.
 
 ```csharp
 char* cptr;  int* iptr;
@@ -1070,28 +1070,28 @@ char* cptr;  int* iptr;
 * https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm
 
 [[↑] 맨 위로](#C%23)
-### What are the differences between a multidimensional array and an array of arrays in C#?
+### C#에서 다차원 배열과 배열의 차이점은 무엇입니까?
 
-* Array of arrays (jagged arrays) are faster than multi-dimensional arrays and can be used more effectively. 
-* Multidimensional arrays have nicer syntax.
+* 배열의 배열(jagged 배열)은 다차원 배열보다 빠르며 더 효과적으로 사용할 수 있습니다.
+* 다차원 배열은 구문이 더 좋습니다.
 
 ###### Source
 
 * https://stackoverflow.com/questions/597720/what-are-the-differences-between-a-multidimensional-array-and-an-array-of-arrays
 
 [[↑] 맨 위로](#C%23)
-### What is scope of a Protected Internal member variable of a C# class?
+### C# 클래스의 Protected Internal 멤버 변수의 범위는 무엇입니까?
 
-The **protected internal** access specifier allows a class to hide its member variables and member functions from other class objects and functions, except a child class within the same application. This is also used while implementing inheritance.
+**protected internal** 액세스 지정자를 사용하면 클래스가 동일한 응용 프로그램 내의 자식 클래스를 제외하고 다른 클래스 개체 및 함수에서 해당 멤버 변수 및 멤버 함수를 숨길 수 있습니다. 이것은 상속을 구현할 때도 사용됩니다.
 
 ###### Source
 
 * https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm
 
 [[↑] 맨 위로](#C%23)
-### Can you create a function in C# which can accept varying number of arguments?
+### 다양한 수의 인수를 허용할 수 있는 함수를 C#에서 만들 수 있습니까?
 
-By using the `params` keyword, you can specify a method parameter that takes a variable number of arguments. No additional parameters are permitted after the params keyword in a method declaration, and only one params keyword is permitted in a method declaration. The declared type of the params parameter must be a single-dimensional array.
+'params' 키워드를 사용하여 가변 개수의 인수를 사용하는 메서드 매개변수를 지정할 수 있습니다. 메서드 선언에서 params 키워드 뒤에는 추가 매개 변수가 허용되지 않으며 메서드 선언에는 하나의 params 키워드만 허용됩니다. params 매개변수의 선언된 유형은 1차원 배열이어야 합니다.
 
 ```csharp
 public static void UseParams(params int[] list) {
@@ -1120,39 +1120,39 @@ UseParams2(1, 'a', "test");
 * https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm
 
 [[↑] 맨 위로](#C%23)
-### Is operator overloading supported in C#?
+### 연산자 오버로딩이 C#에서 지원되나요?
 
-You can redefine or overload most of the built-in operators available in C#. Thus a programmer can use operators with user-defined types as well.
+C#에서 사용할 수 있는 대부분의 기본 제공 연산자를 재정의하거나 오버로드할 수 있습니다. 따라서 프로그래머는 사용자 정의 유형과 함께 연산자도 사용할 수 있습니다
 
-Overloaded operators are functions with special names the keyword operator followed by the symbol for the operator being defined. Similar to any other function, an overloaded operator has a return type and a parameter list.
-
-###### Source
-
-* https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm
-
-[[↑] 맨 위로](#C%23)
-### What is the use of conditional preprocessor directive in C#?
-
-You can use the `#if` directive to create a conditional directive. Conditional directives are useful for testing a symbol or symbols to check if they evaluate to true. If they do evaluate to true, the compiler evaluates all the code between the `#if` and the next directive.
+오버로드된 연산자는 operator 키워드 뒤에 정의되는 연산자에 대한 기호가 오는 특수 이름을 가진 함수입니다. 다른 함수와 마찬가지로 오버로드된 연산자에는 반환 형식과 매개 변수 목록이 있습니다.
 
 ###### Source
 
 * https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm
 
 [[↑] 맨 위로](#C%23)
-### What is the difference between System.ApplicationException class and System.SystemException class?
+### C#에서 조건부 전처리기 지시문을 사용하는 방법은 무엇입니까?
 
-* The `System.ApplicationException` class supports exceptions generated by application programs. Hence the exceptions defined by the programmers should derive from this class.
-* The `System.SystemException` class is the base class for all predefined system exception.
+`#if` 지시문을 사용하여 조건부 지시문을 만들 수 있습니다. 조건부 지시문은 기호가 true로 평가되는지 확인하기 위해 기호를 테스트하는 데 유용합니다. true로 평가되면 컴파일러는 `#if`와 다음 지시문 사이의 모든 코드를 평가합니다.
 
 ###### Source
 
 * https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm
 
 [[↑] 맨 위로](#C%23)
-### What is Indexer in C#?
+### System.ApplicationException 클래스와 System.SystemException 클래스의 차이점은 무엇입니까?
 
-An **indexer** allows an object to be indexed such as an array. When you define an indexer for a class, this class behaves similar to a virtual array. You can then access the instance of this class using the array access operator ([ ]). Indexers can be overloaded. Indexers can also be declared with multiple parameters and each parameter may be a different type. It is not necessary that the indexes have to be integers. C# allows indexes to be of other types, for example, a string.
+* `System.ApplicationException` 클래스는 응용 프로그램에서 생성된 예외를 지원합니다. 따라서 프로그래머가 정의한 예외는 이 클래스에서 파생되어야 합니다.
+* `System.SystemException` 클래스는 미리 정의된 모든 시스템 예외의 기본 클래스입니다.
+
+###### Source
+
+* https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm
+
+[[↑] 맨 위로](#C%23)
+### C#의 Indexer는 무엇입니까?
+
+**indexer** 를 사용하면 배열과 같은 객체를 인덱싱할 수 있습니다. 클래스에 대한 인덱서를 정의하면 이 클래스는 가상 배열과 유사하게 동작합니다. 그런 다음 배열 액세스 연산자([ ])를 사용하여 이 클래스의 인스턴스에 액세스할 수 있습니다. 인덱서는 오버로드될 수 있습니다. 인덱서는 여러 매개변수를 사용하여 선언할 수도 있으며 각 매개변수는 다른 유형일 수 있습니다. 인덱스가 정수일 필요는 없습니다. C#에서는 인덱스가 문자열과 같은 다른 유형이 될 수 있습니다.
 
 Consider:
 ```CSharp
@@ -1185,27 +1185,27 @@ class IndexedNames {
 * https://www.tutorialspoint.com/csharp/csharp_indexers.htm
 
 [[↑] 맨 위로](#C%23)
-### Can we have only “try” block without “catch” block in C#?
+### C#에서 "catch" 블록 없이 "try" 블록만 가질 수 있습니까?
 
-Yes we can have only try block without catch block but we have to have finally block.
-
-###### Source
-
-* http://a4academics.com/interview-questions/52-dot-net-interview-questions/417-c-oops-interview-questions-and-answers?showall=&start=1
-
-[[↑] 맨 위로](#C%23)
-### In try block if we add return statement whether finally block is executed in C#?
-
-Yes. Finally block will still be executed in presence of return statement in try block.
+예, catch 블록 없이 try 블록만 가질 수 있지만 finally 블록은 있어야 합니다.
 
 ###### Source
 
 * http://a4academics.com/interview-questions/52-dot-net-interview-questions/417-c-oops-interview-questions-and-answers?showall=&start=1
 
 [[↑] 맨 위로](#C%23)
-### What is the Constructor Chaining in C#?
+### try 블록에 return 문을 추가하면 finally 블록이 C#에서 실행되는지 여부는?
 
-**Constructor Chaining** is an approach where a constructor calls another constructor in the same or base class. This is very handy when we have a class that defines multiple constructors. 
+예. 마지막으로 블록은 try 블록에 return 문이 있는 경우에도 계속 실행됩니다.
+
+###### Source
+
+* http://a4academics.com/interview-questions/52-dot-net-interview-questions/417-c-oops-interview-questions-and-answers?showall=&start=1
+
+[[↑] 맨 위로](#C%23)
+### C#에서 생성자 연결이란 무엇입니까?
+
+**Constructor Chaining** 은 생성자가 동일한 또는 기본 클래스의 다른 생성자를 호출하는 접근 방식입니다. 이것은 여러 생성자를 정의하는 클래스가 있을 때 매우 편리합니다.
 
 Consider:
 ```csharp
@@ -1234,9 +1234,9 @@ class Foo {
 * https://stackoverflow.com/questions/1814953/c-sharp-constructor-chaining-how-to-do-it
 
 [[↑] 맨 위로](#C%23)
-### What are the uses of delegates in C#?
+### C#에서 delegates의 용도는 무엇입니까?
 
-Below are the list of uses of delegates in C#:
+다음은 C#의 대리자 사용 목록입니다:
 * Callback Mechanism
 * Asynchronous Processing
 * Abstract and Encapsulate method
@@ -1247,43 +1247,43 @@ Below are the list of uses of delegates in C#:
 * http://a4academics.com/interview-questions/52-dot-net-interview-questions/417-c-oops-interview-questions-and-answers?showall=&start=1
 
 [[↑] 맨 위로](#C%23)
-### Why to use lock statement in C#?
+### C#에서 잠금 문을 사용하는 이유는 무엇입니까?
 
-**Lock** will make sure one thread will not intercept the other thread which is running the part of code. So lock statement will make the thread wait, block till the object is being released.
+**Lock** 은 한 스레드가 코드의 일부를 실행하는 다른 스레드를 가로채지 않도록 합니다. 따라서 lock 문은 스레드를 기다리게 하고 객체가 해제될 때까지 차단합니다.
 
 ###### Source
 
 * http://a4academics.com/interview-questions/52-dot-net-interview-questions/417-c-oops-interview-questions-and-answers?showall=&start=1
 
 [[↑] 맨 위로](#C%23)
-### Can Multiple Inheritance implemented in C# ?
+### C#에서 다중 상속을 구현할 수 있습니까?
 
-In C#, derived classes can inherit from one base class only. If you want to inherit from multiple base classes, use interface.
+C#에서 파생 클래스는 하나의 기본 클래스에서만 상속할 수 있습니다. 여러 기본 클래스에서 상속하려면 인터페이스를 사용하십시오.
 
 ###### Source
 
 * https://stackoverflow.com/questions/4506990/what-is-the-use-of-static-constructors
 
 [[↑] 맨 위로](#C%23)
-### What is the output of the short program below? Explain your answer.
+### 아래 쇼트 프로그램의 결과는 무엇입니까? 당신의 대답을 설명하십시오
 
-The output will be:
+출력은 다음과 같습니다.
 ```csharp
 location is null
 1/1/0001 12:00:00 AM
 ```
-Although both variables are uninitialized, `String` is a reference type and `DateTime` is a value type. As a value type, an unitialized `DateTime` variable is set to a default value of midnight of 1/1/1 (yup, that’s the year 1 A.D.), _not_ `null`.
+두 변수 모두 초기화되지 않았지만 `String`은 참조 유형이고 `DateTime`은 값 유형입니다. 값 유형으로 단위화된 `DateTime` 변수는 기본값인 1/1/1(예, A.D. 1년) 자정으로 설정되며 _not_ `null`입니다.
 
 ###### Source
 
 * https://www.toptal.com/c-sharp/interview-questions
 
 [[↑] 맨 위로](#C%23)
-### Is the comparison of time and null in the if statement below valid or not? Why or why not?
+### 아래 if 문에서 시간과 null의 비교가 유효한가요? 그 이유는?
 
-One might think that, since a `DateTime` variable can never be null (it is automatically initialized to Jan 1, 0001), the compiler would complain when a `DateTime` variable is compared to `null`. However, due to type coercion, the compiler does allow it, which can potentially lead to headfakes and pull-out-your-hair bugs.
+`DateTime` 변수는 절대 null이 될 수 없기 때문에(0001년 1월 1일로 자동 초기화됨) 컴파일러는 `DateTime` 변수가 `null`과 비교될 때 불평할 것이라고 생각할 수도 있습니다. 그러나 형식 강제로 인해 컴파일러는 이를 허용하므로 잠재적으로 헤드페이크 및 뽑기 버그가 발생할 수 있습니다.
 
-Specifically, the `==` operator will cast its operands to different allowable types in order to get a common type on both sides, which it can then compare. That is why something like this will give you the result you expect (as opposed to failing or behaving unexpectedly because the operands are of different types):
+특히 `==` 연산자는 피연산자를 다른 허용 가능한 유형으로 캐스팅하여 양쪽에서 공통 유형을 얻은 다음 비교할 수 있습니다. 이것이 다음과 같은 것이 예상한 결과를 제공하는 이유입니다(피연산자의 유형이 다르기 때문에 실패하거나 예기치 않게 동작하는 것과 반대).
 
 ```csharp
 double x = 5.0;
@@ -1292,78 +1292,79 @@ Console.WriteLine(x == y);  // outputs true
 ```
     
 
-However, this can sometimes result in unexpected behavior, as is the case with the comparison of a `DateTime` variable and `null`. In such a case, both the `DateTime` variable and the `null` literal can be cast to `Nullable<DateTime>`. Therefore it is legal to compare the two values, even though the result will _always_ be false.
+그러나 'DateTime' 변수와 'null'을 비교하는 경우와 같이 예기치 않은 동작이 발생할 수 있습니다. 이러한 경우 `DateTime` 변수와 `null` 리터럴 모두 `Nullable<DateTime>`으로 캐스트될 수 있습니다. 따라서 결과가 _항상_ 거짓이더라도 두 값을 비교하는 것은 합법적입니다.
 
 ###### Source
 
 * https://www.toptal.com/c-sharp/interview-questions
 
 [[↑] 맨 위로](#C%23)
-### What is the output of the program below? Explain your answer.
+### 아래 프로그램의 출력은 무엇입니까? 당신의 대답을 설명하십시오.
 
-The answer to the first part of the question (i.e., the version of the code with `await Task.Delay(5);`) is that the program will just output a blank line (_not_ “Hello world!”). This is because `result` will still be uninitialized when `Console.WriteLine` is called.
+질문의 첫 번째 부분(즉, `await Task.Delay(5);`이 있는 코드 버전)에 대한 대답은 프로그램이 빈 줄을 출력한다는 것입니다("Hello world!"가 아닌_). 이는 `Console.WriteLine`이 호출될 때 `result`가 여전히 초기화되지 않기 때문입니다.
 
-Most procedural and object-oriented programmers expect a function to execute from beginning to end, or to a `return` statement, before returning to the calling function. This is not the case with C# `async` functions. They only execute up until the first `await` statement, then return to the caller. The function called by `await` (in this case `Task.Delay`) is executed asynchronously, and the line after the `await` statement isn’t signaled to execute until `Task.Delay` completes (in 5 milliseconds). However, within that time, control has already returned to the caller, which executes the `Console.WriteLine` statement on a string that hasn’t yet been initialized.
+대부분의 절차적 및 객체 지향 프로그래머는 호출하는 함수로 돌아가기 전에 함수가 처음부터 끝까지 또는 `return` 문으로 실행될 것으로 기대합니다. 이것은 C# `async` 함수의 경우가 아닙니다. 첫 번째 `await` 문까지만 실행한 다음 호출자에게 돌아갑니다. `await`에 의해 호출된 함수(이 경우 `Task.Delay`)는 비동기적으로 실행되며 `await` 문 뒤의 행은 `Task.Delay`가 완료될 때까지(5밀리초 내) 실행 신호를 받지 않습니다. 그러나 그 시간 안에 제어는 이미 호출자에게 반환되었으며, 호출자는 아직 초기화되지 않은 문자열에 대해 `Console.WriteLine` 문을 실행합니다.
 
-Calling `await Task.Delay(5)` lets the current thread continue what it is doing, and if it’s done (pending any awaits), returns it to the thread pool. This is the primary benefit of the async/await mechanism. It allows the CLR to service more requests with less threads in the thread pool.
+`await Task.Delay(5)`를 호출하면 현재 스레드가 하고 있는 작업을 계속할 수 있으며, 완료되면(대기 중인 대기 중) 스레드 풀로 반환합니다. 이것이 async/await 메커니즘의 주요 이점입니다. 이를 통해 CLR은 스레드 풀에서 더 적은 스레드로 더 많은 요청을 처리할 수 있습니다.
 
-Asynchronous programming has become a lot more common, with the prevalence of devices which perform over-the-network service requests or database requests for many activities. C# has some excellent programming constructs which greatly ease the task of programming asynchronous methods, and a programmer who is aware of them will produce better programs.
 
-With regard to the second part of the question, if `await Task.Delay(5);` was replaced with `Thread.Sleep(5)`, the program would output `Hello world!`. An `async` method _without_ at least one `await` statement in it operates just like a synchronous method; that is, it will execute from beginning to end, or until it encounters a `return` statement. Calling `Thread.Sleep()` simply blocks the currently running thread, so the `Thread.Sleep(5)` call just adds 5 milliseconds to the execution time of the `SaySomething()` method.
+비동기 프로그래밍은 네트워크를 통한 서비스 요청 또는 많은 활동에 대한 데이터베이스 요청을 수행하는 장치의 보급으로 인해 훨씬 ​​더 보편화되었습니다. C#에는 비동기 메서드 프로그래밍 작업을 크게 간소화하는 몇 가지 우수한 프로그래밍 구성이 있으며 이를 알고 있는 프로그래머는 더 나은 프로그램을 생성할 것입니다.
 
-###### Source
-
-* https://www.toptal.com/c-sharp/interview-questions
-
-[[↑] 맨 위로](#C%23)
-### What is the output of the program below?
-
-`TestValue : 10`
-
-The static constructor of a class is called before any instance of the class is created. The static constructor called here initializes the `TestValue` variable first.
+질문의 두 번째 부분과 관련하여 `await Task.Delay(5);`가 `Thread.Sleep(5)`로 바뀌면 프로그램은 `Hello world!`를 출력합니다. 하나 이상의 `await` 문이 _없는_ 'async' 메서드는 동기 메서드처럼 작동합니다. 즉, 처음부터 끝까지 또는 `return` 문을 만날 때까지 실행됩니다. `Thread.Sleep()`을 호출하면 단순히 현재 실행 중인 스레드를 차단하므로 `Thread.Sleep(5)` 호출은 `SaySomething()` 메서드의 실행 시간에 5밀리초만 추가합니다.
 
 ###### Source
 
 * https://www.toptal.com/c-sharp/interview-questions
 
 [[↑] 맨 위로](#C%23)
-### When to use ArrayList over array[] in c#?
+### 아래 프로그램의 출력은 무엇입니까?
 
-* **Arrays** are strongly typed, and work well as parameters. If you know the length of your collection and it is fixed, you should use an array.
-* **ArrayLists** are not strongly typed, every Insertion or Retrial will need a cast to get back to your original type. If you need a method to take a list of a specific type, ArrayLists fall short because you could pass in an ArrayList containing any type. ArrayLists use a dynamically expanding array internally, so there is also a hit to expand the size of the internal array when it hits its capacity.
+`테스트값 : 10`
 
-What you really want to use is a generic list like List<T>. This has all the advantages of Array and ArrayLists. It is strongly typed and it supports a variable length of items.
+클래스의 정적 생성자는 클래스의 인스턴스가 생성되기 전에 호출됩니다. 여기서 호출되는 정적 생성자는 'TestValue' 변수를 먼저 초기화합니다.
+
+###### Source
+
+* https://www.toptal.com/c-sharp/interview-questions
+
+[[↑] 맨 위로](#C%23)
+### C#에서 array[]보다 ArrayList를 언제 사용합니까?
+
+* **Arrays**는 강력한 형식이며 매개변수로 잘 작동합니다. 컬렉션의 길이를 알고 고정되어 있으면 배열을 사용해야 합니다.
+* **ArrayLists** 은 강력한 유형이 아니므로 모든 삽입 또는 재시도에서 원래 유형으로 돌아가기 위해 캐스트가 필요합니다. 특정 유형의 목록을 가져오는 방법이 필요한 경우 모든 유형을 포함하는 ArrayList를 전달할 수 있기 때문에 ArrayList는 부족합니다. ArrayList는 내부적으로 동적으로 확장되는 배열을 사용하므로 용량에 도달하면 내부 배열의 크기를 확장해야 하는 문제도 있습니다.
+
+실제로 사용하고 싶은 것은 List<T>와 같은 일반 목록입니다. 이것은 Array 및 ArrayLists의 모든 장점을 가지고 있습니다. 강력한 형식이며 다양한 길이의 항목을 지원합니다.
 
 ###### Source
 
 * https://stackoverflow.com/questions/412813/when-to-use-arraylist-over-array-in-c
 
 [[↑] 맨 위로](#C%23)
-### What is the "yield" keyword used for in C#?
+### C#에서 사용되는 "yield" 키워드는 무엇입니까?
 
-The function returns an object that implements the `IEnumerable` interface. If a calling function starts foreach-ing over this object the function is called again until it "yields". This is syntactic sugar introduced in C# 2.0.
+이 함수는 'IEnumerable' 인터페이스를 구현하는 객체를 반환합니다. 호출 함수가 이 객체에 대해 foreach-ing을 시작하면 함수가 "양보"할 때까지 다시 호출됩니다. 이것은 C# 2.0에 도입된 구문 설탕입니다.
 
-`Yield` has two great uses:
-* It helps to provide custom iteration without creating temp collections.
-* It helps to do stateful iteration. 
+'Yield'에는 다음과 같은 두 가지 큰 용도가 있습니다.
+* 임시 컬렉션을 만들지 않고 사용자 지정 반복을 제공하는 데 도움이 됩니다.
+* 상태 저장 반복을 수행하는 데 도움이 됩니다.
 
-The advantage of using `yield` is that if the function consuming your data simply needs the first item of the collection, the rest of the items won't be created.
+'yield'를 사용하는 이점은 데이터를 사용하는 함수에 컬렉션의 첫 번째 항목만 필요한 경우 나머지 항목이 생성되지 않는다는 것입니다.
 
 ###### Source
 
 * https://stackoverflow.com/questions/39476/what-is-the-yield-keyword-used-for-in-c
 
 [[↑] 맨 위로](#C%23)
-### What is an Object Pool in .Net?
+### .Net의 개체 풀이란 무엇입니까?
 
-Object Pooling is something that tries to keep a pool of objects in memory to be re-used later and hence it will reduce the load of object creation to a great extent. Whenever there is a request for a new object, the pool manager will take the request and it will be served by allocating an object from the pool.  
+개체 풀링은 나중에 재사용할 수 있도록 메모리에 개체 풀을 유지하려고 하므로 개체 생성 로드를 크게 줄일 수 있습니다. 새 개체에 대한 요청이 있을 때마다 풀 관리자는 요청을 받고 풀에서 개체를 할당하여 서비스를 제공합니다.
 
 ###### Source
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
 [[↑] 맨 위로](#C%23)
-### What interface should your data structure implement to make the "Where" method work?
+### "where" 메서드가 작동하려면 데이터 구조에서 어떤 인터페이스를 구현해야 합니까?
 
 `IEnumerable`
 
@@ -1372,25 +1373,25 @@ Object Pooling is something that tries to keep a pool of objects in memory to be
 * https://medium.com/sears-israel/my-number-one-c-interview-question-39cdaac16c
 
 [[↑] 맨 위로](#C%23)
-### IEnumerable vs List - What to Use? How do they work?
+### IEnumerable vs List - 무엇을 사용할 것인가? 그들은 어떻게 작동합니까?
 
-`IEnumerable` describes behavior, while List is an implementation of that behavior. When you use `IEnumerable`, you give the compiler a chance to defer work until later, possibly optimizing along the way. If you use `ToList()` you force the compiler to reify the results right away.
+`IEnumerable`은 동작을 설명하는 반면 List는 해당 동작의 구현입니다. `IEnumerable`을 사용하면 컴파일러가 작업을 나중으로 연기할 수 있는 기회를 주어 최적화할 수 있습니다. `ToList()`를 사용하면 컴파일러가 결과를 즉시 구체화하도록 합니다.
 
-Whenever you "stacking" LINQ expressions, you should use `IEnumerable`, because by only specifying the behavior gives LINQ a chance to defer evaluation and possibly optimize the program. 
+LINQ 표현식을 "스택"할 때마다 `IEnumerable`을 사용해야 합니다. 동작만 지정하면 LINQ가 평가를 연기하고 프로그램을 최적화할 수 있기 때문입니다.
 
 ###### Source
 
 * https://stackoverflow.com/questions/3628425/ienumerable-vs-list-what-to-use-how-do-they-work
 
 [[↑] 맨 위로](#C%23)
-### Name difference between "is" and "as" operator in C#
+### C#에서 "is"와 "as" 연산자의 이름 차이
 
-* The `is` operator checks if an object can be cast to a specific type.
+* 'is' 연산자는 객체를 특정 유형으로 캐스팅할 수 있는지 확인합니다.
 ```csharp
 if (someObject is StringBuilder) ...
 ```
 
-* The `as` operator attempts to cast an object to a specific type, and returns null if it fails.
+* 'as' 연산자는 객체를 특정 유형으로 캐스팅하려고 시도하고 실패하면 null을 반환합니다.
 ```csharp
 StringBuilder b = someObject as StringBuilder;
 if (b != null) ...
@@ -1401,9 +1402,9 @@ if (b != null) ...
 * https://stackoverflow.com/questions/3786361/difference-between-is-and-as-keyword
 
 [[↑] 맨 위로](#C%23)
-### What is the difference between Func<string,string> and delegate?
+### Func<string,string>과 delegate의 차이점은 무엇입니까?
 
-The first is declaring a generic delegate variable and assigning a value to it, the second is just defining a delegate type. Both `Func<string,string>` and delegate string convertMethod(string) would be capable of holding the same method definitions whether they be methods, anonymous methods, or lambda expressions.
+첫 번째는 제네릭 대리자 변수를 선언하고 값을 할당하는 것이고, 두 번째는 대리자 유형을 정의하는 것입니다. `Func<string,string>` 및 대리자 문자열 convertMethod(string) 모두 메서드, 익명 메서드 또는 람다 식이든 동일한 메서드 정의를 보유할 수 있습니다.
 
 Consider:
 ```csharp
@@ -1427,10 +1428,10 @@ public static class Program
 * https://stackoverflow.com/questions/6818656/what-is-the-difference-between-funcstring-string-and-delegate
 
 [[↑] 맨 위로](#C%23)
-### Explain the difference between Select and Where
+### Select와 Where의 차이점 설명
 
-* **Select** is a projection, so what you get is the expression `x=> x.FirstName == "John"` evaluated for each element in ContextSet() on the server. i.e. lots of true/false values (the same number as your original list). If you look the select will return something like `IEnumerable<bool>` (because the type of `x=> x.FirstName == "John"` is a bool). Use `Select` when you want to keep all results, but change their type (project them).
-* **Where** filters the results, returning an enumerable of the original type (no projection). Use `Where` when you want to filter your results, keeping the original type
+* **Select**는 프로젝션이므로 서버의 ContextSet()에 있는 각 요소에 대해 평가된 표현식 `x=> x.FirstName == "John"`이 표시됩니다. 즉, 많은 참/거짓 값(원래 목록과 동일한 숫자). 선택하면 `IEnumerable<bool>`과 같은 항목이 반환됩니다(`x=> x.FirstName == "John"`의 유형은 bool이기 때문에). 모든 결과를 유지하되 유형을 변경(투영)하려면 '선택'을 사용하세요.
+* ** Where**는 결과를 필터링하여 원래 유형의 열거형(프로젝션 없음)을 반환합니다. 원래 유형을 유지하면서 결과를 필터링하려면 '어디'를 사용하세요.
 
 
 ###### Source
@@ -1438,36 +1439,36 @@ public static class Program
 * https://stackoverflow.com/questions/8230278/difference-between-select-and-where-in-entity-framework
 
 [[↑] 맨 위로](#C%23)
-### Explain what is short-circuit evaluation in C#
+### C#에서 단락 평가가 무엇인지 설명
 
-**Short-circuit evaluation** is a tricky method for evaluating logical operators AND and OR. In this method, the whole expression can be evaluated to `true` or `false` without evaluating all sub expressions.
+**단락 평가**는 논리 연산자 AND 및 OR을 평가하는 까다로운 방법입니다. 이 방법에서는 모든 하위 표현식을 평가하지 않고 전체 표현식을 'true' 또는 'false'로 평가할 수 있습니다.
 
 ###### Source
 
 * https://www.c-sharpcorner.com/article/short-circuit-evaluation-in-c-sharp/
 
 [[↑] 맨 위로](#C%23)
-### List some different ways for equality check in .Net
+### .Net에서 평등 검사를 위한 몇 가지 다른 방법 나열
 
-* The ReferenceEquals() method -  checks if two reference type variables(classes, not structs) are referred to the same memory adress.
-* The virtual Equals() method. (System.Object) - checks if two objects are equivalent. 
-* The static Equals() method -  is used to handle problems when there is a null value in the check. 
-* The Equals method from IEquatable interface.
-* The comparison operator ==  - usually means the same as ReferenceEquals, it checks if two variables point to the same memory adress. The gotcha is that this operator can be overrided to perform other types of checks. In strings, for instance, it checks if two different instances are equivalent.
+* ReferenceEquals() 메서드 - 두 개의 참조 유형 변수(구조체가 아닌 클래스)가 동일한 메모리 주소를 참조하는지 확인합니다.
+* 가상 Equals() 메서드. (System.Object) - 두 개체가 동일한지 확인합니다.
+* 정적 Equals() 메서드 - 검사에 null 값이 있을 때 문제를 처리하는 데 사용됩니다.
+* IEquatable 인터페이스의 Equals 메서드입니다.
+* 비교 연산자 == - 일반적으로 ReferenceEquals와 동일함을 의미하며 두 변수가 동일한 메모리 주소를 가리키는지 확인합니다. 문제는 이 연산자가 다른 유형의 검사를 수행하기 위해 재정의될 수 있다는 것입니다. 예를 들어 문자열에서 두 개의 다른 인스턴스가 동일한지 확인합니다.
 
 ###### Source
 
 * https://stackoverflow.com/questions/3191969/5-ways-for-equality-check-in-net-why-and-which-to-use
 
 [[↑] 맨 위로](#C%23)
-### What is multicast delegate in C#?
+### C#에서 멀티캐스트 delegate란 무엇입니까?
 
-Delegate can invoke only one method reference has been encapsulated into the delegate. It is possible for certain delegate to hold and invoke multiple methods. Such delegate called **multicast delegate**. Multicast delegate also know as combinable delegate, must satisfy the following conditions: 
+대리자는 대리자에 캡슐화된 하나의 메서드 참조만 호출할 수 있습니다. 특정 대리자가 여러 메서드를 보유하고 호출하는 것이 가능합니다. 이러한 대리자를 **멀티캐스트 대리자**라고 합니다. 멀티캐스트 대리자는 결합 가능한 대리자라고도 하며 다음 조건을 충족해야 합니다.
 
-* The return type of the delegate must be void. None of the parameters of the delegate type can be delegate type can be declared as output parameters using out keywords.  
-* Multicast delegate instance is created by combining two delegates, the invocation list is formed by concatenating the invocation list of two operand of the addition operation. Delegates are invoked in the order they are added.
+* 대리자의 반환 형식은 void여야 합니다. 대리자 형식의 매개 변수는 out 키워드를 사용하여 출력 매개 변수로 선언할 수 없습니다.
+* 멀티캐스트 델리게이트 인스턴스는 2개의 델리게이트를 결합하여 생성되며, 호출 목록은 추가 연산의 두 피연산자의 호출 목록을 연결하여 구성됩니다. 대리자는 추가된 순서대로 호출됩니다.
 
-Actually all delegates in C# are MulticastDelegates, even if they only have a single method as target. (Even anonymous functions and lambdas are MulticastDelegates even though they by definition have only single target.)
+실제로 C#의 모든 대리자는 대상으로 단일 메서드만 있는 경우에도 MulticastDelegates입니다. (익명 함수와 람다도 정의상 단일 대상만 있지만 MulticastDelegates입니다.)
 
 Consider:
 ```csharp
@@ -1505,61 +1506,61 @@ ublic partial class MainPage : PhoneApplicationPage
 * https://stackoverflow.com/questions/15023736/multicast-delegate-c-sharp
 
 [[↑] 맨 위로](#C%23)
-### What is jagged array in C#.Net and when to prefer jagged arrays over multi-dimensional arrays?
+### C#.Net에서 jagged 배열이란 무엇이며 언제 다차원 배열보다 jagged 배열을 선호합니까?
 
-A **jagged array** (`double[][]`) is an array whose elements are arrays. The elements of a jagged array can be of different dimensions and sizes. If you care about speed then you always prefer jagged arrays over multi-dimensional arrays. The .NET runtime support (jitter and CLR) makes a strong distinction between vectors and arrays. A jagged array is a vector of vectors, you get all of the runtime optimizations when you use them. Multi-dimensional arrays don't. The speed difference is about a factor of two.
+**jagged 배열**(`double[][]`)은 요소가 배열인 배열입니다. 들쭉날쭉한 배열의 요소는 차원과 크기가 다를 수 있습니다. 속도에 관심이 있다면 항상 다차원 배열보다 들쭉날쭉한 배열을 선호합니다. .NET 런타임 지원(지터 및 CLR)은 벡터와 배열을 강력하게 구분합니다. 들쭉날쭉한 배열은 벡터의 벡터이므로 사용할 때 모든 런타임 최적화를 얻을 수 있습니다. 다차원 배열은 그렇지 않습니다. 속도 차이는 약 2배입니다.
 
-Only ever consider using multi-dimensional arrays if you favor the syntax convenience and have verified that array indexing is not on your program's critical path.
+구문의 편리함을 선호하고 배열 인덱싱이 프로그램의 주요 경로에 없음을 확인한 경우에만 다차원 배열 사용을 고려하십시오.
 
 ###### Source
 
 * https://stackoverflow.com/questions/19887182/what-can-be-a-situation-where-a-jagged-array-be-preferred-over-a-normal-rectangu
 
 [[↑] 맨 위로](#C%23)
-### Can you create sealed abstract class in C#?
+### C#에서 sealed 추상 클래스를 만들 수 있습니까?
 
-No! It can not be created as abstract classes cannot be declared sealed.
+아뇨! 추상 클래스는 봉인된 것으로 선언할 수 없으므로 생성할 수 없습니다.
 
 ###### Source
 
 * https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm
 
 [[↑] 맨 위로](#C%23)
-### What is deep or shallow copy concept in C#?
+### C#에서 deep copy 또는 shallow copy 개념이란 무엇입니까?
 
-* **Shallow Copy** is about copying an object's value type fields into the target object and the object's reference types are copied as references into the target object but not the referenced object itself. It copies the types bit by bit. The result is that both instances are cloned and the original will refer to the same object.
-* **Deep Copy** is used to make a complete deep copy of the internal reference types, for this we need to configure the object returned by `MemberwiseClone()`.
+* **Shallow Copy**는 객체의 값 유형 필드를 대상 객체에 복사하는 것이며 객체의 참조 유형은 참조로 대상 객체에 복사되지만 참조된 객체 자체는 복사되지 않습니다. 유형을 비트별로 복사합니다. 결과적으로 두 인스턴스가 모두 복제되고 원본이 동일한 개체를 참조하게 됩니다.
+* **Deep Copy**는 내부 참조 유형의 완전한 전체 복사본을 만드는 데 사용됩니다. 이를 위해 `MemberwiseClone()`이 반환하는 객체를 구성해야 합니다.
 
-In other words a deep copy occurs when an object is copied along with the objects to which it refers.
+즉, 깊은 복사는 개체가 참조하는 개체와 함께 복사될 때 발생합니다.
 
 ###### Source
 
 * https://social.msdn.microsoft.com/Forums/vstudio/en-US/ea757e8d-0f50-44a0-a586-f3ea541f6536/what-is-deep-or-shallow-copy-concept-in-c?forum=csharpgeneral
 
 [[↑] 맨 위로](#C%23)
-### What is a preprocessor directives in C#?
+### C#에서 전처리기 지시문이란 무엇입니까?
 
-The **preprocessor directives** give instruction to the compiler to preprocess the information before actual compilation starts.
+**전처리기 지시문**은 실제 컴파일이 시작되기 전에 정보를 사전 처리하도록 컴파일러에 지시합니다.
 
-All preprocessor directives begin with **#**, and only white-space characters may appear before a preprocessor directive on a line. Preprocessor directives are not statements, so they do not end with a semicolon (;).
+모든 전처리기 지시문은 **#**로 시작하고 공백 문자만 행에서 전처리기 지시문 앞에 나타날 수 있습니다. 전처리기 지시문은 문이 아니므로 세미콜론(;)으로 끝나지 않습니다.
 
 ###### Source
 
 * https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm
 
 [[↑] 맨 위로](#C%23)
-### Could you explain the difference between destructor, dispose and finalize method?
+### 소멸자, 폐기 및 종료 방법의 차이점을 설명할 수 있습니까?
 
-In C# terms, a destructor and finalizer are basically interchangeable concepts, and should be used to release **unmanaged** resources when a type is collected, for example external handles. It is ***very*** rare that you need to write a finalizer.
+C# 용어에서 소멸자와 종료자는 기본적으로 상호 교환 가능한 개념이며 형식이 수집될 때 **관리되지 않는** 리소스(예: 외부 핸들)를 해제하는 데 사용해야 합니다. 종료자를 작성해야 하는 경우는 ***매우*** 드뭅니다.
 
-The problem with that is that GC is non-deterministic, so the `Dispose()` method (via `IDisposable`) makes it possible to support *deterministic* cleanup. This is unrelated to garbage collection, and allows the caller to release any resources *sooner*. It is also suitable for use with *managed* resources (in addition to unmanaged), for example if you have a type that *encapsulates* (say) a database connection, you might want disposing of the type to release the connection too.
+문제는 GC가 비결정적이므로 `IDisposable`을 통해 `Dispose()` 메서드를 사용하면 *결정적* 정리를 지원할 수 있다는 것입니다. 이것은 가비지 수집과 관련이 없으며 호출자가 모든 리소스를 *더 빨리* 해제할 수 있도록 합니다. 예를 들어 데이터베이스 연결을 *캡슐화*하는(말하자면) 유형이 있는 경우 연결을 해제하기 위해 유형을 폐기할 수도 있습니다.
 
 ###### Source
 
 * https://stackoverflow.com/questions/13988334/difference-between-destructor-dispose-and-finalize-method
 
 [[↑] 맨 위로](#C%23)
-### What's the difference between the System.Array.CopyTo() and System.Array.Clone()?
+### System.Array.CopyTo()와 System.Array.Clone()의 차이점은 무엇입니까?
 
 * **Clone** - Method creates a shallow copy of an array. A shallow copy of an Array copies only the elements of the Array, whether they are reference types or value types, but it does not copy the objects that the references refer to. The references in the new Array point to the same objects that the references in the original Array point to.
 * **CopyTo** - The Copy static method of the Array class copies a section of an array to another array. The CopyTo method copies all the elements of an array to another one-dimension array. The code listed in Listing 9 copies contents of an integer array to an array of object types. 
@@ -1569,28 +1570,28 @@ The problem with that is that GC is non-deterministic, so the `Dispose()` method
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
 [[↑] 맨 위로](#C%23)
-### What are the benefits of a Deferred Execution in LINQ?
+### LINQ에서 지연된 실행의 이점은 무엇입니까?
 
-In LINQ, queries have two different behaviors of execution: immediate and deferred. Deferred execution means that the evaluation of an expression is delayed until its realized value is actually required. It greatly improves performance by avoiding unnecessary execution.
+LINQ에서 쿼리에는 즉시 실행과 지연 실행이라는 두 가지 실행 동작이 있습니다. 지연된 실행은 실현된 값이 실제로 필요할 때까지 표현식 평가가 지연됨을 의미합니다. 불필요한 실행을 방지하여 성능을 크게 향상시킵니다.
 
 Consider:
 ```csharp
 var results = collection.Select(item => item.Foo).Where(foo => foo < 3).ToList();
 ```
-With deferred execution, the above iterates your collection one time, and each time an item is requested during the iteration, performs the map operation, filters, then uses the results to build the list.
+지연된 실행을 사용하면 위의 항목이 컬렉션을 한 번 반복하고 반복 중에 항목이 요청될 때마다 맵 작업을 수행하고 필터링한 다음 결과를 사용하여 목록을 작성합니다.
 
-If you were to make LINQ fully execute each time, each operation (Select / Where) would have to iterate through the entire sequence. This would make chained operations very inefficient.
+LINQ가 매번 완전히 실행되도록 하려면 각 작업(Select / Where)이 전체 시퀀스를 반복해야 합니다. 이것은 연쇄 작업을 매우 비효율적으로 만듭니다.
 
 ###### Source
 
 * https://stackoverflow.com/questions/7324033/what-are-the-benefits-of-a-deferred-execution-in-linq
 
 [[↑] 맨 위로](#C%23)
-### What is the method MemberwiseClone() doing?
+### MemberwiseClone() 메서드는 무엇을 합니까?
 
-The **MemberwiseClone()** method creates a _shallow copy_ by creating a new object, and then copying the nonstatic fields of the current object to the new object. 
-* If a field is a _value type_, a bit-by-bit copy of the field is performed. 
-* If a field is a _reference type_, the reference is copied but the referred object is not; therefore, the original object and its clone refer to the same object.
+**MemberwiseClone()** 메서드는 새 개체를 만든 다음 현재 개체의 비정적 필드를 새 개체에 복사하여 _shallow copy_를 만듭니다.
+* 필드가 _값 유형_인 경우 필드의 비트 단위 복사가 수행됩니다.
+* 필드가 _참조 유형_인 경우 참조는 복사되지만 참조된 개체는 복사되지 않습니다. 따라서 원본 개체와 해당 복제본은 동일한 개체를 참조합니다.
 
 Consider:
 ```csharp
@@ -1620,95 +1621,95 @@ public class Person
 * https://stackoverflow.com/questions/2289420/what-is-the-method-memberwiseclone-doing
 
 [[↑] 맨 위로](#C%23)
-### What are circular references?
+### 순환 참조란 무엇입니까?
 
-**Circular reference** is situation in which two or more resources are interdependent on each other causes the lock condition and make the resources unusable.
+**Circular reference** 는 두 개 이상의 리소스가 서로 종속되어 잠금 상태가 되어 리소스를 사용할 수 없게 만드는 상황입니다.
 
 ###### Source
 
 * https://www.guru99.com/c-sharp-interview-questions.html
 
 [[↑] 맨 위로](#C%23)
-### What is the difference between lambdas and delegates?
+### lambdas와 delegates의 차이점은 무엇입니까?
 
-They are actually two very different things. 
+그들은 실제로 두 가지 매우 다른 것입니다:
 
-* **Delegate** is actually the name for a variable that holds a reference to a method or a lambda, and a lambda is a method without a permanent name.
-* **Lambdas** are very much like other methods, except for a couple subtle differences:
- * A normal method is defined in a "statement" and tied to a permanent name, whereas a lambda is defined "on the fly" in an "expression" and has no permanent name.
- * Lambdas can be used with .NET expression trees, whereas methods cannot.
+* **Delegate** 는 실제로 메서드 또는 람다에 대한 참조를 보유하는 변수의 이름이고 람다는 영구적인 이름이 없는 메서드입니다.
+* **Lambdas** 는 몇 가지 미묘한 차이점을 제외하고는 다른 방법과 매우 유사합니다:
+ * 일반 메서드는 "문"에 정의되고 영구적인 이름에 묶인 반면, 람다는 "식"에서 "즉석에서" 정의되고 영구적인 이름이 없습니다.
+ * Lambda는 .NET 표현식 트리와 함께 사용할 수 있지만 메서드는 사용할 수 없습니다.
 
 ###### Source
 
 * https://stackoverflow.com/questions/73227/what-is-the-difference-between-lambdas-and-delegates-in-the-net-framework
 
 [[↑] 맨 위로](#C%23)
-### What are the differences between IEnumerable and IQueryable?
+### IEnumerable과 IQueryable의 차이점은 무엇입니까?
 
-* The `IEnumerable<>` interface indicates that something can be enumerated across--in other words, you can do a foreach loop on it.
-* The `IQueryable<>` interface indicates that something has some kind of backing query provider that's capable of looking at Expressions that are given to it, and translate them into some kind of query.
+* `IEnumerable<>` 인터페이스는 무언가를 열거할 수 있음을 나타냅니다. 즉, foreach 루프를 수행할 수 있습니다.
+* `IQueryable<>` 인터페이스는 주어진 표현식을 보고 일종의 쿼리로 변환할 수 있는 일종의 백업 쿼리 공급자가 있음을 나타냅니다.
 
-What IQueryable<T> has that IEnumerable<T> doesn't are two properties in particular—one that points to a **query provider** (e.g., a LINQ to SQL provider) and another one pointing to a **query expression** representing the IQueryable<T> object as a runtime-traversable abstract syntax tree that can be understood by the given query provider (for the most part, you can't give a LINQ to SQL expression to a LINQ to Entities provider without an exception being thrown).
+IQueryable<T>에 있는 것은 IEnumerable<T>가 특히 두 가지 속성이 아니라는 점입니다. 하나는 **쿼리 공급자**(예: LINQ to SQL 공급자)를 가리키는 속성이고 다른 하나는 **쿼리 표현식을 가리키는 속성입니다. ** IQueryable<T> 개체를 지정된 쿼리 공급자가 이해할 수 있는 런타임 탐색 가능한 추상 구문 트리로 나타냅니다(대부분의 경우 LINQ to Entities 공급자 없이는 LINQ to SQL 식을 LINQ to Entities 공급자 예외가 발생함).
 
 ###### Source
 
 * https://stackoverflow.com/questions/252785/what-is-the-difference-between-iqueryablet-and-ienumerablet
 
 [[↑] 맨 위로](#C%23)
-### Could you explain the difference between Func vs. Action vs. Predicate?
+### Func vs. Action vs. Predicate의 차이점을 설명해 주시겠습니까?
 
-* **Predicate**: essentially `Func<T, bool>`; asks the question "does the specified argument satisfy the condition represented by the delegate?" Used in things like `List.FindAll`.
-* **Action**: Perform an action given the arguments. Very general purpose. Not used much in LINQ as it implies side-effects, basically.
-* **Func**: Used extensively in LINQ, usually to transform the argument, e.g. by projecting a complex structure to one property.
+* **Predicate**: 본질적으로 `Func<T, bool>`; "지정된 인수가 대리자가 나타내는 조건을 충족합니까?"라는 질문을 합니다. `List.FindAll`과 같은 것에서 사용됩니다.
+* **Action**: 주어진 인수로 작업을 수행합니다. 매우 일반적인 목적. 기본적으로 부작용을 암시하므로 LINQ에서는 많이 사용되지 않습니다.
+* **Func**: 광범위하게 LINQ에서, 보통, 예를 들어 한 속성에 대한 복잡한 구조 돌출해 논쟁을 변화시키는 데 사용됩니다.
 
 ###### Source
 
 * https://stackoverflow.com/questions/6818656/what-is-the-difference-between-funcstring-string-and-delegate
 
 [[↑] 맨 위로](#C%23)
-### Explain what is weak reference in C#?
+### C#에서 약한 참조가 무엇인지 설명하십시오.
 
-The garbage collector cannot collect an object in use by an application while the application's code can reach that object. The application is said to have a strong reference to the object.
+가비지 수집기는 응용 프로그램의 코드가 해당 개체에 도달할 수 있는 동안 응용 프로그램에서 사용 중인 개체를 수집할 수 없습니다. 응용 프로그램에 개체에 대한 강력한 참조가 있다고 합니다.
 
-A **weak reference** permits the garbage collector to collect the object while still allowing the application to access the object. A weak reference is valid only during the indeterminate amount of time until the object is collected when no strong references exist. 
+**weak reference** 를 사용하면 가비지 수집기가 개체를 수집하는 동시에 응용 프로그램이 개체에 액세스할 수 있습니다. 약한 참조는 강한 참조가 없을 때 개체가 수집될 때까지 불확실한 시간 동안에만 유효합니다.
 
-Weak references are useful for objects that use a lot of memory, but can be recreated easily if they are reclaimed by garbage collection.
+Weak references 는 많은 메모리를 사용하는 개체에 유용하지만 가비지 수집으로 회수하면 쉽게 다시 만들 수 있습니다.
 
 ###### Source
 
 * https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/weak-references?view=netframework-4.7.2
 
 [[↑] 맨 위로](#C%23)
-### Explain the difference between IQueryable, ICollection, IList & IDictionary interfaces?
+### IQueryable, ICollection, IList 및 IDictionary 인터페이스의 차이점을 설명하시겠습니까?
 
-All of these interfaces inherit from **IEnumerable**. That interface basically lets you use the class in a `foreach` statement (in C#).
+이러한 모든 인터페이스는 **IEnumerable**에서 상속됩니다. 이 인터페이스를 사용하면 기본적으로 'foreach' 문(C#에서)에서 클래스를 사용할 수 있습니다.
 
- - **ICollection** is the most basic of the interfaces you listed. It's an enumerable interface that supports a Count and that's about it.
- - **IList** is everything that ICollection is, but it also supports adding and removing items, retrieving items by index, etc. It's the most commonly-used interface for "lists of objects".
- - **IQueryable** is an enumerable interface that supports LINQ. You can always create an IQueryable from an IList and use LINQ to Objects, but you also find IQueryable used for deferred execution of SQL statements in LINQ to SQL and LINQ to Entities.
- - **IDictionary** is a different animal in the sense that it is a mapping of unique keys to values. It is also enumerable in that you can enumerate the key/value pairs, but otherwise it serves a different purpose than the others you listed.
+ - **ICollection**은 나열한 인터페이스 중 가장 기본적인 것입니다. Count를 지원하는 열거 가능한 인터페이스입니다.
+ - **IList**는 ICollection의 모든 것이지만 항목 추가 및 제거, 색인으로 항목 검색 등을 지원합니다. "객체 목록"에 가장 일반적으로 사용되는 인터페이스입니다.
+ - **IQueryable**은 LINQ를 지원하는 열거 가능한 인터페이스입니다. 항상 IList에서 IQueryable을 만들고 LINQ to Objects를 사용할 수 있지만 LINQ to SQL 및 LINQ to Entities에서 SQL 문의 지연 실행에 사용되는 IQueryable도 있습니다.
+ - **IDictionary**는 고유 키를 값에 매핑한다는 점에서 다른 동물입니다. 또한 키/값 쌍을 열거할 수 있다는 점에서 열거할 수 있지만 그렇지 않으면 나열한 다른 것과 다른 용도로 사용됩니다.
 
 ###### Source
 
 * https://stackoverflow.com/questions/4455428/difference-between-iqueryable-icollection-ilist-idictionary-interface
 
 [[↑] 맨 위로](#C%23)
-###  in C#, when should we use abstract classes instead of interfaces with extension methods?
+###  C#에서 확장 메서드가 있는 인터페이스 대신 추상 클래스를 사용해야 하는 경우는 언제입니까?
 
-* **Abstract** classes work by _inheritance_. Being just special base classes, they model some is-a-relationship.
+* **Abstract** 클래스는 _inheritance_에 의해 작동합니다. 특별한 기본 클래스이기 때문에 일부 is-a-relationship을 모델링합니다.
 
-* **Interfaces** on the other hand are a different story. They don't use inheritance but provide _polymorphism_ (which can be implemented with inheritance too). They don't model an is-a relationship, but more of a it does support.
+* 반면 **Interfaces** 는 다른 이야기입니다. 그들은 상속을 사용하지 않지만 _polymorphism_(상속으로 구현할 수도 있음)을 제공합니다. 그들은 is- 관계를 모델링하지 않지만 더 많은 것을 지원합니다.
 
-Applying extension methods to an interface is useful for applying common behaviour across classes that may share only a common interface.
+인터페이스에 확장 메서드를 적용하는 것은 공통 인터페이스만 공유할 수 있는 클래스 간에 공통 동작을 적용하는 데 유용합니다.
 
 ###### Source
 
 * https://softwareengineering.stackexchange.com/questions/41740/when-to-use-abstract-classes-instead-of-interfaces-with-extension-methods-in-c
 
 [[↑] 맨 위로](#C%23)
-### Can you add extension methods to an existing static class?
+### 기존 정적 클래스에 확장 메서드를 추가할 수 있습니까?
 
-No. Extension methods require an instance variable (value) for an object. You can however, write a static wrapper class. Also extension methods is just syntactic sugar. 
+아니요. 확장 메서드에는 개체에 대한 인스턴스 변수(값)가 필요합니다. 그러나 정적 래퍼 클래스를 작성할 수 있습니다. 또한 확장 메서드는 구문 설탕입니다.
 
 Consider:
 ```csharp
@@ -1727,7 +1728,7 @@ ExtensionClass.SomeStringExtension(myString);
 * https://stackoverflow.com/questions/249222/can-i-add-extension-methods-to-an-existing-static-class/26831158
 
 [[↑] 맨 위로](#C%23)
-### Implement the "Where" method in C#
+### C#에서 "where" 메서드 구현
 
 Consider:
 ```csharp
@@ -1750,48 +1751,48 @@ public static IEnumerable<T> Where<T>(this IEnumerable<T> items, Predicate< T> p
 * https://medium.com/sears-israel/my-number-one-c-interview-question-39cdaac16c
 
 [[↑] 맨 위로](#C%23)
-### What is the “volatile” keyword used for?
+### "volatile" 키워드는 무엇에 사용됩니까?
 
-In C#  `volatile` tells the compiler that the value of a variable must never be cached as its value may change outside of the scope of the program itself (such as the operating system, the hardware, or a concurrently executing thread.). The compiler will then avoid any optimisations that may result in problems if the variable changes "outside of its control".
+C#에서 'volatile'은 변수 값이 프로그램 자체 범위(예: 운영 체제, 하드웨어 또는 동시에 실행되는 스레드)를 벗어나 변경될 수 있으므로 변수 값을 캐시해서는 안 된다고 컴파일러에 지시합니다. 그러면 컴파일러는 변수가 "제어 범위 밖에서" 변경되는 경우 문제를 일으킬 수 있는 최적화를 방지합니다.
 
 ###### Source
 
 * https://stackoverflow.com/questions/3430757/what-is-the-volatile-keyword-used-for
 
 [[↑] 맨 위로](#C%23)
-### Calculate the circumference of the circle
+### 원의 둘레를 계산
 
-The preferred answer would be of the form:
+선호하는 답변은 다음과 같은 형식입니다:
 
 ```csharp
 circle.Calculate(r => 2 * Math.PI * r);
 ```    
 
-Since we don’t have access to the _private_ `radius` field of the object, we tell the object itself to calculate the circumference, by passing it the calculation function inline.
+객체의 _private_ `radius` 필드에 액세스할 수 없기 때문에 객체 자체에 계산 함수를 인라인으로 전달하여 둘레를 계산하도록 지시합니다.
 
-A lot of C# programmers shy away from (or don’t understand) function-valued parameters. While in this case the example is a little contrived, the purpose is to see if the applicant understands how to formulate a call to `Calculate` which matches the method’s definition.
+많은 C# 프로그래머는 함수 값 매개변수를 기피하거나 이해하지 못합니다. 이 경우 예제는 약간 인위적이지만, 목적은 신청자가 메서드의 정의와 일치하는 'Calculate' 호출을 공식화하는 방법을 이해하는지 확인하는 것입니다.
 
-Alternatively, a valid (though less elegant) solution would be to retrieve the radius value itself from the object and then perform the calculation with the result:
+또는 유효한(덜 우아하지만) 솔루션은 객체에서 반경 값 자체를 검색한 다음 그 결과로 계산을 수행하는 것입니다:
 
 ```csharp
 var radius = circle.Calculate(r => r);
 var circumference = 2 * Math.PI * radius;
 ```    
 
-Either way works. The main thing we’re looking for here is to see that the candidate is familiar with, and understands how to invoke, the `Calculate` method.
+어느 쪽이든 작동합니다. 여기서 우리가 찾고 있는 주요 사항은 후보자가 'Calculate' 메서드를 호출하는 방법에 익숙하고 이해하고 있는지 확인하는 것입니다.
 
 ###### Source
 
 * https://www.toptal.com/c-sharp/interview-questions
 
 [[↑] 맨 위로](#C%23)
-### What is the use of static constructors?
+### 정적 생성자의 용도는 무엇입니까?
 
-A **static constructor** is useful for initializing any static fields associated with a type (or any other per-type operations) - useful in particular for reading required configuration data into readonly fields, etc.
+**static constructor** 는 유형(또는 기타 유형별 작업)과 관련된 모든 정적 필드를 초기화하는 데 유용합니다. 특히 필수 구성 데이터를 읽기 전용 필드로 읽는 데 유용합니다.
 
-It is run automatically by the runtime the first time it is needed (the exact rules there are complicated (see "beforefieldinit"), and changed subtly between CLR2 and CLR4). Unless you abuse reflection, it is guaranteed to run at most once (even if two threads arrive at the same time).
+처음 필요할 때 런타임에 의해 자동으로 실행됩니다(정확한 규칙은 복잡하고("beforefieldinit" 참조), CLR2와 CLR4 사이에서 미묘하게 변경됨). 리플렉션을 남용하지 않는 한 최대 한 번 실행이 보장됩니다(두 스레드가 동시에 도착하더라도).
 
-You can't overload it.
+당신은 그것을 오버로드 할 수 없습니다.
 
 ###### Source
 
