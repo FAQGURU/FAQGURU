@@ -27,7 +27,7 @@
 11. Sass
 12. Webpack
 13. MongoDB
-14. SQL
+14. [SQL](sql.md)
 15. GraphQL
 16. [C#](c.md)
 17. Golang
