@@ -1,214 +1,214 @@
 ## Java
 
-[What is JVM? Why is Java called the “Platform Independent Programming Language”? ](#what-is-jvm-why-is-java-called-the-platform-independent-programming-language)
+[JVM이란 무엇입니까? Java를 "플랫폼 독립 프로그래밍 언어"라고 부르는 이유는 무엇입니까?](#JVM이란-무엇입니까-Java를-플랫폼-독립-프로그래밍-언어라고-부르는-이유는-무엇입니까)
 
-[What is a Servlet?](#what-is-a-servlet)
+[서블릿이란 무엇입니까?](#서블릿이란-무엇입니까)
 
-[What is a JSP Page?](#what-is-a-jsp-page)
+[JSP 페이지란 무엇입니까?](#JSP-페이지란-무엇입니까)
 
-[Let's talk Swing. What is the difference between a Choice and a List?](#lets-talk-swing-what-is-the-difference-between-a-choice-and-a-list)
+[스윙에 대해 이야기합시다. 선택과 목록의 차이점은 무엇입니까?](#스윙에-대해-이야기합시다-선택과-목록의-차이점은-무엇입니까)
 
-[What is the difference between an Applet and a Java Application?](#what-is-the-difference-between-an-applet-and-a-java-application)
+[애플릿과 자바 애플리케이션의 차이점은 무엇입니까?](#애플릿과-자바-애플리케이션의-차이점은-무엇입니까)
 
-[What is the Difference between JDK and JRE? ](#what-is-the-difference-between-jdk-and-jre)
+[JDK와 JRE의 차이점은 무엇입니까?](#JDK와-JRE의-차이점은-무엇입니까)
 
-[What are the two types of Exceptions in Java? Which are the differences between them? ](#what-are-the-two-types-of-exceptions-in-java-which-are-the-differences-between-them)
+[Java의 두 가지 예외 유형은 무엇입니까? 이들의 차이점은 무엇인가요?](#Java의-두-가지-예외-유형은-무엇입니까-이들의-차이점은-무엇인가요)
 
-[Explain the architecture of a Servlet.](#explain-the-architecture-of-a-servlet)
+[서블릿의 아키텍처를 설명합니다.](#서블릿의-아키텍처를-설명합니다)
 
-[What is the difference between an Interface and an Abstract class? ](#what-is-the-difference-between-an-interface-and-an-abstract-class)
+[인터페이스와 추상 클래스의 차이점은 무엇입니까?](#인터페이스와-추상-클래스의-차이점은-무엇입니까)
 
-[What are pass by reference and pass by value? ](#what-are-pass-by-reference-and-pass-by-value)
+[참조에 의한 전달과 값에 의한 전달이란 무엇입니까?](#참조에-의한-전달과-값에-의한-전달이란-무엇입니까)
 
-[What is the difference between processes and threads?](#what-is-the-difference-between-processes-and-threads)
+[프로세스와 스레드의 차이점은 무엇입니까?](#프로세스와-스레드의-차이점은-무엇입니까?)
 
-[Explain Serialization and Deserialization. ](#explain-serialization-and-deserialization)
+[직렬화와 역직렬화에 대해 설명합니다.](#직렬화와-역직렬화에-대해-설명합니다)
 
-[What are Expressions?](#what-are-expressions)
+[표현식이란 무엇입니까?](#표현식이란-무엇입니까)
 
-[What are Declarations?](#what-are-declarations)
+[선언이란 무엇입니까?](#선언이란-무엇입니까)
 
-[What are JSP actions?](#what-are-jsp-actions)
+[JSP 작업이란 무엇입니까?](#JSP-작업이란-무엇입니까)
 
-[What are Directives?](#what-are-directives)
+[지시문이란 무엇입니까?](#지시문이란-무엇입니까)
 
-[How are the JSP requests handled?](#how-are-the-jsp-requests-handled)
+[JSP 요청은 어떻게 처리됩니까?](#JSP-요청은-어떻게-처리됩니까)
 
-[What are the basic interfaces of Java Collections Framework? ](#what-are-the-basic-interfaces-of-java-collections-framework)
+[Java Collection Framework의 기본 인터페이스는 무엇입니까?](#Java-Collection-Framework의-기본-인터페이스는-무엇입니까)
 
-[What does the “static” keyword mean? Can you override private or static method in Java?](#what-does-the-static-keyword-mean-can-you-override-private-or-static-method-in-java)
+["정적" 키워드는 무엇을 의미합니까? Java에서 개인 또는 정적 메소드를 재정의할 수 있습니까?](#정적-키워드는-무엇을-의미합니까-Java에서-개인-또는-정적-메소드를-재정의할-수-있습니까)
 
-[What is an Iterator? ](#what-is-an-iterator)
+[반복자 란 무엇입니까?](#반복자-란-무엇입니까)
 
-[What is the purpose Class.forName method?](#what-is-the-purpose-classforname-method)
+[Class.forName 메서드의 목적은 무엇입니까?](#ClassforName-메서드의-목적은-무엇입니까)
 
-[What is JDBC?](#what-is-jdbc)
+[JDBC 란 무엇입니까?](#JDBC-란-무엇입니까)
 
-[How HashMap works in Java? ](#how-hashmap-works-in-java)
+[HashMap은 Java에서 어떻게 작동합니까?](#HashMap은-Java에서-어떻게-작동합니까)
 
-[What is the design pattern that Java uses for all Swing components?](#what-is-the-design-pattern-that-java-uses-for-all-swing-components)
+[Java가 모든 Swing 구성 요소에 사용하는 디자인 패턴은 무엇입니까?](#Java가-모든-Swing-구성-요소에-사용하는-디자인-패턴은-무엇입니까)
 
-[What differences exist between HashMap and Hashtable? ](#what-differences-exist-between-hashmap-and-hashtable)
+[HashMap과 Hashtable 사이에는 어떤 차이점이 있습니까?](#HashMap과-Hashtable-사이에는-어떤-차이점이-있습니까)
 
-[What advantage do Java’s layout managers provide over traditional windowing systems?](#what-advantage-do-javas-layout-managers-provide-over-traditional-windowing-systems)
+[Java의 레이아웃 관리자는 기존 윈도우 시스템에 비해 어떤 이점을 제공합니까?](#Java의-레이아웃-관리자는-기존-윈도우-시스템에-비해-어떤-이점을-제공합니까)
 
-[How can a GUI component handle its own events?](#how-can-a-gui-component-handle-its-own-events)
+[GUI 구성 요소는 자체 이벤트를 어떻게 처리할 수 있습니까?](#GUI-구성-요소는-자체-이벤트를-어떻게-처리할-수-있습니까)
 
-[What is a layout manager?](#what-is-a-layout-manager)
+[레이아웃 관리자란 무엇입니까?](#레이아웃-관리자란-무엇입니까)
 
-[What’s the difference between sendRedirect and forward methods?](#whats-the-difference-between-sendredirect-and-forward-methods)
+[sendRedirect와 전달 방법의 차이점은 무엇입니까?](#sendRedirect와-전달-방법의-차이점은-무엇입니까)
 
-[What do you know about the big-O notation and can you give some examples with respect to different data structures?](#what-do-you-know-about-the-big-o-notation-and-can-you-give-some-examples-with-respect-to-different-data-structures)
+[Big-O 표기법에 대해 무엇을 알고 있으며 다른 데이터 구조와 관련하여 몇 가지 예를 제공할 수 있습니까?](#Big-O-표기법에-대해-무엇을-알고-있으며-다른-데이터-구조와-관련하여-몇-가지-예를-제공할-수-있습니까)
 
-[What are the Data Types supported by Java? What is Autoboxing and Unboxing?](#what-are-the-data-types-supported-by-java-what-is-autoboxing-and-unboxing)
+[Java에서 지원하는 데이터 유형은 무엇입니까? 오토박싱과 언박싱이란?](#Java에서-지원하는-데이터-유형은-무엇입니까-오토박싱과-언박싱이란)
 
-[What is Function Overriding and Overloading in Java?](#what-is-function-overriding-and-overloading-in-java)
+[Java에서 함수 재정의 및 오버로딩이란 무엇입니까?](#Java에서-함수-재정의-및-오버로딩이란-무엇입니까)
 
-[What is an Java Applet?](#what-is-an-java-applet)
+[자바 애플릿이란 무엇입니까?](#자바-애플릿이란-무엇입니까)
 
-[What will happen to the Exception object after exception handling?](#what-will-happen-to-the-exception-object-after-exception-handling)
+[예외 처리 후 Exception 객체는 어떻게 됩니까?](#예외-처리-후-Exception-객체는-어떻게-됩니까)
 
-[ What is the purpose of garbage collection in Java, and when is it used?](#what-is-the-purpose-of-garbage-collection-in-java-and-when-is-it-used)
+[Java에서 가비지 수집의 목적은 무엇이며 언제 사용됩니까?](#Java에서-가비지-수집의-목적은-무엇이며-언제-사용됩니까)
 
-[What does System.gc() and Runtime.gc() methods do?](#what-does-systemgc-and-runtimegc-methods-do)
+[System.gc() 및 Runtime.gc() 메서드는 무엇을 합니까?](#Systemgc및-Runtimegc-메서드는-무엇을-합니까)
 
-[What is the importance of finally block in exception handling?](#what-is-the-importance-of-finally-block-in-exception-handling)
+[예외 처리에서 finally 블록의 중요성은 무엇입니까?](#예외-처리에서-finally-블록의-중요성은-무엇입니까)
 
-[What is the difference between Exception and Error in java?](#what-is-the-difference-between-exception-and-error-in-java)
+[Java에서 예외와 오류의 차이점은 무엇입니까?](#Java에서-예외와-오류의-차이점은-무엇입니까)
 
-[What is meant by a Web Application?](#what-is-meant-by-a-web-application)
+[웹 애플리케이션이란 무엇을 의미합니까?](#웹-애플리케이션이란-무엇을-의미합니까)
 
-[When does an Object becomes eligible for Garbage collection in Java? ](#when-does-an-object-becomes-eligible-for-garbage-collection-in-java-)
+[Java에서 객체가 가비지 수집에 적합한 시기는 언제입니까?](#Java에서-객체가-가비지-수집에-적합한-시기는-언제입니까)
 
-[Why Collection doesn’t extend Cloneable and Serializable interfaces? ](#why-collection-doesnt-extend-cloneable-and-serializable-interfaces)
+[Collection이 Cloneable 및 Serializable 인터페이스를 확장하지 않는 이유는 무엇입니까?](#Collection이-Cloneable-및-Serializable-인터페이스를-확장하지-않는-이유는-무엇입니까)
 
-[What happens when an applet is loaded?](#what-happens-when-an-applet-is-loaded)
+[애플릿이 로드되면 어떻게 됩니까?](#애플릿이-로드되면-어떻게-됩니까)
 
-[What is the role of stub in RMI?](#what-is-the-role-of-stub-in-rmi)
+[RMI에서 스텁의 역할은 무엇입니까?](#RMI에서-스텁의-역할은-무엇입니까)
 
-[What is structure of Java Heap?](#what-is-structure-of-java-heap)
+[Java 힙의 구조는 무엇입니까?](#Java-힙의-구조는-무엇입니까)
 
-[If an object reference is set to null, will the Garbage Collector immediately free the memory held by that object?](#if-an-object-reference-is-set-to-null-will-the-garbage-collector-immediately-free-the-memory-held-by-that-object)
+[개체 참조가 null로 설정된 경우 가비지 수집기가 해당 개체가 보유한 메모리를 즉시 해제합니까?](#개체-참조가-null로-설정된-경우-가비지-수집기가-해당-개체가-보유한-메모리를-즉시-해제합니까)
 
-[What is the difference between throw and throws?](#what-is-the-difference-between-throw-and-throws)
+[throw와 throws의 차이는 무엇인가요?](#throw와-throws의-차이는-무엇인가요)
 
-[When is the finalize() called? What is the purpose of finalization? ](#when-is-the-finalize-called-what-is-the-purpose-of-finalization)
+[finalize()는 언제 호출됩니까? 마무리의 목적은 무엇입니까?](#finalize는-언제-호출됩니까-마무리의-목적은-무엇입니까?)
 
-[What are the steps involved to make work a RMI program? ](#what-are-the-steps-involved-to-make-work-a-rmi-program)
+[RMI 프로그램이 작동하도록 하는 단계는 무엇입니까?](#RMI-프로그램이-작동하도록-하는-단계는-무엇입니까)
 
-[How does finally block differ from finalize() method?](#how-does-finally-block-differ-from-finalize-method)
+[finally 블록은 finalize() 메서드와 어떻게 다릅니까?](#finally-블록은-finalize-메서드와-어떻게-다릅니까)
 
-[What’s the difference between Enumeration and Iterator interfaces? ](#whats-the-difference-between-enumeration-and-iterator-interfaces)
+[Enumeration과 Iterator 인터페이스의 차이점은 무엇입니까?](#Enumeration과-Iterator-인터페이스의-차이점은-무엇입니까)
 
-[Explain the life cycle of an Applet. ](#explain-the-life-cycle-of-an-applet)
+[애플릿의 생명주기를 설명하라.](#애플릿의-생명주기를-설명하라)
 
-[Can you access non static variable in static context?](#can-you-access-non-static-variable-in-static-context)
+[정적 컨텍스트에서 비 정적 변수에 액세스할 수 있습니까?](#정적-컨텍스트에서-비-정적-변수에-액세스할-수-있습니까-)
 
-[What is the tradeoff between using an unordered array versus an ordered array? ](#what-is-the-tradeoff-between-using-an-unordered-array-versus-an-ordered-array)
+[정렬되지 않은 배열과 정렬된 배열을 사용하는 것 사이의 절충점은 무엇입니까?](#정렬되지-않은-배열과-정렬된-배열을-사용하는-것-사이의-절충점은-무엇입니까)
 
-[What are the restrictions imposed on Java applets?](#what-are-the-restrictions-imposed-on-java-applets)
+[Java 애플릿에 부과되는 제한 사항은 무엇입니까?](#Java-애플릿에-부과되는-제한-사항은-무엇입니까)
 
-[What are untrusted applets?](#what-are-untrusted-applets)
+[신뢰할 수 없는 애플릿이란 무엇입니까?](#신뢰할-수-없는-애플릿이란-무엇입니까)
 
-[ What is a Server Side Include (SSI)?](#what-is-a-server-side-include-ssi)
+[서버 측 포함(SSI)이란 무엇입니까?](#서버-측-포함SSI이란-무엇입니까)
 
-[What is a Constructor, Constructor Overloading in Java and Copy-Constructor? ](#what-is-a-constructor-constructor-overloading-in-java-and-copy-constructor)
+[생성자, Java 및 복사 생성자의 생성자 오버로딩이란 무엇입니까?](#생성자-Java-및-복사-생성자의-생성자-오버로딩이란-무엇입니까)
 
-[What is the applet security manager, and what does it provide?](#what-is-the-applet-security-manager-and-what-does-it-provide)
+[애플릿 보안 관리자는 무엇이며 무엇을 제공합니까?](#애플릿-보안-관리자는-무엇이며-무엇을-제공합니까)
 
-[What is Java Priority Queue?](#what-is-java-priority-queue)
+[Java 우선 순위 대기열이란 무엇입니까?](#Java 우선-순위-대기열이란-무엇입니까)
 
-[What is Comparable and Comparator interface? List their differences.](#what-is-comparable-and-comparator-interface-list-their-differences)
+[Comparable 및 Comparator 인터페이스란 무엇입니까? 차이점을 나열하십시오.](#Comparable-및-Comparator-인터페이스란-무엇입니까-차이점을-나열하십시오)
 
-[Which Swing methods are thread-safe?](#which-swing-methods-are-thread-safe)
+[어떤 Swing 메서드가 스레드로부터 안전합니까?](#어떤-Swing-메서드가-스레드로부터-안전합니까)
 
-[What is the relationship between an event-listener interface and an event-adapter class?](#what-is-the-relationship-between-an-event-listener-interface-and-an-event-adapter-class)
+[이벤트 수신기 인터페이스와 이벤트 어댑터 클래스 사이의 관계는 무엇입니까?](#이벤트-수신기-인터페이스와-이벤트-어댑터-클래스-사이의-관계는-무엇입니까)
 
-[What is difference between ArrayList and LinkedList? ](#what-is-difference-between-arraylist-and-linkedlist)
+[ArrayList와 LinkedList의 차이점은 무엇입니까?](#ArrayList와-LinkedList의-차이점은-무엇입니까)
 
-[What is difference between Array and ArrayList? When will you use Array over ArrayList?](#what-is-difference-between-array-and-arraylist-when-will-you-use-array-over-arraylist)
+[Array와 ArrayList의 차이점은 무엇입니까? 언제 ArrayList보다 Array를 사용합니까?](#Array와-ArrayList의-차이점은-무엇입니까-언제-ArrayList보다-Array를-사용합니까)
 
-[What is the importance of hashCode() and equals() methods? ](#what-is-the-importance-of-hashcode-and-equals-methods)
+[hashCode() 및 equals() 메서드의 중요성은 무엇입니까?](#hashCode-및-equals-메서드의-중요성은-무엇입니까)
 
-[What is difference between fail-fast and fail-safe? ](#what-is-difference-between-fail-fast-and-fail-safe)
+[Fail-fast와 Fail-safe의 차이점은 무엇입니까?](#Fail-fast와-Fail-safe의-차이점은-무엇입니까)
 
-[Explain the role of Driver in JDBC. ](#explain-the-role-of-driver-in-jdbc)
+[JDBC에서 Driver의 역할을 설명하라.](#JDBC에서-Driver의-역할을-설명하라)
 
-[What differences exist between Iterator and ListIterator? ](#what-differences-exist-between-iterator-and-listiterator)
+[Iterator와 ListIterator에는 어떤 차이점이 있습니까?](#Iterator와-ListIterator에는-어떤-차이점이-있습니까)
 
-[What is the advantage of PreparedStatement over Statement?](#what-is-the-advantage-of-preparedstatement-over-statement)
+[Statement보다 PreparedStatement의 장점은 무엇입니까?](#Statement보다-PreparedStatement의-장점은-무엇입니까)
 
-[What is the use of CallableStatement? Name the method, which is used to prepare a CallableStatement.](#what-is-the-use-of-callablestatement-name-the-method-which-is-used-to-prepare-a-callablestatement)
+[CallableStatement의 용도는 무엇입니까? CallableStatement를 준비하는 데 사용되는 메서드의 이름을 지정합니다.](#CallableStatement의-용도는-무엇입니까-CallableStatement를-준비하는-데-사용되는-메서드의-이름을-지정합니다)
 
-[What is the difference between doGet() and doPost()?](#what-is-the-difference-between-doget-and-dopost)
+[doGet()과 doPost()의 차이점은 무엇입니까?](#doGet과-doPost의-차이점은-무엇입니까)
 
-[Explain the life cycle of a Servlet.](#explain-the-life-cycle-of-a-servlet)
+[서블릿의 생명주기를 설명하라.](#서블릿의-생명주기를-설명하라)
 
-[What is the difference between GenericServlet and HttpServlet?](#what-is-the-difference-between-genericservlet-and-httpservlet)
+[GenericServlet과 HttpServlet의 차이점은 무엇입니까?](#GenericServlet과-HttpServlet의-차이점은-무엇입니까)
 
-[What are the advantages of JSP?](#what-are-the-advantages-of-jsp)
+[JSP의 장점은 무엇입니까?](#JSP의-장점은-무엇입니까)
 
-[What’s a deadlock? ](#whats-a-deadlock)
+[교착 상태란 무엇입니까?](#교착-상태란-무엇입니까)
 
-[What is the difference between an Applet and a Servlet?](#what-is-the-difference-between-an-applet-and-a-servlet)
+[애플릿과 서블릿의 차이점은 무엇입니까?](#애플릿과-서블릿의-차이점은-무엇입니까)
 
-[What are Scriptlets?](#what-are-scriptlets)
+[스크립틀릿이란 무엇입니까?](#스크립틀릿이란-무엇입니까)
 
-[Does Java support multiple inheritance? ](#does-java-support-multiple-inheritance)
+[Java는 다중 상속을 지원합니까?](#Java는-다중-상속을-지원합니까)
 
-[Explain different ways of creating a thread. Which one would you prefer and why?](#explain-different-ways-of-creating-a-thread-which-one-would-you-prefer-and-why)
+[스레드를 생성하는 다양한 방법을 설명합니다. 어느 것을 선호하고 그 이유는 무엇입니까?](#스레드를-생성하는-다양한-방법을-설명합니다-어느-것을-선호하고-그-이유는-무엇입니까)
 
-[What is meant by JSP implicit objects and what are they?](#what-is-meant-by-jsp-implicit-objects-and-what-are-they)
+[JSP 암묵적 객체가 의미하는 바는 무엇이며 어떤 객체입니까?](#JSP-암묵적-객체가-의미하는-바는-무엇이며-어떤-객체입니까)
 
-[What is RMI?](#what-is-rmi)
+[RMI 란 무엇입니까?](#RMI-란-무엇입니까)
 
-[Explain the available thread states in a high-level.](#explain-the-available-thread-states-in-a-high-level)
+[사용 가능한 스레드 상태를 개략적으로 설명합니다.](#사용-가능한-스레드-상태를-개략적으로-설명합니다)
 
-[Explain Marshalling and demarshalling.](#explain-marshalling-and-demarshalling)
+[마샬링과 디마샬링에 대해 설명합니다.](#마샬링과-디마샬링에-대해-설명합니다)
 
-[How do you ensure that N threads can access N resources without deadlock? ](#how-do-you-ensure-that-n-threads-can-access-n-resources-without-deadlock)
+[N 스레드가 교착 상태 없이 N 리소스에 액세스할 수 있도록 하는 방법은 무엇입니까?](#N-스레드가-교착-상태-없이-N-리소스에-액세스할-수-있도록-하는-방법은-무엇입니까)
 
-[What is Perm Gen space in Heap?](#what-is-perm-gen-space-in-heap)
+[힙에서 Perm Gen 공간이란 무엇입니까?](#힙에서-Perm-Gen-공간이란-무엇입니까)
 
-[What does Connection pooling mean?](#what-does-connection-pooling-mean)
+[연결 풀링은 무엇을 의미합니까?](#연결-풀링은-무엇을-의미합니까)
 
-[What is the applet class loader, and what does it provide?](#what-is-the-applet-class-loader-and-what-does-it-provide)
+[애플릿 클래스 로더는 무엇이며 무엇을 제공합니까?](#애플릿-클래스-로더는-무엇이며-무엇을-제공합니까)
 
-[ What is the difference between applets loaded over the internet and applets loaded via the file system?](#what-is-the-difference-between-applets-loaded-over-the-internet-and-applets-loaded-via-the-file-system)
+[인터넷을 통해 로드된 애플릿과 파일 시스템을 통해 로드된 애플릿의 차이점은 무엇입니까?](#인터넷을-통해-로드된-애플릿과-파일-시스템을-통해-로드된-애플릿의-차이점은-무엇입니까)
 
-[What is Servlet Chaining?](#what-is-servlet-chaining)
+[Servlet Chaining 이란?](#Servlet-Chaining-이란)
 
-[How do you find out what client machine is making a request to your servlet?](#how-do-you-find-out-what-client-machine-is-making-a-request-to-your-servlet)
+[어떤 클라이언트 머신이 당신의 서블릿에 요청하고 있는지 어떻게 알 수 있나요?](#어떤-클라이언트-머신이-당신의-서블릿에-요청하고-있는지-어떻게-알-수-있나요)
 
-[What are some of the best practices relating to the Java Collection framework?](#what-are-some-of-the-best-practices-relating-to-the-java-collection-framework)
+[Java Collection 프레임워크와 관련된 모범 사례는 무엇입니까?](#Java-Collection-프레임워크와-관련된-모범-사례는-무엇입니까)
 
-[What is the difference between a synchronized method and a synchronized block?](#what-is-the-difference-between-a-synchronized-method-and-a-synchronized-block)
+[동기화된 방법과 동기화된 블록의 차이점은 무엇입니까?](#동기화된-방법과-동기화된-블록의-차이점은-무엇입니까)
 
-[What is the basic principle of RMI architecture?](#what-is-the-basic-principle-of-rmi-architecture)
+[RMI 아키텍처의 기본 원리는 무엇입니까?](#RMI-아키텍처의-기본-원리는-무엇입니까)
 
-[What is the purpose of using RMISecurityManager in RMI?](#what-is-the-purpose-of-using-rmisecuritymanager-in-rmi)
+[RMI에서 RMISecurityManager를 사용하는 목적은 무엇입니까?](#RMI에서-RMISecurityManager를-사용하는-목적은-무엇입니까)
 
-[What is the role of Remote Interface in RMI?](#what-is-the-role-of-remote-interface-in-rmi)
+[RMI에서 원격 인터페이스의 역할은 무엇입니까?](#RMI에서-원격-인터페이스의-역할은-무엇입니까)
 
-[What is the role of the java.rmi.Naming Class? ](#what-is-the-role-of-the-javarminaming-class)
+[java.rmi.Naming 클래스의 역할은 무엇입니까?](#javarmiNaming-클래스의-역할은-무엇입니까)
 
-[What is meant by binding in RMI?](#what-is-meant-by-binding-in-rmi)
+[RMI에서 바인딩이란 무엇을 의미합니까?](#RMI에서-바인딩이란-무엇을-의미합니까)
 
-[What is the difference between Serial and Throughput Garbage collector?](#what-is-the-difference-between-serial-and-throughput-garbage-collector)
+[직렬 및 처리량 가비지 수집기의 차이점은 무엇입니까?](#직렬-및-처리량-가비지-수집기의-차이점은-무엇입니까)
 
-[What is the difference between HashSet and TreeSet?](#what-is-the-difference-between-hashset-and-treeset)
+[HashSet과 TreeSet의 차이점은 무엇입니까?](#HashSet과-TreeSet의-차이점은-무엇입니까)
 
-[Does Garbage collection occur in permanent generation space in JVM?](#does-garbage-collection-occur-in-permanent-generation-space-in-jvm)
+[JVM의 영구 생성 공간에서 Garbage Collection이 발생합니까?](#JVM의-영구-생성-공간에서-Garbage-Collection이-발생합니까)
 
-[What is DGC ? And how does it work?](#what-is-dgc--and-how-does-it-work)
+[DGC 란 무엇입니까? 어떻게 작동합니까?](#DGC-란-무엇입니까-어떻게-작동합니까)
 
-[What are the layers of RMI Architecture?](#what-are-the-layers-of-rmi-architecture)
+[RMI 아키텍처의 계층은 무엇입니까?](#RMI-아키텍처의-계층은-무엇입니까)
 
-[How does thread synchronization occurs inside a monitor? What levels of synchronization can you apply? ](#how-does-thread-synchronization-occurs-inside-a-monitor-what-levels-of-synchronization-can-you-apply)
+[스레드 동기화는 모니터 내부에서 어떻게 발생합니까? 어떤 수준의 동기화를 적용할 수 있습니까?](#스레드-동기화는-모니터-내부에서-어떻게-발생합니까-어떤-수준의-동기화를-적용할-수-있습니까)
 
 
 
-### What is JVM? Why is Java called the “Platform Independent Programming Language”? 
+### JVM이란 무엇입니까? Java를 "플랫폼 독립 프로그래밍 언어"라고 부르는 이유는 무엇입니까?
 
 A Java virtual machine (JVM) is a process virtual machine that can execute Java bytecode. Each Java source file is compiled into a bytecode file, which is executed by the JVM. Java was designed to allow application programs to be built that could be run on any platform, without having to be rewritten or recompiled by the programmer for each separate platform. A Java virtual machine makes this possible, because it is aware of the specific instruction lengths and other particularities of the underlying hardware platform.
 
@@ -216,8 +216,8 @@ A Java virtual machine (JVM) is a process virtual machine that can execute Java 
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is a Servlet?
+[[↑] 맨 위로](#Java)
+### 서블릿이란 무엇입니까?
 
 The servlet is a Java programming language class used to process client requests and generate dynamic web content. Servlets are mostly used to process or store data submitted by an HTML form, provide dynamic content and manage state information that does not exist in the stateless HTTP protocol.
 
@@ -225,8 +225,8 @@ The servlet is a Java programming language class used to process client requests
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is a JSP Page?
+[[↑] 맨 위로](#Java)
+### JSP 페이지란 무엇입니까?
 
 A Java Server Page (JSP) is a text document that contains two types of text: static data and JSP elements. Static data can be expressed in any text-based format, such as HTML or XML. JSP is a technology that mixes static content with dynamically-generated content.
 
@@ -234,8 +234,8 @@ A Java Server Page (JSP) is a text document that contains two types of text: sta
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### Let's talk Swing. What is the difference between a Choice and a List?
+[[↑] 맨 위로](#Java)
+### 스윙에 대해 이야기합시다. 선택과 목록의 차이점은 무엇입니까?
 
 A Choice is displayed in a compact form that must be pulled down, in order for a user to be able to see the list of all available choices. Only one item may be selected from a Choice. A List may be displayed in such a way that several List items are visible. A List supports the selection of one or more List items.
 
@@ -243,8 +243,8 @@ A Choice is displayed in a compact form that must be pulled down, in order for a
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is the difference between an Applet and a Java Application?
+[[↑] 맨 위로](#Java)
+### 애플릿과 자바 애플리케이션의 차이점은 무엇입니까?
 
 Applets are executed within a java enabled browser, but a Java application is a standalone Java program that can be executed outside of a browser. However, they both require the existence of a Java Virtual Machine (JVM). Furthermore, a Java application requires a main method with a specific signature, in order to start its execution. Java applets don’t need such a method to start their execution. Finally, Java applets typically use a restrictive security policy, while Java applications usually use more relaxed security policies.
 
@@ -252,8 +252,8 @@ Applets are executed within a java enabled browser, but a Java application is a 
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is the Difference between JDK and JRE? 
+[[↑] 맨 위로](#Java)
+### JDK와 JRE의 차이점은 무엇입니까? 
 
 The Java Runtime Environment (JRE) is basically the Java Virtual Machine (JVM) where your Java programs are being executed. It also includes browser plugins for applet execution. The Java Development Kit (JDK) is the full featured Software Development Kit for Java, including the JRE, the compilers and tools (like JavaDoc, and Java Debugger), in order for a user to develop, compile and execute Java applications.
 
@@ -261,8 +261,8 @@ The Java Runtime Environment (JRE) is basically the Java Virtual Machine (JVM) w
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What are the two types of Exceptions in Java? Which are the differences between them? 
+[[↑] 맨 위로](#Java)
+### Java의 두 가지 예외 유형은 무엇입니까? 이들의 차이점은 무엇인가요?
 
 Java has two types of exceptions: checked exceptions and unchecked exceptions. Unchecked exceptions do not need to be declared in a method or a constructor’s throws clause, if they can be thrown by the execution of the method or the constructor, and propagate outside the method or constructor boundary. On the other hand, checked exceptions must be declared in a method or a constructor’s throws clause. See here for tips on [Java exception handling](http://www.javacodegeeks.com/2013/07/java-exception-handling-tutorial-with-examples-and-best-practices.html).
 
@@ -270,8 +270,8 @@ Java has two types of exceptions: checked exceptions and unchecked exceptions. U
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### Explain the architecture of a Servlet.
+[[↑] 맨 위로](#Java)
+### 서블릿의 아키텍처를 설명합니다.
 
 The core abstraction that must be implemented by all servlets is the javax.servlet.Servlet interface. Each servlet must implement it either directly or indirectly, either by extending javax.servlet.GenericServlet or javax.servlet.http.HTTPServlet. Finally, each servlet is able to serve multiple requests in parallel using multithreading.
 
@@ -279,8 +279,8 @@ The core abstraction that must be implemented by all servlets is the javax.servl
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is the difference between an Interface and an Abstract class? 
+[[↑] 맨 위로](#Java)
+### 인터페이스와 추상 클래스의 차이점은 무엇입니까?
 
 Java provides and supports the creation both of [abstract classes](http://examples.javacodegeeks.com/java-basics/java-abstract-class-example/) and interfaces. Both implementations share some common characteristics, but they differ in the following features:
 
@@ -298,8 +298,8 @@ Also check out the [Abstract class and Interface differences for JDK 8](http://w
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What are pass by reference and pass by value? 
+[[↑] 맨 위로](#Java)
+### 참조에 의한 전달과 값에 의한 전달이란 무엇입니까?
 
 When an object is passed by value, this means that a copy of the object is passed. Thus, even if changes are made to that object, it doesn’t affect the original value. When an object is passed by reference, this means that the actual object is not passed, rather a reference of the object is passed. Thus, any changes made by the external method, are also reflected in all places.
 
@@ -307,8 +307,8 @@ When an object is passed by value, this means that a copy of the object is passe
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is the difference between processes and threads?
+[[↑] 맨 위로](#Java)
+### 프로세스와 스레드의 차이점은 무엇입니까?
 
 A process is an execution of a program, while a [Thread](http://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html) is a single execution sequence within a process. A process can contain multiple threads. A [Thread](http://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html) is sometimes called a lightweight process.
 
@@ -316,8 +316,8 @@ A process is an execution of a program, while a [Thread](http://docs.oracle.com/
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### Explain Serialization and Deserialization. 
+[[↑] 맨 위로](#Java)
+### 직렬화와 역직렬화에 대해 설명합니다.
 
 Java provides a mechanism, called object serialization where an object can be represented as a sequence of bytes and includes the object’s data, as well as information about the object’s type, and the types of data stored in the object. Thus, serialization can be seen as a way of flattening objects, in order to be stored on disk, and later, read back and reconstituted. Deserialization is the reverse process of converting an object from its flattened state to a live object.
 
@@ -325,8 +325,8 @@ Java provides a mechanism, called object serialization where an object can be re
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What are Expressions?
+[[↑] 맨 위로](#Java)
+### 표현식이란 무엇입니까?
 
 A JSP expression is used to insert the value of a scripting language expression, converted into a string, into the data stream returned to the client, by the web server. Expressions are defined between <% = and %> tags.
 
@@ -334,8 +334,8 @@ A JSP expression is used to insert the value of a scripting language expression,
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What are Declarations?
+[[↑] 맨 위로](#Java)
+### 선언이란 무엇입니까?
 
 Declarations are similar to variable declarations in Java. Declarations are used to declare variables for subsequent use in expressions or scriptlets. To add a declaration, you must use the sequences to enclose your declarations.
 
@@ -343,8 +343,8 @@ Declarations are similar to variable declarations in Java. Declarations are used
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What are JSP actions?
+[[↑] 맨 위로](#Java)
+### JSP 작업이란 무엇입니까?
 
 JSP actions use constructs in XML syntax to control the behavior of the servlet engine. JSP actions are executed when a JSP page is requested. They can be dynamically inserted into a file, re-use JavaBeans components, forward the user to another page, or generate HTML for the Java plugin.Some of the available actions are listed below:
 
@@ -360,8 +360,8 @@ JSP actions use constructs in XML syntax to control the behavior of the servlet 
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What are Directives?
+[[↑] 맨 위로](#Java)
+### 지시문이란 무엇입니까?
 
 What are the different types of Directives available in JSP ? Directives are instructions that are processed by the JSP engine, when the page is compiled to a servlet. Directives are used to set page-level instructions, insert data from external files, and specify custom tag libraries. Directives are defined between < %@ and % >.The different types of directives are shown below:
 
@@ -373,8 +373,8 @@ What are the different types of Directives available in JSP ? Directives are ins
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### How are the JSP requests handled?
+[[↑] 맨 위로](#Java)
+### JSP 요청은 어떻게 처리됩니까?
 
 On the arrival of a JSP request, the browser first requests a page with a .jsp extension. Then, the Web server reads the request and using the JSP compiler, the Web server converts the JSP page into a servlet class. Notice that the JSP file is compiled only on the first request of the page, or if the JSP file has changed.The generated servlet class is invoked, in order to handle the browser’s request. Once the execution of the request is over, the servlet sends a response back to the client. See [how to get Request parameters in a JSP](http://examples.javacodegeeks.com/enterprise-java/jsp/get-request-parameter-in-jsp-page/).
 
@@ -382,8 +382,8 @@ On the arrival of a JSP request, the browser first requests a page with a .jsp e
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What are the basic interfaces of Java Collections Framework? 
+[[↑] 맨 위로](#Java)
+### Java Collection Framework의 기본 인터페이스는 무엇입니까?
 
 [Java Collections Framework](http://docs.oracle.com/javase/7/docs/technotes/guides/collections/overview.html) provides a well designed set of interfaces and classes that support operations on a collections of objects. The most basic interfaces that reside in the Java Collections Framework are:
 
@@ -396,8 +396,8 @@ On the arrival of a JSP request, the browser first requests a page with a .jsp e
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What does the “static” keyword mean? Can you override private or static method in Java?
+[[↑] 맨 위로](#Java)
+### "정적" 키워드는 무엇을 의미합니까? Java에서 개인 또는 정적 메소드를 재정의할 수 있습니까?
 
 The static keyword denotes that a member variable or method can be accessed, without requiring an instantiation of the class to which it belongs. A user cannot override static methods in Java, because method overriding is based upon dynamic binding at runtime and static methods are statically binded at compile time. A static method is not associated with any instance of a class so the concept is not applicable.
 
@@ -405,8 +405,8 @@ The static keyword denotes that a member variable or method can be accessed, wit
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is an Iterator? 
+[[↑] 맨 위로](#Java)
+### 반복자 란 무엇입니까?
 
 The [Iterator](http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html) interface provides a number of methods that are able to iterate over any [Collection](http://docs.oracle.com/javase/7/docs/api/java/util/Collection.html). Each Java [Collection](http://docs.oracle.com/javase/7/docs/api/java/util/Collection.html) contains the [Iterator](http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html)  method that returns an [Iterator](http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html)  instance. Iterators are capable of removing elements from the underlying collection during the iteration.
 
@@ -414,8 +414,8 @@ The [Iterator](http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html)
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is the purpose Class.forName method?
+[[↑] 맨 위로](#Java)
+### Class.forName 메서드의 목적은 무엇입니까?
 
 This method is used to get the instance of this Class with the specified class name.
 
@@ -423,8 +423,8 @@ This method is used to get the instance of this Class with the specified class n
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is JDBC?
+[[↑] 맨 위로](#Java)
+### JDBC 란 무엇입니까?
 
 JDBC is an abstraction layer that allows users to choose between databases. [JDBC enables developers to write database applications in Java](http://www.javacodegeeks.com/2014/03/java-8-friday-java-8-will-revolutionize-database-access.html), without having to concern themselves with the underlying details of a particular database.
 
@@ -432,8 +432,8 @@ JDBC is an abstraction layer that allows users to choose between databases. [JDB
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### How HashMap works in Java? 
+[[↑] 맨 위로](#Java)
+### HashMap은 Java에서 어떻게 작동합니까?
 
 [A HashMap in Java stores key-value pairs](http://www.javacodegeeks.com/2014/03/how-hashmap-works-in-java.html). The [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html) requires a hash function and uses hashCode and equals methods, in order to put and retrieve elements to and from the collection respectively. When the put method is invoked, the [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html) calculates the hash value of the key and stores the pair in the appropriate index inside the collection. If the key exists, its value is updated with the new value. Some important characteristics of a [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html) are its capacity, its load factor and the threshold resizing.
 
@@ -441,8 +441,8 @@ JDBC is an abstraction layer that allows users to choose between databases. [JDB
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is the design pattern that Java uses for all Swing components?
+[[↑] 맨 위로](#Java)
+### Java가 모든 Swing 구성 요소에 사용하는 디자인 패턴은 무엇입니까?
 
 The design pattern used by Java for all Swing components is the Model View Controller (MVC) pattern.
 
@@ -450,8 +450,8 @@ The design pattern used by Java for all Swing components is the Model View Contr
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What differences exist between HashMap and Hashtable? 
+[[↑] 맨 위로](#Java)
+### HashMap과 Hashtable 사이에는 어떤 차이점이 있습니까?
 
 Both the [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html) and [Hashtable](http://docs.oracle.com/javase/7/docs/api/java/util/Hashtable.html) classes implement the Map interface and thus, have very similar characteristics. However, they differ in the following features:
 
@@ -464,8 +464,8 @@ Both the [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.ht
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What advantage do Java’s layout managers provide over traditional windowing systems?
+[[↑] 맨 위로](#Java)
+### Java의 레이아웃 관리자는 기존 윈도우 시스템에 비해 어떤 이점을 제공합니까?
 
 Java uses layout managers to lay out components in a consistent manner, across all windowing platforms. Since layout managers aren’t tied to absolute sizing and positioning, they are able to accommodate platform-specific differences among windowing systems
 
@@ -473,8 +473,8 @@ Java uses layout managers to lay out components in a consistent manner, across a
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### How can a GUI component handle its own events?
+[[↑] 맨 위로](#Java)
+### GUI 구성 요소는 자체 이벤트를 어떻게 처리할 수 있습니까?
 
 A GUI component can handle its own events, by implementing the corresponding event-listener interface and adding itself as its own event listener.
 
@@ -482,8 +482,8 @@ A GUI component can handle its own events, by implementing the corresponding eve
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is a layout manager?
+[[↑] 맨 위로](#Java)
+### 레이아웃 관리자란 무엇입니까?
 
 A layout manager is the used to organize the components in a container.
 
@@ -491,8 +491,8 @@ A layout manager is the used to organize the components in a container.
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What’s the difference between sendRedirect and forward methods?
+[[↑] 맨 위로](#Java)
+### sendRedirect와 전달 방법의 차이점은 무엇입니까?
 
 The sendRedirect method creates a new request, while the forward method just forwards a request to a new target. The previous request scope objects are not available after a redirect, because it results in a new request. On the other hand, the previous request scope objects are available after forwarding. Finally, in general, the sendRedirect method is considered to be slower compare to the forward method.
 
@@ -500,8 +500,8 @@ The sendRedirect method creates a new request, while the forward method just for
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What do you know about the big-O notation and can you give some examples with respect to different data structures?
+[[↑] 맨 위로](#Java)
+### Big-O 표기법에 대해 무엇을 알고 있으며 다른 데이터 구조와 관련하여 몇 가지 예를 제공할 수 있습니까?
 
 The Big-O notation simply describes how well an algorithm scales or performs in the worst case scenario as the number of elements in a data structure increases. The Big-O notation can also be used to describe other behavior such as memory consumption. Since the collection classes are actually data structures, we usually use the Big-O notation to chose the best implementation to use, based on time, memory and performance. Big-O notation can give a good indication about performance for large amounts of data.
 
@@ -509,8 +509,8 @@ The Big-O notation simply describes how well an algorithm scales or performs in 
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What are the Data Types supported by Java? What is Autoboxing and Unboxing?
+[[↑] 맨 위로](#Java)
+### Java에서 지원하는 데이터 유형은 무엇입니까? 오토박싱과 언박싱이란?
 
 The eight primitive data types supported by the Java programming language are:
 
@@ -529,8 +529,8 @@ Autoboxing is [the automatic conversion made by the Java compiler](http://www.ja
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is Function Overriding and Overloading in Java?
+[[↑] 맨 위로](#Java)
+### Java에서 함수 재정의 및 오버로딩이란 무엇입니까?
 
 Method overloading in Java occurs when two or more methods in the same class have the exact same name, but different parameters. On the other hand, method overriding is defined as the case when a child class redefines the same method as a parent class. Overridden methods must have the same name, argument list, and return type. The overriding method may not limit the access of the method it overrides.
 
@@ -538,8 +538,8 @@ Method overloading in Java occurs when two or more methods in the same class hav
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is an Java Applet?
+[[↑] 맨 위로](#Java)
+### 자바 애플릿이란 무엇입니까?
 
 A Java Applet is program that can be included in a HTML page and be executed in a java enabled client browser. Applets are used for creating dynamic and interactive web applications.
 
@@ -547,8 +547,8 @@ A Java Applet is program that can be included in a HTML page and be executed in 
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What will happen to the Exception object after exception handling?
+[[↑] 맨 위로](#Java)
+### 예외 처리 후 Exception 객체는 어떻게 됩니까?
 
 The [Exception](http://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html) object will be garbage collected in the next garbage collection.
 
@@ -556,8 +556,8 @@ The [Exception](http://docs.oracle.com/javase/7/docs/api/java/lang/Exception.htm
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-###  What is the purpose of garbage collection in Java, and when is it used?
+[[↑] 맨 위로](#Java)
+###  Java에서 가비지 수집의 목적은 무엇이며 언제 사용됩니까?
 
 The purpose of garbage collection is to identify and discard those objects that are no longer needed by the application, in order for the resources to be reclaimed and reused.
 
@@ -565,8 +565,8 @@ The purpose of garbage collection is to identify and discard those objects that 
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What does System.gc() and Runtime.gc() methods do?
+[[↑] 맨 위로](#Java)
+### System.gc() 및 Runtime.gc() 메서드는 무엇을 합니까?
 
 These methods can be used as a hint to the JVM, in order to start a garbage collection. However, this it is up to the Java Virtual Machine (JVM) to start the garbage collection immediately or later in time.
 
@@ -575,8 +575,8 @@ These methods can be used as a hint to the JVM, in order to start a garbage coll
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is the importance of finally block in exception handling?
+[[↑] 맨 위로](#Java)
+### 예외 처리에서 finally 블록의 중요성은 무엇입니까?
 
 A *finally* block will always be executed, whether or not an exception is actually thrown. Even in the case where the catch statement is missing and an exception is thrown, the finally block will still be executed. Last thing to mention is that the finally block is used to release resources like I/O buffers, database connections, etc.
 
@@ -584,8 +584,8 @@ A *finally* block will always be executed, whether or not an exception is actual
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is the difference between Exception and Error in java?
+[[↑] 맨 위로](#Java)
+### Java에서 예외와 오류의 차이점은 무엇입니까?
 
 [Exception](http://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html) and [Error](http://docs.oracle.com/javase/7/docs/api/java/lang/Error.html) classes are both subclasses of the [Throwable](http://docs.oracle.com/javase/7/docs/api/java/lang/Throwable.html) class. The [Exception](http://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html)  class is used for exceptional conditions that a user’s program should catch. The [Error](http://docs.oracle.com/javase/7/docs/api/java/lang/Error.html)  class defines exceptions that are not excepted to be caught by the user program.
 
@@ -593,8 +593,8 @@ A *finally* block will always be executed, whether or not an exception is actual
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is meant by a Web Application?
+[[↑] 맨 위로](#Java)
+### 웹 애플리케이션이란 무엇을 의미합니까?
 
 A Web application is a dynamic extension of a Web or application server. There are two types of web applications: presentation-oriented and service-oriented. A presentation-oriented Web application generates interactive web pages, which contain various types of markup language and dynamic content in response to requests. On the other hand, a service-oriented web application implements the endpoint of a web service. In general, a Web application can be seen as a collection of servlets installed under a specific subset of the server’s URL namespace.
 
@@ -602,8 +602,8 @@ A Web application is a dynamic extension of a Web or application server. There a
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### When does an Object becomes eligible for Garbage collection in Java ? 
+[[↑] 맨 위로](#Java)
+### Java에서 객체가 가비지 수집에 적합한 시기는 언제입니까?
 
 A Java object is subject to garbage collection when it becomes unreachable to the program in which it is currently used.
 
@@ -611,8 +611,8 @@ A Java object is subject to garbage collection when it becomes unreachable to th
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### Why Collection doesn’t extend Cloneable and Serializable interfaces? 
+[[↑] 맨 위로](#Java)
+### Collection이 Cloneable 및 Serializable 인터페이스를 확장하지 않는 이유는 무엇입니까?
 
 The [Collection](http://docs.oracle.com/javase/7/docs/api/java/util/Collection.html) interface specifies groups of objects known as elements. Each concrete implementation of a [Collection](http://docs.oracle.com/javase/7/docs/api/java/util/Collection.html) can choose its own way of how to maintain and order its elements. Some collections allow duplicate keys, while some other collections don’t. The semantics and the implications of either cloning or serialization come into play when dealing with actual implementations. Thus, the concrete implementations of collections should decide how they can be cloned or serialized.
 
@@ -620,8 +620,8 @@ The [Collection](http://docs.oracle.com/javase/7/docs/api/java/util/Collection.h
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What happens when an applet is loaded?
+[[↑] 맨 위로](#Java)
+### 애플릿이 로드되면 어떻게 됩니까?
 
 First of all, an instance of the applet’s controlling class is created. Then, the applet initializes itself and finally, it starts running.
 
@@ -629,8 +629,8 @@ First of all, an instance of the applet’s controlling class is created. Then, 
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is the role of stub in RMI?
+[[↑] 맨 위로](#Java)
+### RMI에서 스텁의 역할은 무엇입니까?
 
 A stub for a remote object acts as a client’s local representative or proxy for the remote object. The caller invokes a method on the local stub, which is responsible for executing the method on the remote object. When a stub’s method is invoked, it undergoes the following steps:
 
@@ -644,8 +644,8 @@ A stub for a remote object acts as a client’s local representative or proxy fo
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is structure of Java Heap?
+[[↑] 맨 위로](#Java)
+### Java 힙의 구조는 무엇입니까?
 
 The JVM has a heap that is the runtime data area from which memory for all class instances and arrays is allocated. It is created at the JVM start-up. Heap memory for objects is reclaimed by an automatic memory management system which is known as a garbage collector. Heap memory consists of live and dead objects. Live objects are accessible by the application and will not be a subject of garbage collection. Dead objects are those which will never be accessible by the application, but have not been collected by the garbage collector yet. Such objects occupy the heap memory space until they are eventually collected by the garbage collector.
 
@@ -653,8 +653,8 @@ The JVM has a heap that is the runtime data area from which memory for all class
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### If an object reference is set to null, will the Garbage Collector immediately free the memory held by that object?
+[[↑] 맨 위로](#Java)
+### 개체 참조가 null로 설정된 경우 가비지 수집기가 해당 개체가 보유한 메모리를 즉시 해제합니까?
 
 No, the object will be available for garbage collection in the next cycle of the garbage collector.
 
@@ -662,17 +662,17 @@ No, the object will be available for garbage collection in the next cycle of the
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is the difference between throw and throws?
+[[↑] 맨 위로](#Java)
+### throw와 throws의 차이는 무엇인가요?
 
-The `throw` keyword is used to explicitly raise a exception within the program. On the contrary, the `throws` clause is used to indicate those exceptions that are not handled by a method. Each method must explicitly specify which exceptions does not handle, so the callers of that method can guard against possible exceptions. Finally, multiple exceptions are separated by a comma.
+'throw' 키워드는 프로그램 내에서 명시적으로 예외를 발생시키는 데 사용됩니다. 반대로 'throws' 절은 메서드에서 처리하지 않는 예외를 나타내는 데 사용됩니다. 각 메서드는 처리하지 않는 예외를 명시적으로 지정해야 하므로 해당 메서드의 호출자가 가능한 예외로부터 보호할 수 있습니다. 마지막으로 여러 예외는 쉼표로 구분됩니다.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### When is the finalize() called? What is the purpose of finalization? 
+[[↑] 맨 위로](#Java)
+### finalize()는 언제 호출됩니까? 마무리의 목적은 무엇입니까?
 
 The finalize method is called by the garbage collector, just before releasing the object’s memory. It is normally advised to release resources held by the object inside the finalize method.
 
@@ -680,8 +680,8 @@ The finalize method is called by the garbage collector, just before releasing th
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What are the steps involved to make work a RMI program? 
+[[↑] 맨 위로](#Java)
+### RMI 프로그램이 작동하도록 하는 단계는 무엇입니까?
 
 The following steps must be involved in order for a RMI program to work properly:
 
@@ -695,8 +695,8 @@ The following steps must be involved in order for a RMI program to work properly
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### How does finally block differ from finalize() method?
+[[↑] 맨 위로](#Java)
+### finally 블록은 finalize() 메서드와 어떻게 다릅니까?
 
 A finally block will be executed whether or not an exception is thrown and is used to release those resources held by the application. `Finalize` is a protected method of the Object class, which is called by the Java Virtual Machine (JVM) just before an object is garbage collected.
 
@@ -704,8 +704,8 @@ A finally block will be executed whether or not an exception is thrown and is us
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What’s the difference between Enumeration and Iterator interfaces? 
+[[↑] 맨 위로](#Java)
+### Enumeration과 Iterator 인터페이스의 차이점은 무엇입니까?
 
 [Enumeration](http://docs.oracle.com/javase/7/docs/api/java/util/Enumeration.html) is twice as fast as compared to an Iterator and uses very less memory. However, the [Iterator](http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html) is much safer compared to [Enumeration](http://docs.oracle.com/javase/7/docs/api/java/util/Enumeration.html), because other threads are not able to modify the collection object that is currently traversed by the iterator. Also, [Iterators](http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html) allow the caller to remove elements from the underlying collection, something which is not possible with [Enumeration](http://docs.oracle.com/javase/7/docs/api/java/util/Enumeration.html).
 
@@ -713,8 +713,8 @@ A finally block will be executed whether or not an exception is thrown and is us
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### Explain the life cycle of an Applet. 
+[[↑] 맨 위로](#Java)
+### 애플릿의 생명주기를 설명하라. 
 
 An applet may undergo the following states:
 
@@ -727,8 +727,8 @@ An applet may undergo the following states:
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### Can you access non static variable in static context?
+[[↑] 맨 위로](#Java)
+### 정적 컨텍스트에서 비 정적 변수에 액세스할 수 있습니까?
 
 A static variable in Java belongs to its class and its value remains the same for all its instances. A static variable is initialized when the class is loaded by the JVM. If your code tries to access a non-static variable, without any instance, the compiler will complain, because those variables are not created yet and they are not associated with any instance.
 
@@ -736,8 +736,8 @@ A static variable in Java belongs to its class and its value remains the same fo
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is the tradeoff between using an unordered array versus an ordered array? 
+[[↑] 맨 위로](#Java)
+### 정렬되지 않은 배열과 정렬된 배열을 사용하는 것 사이의 절충점은 무엇입니까? 
 
 The major advantage of an ordered array is that the search times have time complexity of O(log n), compared to that of an unordered array, which is O (n). The disadvantage of an ordered array is that the insertion operation has a time complexity of O(n), because the elements with higher values must be moved to make room for the new element. Instead, the insertion operation for an unordered array takes constant time of O(1).
 
@@ -745,8 +745,8 @@ The major advantage of an ordered array is that the search times have time compl
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What are the restrictions imposed on Java applets?
+[[↑] 맨 위로](#Java)
+### Java 애플릿에 부과되는 제한 사항은 무엇입니까?
 
 Mostly due to security reasons, the following restrictions are imposed on Java applets:
 
@@ -760,8 +760,8 @@ Mostly due to security reasons, the following restrictions are imposed on Java a
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What are untrusted applets?
+[[↑] 맨 위로](#Java)
+### 신뢰할 수 없는 애플릿이란 무엇입니까?
 
 Untrusted applets are those Java applets that cannot access or execute local system files. By default, all downloaded applets are considered as untrusted.
 
@@ -769,8 +769,8 @@ Untrusted applets are those Java applets that cannot access or execute local sys
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-###  What is a Server Side Include (SSI)?
+[[↑] 맨 위로](#Java)
+###  서버 측 포함(SSI)이란 무엇입니까?
 
 Server Side Includes (SSI) is a simple interpreted server-side scripting language, used almost exclusively for the Web, and is embedded with a servlet tag. The most frequent use of SSI is to include the contents of one or more files into a Web page on a Web server. When a Web page is accessed by a browser, the Web server replaces the servlet tag in that Web page with the hyper text generated by the corresponding servlet.
 
@@ -778,8 +778,8 @@ Server Side Includes (SSI) is a simple interpreted server-side scripting languag
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is a Constructor, Constructor Overloading in Java and Copy-Constructor? 
+[[↑] 맨 위로](#Java)
+### 생성자, Java 및 복사 생성자의 생성자 오버로딩이란 무엇입니까?
 
 A constructor gets invoked when a new object is created. Every class [has a constructor](http://www.javacodegeeks.com/2014/01/which-is-better-option-cloning-or-copy-constructors.html). In case the programmer does not provide a constructor for a class, the Java compiler (Javac) creates a default constructor for that class. The constructor overloading is similar to method overloading in Java. Different constructors can be created for a single class. Each constructor must have its own unique parameter list. Finally, Java does support copy constructors like C++, but the difference lies in the fact that Java doesn’t create a default copy constructor if you don’t write your own.
 
@@ -787,8 +787,8 @@ A constructor gets invoked when a new object is created. Every class [has a cons
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is the applet security manager, and what does it provide?
+[[↑] 맨 위로](#Java)
+### 애플릿 보안 관리자는 무엇이며 무엇을 제공합니까?
 
 The applet security manager is a mechanism to impose restrictions on Java applets. A browser may only have one security manager. The security manager is established at startup, and it cannot thereafter be replaced, overloaded, overridden, or extended.
 
@@ -796,8 +796,8 @@ The applet security manager is a mechanism to impose restrictions on Java applet
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is Java Priority Queue?
+[[↑] 맨 위로](#Java)
+### Java 우선 순위 대기열이란 무엇입니까?
 
 The [PriorityQueue](http://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html) is an unbounded queue, based on a priority heap and its elements are ordered in their natural order. At the time of its creation, we can provide a Comparator that is responsible for ordering the elements of the [PriorityQueue](http://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html). A [PriorityQueue](http://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html) doesn’t allow null values, those objects that doesn’t provide natural ordering, or those objects that don’t have any comparator associated with them. Finally, the Java [PriorityQueue](http://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html) is not thread-safe and it requires O(log(n)) time for its enqueuing and dequeing operations.
 
@@ -805,8 +805,8 @@ The [PriorityQueue](http://docs.oracle.com/javase/7/docs/api/java/util/PriorityQ
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is Comparable and Comparator interface? List their differences.
+[[↑] 맨 위로](#Java)
+### Comparable 및 Comparator 인터페이스란 무엇입니까? 차이점을 나열하십시오.
 
 Java provides the [Comparable](http://docs.oracle.com/javase/7/docs/api/java/lang/Comparable.html) interface, which contains only one method, called [compareTo](http://docs.oracle.com/javase/7/docs/api/java/lang/Comparable.html#compareTo(T)). This method compares two objects, in order to impose an order between them. Specifically, it returns a negative integer, zero, or a positive integer to indicate that the input object is less than, equal or greater than the existing object. Java provides the [Comparator](http://docs.oracle.com/javase/7/docs/api/java/util/Comparator.html) interface, which contains two methods, called [compare](http://docs.oracle.com/javase/7/docs/api/java/util/Comparator.html#compare(T,%20T)) and [equals](http://docs.oracle.com/javase/7/docs/api/java/util/Comparator.html#equals(java.lang.Object)). The first method compares its two input arguments and imposes an order between them. It returns a negative integer, zero, or a positive integer to indicate that the first argument is less than, equal to, or greater than the second. The second method requires an object as a parameter and aims to decide whether the input object is equal to the comparator. The method returns true, only if the specified object is also a comparator and it imposes the same ordering as the comparator.
 
@@ -814,8 +814,8 @@ Java provides the [Comparable](http://docs.oracle.com/javase/7/docs/api/java/lan
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### Which Swing methods are thread-safe?
+[[↑] 맨 위로](#Java)
+### 어떤 Swing 메서드가 스레드로부터 안전합니까?
 
 There are only three thread-safe methods: 
 * repaint, 
@@ -826,8 +826,8 @@ There are only three thread-safe methods:
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is the relationship between an event-listener interface and an event-adapter class?
+[[↑] 맨 위로](#Java)
+### 이벤트 수신기 인터페이스와 이벤트 어댑터 클래스 사이의 관계는 무엇입니까?
 
 An event-listener interface defines the methods that must be implemented by an event handler for a particular event. An event adapter provides a default implementation of an event-listener interface.
 
@@ -835,8 +835,8 @@ An event-listener interface defines the methods that must be implemented by an e
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is difference between ArrayList and LinkedList? 
+[[↑] 맨 위로](#Java)
+### ArrayList와 LinkedList의 차이점은 무엇입니까?
 
 Both the [ArrayList](http://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html) and [LinkedList](http://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html) classes implement the List interface, but they differ on the following features:
 
@@ -848,8 +848,8 @@ Both the [ArrayList](http://docs.oracle.com/javase/7/docs/api/java/util/ArrayLis
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is difference between Array and ArrayList? When will you use Array over ArrayList?
+[[↑] 맨 위로](#Java)
+### Array와 ArrayList의 차이점은 무엇입니까? 언제 ArrayList보다 Array를 사용합니까?
 
 The Array and ArrayList classes differ on the following features:
 
@@ -862,8 +862,8 @@ The Array and ArrayList classes differ on the following features:
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is the importance of hashCode() and equals() methods? 
+[[↑] 맨 위로](#Java)
+### hashCode() 및 equals() 메서드의 중요성은 무엇입니까?
 
 A [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html) in Java uses the hashCode and equals methods to determine the index of the key-value pair. These methods are also used when we request the value of a specific key. If these methods are not implemented correctly, two different keys might produce the same hash value and thus, will be considered as equal by the collection. Furthermore, these methods are also used to detect duplicates. Thus, the implementation of both methods is crucial to the accuracy and correctness of the [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html).
 
@@ -871,8 +871,8 @@ A [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html) in 
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is difference between fail-fast and fail-safe? 
+[[↑] 맨 위로](#Java)
+### Fail-fast와 Fail-safe의 차이점은 무엇입니까?
 
 The [Iterator's](http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html)  fail-safe property works with the clone of the underlying collection and thus, it is not affected by any modification in the collection. All the collection classes in java.util package are fail-fast, while the collection classes in java.util.concurrent are fail-safe. Fail-fast iterators throw a [ConcurrentModificationException](http://examples.javacodegeeks.com/java-basics/exceptions/java-util-concurrentmodificationexception-how-to-handle-concurrent-modification-exception/), while fail-safe iterator never throws such an exception.
 
@@ -880,8 +880,8 @@ The [Iterator's](http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.htm
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### Explain the role of Driver in JDBC. 
+[[↑] 맨 위로](#Java)
+### JDBC에서 Driver의 역할을 설명하라
 
 The JDBC Driver provides vendor-specific implementations of the abstract classes provided by the JDBC API. Each driver must provide implementations for the following classes of the java.sql package: [Connection](http://docs.oracle.com/javase/7/docs/api/java/sql/Connection.html), [Statement](http://docs.oracle.com/javase/7/docs/api/java/sql/Statement.html), [PreparedStatement](http://docs.oracle.com/javase/7/docs/api/java/sql/PreparedStatement.html), [CallableStatement](http://docs.oracle.com/javase/7/docs/api/java/sql/CallableStatement.html), [ResultSet](http://docs.oracle.com/javase/7/docs/api/java/sql/ResultSet.html) and [Driver](http://docs.oracle.com/javase/7/docs/api/java/sql/Driver.html).
 
@@ -889,8 +889,8 @@ The JDBC Driver provides vendor-specific implementations of the abstract classes
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What differences exist between Iterator and ListIterator? 
+[[↑] 맨 위로](#Java)
+### Iterator와 ListIterator에는 어떤 차이점이 있습니까?
 
 The differences of these elements are listed below:
 
@@ -902,8 +902,8 @@ The differences of these elements are listed below:
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is the advantage of PreparedStatement over Statement?
+[[↑] 맨 위로](#Java)
+### Statement보다 PreparedStatement의 장점은 무엇입니까?
 
 PreparedStatements are precompiled and thus, [their performance is much better](http://examples.javacodegeeks.com/core-java/sql/batch-statement-execution-example/). Also, PreparedStatement objects can be reused with different input values to their queries.
 
@@ -911,8 +911,8 @@ PreparedStatements are precompiled and thus, [their performance is much better](
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is the use of CallableStatement? Name the method, which is used to prepare a CallableStatement.
+[[↑] 맨 위로](#Java)
+### CallableStatement의 용도는 무엇입니까? CallableStatement를 준비하는 데 사용되는 메서드의 이름을 지정합니다.
 
 A [CallableStatement](http://docs.oracle.com/javase/7/docs/api/java/sql/CallableStatement.html) is used to execute stored procedures. Stored procedures are stored and offered by a database. Stored procedures may take input values from the user and may return a result. The usage of stored procedures is highly encouraged, because it offers security and modularity.The method that prepares a [CallableStatement](http://docs.oracle.com/javase/7/docs/api/java/sql/CallableStatement.html) is the following:
 
@@ -925,8 +925,8 @@ CallableStament.prepareCall();
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is the difference between doGet() and doPost()?
+[[↑] 맨 위로](#Java)
+### doGet()과 doPost()의 차이점은 무엇입니까?
 
 * **doGET**: The GET method appends the name-value pairs on the request’s URL. Thus, there is a limit on the number of characters and subsequently on the number of values that can be used in a client’s request. Furthermore, the values of the request are made visible and thus, sensitive information must not be passed in that way.       
 * **doPOST**: The POST method overcomes the limit imposed by the GET request, by sending the values of the request inside its body. Also, there is no limitations on the number of values to be sent across. Finally, the sensitive information passed through a POST request is not visible to an external client.
@@ -935,8 +935,8 @@ CallableStament.prepareCall();
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### Explain the life cycle of a Servlet.
+[[↑] 맨 위로](#Java)
+### 서블릿의 생명주기를 설명하라.
 
 On every client’s request, the Servlet Engine loads the servlets and invokes its init methods, in order for the servlet to be initialized. Then, the Servlet object handles all subsequent requests coming from that client, by invoking the service method for each request separately. Finally, the servlet is removed by calling the server’s destroy method.
 
@@ -944,8 +944,8 @@ On every client’s request, the Servlet Engine loads the servlets and invokes i
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is the difference between GenericServlet and HttpServlet?
+[[↑] 맨 위로](#Java)
+### GenericServlet과 HttpServlet의 차이점은 무엇입니까?
 
 GenericServlet is a generalized and protocol-independent servlet that implements the Servlet and ServletConfig interfaces. Those servlets extending the GenericServlet class shall override the service method. Finally, in order to develop an HTTP servlet for use on the Web that serves requests using the HTTP protocol, your servlet must extend the HttpServlet instead. Check [Servlet examples here](http://examples.javacodegeeks.com/tag/servlet/).
 
@@ -953,8 +953,8 @@ GenericServlet is a generalized and protocol-independent servlet that implements
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What are the advantages of JSP?
+[[↑] 맨 위로](#Java)
+### JSP의 장점은 무엇입니까?
 
 The advantages of using the JSP technology are shown below:
 
@@ -968,8 +968,8 @@ The advantages of using the JSP technology are shown below:
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What’s a deadlock? 
+[[↑] 맨 위로](#Java)
+### 교착 상태란 무엇입니까?
 
 A condition that occurs when [two processes are waiting for each other to complete](http://www.javacodegeeks.com/2013/01/java-deadlock-example-how-to-analyze-deadlock-situation.html), before proceeding. The result is that both processes wait endlessly.
 
@@ -977,8 +977,8 @@ A condition that occurs when [two processes are waiting for each other to comple
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is the difference between an Applet and a Servlet?
+[[↑] 맨 위로](#Java)
+### 애플릿과 서블릿의 차이점은 무엇입니까?
 
 An Applet is a client side java program that runs within a Web browser on the client machine. On the other hand, a servlet is a server side component that runs on the web server.An applet can use the user interface classes, while a servlet does not have a user interface. Instead, a servlet waits for client’s HTTP requests and generates a response in every request.
 
@@ -986,8 +986,8 @@ An Applet is a client side java program that runs within a Web browser on the cl
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What are Scriptlets?
+[[↑] 맨 위로](#Java)
+### 스크립틀릿이란 무엇입니까?
 
 In Java Server Pages (JSP) technology, a scriptlet is a piece of Java-code embedded in a JSP page. The scriptlet is everything inside the tags. Between these tags, a user can add any valid scriptlet.
 
@@ -995,8 +995,8 @@ In Java Server Pages (JSP) technology, a scriptlet is a piece of Java-code embed
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### Does Java support multiple inheritance? 
+[[↑] 맨 위로](#Java)
+### Java는 다중 상속을 지원합니까?
 
 No, Java does not support multiple inheritance. Each class is able to extend only on one class, but is able to implement more than one interfaces.
 
@@ -1004,8 +1004,8 @@ No, Java does not support multiple inheritance. Each class is able to extend onl
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### Explain different ways of creating a thread. Which one would you prefer and why?
+[[↑] 맨 위로](#Java)
+### 스레드를 생성하는 다양한 방법을 설명합니다. 어느 것을 선호하고 그 이유는 무엇입니까?
 
 There are three ways that can be used in order for a [Thread](http://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html) to be created:
 
@@ -1019,8 +1019,8 @@ The [Runnable](http://docs.oracle.com/javase/7/docs/api/java/lang/Runnable.html)
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is meant by JSP implicit objects and what are they?
+[[↑] 맨 위로](#Java)
+### JSP 암묵적 객체가 의미하는 바는 무엇이며 어떤 객체입니까?
 
 JSP implicit objects are those Java objects that the JSP Container makes available to developers in each page. A developer can call them directly, without being explicitly declared. JSP Implicit Objects are also called pre-defined variables.The following objects are considered implicit in a JSP page:
 
@@ -1038,8 +1038,8 @@ JSP implicit objects are those Java objects that the JSP Container makes availab
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is RMI?
+[[↑] 맨 위로](#Java)
+### RMI 란 무엇입니까?
 
 The Java Remote Method Invocation (Java RMI) is a Java API that performs the object-oriented equivalent of remote procedure calls (RPC), with support for direct transfer of serialized Java classes and distributed garbage collection. Remote Method Invocation (RMI) can also be seen as the process of activating a method on a remotely running object. RMI offers location transparency because a user feels that a method is executed on a locally running object. 
 
@@ -1047,8 +1047,8 @@ The Java Remote Method Invocation (Java RMI) is a Java API that performs the obj
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### Explain the available thread states in a high-level.
+[[↑] 맨 위로](#Java)
+### 사용 가능한 스레드 상태를 개략적으로 설명합니다.
 
 During its execution, a thread can reside in one of the following states:
 
@@ -1064,8 +1064,8 @@ During its execution, a thread can reside in one of the following states:
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### Explain Marshalling and demarshalling.
+[[↑] 맨 위로](#Java)
+### 마샬링과 디마샬링에 대해 설명합니다.
 
 When an application wants to pass its memory objects across a network to another host or persist it to storage, the in-memory representation must be converted to a suitable format. This process is called marshalling and the revert operation is called demarshalling.
 
@@ -1073,8 +1073,8 @@ When an application wants to pass its memory objects across a network to another
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### How do you ensure that N threads can access N resources without deadlock? 
+[[↑] 맨 위로](#Java)
+### N 스레드가 교착 상태 없이 N 리소스에 액세스할 수 있도록 하는 방법은 무엇입니까?
 
 A very simple way to avoid deadlock while using N threads is to impose an ordering on the locks and force each thread to follow that ordering. Thus, if all threads lock and unlock the mutexes in the same order, no deadlocks can arise.
 
@@ -1082,8 +1082,8 @@ A very simple way to avoid deadlock while using N threads is to impose an orderi
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is Perm Gen space in Heap?
+[[↑] 맨 위로](#Java)
+### 힙에서 Perm Gen 공간이란 무엇입니까?
 
 Perm Gen stands for permanent generation. It is the space on Java Heap that holds meta-data describing user classes (classes that are not part of the Java language). Examples of such meta-data are objects describing classes and methods and they are stored in the Permanent Generation. Applications with large code-base can quickly fill up this segment of the heap which will cause ```java.lang.OutOfMemoryError: PermGen``` no matter how high your ```-Xmx``` (maximum size of the memory allocation pool) and how much memory you have on the machine.
 
@@ -1091,8 +1091,8 @@ Perm Gen stands for permanent generation. It is the space on Java Heap that hold
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What does Connection pooling mean?
+[[↑] 맨 위로](#Java)
+### 연결 풀링은 무엇을 의미합니까?
 
 The interaction with a database can be costly, regarding the opening and closing of database connections. Especially, when the number of database clients increases, this cost is very high and a large number of resources is consumed.A pool of database connections is obtained at start up by the application server and is maintained in a pool. A request for a connection is served by [a connection residing in the pool](http://examples.javacodegeeks.com/enterprise-java/hibernate/hibernate-connection-pool-configuration-with-c3p0-example/). In the end of the connection, the request is returned to the pool and can be used to satisfy future requests.
 
@@ -1100,8 +1100,8 @@ The interaction with a database can be costly, regarding the opening and closing
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is the applet class loader, and what does it provide?
+[[↑] 맨 위로](#Java)
+### 애플릿 클래스 로더는 무엇이며 무엇을 제공합니까?
 
 When an applet is loaded over the internet, the applet is loaded by the applet classloader. The class loader enforces the Java name space hierarchy. Also, the class loader guarantees that a unique namespace exists for classes that come from the local file system, and that a unique namespace exists for each network source. When a browser loads an applet over the net, that applet’s classes are placed in a private namespace associated with the applet’s origin. Then, those classes loaded by the class loader are passed through the verifier.The verifier checks that the class file conforms to the Java language specification . Among other things, the verifier ensures that there are no stack overflows or underflows and that the parameters to all bytecode instructions are correct.
 
@@ -1109,8 +1109,8 @@ When an applet is loaded over the internet, the applet is loaded by the applet c
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-###  What is the difference between applets loaded over the internet and applets loaded via the file system?
+[[↑] 맨 위로](#Java)
+###  인터넷을 통해 로드된 애플릿과 파일 시스템을 통해 로드된 애플릿의 차이점은 무엇입니까?
 
 Regarding the case where an applet is loaded over the internet, the applet is loaded by the applet classloader and is subject to the restrictions enforced by the applet security manager. Regarding the case where an applet is loaded from the client’s local disk, the applet is loaded by the file system loader. Applets loaded via the file system are allowed to read files, write files and to load libraries on the client. Also, applets loaded via the file system are allowed to execute processes and finally, applets loaded via the file system are not passed through the byte code verifier.
 
@@ -1118,8 +1118,8 @@ Regarding the case where an applet is loaded over the internet, the applet is lo
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is Servlet Chaining?
+[[↑] 맨 위로](#Java)
+### Servlet Chaining 이란?
 
 Servlet Chaining is the method where the output of one servlet is sent to a second servlet. The output of the second servlet can be sent to a third servlet, and so on. The last servlet in the chain is responsible for sending the response to the client.
 
@@ -1127,8 +1127,8 @@ Servlet Chaining is the method where the output of one servlet is sent to a seco
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### How do you find out what client machine is making a request to your servlet?
+[[↑] 맨 위로](#Java)
+### 어떤 클라이언트 머신이 당신의 서블릿에 요청하고 있는지 어떻게 알 수 있나요?
 
 The ServletRequest class has functions for finding out the IP address or host name of the client machine. getRemoteAddr() gets the IP address of the client machine and getRemoteHost() gets the host name of the client machine. See example [here](http://examples.javacodegeeks.com/enterprise-java/servlet/get-client-s-address-and-hostname-in-servlet/).
 
@@ -1136,8 +1136,8 @@ The ServletRequest class has functions for finding out the IP address or host na
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What are some of the best practices relating to the Java Collection framework?
+[[↑] 맨 위로](#Java)
+### Java Collection 프레임워크와 관련된 모범 사례는 무엇입니까?
 
 * Choosing the right type of the collection to use, based on the application’s needs, is very crucial for its performance. For example if the size of the elements is fixed and know a priori, we shall use an [Array](http://docs.oracle.com/javase/7/docs/api/java/lang/reflect/Array.html), instead of an [ArrayList](http://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html).
 * Some collection classes allow us to specify their initial capacity. Thus, if we have an estimation on the number of elements that will be stored, we can use it to avoid rehashing or resizing.
@@ -1150,8 +1150,8 @@ The ServletRequest class has functions for finding out the IP address or host na
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is the difference between a synchronized method and a synchronized block?
+[[↑] 맨 위로](#Java)
+### 동기화된 방법과 동기화된 블록의 차이점은 무엇입니까?
 
 In Java programming, each object has a lock. A thread can acquire the lock for an object by using the synchronized keyword. The synchronized keyword can be applied in a method level (coarse grained lock) or block level of code (fine grained lock).
 
@@ -1159,8 +1159,8 @@ In Java programming, each object has a lock. A thread can acquire the lock for a
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is the basic principle of RMI architecture?
+[[↑] 맨 위로](#Java)
+### RMI 아키텍처의 기본 원리는 무엇입니까?
 
 The RMI architecture is based on a very important principle which states that the definition of the behavior and the implementation of that behavior, are separate concepts. RMI allows the code that defines the behavior and the code that implements the behavior to remain separate and to run on separate JVMs.
 
@@ -1168,8 +1168,8 @@ The RMI architecture is based on a very important principle which states that th
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is the purpose of using RMISecurityManager in RMI?
+[[↑] 맨 위로](#Java)
+### RMI에서 RMISecurityManager를 사용하는 목적은 무엇입니까?
 
 RMISecurityManager provides a security manager that can be used by RMI applications, which use downloaded code. The class loader of RMI will not download any classes from remote locations, if the security manager has not been set.
 
@@ -1177,8 +1177,8 @@ RMISecurityManager provides a security manager that can be used by RMI applicati
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is the role of Remote Interface in RMI?
+[[↑] 맨 위로](#Java)
+### RMI에서 원격 인터페이스의 역할은 무엇입니까?
 
 The Remote interface serves to identify interfaces whose methods may be invoked from a non-local virtual machine. Any object that is a remote object must directly or indirectly implement this interface. A class that implements a remote interface should declare the remote interfaces being implemented, define the constructor for each remote object and provide an implementation for each remote method in all remote interfaces.
 
@@ -1186,8 +1186,8 @@ The Remote interface serves to identify interfaces whose methods may be invoked 
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is the role of the java.rmi.Naming Class? 
+[[↑] 맨 위로](#Java)
+### java.rmi.Naming 클래스의 역할은 무엇입니까?
 
 The java.rmi.Naming class provides methods for storing and obtaining references to remote objects in the remote object registry. Each method of the Naming class takes as one of its arguments a name that is a String in URL format.
 
@@ -1195,8 +1195,8 @@ The java.rmi.Naming class provides methods for storing and obtaining references 
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is meant by binding in RMI?
+[[↑] 맨 위로](#Java)
+### RMI에서 바인딩이란 무엇을 의미합니까?
 
 Binding is the process of associating or registering a name for a remote object, which can be used at a later time, in order to look up that remote object. A remote object can be associated with a name using the bind or rebind methods of the Naming class.
 
@@ -1204,8 +1204,8 @@ Binding is the process of associating or registering a name for a remote object,
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is the difference between Serial and Throughput Garbage collector?
+[[↑] 맨 위로](#Java)
+### 직렬 및 처리량 가비지 수집기의 차이점은 무엇입니까?
 
 The throughput garbage collector uses a parallel version of the young generation collector and is meant to be used with applications that have medium to large data sets. On the other hand, the serial collector is usually adequate for most small applications (those requiring heaps of up to approximately 100MB on modern processors).
 
@@ -1213,8 +1213,8 @@ The throughput garbage collector uses a parallel version of the young generation
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is the difference between HashSet and TreeSet?
+[[↑] 맨 위로](#Java)
+### HashSet과 TreeSet의 차이점은 무엇입니까?
 
 The [HashSet](http://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html) is Implemented using a hash table and thus, its elements are not ordered. The add, remove, and contains methods of a [HashSet](http://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html)  have constant time complexity O(1). On the other hand, a [TreeSet](http://docs.oracle.com/javase/7/docs/api/java/util/TreeSet.html) is implemented using a tree structure. The elements in a [TreeSet](http://docs.oracle.com/javase/7/docs/api/java/util/TreeSet.html) are sorted, and thus, the add, remove, and contains methods have time complexity of O(log n).
 
@@ -1222,8 +1222,8 @@ The [HashSet](http://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html) i
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### Does Garbage collection occur in permanent generation space in JVM?
+[[↑] 맨 위로](#Java)
+### JVM의 영구 생성 공간에서 Garbage Collection이 발생합니까?
 
 Garbage Collection does occur in PermGen space and if PermGen space is full or cross a threshold, it can trigger a full garbage collection. If you look carefully at the output of the garbage collector, you will find that PermGen space is also garbage collected. This is the reason why correct sizing of PermGen space is important to avoid frequent full garbage collections. 
 
@@ -1231,8 +1231,8 @@ Garbage Collection does occur in PermGen space and if PermGen space is full or c
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What is DGC ? And how does it work?
+[[↑] 맨 위로](#Java)
+### DGC 란 무엇입니까? 어떻게 작동합니까??
 
 DGC stands for Distributed Garbage Collection. Remote Method Invocation (RMI) uses DGC for automatic garbage collection. Since RMI involves remote object references across JVM’s, garbage collection can be quite difficult. DGC uses a reference counting algorithm to provide automatic memory management for remote objects.
 
@@ -1241,8 +1241,8 @@ DGC stands for Distributed Garbage Collection. Remote Method Invocation (RMI) us
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### What are the layers of RMI Architecture?
+[[↑] 맨 위로](#Java)
+### RMI 아키텍처의 계층은 무엇입니까?
 
 The RMI architecture consists of the following layers:
 
@@ -1254,8 +1254,8 @@ The RMI architecture consists of the following layers:
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
-### How does thread synchronization occurs inside a monitor? What levels of synchronization can you apply? 
+[[↑] 맨 위로](#Java)
+### 스레드 동기화는 모니터 내부에서 어떻게 발생합니까? 어떤 수준의 동기화를 적용할 수 있습니까?
 
 The JVM uses locks in conjunction with monitors. A monitor is basically a guardian that watches over a sequence of synchronized code and ensuring that only one thread at a time executes a synchronized piece of code. Each monitor is associated with an object reference. The thread is not allowed to execute the code until it obtains the lock.
 
@@ -1263,4 +1263,4 @@ The JVM uses locks in conjunction with monitors. A monitor is basically a guardi
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
-[[↑] Back to top](#Java)
+[[↑] 맨 위로](#Java)
