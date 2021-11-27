@@ -30,83 +30,83 @@
 
 [배열의 중복을 제거하고 고유한 요소의 배열만 반환합니다.](#배열의-중복을-제거하고-고유한-요소의-배열만-반환합니다)
 
-[문자열이 주어지면 문장의 각 단어를 뒤집습니다.](#given-a-string-reverse-each-word-in-the-sentence)
+[문자열이 주어지면 문장의 각 단어를 뒤집습니다.](#문자열이-주어지면-문장의-각-단어를-뒤집습니다)
 
-[이것을 할 수 있는 함수를 작성하세요.](#write-a-function-that-would-allow-you-to-do-this)
+[이것을 할 수 있는 함수를 작성하세요.](#이것을-할-수-있는-함수를-작성하세요)
 
-[두 개의 스택만 사용하여 enqueue 및 dequeue 구현](#implement-enqueue-and-dequeue-using-only-two-stacks)
+[두 개의 스택만 사용하여 enqueue 및 dequeue 구현](#두-개의-스택만-사용하여-enqueue-및-dequeue-구현)
 
-[closure를 사용하여 개인 카운터를 만드는 방법은 무엇입니까?](#how-would-you-use-a-closure-to-create-a-private-counter)
+[closure를 사용하여 개인 카운터를 만드는 방법은 무엇입니까?](#closure를-사용하여-개인-카운터를-만드는-방법은-무엇입니까)
 
-[JavaScript에서 Null 및 Undefined 설명](#explain-null-and-undefined-in-javascript)
+[JavaScript에서 Null 및 Undefined 설명](#JavaScript에서-Null-및-Undefined-설명)
 
-[Event bubbling 및 이를 방지할 수 있는 방법 설명](#explain-event-bubbling-and-how-one-may-prevent-it)
+[Event bubbling 및 이를 방지할 수 있는 방법 설명](#Event-bubbling-및-이를-방지할-수-있는-방법-설명)
 
-[객체가 배열인지 확인하는 방법은 무엇입니까? 코드를 제공하십시오.](#how-to-check-if-an-object-is-an-array-or-not-provide-some-code)
+[객체가 배열인지 확인하는 방법은 무엇입니까? 코드를 제공하십시오.](#객체가-배열인지-확인하는-방법은-무엇입니까?-코드를-제공하십시오)
 
-[아래 구문과 같이 호출될 때 제대로 작동하는 "mul" 함수를 작성하십시오.](#write-a-mul-function-which-will-properly-when-invoked-as-below-syntax)
+[아래 구문과 같이 호출될 때 제대로 작동하는 "mul" 함수를 작성하십시오.](#아래-구문과-같이-호출될-때-제대로-작동하는-mul-함수를-작성하십시오)
 
-[JavaScript에서 배열을 비우는 방법은 무엇입니까?](#how-to-empty-an-array-in-javascript)
+[JavaScript에서 배열을 비우는 방법은 무엇입니까?](#JavaScript에서-배열을-비우는-방법은-무엇입니까)
 
-[JavaScript에서 두 객체를 비교하는 방법은 무엇입니까?](#how-to-compare-two-objects-in-javascript)
+[JavaScript에서 두 객체를 비교하는 방법은 무엇입니까?](#JavaScript에서-두-객체를-비교하는-방법은-무엇입니까)
 
-[정수 배열이 주어지면 두 요소 사이의 가장 큰 차이를 구하여 값이 작은 요소가 큰 요소보다 앞에 와야 합니다.](#given-an-array-of-integers-find-the-largest-difference-between-two-elements-such-that-the-element-of-lesser-value-must-come-before-the-greater-element)
+[정수 배열이 주어지면 두 요소 사이의 가장 큰 차이를 구하여 값이 작은 요소가 큰 요소보다 앞에 와야 합니다.](#정수-배열이-주어지면-두-요소-사이의-가장-큰-차이를-구하여-값이-작은-요소가-큰-요소보다-앞에-와야 합니다)
 
-[두 배열의 교집합을 찾습니다. 교차는 두 배열 내에 존재하는 공통 요소입니다. 이 경우 이러한 요소는 고유해야 합니다!](#find-the-intersection-of-two-arrays-an-intersection-would-be-the-common-elements-that-exists-within-both-arrays-in-this-case-these-elements-should-be-unique)
+[두 배열의 교집합을 찾습니다. 교차는 두 배열 내에 존재하는 공통 요소입니다. 이 경우 이러한 요소는 고유해야 합니다!](#두-배열의-교집합을-찾습니다-교차는-두-배열-내에-존재하는-공통-요소입니다-이-경우-이러한-요소는-고유해야-합니다)
 
-[이 작업을 수행할 수 있는 함수를 작성하십시오.](#write-a-function-that-would-allow-you-to-do-this)
+[이 작업을 수행할 수 있는 함수를 작성하십시오.](#이-작업을-수행할-수-있는-함수를-작성하십시오)
 
-[두 개의 문자열이 주어지면 서로의 아나그램이면 true를 반환합니다.](#given-two-strings-return-true-if-they-are-anagrams-of-one-another)
+[두 개의 문자열이 주어지면 서로의 아나그램이면 true를 반환합니다.](#두-개의-문자열이-주어지면-서로의-아나그램이면-true를-반환합니다)
 
-[주어진 문자열이 회문인지 확인하십시오. 대소문자 구분을 고려해야 합니다.](#check-if-a-given-string-is-a-palindrome-case-sensitivity-should-be-taken-into-account)
+[주어진 문자열이 회문인지 확인하십시오. 대소문자 구분을 고려해야 합니다.](#주어진-문자열이-회문인지-확인하십시오-대소문자-구분을-고려해야-합니다)
 
-[shim과 polyfill의 차이점은 무엇입니까?](#what-is-the-difference-between-a-shim-and-a-polyfill)
+[shim과 polyfill의 차이점은 무엇입니까?](#shim과-polyfill의-차이점은-무엇입니까)
 
-[다음 코드는 무엇을 출력할까요?](#what-will-the-following-code-output)
+[다음 코드는 무엇을 출력할까요?](#다음-코드는-무엇을-출력할까요)
 
-[ES5와 ES6의 차이점을 설명해 주시겠습니까?](#could-you-explain-the-difference-between-es5-and-es6)
+[ES5와 ES6의 차이점을 설명해 주시겠습니까?](#ES5와-ES6의-차이점을-설명해-주시겠습니까)
 
-[IIFE(즉시 호출된 함수 표현식)란 무엇입니까?](#what-is-iifes-immediately-invoked-function-expressions)
+[IIFE(즉시 호출된 함수 표현식)란 무엇입니까?](#IIFE즉시-호출된-함수-표현식란-무엇입니까)
 
-[다음 코드의 출력은 무엇입니까?](#what-will-be-the-output-of-the-following-code)
+[다음 코드의 출력은 무엇입니까?](#다음-코드의-출력은-무엇입니까)
 
-[다음 코드의 출력은 무엇입니까?](#what-will-be-the-output-of-the-following-code)
+[다음 코드의 출력은 무엇입니까?](#다음-코드의-출력은-무엇입니까)
 
 [부울 값을 부울 값으로 강제 변환하는 몇 가지 예를 제공합니다.](#provide-some-examples-of-non-boolean-value-coercion-to-a-boolean-one)
 
-[JavaScript에서 "정의되지 않음"과 "정의되지 않음"의 차이점 설명](#explain-the-difference-between-undefined-and-not-defined-in-javascript)
+[JavaScript에서 "정의되지 않음"과 "정의되지 않음"의 차이점 설명](#부울-값을-부울-값으로-강제-변환하는-몇-가지-예를-제공합니다)
 
-[다음 코드의 출력은 무엇입니까?](#what-will-be-the-output-of-the-following-code)
+[다음 코드의 출력은 무엇입니까?](#다음-코드의-출력은-무엇입니까)
 
-[JavaScript에서 진정한 private을 생성할 때의 단점은 무엇입니까?](#what-is-the-drawback-of-creating-true-private-in-javascript)
+[JavaScript에서 진정한 private을 생성할 때의 단점은 무엇입니까?](#JavaScript에서-진정한-private을-생성할-때의-단점은-무엇입니까)
 
-[익명 함수와 명명 함수의 차이점은 무엇입니까? ](#what-is-the-difference-between-anonymous-and-named-functions-)
+[익명 함수와 명명 함수의 차이점은 무엇입니까? ](#익명-함수와-명명-함수의-차이점은-무엇입니까-)
 
-[정수 배열이 주어졌을 때 세 개의 정수에서 가장 큰 곱을 찾습니다.](#given-an-array-of-integers-find-the-largest-product-yielded-from-three-of-the-integers)
+[정수 배열이 주어졌을 때 세 개의 정수에서 가장 큰 곱을 찾습니다.](#정수-배열이-주어졌을-때-세-개의-정수에서-가장-큰-곱을-찾습니다)
 
-[알고있는 만큼 JavaScript에서 closure 개념을 설명하십시오.](#describe-closure-concept-in-javascript-as-best-as-you-could)
+[알고있는 만큼 JavaScript에서 closure 개념을 설명하십시오.](#알고있는-만큼-JavaScript에서-closure-개념을-설명하십시오)
 
-[주어진 십진수의 이진 문자열을 반환하는 재귀 함수를 작성하십시오.](#write-a-recursive-function-that-returns-the-binary-string-of-a-given-decimal-number)
+[주어진 십진수의 이진 문자열을 반환하는 재귀 함수를 작성하십시오.](#주어진-십진수의-이진-문자열을-반환하는-재귀-함수를-작성하십시오)
 
-[자바 스크립트에서 "closure"이란 무엇입니까? 예를 들어주시겠습니까?](#what-is-closure-in-javascript-provide-an-example)
+[자바 스크립트에서 "closure"이란 무엇입니까? 예를 들어주시겠습니까?](#자바-스크립트에서-closure이란-무엇입니까-예를-들어주시겠습니까)
 
-[Javascript에서 hoisting이 무엇인지 설명](#explain-what-is-hoisting-in-javascript)
+[Javascript에서 hoisting이 무엇인지 설명](#Javascript에서-hoisting이-무엇인지-설명)
 
-[정수가 주어지면 2의 거듭제곱인지 확인합니다. 그렇다면 해당 숫자를 반환하고, 그렇지 않으면 -1을 반환합니다.](#given-an-integer-determine-if-it-is-a-power-of-2-if-so-return-that-number-else-return--1)
+[정수가 주어지면 2의 거듭제곱인지 확인합니다. 그렇다면 해당 숫자를 반환하고, 그렇지 않으면 -1을 반환합니다.](#정수가-주어지면-2의-거듭제곱인지-확인합니다-그렇다면-해당-숫자를-반환하고-그렇지-않으면--1을-반환합니다)
 
-[다음 코드의 출력은 무엇입니까?](#what-will-be-the-output-of-the-following-code)
+[다음 코드의 출력은 무엇입니까?](#다음-코드의-출력은-무엇입니까)
 
-[JS 모듈 디자인 패턴 설명](#describe-the-js-module-design-pattern)
+[JS 모듈 디자인 패턴 설명](#JS-모듈-디자인-패턴-설명)
 
-[JavaScript에서 private variable를 어떻게 만듭니까?](#how-would-you-create-a-private-variable-in-javascript)
+[JavaScript에서 private variable를 어떻게 만듭니까?](#JavaScript에서-private-variable를-어떻게-만듭니까)
 
-[프로토타입 디자인 패턴 설명](#explain-the-prototype-design-pattern)
+[프로토타입 디자인 패턴 설명](#프로토타입-디자인-패턴-설명)
 
-[이진 검색을 수행하는 재귀 함수 작성](#write-a-recursive-function-that-performs-a-binary-search)
+[이진 검색을 수행하는 재귀 함수 작성](#이진-검색을-수행하는-재귀-함수-작성)
 
-[주어진 표현식에 스택을 사용하여 균형 잡힌 괄호가 있는지 평가하는 함수를 만듭니다.](#create-a-function-that-will-evaluate-if-a-given-expression-has-balanced-parentheses-using-stacks)
+[주어진 표현식에 스택을 사용하여 균형 잡힌 괄호가 있는지 평가하는 함수를 만듭니다.](#주어진-표현식에-스택을-사용하여-균형-잡힌-괄호가-있는지-평가하는-함수를-만듭니다)
 
-[다음 코드의 출력은 무엇입니까?](#what-will-be-the-output-of-the-following-code)
+[다음 코드의 출력은 무엇입니까?](#다음-코드의-출력은 무엇입니까)
 
 [JavaScript에서 프로토타입 상속을 설명하시겠습니까?](#explain-prototype-inheritance-in-javascript)
 
