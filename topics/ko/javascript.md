@@ -18,15 +18,15 @@
 
 [Strict Mode는 무엇입니까?](#Strict-Mode는-무엇입니까)
 
-["use strict"은 무엇을 합니까?](#"use-strict"은-무엇을-합니까)
+["use strict"은 무엇을 합니까?](#use-strict은-무엇을-합니까)
 
-[Polyfill이란?](#what-is-a-polyfill)
+[Polyfill이란?](#Polyfill이란)
 
-[숫자가 정수인지 어떻게 확인합니까?](#how-would-you-check-if-a-number-is-an-integer)
+[숫자가 정수인지 어떻게 확인합니까?](#숫자가-정수인지-어떻게-확인합니까)
 
-[JavaScript의 값과 유형 설명](#explain-values-and-types-in-javascript)
+[JavaScript의 값과 유형 설명](#JavaScript의-값과-유형-설명)
 
-[정렬되지 않은 배열에 (n - 1)개의 연속된 숫자가 포함되어 있다고 하면(한계가 정의된 경우), O(n) 시간에서 결측 수를 찾습니다.](#being-told-that-an-unsorted-array-contains-n---1-of-n-consecutive-numbers-where-the-bounds-are-defined-find-the-missing-number-in-on-time)
+[정렬되지 않은 배열에 (n - 1)개의 연속된 숫자가 포함되어 있다고 하면(한계가 정의된 경우), O(n) 시간에서 결측 수를 찾습니다.](#정렬되지-않은-배열에-(n - 1)개의-연속된-숫자가-포함되어-있다고-하면(한계가-정의된 -경우),-O(n)-시간에서-결측-수를-찾습니다)
 
 [배열의 중복을 제거하고 고유한 요소의 배열만 반환합니다.](#remove-duplicates-of-an-array-and-return-an-array-of-only-unique-elements)
 
