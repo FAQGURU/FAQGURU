@@ -40,7 +40,7 @@
 24. TypeScript
 25. AWS
 26. Azure
-27. Git
+27. [Git](git.md)
 28. Code Problems
 29. Data Structures
 30. Design Patterns
