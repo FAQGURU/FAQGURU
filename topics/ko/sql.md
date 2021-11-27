@@ -1,116 +1,116 @@
 ## SQL
 
-[기본 키란 무엇입니까?](#what-is-primary-key)
+[기본 키란 무엇입니까?](#기본-키란-무엇입니까)
 
-[임시 테이블 정의 ](#define-a-temp-table-)
+[임시 테이블 정의 ](#임시-테이블-정의-)
 
-[view란 무엇입니까?](#what-is-a-view)
+[view란 무엇입니까?](#view란-무엇입니까)
 
-[로컬 임시 테이블과 전역 임시 테이블의 차이점은 무엇입니까?](#whats-the-difference-between-a-local--temp-table-and-a-global-temp-table)
+[로컬 임시 테이블과 전역 임시 테이블의 차이점은 무엇입니까?](#로컬-임시-테이블과-전역-임시-테이블의-차이점은-무엇입니까)
 
-[blocking이란?](#what-is-blocking)
+[blocking이란?](#blocking이란)
 
-[WHERE 절과 HAVING 절의 차이점은 무엇입니까?](#what-is-the-difference-between-where-clause-and-having-clause)
+[WHERE 절과 HAVING 절의 차이점은 무엇입니까?](#WHERE-절과-HAVING-절의-차이점은-무엇입니까)
 
-[외래 키란 무엇입니까?](#what-is-foreign-key)
+[외래 키란 무엇입니까?](#외래-키란-무엇입니까)
 
-[정규화란 무엇입니까?](#what-is-normalization)
+[정규화란 무엇입니까?](#정규화란-무엇입니까)
 
-[기본값이 있는 열을 기존 테이블에 어떻게 추가할 수 있습니까?](#how-can-a-column-with-a-default-value-be-added-to-an-existing-table)
+[기본값이 있는 열을 기존 테이블에 어떻게 추가할 수 있습니까?](#기본값이-있는-열을-기존-테이블에-어떻게-추가할-수-있습니까)
 
-[기본값이란 무엇입니까?](#what-is-default)
+[기본값이란 무엇입니까?](#기본값이란-무엇입니까)
 
-[내부 조인과 외부 조인의 차이점은 무엇입니까?](#what-is-the-difference-between-inner-and-outer-join)
+[내부 조인과 외부 조인의 차이점은 무엇입니까?](#내부-조인과-외부-조인의-차이점은-무엇입니까)
 
-[INNER JOIN ON 대 WHERE 절 토론](#discuss-inner-join-on-vs-where-clause)
+[INNER JOIN ON 대 WHERE 절 토론](#INNER-JOIN-ON-대-WHERE-절-토론)
 
-[클러스터형 인덱스와 비클러스터형 인덱스의 차이점은 무엇입니까?](#what-are-the-difference-between-clustered-and-a-non-clustered-index)
+[클러스터형 인덱스와 비클러스터형 인덱스의 차이점은 무엇입니까?](#클러스터형-인덱스와-비클러스터형-인덱스의-차이점은-무엇입니까)
 
-[SQL SELECT에서 IF…THEN을 어떻게 수행합니까?](#how-do-i-perform-an-ifthen-in-an-sql-select)
+[SQL SELECT에서 IF…THEN을 어떻게 수행합니까?](#SQL-SELECT에서-IFTHEN을-어떻게-수행합니까)
 
-[SQL 테이블에서 중복 값 찾기](#finding-duplicate-values-in-a-sql-table)
+[SQL 테이블에서 중복 값 찾기](#SQL-테이블에서-중복-값-찾기)
 
-[해시 테이블 인덱스는 어떻게 작동합니까?](#how-does-a-hash-table-index-work)
+[해시 테이블 인덱스는 어떻게 작동합니까?](#해시-테이블-인덱스는-어떻게-작동합니까)
 
-[저장 프로시저를 사용하면 어떤 이점이 있습니까?](#what-are-the-advantages-of-using-stored-procedures)
+[저장 프로시저를 사용하면 어떤 이점이 있습니까?](#저장-프로시저를-사용하면-어떤-이점이-있습니까)
 
-[비정규화란 무엇입니까?](#what-is-denormalization)
+[비정규화란 무엇입니까?](#비정규화란-무엇입니까)
 
-[테이블에서 처음 5개의 레코드를 선택하는 방법은 무엇입니까?](#how-to-select-first-5-records-from-a-table)
+[테이블에서 처음 5개의 레코드를 선택하는 방법은 무엇입니까?](#테이블에서-처음-5개의-레코드를-선택하는-방법은-무엇입니까)
 
-[ACID 속성 정의](#define-acid-properties)
+[ACID 속성 정의](#ACID-속성-정의)
 
-[데이터베이스 인덱스가 성능에 어떤 도움이 됩니까?](#how-a-database-index-can-help-performance)
+[데이터베이스 인덱스가 성능에 어떤 도움이 됩니까?](#데이터베이스-인덱스가-성능에-어떤-도움이-됩니까)
 
-[UNION과 UNION ALL의 차이점은 무엇입니까?](#what-is-the-difference-between-union-and-union-all	)
+[UNION과 UNION ALL의 차이점은 무엇입니까?](#UNION과-UNION-ALL의-차이점은-무엇입니까)
 
-[커서는 어떻게 작동합니까?](#what-is-a-cursor-how-does-it-work)
+[커서는 어떻게 작동합니까?](#커서는-어떻게-작동합니까)
 
-[SQL Server의 SELECT에서 어떻게 업데이트합니까?](#how-do-i-update-from-a-select-in-sql-server)
+[SQL Server의 SELECT에서 어떻게 업데이트합니까?](#SQL-Server의-SELECT에서-어떻게-업데이트합니까)
 
-["INNER JOIN"과 "OUTER JOIN"의 차이점은 무엇입니까?](#what-is-the-difference-between-inner-join-and-outer-join)
+["INNER JOIN"과 "OUTER JOIN"의 차이점은 무엇입니까?](#INNER-JOIN과-OUTER-JOIN의-차이점은-무엇입니까)
 
-[테이블에서 데이터를 삭제하면 테이블 크기가 줄어듭니까?](#is-table-size-reduced-when-you-delete-data-from-the-table)
+[테이블에서 데이터를 삭제하면 테이블 크기가 줄어듭니까?](#테이블에서-데이터를-삭제하면-테이블-크기가-줄어듭니까)
 
-[SQL Server의 함수 및 저장 프로시저 설명](#explain-function-vs-stored-procedure-in-sql-server)
+[SQL Server의 함수 및 저장 프로시저 설명](#SQL-Server의-함수-및-저장-프로시저-설명)
 
-[행 생성자란 무엇입니까?](#what-are-row-constructors)
+[행 생성자란 무엇입니까?](#행-생성자란-무엇입니까)
 
-[JOIN과 UNION의 차이점은 무엇입니까?](#what-is-the-difference-between-join-and-union)
+[JOIN과 UNION의 차이점은 무엇입니까?](#JOIN과-UNION의-차이점은-무엇입니까)
 
-[대조란 무엇입니까?](#what-is-collation)
+[대조란 무엇입니까?](#대조란-무엇입니까)
 
-[자르기와 삭제의 차이점 설명](#describe-the-difference-between-truncate-and-delete)
+[자르기와 삭제의 차이점 설명](#자르기와-삭제의-차이점-설명)
 
-[B-트리 인덱스는 어떻게 작동합니까?](#how-does-b-trees-index-work)
+[B-트리 인덱스는 어떻게 작동합니까?](#B-트리-인덱스는-어떻게-작동합니까)
 
-[통계란 무엇입니까?](#what-are-statistics)
+[통계란 무엇입니까?](#통계란-무엇입니까)
 
-[교착 상태는 어떻게 해결됩니까?](#how-deadlock-is-resolved)
+[교착 상태는 어떻게 해결됩니까?](#교착-상태는-어떻게-해결됩니까)
 
-[UNION, MINUS 및 INTERSECT의 차이점은 무엇입니까?](#what-is-the-difference-among-union-minus-and-intersect)
+[UNION, MINUS 및 INTERSECT의 차이점은 무엇입니까?](#UNION-MINUS-및-INTERSECT의-차이점은-무엇입니까)
 
-[파일 그룹이란 무엇입니까?](#what-is-a-filegroup)
+[파일 그룹이란 무엇입니까?](#파일-그룹이란-무엇입니까)
 
-[SQL에서 JOIN으로 UPDATE 문을 수행하려면 어떻게 해야 합니까?](#how-can-i-do-an-update-statement-with-join-in-sql)
+[SQL에서 JOIN으로 UPDATE 문을 수행하려면 어떻게 해야 합니까?](#SQL에서-JOIN으로-UPDATE-문을-수행하려면-어떻게-해야-합니까)
 
-[자르기 및 삭제 작업은 ID에 어떤 영향을 줍니까?](#how-does-truncate-and-delete-operation-effect-identity)
+[자르기 및 삭제 작업은 ID에 어떤 영향을 줍니까?](#자르기-및-삭제-작업은-ID에-어떤-영향을-줍니까)
 
-[사용자 정의 함수와 저장 프로시저의 사용법 차이 설명](#explain-a-usage-difference-between-user-defined-functions-and-stored-procedures)
+[사용자 정의 함수와 저장 프로시저의 사용법 차이 설명](#사용자-정의-함수와-저장-프로시저의-사용법-차이-설명)
 
-[연결된 서버란 무엇입니까?](#what-is-a-linked-server)
+[연결된 서버란 무엇입니까?](#연결된-서버란-무엇입니까)
 
-[SQL을 사용하여 테이블을 어떻게 전치할 수 있습니까(행을 열로 또는 그 반대로 변경)?](#how-can-we-transpose-a-table-using-sql-changing-rows-to-column-or-vice-versa-)
+[SQL을 사용하여 테이블을 어떻게 전치할 수 있습니까(행을 열로 또는 그 반대로 변경)?](#SQL을-사용하여-테이블을-어떻게-전치할-수-있습니까행을-열로-또는-그-반대로 변경)
 
-[인덱스가 없으면 어떻게 될까요?](#what-would-happen-without-an-index)
+[인덱스가 없으면 어떻게 될까요?](#인덱스가-없으면-어떻게-될까요)
 
-[트리거의 이름 유형](#name-types-of-triggers)
+[트리거의 이름 유형](#트리거의-이름-유형)
 
-[DMV와 DMF는 무엇입니까?](#what-are-dmvs-and-dmfs)
+[DMV와 DMF는 무엇입니까?](#DMV와-DMF는-무엇입니까)
 
-[기본 키와 고유 키의 차이점은 무엇입니까?](#whats-the-difference-between-a-primary-key-and-a-unique-key)
+[기본 키와 고유 키의 차이점은 무엇입니까?](#기본-키와-고유-키의-차이점은-무엇입니까)
 
-[SQL 테이블에서 중복 값 삭제](#delete-duplicate-values-in-a-sql-table)
+[SQL 테이블에서 중복 값 삭제](#SQL-테이블에서-중복-값-삭제)
 
-[데이터베이스 인덱스를 보유하는 데 드는 비용은 얼마입니까?](#what-is-the-cost-of-having-a-database-index)
+[데이터베이스 인덱스를 보유하는 데 드는 비용은 얼마입니까?](#데이터베이스-인덱스를-보유하는-데-드는-비용은-얼마입니까)
 
-[ROWNUM 없이 SQL에서 행 번호를 생성하는 방법](#how-to-generate-row-number-in-sql-without-rownum)
+[ROWNUM 없이 SQL에서 행 번호를 생성하는 방법](#ROWNUM-없이-SQL에서-행-번호를-생성하는 방법)
 
-[exclusive lock과 update lock의 차이점 설명](#explain-the-difference-between-exclusive-lock-and-update-lock)
+[exclusive lock과 update lock의 차이점 설명](#exclusive-lock과-update-lock의-차이점-설명)
 
-[저장 프로시저의 결과를 임시 테이블에 삽입](#insert-results-of-a-stored-procedure-into-a-temporary-table)
+[저장 프로시저의 결과를 임시 테이블에 삽입](#저장-프로시저의-결과를-임시-테이블에-삽입)
 
-[다른 유형의 인덱스는 무엇입니까?](#what-are-some-other-types-of-indexes)
+[다른 유형의 인덱스는 무엇입니까?](#다른-유형의-인덱스는-무엇입니까)
 
-[해시 인덱스의 몇 가지 단점을 말하십시오.](#name-some-disadvantages-of-a-hash-index)
+[해시 인덱스의 몇 가지 단점을 말하십시오.](#해시-인덱스의-몇-가지-단점을-말하십시오)
 
-[데이터베이스 인덱싱은 어떻게 작동합니까?](#how-does-database-indexing-work)
+[데이터베이스 인덱싱은 어떻게 작동합니까?](#데이터베이스-인덱싱은-어떻게-작동합니까)
 
-[기본 키 제약 조건과 고유 키 제약 조건은 어떻게 null에 영향을 줍니까?](#how-does-primary-key-constraint-and-unique-key-constraint-effect-null)
+[기본 키 제약 조건과 고유 키 제약 조건은 어떻게 null에 영향을 줍니까?](#기본-키-제약-조건과-고유-키-제약-조건은-어떻게-null에-영향을-줍니까)
 
-[각 GROUP BY 그룹의 첫 번째 행을 선택하시겠습니까(그룹당 최대 n개 문제)?](#select-first-row-in-each-group-by-group-greatest-n-per-group-problem)
+[각 GROUP BY 그룹의 첫 번째 행을 선택하시겠습니까(그룹당 최대 n개 문제)?](#각-GROUP-BY-그룹의-첫-번째 행을-선택하시겠습니까그룹당-최대-n개-문제)
 
-[낙관적 잠금과 비관적 잠금이란 무엇입니까?](#what-is-optimistic-locking-and-pessimistic-locking)
+[낙관적 잠금과 비관적 잠금이란 무엇입니까?](#낙관적-잠금과-비관적-잠금이란-무엇입니까)
 
 
 
