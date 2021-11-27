@@ -2,23 +2,23 @@
 
 [JavaScript에서 강제 변환이란 무엇입니까?](#JavaScript에서-강제-변환이란-무엇입니까)
 
-[typeof 연산자는 무엇입니까?](#what-is-typeof-operator)
+[typeof 연산자는 무엇입니까?](#typeof-연산자는-무엇입니까)
 
-[개체 유형은 무엇입니까?](#what-is-the-object-type)
+[개체 유형은 무엇입니까?](#개체-유형은-무엇입니까)
 
-[JavaScript에서 배열 설명](#explain-arrays-in-javascript)
+[JavaScript에서 배열 설명](#JavaScript에서-배열-설명)
 
-[JavaScript에서 equality 설명](#explain-equality-in-javascript)
+[JavaScript에서 equality 설명](#JavaScript에서-equality-설명)
 
-[JavaScript에서 스코프란?](#what-is-scope-in-javascript)
+[JavaScript에서 스코프란?](#JavaScript에서-스코프란?)
 
-[JavaScript에서 let 키워드는 무엇입니까?](#what-is-let-keyword-in-javascript)
+[JavaScript에서 let 키워드는 무엇입니까?](#JavaScript에서-let-키워드는-무엇입니까)
 
-[콜백 함수가 무엇인지 설명하고 간단한 예제를 설명하시오](#explain-what-a-callback-function-is-and-provide-a-simple-example)
+[콜백 함수가 무엇인지 설명하고 간단한 예제를 설명하시오](#콜백-함수가-무엇인지-설명하고-간단한-예제를 -설명하시오)
 
-[Strict Mode는 무엇입니까?](#what-is-strict-mode)
+[Strict Mode는 무엇입니까?](#Strict-Mode는-무엇입니까)
 
-["use strict"은 무엇을 합니까?](#what-does-use-strict-do)
+["use strict"은 무엇을 합니까?](#"use strict"은-무엇을-합니까)
 
 [Polyfill이란?](#what-is-a-polyfill)
 
