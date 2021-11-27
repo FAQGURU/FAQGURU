@@ -31,7 +31,7 @@
 15. GraphQL
 16. [C#](c.md)
 17. Golang
-18. Java
+18. [Java](java.md)
 19. ASP.NET
 20. ASP.NET MVC
 21. .NET Framework
