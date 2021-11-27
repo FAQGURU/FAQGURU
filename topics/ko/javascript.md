@@ -108,25 +108,25 @@
 
 [다음 코드의 출력은 무엇입니까?](#다음-코드의-출력은 무엇입니까)
 
-[JavaScript에서 프로토타입 상속을 설명하시겠습니까?](#explain-prototype-inheritance-in-javascript)
+[JavaScript에서 프로토타입 상속을 설명하시겠습니까?](#JavaScript에서-프로토타입-상속을-설명하시겠습니까)
 
-["Transpiling"는 무엇을 의미합니까?](#what-does-the-term-transpiling-stand-for)
+["Transpiling"는 무엇을 의미합니까?](#Transpiling는-무엇을-의미합니까)
 
-[JavaScript에서 "new" 키워드는 무엇입니까?](#what-is-the-new-keyword-in-javascript)
+[JavaScript에서 "new" 키워드는 무엇입니까?](#JavaScript에서-new-키워드는-무엇입니까)
 
-[언제 "바인드" 기능을 사용하시겠습니까?](#when-would-you-use-the-bind-function)
+[언제 "바인드" 기능을 사용하시겠습니까?](#언제-바인드-기능을-사용하시겠습니까)
 
-["this" 키워드는 어떻게 작동합니까? 몇 가지 코드 예제를 제공하십시오.](#how-does-the-this-keyword-work-provide-some-code-examples)
+["this" 키워드는 어떻게 작동합니까? 몇 가지 코드 예제를 제공하십시오.](#this-키워드는-어떻게-작동합니까-몇-가지-코드-예제를-제공하십시오)
 
-[다음 코드가 작동하도록 Array 객체에 고유한 메서드를 어떻게 추가하시겠습니까?](#how-would-you-add-your-own-method-to-the-array-object-so-the-following-code-would-work)
+[다음 코드가 작동하도록 Array 객체에 고유한 메서드를 어떻게 추가하시겠습니까?](#다음-코드가-작동하도록-Array-객체에-고유한-메서드를-어떻게-추가하시겠습니까)
 
-[JavaScript에서 Hoisting은 무엇입니까?](#what-is-hoisting-in-javascript)
+[JavaScript에서 Hoisting은 무엇입니까?](#JavaScript에서-Hoisting은-무엇입니까)
 
-[다음 코드의 출력은 무엇입니까?](#what-will-the-following-code-output)
+[다음 코드의 출력은 무엇입니까?](#다음-코드의-출력은-무엇입니까)
 
-[주어진 문자열이 동형인지 확인](#check-if-a-given-string-is-a-isomorphic)
+[주어진 문자열이 동형인지 확인](#주어진-문자열이-동형인지-확인)
 
-[Revealing Module Pattern 디자인 패턴 설명](#describe-the-revealing-module-pattern-design-pattern)
+[Revealing Module Pattern 디자인 패턴 설명](#Revealing-Module-Pattern-디자인-패턴-설명)
 
 
 
