@@ -18,7 +18,7 @@
 
 [Strict Mode는 무엇입니까?](#Strict-Mode는-무엇입니까)
 
-["use strict"은 무엇을 합니까?](#"use strict"은-무엇을-합니까)
+["use strict"은 무엇을 합니까?](#use strict은-무엇을-합니까)
 
 [Polyfill이란?](#what-is-a-polyfill)
 
