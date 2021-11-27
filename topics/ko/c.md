@@ -1,6 +1,6 @@
 ## C#
 
-[C#이란?](#what-is-c)
+[C#이란?](#C#이란?)
 
 [C#에서 "continue" 및 "break" 문의 차이점은 무엇입니까?](#what-is-the-difference-between-continue-and-break-statements-in-c)
 
