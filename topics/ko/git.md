@@ -50,7 +50,7 @@
 
 ["git merge" 대신 "git rebase"를 언제 사용합니까?](#git-merge-대신-git-rebase를-언제-사용합니까)
 
-[git rebase를 쉽게 취소하는 방법을 알고 있습니까? ](#git-rebase를-쉽게-취소하는-방법을-알고-있습니까-)
+[git rebase를 쉽게 취소하는 방법을 알고 있습니까?](#git-rebase를-쉽게-취소하는-방법을-알고-있습니까)
 
 
 
