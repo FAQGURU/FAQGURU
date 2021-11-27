@@ -1,6 +1,6 @@
 ## JavaScript
 
-[JavaScript에서 강제 변환이란 무엇입니까?](#what-is-coercion-in-javascript)
+[JavaScript에서 강제 변환이란 무엇입니까?](#JavaScript에서-강제-변환이란-무엇입니까)
 
 [typeof 연산자는 무엇입니까?](#what-is-typeof-operator)
 
