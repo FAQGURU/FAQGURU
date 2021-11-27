@@ -1,6 +1,6 @@
 ## C#
 
-[C#이란?](#C이란?)
+[C#이란?](#C이란)
 
 [C#에서 "continue" 및 "break" 문의 차이점은 무엇입니까?](#C에서-continue-및-break-문의-차이점은-무엇입니까)
 
@@ -246,7 +246,7 @@ C#은 Microsoft .NET 응용 프로그램을 작성하기 위한 프로그래밍 
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### property Accessors란 무엇입니까?
 
 속성의 _get_ 및 _set_ 부분 또는 블록을 접근자라고 합니다. 이는 속성의 액세스 가능성을 제한하는 데 유용합니다. set 접근자는 속성의 개인 필드에 값을 할당할 수 있도록 지정하고 set 접근자 속성이 없으면 읽기 전용 필드와 같습니다. get 접근자를 통해 private 필드의 값에 액세스할 수 있습니다. 즉, 단일 값을 반환합니다. Get 접근자는 공개적으로 필드 값에 액세스할 수 있음을 지정합니다.
@@ -255,7 +255,7 @@ C#은 Microsoft .NET 응용 프로그램을 작성하기 위한 프로그래밍 
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### Object란 무엇입니까?
 
 MSDN에 따르면 "_a 클래스 또는 구조체 정의는 유형이 수행할 수 있는 작업을 지정하는 청사진과 같습니다. 객체는 기본적으로 청사진에 따라 할당 및 구성된 메모리 블록입니다. 프로그램은 동일한 객체를 여러 개 생성할 수 있습니다. 개체는 인스턴스라고도 하며 명명된 변수나 배열 또는 컬렉션에 저장할 수 있습니다. 클라이언트 코드는 이러한 변수를 사용하여 메서드를 호출하고 개체의 공용 속성에 액세스하는 코드입니다. C#과 같은 지향 언어, 일반적인 프로그램은 동적으로 상호 작용하는 여러 개체로 구성됩니다."
@@ -266,7 +266,7 @@ MSDN에 따르면 "_a 클래스 또는 구조체 정의는 유형이 수행할 �
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 구조체와 클래스의 차이점은 무엇입니까?
 
 클래스와 구조체는 모두 사용자 정의 데이터 유형이지만 몇 가지 주요 차이점이 있습니다:
@@ -293,7 +293,7 @@ MSDN에 따르면 "_a 클래스 또는 구조체 정의는 유형이 수행할 �
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### LINQ를 사용하여 목록에서 처음 3개의 짝수를 필터링합니다.
 
 ```csharp
@@ -306,7 +306,7 @@ var evenNumbers = List
 
 * https://medium.com/sears-israel/my-number-one-c-interview-question-39cdaac16c
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 enum(열거형)은 무엇입니까?
 
 **enum**은 종종 열거자 목록이라고 하는 관련 명명된 상수 집합이 있는 값 유형입니다. enum 키워드는 열거형을 선언하는 데 사용됩니다. 사용자가 정의한 원시 데이터 유형입니다. 열거형은 .NET 프레임워크에서 숫자 상수를 만드는 데 사용됩니다. enum의 모든 멤버는 enum 유형입니다. 각 열거형 유형에 대한 숫자 값이어야 합니다.
@@ -325,7 +325,7 @@ var evenNumbers = List
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### 예외 처리는 C#에서 어떻게 구현됩니까?
 
 예외 처리는 C#에서 4개의 키워드를 사용하여 수행됩니다:
@@ -339,7 +339,7 @@ var evenNumbers = List
 
 * https://www.softwaretestinghelp.com/c-sharp-interview-questions/
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 "finally" 블록을 사용하는 이유는 무엇입니까?
 
 **Finally** 블록은 예외와 상관없이 실행됩니다. 따라서 예외가 발생하면 try 블록에서 코드를 실행하는 동안 catch 블록으로 제어가 반환되어 마침내 'finally' 블록이 실행됩니다. 따라서 데이터베이스 연결을 닫거나 파일 핸들러를 해제하는 것은 `finally` 블록에 보관할 수 있습니다.
@@ -348,7 +348,7 @@ var evenNumbers = List
 
 * http://a4academics.com/interview-questions/52-dot-net-interview-questions/417-c-oops-interview-questions-and-answers?showall=&start=1
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 nullable 형식이란 무엇입니까?
 
 C#은 특수 데이터 형식인 **nullable types**을 제공하며 여기에는 일반적인 값 범위와 null 값을 할당할 수 있습니다.
@@ -359,7 +359,7 @@ C#은 특수 데이터 형식인 **nullable types**을 제공하며 여기에는
 
 * https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#의 동적 유형 변수는 무엇입니까?
 
 동적 데이터 유형 변수에 모든 유형의 값을 저장할 수 있습니다. 이러한 유형의 변수에 대한 유형 검사는 런타임에 발생합니다.
@@ -368,7 +368,7 @@ C#은 특수 데이터 형식인 **nullable types**을 제공하며 여기에는
 
 * https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### "this"를 정적 메서드 내에서 사용할 수 있습니까?
 
 키워드 _this_는 그것을 포함하는 클래스의 현재 인스턴스에 대한 참조를 반환하기 때문에 정적 메소드에서 _this_를 사용할 수 없습니다. 정적 메서드(또는 정적 멤버)는 특정 인스턴스에 속하지 않습니다. 클래스의 인스턴스를 생성하지 않고 존재하며 인스턴스가 아닌 클래스 이름으로 호출하므로 정적 메소드의 본문에서 이 키워드를 사용할 수 없지만 확장 메소드의 경우 함수 매개변수로 사용할 수 있습니다.
@@ -377,7 +377,7 @@ C#은 특수 데이터 형식인 **nullable types**을 제공하며 여기에는
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 속성을 정의하시겠습니까?
 
 **Properties** 은 개인 필드의 값을 읽고, 쓰고, 계산하는 유연한 메커니즘을 제공하는 멤버입니다. 즉, 속성을 통해 개인 필드에 액세스할 수 있습니다. 다시 말해서 속성은 하나의 매개변수가 있거나 매개변수가 없는 반환 유형 함수/메서드라고 말할 수 있습니다. 이들은 항상 공개 데이터 멤버입니다. 접근자라고 하는 개인 필드에 액세스하고 값을 할당하는 메서드를 사용합니다.
@@ -386,7 +386,7 @@ C#은 특수 데이터 형식인 **nullable types**을 제공하며 여기에는
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### 관리 코드 또는 비관리 코드란 무엇입니까?
 
 * **Managed Code**  - .NET 프레임워크에서 개발된 코드를 관리 코드라고 합니다. 이 코드는 관리 코드 실행을 통해 CLR에서 직접 실행됩니다. .NET Framework로 작성된 모든 언어는 관리 코드입니다.
@@ -397,7 +397,7 @@ C#은 특수 데이터 형식인 **nullable types**을 제공하며 여기에는
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#의 참조 유형은 무엇입니까?
 
 **reference types** 은 변수에 저장된 실제 데이터를 포함하지 않지만 변수에 대한 참조를 포함합니다.
@@ -408,7 +408,7 @@ C#은 특수 데이터 형식인 **nullable types**을 제공하며 여기에는
 
 * https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 namespace란 무엇입니까?
 
 **namespace** 는 한 세트의 이름을 다른 세트와 분리하는 방법을 제공하기 위해 설계되었습니다. 한 네임스페이스에서 선언된 클래스 이름은 다른 네임스페이스에서 선언된 동일한 클래스 이름과 충돌하지 않습니다.
@@ -417,7 +417,7 @@ C#은 특수 데이터 형식인 **nullable types**을 제공하며 여기에는
 
 * https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 string과 StringBuilder의 차이점은 무엇입니까?
 
 **String**
@@ -434,7 +434,7 @@ C#은 특수 데이터 형식인 **nullable types**을 제공하며 여기에는
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### 메소드에 매개변수를 전달할 수 있는 방법은 몇 가지입니까?
 
 매개 변수를 메서드에 전달할 수 있는 세 가지 방법이 있습니다:
@@ -447,7 +447,7 @@ C#은 특수 데이터 형식인 **nullable types**을 제공하며 여기에는
 
 * https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#의 함수에서 여러 값을 반환할 수 있습니까?
 
 네! 출력 매개변수 사용. return 문은 함수에서 하나의 값만 반환하는 데 사용할 수 있습니다. 그러나 출력 매개변수를 사용하면 함수에서 두 개의 값을 반환할 수 있습니다.
@@ -456,7 +456,7 @@ C#은 특수 데이터 형식인 **nullable types**을 제공하며 여기에는
 
 * https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### partial classes은 무엇입니까?
 
 **partial** 클래스는 동일한 소스 코드 파일 또는 둘 이상의 소스 파일에서 둘 이상의 클래스에서 클래스 정의를 분할하는 데만 사용됩니다. 여러 파일에 클래스 정의를 만들 수 있지만 런타임에 하나의 클래스로 컴파일되고 이 클래스의 인스턴스를 만들 때도 동일한 개체를 사용하여 모든 소스 파일의 모든 메서드에 액세스할 수 있습니다. 부분 클래스는 동일한 네임스페이스에 생성할 수 있으며 다른 네임스페이스에 부분 클래스를 생성할 수 없습니다.
@@ -465,7 +465,7 @@ C#은 특수 데이터 형식인 **nullable types**을 제공하며 여기에는
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### 추상 클래스 란 무엇입니까?
 
 **Abstract class** 은 abstract 키워드로 표시되는 클래스로 Base 클래스로만 사용할 수 있습니다. Abstract 클래스는 항상 상속되어야 합니다. 클래스 자체의 인스턴스를 만들 수 없습니다. 어떤 프로그램이 클래스의 객체를 생성하는 것을 원하지 않는다면 그러한 클래스를 추상화할 수 있습니다.
@@ -476,7 +476,7 @@ C#은 특수 데이터 형식인 **nullable types**을 제공하며 여기에는
 
 * https://www.softwaretestinghelp.com/c-sharp-interview-questions/
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### Boxing과 Unboxing이란?
 
 Boxing과 Unboxing은 모두 유형 변환에 사용되지만 몇 가지 차이점이 있습니다.
@@ -491,7 +491,7 @@ boxing 및 unboxing의 개념은 모든 형식의 값을 개체로 취급할 수
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#의 다양한 클래스 유형은 무엇입니까?
 
 C#의 다양한 클래스 유형은 다음과 같습니다:
@@ -505,7 +505,7 @@ C#의 다양한 클래스 유형은 다음과 같습니다:
 
 * https://www.softwaretestinghelp.com/c-sharp-interview-questions/
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### 인터페이스 내부의 메서드에 대한 접근성 한정자를 지정할 수 없는 이유는 무엇입니까?
 
 인터페이스에는 메서드 정의가 없는 가상 메서드가 있습니다. 모든 메서드는 파생 클래스에서 재정의되어야 합니다. 그것이 그들이 모두 공개적인 이유입니다.
@@ -514,7 +514,7 @@ C#의 다양한 클래스 유형은 다음과 같습니다:
 
 * https://www.guru99.com/c-sharp-interview-questions.html
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### 사용자 지정 예외란 무엇입니까?
 
 때때로 사용자 요구 사항에 따라 처리해야 하는 몇 가지 오류가 있습니다. 사용자 정의 예외가 사용되며 정의된 예외로 사용됩니다.
@@ -523,7 +523,7 @@ C#의 다양한 클래스 유형은 다음과 같습니다:
 
 * https://www.guru99.com/c-sharp-interview-questions.html
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### 여러 catch 블록을 실행할 수 있습니까?
 
 아니요, 캐치 블록을 여러 개 실행할 수 없습니다. 일단 적절한 캐치 코드가 실행되면, 컨트롤은 최종 블록으로 전송되고 그 다음에 최종 블록을 따르는 코드가 실행된다.
@@ -532,7 +532,7 @@ C#의 다양한 클래스 유형은 다음과 같습니다:
 
 * https://www.guru99.com/c-sharp-interview-questions.html
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 LINQ는 무엇입니까?
 
 **LINQ** 은 언어 통합 쿼리를 나타냅니다. LINQ는 모든 데이터 소스를 쿼리할 수 있는 강력한 기능을 가지고 있습니다. 데이터 소스는 개체, 데이터베이스 또는 XML 파일의 컬렉션일 수 있습니다. `IEnumerable<T>` 인터페이스를 구현하는 모든 개체에서 데이터를 쉽게 검색할 수 있습니다.
@@ -541,7 +541,7 @@ C#의 다양한 클래스 유형은 다음과 같습니다:
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### Serialization란?
 
 **Serialization** 은 파일과 같은 보조 메모리에 개체의 상태를 저장하는 것을 의미합니다.
@@ -554,7 +554,7 @@ C#의 다양한 클래스 유형은 다음과 같습니다:
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#.Net의 값 유형 및 참조 유형으로 무엇을 이해합니까?
 
 C#에서 데이터 유형은 **값 유형**과 **참조 유형**의 두 가지 유형일 수 있습니다. 값 유형 변수에는 해당 개체(또는 데이터)가 직접 포함됩니다. 하나의 값 유형 변수를 다른 변수에 복사하면 실제로 두 번째 변수에 대한 개체의 복사본을 만드는 것입니다. 값 유형 멤버는 스택에 위치하며 참조 멤버는 항상 힙에 위치합니다.
@@ -563,7 +563,7 @@ C#에서 데이터 유형은 **값 유형**과 **참조 유형**의 두 가지 �
 
 * https://stackoverflow.com/questions/412813/when-to-use-arraylist-over-array-in-c
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 제네릭이란 무엇입니까?
 
 **Generics** 은 프로그램에서 실제로 사용될 때까지 클래스나 메서드에서 프로그래밍 요소의 데이터 유형 지정을 지연할 수 있습니다. 다시 말해, 제네릭을 사용하면 모든 데이터 유형에서 작동할 수 있는 클래스 또는 메서드를 작성할 수 있습니다.
@@ -572,7 +572,7 @@ C#에서 데이터 유형은 **값 유형**과 **참조 유형**의 두 가지 �
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### ref와 out 키워드의 차이점은 무엇입니까?
 
 * **out**은 키워드는 인수가 참조로 전달되도록 합니다. 이것은 ref가 전달되기 전에 변수 _be를 초기화해야 한다는 점을 제외하고는 ref 키워드와 유사합니다.
@@ -583,7 +583,7 @@ C#에서 데이터 유형은 **값 유형**과 **참조 유형**의 두 가지 �
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 등호 연산자(==)와 Equals() 메서드의 차이점은 무엇입니까?
 
 == 연산자(일반적으로 ReferenceEquals와 동일함, 재정의될 수 있음)는 참조 ID를 비교하는 반면 Equals()(가상 Equals()) 메서드는 두 개체가 동일한지 비교합니다.
@@ -592,7 +592,7 @@ C#에서 데이터 유형은 **값 유형**과 **참조 유형**의 두 가지 �
 
 * https://stackoverflow.com/questions/3191969/5-ways-for-equality-check-in-net-why-and-which-to-use
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 Anonymous function란 무엇입니까?
 
 **anonymous function**은 대리자 형식이 예상되는 모든 위치에서 사용할 수 있는 "인라인" 문 또는 식입니다. 이를 사용하여 명명된 대리자를 초기화하거나 명명된 대리자 형식 대신 메서드 매개 변수로 전달할 수 있습니다.
@@ -632,7 +632,7 @@ testDelC("I'm a famous author.");
 
 * https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/anonymous-functions
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 lambda식은 무엇입니까?
 
 **lambda expression**는 대리자 또는 _expression tree_ 유형을 만드는 데 사용할 수 있는 익명 함수입니다. 람다 식을 사용하여 인수로 전달되거나 함수 호출의 값으로 반환될 수 있는 로컬 함수를 작성할 수 있습니다. 람다 식은 LINQ 쿼리 식을 작성할 때 특히 유용합니다.
@@ -641,7 +641,7 @@ testDelC("I'm a famous author.");
 
 * https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/lambda-expressions
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### 인터페이스와 추상 클래스의 차이점은 무엇입니까?
 
 **추상 클래스**와 **인터페이스** 사이에는 다음과 같은 몇 가지 차이점이 있습니다.
@@ -658,7 +658,7 @@ testDelC("I'm a famous author.");
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 가상 메서드란 무엇입니까?
 
 가상 메서드는 파생 클래스에서 재정의할 수 있는 메서드입니다. 가상 메서드는 파생 클래스뿐만 아니라 기본 클래스에서도 구현됩니다. 가상 메서드가 호출되면 개체의 런타임 형식에서 재정의 멤버가 있는지 확인합니다.
@@ -670,7 +670,7 @@ testDelC("I'm a famous author.");
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### 코드 리팩토링
 
 `this` 키워드는 다른 생성자를 호출하여 클래스 객체를 초기화하는 데 사용됩니다. 다음은 구현을 보여줍니다.
@@ -690,7 +690,7 @@ class ClassA
 
 * https://www.toptal.com/c-sharp/interview-questions
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### 아래 프로그램의 출력은 무엇입니까? 당신의 대답을 설명하십시오.
 
 이 프로그램은 숫자 10을 10번 출력합니다.
@@ -701,7 +701,7 @@ class ClassA
 
 * https://www.toptal.com/c-sharp/interview-questions
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### int 배열이 주어지면 짝수인 모든 값의 합계를 구하는 C# 메서드를 작성합니다.
 
 ```csharp
@@ -720,7 +720,7 @@ static long TotalAllEvenNumbers(int[] intArray) {
 
 * https://www.toptal.com/c-sharp/interview-questions
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 상수와 읽기 전용의 차이점은 무엇입니까?
 
 **Const**(const) 및 **Readonly **(readonly) 둘 다 용도에 따라 같아 보이지만 몇 가지 차이점이 있습니다.
@@ -733,7 +733,7 @@ static long TotalAllEvenNumbers(int[] intArray) {
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 "using"의 용도는 무엇입니까?
 
 using 문을 사용하는 이유는 개체가 범위를 벗어나는 즉시 삭제되고(IDisposable 호출) 이러한 일이 발생하도록 하기 위해 명시적 코드가 필요하지 않도록 하기 위함입니다.
@@ -767,7 +767,7 @@ to:
 
 * https://stackoverflow.com/questions/75401/what-are-the-uses-of-using-in-c-sharp
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 Null 병합 연산자(??)의 용도는 무엇입니까?
 
 **??** 연산자는 **null-coalescing operator**라고 하며 nullable 값 유형 또는 참조 유형에 대한 기본값을 정의하는 데 사용됩니다. 피연산자가 null이 아니면 왼쪽 피연산자를 반환합니다. 그렇지 않으면 오른쪽 피연산자를 반환합니다.
@@ -782,7 +782,7 @@ Console.WriteLine(myname);
 
 * https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C# 클래스의 내부 멤버 변수 범위는 무엇입니까?
 
 **Internal** 액세스 지정자는 클래스가 _현재 어셈블리_의 다른 함수 및 개체에 해당 멤버 변수 및 멤버 함수를 노출할 수 있도록 합니다. 즉, 내부 액세스 지정자가 있는 모든 멤버는 해당 멤버가 정의된 응용 프로그램 내에 정의된 모든 클래스 또는 메서드에서 액세스할 수 있습니다.
@@ -792,7 +792,7 @@ Console.WriteLine(myname);
 
 * https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 Anonymous type 설명
 
 **Anonymous types** 을 사용하면 정의하지 않고 새 유형을 만들 수 있습니다. 이것은 유형을 명시적으로 정의하지 않고 단일 객체에 읽기 전용 속성을 정의하는 방법입니다. 여기서 Type은 컴파일러에 의해 생성되며 현재 코드 블록에 대해서만 액세스할 수 있습니다. 속성 유형은 컴파일러에서도 유추됩니다.
@@ -812,7 +812,7 @@ Console.WriteLine("First Name : " + anonymousData.ForeName);
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### throw 예외와 throw 절의 차이점은 무엇입니까?
 
 * 기본적인 차이점은 **Throw exception**이 스택 추적을 덮어쓰므로 예외를 throw한 원래 코드 줄 번호를 찾기가 어렵습니다.
@@ -822,7 +822,7 @@ Console.WriteLine("First Name : " + anonymousData.ForeName);
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#.Net에서 리플렉션이란 무엇입니까?
 
 **Reflection** 은 동적 방식으로 유형 시스템을 쿼리하고 상호 작용하는 기능입니다. 일반적으로 리플렉션을 사용하면 개체에 대한 메타데이터에 액세스할 수 있습니다. 예를 들어 DLL을 로드하고 인터페이스 구현이 포함되어 있는지 확인할 수 있습니다. 이것을 사용하여 런타임에 기능을 지원하는 dll을 찾을 수 있습니다. 이를 사용하여 다시 컴파일하거나 다시 시작할 필요 없이 응용 프로그램을 확장할 수 있습니다.
@@ -831,7 +831,7 @@ Console.WriteLine("First Name : " + anonymousData.ForeName);
 
 * https://stackoverflow.com/questions/1859902/in-3-minutes-what-is-reflection
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### 캡슐화는 C#에서 어떻게 구현됩니까?
 
 **캡슐화**는 **액세스 지정자**를 사용하여 구현됩니다. 액세스 지정자는 클래스 멤버의 범위와 가시성을 정의합니다.
@@ -845,7 +845,7 @@ Console.WriteLine("First Name : " + anonymousData.ForeName);
 
 * https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### 상수와 읽기 전용의 차이점은 무엇입니까?
 
 상수 변수는 컴파일 타임에 선언되고 초기화됩니다. 값은 나중에 변경할 수 없습니다. Readonly는 런타임에 값을 할당하려는 경우에만 사용됩니다.
@@ -854,7 +854,7 @@ Console.WriteLine("First Name : " + anonymousData.ForeName);
 
 * https://www.guru99.com/c-sharp-interview-questions.html
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### 동적 유형 변수와 객체 유형 변수의 차이점은 무엇입니까?
 
 동적 유형은 개체 유형 변수에 대한 유형 검사가 컴파일 시간에 발생하는 반면 동적 유형 변수에 대한 유형 검사는 런타임에 발생한다는 점을 제외하고는 개체 유형과 유사합니다.
@@ -863,7 +863,7 @@ Console.WriteLine("First Name : " + anonymousData.ForeName);
 
 * https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ###  C#의 확장 메서드는 무엇이며 어떻게 사용합니까?
 
 **Extension methods** 을 사용하면 새 파생 형식을 만들거나, 다시 컴파일하거나, 원래 형식을 수정하지 않고도 기존 형식에 메서드를 추가할 수 있습니다. 확장 메소드는 특별한 종류의 정적 메소드이지만 확장 유형의 인스턴스 메소드인 것처럼 호출됩니다.
@@ -886,7 +886,7 @@ namespace ExtensionMethods
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 delegates란 무엇이며 delegates uses은 무엇입니까?
 
 C# 대리자는 C 또는 C++에서 함수에 대한 포인터와 동일합니다. 대리자 개체는 메서드에 대한 참조를 유지하는 데 사용하는 참조 형식 변수입니다. 참조는 델리게이트의 객체에 의해 유지되는 런타임에 변경될 수 있습니다. 델리게이트 개체는 시퀀스 FIFO의 함수를 참조하는 호출 목록이라고도 하는 많은 함수 참조를 보유할 수 있습니다. 런타임에 이 목록에서 새로운 기능을 참조할 수 있습니다. += 연산자를 사용하고 -= 연산자로 제거할 수 있습니다.
@@ -897,7 +897,7 @@ C# 대리자는 C 또는 C++에서 함수에 대한 포인터와 동일합니다
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 sealed class는 무엇입니까?
 
 **Sealed** 클래스는 객체 지향 프로그래밍의 상속 기능을 제한하는 데 사용됩니다. 클래스가 봉인된 클래스로 정의되면 클래스를 상속할 수 없습니다.
@@ -908,7 +908,7 @@ C# 대리자는 C 또는 C++에서 함수에 대한 포인터와 동일합니다
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### 오버로딩과 오버라이드의 차이점은 무엇입니까?
 
 * **Overloading** 은 같은 범위에 이름은 같지만 서명이 다른 여러 메서드가 있는 경우입니다.
@@ -949,7 +949,7 @@ public class test2 : test
 
 * https://stackoverflow.com/questions/673721/overloading-and-overriding
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#의 코드 컴파일 설명
 
 코드 컴파일에는 다음과 같은 4단계가 있습니다:
@@ -963,7 +963,7 @@ public class test2 : test
 
 * https://www.softwaretestinghelp.com/c-sharp-interview-questions/
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### Virtual method와 Abstract method의 차이점은 무엇입니까?
 
 * **Virtual method** 은 항상 기본 구현이 있어야 합니다. 그러나 필수는 아니지만 파생 클래스에서 재정의할 수 있습니다. _override_ 키워드를 사용하여 재정의할 수 있습니다.
@@ -973,7 +973,7 @@ public class test2 : test
 
 * https://www.softwaretestinghelp.com/c-sharp-interview-questions/
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 소멸자란 무엇입니까?
 
 **Destructor** 메모리를 정리하고 리소스를 해제하는 데 사용됩니다. 그러나 C#에서는 가비지 수집기가 자체적으로 수행합니다. System.GC.Collect()는 정리를 위해 내부적으로 호출됩니다. 그러나 때로는 소멸자를 수동으로 구현해야 할 수도 있습니다.
@@ -982,7 +982,7 @@ public class test2 : test
 
 * https://www.softwaretestinghelp.com/c-sharp-interview-questions/
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### StackOverflowError와 OutOfMemoryError의 차이점은 무엇입니까?
 
 * **OutOfMemoryError** 는 힙과 관련이 있습니다. 피하려면: GC에 불필요한 개체를 사용할 수 있는지 확인하십시오.
@@ -993,7 +993,7 @@ public class test2 : test
 
 * http://a4academics.com/interview-questions/52-dot-net-interview-questions/417-c-oops-interview-questions-and-answers?showall=&start=1
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 late binding과 early binding의 차이점은 무엇입니까?
 
 * **Compile time polymorphism** 또는 **Early Binding**에서는 이름은 같지만 매개변수 유형이 다른 여러 메서드를 사용하거나 숫자 또는 매개변수가 될 수 있습니다. 메서드 **오버로딩**이라고도 하는 동일한 클래스입니다.
@@ -1004,7 +1004,7 @@ public class test2 : test
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### 메소드가 오버로드될 수 있는 다른 방법은 무엇입니까?
 
 매개변수에 대해 다른 데이터 유형, 매개변수 순서 및 매개변수 수를 사용하여 메소드를 오버로드할 수 있습니다.
@@ -1013,7 +1013,7 @@ public class test2 : test
 
 * https://www.guru99.com/c-sharp-interview-questions.html
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 dispose와 finalize 메소드의 차이점은 무엇입니까?
 
 Finalizer와 Dispose는 모두 관리되지 않는 리소스를 해제하는 것과 같은 동일한 작업에 사용되지만 몇 가지 차이점이 있습니다.
@@ -1037,7 +1037,7 @@ Finalizer와 Dispose는 모두 관리되지 않는 리소스를 해제하는 것
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### marshalling은 무엇이며 왜 필요한가?
 
 언어와 환경에 따라 호출 규칙, 레이아웃 규칙, 기본 형식의 크기(C#의 char 및 C의 char 참조), 개체 생성/파기 규칙 및 디자인 지침이 다르기 때문입니다. 관리되는 토지의 물건을 관리되지 않는 토지가 보고 이해할 수 있는 곳으로 가져갈 수 있는 방법이 필요합니다. 마샬링이 바로 그것입니다.
@@ -1046,7 +1046,7 @@ Finalizer와 Dispose는 모두 관리되지 않는 리소스를 해제하는 것
 
 * https://stackoverflow.com/questions/2240804/marshalling-what-is-it-and-why-do-we-need-it
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### 접근성 수정자 "protected internal"를 설명합니다.
 
 보호된 내부 변수/메서드는 동일한 어셈블리 내에서 그리고 이 부모 클래스에서 파생된 클래스에서도 액세스할 수 있습니다.
@@ -1055,7 +1055,7 @@ Finalizer와 Dispose는 모두 관리되지 않는 리소스를 해제하는 것
 
 * https://www.guru99.com/c-sharp-interview-questions.html
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#의 포인터 유형은 무엇입니까?
 
 **Pointer type** 변수는 다른 유형의 메모리 주소를 저장합니다. C#의 포인터는 C 또는 C++의 포인터와 동일한 기능을 가지고 있습니다.
@@ -1069,7 +1069,7 @@ char* cptr;  int* iptr;
 
 * https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 다차원 배열과 배열의 차이점은 무엇입니까?
 
 * 배열의 배열(jagged 배열)은 다차원 배열보다 빠르며 더 효과적으로 사용할 수 있습니다.
@@ -1079,7 +1079,7 @@ char* cptr;  int* iptr;
 
 * https://stackoverflow.com/questions/597720/what-are-the-differences-between-a-multidimensional-array-and-an-array-of-arrays
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C# 클래스의 Protected Internal 멤버 변수의 범위는 무엇입니까?
 
 **protected internal** 액세스 지정자를 사용하면 클래스가 동일한 응용 프로그램 내의 자식 클래스를 제외하고 다른 클래스 개체 및 함수에서 해당 멤버 변수 및 멤버 함수를 숨길 수 있습니다. 이것은 상속을 구현할 때도 사용됩니다.
@@ -1088,7 +1088,7 @@ char* cptr;  int* iptr;
 
 * https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### 다양한 수의 인수를 허용할 수 있는 함수를 C#에서 만들 수 있습니까?
 
 'params' 키워드를 사용하여 가변 개수의 인수를 사용하는 메서드 매개변수를 지정할 수 있습니다. 메서드 선언에서 params 키워드 뒤에는 추가 매개 변수가 허용되지 않으며 메서드 선언에는 하나의 params 키워드만 허용됩니다. params 매개변수의 선언된 유형은 1차원 배열이어야 합니다.
@@ -1119,7 +1119,7 @@ UseParams2(1, 'a', "test");
 
 * https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### 연산자 오버로딩이 C#에서 지원되나요?
 
 C#에서 사용할 수 있는 대부분의 기본 제공 연산자를 재정의하거나 오버로드할 수 있습니다. 따라서 프로그래머는 사용자 정의 유형과 함께 연산자도 사용할 수 있습니다
@@ -1130,7 +1130,7 @@ C#에서 사용할 수 있는 대부분의 기본 제공 연산자를 재정의�
 
 * https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 조건부 전처리기 지시문을 사용하는 방법은 무엇입니까?
 
 `#if` 지시문을 사용하여 조건부 지시문을 만들 수 있습니다. 조건부 지시문은 기호가 true로 평가되는지 확인하기 위해 기호를 테스트하는 데 유용합니다. true로 평가되면 컴파일러는 `#if`와 다음 지시문 사이의 모든 코드를 평가합니다.
@@ -1139,7 +1139,7 @@ C#에서 사용할 수 있는 대부분의 기본 제공 연산자를 재정의�
 
 * https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### System.ApplicationException 클래스와 System.SystemException 클래스의 차이점은 무엇입니까?
 
 * `System.ApplicationException` 클래스는 응용 프로그램에서 생성된 예외를 지원합니다. 따라서 프로그래머가 정의한 예외는 이 클래스에서 파생되어야 합니다.
@@ -1149,7 +1149,7 @@ C#에서 사용할 수 있는 대부분의 기본 제공 연산자를 재정의�
 
 * https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#의 Indexer는 무엇입니까?
 
 **indexer** 를 사용하면 배열과 같은 객체를 인덱싱할 수 있습니다. 클래스에 대한 인덱서를 정의하면 이 클래스는 가상 배열과 유사하게 동작합니다. 그런 다음 배열 액세스 연산자([ ])를 사용하여 이 클래스의 인스턴스에 액세스할 수 있습니다. 인덱서는 오버로드될 수 있습니다. 인덱서는 여러 매개변수를 사용하여 선언할 수도 있으며 각 매개변수는 다른 유형일 수 있습니다. 인덱스가 정수일 필요는 없습니다. C#에서는 인덱스가 문자열과 같은 다른 유형이 될 수 있습니다.
@@ -1184,7 +1184,7 @@ class IndexedNames {
 
 * https://www.tutorialspoint.com/csharp/csharp_indexers.htm
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 "catch" 블록 없이 "try" 블록만 가질 수 있습니까?
 
 예, catch 블록 없이 try 블록만 가질 수 있지만 finally 블록은 있어야 합니다.
@@ -1193,7 +1193,7 @@ class IndexedNames {
 
 * http://a4academics.com/interview-questions/52-dot-net-interview-questions/417-c-oops-interview-questions-and-answers?showall=&start=1
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### try 블록에 return 문을 추가하면 finally 블록이 C#에서 실행되는지 여부는?
 
 예. 마지막으로 블록은 try 블록에 return 문이 있는 경우에도 계속 실행됩니다.
@@ -1202,7 +1202,7 @@ class IndexedNames {
 
 * http://a4academics.com/interview-questions/52-dot-net-interview-questions/417-c-oops-interview-questions-and-answers?showall=&start=1
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 생성자 연결이란 무엇입니까?
 
 **Constructor Chaining** 은 생성자가 동일한 또는 기본 클래스의 다른 생성자를 호출하는 접근 방식입니다. 이것은 여러 생성자를 정의하는 클래스가 있을 때 매우 편리합니다.
@@ -1233,7 +1233,7 @@ class Foo {
 
 * https://stackoverflow.com/questions/1814953/c-sharp-constructor-chaining-how-to-do-it
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 delegates의 용도는 무엇입니까?
 
 다음은 C#의 대리자 사용 목록입니다:
@@ -1246,7 +1246,7 @@ class Foo {
 
 * http://a4academics.com/interview-questions/52-dot-net-interview-questions/417-c-oops-interview-questions-and-answers?showall=&start=1
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 잠금 문을 사용하는 이유는 무엇입니까?
 
 **Lock** 은 한 스레드가 코드의 일부를 실행하는 다른 스레드를 가로채지 않도록 합니다. 따라서 lock 문은 스레드를 기다리게 하고 객체가 해제될 때까지 차단합니다.
@@ -1255,7 +1255,7 @@ class Foo {
 
 * http://a4academics.com/interview-questions/52-dot-net-interview-questions/417-c-oops-interview-questions-and-answers?showall=&start=1
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 다중 상속을 구현할 수 있습니까?
 
 C#에서 파생 클래스는 하나의 기본 클래스에서만 상속할 수 있습니다. 여러 기본 클래스에서 상속하려면 인터페이스를 사용하십시오.
@@ -1264,7 +1264,7 @@ C#에서 파생 클래스는 하나의 기본 클래스에서만 상속할 수 �
 
 * https://stackoverflow.com/questions/4506990/what-is-the-use-of-static-constructors
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### 아래 쇼트 프로그램의 결과는 무엇입니까? 당신의 대답을 설명하십시오
 
 출력은 다음과 같습니다.
@@ -1278,7 +1278,7 @@ location is null
 
 * https://www.toptal.com/c-sharp/interview-questions
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### 아래 if 문에서 시간과 null의 비교가 유효한가요? 그 이유는?
 
 `DateTime` 변수는 절대 null이 될 수 없기 때문에(0001년 1월 1일로 자동 초기화됨) 컴파일러는 `DateTime` 변수가 `null`과 비교될 때 불평할 것이라고 생각할 수도 있습니다. 그러나 형식 강제로 인해 컴파일러는 이를 허용하므로 잠재적으로 헤드페이크 및 뽑기 버그가 발생할 수 있습니다.
@@ -1298,7 +1298,7 @@ Console.WriteLine(x == y);  // outputs true
 
 * https://www.toptal.com/c-sharp/interview-questions
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### 아래 프로그램의 출력은 무엇입니까? 당신의 대답을 설명하십시오.
 
 질문의 첫 번째 부분(즉, `await Task.Delay(5);`이 있는 코드 버전)에 대한 대답은 프로그램이 빈 줄을 출력한다는 것입니다("Hello world!"가 아닌_). 이는 `Console.WriteLine`이 호출될 때 `result`가 여전히 초기화되지 않기 때문입니다.
@@ -1316,7 +1316,7 @@ Console.WriteLine(x == y);  // outputs true
 
 * https://www.toptal.com/c-sharp/interview-questions
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### 아래 프로그램의 출력은 무엇입니까?
 
 `테스트값 : 10`
@@ -1327,7 +1327,7 @@ Console.WriteLine(x == y);  // outputs true
 
 * https://www.toptal.com/c-sharp/interview-questions
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 array[]보다 ArrayList를 언제 사용합니까?
 
 * **Arrays**는 강력한 형식이며 매개변수로 잘 작동합니다. 컬렉션의 길이를 알고 고정되어 있으면 배열을 사용해야 합니다.
@@ -1339,7 +1339,7 @@ Console.WriteLine(x == y);  // outputs true
 
 * https://stackoverflow.com/questions/412813/when-to-use-arraylist-over-array-in-c
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 사용되는 "yield" 키워드는 무엇입니까?
 
 이 함수는 'IEnumerable' 인터페이스를 구현하는 객체를 반환합니다. 호출 함수가 이 객체에 대해 foreach-ing을 시작하면 함수가 "양보"할 때까지 다시 호출됩니다. 이것은 C# 2.0에 도입된 구문 설탕입니다.
@@ -1354,7 +1354,7 @@ Console.WriteLine(x == y);  // outputs true
 
 * https://stackoverflow.com/questions/39476/what-is-the-yield-keyword-used-for-in-c
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### .Net의 개체 풀이란 무엇입니까?
 
 개체 풀링은 나중에 재사용할 수 있도록 메모리에 개체 풀을 유지하려고 하므로 개체 생성 로드를 크게 줄일 수 있습니다. 새 개체에 대한 요청이 있을 때마다 풀 관리자는 요청을 받고 풀에서 개체를 할당하여 서비스를 제공합니다.
@@ -1363,7 +1363,7 @@ Console.WriteLine(x == y);  // outputs true
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### "where" 메서드가 작동하려면 데이터 구조에서 어떤 인터페이스를 구현해야 합니까?
 
 `IEnumerable`
@@ -1372,7 +1372,7 @@ Console.WriteLine(x == y);  // outputs true
 
 * https://medium.com/sears-israel/my-number-one-c-interview-question-39cdaac16c
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### IEnumerable vs List - 무엇을 사용할 것인가? 그들은 어떻게 작동합니까?
 
 `IEnumerable`은 동작을 설명하는 반면 List는 해당 동작의 구현입니다. `IEnumerable`을 사용하면 컴파일러가 작업을 나중으로 연기할 수 있는 기회를 주어 최적화할 수 있습니다. `ToList()`를 사용하면 컴파일러가 결과를 즉시 구체화하도록 합니다.
@@ -1383,7 +1383,7 @@ LINQ 표현식을 "스택"할 때마다 `IEnumerable`을 사용해야 합니다.
 
 * https://stackoverflow.com/questions/3628425/ienumerable-vs-list-what-to-use-how-do-they-work
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 "is"와 "as" 연산자의 이름 차이
 
 * 'is' 연산자는 객체를 특정 유형으로 캐스팅할 수 있는지 확인합니다.
@@ -1401,7 +1401,7 @@ if (b != null) ...
 
 * https://stackoverflow.com/questions/3786361/difference-between-is-and-as-keyword
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### Func<string,string>과 delegate의 차이점은 무엇입니까?
 
 첫 번째는 제네릭 대리자 변수를 선언하고 값을 할당하는 것이고, 두 번째는 대리자 유형을 정의하는 것입니다. `Func<string,string>` 및 대리자 문자열 convertMethod(string) 모두 메서드, 익명 메서드 또는 람다 식이든 동일한 메서드 정의를 보유할 수 있습니다.
@@ -1427,7 +1427,7 @@ public static class Program
 
 * https://stackoverflow.com/questions/6818656/what-is-the-difference-between-funcstring-string-and-delegate
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### Select와 Where의 차이점 설명
 
 * **Select**는 프로젝션이므로 서버의 ContextSet()에 있는 각 요소에 대해 평가된 표현식 `x=> x.FirstName == "John"`이 표시됩니다. 즉, 많은 참/거짓 값(원래 목록과 동일한 숫자). 선택하면 `IEnumerable<bool>`과 같은 항목이 반환됩니다(`x=> x.FirstName == "John"`의 유형은 bool이기 때문에). 모든 결과를 유지하되 유형을 변경(투영)하려면 '선택'을 사용하세요.
@@ -1438,7 +1438,7 @@ public static class Program
 
 * https://stackoverflow.com/questions/8230278/difference-between-select-and-where-in-entity-framework
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 단락 평가가 무엇인지 설명
 
 **단락 평가**는 논리 연산자 AND 및 OR을 평가하는 까다로운 방법입니다. 이 방법에서는 모든 하위 표현식을 평가하지 않고 전체 표현식을 'true' 또는 'false'로 평가할 수 있습니다.
@@ -1447,7 +1447,7 @@ public static class Program
 
 * https://www.c-sharpcorner.com/article/short-circuit-evaluation-in-c-sharp/
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### .Net에서 평등 검사를 위한 몇 가지 다른 방법 나열
 
 * ReferenceEquals() 메서드 - 두 개의 참조 유형 변수(구조체가 아닌 클래스)가 동일한 메모리 주소를 참조하는지 확인합니다.
@@ -1460,7 +1460,7 @@ public static class Program
 
 * https://stackoverflow.com/questions/3191969/5-ways-for-equality-check-in-net-why-and-which-to-use
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 멀티캐스트 delegate란 무엇입니까?
 
 대리자는 대리자에 캡슐화된 하나의 메서드 참조만 호출할 수 있습니다. 특정 대리자가 여러 메서드를 보유하고 호출하는 것이 가능합니다. 이러한 대리자를 **멀티캐스트 대리자**라고 합니다. 멀티캐스트 대리자는 결합 가능한 대리자라고도 하며 다음 조건을 충족해야 합니다.
@@ -1505,7 +1505,7 @@ ublic partial class MainPage : PhoneApplicationPage
 
 * https://stackoverflow.com/questions/15023736/multicast-delegate-c-sharp
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#.Net에서 jagged 배열이란 무엇이며 언제 다차원 배열보다 jagged 배열을 선호합니까?
 
 **jagged 배열**(`double[][]`)은 요소가 배열인 배열입니다. 들쭉날쭉한 배열의 요소는 차원과 크기가 다를 수 있습니다. 속도에 관심이 있다면 항상 다차원 배열보다 들쭉날쭉한 배열을 선호합니다. .NET 런타임 지원(지터 및 CLR)은 벡터와 배열을 강력하게 구분합니다. 들쭉날쭉한 배열은 벡터의 벡터이므로 사용할 때 모든 런타임 최적화를 얻을 수 있습니다. 다차원 배열은 그렇지 않습니다. 속도 차이는 약 2배입니다.
@@ -1516,7 +1516,7 @@ ublic partial class MainPage : PhoneApplicationPage
 
 * https://stackoverflow.com/questions/19887182/what-can-be-a-situation-where-a-jagged-array-be-preferred-over-a-normal-rectangu
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 sealed 추상 클래스를 만들 수 있습니까?
 
 아뇨! 추상 클래스는 봉인된 것으로 선언할 수 없으므로 생성할 수 없습니다.
@@ -1525,7 +1525,7 @@ ublic partial class MainPage : PhoneApplicationPage
 
 * https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 deep copy 또는 shallow copy 개념이란 무엇입니까?
 
 * **Shallow Copy**는 객체의 값 유형 필드를 대상 객체에 복사하는 것이며 객체의 참조 유형은 참조로 대상 객체에 복사되지만 참조된 객체 자체는 복사되지 않습니다. 유형을 비트별로 복사합니다. 결과적으로 두 인스턴스가 모두 복제되고 원본이 동일한 개체를 참조하게 됩니다.
@@ -1537,7 +1537,7 @@ ublic partial class MainPage : PhoneApplicationPage
 
 * https://social.msdn.microsoft.com/Forums/vstudio/en-US/ea757e8d-0f50-44a0-a586-f3ea541f6536/what-is-deep-or-shallow-copy-concept-in-c?forum=csharpgeneral
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 전처리기 지시문이란 무엇입니까?
 
 **전처리기 지시문**은 실제 컴파일이 시작되기 전에 정보를 사전 처리하도록 컴파일러에 지시합니다.
@@ -1548,7 +1548,7 @@ ublic partial class MainPage : PhoneApplicationPage
 
 * https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### 소멸자, 폐기 및 종료 방법의 차이점을 설명할 수 있습니까?
 
 C# 용어에서 소멸자와 종료자는 기본적으로 상호 교환 가능한 개념이며 형식이 수집될 때 **관리되지 않는** 리소스(예: 외부 핸들)를 해제하는 데 사용해야 합니다. 종료자를 작성해야 하는 경우는 ***매우*** 드뭅니다.
@@ -1559,7 +1559,7 @@ C# 용어에서 소멸자와 종료자는 기본적으로 상호 교환 가능�
 
 * https://stackoverflow.com/questions/13988334/difference-between-destructor-dispose-and-finalize-method
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### System.Array.CopyTo()와 System.Array.Clone()의 차이점은 무엇입니까?
 
 * **Clone** - Method creates a shallow copy of an array. A shallow copy of an Array copies only the elements of the Array, whether they are reference types or value types, but it does not copy the objects that the references refer to. The references in the new Array point to the same objects that the references in the original Array point to.
@@ -1569,7 +1569,7 @@ C# 용어에서 소멸자와 종료자는 기본적으로 상호 교환 가능�
 
 * https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### LINQ에서 지연된 실행의 이점은 무엇입니까?
 
 LINQ에서 쿼리에는 즉시 실행과 지연 실행이라는 두 가지 실행 동작이 있습니다. 지연된 실행은 실현된 값이 실제로 필요할 때까지 표현식 평가가 지연됨을 의미합니다. 불필요한 실행을 방지하여 성능을 크게 향상시킵니다.
@@ -1586,7 +1586,7 @@ LINQ가 매번 완전히 실행되도록 하려면 각 작업(Select / Where)이
 
 * https://stackoverflow.com/questions/7324033/what-are-the-benefits-of-a-deferred-execution-in-linq
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### MemberwiseClone() 메서드는 무엇을 합니까?
 
 **MemberwiseClone()** 메서드는 새 개체를 만든 다음 현재 개체의 비정적 필드를 새 개체에 복사하여 _shallow copy_를 만듭니다.
@@ -1620,7 +1620,7 @@ public class Person
 
 * https://stackoverflow.com/questions/2289420/what-is-the-method-memberwiseclone-doing
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### 순환 참조란 무엇입니까?
 
 **Circular reference** 는 두 개 이상의 리소스가 서로 종속되어 잠금 상태가 되어 리소스를 사용할 수 없게 만드는 상황입니다.
@@ -1629,7 +1629,7 @@ public class Person
 
 * https://www.guru99.com/c-sharp-interview-questions.html
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### lambdas와 delegates의 차이점은 무엇입니까?
 
 그들은 실제로 두 가지 매우 다른 것입니다:
@@ -1643,7 +1643,7 @@ public class Person
 
 * https://stackoverflow.com/questions/73227/what-is-the-difference-between-lambdas-and-delegates-in-the-net-framework
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### IEnumerable과 IQueryable의 차이점은 무엇입니까?
 
 * `IEnumerable<>` 인터페이스는 무언가를 열거할 수 있음을 나타냅니다. 즉, foreach 루프를 수행할 수 있습니다.
@@ -1655,7 +1655,7 @@ IQueryable<T>에 있는 것은 IEnumerable<T>가 특히 두 가지 속성이 아
 
 * https://stackoverflow.com/questions/252785/what-is-the-difference-between-iqueryablet-and-ienumerablet
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### Func vs. Action vs. Predicate의 차이점을 설명해 주시겠습니까?
 
 * **Predicate**: 본질적으로 `Func<T, bool>`; "지정된 인수가 대리자가 나타내는 조건을 충족합니까?"라는 질문을 합니다. `List.FindAll`과 같은 것에서 사용됩니다.
@@ -1666,7 +1666,7 @@ IQueryable<T>에 있는 것은 IEnumerable<T>가 특히 두 가지 속성이 아
 
 * https://stackoverflow.com/questions/6818656/what-is-the-difference-between-funcstring-string-and-delegate
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 약한 참조가 무엇인지 설명하십시오.
 
 가비지 수집기는 응용 프로그램의 코드가 해당 개체에 도달할 수 있는 동안 응용 프로그램에서 사용 중인 개체를 수집할 수 없습니다. 응용 프로그램에 개체에 대한 강력한 참조가 있다고 합니다.
@@ -1679,7 +1679,7 @@ Weak references 는 많은 메모리를 사용하는 개체에 유용하지만 �
 
 * https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/weak-references?view=netframework-4.7.2
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### IQueryable, ICollection, IList 및 IDictionary 인터페이스의 차이점을 설명하시겠습니까?
 
 이러한 모든 인터페이스는 **IEnumerable**에서 상속됩니다. 이 인터페이스를 사용하면 기본적으로 'foreach' 문(C#에서)에서 클래스를 사용할 수 있습니다.
@@ -1693,7 +1693,7 @@ Weak references 는 많은 메모리를 사용하는 개체에 유용하지만 �
 
 * https://stackoverflow.com/questions/4455428/difference-between-iqueryable-icollection-ilist-idictionary-interface
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ###  C#에서 확장 메서드가 있는 인터페이스 대신 추상 클래스를 사용해야 하는 경우는 언제입니까?
 
 * **Abstract** 클래스는 _inheritance_에 의해 작동합니다. 특별한 기본 클래스이기 때문에 일부 is-a-relationship을 모델링합니다.
@@ -1706,7 +1706,7 @@ Weak references 는 많은 메모리를 사용하는 개체에 유용하지만 �
 
 * https://softwareengineering.stackexchange.com/questions/41740/when-to-use-abstract-classes-instead-of-interfaces-with-extension-methods-in-c
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### 기존 정적 클래스에 확장 메서드를 추가할 수 있습니까?
 
 아니요. 확장 메서드에는 개체에 대한 인스턴스 변수(값)가 필요합니다. 그러나 정적 래퍼 클래스를 작성할 수 있습니다. 또한 확장 메서드는 구문 설탕입니다.
@@ -1727,7 +1727,7 @@ ExtensionClass.SomeStringExtension(myString);
 
 * https://stackoverflow.com/questions/249222/can-i-add-extension-methods-to-an-existing-static-class/26831158
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### C#에서 "where" 메서드 구현
 
 Consider:
@@ -1750,7 +1750,7 @@ public static IEnumerable<T> Where<T>(this IEnumerable<T> items, Predicate< T> p
 
 * https://medium.com/sears-israel/my-number-one-c-interview-question-39cdaac16c
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### "volatile" 키워드는 무엇에 사용됩니까?
 
 C#에서 'volatile'은 변수 값이 프로그램 자체 범위(예: 운영 체제, 하드웨어 또는 동시에 실행되는 스레드)를 벗어나 변경될 수 있으므로 변수 값을 캐시해서는 안 된다고 컴파일러에 지시합니다. 그러면 컴파일러는 변수가 "제어 범위 밖에서" 변경되는 경우 문제를 일으킬 수 있는 최적화를 방지합니다.
@@ -1759,7 +1759,7 @@ C#에서 'volatile'은 변수 값이 프로그램 자체 범위(예: 운영 체�
 
 * https://stackoverflow.com/questions/3430757/what-is-the-volatile-keyword-used-for
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### 원의 둘레를 계산
 
 선호하는 답변은 다음과 같은 형식입니다:
@@ -1785,7 +1785,7 @@ var circumference = 2 * Math.PI * radius;
 
 * https://www.toptal.com/c-sharp/interview-questions
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
 ### 정적 생성자의 용도는 무엇입니까?
 
 **static constructor** 는 유형(또는 기타 유형별 작업)과 관련된 모든 정적 필드를 초기화하는 데 유용합니다. 특히 필수 구성 데이터를 읽기 전용 필드로 읽는 데 유용합니다.
@@ -1798,4 +1798,4 @@ var circumference = 2 * Math.PI * radius;
 
 * https://stackoverflow.com/questions/4506990/what-is-the-use-of-static-constructors
 
-[[↑] 맨 위로](#C%23)
+[[↑] 맨 위로](#C)
