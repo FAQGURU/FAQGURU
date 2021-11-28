@@ -210,7 +210,7 @@
 
 ### JVM이란 무엇입니까? Java를 "플랫폼 독립 프로그래밍 언어"라고 부르는 이유는 무엇입니까?
 
-A Java virtual machine (JVM) is a process virtual machine that can execute Java bytecode. Each Java source file is compiled into a bytecode file, which is executed by the JVM. Java was designed to allow application programs to be built that could be run on any platform, without having to be rewritten or recompiled by the programmer for each separate platform. A Java virtual machine makes this possible, because it is aware of the specific instruction lengths and other particularities of the underlying hardware platform.
+JVM(Java Virtual Machine)은 Java 바이트 코드를 실행할 수 있는 프로세스 가상 머신입니다. 각 Java 소스 파일은 JVM에서 실행되는 바이트 코드 파일로 컴파일됩니다. Java는 프로그래머가 각각의 개별 플랫폼에 대해 다시 작성하거나 다시 컴파일할 필요 없이 모든 플랫폼에서 실행할 수 있는 응용 프로그램을 빌드할 수 있도록 설계되었습니다. Java 가상 머신은 기본 하드웨어 플랫폼의 특정 명령어 길이 및 기타 특성을 알고 있기 때문에 이를 가능하게 합니다.
 
 ###### Source
 
@@ -219,7 +219,7 @@ A Java virtual machine (JVM) is a process virtual machine that can execute Java 
 [[↑] 맨 위로](#Java)
 ### 서블릿이란 무엇입니까?
 
-The servlet is a Java programming language class used to process client requests and generate dynamic web content. Servlets are mostly used to process or store data submitted by an HTML form, provide dynamic content and manage state information that does not exist in the stateless HTTP protocol.
+서블릿은 클라이언트 요청을 처리하고 동적 웹 콘텐츠를 생성하는 데 사용되는 Java 프로그래밍 언어 클래스입니다. 서블릿은 주로 HTML 형식으로 제출된 데이터를 처리하거나 저장하고, 동적 콘텐츠를 제공하고, Stateless HTTP 프로토콜에 없는 상태 정보를 관리하는 데 사용됩니다.
 
 ###### Source
 
@@ -228,7 +228,7 @@ The servlet is a Java programming language class used to process client requests
 [[↑] 맨 위로](#Java)
 ### JSP 페이지란 무엇입니까?
 
-A Java Server Page (JSP) is a text document that contains two types of text: static data and JSP elements. Static data can be expressed in any text-based format, such as HTML or XML. JSP is a technology that mixes static content with dynamically-generated content.
+JSP(Java Server Page)는 정적 데이터와 JSP 요소라는 두 가지 유형의 텍스트를 포함하는 텍스트 문서입니다. 정적 데이터는 HTML 또는 XML과 같은 텍스트 기반 형식으로 표현할 수 있습니다. JSP는 정적 콘텐츠와 동적으로 생성된 콘텐츠를 혼합하는 기술입니다.
 
 ###### Source
 
@@ -237,7 +237,7 @@ A Java Server Page (JSP) is a text document that contains two types of text: sta
 [[↑] 맨 위로](#Java)
 ### 스윙에 대해 이야기합시다. 선택과 목록의 차이점은 무엇입니까?
 
-A Choice is displayed in a compact form that must be pulled down, in order for a user to be able to see the list of all available choices. Only one item may be selected from a Choice. A List may be displayed in such a way that several List items are visible. A List supports the selection of one or more List items.
+선택 항목은 사용자가 사용 가능한 모든 선택 항목의 목록을 볼 수 있도록 풀다운해야 하는 압축된 형식으로 표시됩니다. 선택 항목에서 하나의 항목만 선택할 수 있습니다. 목록은 여러 목록 항목이 표시되는 방식으로 표시될 수 있습니다. 목록은 하나 이상의 목록 항목 선택을 지원합니다.
 
 ###### Source
 
@@ -246,7 +246,7 @@ A Choice is displayed in a compact form that must be pulled down, in order for a
 [[↑] 맨 위로](#Java)
 ### 애플릿과 자바 애플리케이션의 차이점은 무엇입니까?
 
-Applets are executed within a java enabled browser, but a Java application is a standalone Java program that can be executed outside of a browser. However, they both require the existence of a Java Virtual Machine (JVM). Furthermore, a Java application requires a main method with a specific signature, in order to start its execution. Java applets don’t need such a method to start their execution. Finally, Java applets typically use a restrictive security policy, while Java applications usually use more relaxed security policies.
+애플릿은 Java 지원 브라우저 내에서 실행되지만 Java 애플리케이션은 브라우저 외부에서 실행할 수 있는 독립 실행형 Java 프로그램입니다. 그러나 둘 다 JVM(Java Virtual Machine)이 있어야 합니다. 또한 Java 응용 프로그램은 실행을 시작하기 위해 특정 서명이 있는 기본 메서드가 필요합니다. Java 애플릿은 실행을 시작하기 위해 그러한 메소드가 필요하지 않습니다. 마지막으로 Java 애플릿은 일반적으로 제한적인 보안 정책을 사용하는 반면 Java 응용 프로그램은 일반적으로 보다 완화된 보안 정책을 사용합니다.
 
 ###### Source
 
@@ -255,7 +255,7 @@ Applets are executed within a java enabled browser, but a Java application is a 
 [[↑] 맨 위로](#Java)
 ### JDK와 JRE의 차이점은 무엇입니까? 
 
-The Java Runtime Environment (JRE) is basically the Java Virtual Machine (JVM) where your Java programs are being executed. It also includes browser plugins for applet execution. The Java Development Kit (JDK) is the full featured Software Development Kit for Java, including the JRE, the compilers and tools (like JavaDoc, and Java Debugger), in order for a user to develop, compile and execute Java applications.
+JRE(Java Runtime Environment)는 기본적으로 Java 프로그램이 실행되는 JVM(Java Virtual Machine)입니다. 여기에는 애플릿 실행을 위한 브라우저 플러그인도 포함됩니다. JDK(Java Development Kit)는 사용자가 Java 응용 프로그램을 개발, 컴파일 및 실행할 수 있도록 JRE, 컴파일러 및 도구(예: JavaDoc 및 Java Debugger)를 포함하는 모든 기능을 갖춘 Java용 소프트웨어 개발 키트입니다.
 
 ###### Source
 
@@ -264,7 +264,8 @@ The Java Runtime Environment (JRE) is basically the Java Virtual Machine (JVM) w
 [[↑] 맨 위로](#Java)
 ### Java의 두 가지 예외 유형은 무엇입니까? 이들의 차이점은 무엇인가요?
 
-Java has two types of exceptions: checked exceptions and unchecked exceptions. Unchecked exceptions do not need to be declared in a method or a constructor’s throws clause, if they can be thrown by the execution of the method or the constructor, and propagate outside the method or constructor boundary. On the other hand, checked exceptions must be declared in a method or a constructor’s throws clause. See here for tips on [Java exception handling](http://www.javacodegeeks.com/2013/07/java-exception-handling-tutorial-with-examples-and-best-practices.html).
+Java에는 확인된 예외와 확인되지 않은 예외의 두 가지 유형의 예외가 있습니다. 확인되지 않은 예외는 메서드 또는 생성자의 실행에 의해 throw될 수 있고 메서드 또는 생성자 경계 외부로 전파될 수 있는 경우 메서드 또는 생성자의 throw 절에서 선언할 필요가 없습니다. 반면에 확인된 예외는 메서드 또는 생성자의 throw 절에서 선언되어야 합니다. [자바 예외 처리]
+(http://www.javacodegeeks.com/2013/07/java-exception-handling-tutorial-with-examples-and-best-practices.html).
 
 ###### Source
 
@@ -273,7 +274,7 @@ Java has two types of exceptions: checked exceptions and unchecked exceptions. U
 [[↑] 맨 위로](#Java)
 ### 서블릿의 아키텍처를 설명합니다.
 
-The core abstraction that must be implemented by all servlets is the javax.servlet.Servlet interface. Each servlet must implement it either directly or indirectly, either by extending javax.servlet.GenericServlet or javax.servlet.http.HTTPServlet. Finally, each servlet is able to serve multiple requests in parallel using multithreading.
+모든 서블릿이 구현해야 하는 핵심 추상화는 javax.servlet.Servlet 인터페이스입니다. 각 서블릿은 javax.servlet.GenericServlet 또는 javax.servlet.http.HTTPServlet을 확장하여 직접 또는 간접적으로 구현해야 합니다. 마지막으로 각 서블릿은 멀티스레딩을 사용하여 여러 요청을 병렬로 처리할 수 있습니다.
 
 ###### Source
 
@@ -282,17 +283,17 @@ The core abstraction that must be implemented by all servlets is the javax.servl
 [[↑] 맨 위로](#Java)
 ### 인터페이스와 추상 클래스의 차이점은 무엇입니까?
 
-Java provides and supports the creation both of [abstract classes](http://examples.javacodegeeks.com/java-basics/java-abstract-class-example/) and interfaces. Both implementations share some common characteristics, but they differ in the following features:
+Java는 [추상 클래스](http://examples.javacodegeeks.com/java-basics/java-abstract-class-example/)와 인터페이스의 생성을 모두 제공하고 지원합니다. 두 구현 모두 몇 가지 공통된 특성을 공유하지만 다음 기능이 다릅니다:
 
-* All methods in an interface are implicitly abstract. On the other hand, an abstract class may contain both abstract and non-abstract methods.
-* A class may implement a number of Interfaces, but can extend only one abstract class.
-* In order for a class to implement an interface, it must implement all its declared methods. However, a class may not implement all declared methods of an abstract class. Though, in this case, the sub-class must also be declared as abstract.
-* Abstract classes can implement interfaces without even providing the implementation of interface methods.
-* Variables declared in a Java interface is by default final. An abstract class may contain non-final variables.
-* Members of a Java interface are public by default. A member of an abstract class can either be private, protected or public.
-* An interface is absolutely abstract and cannot be instantiated. An abstract class also cannot be instantiated, but can be invoked if it contains a main method.
-* 
-Also check out the [Abstract class and Interface differences for JDK 8](http://www.javacodegeeks.com/2014/04/abstract-class-versus-interface-in-the-jdk-8-era.html).
+* 인터페이스의 모든 메소드는 암시적으로 추상입니다. 반면에 추상 클래스에는 추상 메서드와 비추상 메서드가 모두 포함될 수 있습니다.
+* 클래스는 여러 인터페이스를 구현할 수 있지만 하나의 추상 클래스만 확장할 수 있습니다.
+* 클래스가 인터페이스를 구현하려면 선언된 모든 메소드를 구현해야 합니다. 그러나 클래스는 추상 클래스의 선언된 모든 메서드를 구현하지 않을 수 있습니다. 그러나 이 경우 하위 클래스도 추상으로 선언해야 합니다.
+* 추상 클래스는 인터페이스 메소드의 구현을 제공하지 않고도 인터페이스를 구현할 수 있습니다.
+* Java 인터페이스에서 선언된 변수는 기본적으로 final입니다. 추상 클래스는 최종 변수가 아닌 변수를 포함할 수 있습니다.
+* Java 인터페이스의 멤버는 기본적으로 공용입니다. 추상 클래스의 멤버는 private, protected 또는 public이 될 수 있습니다.
+* 인터페이스는 절대적으로 추상적이며 인스턴스화할 수 없습니다. 추상 클래스도 인스턴스화할 수 없지만 기본 메서드가 포함된 경우 호출할 수 있습니다.
+*
+또한 [JDK 8의 추상 클래스 및 인터페이스 차이점]을 확인하십시오.(http://www.javacodegeeks.com/2014/04/abstract-class-versus-interface-in-the-jdk-8-era.html).
 
 ###### Source
 
@@ -301,7 +302,7 @@ Also check out the [Abstract class and Interface differences for JDK 8](http://w
 [[↑] 맨 위로](#Java)
 ### 참조에 의한 전달과 값에 의한 전달이란 무엇입니까?
 
-When an object is passed by value, this means that a copy of the object is passed. Thus, even if changes are made to that object, it doesn’t affect the original value. When an object is passed by reference, this means that the actual object is not passed, rather a reference of the object is passed. Thus, any changes made by the external method, are also reflected in all places.
+개체가 값으로 전달되면 개체의 복사본이 전달됨을 의미합니다. 따라서 해당 개체가 변경되더라도 원래 값에는 영향을 미치지 않습니다. 객체가 참조로 전달되면 실제 객체가 전달되지 않고 객체의 참조가 전달됨을 의미합니다. 따라서 외부 방법에 의한 변경 사항도 모든 위치에 반영됩니다.
 
 ###### Source
 
@@ -310,7 +311,7 @@ When an object is passed by value, this means that a copy of the object is passe
 [[↑] 맨 위로](#Java)
 ### 프로세스와 스레드의 차이점은 무엇입니까?
 
-A process is an execution of a program, while a [Thread](http://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html) is a single execution sequence within a process. A process can contain multiple threads. A [Thread](http://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html) is sometimes called a lightweight process.
+프로세스는 프로그램의 실행이고 [Thread](http://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html)는 프로세스 내의 단일 실행 시퀀스입니다. 프로세스는 여러 스레드를 포함할 수 있습니다. A [스레드](http://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html) is sometimes called a lightweight process.
 
 ###### Source
 
@@ -319,7 +320,7 @@ A process is an execution of a program, while a [Thread](http://docs.oracle.com/
 [[↑] 맨 위로](#Java)
 ### 직렬화와 역직렬화에 대해 설명합니다.
 
-Java provides a mechanism, called object serialization where an object can be represented as a sequence of bytes and includes the object’s data, as well as information about the object’s type, and the types of data stored in the object. Thus, serialization can be seen as a way of flattening objects, in order to be stored on disk, and later, read back and reconstituted. Deserialization is the reverse process of converting an object from its flattened state to a live object.
+Java는 객체가 일련의 바이트로 표현될 수 있는 객체 직렬화라는 메커니즘을 제공하며 객체의 데이터는 물론 객체의 유형 및 객체에 저장된 데이터 유형에 대한 정보를 포함합니다. 따라서 직렬화는 디스크에 저장하고 나중에 다시 읽고 재구성하기 위해 개체를 평면화하는 방법으로 볼 수 있습니다. 역직렬화는 개체를 평평한 상태에서 라이브 개체로 변환하는 역 프로세스입니다.
 
 ###### Source
 
@@ -328,7 +329,7 @@ Java provides a mechanism, called object serialization where an object can be re
 [[↑] 맨 위로](#Java)
 ### 표현식이란 무엇입니까?
 
-A JSP expression is used to insert the value of a scripting language expression, converted into a string, into the data stream returned to the client, by the web server. Expressions are defined between <% = and %> tags.
+JSP 표현식은 문자열로 변환된 스크립팅 언어 표현식의 값을 웹 서버에서 클라이언트로 반환된 데이터 스트림에 삽입하는 데 사용됩니다. 표현식은 <% = 및 %> 태그 사이에 정의됩니다.
 
 ###### Source
 
@@ -337,7 +338,7 @@ A JSP expression is used to insert the value of a scripting language expression,
 [[↑] 맨 위로](#Java)
 ### 선언이란 무엇입니까?
 
-Declarations are similar to variable declarations in Java. Declarations are used to declare variables for subsequent use in expressions or scriptlets. To add a declaration, you must use the sequences to enclose your declarations.
+선언은 Java의 변수 선언과 유사합니다. 선언은 표현식이나 스크립틀릿에서 나중에 사용할 변수를 선언하는 데 사용됩니다. 선언을 추가하려면 시퀀스를 사용하여 선언을 묶어야 합니다.
 
 ###### Source
 
@@ -346,14 +347,14 @@ Declarations are similar to variable declarations in Java. Declarations are used
 [[↑] 맨 위로](#Java)
 ### JSP 작업이란 무엇입니까?
 
-JSP actions use constructs in XML syntax to control the behavior of the servlet engine. JSP actions are executed when a JSP page is requested. They can be dynamically inserted into a file, re-use JavaBeans components, forward the user to another page, or generate HTML for the Java plugin.Some of the available actions are listed below:
+JSP 작업은 XML 구문의 구성을 사용하여 서블릿 엔진의 동작을 제어합니다. JSP 작업은 JSP 페이지가 요청될 때 실행됩니다. 파일에 동적으로 삽입하거나, JavaBeans 구성 요소를 재사용하거나, 사용자를 다른 페이지로 전달하거나, Java 플러그인용 HTML을 생성할 수 있습니다. 사용 가능한 작업 중 일부는 다음과 같습니다.
 
-* jsp:include – includes a file, when the JSP page is requested.
-* jsp:useBean – finds or instantiates a JavaBean.
-* jsp:setProperty – sets the property of a JavaBean.
-* jsp:getProperty – gets the property of a JavaBean.
-* jsp:forward – forwards the requester to a new page.
-* jsp:plugin – generates browser-specific code.
+* jsp:include – JSP 페이지가 요청될 때 파일을 포함합니다.
+* jsp:useBean – JavaBean을 찾거나 인스턴스화합니다.
+* jsp:setProperty – JavaBean의 속성을 설정합니다.
+* jsp:getProperty – JavaBean의 속성을 가져옵니다.
+* jsp:forward – 요청자를 새 페이지로 전달합니다.
+* jsp:plugin – 브라우저별 코드를 생성합니다.
 
 
 ###### Source
@@ -363,11 +364,11 @@ JSP actions use constructs in XML syntax to control the behavior of the servlet 
 [[↑] 맨 위로](#Java)
 ### 지시문이란 무엇입니까?
 
-What are the different types of Directives available in JSP ? Directives are instructions that are processed by the JSP engine, when the page is compiled to a servlet. Directives are used to set page-level instructions, insert data from external files, and specify custom tag libraries. Directives are defined between < %@ and % >.The different types of directives are shown below:
+JSP에서 사용할 수 있는 다양한 유형의 지시문은 무엇입니까? 지시문은 페이지가 서블릿으로 컴파일될 때 JSP 엔진에 의해 처리되는 명령입니다. 지시문은 페이지 수준 지침을 설정하고, 외부 파일에서 데이터를 삽입하고, 사용자 정의 태그 라이브러리를 지정하는 데 사용됩니다. 지시문은 < %@ 및 % > 사이에 정의됩니다. 지시문 유형은 다음과 같습니다:
 
-* Include directive: it is used to include a file and merges the content of the file with the current page.
-* Page directive: it is used to define specific attributes in the JSP page, like error page and buffer.
-* Taglib: it is used to declare a custom tag library which is used in the page.
+* Include 지시어: 파일을 포함하고 파일의 내용을 현재 페이지와 병합하는 데 사용됩니다.
+* 페이지 지시문: 오류 페이지 및 버퍼와 같은 JSP 페이지의 특정 속성을 정의하는 데 사용됩니다.
+* Taglib: 페이지에서 사용하는 커스텀 태그 라이브러리를 선언하기 위해 사용합니다.
 
 ###### Source
 
@@ -376,7 +377,7 @@ What are the different types of Directives available in JSP ? Directives are ins
 [[↑] 맨 위로](#Java)
 ### JSP 요청은 어떻게 처리됩니까?
 
-On the arrival of a JSP request, the browser first requests a page with a .jsp extension. Then, the Web server reads the request and using the JSP compiler, the Web server converts the JSP page into a servlet class. Notice that the JSP file is compiled only on the first request of the page, or if the JSP file has changed.The generated servlet class is invoked, in order to handle the browser’s request. Once the execution of the request is over, the servlet sends a response back to the client. See [how to get Request parameters in a JSP](http://examples.javacodegeeks.com/enterprise-java/jsp/get-request-parameter-in-jsp-page/).
+JSP 요청이 도착하면 브라우저는 먼저 .jsp 확장자를 가진 페이지를 요청합니다. 그런 다음 웹 서버는 요청을 읽고 JSP 컴파일러를 사용하여 웹 서버는 JSP 페이지를 서블릿 클래스로 변환합니다. JSP 파일은 페이지의 첫 번째 요청에서만 컴파일되거나 JSP 파일이 변경된 경우에만 컴파일됩니다. 브라우저의 요청을 처리하기 위해 생성된 서블릿 클래스가 호출됩니다. 요청 실행이 끝나면 서블릿은 클라이언트에 응답을 다시 보냅니다. [JSP에서 요청 매개변수를 가져오는 방법]을 참조하십시오.(http://examples.javacodegeeks.com/enterprise-java/jsp/get-request-parameter-in-jsp-page/).
 
 ###### Source
 
@@ -385,12 +386,12 @@ On the arrival of a JSP request, the browser first requests a page with a .jsp e
 [[↑] 맨 위로](#Java)
 ### Java Collection Framework의 기본 인터페이스는 무엇입니까?
 
-[Java Collections Framework](http://docs.oracle.com/javase/7/docs/technotes/guides/collections/overview.html) provides a well designed set of interfaces and classes that support operations on a collections of objects. The most basic interfaces that reside in the Java Collections Framework are:
+[자바 컬렉션 프레임워크](http://docs.oracle.com/javase/7/docs/technotes/guides/collections/overview.html) 개체 컬렉션에 대한 작업을 지원하는 잘 설계된 인터페이스 및 클래스 집합을 제공합니다. Java Collections Framework에 있는 가장 기본적인 인터페이스는 다음과 같습니다:
 
-* [Collection](http://docs.oracle.com/javase/7/docs/api/java/util/Collection.html), which represents a group of objects known as its elements.
-* [Set](http://docs.oracle.com/javase/7/docs/api/java/util/Set.html), which is a collection that cannot contain duplicate elements.
-* [List](http://docs.oracle.com/javase/7/docs/api/java/util/List.html), which is an ordered collection and can contain duplicate elements.
-* [Map](http://docs.oracle.com/javase/7/docs/api/java/util/Map.html), which is an object that maps keys to values and cannot contain duplicate keys.
+* [Collection](http://docs.oracle.com/javase/7/docs/api/java/util/Collection.html), 이것은 원소로 알려진 개체 그룹을 나타냅니다.
+* [Set](http://docs.oracle.com/javase/7/docs/api/java/util/Set.html), 중복 요소를 포함할 수 없는 컬렉션입니다.
+* [List](http://docs.oracle.com/javase/7/docs/api/java/util/List.html), 이 집합은 순서가 지정된 집합이며 중복 요소를 포함할 수 있습니다.
+* [Map](http://docs.oracle.com/javase/7/docs/api/java/util/Map.html), 이는 키를 값에 매핑하는 개체이며 중복 키를 포함할 수 없습니다.
 
 ###### Source
 
@@ -399,7 +400,7 @@ On the arrival of a JSP request, the browser first requests a page with a .jsp e
 [[↑] 맨 위로](#Java)
 ### "정적" 키워드는 무엇을 의미합니까? Java에서 개인 또는 정적 메소드를 재정의할 수 있습니까?
 
-The static keyword denotes that a member variable or method can be accessed, without requiring an instantiation of the class to which it belongs. A user cannot override static methods in Java, because method overriding is based upon dynamic binding at runtime and static methods are statically binded at compile time. A static method is not associated with any instance of a class so the concept is not applicable.
+정적 키워드는 멤버 변수나 메서드가 속한 클래스를 인스턴스화할 필요 없이 액세스할 수 있음을 나타냅니다. 메소드 재정의가 런타임의 동적 바인딩에 기반하고 정적 메서드가 컴파일 시 정적 바인딩되기 때문에 사용자는 Java의 정적 메서드를 재정의할 수 없습니다. 정적 메서드는 클래스의 인스턴스와 연결되어 있지 않으므로 개념을 적용할 수 없습니다.
 
 ###### Source
 
@@ -408,7 +409,7 @@ The static keyword denotes that a member variable or method can be accessed, wit
 [[↑] 맨 위로](#Java)
 ### 반복자 란 무엇입니까?
 
-The [Iterator](http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html) interface provides a number of methods that are able to iterate over any [Collection](http://docs.oracle.com/javase/7/docs/api/java/util/Collection.html). Each Java [Collection](http://docs.oracle.com/javase/7/docs/api/java/util/Collection.html) contains the [Iterator](http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html)  method that returns an [Iterator](http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html)  instance. Iterators are capable of removing elements from the underlying collection during the iteration.
+[Iterator](http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html) 인터페이스는 모든 [Collection](http: //docs.oracle.com/javase/7/docs/api/java/util/Collection.html). 각 Java [Collection](http://docs.oracle.com/javase/7/docs/api/java/util/Collection.html)에는 [Iterator](http://docs.oracle.com/javase/ 7/docs/api/java/util/Iterator.html) [Iterator](http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html) 인스턴스를 반환하는 메서드입니다. 반복자는 반복 중에 기본 컬렉션에서 요소를 제거할 수 있습니다.
 
 ###### Source
 
@@ -417,7 +418,7 @@ The [Iterator](http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html)
 [[↑] 맨 위로](#Java)
 ### Class.forName 메서드의 목적은 무엇입니까?
 
-This method is used to get the instance of this Class with the specified class name.
+이 메서드는 지정된 클래스 이름을 가진 이 클래스의 인스턴스를 가져오는 데 사용됩니다.
 
 ###### Source
 
@@ -426,7 +427,7 @@ This method is used to get the instance of this Class with the specified class n
 [[↑] 맨 위로](#Java)
 ### JDBC 란 무엇입니까?
 
-JDBC is an abstraction layer that allows users to choose between databases. [JDBC enables developers to write database applications in Java](http://www.javacodegeeks.com/2014/03/java-8-friday-java-8-will-revolutionize-database-access.html), without having to concern themselves with the underlying details of a particular database.
+JDBC는 사용자가 데이터베이스 중에서 선택할 수 있도록 하는 추상화 계층입니다. [JDBC를 통해 개발자는 Java로 데이터베이스 애플리케이션을 작성할 수 있습니다.](http://www.javacodegeeks.com/2014/03/java-8-friday-java-8-will-revolutionize-database-access.html), 특정 데이터베이스의 기본 세부 정보에 관심을 갖습니다.
 
 ###### Source
 
@@ -435,7 +436,7 @@ JDBC is an abstraction layer that allows users to choose between databases. [JDB
 [[↑] 맨 위로](#Java)
 ### HashMap은 Java에서 어떻게 작동합니까?
 
-[A HashMap in Java stores key-value pairs](http://www.javacodegeeks.com/2014/03/how-hashmap-works-in-java.html). The [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html) requires a hash function and uses hashCode and equals methods, in order to put and retrieve elements to and from the collection respectively. When the put method is invoked, the [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html) calculates the hash value of the key and stores the pair in the appropriate index inside the collection. If the key exists, its value is updated with the new value. Some important characteristics of a [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html) are its capacity, its load factor and the threshold resizing.
+[자바의 HashMap은 키-값 쌍을 저장합니다](http://www.javacodegeeks.com/2014/03/how-hashmap-works-in-java.html). [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html)은 해시 함수가 필요하고 hashCode 및 equals 메소드를 사용하여 요소를 및 컬렉션에서 각각. put 메소드가 호출되면 [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html)이 키의 해시 값을 계산하고 쌍을 다음 위치에 저장합니다. 컬렉션 내부의 적절한 인덱스. 키가 있으면 해당 값이 새 값으로 업데이트됩니다. [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html)의 몇 가지 중요한 특성은 용량, 로드 팩터 및 임계값 크기 조정입니다.
 
 ###### Source
 
@@ -444,7 +445,7 @@ JDBC is an abstraction layer that allows users to choose between databases. [JDB
 [[↑] 맨 위로](#Java)
 ### Java가 모든 Swing 구성 요소에 사용하는 디자인 패턴은 무엇입니까?
 
-The design pattern used by Java for all Swing components is the Model View Controller (MVC) pattern.
+Java에서 모든 Swing 구성 요소에 사용하는 디자인 패턴은 MVC(Model View Controller) 패턴입니다.
 
 ###### Source
 
@@ -453,12 +454,12 @@ The design pattern used by Java for all Swing components is the Model View Contr
 [[↑] 맨 위로](#Java)
 ### HashMap과 Hashtable 사이에는 어떤 차이점이 있습니까?
 
-Both the [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html) and [Hashtable](http://docs.oracle.com/javase/7/docs/api/java/util/Hashtable.html) classes implement the Map interface and thus, have very similar characteristics. However, they differ in the following features:
+[HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html) 및 [Hashtable](http://docs.oracle.com/javase/7 /docs/api/java/util/Hashtable.html) 클래스는 Map 인터페이스를 구현하므로 매우 유사한 특성을 갖습니다. 그러나 다음과 같은 기능이 다릅니다:
 
-* A [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html) allows the existence of null keys and values, while a [Hashtable](http://docs.oracle.com/javase/7/docs/api/java/util/Hashtable.html) doesn’t allow neither null keys, nor null values.
-* A [Hashtable](http://docs.oracle.com/javase/7/docs/api/java/util/Hashtable.html) is synchronized, while a [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html) is not. Thus, [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html) is preferred in single-threaded environments, while a [Hashtable](http://docs.oracle.com/javase/7/docs/api/java/util/Hashtable.html) is suitable for multi-threaded environments.
-* A [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html) provides its set of keys and a Java application can iterate over them. Thus, a [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html) is fail-fast. On the other hand, a [Hashtable](http://docs.oracle.com/javase/7/docs/api/java/util/Hashtable.html) provides an [Enumeration](http://docs.oracle.com/javase/7/docs/api/java/util/Enumeration.html) of its keys.
-* The [Hashtable](http://docs.oracle.com/javase/7/docs/api/java/util/Hashtable.html) class is considered to be a legacy class.
+* [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html)은 null 키와 값의 존재를 허용하는 반면, [Hashtable](http:/ /docs.oracle.com/javase/7/docs/api/java/util/Hashtable.html) null 키나 null 값을 허용하지 않습니다.
+* [Hashtable](http://docs.oracle.com/javase/7/docs/api/java/util/Hashtable.html)은 동기화되고, [HashMap](http://docs.oracle.com)은 동기화됩니다. /javase/7/docs/api/java/util/HashMap.html)이 아닙니다. 따라서 단일 스레드 환경에서는 [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html)이 선호되는 반면 [Hashtable](http:// docs.oracle.com/javase/7/docs/api/java/util/Hashtable.html)은 다중 스레드 환경에 적합합니다.
+* [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html)은 키 세트를 제공하며 Java 애플리케이션은 이를 반복할 수 있습니다. 따라서 [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html)은 fail-fast입니다. 한편, [해시테이블](http://docs.oracle.com/javase/7/docs/api/java/util/Hashtable.html)은 [열거](http://docs.oracle.html)를 제공합니다. com/javase/7/docs/api/java/util/Enumeration.html) 키.
+* [Hashtable](http://docs.oracle.com/javase/7/docs/api/java/util/Hashtable.html) 클래스는 레거시 클래스로 간주됩니다.
 
 ###### Source
 
@@ -467,7 +468,7 @@ Both the [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.ht
 [[↑] 맨 위로](#Java)
 ### Java의 레이아웃 관리자는 기존 윈도우 시스템에 비해 어떤 이점을 제공합니까?
 
-Java uses layout managers to lay out components in a consistent manner, across all windowing platforms. Since layout managers aren’t tied to absolute sizing and positioning, they are able to accommodate platform-specific differences among windowing systems
+Java는 레이아웃 관리자를 사용하여 모든 윈도우 플랫폼에서 일관된 방식으로 구성 요소를 배치합니다. 레이아웃 관리자는 절대적인 크기 및 위치 지정에 얽매이지 않기 때문에 창 시스템 간의 플랫폼별 차이를 수용할 수 있습니다.
 
 ###### Source
 
@@ -476,7 +477,7 @@ Java uses layout managers to lay out components in a consistent manner, across a
 [[↑] 맨 위로](#Java)
 ### GUI 구성 요소는 자체 이벤트를 어떻게 처리할 수 있습니까?
 
-A GUI component can handle its own events, by implementing the corresponding event-listener interface and adding itself as its own event listener.
+GUI 구성 요소는 해당 이벤트 수신기 인터페이스를 구현하고 자체 이벤트 수신기로 자신을 추가하여 자체 이벤트를 처리할 수 있습니다.
 
 ###### Source
 
@@ -485,7 +486,7 @@ A GUI component can handle its own events, by implementing the corresponding eve
 [[↑] 맨 위로](#Java)
 ### 레이아웃 관리자란 무엇입니까?
 
-A layout manager is the used to organize the components in a container.
+레이아웃 관리자는 컨테이너의 구성 요소를 구성하는 데 사용됩니다.
 
 ###### Source
 
@@ -494,7 +495,7 @@ A layout manager is the used to organize the components in a container.
 [[↑] 맨 위로](#Java)
 ### sendRedirect와 전달 방법의 차이점은 무엇입니까?
 
-The sendRedirect method creates a new request, while the forward method just forwards a request to a new target. The previous request scope objects are not available after a redirect, because it results in a new request. On the other hand, the previous request scope objects are available after forwarding. Finally, in general, the sendRedirect method is considered to be slower compare to the forward method.
+sendRedirect 메서드는 새 요청을 생성하는 반면, forward 메서드는 요청을 새 대상으로 전달합니다. 이전 요청 범위 개체는 새 요청이 발생하기 때문에 리디렉션 후에 사용할 수 없습니다. 반면에 이전 요청 범위 개체는 전달 후에 사용할 수 있습니다. 마지막으로 일반적으로 sendRedirect 방식은 forward 방식에 비해 느리다고 여겨진다.
 
 ###### Source
 
@@ -503,7 +504,7 @@ The sendRedirect method creates a new request, while the forward method just for
 [[↑] 맨 위로](#Java)
 ### Big-O 표기법에 대해 무엇을 알고 있으며 다른 데이터 구조와 관련하여 몇 가지 예를 제공할 수 있습니까?
 
-The Big-O notation simply describes how well an algorithm scales or performs in the worst case scenario as the number of elements in a data structure increases. The Big-O notation can also be used to describe other behavior such as memory consumption. Since the collection classes are actually data structures, we usually use the Big-O notation to chose the best implementation to use, based on time, memory and performance. Big-O notation can give a good indication about performance for large amounts of data.
+Big-O 표기법은 데이터 구조의 요소 수가 증가함에 따라 최악의 시나리오에서 알고리즘이 얼마나 잘 확장되거나 수행되는지를 설명합니다. Big-O 표기법은 메모리 소비와 같은 다른 동작을 설명하는 데에도 사용할 수 있습니다. 컬렉션 클래스는 실제로 데이터 구조이기 때문에 일반적으로 Big-O 표기법을 사용하여 시간, 메모리 및 성능을 기반으로 사용할 최상의 구현을 선택합니다. Big-O 표기법은 많은 양의 데이터에 대한 성능에 대한 좋은 표시를 제공할 수 있습니다.
 
 ###### Source
 
@@ -512,7 +513,7 @@ The Big-O notation simply describes how well an algorithm scales or performs in 
 [[↑] 맨 위로](#Java)
 ### Java에서 지원하는 데이터 유형은 무엇입니까? 오토박싱과 언박싱이란?
 
-The eight primitive data types supported by the Java programming language are:
+Java 프로그래밍 언어에서 지원하는 8가지 기본 데이터 유형은 다음과 같습니다.
 
 * byte
 * short
@@ -523,7 +524,7 @@ The eight primitive data types supported by the Java programming language are:
 * boolean
 * char
 
-Autoboxing is [the automatic conversion made by the Java compiler](http://www.javacodegeeks.com/2013/07/java-generics-tutorial-example-class-interface-methods-wildcards-and-much-more.html) between the primitive types and their corresponding object wrapper classes. For example, the compiler converts an int to an [Integer](http://docs.oracle.com/javase/7/docs/api/java/lang/Integer.html?is-external=true), a double to a [Double](http://docs.oracle.com/javase/7/docs/api/java/lang/Double.html), and so on. If the conversion goes the other way, this operation is called unboxing.
+Autoboxing은 [자바 컴파일러에 의한 자동 변환](http://www.javacodegeeks.com/2013/07/java-generics-tutorial-example-class-interface-methods-wildcards-and-much-more.html)입니다. ) 기본 유형과 해당 객체 래퍼 클래스 사이. 예를 들어 컴파일러는 int를 [Integer](http://docs.oracle.com/javase/7/docs/api/java/lang/Integer.html?is-external=true)로 변환하고 double을 a [Double](http://docs.oracle.com/javase/7/docs/api/java/lang/Double.html) 등. 변환이 다른 방향으로 진행되면 이 작업을 unboxing이라고 합니다.
 
 ###### Source
 
@@ -532,7 +533,7 @@ Autoboxing is [the automatic conversion made by the Java compiler](http://www.ja
 [[↑] 맨 위로](#Java)
 ### Java에서 함수 재정의 및 오버로딩이란 무엇입니까?
 
-Method overloading in Java occurs when two or more methods in the same class have the exact same name, but different parameters. On the other hand, method overriding is defined as the case when a child class redefines the same method as a parent class. Overridden methods must have the same name, argument list, and return type. The overriding method may not limit the access of the method it overrides.
+Java에서 메소드 오버로딩은 동일한 클래스에 있는 둘 이상의 메소드가 정확히 동일한 이름을 갖지만 다른 매개변수를 가질 때 발생합니다. 반면에, 메서드 오버라이드는 자식 클래스가 부모 클래스와 동일한 메서드를 재정의하는 경우로 정의됩니다. 재정의된 메서드는 이름, 인수 목록 및 반환 유형이 같아야 합니다. 재정의하는 메서드는 재정의하는 메서드의 액세스를 제한하지 않을 수 있습니다.
 
 ###### Source
 
@@ -541,7 +542,7 @@ Method overloading in Java occurs when two or more methods in the same class hav
 [[↑] 맨 위로](#Java)
 ### 자바 애플릿이란 무엇입니까?
 
-A Java Applet is program that can be included in a HTML page and be executed in a java enabled client browser. Applets are used for creating dynamic and interactive web applications.
+Java Applet은 HTML 페이지에 포함될 수 있고 Java 지원 클라이언트 브라우저에서 실행될 수 있는 프로그램입니다. 애플릿은 동적 및 대화형 웹 응용 프로그램을 만드는 데 사용됩니다.
 
 ###### Source
 
@@ -550,7 +551,7 @@ A Java Applet is program that can be included in a HTML page and be executed in 
 [[↑] 맨 위로](#Java)
 ### 예외 처리 후 Exception 객체는 어떻게 됩니까?
 
-The [Exception](http://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html) object will be garbage collected in the next garbage collection.
+[Exception](http://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html) 객체는 다음 가비지 컬렉션에서 가비지 수집됩니다.
 
 ###### Source
 
@@ -559,7 +560,7 @@ The [Exception](http://docs.oracle.com/javase/7/docs/api/java/lang/Exception.htm
 [[↑] 맨 위로](#Java)
 ###  Java에서 가비지 수집의 목적은 무엇이며 언제 사용됩니까?
 
-The purpose of garbage collection is to identify and discard those objects that are no longer needed by the application, in order for the resources to be reclaimed and reused.
+가비지 수집의 목적은 리소스를 회수하고 재사용할 수 있도록 애플리케이션에서 더 이상 필요하지 않은 개체를 식별하고 삭제하는 것입니다.
 
 ###### Source
 
@@ -568,7 +569,7 @@ The purpose of garbage collection is to identify and discard those objects that 
 [[↑] 맨 위로](#Java)
 ### System.gc() 및 Runtime.gc() 메서드는 무엇을 합니까?
 
-These methods can be used as a hint to the JVM, in order to start a garbage collection. However, this it is up to the Java Virtual Machine (JVM) to start the garbage collection immediately or later in time.
+이러한 메소드는 가비지 수집을 시작하기 위해 JVM에 대한 힌트로 사용될 수 있습니다. 그러나 가비지 수집을 즉시 또는 나중에 시작하는 것은 JVM(Java Virtual Machine)에 달려 있습니다.
 
 
 ###### Source
@@ -578,7 +579,7 @@ These methods can be used as a hint to the JVM, in order to start a garbage coll
 [[↑] 맨 위로](#Java)
 ### 예외 처리에서 finally 블록의 중요성은 무엇입니까?
 
-A *finally* block will always be executed, whether or not an exception is actually thrown. Even in the case where the catch statement is missing and an exception is thrown, the finally block will still be executed. Last thing to mention is that the finally block is used to release resources like I/O buffers, database connections, etc.
+*finally* 블록은 예외가 실제로 발생했는지 여부에 관계없이 항상 실행됩니다. catch 문이 누락되어 예외가 발생한 경우에도 finally 블록은 계속 실행됩니다. 마지막으로 언급할 것은 finally 블록이 I/O 버퍼, 데이터베이스 연결 등과 같은 리소스를 해제하는 데 사용된다는 것입니다.
 
 ###### Source
 
@@ -587,7 +588,7 @@ A *finally* block will always be executed, whether or not an exception is actual
 [[↑] 맨 위로](#Java)
 ### Java에서 예외와 오류의 차이점은 무엇입니까?
 
-[Exception](http://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html) and [Error](http://docs.oracle.com/javase/7/docs/api/java/lang/Error.html) classes are both subclasses of the [Throwable](http://docs.oracle.com/javase/7/docs/api/java/lang/Throwable.html) class. The [Exception](http://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html)  class is used for exceptional conditions that a user’s program should catch. The [Error](http://docs.oracle.com/javase/7/docs/api/java/lang/Error.html)  class defines exceptions that are not excepted to be caught by the user program.
+[예외](http://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html) 및 [오류](http://docs.oracle.com/javase/7/docs) /api/java/lang/Error.html) 클래스는 모두 [Throwable](http://docs.oracle.com/javase/7/docs/api/java/lang/Throwable.html) 클래스의 하위 클래스입니다. [Exception](http://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html) 클래스는 사용자 프로그램이 잡아야 하는 예외적인 상황에 사용됩니다. [Error](http://docs.oracle.com/javase/7/docs/api/java/lang/Error.html) 클래스는 사용자 프로그램에 의해 catch되는 예외가 아닌 예외를 정의합니다.
 
 ###### Source
 
@@ -596,7 +597,7 @@ A *finally* block will always be executed, whether or not an exception is actual
 [[↑] 맨 위로](#Java)
 ### 웹 애플리케이션이란 무엇을 의미합니까?
 
-A Web application is a dynamic extension of a Web or application server. There are two types of web applications: presentation-oriented and service-oriented. A presentation-oriented Web application generates interactive web pages, which contain various types of markup language and dynamic content in response to requests. On the other hand, a service-oriented web application implements the endpoint of a web service. In general, a Web application can be seen as a collection of servlets installed under a specific subset of the server’s URL namespace.
+웹 응용 프로그램은 웹 또는 응용 프로그램 서버의 동적 확장입니다. 웹 애플리케이션에는 프레젠테이션 지향과 서비스 지향의 두 가지 유형이 있습니다. 프레젠테이션 지향 웹 응용 프로그램은 요청에 대한 응답으로 다양한 유형의 마크업 언어와 동적 콘텐츠를 포함하는 대화형 웹 페이지를 생성합니다. 반면 서비스 지향 웹 애플리케이션은 웹 서비스의 끝점을 구현합니다. 일반적으로 웹 응용 프로그램은 서버 URL 네임스페이스의 특정 하위 집합 아래에 설치된 서블릿 모음으로 볼 수 있습니다.
 
 ###### Source
 
@@ -605,7 +606,7 @@ A Web application is a dynamic extension of a Web or application server. There a
 [[↑] 맨 위로](#Java)
 ### Java에서 객체가 가비지 수집에 적합한 시기는 언제입니까?
 
-A Java object is subject to garbage collection when it becomes unreachable to the program in which it is currently used.
+Java 객체는 현재 사용 중인 프로그램에 도달할 수 없을 때 가비지 수집 대상이 됩니다.
 
 ###### Source
 
@@ -614,7 +615,7 @@ A Java object is subject to garbage collection when it becomes unreachable to th
 [[↑] 맨 위로](#Java)
 ### Collection이 Cloneable 및 Serializable 인터페이스를 확장하지 않는 이유는 무엇입니까?
 
-The [Collection](http://docs.oracle.com/javase/7/docs/api/java/util/Collection.html) interface specifies groups of objects known as elements. Each concrete implementation of a [Collection](http://docs.oracle.com/javase/7/docs/api/java/util/Collection.html) can choose its own way of how to maintain and order its elements. Some collections allow duplicate keys, while some other collections don’t. The semantics and the implications of either cloning or serialization come into play when dealing with actual implementations. Thus, the concrete implementations of collections should decide how they can be cloned or serialized.
+[Collection](http://docs.oracle.com/javase/7/docs/api/java/util/Collection.html) 인터페이스는 요소로 알려진 개체 그룹을 지정합니다. [Collection](http://docs.oracle.com/javase/7/docs/api/java/util/Collection.html)의 각 구체적인 구현은 요소를 유지 관리하고 정렬하는 방법에 대한 고유한 방법을 선택할 수 있습니다. 일부 컬렉션은 중복 키를 허용하지만 다른 컬렉션은 허용하지 않습니다. 의미론과 복제 또는 직렬화의 의미는 실제 구현을 다룰 때 작용합니다. 따라서 컬렉션의 구체적인 구현은 컬렉션을 복제하거나 직렬화하는 방법을 결정해야 합니다.
 
 ###### Source
 
@@ -623,7 +624,7 @@ The [Collection](http://docs.oracle.com/javase/7/docs/api/java/util/Collection.h
 [[↑] 맨 위로](#Java)
 ### 애플릿이 로드되면 어떻게 됩니까?
 
-First of all, an instance of the applet’s controlling class is created. Then, the applet initializes itself and finally, it starts running.
+우선, 애플릿의 제어 클래스의 인스턴스가 생성됩니다. 그런 다음 애플릿은 자체적으로 초기화되고 마지막으로 실행을 시작합니다.
 
 ###### Source
 
@@ -632,13 +633,13 @@ First of all, an instance of the applet’s controlling class is created. Then, 
 [[↑] 맨 위로](#Java)
 ### RMI에서 스텁의 역할은 무엇입니까?
 
-A stub for a remote object acts as a client’s local representative or proxy for the remote object. The caller invokes a method on the local stub, which is responsible for executing the method on the remote object. When a stub’s method is invoked, it undergoes the following steps:
+원격 개체에 대한 스텁은 원격 개체에 대한 클라이언트의 로컬 대리인 또는 프록시 역할을 합니다. 호출자는 원격 개체에서 메서드 실행을 담당하는 로컬 스텁에서 메서드를 호출합니다. 스텁의 메소드가 호출되면 다음 단계를 거칩니다.
 
-* It initiates a connection to the remote JVM containing the remote object.
-* It marshals the parameters to the remote JVM.
-* It waits for the result of the method invocation and execution.
-* It unmarshals the return value or an exception if the method has not been successfully executed.
-* It returns the value to the caller.
+* 원격 객체를 포함하는 원격 JVM에 대한 연결을 시작합니다.
+* 매개변수를 원격 JVM으로 마샬링합니다.
+* 메소드 호출 및 실행 결과를 기다립니다.
+* 메서드가 성공적으로 실행되지 않은 경우 반환 값 또는 예외를 비정렬화합니다.
+* 호출자에게 값을 반환합니다.
 
 ###### Source
 
@@ -647,7 +648,7 @@ A stub for a remote object acts as a client’s local representative or proxy fo
 [[↑] 맨 위로](#Java)
 ### Java 힙의 구조는 무엇입니까?
 
-The JVM has a heap that is the runtime data area from which memory for all class instances and arrays is allocated. It is created at the JVM start-up. Heap memory for objects is reclaimed by an automatic memory management system which is known as a garbage collector. Heap memory consists of live and dead objects. Live objects are accessible by the application and will not be a subject of garbage collection. Dead objects are those which will never be accessible by the application, but have not been collected by the garbage collector yet. Such objects occupy the heap memory space until they are eventually collected by the garbage collector.
+JVM에는 모든 클래스 인스턴스 및 배열에 대한 메모리가 할당되는 런타임 데이터 영역인 힙이 있습니다. JVM 시작 시 생성됩니다. 개체에 대한 힙 메모리는 가비지 수집기로 알려진 자동 메모리 관리 시스템에 의해 회수됩니다. 힙 메모리는 살아있는 개체와 죽은 개체로 구성됩니다. 라이브 개체는 응용 프로그램에서 액세스할 수 있으며 가비지 수집의 대상이 아닙니다. 죽은 개체는 응용 프로그램에서 액세스할 수 없지만 아직 가비지 수집기에 의해 수집되지 않은 개체입니다. 이러한 개체는 결국 가비지 수집기에 의해 수집될 때까지 힙 메모리 공간을 차지합니다.
 
 ###### Source
 
@@ -656,7 +657,7 @@ The JVM has a heap that is the runtime data area from which memory for all class
 [[↑] 맨 위로](#Java)
 ### 개체 참조가 null로 설정된 경우 가비지 수집기가 해당 개체가 보유한 메모리를 즉시 해제합니까?
 
-No, the object will be available for garbage collection in the next cycle of the garbage collector.
+아니요, 가비지 수집기의 다음 주기에서 개체를 가비지 수집에 사용할 수 있습니다.
 
 ###### Source
 
@@ -674,7 +675,7 @@ No, the object will be available for garbage collection in the next cycle of the
 [[↑] 맨 위로](#Java)
 ### finalize()는 언제 호출됩니까? 마무리의 목적은 무엇입니까?
 
-The finalize method is called by the garbage collector, just before releasing the object’s memory. It is normally advised to release resources held by the object inside the finalize method.
+finalize 메서드는 객체의 메모리를 해제하기 직전에 가비지 수집기에 의해 호출됩니다. 일반적으로 finalize 메서드 내에서 개체가 보유한 리소스를 해제하는 것이 좋습니다.
 
 ###### Source
 
@@ -683,13 +684,13 @@ The finalize method is called by the garbage collector, just before releasing th
 [[↑] 맨 위로](#Java)
 ### RMI 프로그램이 작동하도록 하는 단계는 무엇입니까?
 
-The following steps must be involved in order for a RMI program to work properly:
+RMI 프로그램이 제대로 작동하려면 다음 단계가 포함되어야 합니다.
 
-* Compilation of all source files.
-* Generation of the stubs using rmic.
-* Start the rmiregistry.
-* Start the RMIServer.
-* Run the client program.
+* 모든 소스 파일의 편집.
+* rmic을 사용한 스텁 생성.
+* rmiregistry를 시작합니다.
+* RMIServer를 시작합니다.
+* 클라이언트 프로그램을 실행합니다.
 
 ###### Source
 
@@ -698,7 +699,7 @@ The following steps must be involved in order for a RMI program to work properly
 [[↑] 맨 위로](#Java)
 ### finally 블록은 finalize() 메서드와 어떻게 다릅니까?
 
-A finally block will be executed whether or not an exception is thrown and is used to release those resources held by the application. `Finalize` is a protected method of the Object class, which is called by the Java Virtual Machine (JVM) just before an object is garbage collected.
+finally 블록은 예외가 발생했는지 여부에 관계없이 실행되며 애플리케이션이 보유한 리소스를 해제하는 데 사용됩니다. 'Finalize'는 객체가 가비지 수집되기 직전에 JVM(Java Virtual Machine)에 의해 호출되는 Object 클래스의 보호된 메서드입니다.
 
 ###### Source
 
@@ -707,7 +708,7 @@ A finally block will be executed whether or not an exception is thrown and is us
 [[↑] 맨 위로](#Java)
 ### Enumeration과 Iterator 인터페이스의 차이점은 무엇입니까?
 
-[Enumeration](http://docs.oracle.com/javase/7/docs/api/java/util/Enumeration.html) is twice as fast as compared to an Iterator and uses very less memory. However, the [Iterator](http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html) is much safer compared to [Enumeration](http://docs.oracle.com/javase/7/docs/api/java/util/Enumeration.html), because other threads are not able to modify the collection object that is currently traversed by the iterator. Also, [Iterators](http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html) allow the caller to remove elements from the underlying collection, something which is not possible with [Enumeration](http://docs.oracle.com/javase/7/docs/api/java/util/Enumeration.html).
+[Enumeration](http://docs.oracle.com/javase/7/docs/api/java/util/Enumeration.html)은 Iterator에 비해 2배 빠르고 메모리를 매우 적게 사용합니다. 그러나 [Iterator](http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html)는 [Enumeration](http://docs.oracle.html)에 비해 훨씬 안전합니다. com/javase/7/docs/api/java/util/Enumeration.html) 다른 스레드는 현재 반복자가 통과하는 컬렉션 개체를 수정할 수 없기 때문입니다. 또한 [Iterators](http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html)를 사용하면 호출자가 기본 컬렉션에서 요소를 제거할 수 있습니다. 이는 [ 열거](http://docs.oracle.com/javase/7/docs/api/java/util/Enumeration.html).
 
 ###### Source
 
@@ -716,12 +717,12 @@ A finally block will be executed whether or not an exception is thrown and is us
 [[↑] 맨 위로](#Java)
 ### 애플릿의 생명주기를 설명하라. 
 
-An applet may undergo the following states:
+애플릿은 다음 상태를 겪을 수 있습니다.
 
-* Init: An applet is initialized each time is loaded.
-* Start: Begin the execution of an applet.
-* Stop: Stop the execution of an applet.
-* Destroy: Perform a final cleanup, before unloading the applet.
+* 초기화: 애플릿이 로드될 때마다 초기화됩니다.
+* 시작: 애플릿의 실행을 시작합니다.
+* 중지: 애플릿의 실행을 중지합니다.
+* 파괴: 애플릿을 언로드하기 전에 최종 정리를 수행합니다.
 
 ###### Source
 
@@ -730,7 +731,7 @@ An applet may undergo the following states:
 [[↑] 맨 위로](#Java)
 ### 정적 컨텍스트에서 비 정적 변수에 액세스할 수 있습니까?
 
-A static variable in Java belongs to its class and its value remains the same for all its instances. A static variable is initialized when the class is loaded by the JVM. If your code tries to access a non-static variable, without any instance, the compiler will complain, because those variables are not created yet and they are not associated with any instance.
+Java의 정적 변수는 해당 클래스에 속하며 해당 값은 모든 인스턴스에 대해 동일하게 유지됩니다. 정적 변수는 JVM에 의해 클래스가 로드될 때 초기화됩니다. 코드가 인스턴스 없이 비정적 변수에 액세스하려고 하면 해당 변수가 아직 생성되지 않았고 어떤 인스턴스와도 연결되지 않았기 때문에 컴파일러가 불평할 것입니다.
 
 ###### Source
 
@@ -739,7 +740,7 @@ A static variable in Java belongs to its class and its value remains the same fo
 [[↑] 맨 위로](#Java)
 ### 정렬되지 않은 배열과 정렬된 배열을 사용하는 것 사이의 절충점은 무엇입니까? 
 
-The major advantage of an ordered array is that the search times have time complexity of O(log n), compared to that of an unordered array, which is O (n). The disadvantage of an ordered array is that the insertion operation has a time complexity of O(n), because the elements with higher values must be moved to make room for the new element. Instead, the insertion operation for an unordered array takes constant time of O(1).
+정렬된 배열의 주요 이점은 검색 시간이 O(n)인 정렬되지 않은 배열의 시간 복잡도에 비해 O(log n)의 시간 복잡도를 갖는다는 것입니다. 정렬된 배열의 단점은 새 요소를 위한 공간을 만들기 위해 더 높은 값을 가진 요소를 이동해야 하기 때문에 삽입 작업의 시간 복잡도가 O(n)이라는 것입니다. 대신, 정렬되지 않은 배열에 대한 삽입 작업은 O(1)의 일정한 시간이 걸립니다.
 
 ###### Source
 
@@ -748,13 +749,13 @@ The major advantage of an ordered array is that the search times have time compl
 [[↑] 맨 위로](#Java)
 ### Java 애플릿에 부과되는 제한 사항은 무엇입니까?
 
-Mostly due to security reasons, the following restrictions are imposed on Java applets:
+대부분 보안상의 이유로 Java 애플릿에는 다음과 같은 제한 사항이 적용됩니다.
 
-* An applet cannot load libraries or define native methods.
-* An applet cannot ordinarily read or write files on the execution host.
-* An applet cannot read certain system properties.
-* An applet cannot make network connections except to the host that it came from.
-* An applet cannot start any program on the host that’s executing it.
+* 애플릿은 라이브러리를 로드하거나 기본 메소드를 정의할 수 없습니다.
+* 애플릿은 일반적으로 실행 호스트에서 파일을 읽거나 쓸 수 없습니다.
+* 애플릿은 특정 시스템 속성을 읽을 수 없습니다.
+* 애플릿은 그것이 온 호스트를 제외하고는 네트워크 연결을 만들 수 없습니다.
+* 애플릿은 그것을 실행하는 호스트에서 어떤 프로그램도 시작할 수 없습니다.
 
 ###### Source
 
@@ -763,7 +764,7 @@ Mostly due to security reasons, the following restrictions are imposed on Java a
 [[↑] 맨 위로](#Java)
 ### 신뢰할 수 없는 애플릿이란 무엇입니까?
 
-Untrusted applets are those Java applets that cannot access or execute local system files. By default, all downloaded applets are considered as untrusted.
+신뢰할 수 없는 애플릿은 로컬 시스템 파일에 액세스하거나 실행할 수 없는 Java 애플릿입니다. 기본적으로 다운로드한 모든 애플릿은 신뢰할 수 없는 것으로 간주됩니다.
 
 ###### Source
 
@@ -772,7 +773,7 @@ Untrusted applets are those Java applets that cannot access or execute local sys
 [[↑] 맨 위로](#Java)
 ###  서버 측 포함(SSI)이란 무엇입니까?
 
-Server Side Includes (SSI) is a simple interpreted server-side scripting language, used almost exclusively for the Web, and is embedded with a servlet tag. The most frequent use of SSI is to include the contents of one or more files into a Web page on a Web server. When a Web page is accessed by a browser, the Web server replaces the servlet tag in that Web page with the hyper text generated by the corresponding servlet.
+SSI(Server Side Include)는 단순하게 해석되는 서버측 스크립팅 언어로, 거의 웹용으로 사용되며 서블릿 태그와 함께 포함됩니다. SSI를 가장 자주 사용하는 것은 하나 이상의 파일 내용을 웹 서버의 웹 페이지에 포함하는 것입니다. 브라우저가 웹 페이지에 액세스하면 웹 서버는 해당 웹 페이지의 서블릿 태그를 해당 서블릿에서 생성된 하이퍼 텍스트로 대체합니다.
 
 ###### Source
 
@@ -781,7 +782,7 @@ Server Side Includes (SSI) is a simple interpreted server-side scripting languag
 [[↑] 맨 위로](#Java)
 ### 생성자, Java 및 복사 생성자의 생성자 오버로딩이란 무엇입니까?
 
-A constructor gets invoked when a new object is created. Every class [has a constructor](http://www.javacodegeeks.com/2014/01/which-is-better-option-cloning-or-copy-constructors.html). In case the programmer does not provide a constructor for a class, the Java compiler (Javac) creates a default constructor for that class. The constructor overloading is similar to method overloading in Java. Different constructors can be created for a single class. Each constructor must have its own unique parameter list. Finally, Java does support copy constructors like C++, but the difference lies in the fact that Java doesn’t create a default copy constructor if you don’t write your own.
+생성자는 새 객체가 생성될 때 호출됩니다. 모든 클래스에는 [생성자가 있습니다](http://www.javacodegeeks.com/2014/01/which-is-better-option-cloning-or-copy-constructors.html). 프로그래머가 클래스에 대한 생성자를 제공하지 않는 경우 Java 컴파일러(Javac)는 해당 클래스에 대한 기본 생성자를 생성합니다. 생성자 오버로딩은 Java의 메소드 오버로딩과 유사합니다. 단일 클래스에 대해 다른 생성자를 만들 수 있습니다. 각 생성자에는 고유한 매개변수 목록이 있어야 합니다. 마지막으로 Java는 C++와 같은 복사 생성자를 지원하지만 차이점은 사용자가 직접 작성하지 않으면 Java가 기본 복사 생성자를 생성하지 않는다는 사실에 있습니다.
 
 ###### Source
 
@@ -790,7 +791,7 @@ A constructor gets invoked when a new object is created. Every class [has a cons
 [[↑] 맨 위로](#Java)
 ### 애플릿 보안 관리자는 무엇이며 무엇을 제공합니까?
 
-The applet security manager is a mechanism to impose restrictions on Java applets. A browser may only have one security manager. The security manager is established at startup, and it cannot thereafter be replaced, overloaded, overridden, or extended.
+애플릿 보안 관리자는 Java 애플릿에 제한을 부과하는 메커니즘입니다. 브라우저에는 보안 관리자가 하나만 있을 수 있습니다. 보안 관리자는 시작 시 설정되며 이후에는 교체, 과부하, 재정의 또는 확장될 수 없습니다.
 
 ###### Source
 
@@ -799,7 +800,7 @@ The applet security manager is a mechanism to impose restrictions on Java applet
 [[↑] 맨 위로](#Java)
 ### Java 우선 순위 대기열이란 무엇입니까?
 
-The [PriorityQueue](http://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html) is an unbounded queue, based on a priority heap and its elements are ordered in their natural order. At the time of its creation, we can provide a Comparator that is responsible for ordering the elements of the [PriorityQueue](http://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html). A [PriorityQueue](http://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html) doesn’t allow null values, those objects that doesn’t provide natural ordering, or those objects that don’t have any comparator associated with them. Finally, the Java [PriorityQueue](http://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html) is not thread-safe and it requires O(log(n)) time for its enqueuing and dequeing operations.
+[PriorityQueue](http://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html)는 우선 순위 힙을 기반으로 하는 무제한 대기열이며 해당 요소가 자연 순서대로 정렬됩니다. . 생성 시 [PriorityQueue](http://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html) 요소의 순서를 지정하는 Comparator를 제공할 수 있습니다. ). [PriorityQueue](http://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html)는 null 값, 자연스러운 순서를 제공하지 않는 개체 또는 연결된 비교기가 없는 개체. 마지막으로 Java [PriorityQueue](http://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html)는 스레드로부터 안전하지 않으며 O(log(n)) 시간이 필요합니다. 대기열에 넣고 빼는 작업을 위해.
 
 ###### Source
 
@@ -808,7 +809,7 @@ The [PriorityQueue](http://docs.oracle.com/javase/7/docs/api/java/util/PriorityQ
 [[↑] 맨 위로](#Java)
 ### Comparable 및 Comparator 인터페이스란 무엇입니까? 차이점을 나열하십시오.
 
-Java provides the [Comparable](http://docs.oracle.com/javase/7/docs/api/java/lang/Comparable.html) interface, which contains only one method, called [compareTo](http://docs.oracle.com/javase/7/docs/api/java/lang/Comparable.html#compareTo(T)). This method compares two objects, in order to impose an order between them. Specifically, it returns a negative integer, zero, or a positive integer to indicate that the input object is less than, equal or greater than the existing object. Java provides the [Comparator](http://docs.oracle.com/javase/7/docs/api/java/util/Comparator.html) interface, which contains two methods, called [compare](http://docs.oracle.com/javase/7/docs/api/java/util/Comparator.html#compare(T,%20T)) and [equals](http://docs.oracle.com/javase/7/docs/api/java/util/Comparator.html#equals(java.lang.Object)). The first method compares its two input arguments and imposes an order between them. It returns a negative integer, zero, or a positive integer to indicate that the first argument is less than, equal to, or greater than the second. The second method requires an object as a parameter and aims to decide whether the input object is equal to the comparator. The method returns true, only if the specified object is also a comparator and it imposes the same ordering as the comparator.
+Java는 [compareTo](http:// docs.oracle.com/javase/7/docs/api/java/lang/Comparable.html#compareTo(T)). 이 방법은 두 객체를 비교하여 그들 사이에 순서를 부과합니다. 특히 입력 개체가 기존 개체보다 작거나 같거나 큼을 나타내기 위해 음의 정수, 0 또는 양의 정수를 반환합니다. Java는 [compare](http://docs .oracle.com/javase/7/docs/api/java/util/Comparator.html#compare(T,%20T)) 및 [equals](http://docs.oracle.com/javase/7/docs/ API/java/util/Comparator.html#equals(java.lang.Object)). 첫 번째 방법은 두 입력 인수를 비교하고 그들 사이에 순서를 부과합니다. 음의 정수, 0 또는 양의 정수를 반환하여 첫 번째 인수가 두 번째 인수보다 작거나 같거나 큼을 나타냅니다. 두 번째 방법은 매개변수로 객체를 필요로 하며 입력 객체가 비교기와 같은지 여부를 결정하는 것을 목표로 합니다. 메서드는 지정된 개체가 비교자이기도 하고 비교자와 동일한 순서를 적용하는 경우에만 true를 반환합니다.
 
 ###### Source
 
@@ -817,7 +818,7 @@ Java provides the [Comparable](http://docs.oracle.com/javase/7/docs/api/java/lan
 [[↑] 맨 위로](#Java)
 ### 어떤 Swing 메서드가 스레드로부터 안전합니까?
 
-There are only three thread-safe methods: 
+스레드로부터 안전한 방법은 세 가지뿐입니다:
 * repaint, 
 * revalidate,
 * invalidate.
@@ -829,7 +830,7 @@ There are only three thread-safe methods:
 [[↑] 맨 위로](#Java)
 ### 이벤트 수신기 인터페이스와 이벤트 어댑터 클래스 사이의 관계는 무엇입니까?
 
-An event-listener interface defines the methods that must be implemented by an event handler for a particular event. An event adapter provides a default implementation of an event-listener interface.
+이벤트 수신기 인터페이스는 특정 이벤트에 대한 이벤트 핸들러가 구현해야 하는 메서드를 정의합니다. 이벤트 어댑터는 이벤트 수신기 인터페이스의 기본 구현을 제공합니다.
 
 ###### Source
 
@@ -838,11 +839,11 @@ An event-listener interface defines the methods that must be implemented by an e
 [[↑] 맨 위로](#Java)
 ### ArrayList와 LinkedList의 차이점은 무엇입니까?
 
-Both the [ArrayList](http://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html) and [LinkedList](http://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html) classes implement the List interface, but they differ on the following features:
+[ArrayList](http://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html) 및 [LinkedList](http://docs.oracle.com/javase/7 /docs/api/java/util/LinkedList.html) 클래스는 List 인터페이스를 구현하지만 다음 기능에서 다릅니다:
 
-* An [ArrayList](http://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html) is an index based data structure backed by an [Array](http://docs.oracle.com/javase/7/docs/api/java/lang/reflect/Array.html). It provides random access to its elements with a performance equal to O(1). On the other hand, a [LinkedList](http://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html) stores its data as list of elements and every element is linked to its previous and next element. In this case, the search operation for an element has execution time equal to O(n).
-* The Insertion, addition and removal operations of an element are faster in a [LinkedList](http://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html) compared to an [ArrayList](http://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html), because there is no need of resizing an array or updating the index when an element is added in some arbitrary position inside the collection.
-* A [LinkedList](http://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html) consumes more memory than an [ArrayList](http://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html), because every node in a [LinkedList](http://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html) stores two references, one for its previous element and one for its next element.
+* [ArrayList](http://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html)는 [Array](http://docs .oracle.com/javase/7/docs/api/java/lang/reflect/Array.html). O(1)과 ​​동일한 성능으로 요소에 대한 임의 액세스를 제공합니다. 반면에 [LinkedList](http://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html)는 데이터를 요소 목록으로 저장하고 모든 요소는 이전 및 다음 요소. 이 경우 요소에 대한 검색 작업의 실행 시간은 O(n)과 같습니다.
+* [LinkedList](http://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html)에서 요소의 삽입, 추가 및 제거 작업이 [ArrayList]에 비해 더 빠릅니다. ](http://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html), 임의의 배열에 요소를 추가할 때 배열의 크기를 조정하거나 인덱스를 업데이트할 필요가 없기 때문에 컬렉션 내부의 위치.
+* [LinkedList](http://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html)는 [ArrayList](http://docs.oracle.com)보다 메모리를 더 많이 사용합니다. /javase/7/docs/api/java/util/ArrayList.html), 왜냐하면 [LinkedList](http://docs.oracle.com/javase/7/docs/api/java/util/LinkedList)의 모든 노드 .html)은 두 개의 참조를 저장합니다. 하나는 이전 요소에 대한 참조이고 다른 하나는 다음 요소에 대한 참조입니다.
 
 ###### Source
 
@@ -851,12 +852,12 @@ Both the [ArrayList](http://docs.oracle.com/javase/7/docs/api/java/util/ArrayLis
 [[↑] 맨 위로](#Java)
 ### Array와 ArrayList의 차이점은 무엇입니까? 언제 ArrayList보다 Array를 사용합니까?
 
-The Array and ArrayList classes differ on the following features:
+Array 및 ArrayList 클래스는 다음 기능이 다릅니다.
 
-* [Arrays](http://docs.oracle.com/javase/7/docs/api/java/util/Arrays.html) can contain primitive or objects, while an [ArrayList](http://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html) can contain only objects.
-* [Arrays](http://docs.oracle.com/javase/7/docs/api/java/util/Arrays.html) have fixed size, while an [ArrayList](http://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html) is dynamic.
-* An [ArrayList](http://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html) provides more methods and features, such as addAll, removeAll, iterator, etc.
-* For a list of primitive data types, the collections use autoboxing to reduce the coding effort. However, this approach makes them slower when working on fixed size primitive data types.
+* [Arrays](http://docs.oracle.com/javase/7/docs/api/java/util/Arrays.html)는 기본 또는 객체를 포함할 수 있지만 [ArrayList](http://docs.oracle .com/javase/7/docs/api/java/util/ArrayList.html)에는 개체만 포함될 수 있습니다.
+* [Arrays](http://docs.oracle.com/javase/7/docs/api/java/util/Arrays.html)는 크기가 고정되어 있는 반면 [ArrayList](http://docs.oracle.com)는 /javase/7/docs/api/java/util/ArrayList.html)은 동적입니다.
+* [ArrayList](http://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html)는 addAll, removeAll, iterator 등과 같은 더 많은 메소드와 기능을 제공합니다.
+* 원시 데이터 유형 목록의 경우 컬렉션은 자동 박싱을 사용하여 코딩 노력을 줄입니다. 그러나 이 접근 방식을 사용하면 고정 크기 기본 데이터 유형에서 작업할 때 속도가 느려집니다.
 
 ###### Source
 
@@ -865,7 +866,7 @@ The Array and ArrayList classes differ on the following features:
 [[↑] 맨 위로](#Java)
 ### hashCode() 및 equals() 메서드의 중요성은 무엇입니까?
 
-A [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html) in Java uses the hashCode and equals methods to determine the index of the key-value pair. These methods are also used when we request the value of a specific key. If these methods are not implemented correctly, two different keys might produce the same hash value and thus, will be considered as equal by the collection. Furthermore, these methods are also used to detect duplicates. Thus, the implementation of both methods is crucial to the accuracy and correctness of the [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html).
+Java의 [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html)은 hashCode 및 equals 메소드를 사용하여 키-값 쌍의 인덱스를 결정합니다. 이러한 메소드는 특정 키의 값을 요청할 때도 사용됩니다. 이러한 방법이 올바르게 구현되지 않으면 두 개의 다른 키가 동일한 해시 값을 생성할 수 있으므로 컬렉션에서 동일한 것으로 간주됩니다. 또한 이러한 방법은 중복을 감지하는 데에도 사용됩니다. 따라서 두 방법의 구현은 [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html)의 정확성과 정확성에 매우 중요합니다.
 
 ###### Source
 
@@ -874,7 +875,7 @@ A [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html) in 
 [[↑] 맨 위로](#Java)
 ### Fail-fast와 Fail-safe의 차이점은 무엇입니까?
 
-The [Iterator's](http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html)  fail-safe property works with the clone of the underlying collection and thus, it is not affected by any modification in the collection. All the collection classes in java.util package are fail-fast, while the collection classes in java.util.concurrent are fail-safe. Fail-fast iterators throw a [ConcurrentModificationException](http://examples.javacodegeeks.com/java-basics/exceptions/java-util-concurrentmodificationexception-how-to-handle-concurrent-modification-exception/), while fail-safe iterator never throws such an exception.
+[Iterator의](http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html) fail-safe 속성은 기본 컬렉션의 복제본과 함께 작동하므로 영향을 받지 않습니다. 컬렉션의 모든 수정에 의해. java.util 패키지의 모든 컬렉션 클래스는 fail-fast인 반면 java.util.concurrent의 컬렉션 클래스는 fail-safe입니다. Fail-fast iterator는 [ConcurrentModificationException](http://examples.javacodegeeks.com/java-basics/exceptions/java-util-concurrentmodificationexception-how-to-handle-concurrent-modification-exception/)을 던지지만, fail-safe iterator는 그런 예외를 던지지 않습니다.
 
 ###### Source
 
@@ -883,7 +884,7 @@ The [Iterator's](http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.htm
 [[↑] 맨 위로](#Java)
 ### JDBC에서 Driver의 역할을 설명하라
 
-The JDBC Driver provides vendor-specific implementations of the abstract classes provided by the JDBC API. Each driver must provide implementations for the following classes of the java.sql package: [Connection](http://docs.oracle.com/javase/7/docs/api/java/sql/Connection.html), [Statement](http://docs.oracle.com/javase/7/docs/api/java/sql/Statement.html), [PreparedStatement](http://docs.oracle.com/javase/7/docs/api/java/sql/PreparedStatement.html), [CallableStatement](http://docs.oracle.com/javase/7/docs/api/java/sql/CallableStatement.html), [ResultSet](http://docs.oracle.com/javase/7/docs/api/java/sql/ResultSet.html) and [Driver](http://docs.oracle.com/javase/7/docs/api/java/sql/Driver.html).
+JDBC 드라이버는 JDBC API에서 제공하는 추상 클래스의 공급업체별 구현을 제공합니다. 각 드라이버는 java.sql 패키지의 다음 클래스에 대한 구현을 제공해야 합니다. [Connection](http://docs.oracle.com/javase/7/docs/api/java/sql/Connection.html),[Statement](http://docs.oracle.com/javase/7/docs/api/java/sql/Statement.html), [PreparedStatement](http://docs.oracle.com/javase/7/docs/api/java/sql/PreparedStatement.html), [CallableStatement](http://docs.oracle.com/javase/7/docs/api/java/sql/CallableStatement.html), [ResultSet](http://docs.oracle.com/javase/7/docs/api/java/sql/ResultSet.html) and [Driver](http://docs.oracle.com/javase/7/docs/api/java/sql/Driver.html).
 
 ###### Source
 
@@ -892,11 +893,11 @@ The JDBC Driver provides vendor-specific implementations of the abstract classes
 [[↑] 맨 위로](#Java)
 ### Iterator와 ListIterator에는 어떤 차이점이 있습니까?
 
-The differences of these elements are listed below:
+이러한 요소의 차이점은 다음과 같습니다.
 
-* An [Iterator](http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html)  can be used to traverse the [Set](http://docs.oracle.com/javase/7/docs/api/java/util/Set.html) and [List](http://docs.oracle.com/javase/7/docs/api/java/util/List.html)  collections, while the [ListIterator](http://docs.oracle.com/javase/7/docs/api/java/util/ListIterator.html) can be used to iterate only over [List](http://docs.oracle.com/javase/7/docs/api/java/util/List.html) .
-* The [Iterator](http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html)  can traverse a collection only in forward direction, while the [ListIterator](http://docs.oracle.com/javase/7/docs/api/java/util/ListIterator.html) can traverse a [List](http://docs.oracle.com/javase/7/docs/api/java/util/List.html) in both directions.
-* The [ListIterator](http://docs.oracle.com/javase/7/docs/api/java/util/ListIterator.html) implements the [Iterator](http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html)  interface and contains extra functionality, such as adding an element, replacing an element, getting the index position for previous and next elements, etc
+* [Iterator](http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html)는 [Set](http://docs.oracle.txt)를 순회하는 데 사용할 수 있습니다. com/javase/7/docs/api/java/util/Set.html) 및 [목록](http://docs.oracle.com/javase/7/docs/api/java/util/List.html) 컬렉션 , [ListIterator](http://docs.oracle.com/javase/7/docs/api/java/util/ListIterator.html)는 [List](http://docs.html)에 대해서만 반복하는 데 사용할 수 있습니다. oracle.com/javase/7/docs/api/java/util/List.html) .
+* [Iterator](http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html)는 순방향으로만 컬렉션을 순회할 수 있지만 [ListIterator](http:/ /docs.oracle.com/javase/7/docs/api/java/util/ListIterator.html) [목록](http://docs.oracle.com/javase/7/docs/api/java/ util/List.html)을 양방향으로 사용할 수 있습니다.
+* [ListIterator](http://docs.oracle.com/javase/7/docs/api/java/util/ListIterator.html)는 [Iterator](http://docs.oracle.com/javase/ 7/docs/api/java/util/Iterator.html) 인터페이스이며 요소 추가, 요소 교체, 이전 및 다음 요소에 대한 인덱스 위치 가져오기 등과 같은 추가 기능이 포함되어 있습니다.
 
 ###### Source
 
@@ -905,7 +906,7 @@ The differences of these elements are listed below:
 [[↑] 맨 위로](#Java)
 ### Statement보다 PreparedStatement의 장점은 무엇입니까?
 
-PreparedStatements are precompiled and thus, [their performance is much better](http://examples.javacodegeeks.com/core-java/sql/batch-statement-execution-example/). Also, PreparedStatement objects can be reused with different input values to their queries.
+PreparedStatements는 미리 컴파일되어 있으므로 [성능이 훨씬 더 좋습니다](http://examples.javacodegeeks.com/core-java/sql/batch-statement-execution-example/). 또한 PreparedStatement 객체는 쿼리에 대한 다른 입력 값으로 재사용될 수 있습니다.
 
 ###### Source
 
@@ -914,7 +915,7 @@ PreparedStatements are precompiled and thus, [their performance is much better](
 [[↑] 맨 위로](#Java)
 ### CallableStatement의 용도는 무엇입니까? CallableStatement를 준비하는 데 사용되는 메서드의 이름을 지정합니다.
 
-A [CallableStatement](http://docs.oracle.com/javase/7/docs/api/java/sql/CallableStatement.html) is used to execute stored procedures. Stored procedures are stored and offered by a database. Stored procedures may take input values from the user and may return a result. The usage of stored procedures is highly encouraged, because it offers security and modularity.The method that prepares a [CallableStatement](http://docs.oracle.com/javase/7/docs/api/java/sql/CallableStatement.html) is the following:
+[CallableStatement](http://docs.oracle.com/javase/7/docs/api/java/sql/CallableStatement.html)는 저장 프로시저를 실행하는 데 사용됩니다. 저장 프로시저는 데이터베이스에 의해 저장되고 제공됩니다. 저장 프로시저는 사용자로부터 입력 값을 받아 결과를 반환할 수 있습니다. 저장 프로시저의 사용은 보안과 모듈성을 제공하므로 적극 권장됩니다. [CallableStatement]를 준비하는 메서드(http://docs.oracle.com/javase/7/docs/api/java/sql/CallableStatement.html )는 다음과 같습니다.
 
 ```java
 CallableStament.prepareCall();
@@ -928,8 +929,8 @@ CallableStament.prepareCall();
 [[↑] 맨 위로](#Java)
 ### doGet()과 doPost()의 차이점은 무엇입니까?
 
-* **doGET**: The GET method appends the name-value pairs on the request’s URL. Thus, there is a limit on the number of characters and subsequently on the number of values that can be used in a client’s request. Furthermore, the values of the request are made visible and thus, sensitive information must not be passed in that way.       
-* **doPOST**: The POST method overcomes the limit imposed by the GET request, by sending the values of the request inside its body. Also, there is no limitations on the number of values to be sent across. Finally, the sensitive information passed through a POST request is not visible to an external client.
+* **doGET**: GET 메소드는 요청의 URL에 이름-값 쌍을 추가합니다. 따라서 문자 수와 클라이언트 요청에 사용할 수 있는 값 수에 제한이 있습니다. 또한 요청의 값이 표시되므로 민감한 정보가 이러한 방식으로 전달되지 않아야 합니다.
+* **doPOST**: POST 메서드는 요청 값을 본문 내부에 전송하여 GET 요청에 의해 부과된 제한을 극복합니다. 또한 전송할 값의 수에는 제한이 없습니다. 마지막으로 POST 요청을 통해 전달된 민감한 정보는 외부 클라이언트에 표시되지 않습니다.
 
 ###### Source
 
@@ -938,7 +939,7 @@ CallableStament.prepareCall();
 [[↑] 맨 위로](#Java)
 ### 서블릿의 생명주기를 설명하라.
 
-On every client’s request, the Servlet Engine loads the servlets and invokes its init methods, in order for the servlet to be initialized. Then, the Servlet object handles all subsequent requests coming from that client, by invoking the service method for each request separately. Finally, the servlet is removed by calling the server’s destroy method.
+모든 클라이언트의 요청에 따라 서블릿 엔진은 서블릿을 로드하고 초기화 메소드를 호출하여 서블릿을 초기화합니다. 그런 다음 Servlet 개체는 각 요청에 대해 별도로 서비스 메서드를 호출하여 해당 클라이언트에서 오는 모든 후속 요청을 처리합니다. 마지막으로 서버의 destroy 메소드를 호출하여 서블릿을 제거합니다.
 
 ###### Source
 
@@ -947,7 +948,7 @@ On every client’s request, the Servlet Engine loads the servlets and invokes i
 [[↑] 맨 위로](#Java)
 ### GenericServlet과 HttpServlet의 차이점은 무엇입니까?
 
-GenericServlet is a generalized and protocol-independent servlet that implements the Servlet and ServletConfig interfaces. Those servlets extending the GenericServlet class shall override the service method. Finally, in order to develop an HTTP servlet for use on the Web that serves requests using the HTTP protocol, your servlet must extend the HttpServlet instead. Check [Servlet examples here](http://examples.javacodegeeks.com/tag/servlet/).
+GenericServlet은 Servlet 및 ServletConfig 인터페이스를 구현하는 일반화된 프로토콜 독립 서블릿입니다. GenericServlet 클래스를 확장하는 서블릿은 서비스 메서드를 재정의해야 합니다. 마지막으로 HTTP 프로토콜을 사용하여 요청을 처리하는 웹에서 사용할 HTTP 서블릿을 개발하려면 서블릿이 대신 HttpServlet을 확장해야 합니다. [서블릿 예제는 여기](http://examples.javacodegeeks.com/tag/servlet/)를 확인하세요.
 
 ###### Source
 
@@ -956,13 +957,13 @@ GenericServlet is a generalized and protocol-independent servlet that implements
 [[↑] 맨 위로](#Java)
 ### JSP의 장점은 무엇입니까?
 
-The advantages of using the JSP technology are shown below:
+JSP 기술 사용의 이점은 다음과 같습니다.
 
-* JSP pages are dynamically compiled into servlets and thus, the developers can easily make updates to presentation code.
-* JSP pages can be pre-compiled.
-* JSP pages can be easily combined to static templates, including HTML or XML fragments, with code that generates dynamic content.
-* Developers can offer customized JSP tag libraries that page authors access using an XML-like syntax.
-* Developers can make logic changes at the component level, without editing the individual pages that use the application’s logic.
+* JSP 페이지는 동적으로 서블릿으로 컴파일되므로 개발자는 프레젠테이션 코드를 쉽게 업데이트할 수 있습니다.
+* JSP 페이지는 미리 컴파일될 수 있습니다.
+* JSP 페이지는 동적 콘텐츠를 생성하는 코드를 사용하여 HTML 또는 XML 조각을 포함한 정적 템플릿에 쉽게 결합될 수 있습니다.
+* 개발자는 XML과 유사한 구문을 사용하여 페이지 작성자가 액세스하는 사용자 정의된 JSP 태그 라이브러리를 제공할 수 있습니다.
+* 개발자는 응용 프로그램의 논리를 사용하는 개별 페이지를 편집하지 않고 구성 요소 수준에서 논리를 변경할 수 있습니다.
 
 ###### Source
 
@@ -971,7 +972,7 @@ The advantages of using the JSP technology are shown below:
 [[↑] 맨 위로](#Java)
 ### 교착 상태란 무엇입니까?
 
-A condition that occurs when [two processes are waiting for each other to complete](http://www.javacodegeeks.com/2013/01/java-deadlock-example-how-to-analyze-deadlock-situation.html), before proceeding. The result is that both processes wait endlessly.
+[두 프로세스가 서로 완료되기를 기다리고 있을 때](http://www.javacodegeeks.com/2013/01/java-deadlock-example-how-to-analyze-deadlock-situation.html) 때 발생하는 조건, 진행하기 전에. 결과는 두 프로세스가 끝없이 대기한다는 것입니다.
 
 ###### Source
 
@@ -980,7 +981,7 @@ A condition that occurs when [two processes are waiting for each other to comple
 [[↑] 맨 위로](#Java)
 ### 애플릿과 서블릿의 차이점은 무엇입니까?
 
-An Applet is a client side java program that runs within a Web browser on the client machine. On the other hand, a servlet is a server side component that runs on the web server.An applet can use the user interface classes, while a servlet does not have a user interface. Instead, a servlet waits for client’s HTTP requests and generates a response in every request.
+애플릿은 클라이언트 시스템의 웹 브라우저 내에서 실행되는 클라이언트 측 Java 프로그램입니다. 반면에 서블릿은 웹 서버에서 실행되는 서버 측 구성 요소입니다. 애플릿은 사용자 인터페이스 클래스를 사용할 수 있지만 서블릿에는 사용자 인터페이스가 없습니다. 대신 서블릿은 클라이언트의 HTTP 요청을 기다리고 모든 요청에서 응답을 생성합니다. 
 
 ###### Source
 
@@ -989,7 +990,7 @@ An Applet is a client side java program that runs within a Web browser on the cl
 [[↑] 맨 위로](#Java)
 ### 스크립틀릿이란 무엇입니까?
 
-In Java Server Pages (JSP) technology, a scriptlet is a piece of Java-code embedded in a JSP page. The scriptlet is everything inside the tags. Between these tags, a user can add any valid scriptlet.
+JSP(Java Server Pages) 기술에서 스크립틀릿은 JSP 페이지에 포함된 Java 코드 조각입니다. 스크립틀릿은 태그 안에 있는 모든 것입니다. 이러한 태그 사이에 사용자는 유효한 스크립틀릿을 추가할 수 있습니다.
 
 ###### Source
 
@@ -998,7 +999,7 @@ In Java Server Pages (JSP) technology, a scriptlet is a piece of Java-code embed
 [[↑] 맨 위로](#Java)
 ### Java는 다중 상속을 지원합니까?
 
-No, Java does not support multiple inheritance. Each class is able to extend only on one class, but is able to implement more than one interfaces.
+아니요, Java는 다중 상속을 지원하지 않습니다. 각 클래스는 하나의 클래스에서만 확장할 수 있지만 둘 이상의 인터페이스를 구현할 수 있습니다.
 
 ###### Source
 
@@ -1007,13 +1008,13 @@ No, Java does not support multiple inheritance. Each class is able to extend onl
 [[↑] 맨 위로](#Java)
 ### 스레드를 생성하는 다양한 방법을 설명합니다. 어느 것을 선호하고 그 이유는 무엇입니까?
 
-There are three ways that can be used in order for a [Thread](http://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html) to be created:
+[Thread](http://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html)를 생성하기 위해 사용할 수 있는 세 가지 방법이 있습니다.
 
-* A class may extend the [Thread](http://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html) class.
-* A class may implement the [Runnable](http://docs.oracle.com/javase/7/docs/api/java/lang/Runnable.html) interface.
-* An application can use the [Executor](http://docs.oracle.com/javase/7/docs/api/java/util/concurrent/Executor.html) framework, in order to create a thread pool.
+* 클래스는 [Thread](http://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html) 클래스를 확장할 수 있습니다.
+* 클래스는 [Runnable](http://docs.oracle.com/javase/7/docs/api/java/lang/Runnable.html) 인터페이스를 구현할 수 있습니다.
+* 응용 프로그램은 스레드 풀을 생성하기 위해 [Executor](http://docs.oracle.com/javase/7/docs/api/java/util/concurrent/Executor.html) 프레임워크를 사용할 수 있습니다.
 
-The [Runnable](http://docs.oracle.com/javase/7/docs/api/java/lang/Runnable.html) interface is preferred, as it does not require an object to inherit the [Thread](http://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html) class. In case your application design requires multiple inheritance, only interfaces can help you. Also, the thread pool is very efficient and can be implemented and used very easily.
+[Runnable](http://docs.oracle.com/javase/7/docs/api/java/lang/Runnable.html) 인터페이스는 [Thread](http //docs.oracle.com/javase/7/docs/api/java/lang/Thread.html) 클래스. 애플리케이션 디자인에 다중 상속이 필요한 경우 인터페이스만 도움이 될 수 있습니다. 또한 스레드 풀은 매우 효율적이며 구현 및 사용이 매우 쉽습니다.
 
 ###### Source
 
@@ -1022,7 +1023,7 @@ The [Runnable](http://docs.oracle.com/javase/7/docs/api/java/lang/Runnable.html)
 [[↑] 맨 위로](#Java)
 ### JSP 암묵적 객체가 의미하는 바는 무엇이며 어떤 객체입니까?
 
-JSP implicit objects are those Java objects that the JSP Container makes available to developers in each page. A developer can call them directly, without being explicitly declared. JSP Implicit Objects are also called pre-defined variables.The following objects are considered implicit in a JSP page:
+JSP 암시적 개체는 JSP 컨테이너가 각 페이지의 개발자에게 제공하는 Java 개체입니다. 개발자는 명시적으로 선언하지 않고 직접 호출할 수 있습니다. JSP 암시적 개체는 미리 정의된 변수라고도 합니다. 다음 개체는 JSP 페이지에서 암시적으로 간주됩니다:
 
 * application
 * page
@@ -1041,7 +1042,7 @@ JSP implicit objects are those Java objects that the JSP Container makes availab
 [[↑] 맨 위로](#Java)
 ### RMI 란 무엇입니까?
 
-The Java Remote Method Invocation (Java RMI) is a Java API that performs the object-oriented equivalent of remote procedure calls (RPC), with support for direct transfer of serialized Java classes and distributed garbage collection. Remote Method Invocation (RMI) can also be seen as the process of activating a method on a remotely running object. RMI offers location transparency because a user feels that a method is executed on a locally running object. 
+Java RMI(Java Remote Method Invocation)는 직렬화된 Java 클래스 및 분산 가비지 수집의 직접 전송을 지원하여 RPC(원격 프로시저 호출)와 동일한 객체 지향을 수행하는 Java API입니다. 원격 메서드 호출(RMI)은 원격으로 실행 중인 개체에서 메서드를 활성화하는 프로세스로도 볼 수 있습니다. RMI는 사용자가 메소드가 로컬에서 실행되는 객체에서 실행된다고 느끼기 때문에 위치 투명성을 제공합니다.
 
 ###### Source
 
@@ -1050,15 +1051,15 @@ The Java Remote Method Invocation (Java RMI) is a Java API that performs the obj
 [[↑] 맨 위로](#Java)
 ### 사용 가능한 스레드 상태를 개략적으로 설명합니다.
 
-During its execution, a thread can reside in one of the following states:
+실행 중에 스레드는 다음 상태 중 하나에 있을 수 있습니다.
 
-* Runnable: A thread becomes ready to run, but does not necessarily start running immediately.
-* Running: The processor is actively executing the thread code.
-* Waiting: A thread is in a blocked state waiting for some external processing to finish.
-* Sleeping: The thread is forced to sleep.
-* Blocked on I/O: Waiting for an I/O operation to complete.
-* Blocked on Synchronization: Waiting to acquire a lock.
-* Dead: The thread has finished its execution.
+* Runnable: 스레드가 실행할 준비가 되지만 반드시 즉시 실행을 시작할 필요는 없습니다.
+* 실행 중: 프로세서가 스레드 코드를 능동적으로 실행하고 있습니다.
+* Waiting: 스레드가 일부 외부 처리가 완료되기를 기다리는 차단된 상태입니다.
+* Sleeping: 스레드가 강제로 휴면 상태가 됩니다.
+* I/O에서 차단됨: I/O 작업이 완료될 때까지 대기 중입니다.
+* 동기화 시 차단됨: 잠금 획득을 기다리는 중입니다.
+* Dead: 스레드가 실행을 완료했습니다.
 
 ###### Source
 
@@ -1067,7 +1068,7 @@ During its execution, a thread can reside in one of the following states:
 [[↑] 맨 위로](#Java)
 ### 마샬링과 디마샬링에 대해 설명합니다.
 
-When an application wants to pass its memory objects across a network to another host or persist it to storage, the in-memory representation must be converted to a suitable format. This process is called marshalling and the revert operation is called demarshalling.
+응용 프로그램이 네트워크를 통해 메모리 개체를 다른 호스트로 전달하거나 저장소에 유지하려는 경우 메모리 내 표현을 적절한 형식으로 변환해야 합니다. 이 프로세스를 마샬링이라고 하고 되돌리기 작업을 디마샬링이라고 합니다.
 
 ###### Source
 
@@ -1076,7 +1077,7 @@ When an application wants to pass its memory objects across a network to another
 [[↑] 맨 위로](#Java)
 ### N 스레드가 교착 상태 없이 N 리소스에 액세스할 수 있도록 하는 방법은 무엇입니까?
 
-A very simple way to avoid deadlock while using N threads is to impose an ordering on the locks and force each thread to follow that ordering. Thus, if all threads lock and unlock the mutexes in the same order, no deadlocks can arise.
+N 스레드를 사용하는 동안 교착 상태를 피하는 매우 간단한 방법은 잠금에 순서를 지정하고 각 스레드가 해당 순서를 따르도록 하는 것입니다. 따라서 모든 스레드가 동일한 순서로 뮤텍스를 잠그고 잠금 해제하면 교착 상태가 발생할 수 없습니다.
 
 ###### Source
 
@@ -1085,7 +1086,7 @@ A very simple way to avoid deadlock while using N threads is to impose an orderi
 [[↑] 맨 위로](#Java)
 ### 힙에서 Perm Gen 공간이란 무엇입니까?
 
-Perm Gen stands for permanent generation. It is the space on Java Heap that holds meta-data describing user classes (classes that are not part of the Java language). Examples of such meta-data are objects describing classes and methods and they are stored in the Permanent Generation. Applications with large code-base can quickly fill up this segment of the heap which will cause ```java.lang.OutOfMemoryError: PermGen``` no matter how high your ```-Xmx``` (maximum size of the memory allocation pool) and how much memory you have on the machine.
+Perm Gen은 영구 생성을 의미합니다. 사용자 클래스(Java 언어의 일부가 아닌 클래스)를 설명하는 메타 데이터를 보유하는 Java 힙의 공간입니다. 이러한 메타 데이터의 예로는 클래스와 메서드를 설명하는 개체가 있으며 영구 세대에 저장됩니다. 코드 기반이 큰 애플리케이션은 ```-Xmx```(메모리의 최대 크기)에 상관없이 ```java.lang.OutOfMemoryError: PermGen```이 발생하는 이 힙 세그먼트를 빠르게 채울 수 있습니다. 할당 풀) 및 컴퓨터에 있는 메모리 양.
 
 ###### Source
 
@@ -1094,7 +1095,7 @@ Perm Gen stands for permanent generation. It is the space on Java Heap that hold
 [[↑] 맨 위로](#Java)
 ### 연결 풀링은 무엇을 의미합니까?
 
-The interaction with a database can be costly, regarding the opening and closing of database connections. Especially, when the number of database clients increases, this cost is very high and a large number of resources is consumed.A pool of database connections is obtained at start up by the application server and is maintained in a pool. A request for a connection is served by [a connection residing in the pool](http://examples.javacodegeeks.com/enterprise-java/hibernate/hibernate-connection-pool-configuration-with-c3p0-example/). In the end of the connection, the request is returned to the pool and can be used to satisfy future requests.
+데이터베이스와의 상호 작용은 데이터베이스 연결의 열기 및 닫기와 관련하여 비용이 많이 들 수 있습니다. 특히, 데이터베이스 클라이언트의 수가 증가하면 이 비용이 매우 높고 많은 자원이 소모된다. 데이터베이스 연결 풀은 애플리케이션 서버에 의해 시작될 때 얻어지고 풀에서 유지된다. 연결 요청은 [풀에 있는 연결]
 
 ###### Source
 
@@ -1103,7 +1104,7 @@ The interaction with a database can be costly, regarding the opening and closing
 [[↑] 맨 위로](#Java)
 ### 애플릿 클래스 로더는 무엇이며 무엇을 제공합니까?
 
-When an applet is loaded over the internet, the applet is loaded by the applet classloader. The class loader enforces the Java name space hierarchy. Also, the class loader guarantees that a unique namespace exists for classes that come from the local file system, and that a unique namespace exists for each network source. When a browser loads an applet over the net, that applet’s classes are placed in a private namespace associated with the applet’s origin. Then, those classes loaded by the class loader are passed through the verifier.The verifier checks that the class file conforms to the Java language specification . Among other things, the verifier ensures that there are no stack overflows or underflows and that the parameters to all bytecode instructions are correct.
+애플릿이 인터넷을 통해 로드될 때 애플릿은 애플릿 클래스 로더에 의해 로드됩니다. 클래스 로더는 Java 이름 공간 계층 구조를 적용합니다. 또한 클래스 로더는 로컬 파일 시스템에서 가져온 클래스에 대해 고유한 네임스페이스가 존재하고 각 네트워크 소스에 대해 고유한 네임스페이스가 존재함을 보장합니다. 브라우저가 네트를 통해 애플릿을 로드할 때 해당 애플릿의 클래스는 애플릿의 원본과 관련된 개인 이름 공간에 배치됩니다. 그런 다음 클래스 로더에 의해 로드된 클래스는 검증자를 통해 전달됩니다. 검증자는 클래스 파일이 Java 언어 사양을 준수하는지 확인합니다. 무엇보다도 검증자는 스택 오버플로나 언더플로가 없고 모든 바이트코드 명령어에 대한 매개변수가 올바른지 확인합니다.
 
 ###### Source
 
@@ -1112,7 +1113,7 @@ When an applet is loaded over the internet, the applet is loaded by the applet c
 [[↑] 맨 위로](#Java)
 ###  인터넷을 통해 로드된 애플릿과 파일 시스템을 통해 로드된 애플릿의 차이점은 무엇입니까?
 
-Regarding the case where an applet is loaded over the internet, the applet is loaded by the applet classloader and is subject to the restrictions enforced by the applet security manager. Regarding the case where an applet is loaded from the client’s local disk, the applet is loaded by the file system loader. Applets loaded via the file system are allowed to read files, write files and to load libraries on the client. Also, applets loaded via the file system are allowed to execute processes and finally, applets loaded via the file system are not passed through the byte code verifier.
+애플릿이 인터넷을 통해 로드되는 경우 애플릿은 애플릿 클래스 로더에 의해 로드되며 애플릿 보안 관리자가 적용하는 제한 사항이 적용됩니다. 애플릿이 클라이언트의 로컬 디스크에서 로드되는 경우 애플릿은 파일 시스템 로더에 의해 로드됩니다. 파일 시스템을 통해 로드된 애플릿은 파일을 읽고, 파일을 쓰고, 클라이언트에서 라이브러리를 로드할 수 있습니다. 또한 파일 시스템을 통해 로드된 애플릿은 프로세스를 실행할 수 있으며 마지막으로 파일 시스템을 통해 로드된 애플릿은 바이트 코드 검증기를 거치지 않습니다.
 
 ###### Source
 
@@ -1121,7 +1122,7 @@ Regarding the case where an applet is loaded over the internet, the applet is lo
 [[↑] 맨 위로](#Java)
 ### Servlet Chaining 이란?
 
-Servlet Chaining is the method where the output of one servlet is sent to a second servlet. The output of the second servlet can be sent to a third servlet, and so on. The last servlet in the chain is responsible for sending the response to the client.
+Servlet Chaining은 한 서블릿의 출력을 두 번째 서블릿으로 보내는 방법입니다. 두 번째 서블릿의 출력은 세 번째 서블릿으로 보내지는 식으로 계속될 수 있습니다. 체인의 마지막 서블릿은 클라이언트에 응답을 보내는 역할을 합니다.
 
 ###### Source
 
@@ -1130,7 +1131,7 @@ Servlet Chaining is the method where the output of one servlet is sent to a seco
 [[↑] 맨 위로](#Java)
 ### 어떤 클라이언트 머신이 당신의 서블릿에 요청하고 있는지 어떻게 알 수 있나요?
 
-The ServletRequest class has functions for finding out the IP address or host name of the client machine. getRemoteAddr() gets the IP address of the client machine and getRemoteHost() gets the host name of the client machine. See example [here](http://examples.javacodegeeks.com/enterprise-java/servlet/get-client-s-address-and-hostname-in-servlet/).
+ServletRequest 클래스에는 클라이언트 시스템의 IP 주소 또는 호스트 이름을 찾는 기능이 있습니다. getRemoteAddr()은 클라이언트 시스템의 IP 주소를 가져오고 getRemoteHost()는 클라이언트 시스템의 호스트 이름을 가져옵니다. [여기](http://examples.javacodegeeks.com/enterprise-java/servlet/get-client-s-address-and-hostname-in-servlet/) 예제를 참조하세요.
 
 ###### Source
 
@@ -1139,12 +1140,12 @@ The ServletRequest class has functions for finding out the IP address or host na
 [[↑] 맨 위로](#Java)
 ### Java Collection 프레임워크와 관련된 모범 사례는 무엇입니까?
 
-* Choosing the right type of the collection to use, based on the application’s needs, is very crucial for its performance. For example if the size of the elements is fixed and know a priori, we shall use an [Array](http://docs.oracle.com/javase/7/docs/api/java/lang/reflect/Array.html), instead of an [ArrayList](http://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html).
-* Some collection classes allow us to specify their initial capacity. Thus, if we have an estimation on the number of elements that will be stored, we can use it to avoid rehashing or resizing.
-* Always use Generics for type-safety, readability, and robustness. Also, by using Generics you avoid the [ClassCastException](http://docs.oracle.com/javase/7/docs/api/java/lang/ClassCastException.html) during runtime.
-* Use immutable classes provided by the Java Development Kit (JDK) as a key in a Map, in order to avoid the implementation of the [hashCode](http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html#hashCode%28%29) and equals methods for our custom class.
-* Program in terms of interface not implementation.
-* Return zero-length collections or arrays as opposed to returning a null in case the underlying collection is actually empty.
+* 응용 프로그램의 요구 사항에 따라 사용할 올바른 유형의 컬렉션을 선택하는 것은 성능에 매우 중요합니다. 예를 들어 요소의 크기가 고정되어 있고 선험적으로 알고 있는 경우 [Array](http://docs.oracle.com/javase/7/docs/api/java/lang/reflect/Array.html ), [ArrayList](http://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html) 대신.
+* 일부 컬렉션 클래스에서는 초기 용량을 지정할 수 있습니다. 따라서 저장될 요소의 수에 대한 추정이 있는 경우 이를 사용하여 재해시 또는 크기 조정을 피할 수 있습니다.
+* 유형 안전성, 가독성 및 견고성을 위해 항상 Generics를 사용하십시오. 또한 Generics를 사용하면 런타임 중에 [ClassCastException](http://docs.oracle.com/javase/7/docs/api/java/lang/ClassCastException.html)을 피할 수 있습니다.
+* [hashCode](http://docs.oracle.com/javase/7/docs/api/)의 구현을 피하기 위해 JDK(Java Development Kit)에서 제공하는 변경할 수 없는 클래스를 Map의 키로 사용합니다. java/lang/Object.html#hashCode%28%29) 및 사용자 정의 클래스에 대한 equals 메소드.
+* 구현이 아닌 인터페이스 측면에서 프로그램.
+* 기본 컬렉션이 실제로 비어 있는 경우 null을 반환하는 것과 달리 길이가 0인 컬렉션이나 배열을 반환합니다.
 
 ###### Source
 
@@ -1153,7 +1154,7 @@ The ServletRequest class has functions for finding out the IP address or host na
 [[↑] 맨 위로](#Java)
 ### 동기화된 방법과 동기화된 블록의 차이점은 무엇입니까?
 
-In Java programming, each object has a lock. A thread can acquire the lock for an object by using the synchronized keyword. The synchronized keyword can be applied in a method level (coarse grained lock) or block level of code (fine grained lock).
+Java 프로그래밍에서 각 객체에는 잠금이 있습니다. 스레드는 동기화된 키워드를 사용하여 개체에 대한 잠금을 획득할 수 있습니다. 동기화된 키워드는 메서드 수준(거친 잠금) 또는 코드의 블록 수준(세밀한 잠금)에 적용할 수 있습니다.
 
 ###### Source
 
@@ -1162,7 +1163,7 @@ In Java programming, each object has a lock. A thread can acquire the lock for a
 [[↑] 맨 위로](#Java)
 ### RMI 아키텍처의 기본 원리는 무엇입니까?
 
-The RMI architecture is based on a very important principle which states that the definition of the behavior and the implementation of that behavior, are separate concepts. RMI allows the code that defines the behavior and the code that implements the behavior to remain separate and to run on separate JVMs.
+RMI 아키텍처는 동작의 정의와 해당 동작의 구현이 별개의 개념이라는 매우 중요한 원칙에 기반합니다. RMI를 사용하면 동작을 정의하는 코드와 동작을 구현하는 코드가 별도로 유지되고 별도의 JVM에서 실행될 수 있습니다.
 
 ###### Source
 
@@ -1171,7 +1172,7 @@ The RMI architecture is based on a very important principle which states that th
 [[↑] 맨 위로](#Java)
 ### RMI에서 RMISecurityManager를 사용하는 목적은 무엇입니까?
 
-RMISecurityManager provides a security manager that can be used by RMI applications, which use downloaded code. The class loader of RMI will not download any classes from remote locations, if the security manager has not been set.
+RMISecurityManager는 다운로드된 코드를 사용하는 RMI 애플리케이션에서 사용할 수 있는 보안 관리자를 제공합니다. RMI의 클래스 로더는 보안 관리자가 설정되지 않은 경우 원격 위치에서 클래스를 다운로드하지 않습니다.
 
 ###### Source
 
@@ -1180,7 +1181,7 @@ RMISecurityManager provides a security manager that can be used by RMI applicati
 [[↑] 맨 위로](#Java)
 ### RMI에서 원격 인터페이스의 역할은 무엇입니까?
 
-The Remote interface serves to identify interfaces whose methods may be invoked from a non-local virtual machine. Any object that is a remote object must directly or indirectly implement this interface. A class that implements a remote interface should declare the remote interfaces being implemented, define the constructor for each remote object and provide an implementation for each remote method in all remote interfaces.
+원격 인터페이스는 로컬이 아닌 가상 머신에서 호출될 수 있는 메서드의 인터페이스를 식별하는 역할을 합니다. 원격 개체인 모든 개체는 이 인터페이스를 직접 또는 간접적으로 구현해야 합니다. 원격 인터페이스를 구현하는 클래스는 구현되는 원격 인터페이스를 선언하고, 각 원격 개체에 대한 생성자를 정의하고, 모든 원격 인터페이스에서 각 원격 메서드에 대한 구현을 제공해야 합니다.
 
 ###### Source
 
@@ -1189,7 +1190,7 @@ The Remote interface serves to identify interfaces whose methods may be invoked 
 [[↑] 맨 위로](#Java)
 ### java.rmi.Naming 클래스의 역할은 무엇입니까?
 
-The java.rmi.Naming class provides methods for storing and obtaining references to remote objects in the remote object registry. Each method of the Naming class takes as one of its arguments a name that is a String in URL format.
+java.rmi.Naming 클래스는 원격 객체 레지스트리에 원격 객체에 대한 참조를 저장하고 획득하기 위한 메소드를 제공합니다. Naming 클래스의 각 메소드는 URL 형식의 문자열인 이름을 인수 중 하나로 취합니다.
 
 ###### Source
 
@@ -1198,7 +1199,7 @@ The java.rmi.Naming class provides methods for storing and obtaining references 
 [[↑] 맨 위로](#Java)
 ### RMI에서 바인딩이란 무엇을 의미합니까?
 
-Binding is the process of associating or registering a name for a remote object, which can be used at a later time, in order to look up that remote object. A remote object can be associated with a name using the bind or rebind methods of the Naming class.
+바인딩은 원격 개체를 찾기 위해 나중에 사용할 수 있는 원격 개체의 이름을 연결하거나 등록하는 프로세스입니다. 원격 객체는 Naming 클래스의 bind 또는 rebind 메소드를 사용하여 이름과 연관될 수 있습니다.
 
 ###### Source
 
@@ -1207,7 +1208,7 @@ Binding is the process of associating or registering a name for a remote object,
 [[↑] 맨 위로](#Java)
 ### 직렬 및 처리량 가비지 수집기의 차이점은 무엇입니까?
 
-The throughput garbage collector uses a parallel version of the young generation collector and is meant to be used with applications that have medium to large data sets. On the other hand, the serial collector is usually adequate for most small applications (those requiring heaps of up to approximately 100MB on modern processors).
+처리량 가비지 수집기는 젊은 세대 수집기의 병렬 버전을 사용하며 중간에서 대규모 데이터 세트가 있는 응용 프로그램과 함께 사용됩니다. 반면에 직렬 수집기는 일반적으로 대부분의 소규모 응용 프로그램(최신 프로세서에서 최대 약 100MB의 힙이 필요한 응용 프로그램)에 적합합니다.
 
 ###### Source
 
@@ -1216,7 +1217,7 @@ The throughput garbage collector uses a parallel version of the young generation
 [[↑] 맨 위로](#Java)
 ### HashSet과 TreeSet의 차이점은 무엇입니까?
 
-The [HashSet](http://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html) is Implemented using a hash table and thus, its elements are not ordered. The add, remove, and contains methods of a [HashSet](http://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html)  have constant time complexity O(1). On the other hand, a [TreeSet](http://docs.oracle.com/javase/7/docs/api/java/util/TreeSet.html) is implemented using a tree structure. The elements in a [TreeSet](http://docs.oracle.com/javase/7/docs/api/java/util/TreeSet.html) are sorted, and thus, the add, remove, and contains methods have time complexity of O(log n).
+[HashSet](http://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html)은 해시 테이블을 사용하여 구현되므로 요소가 정렬되지 않습니다. [HashSet](http://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html)의 추가, 제거 및 포함 메소드는 일정한 시간 복잡도 O(1)를 갖습니다. 한편, [TreeSet](http://docs.oracle.com/javase/7/docs/api/java/util/TreeSet.html)은 트리 구조로 구현되어 있다. [TreeSet](http://docs.oracle.com/javase/7/docs/api/java/util/TreeSet.html)의 요소는 정렬되어 있으므로 추가, 제거 및 포함 메서드에 시간이 있습니다. O(log n)의 복잡도.
 
 ###### Source
 
@@ -1225,7 +1226,7 @@ The [HashSet](http://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html) i
 [[↑] 맨 위로](#Java)
 ### JVM의 영구 생성 공간에서 Garbage Collection이 발생합니까?
 
-Garbage Collection does occur in PermGen space and if PermGen space is full or cross a threshold, it can trigger a full garbage collection. If you look carefully at the output of the garbage collector, you will find that PermGen space is also garbage collected. This is the reason why correct sizing of PermGen space is important to avoid frequent full garbage collections. 
+가비지 수집은 PermGen 공간에서 발생하며 PermGen 공간이 가득 차거나 임계값을 초과하면 전체 가비지 수집을 트리거할 수 있습니다. 가비지 수집기의 출력을 주의 깊게 살펴보면 PermGen 공간도 가비지 수집됨을 알 수 있습니다. 이것이 PermGen 공간의 정확한 크기가 빈번한 전체 가비지 수집을 피하기 위해 중요한 이유입니다.
 
 ###### Source
 
@@ -1234,7 +1235,7 @@ Garbage Collection does occur in PermGen space and if PermGen space is full or c
 [[↑] 맨 위로](#Java)
 ### DGC 란 무엇입니까? 어떻게 작동합니까??
 
-DGC stands for Distributed Garbage Collection. Remote Method Invocation (RMI) uses DGC for automatic garbage collection. Since RMI involves remote object references across JVM’s, garbage collection can be quite difficult. DGC uses a reference counting algorithm to provide automatic memory management for remote objects.
+DGC는 Distributed Garbage Collection의 약자입니다. RMI(Remote Method Invocation)는 자동 가비지 수집을 위해 DGC를 사용합니다. RMI는 JVM 전반에 걸친 원격 객체 참조를 포함하기 때문에 가비지 수집이 상당히 어려울 수 있습니다. DGC는 참조 카운팅 알고리즘을 사용하여 원격 개체에 대한 자동 메모리 관리를 제공합니다.
 
 
 ###### Source
@@ -1244,11 +1245,11 @@ DGC stands for Distributed Garbage Collection. Remote Method Invocation (RMI) us
 [[↑] 맨 위로](#Java)
 ### RMI 아키텍처의 계층은 무엇입니까?
 
-The RMI architecture consists of the following layers:
+RMI 아키텍처는 다음 계층으로 구성됩니다.
 
-* Stub and Skeleton layer: This layer lies just beneath the view of the developer. This layer is responsible for intercepting method calls made by the client to the interface and redirect these calls to a remote RMI Service.
-* Remote Reference Layer: The second layer of the RMI architecture deals with the interpretation of references made from the client to the server’s remote objects. This layer interprets and manages references made from clients to the remote service objects. The connection is a one-to-one (unicast) link.
-* Transport layer: This layer is responsible for connecting the two JVM participating in the service. This layer is based on TCP/IP connections between machines in a network. It provides basic connectivity, as well as some firewall penetration strategies.
+* 스텁 및 스켈레톤 레이어: 이 레이어는 개발자 보기 바로 아래에 있습니다. 이 계층은 클라이언트가 인터페이스에 대해 만든 메서드 호출을 가로채고 이러한 호출을 원격 RMI 서비스로 리디렉션하는 역할을 합니다.
+* 원격 참조 계층: RMI 아키텍처의 두 번째 계층은 클라이언트에서 서버의 원격 개체에 대한 참조 해석을 처리합니다. 이 계층은 클라이언트에서 원격 서비스 개체에 대한 참조를 해석하고 관리합니다. 연결은 일대일(유니캐스트) 링크입니다.
+* Transport layer: 서비스에 참여하는 두 개의 JVM을 연결하는 역할을 하는 계층이다. 이 계층은 네트워크에 있는 시스템 간의 TCP/IP 연결을 기반으로 합니다. 기본 연결과 일부 방화벽 침투 전략을 제공합니다.
 
 ###### Source
 
@@ -1257,7 +1258,7 @@ The RMI architecture consists of the following layers:
 [[↑] 맨 위로](#Java)
 ### 스레드 동기화는 모니터 내부에서 어떻게 발생합니까? 어떤 수준의 동기화를 적용할 수 있습니까?
 
-The JVM uses locks in conjunction with monitors. A monitor is basically a guardian that watches over a sequence of synchronized code and ensuring that only one thread at a time executes a synchronized piece of code. Each monitor is associated with an object reference. The thread is not allowed to execute the code until it obtains the lock.
+JVM은 모니터와 함께 잠금을 사용합니다. 모니터는 기본적으로 동기화된 코드 시퀀스를 감시하고 한 번에 하나의 스레드만 동기화된 코드 조각을 실행하도록 하는 보호자입니다. 각 모니터는 개체 참조와 연결됩니다. 스레드는 잠금을 얻을 때까지 코드를 실행할 수 없습니다.
 
 ###### Source
 
