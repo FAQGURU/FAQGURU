@@ -1,119 +1,119 @@
 ## TypeScript
 
-[What is TypeScript and why do we need it?](#what-is-typescript-and-why-do-we-need-it)
+[TypeScript는 무엇이며 왜 필요한가요?](#TypeScript는-무엇이며-왜-필요한가요)
 
-[What are Modules in Typescript?](#what-are-modules-in-typescript)
+[Typescript의 모듈은 무엇입니까?](#Typescript의-모듈은-무엇입니까)
 
-[ What is Typescript and why one should use it?](# what-is-typescript-and-why-one-should-use-it)
+[Typescript란 무엇이며 왜 사용해야 합니까?](#Typescript란-무엇이며-왜-사용해야-합니까)
 
-[Explain generics in TypeScript](#explain-generics-in-typescript)
+[TypeScript에서 제네릭 설명](#TypeScript에서-제네릭-설명)
 
-[What is TypeScript and why would I use it in place of JavaScript?](#what-is-typescript-and-why-would-i-use-it-in-place-of-javascript)
+[TypeScript는 무엇이며 JavaScript 대신 사용하는 이유는 무엇입니까?](#TypeScript는-무엇이며-JavaScript-대신-사용하는-이유는-무엇입니까)
 
-[How to call base class constructor from child class in TypeScript?](#how-to-call-base-class-constructor-from-child-class-in-typescript)
+[TypeScript의 자식 클래스에서 기본 클래스 생성자를 호출하는 방법은 무엇입니까?](#TypeScript의-자식-클래스에서-기본-클래스-생성자를-호출하는-방법은-무엇입니까)
 
-[Do we need to compile TypeScript files and why?](#do-we-need-to-compile-typescript-files-and-why)
+[TypeScript 파일을 컴파일해야 하고 그 이유는 무엇입니까?](#TypeScript-파일을-컴파일해야-하고-그-이유는-무엇입니까)
 
-[List the built-in types in Typescript](#list-the-built-in-types-in-typescript)
+[Typescript의 기본 제공 유형 나열](#Typescript의-기본-제공-유형-나열)
 
-[What are the benefits of TypeScript?](#what-are-the-benefits-of-typescript)
+[TypeScript의 장점은 무엇입니까?](#TypeScript의-장점은-무엇입니까)
 
-[What are the difference beetween Typescript and JavaScript?](#what-are-the-difference-beetween-typescript-and-javascript)
+[Typescript와 JavaScript의 차이점은 무엇입니까?](#Typescript와-JavaScript의-차이점은-무엇입니까)
 
-[What is Interface in TypeScript?](#what-is-interface-in-typescript)
+[TypeScript의 인터페이스란 무엇입니까?](#TypeScript의-인터페이스란-무엇입니까)
 
-[When to use interfaces and when to use classes in TypeScript?](#when-to-use-interfaces-and-when-to-use-classes-in-typescript)
+[TypeScript에서 언제 인터페이스를 사용하고 언제 클래스를 사용합니까?](#TypeScript에서-언제-인터페이스를-사용하고-언제-클래스를-사용합니까)
 
-[Which object oriented terms are supported by TypeScript?](#which-object-oriented-terms-are-supported-by-typescript)
+[TypeScript는 어떤 객체 지향 용어를 지원합니까?](#TypeScript는-어떤-객체-지향-용어를-지원합니까)
 
-[What is getters/setters in TypeScript?](#what-is-getterssetters-in-typescript)
+[TypeScript에서 getter/setter란 무엇입니까?](#TypeScript에서-gettersetter란-무엇입니까)
 
-[Does TypeScript support all object oriented principles?](#does-typescript-support-all-object-oriented-principles)
+[TypeScript는 모든 객체 지향 원칙을 지원합니까?](#TypeScript는-모든-객체-지향-원칙을-지원합니까)
 
-[How could you check null and undefined in TypeScript?](#how-could-you-check-null-and-undefined-in-typescript)
+[TypeScript에서 null과 undefined를 어떻게 확인할 수 있습니까?](#TypeScript에서-null과-undefined를-어떻게-확인할-수-있습니까)
 
-[How to implement class constants in TypeScript?](#how-to-implement-class-constants-in-typescript)
+[TypeScript에서 클래스 상수를 구현하는 방법은 무엇입니까?](#TypeScript에서-클래스-상수를-구현하는-방법은-무엇입니까)
 
-[Could we use TypeScript on backend and how?](#could-we-use-typescript-on-backend-and-how)
+[백엔드에서 TypeScript를 어떻게 사용할 수 있습니까?](#백엔드에서-TypeScript를-어떻게-사용할-수-있습니까)
 
-[What is the difference between Classes and Interfaces in Typescript?](#what-is-the-difference-between-classes-and-interfaces-in-typescript)
+[Typescript에서 클래스와 인터페이스의 차이점은 무엇입니까?](#Typescript에서-클래스와-인터페이스의-차이점은-무엇입니까)
 
-[What is "Decorators" in TypeScript?](#what-is-decorators-in-typescript)
+[TypeScript의 "데코레이터"란 무엇입니까?](#TypeScript의-데코레이터란-무엇입니까)
 
-[What is a TypeScript Map file?](#what-is-a-typescript-map-file)
+[TypeScript 맵 파일이란?](#TypeScript-맵-파일이란)
 
-[What's wrong with that code?](#whats-wrong-with-that-code)
+[그 코드에 무슨 문제가 있습니까?](#그-코드에-무슨-문제가-있습니까)
 
-[What are different components of TypeScript?](#what-are-different-components-of-typescript)
+[TypeScript의 다른 구성 요소는 무엇입니까?](#TypeScript의-다른-구성-요소는-무엇입니까)
 
-[Is that TypeScript code valid? Explain why.](#is-that-typescript-code-valid-explain-why)
+[TypeScript 코드가 유효합니까? 이유를 설명하시오.](#TypeScript-코드가-유효합니까-이유를-설명하시오)
 
-[What is Typings in Typescript?](#what-is-typings-in-typescript)
+[Typescript의 타이핑이란 무엇입니까?](#Typescript의-타이핑이란-무엇입니까)
 
-[How To Use external plain JavaScript Libraries in TypeScript?](#how-to-use-external-plain-javascript-libraries-in-typescript)
+[TypeScript에서 외부 일반 JavaScript 라이브러리를 사용하는 방법은 무엇입니까?](#TypeScript에서-외부-일반-JavaScript-라이브러리를-사용하는-방법은-무엇입니까)
 
-[How TypeScript is optionally statically typed language?](#how-typescript-is-optionally-statically-typed-language)
+[TypeScript가 어떻게 선택적으로 정적으로 유형이 지정되는 언어입니까?](#TypeScript가-어떻게-선택적으로-정적으로-유형이-지정되는-언어입니까)
 
-[Are strongly-typed functions as parameters possible in TypeScript?](#are-strongly-typed-functions-as-parameters-possible-in-typescript)
+[TypeScript에서 강력한 형식의 함수를 매개변수로 사용할 수 있습니까?](#TypeScript에서-강력한-형식의-함수를-매개변수로-사용할-수-있습니까)
 
-[What is the default access modifier for members of a class in TypeScript?](#what-is-the-default-access-modifier-for-members-of-a-class-in-typescript)
+[TypeScript의 클래스 멤버에 대한 기본 액세스 수정자는 무엇입니까?](#TypeScript의-클래스-멤버에-대한-기본-액세스-수정자는-무엇입니까)
 
-[How can you allow classes defined in a module to accessible outside of the module?](#how-can-you-allow-classes-defined-in-a-module-to-accessible-outside-of-the-module)
+[모듈에 정의된 클래스가 모듈 외부에서 액세스할 수 있도록 하려면 어떻게 해야 합니까?](#모듈에-정의된-클래스가-모듈-외부에서-액세스할-수-있도록-하려면-어떻게-해야-합니까)
 
-[Explain how and why we could use property decorators in TS?](#explain-how-and-why-we-could-use-property-decorators-in-ts)
+[TS에서 속성 데코레이터를 사용할 수 있는 방법과 이유를 설명하십시오.](#TS에서-속성-데코레이터를-사용할-수-있는-방법과-이유를-설명하십시오)
 
-[Does TypeScript supports function overloading?](#does-typescript-supports-function-overloading)
+[TypeScript는 함수 오버로딩을 지원합니까?](#TypeScript는-함수-오버로딩을-지원합니까)
 
-[Explain why that code is marked as WRONG?](#explain-why-that-code-is-marked-as-wrong)
+[해당 코드가 WRONG으로 표시된 이유를 설명하십시오.](#해당-코드가-WRONG으로-표시된-이유를-설명하십시오)
 
-[What is the difference between "interface vs type" statements?](#what-is-the-difference-between-interface-vs-type-statements)
+["interface와 type" 문장의 차이점은 무엇입니까?](#interface와-type-문장의-차이점은-무엇입니까)
 
-[How would you overload a class constructor in TypeScript?](#how-would-you-overload-a-class-constructor-in-typescript)
+[TypeScript에서 클래스 생성자를 어떻게 오버로드합니까?](#TypeScript에서-클래스-생성자를-어떻게-오버로드합니까)
 
-[What is one thing you would change about TypeScript?](#what-is-one-thing-you-would-change-about-typescript)
+[TypeScript에 대해 한 가지 변경하고 싶은 것은 무엇입니까?](#TypeScript에-대해-한-가지-변경하고-싶은-것은-무엇입니까)
 
-[Explain when to use "declare" keyword in TypeScript](#explain-when-to-use-declare-keyword-in-typescript)
+[TypeScript에서 "declare" 키워드를 사용하는 경우 설명](#TypeScript에서-declare-키워드를-사용하는-경우-설명)
 
-[What are Ambients in TypeScripts and when to use them?](#what-are-ambients-in-typescripts-and-when-to-use-them)
+[TypeScript에서 Ambient는 무엇이며 언제 사용해야 합니까?](#TypeScript에서-Ambient는-무엇이며-언제-사용해야-합니까)
 
-[Is it possible to generate TypeScript declaration files from JS library?](#is-it-possible-to-generate-typescript-declaration-files-from-js-library)
+[JS 라이브러리에서 TypeScript 선언 파일을 생성할 수 있습니까?](#JS-라이브러리에서-TypeScript-선언-파일을-생성할-수-있습니까)
 
 
 
-### What is TypeScript and why do we need it?
+### TypeScript는 무엇이며 왜 필요한가요?
 
-JavaScript is the only client side language universally supported by all browsers. But JavaScript is not the best designed language. It’s not a class-based object-oriented language, doesn’t support class based inheritance, unreliable dynamic typing and lacks in compile time error checking. And TypeScript addresses all these problems. In other words, TypeScript is an attempt to “fix” JavaScript problems.
+JavaScript는 모든 브라우저에서 보편적으로 지원되는 유일한 클라이언트 측 언어입니다. 그러나 JavaScript는 가장 잘 설계된 언어가 아닙니다. 클래스 기반 객체 지향 언어가 아니며 클래스 기반 상속, 신뢰할 수 없는 동적 타이핑을 지원하지 않으며 컴파일 시간 오류 검사가 부족합니다. 그리고 TypeScript는 이러한 모든 문제를 해결합니다. 즉, TypeScript는 JavaScript 문제를 "수정"하려는 시도입니다.
 
-TypeScript is a free and open source programming language developed and maintained by Microsoft. It is a strict superset of JavaScript, and adds **optional static typing** and **class-based object-oriented programming** to the language. TypeScript is quite easy to learn and use for developers familiar with C#, Java and all strong typed languages. At the end of day “TypeScript is a language that generates plain JavaScript files.”
+TypeScript는 Microsoft에서 개발 및 유지 관리하는 무료 오픈 소스 프로그래밍 언어입니다. JavaScript의 엄격한 상위 집합이며 언어에 **선택적 정적 입력** 및 **클래스 기반 객체 지향 프로그래밍**을 추가합니다. TypeScript는 C#, Java 및 모든 강력한 유형의 언어에 익숙한 개발자가 배우고 사용하기가 매우 쉽습니다. 하루가 끝나면 "TypeScript는 일반 JavaScript 파일을 생성하는 언어입니다."
 
-As stated on [Typescript official website](http://www.typescriptlang.org/), “TypeScript lets you write JavaScript the way you really want to. TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. Any browser. Any host. Any OS. Open Source.” Where “**typed**” means that it considers the types of variables, parameters and functions.
+[TypeScript 공식 홈페이지](http://www.typescriptlang.org/)에 나와 있는 것처럼 “TypeScript를 사용하면 원하는 대로 JavaScript를 작성할 수 있습니다. TypeScript는 일반 JavaScript로 컴파일되는 JavaScript의 유형이 지정된 상위 집합입니다. 모든 브라우저. 모든 호스트. 모든 OS. 오픈 소스.” 여기서 "**typed**"는 변수, 매개변수 및 함수의 유형을 고려한다는 의미입니다.
 
 ###### Source
 
 * http://www.talkingdotnet.com/typescript-interview-questions/
 
-[[↑] Back to top](#TypeScript)
-### What are Modules in Typescript?
+[[↑] 맨 위로](#TypeScript)
+### Typescript의 모듈은 무엇입니까?
 
-Modules in Typescript helps in organizing the code. There are 2 types of Modules — Internal and External
+Typescript의 모듈은 코드를 구성하는 데 도움이 됩니다. 모듈에는 2가지 유형이 있습니다. — 내부 및 외부
 
-* **Internal Modules** are now replaceable by using Typescript’s namespace.
+* **내부 모듈**은 이제 Typescript의 네임스페이스를 사용하여 교체할 수 있습니다.
 
-* **External Modules** used to specify and load dependencies between multiple external js files. If there is only one js file used, then external modules are not relevant.
-
-
-
-[[↑] Back to top](#TypeScript)
-###  What is Typescript and why one should use it?
-
-TypeScript is a free and open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript, and adds optional static typing and class-based object-oriented programming to the language.
+* **외부 모듈**은 여러 외부 js 파일 간의 종속성을 지정하고 로드하는 데 사용됩니다. js 파일이 하나만 사용되는 경우 외부 모듈은 관련이 없습니다.
 
 
 
-[[↑] Back to top](#TypeScript)
-### Explain generics in TypeScript
+[[↑] 맨 위로](#TypeScript)
+###  Typescript란 무엇이며 왜 사용해야 합니까?
 
-Generics are able to create a component or function to work over a variety of types rather than a single one.
+TypeScript는 Microsoft에서 개발 및 유지 관리하는 무료 오픈 소스 프로그래밍 언어입니다. JavaScript의 엄격한 구문 상위 집합이며 선택적 정적 유형 지정 및 클래스 기반 객체 지향 프로그래밍을 언어에 추가합니다.
+
+
+
+[[↑] 맨 위로](#TypeScript)
+### TypeScript에서 제네릭 설명
+
+제네릭은 단일 유형이 아닌 다양한 유형에 대해 작동하는 구성 요소 또는 기능을 생성할 수 있습니다.
 
 ```js
 /** A class definition with a generic parameter */
@@ -134,63 +134,63 @@ queue.push("1"); // ERROR : cannot push a string. Only numbers allowed
 
 * https://basarat.gitbooks.io/typescript/docs/types/generics.html
 
-[[↑] Back to top](#TypeScript)
-### What is TypeScript and why would I use it in place of JavaScript?
+[[↑] 맨 위로](#TypeScript)
+### TypeScript는 무엇이며 JavaScript 대신 사용하는 이유는 무엇입니까?
 
-**TypeScript** is a superset of JavaScript which primarily provides optional static typing, classes and interfaces. One of the big benefits is to enable IDEs to provide a richer environment for spotting common errors as *you type the code*. For a large JavaScript project, adopting TypeScript might result in more robust software, while still being deployable where a regular JavaScript application would run.
+**TypeScript**는 기본적으로 선택적 정적 입력, 클래스 및 인터페이스를 제공하는 JavaScript의 상위 집합입니다. 큰 이점 중 하나는 IDE가 *코드를 입력*할 때 일반적인 오류를 발견할 수 있는 보다 풍부한 환경을 제공할 수 있다는 것입니다. 대규모 JavaScript 프로젝트의 경우 TypeScript를 채택하면 소프트웨어가 더욱 강력해지면서 일반 JavaScript 응용 프로그램이 실행되는 곳에 배포할 수 있습니다.
 
-In details:
-* TypeScript supports new ECMAScript standards and compiles them to (older) ECMAScript targets of your choosing. This means that you can use features of ES2015 and beyond, like modules, lambda functions, classes, the spread operator, destructuring, today. 
-* JavaScript code is valid TypeScript code; TypeScript is a superset of JavaScript. 
-* TypeScript adds type support to JavaScript. The type system of TypeScript is relatively rich and includes: interfaces, enums, hybrid types, generics, union and intersection types, access modifiers and much more. TypeScript makes typing a bit easier and a lot less explicit by the usage of type inference.
-* The development experience with TypeScript is a great improvement over JavaScript. The IDE is informed in real-time by the TypeScript compiler on its rich type information. 
-* With strict null checks enabled (`--strictNullChecks` compiler flag) the TypeScript compiler will not allow undefined to be assigned to a variable unless you explicitly declare it to be of nullable type. 
-* To use TypeScript you need a build process to compile to JavaScript code. The TypeScript compiler can inline source map information in the generated .js files or create separate .map files. This makes it possible for you to set breakpoints and inspect variables during runtime directly on your TypeScript code. 
-* TypeScript is open source (Apache 2 licensed, see github) and backed by Microsoft. *Anders Hejlsberg*, the lead architect of C# is spearheading the project.
+자세히:
+* TypeScript는 새로운 ECMAScript 표준을 지원하고 이를 사용자가 선택한 (이전) ECMAScript 대상으로 컴파일합니다. 즉, 모듈, 람다 함수, 클래스, 스프레드 연산자, 구조 분해와 같은 ES2015 이상의 기능을 오늘날 사용할 수 있습니다.
+* JavaScript 코드는 유효한 TypeScript 코드입니다. TypeScript는 JavaScript의 상위 집합입니다.
+* TypeScript는 JavaScript에 유형 지원을 추가합니다. TypeScript의 유형 시스템은 비교적 풍부하며 인터페이스, 열거형, 하이브리드 유형, 제네릭, 통합 및 교차 유형, 액세스 수정자 등을 포함합니다. TypeScript는 유형 추론을 사용하여 입력을 좀 더 쉽고 덜 명시적으로 만듭니다.
+* TypeScript를 사용한 개발 경험은 JavaScript에 비해 크게 개선되었습니다. IDE는 풍부한 유형 정보에 대해 TypeScript 컴파일러에서 실시간으로 알려줍니다.
+* 엄격한 널 검사가 활성화된 경우(`--strictNullChecks` 컴파일러 플래그) TypeScript 컴파일러는 명시적으로 널 입력 가능 유형으로 선언하지 않는 한 undefined가 변수에 할당되는 것을 허용하지 않습니다. 
+* TypeScript를 사용하려면 JavaScript 코드로 컴파일하는 빌드 프로세스가 필요합니다. TypeScript 컴파일러는 생성된 .js 파일에 소스 맵 정보를 인라인하거나 별도의 .map 파일을 생성할 수 있습니다. 이렇게 하면 런타임 중에 TypeScript 코드에서 직접 중단점을 설정하고 변수를 검사할 수 있습니다.
+* TypeScript는 오픈 소스(Apache 2 라이선스, github 참조)이며 Microsoft에서 지원합니다. C#의 수석 설계자인 *Anders Hejlsberg*가 이 프로젝트를 주도하고 있습니다.
 
 ###### Source
 
 * https://stackoverflow.com/questions/12694530/what-is-typescript-and-why-would-i-use-it-in-place-of-javascript
 
-[[↑] Back to top](#TypeScript)
-### How to call base class constructor from child class in TypeScript?
+[[↑] 맨 위로](#TypeScript)
+### TypeScript의 자식 클래스에서 기본 클래스 생성자를 호출하는 방법은 무엇입니까?
 
-We can call base class constructor using `super()`.
+`super()`를 사용하여 기본 클래스 생성자를 호출할 수 있습니다.
 
 ###### Source
 
 * http://www.talkingdotnet.com/typescript-interview-questions/
 
-[[↑] Back to top](#TypeScript)
-### Do we need to compile TypeScript files and why?
+[[↑] 맨 위로](#TypeScript)
+### TypeScript 파일을 컴파일해야 하고 그 이유는 무엇입니까?
 
-Yes we do. Typescript is just a language Extension browsers can't interpret it. Converting from TypeScript to JavaScript is called compiling. Compiling doesn't mean binary code is created in this case. For this kind of translation, also the term transpilation is used instead of compilation.
+예, 저희는 그렇습니다. Typescript는 확장 브라우저가 해석할 수 없는 언어일 뿐입니다. TypeScript에서 JavaScript로 변환하는 것을 컴파일이라고 합니다. 컴파일은 이 경우 바이너리 코드가 생성된다는 의미가 아닙니다. 이러한 종류의 번역의 경우 컴파일 대신 번역이라는 용어도 사용됩니다.
 
 ###### Source
 
 * https://stackoverflow.com/questions/45125284/why-is-angular-compiled
 
-[[↑] Back to top](#TypeScript)
-### List the built-in types in Typescript
+[[↑] 맨 위로](#TypeScript)
+### Typescript의 기본 제공 유형 나열
 
-These are also called the primitive types in TypeScript:
-* **Number** type: it is used to represent number type values and represents double precision floating point values.
+TypeScript에서는 다음과 같은 기본 유형이라고도 합니다.
+* **Number** 유형: 숫자 유형 값을 나타내는 데 사용되며 배정도 부동 소수점 값을 나타냅니다.
 ```js
 var variable_name: number;
 ```
-* **String** type: it represents a sequence of characters stored as Unicode UTF-16 code. It is the same as JavaScript primitive type.
+* **String** 유형: 유니코드 UTF-16 코드로 저장된 일련의 문자를 나타냅니다. JavaScript 기본 유형과 동일합니다.
 ```js
 var variable_name: string;
 ```
-* **Boolean** type: in Typescript, it is used to represent a logical value. When we use the Boolean type, we get output only in true or false. It is also the same as JavaScript primitive type.
+* **Boolean** 유형: Typescript에서 논리값을 나타내는 데 사용됩니다. Boolean 유형을 사용하면 true 또는 false로만 출력됩니다. JavaScript 기본 유형과 동일합니다.
 ```js
 var variable_name: bool;
 ```
-* **Null** type: it represents a null literal and it is not possible to directly reference the null type value itself.
+* **Null** 유형: null 리터럴을 나타내며 null 유형 값 자체를 직접 참조할 수 없습니다.
 ```js
 var variable_name:number = null;
 ```
-* **Undefined** type: it is the type of undefined literal. This type of built-in type is the sub-type of all the types.
+* **Undefined** 유형: 정의되지 않은 리터럴의 유형입니다. 이 유형의 기본 제공 유형은 모든 유형의 하위 유형입니다.
 ```js
 var variable_name:number = undefined;
 ```
@@ -198,65 +198,64 @@ var variable_name:number = undefined;
 
 
 
-[[↑] Back to top](#TypeScript)
-### What are the benefits of TypeScript?
+[[↑] 맨 위로](#TypeScript)
+### TypeScript의 장점은 무엇입니까?
 
-TypeScript has following benefits.
+TypeScript는 다음과 같은 이점이 있습니다:
 
-*   It helps in code structuring.
-*   Use class based object oriented programming.
-*   Impose coding guidelines.
-*   Offers type checking.
-*   Compile time error checking.
-*   Intellisense.
+* 코드 구조화에 도움이 됩니다.
+* 클래스 기반 객체 지향 프로그래밍을 사용합니다.
+* 코딩 지침을 부과합니다.
+* 유형 검사를 제공합니다.
+* 컴파일 시간 오류 검사.
+* Intellisense.
 
 ###### Source
 
 * http://www.talkingdotnet.com/typescript-interview-questions/
 
-[[↑] Back to top](#TypeScript)
-### What are the difference beetween Typescript and JavaScript?
+[[↑] 맨 위로](#TypeScript)
+### Typescript와 JavaScript의 차이점은 무엇입니까?
 
-* It is an object oriented programming language (not pure).
-* Here it is static typing (We can declare a variable in multiple ways). ex: var num : number.
-* It has interfaces.
-* It has optional parameter feature.
-* It has Rest Parameter feature.
-* Supports generics.
-* Supports Modules
-* Number, string etc. are the interfaces.
-
-
+* 객체 지향 프로그래밍 언어입니다(순수하지 않음).
+* 이것은 정적 타이핑입니다(여러 방법으로 변수를 선언할 수 있습니다). 예: var num : 숫자.
+* 인터페이스가 있습니다.
+* 선택적 매개변수 기능이 있습니다.
+* Rest Parameter 기능이 있습니다.
+* 제네릭을 지원합니다.
+* 모듈 지원
+* 숫자, 문자열 등은 인터페이스입니다.
 
 
-[[↑] Back to top](#TypeScript)
-### What is Interface in TypeScript?
 
-One of TypeScript’s core principles is that type-checking focuses on the *shape* that values have.
+[[↑] 맨 위로](#TypeScript)
+### TypeScript의 인터페이스란 무엇입니까?
 
-An `interface` is a virtual structure that only exists within the context of TypeScript. The TypeScript compiler uses interfaces solely for type-checking purposes.
+TypeScript의 핵심 원칙 중 하나는 유형 검사가 값의 *모양*에 초점을 맞추는 것입니다.
 
-When you define your interface you’re saying that any object (not an instance of a class) given this contract must be an object containing interfaces properties.
+'인터페이스'는 TypeScript의 컨텍스트 내에서만 존재하는 가상 구조입니다. TypeScript 컴파일러는 유형 검사 목적으로만 인터페이스를 사용합니다.
+
+인터페이스를 정의할 때 이 계약이 주어진 모든 객체(클래스의 인스턴스가 아님)는 인터페이스 속성을 포함하는 객체여야 한다고 말하는 것입니다.
 
 ###### Source
 
 * https://medium.com/front-end-hacking/typescript-class-vs-interface-99c0ae1c2136
 
-[[↑] Back to top](#TypeScript)
-### When to use interfaces and when to use classes in TypeScript?
+[[↑] 맨 위로](#TypeScript)
+### TypeScript에서 언제 인터페이스를 사용하고 언제 클래스를 사용합니까?
 
-If you need/wish to create an instance of perhaps a custom object, whilst getting the benefits of type-checking things such as arguments, return types or generics - a class makes sense. 
+인수, 반환 유형 또는 제네릭과 같은 유형 검사의 이점을 얻으면서 아마도 사용자 정의 개체의 인스턴스를 생성해야 하거나 생성하려는 경우 - 클래스가 의미가 있습니다.
 
-If you’re not creating instances - we have interfaces at our disposal, and their benefit comes from not generating any source code, yet allowing us to somewhat “virtually” type-check our code.
+인스턴스를 생성하지 않는 경우 - 우리는 마음대로 인터페이스를 사용할 수 있으며 소스 코드를 생성하지 않는 이점이 있지만 우리가 코드를 "가상으로" 유형 검사할 수 있다는 이점이 있습니다.
 
 ###### Source
 
 * https://toddmotto.com/classes-vs-interfaces-in-typescript
 
-[[↑] Back to top](#TypeScript)
-### Which object oriented terms are supported by TypeScript?
+[[↑] 맨 위로](#TypeScript)
+### TypeScript는 어떤 객체 지향 용어를 지원합니까?
 
-TypeScript supports following object oriented terms:
+TypeScript는 다음과 같은 객체 지향 용어를 지원합니다:
 
 *   Modules
 *   Classes
@@ -268,10 +267,10 @@ TypeScript supports following object oriented terms:
 
 * http://www.talkingdotnet.com/typescript-interview-questions/
 
-[[↑] Back to top](#TypeScript)
-### What is getters/setters in TypeScript?
+[[↑] 맨 위로](#TypeScript)
+### TypeScript에서 getter/setter란 무엇입니까?
 
-TypeScript supports **getters/setters** as a way of intercepting accesses to a member of an object. This gives you a way of having finer-grained control over how a member is accessed on each object.
+TypeScript는 객체의 멤버에 대한 액세스를 가로채는 방법으로 **getters/setters**를 지원합니다. 이렇게 하면 각 개체에서 멤버에 액세스하는 방법을 보다 세부적으로 제어할 수 있습니다.
 
 ```js
 class foo {
@@ -293,31 +292,31 @@ myFoo.bar = true;  // correct (set)
 
 * http://www.typescriptlang.org/docs/handbook/classes.html
 
-[[↑] Back to top](#TypeScript)
-### Does TypeScript support all object oriented principles?
+[[↑] 맨 위로](#TypeScript)
+### TypeScript는 모든 객체 지향 원칙을 지원합니까?
 
-The answer is **YES**. There are 4 main principles to Object Oriented Programming: 
+대답은 **예**입니다. 객체 지향 프로그래밍에는 4가지 주요 원칙이 있습니다:
 
 * Encapsulation, 
 * Inheritance, 
 * Abstraction, and 
 * Polymorphism. 
 
-TypeScript can implement all four of them with its smaller and cleaner syntax.
+TypeScript는 더 작고 깔끔한 구문으로 이 네 가지를 모두 구현할 수 있습니다.
 
 ###### Source
 
 * https://jonathanmh.com/typescript-node-js-tutorial-backend-beginner/
 
-[[↑] Back to top](#TypeScript)
-### How could you check null and undefined in TypeScript?
+[[↑] 맨 위로](#TypeScript)
+### TypeScript에서 null과 undefined를 어떻게 확인할 수 있습니까?
 
 Just use:
 ```js
 if (value) {
 }
 ```
-It will evaluate to `true` if `value` is not:
+'value'가 다음이 아닌 경우 'true'로 평가됩니다.
 
 * `null`
 * `undefined`
@@ -326,17 +325,17 @@ It will evaluate to `true` if `value` is not:
 * `0`
 * `false`
 
-TypesScript includes JavaScript rules.
+TypeScript에는 JavaScript 규칙이 포함되어 있습니다.
 
 
 ###### Source
 
 * https://stackoverflow.com/questions/28975896/is-there-a-dedicated-function-to-check-null-and-undefined-in-typescript
 
-[[↑] Back to top](#TypeScript)
-### How to implement class constants in TypeScript?
+[[↑] 맨 위로](#TypeScript)
+### TypeScript에서 클래스 상수를 구현하는 방법은 무엇입니까?
 
-In TypeScript, the `const` keyword cannot be used to declare class properties. Doing so causes the compiler to an error with "A class member cannot have the 'const' keyword." TypeScript 2.0 has the `readonly` modifier:
+TypeScript에서 `const` 키워드는 클래스 속성을 선언하는 데 사용할 수 없습니다. 그렇게 하면 컴파일러에서 "클래스 멤버는 'const' 키워드를 가질 수 없습니다."라는 오류가 발생합니다. TypeScript 2.0에는 `readonly` 수정자가 있습니다.
 
 ```js
 class MyClass {
@@ -354,17 +353,17 @@ new MyClass().myReadonlyProperty = 5; // error, readonly
 
 * https://stackoverflow.com/questions/37265275/how-to-implement-class-constants-in-typescript
 
-[[↑] Back to top](#TypeScript)
-### Could we use TypeScript on backend and how?
+[[↑] 맨 위로](#TypeScript)
+### 백엔드에서 TypeScript를 어떻게 사용할 수 있습니까?
 
-Typescript doesn’t only work for browser or frontend code, you can also choose to write your backend applications. For example you could choose Node.js and have some additional type safety and the other abstraction that the language brings.
+Typescript는 브라우저나 프론트엔드 코드에서만 작동하는 것이 아니라 백엔드 애플리케이션을 작성하도록 선택할 수도 있습니다. 예를 들어 Node.js를 선택하고 일부 추가 유형 안전성과 언어가 가져오는 다른 추상화를 가질 수 있습니다.
 
-1. Install the default Typescript compiler  
+1. 기본 Typescript 컴파일러 설치  
 
 ```sh
 npm i -g typescript
 ```
-2. The TypeScript compiler takes options in the shape of a tsconfig.json file that determines where to put built files and in general is pretty similar to a babel or webpack config.
+2. TypeScript 컴파일러는 빌드된 파일을 저장할 위치를 결정하는 tsconfig.json 파일 형태의 옵션을 사용하며 일반적으로 babel 또는 webpack 구성과 매우 유사합니다.
 
 ```sh
 {
@@ -376,12 +375,12 @@ npm i -g typescript
   }
 }
 ```
-3. Compile ts files
+3. ts 파일 컴파일
 
 ```sh
 tsc
 ```
-4. Run
+4. 동작
 
 ```js
 node build/index.js
@@ -391,43 +390,43 @@ node build/index.js
 
 * https://jonathanmh.com/typescript-node-js-tutorial-backend-beginner/
 
-[[↑] Back to top](#TypeScript)
-### What is the difference between Classes and Interfaces in Typescript?
+[[↑] 맨 위로](#TypeScript)
+### Typescript에서 클래스와 인터페이스의 차이점은 무엇입니까?
 
-We use classes as object factories. A class defines a blueprint of what an object should look like and act like and then implements that blueprint by initialising class properties and defining methods. Classes are present throughout all the phases of our code.
+우리는 클래스를 객체 팩토리로 사용합니다. 클래스는 객체의 모양과 작동 방식에 대한 청사진을 정의한 다음 클래스 속성을 초기화하고 메서드를 정의하여 해당 청사진을 구현합니다. 클래스는 코드의 모든 단계에 걸쳐 있습니다.
 
-Unlike classes, an interface is a virtual structure that only exists within the context of TypeScript. The TypeScript compiler uses interfaces solely for type-checking purposes. Once code is transpiled to its target language, it will be stripped from interfaces.
+클래스와 달리 인터페이스는 TypeScript 컨텍스트 내에서만 존재하는 가상 구조입니다. TypeScript 컴파일러는 유형 검사 목적으로만 인터페이스를 사용합니다. 코드가 대상 언어로 변환되면 인터페이스에서 제거됩니다.
 
-A class may define a factory or a singleton by providing initialisation to its properties and implementation to its methods, an interface is simply a structural contract that defines what the properties of an object should have as a name and as a type.
+클래스는 속성에 초기화를 제공하고 메서드에 구현을 제공하여 팩토리 또는 싱글톤을 정의할 수 있습니다. 인터페이스는 단순히 객체의 속성이 이름과 유형으로 가져야 하는 것을 정의하는 구조적 계약입니다.
 
 ###### Source
 
 * https://toddmotto.com/classes-vs-interfaces-in-typescript
 
-[[↑] Back to top](#TypeScript)
-### What is "Decorators" in TypeScript?
+[[↑] 맨 위로](#TypeScript)
+### TypeScript의 "데코레이터"란 무엇입니까?
 
-A *Decorator* is a special kind of declaration that can be attached to a class declaration, method, accessor, property, or parameter. Decorators are functions that take their target as the argument. With decorators we can run arbitrary code around the target execution or even entirely replace the target with a new definition.
+*Decorator*는 클래스 선언, 메서드, 접근자, 속성 또는 매개변수에 첨부할 수 있는 특별한 종류의 선언입니다. 데코레이터는 대상을 인수로 사용하는 함수입니다. 데코레이터를 사용하면 대상 실행 주변에서 임의의 코드를 실행하거나 대상을 새 정의로 완전히 대체할 수도 있습니다.
 
-There are 4 things we can decorate in ECMAScript2016 (and Typescript): constructors, methods, properties and parameters. 
+ECMAScript2016(및 Typescript)에서 구성할 수 있는 4가지 항목이 있습니다. 생성자, 메서드, 속성 및 매개변수입니다.
 
 ###### Source
 
 * https://www.sparkbit.pl/typescript-decorators/
 
-[[↑] Back to top](#TypeScript)
-### What is a TypeScript Map file?
+[[↑] 맨 위로](#TypeScript)
+### TypeScript 맵 파일이란?
 
-`.map` files are source map files that let tools map between the emitted JavaScript code and the TypeScript source files that created it. Many debuggers (e.g. Visual Studio or Chrome's dev tools) can consume these files so you can debug the TypeScript file instead of the JavaScript file.
+`.map` 파일은 도구가 생성된 JavaScript 코드와 이를 생성한 TypeScript 소스 파일 간에 매핑할 수 있도록 하는 소스 맵 파일입니다. 많은 디버거(예: Visual Studio 또는 Chrome의 개발 도구)는 이러한 파일을 사용할 수 있으므로 JavaScript 파일 대신 TypeScript 파일을 디버그할 수 있습니다.
 
 ###### Source
 
 * https://stackoverflow.com/questions/17493738/what-is-a-typescript-map-file
 
-[[↑] Back to top](#TypeScript)
-### What's wrong with that code?
+[[↑] 맨 위로](#TypeScript)
+### 그 코드에 무슨 문제가 있습니까?
 
-Don’t ever use the types `Number`, `String`, `Boolean`, or `Object`. These types refer to non-primitive boxed objects that are almost never used appropriately in JavaScript code. Instead of Object, use the non-primitive `object` type. 
+`Number`, `String`, `Boolean` 또는 `Object` 유형을 사용하지 마십시오. 이러한 유형은 JavaScript 코드에서 거의 사용되지 않는 기본이 아닌 boxed 객체를 나타냅니다. Object 대신 기본이 아닌 'object' 유형을 사용하세요.
 
 Consider:
 ```js
@@ -438,58 +437,58 @@ function reverse(s: string): string;
 
 * https://www.typescriptlang.org/docs/handbook/declaration-files/do-s-and-don-ts.html
 
-[[↑] Back to top](#TypeScript)
-### What are different components of TypeScript?
+[[↑] 맨 위로](#TypeScript)
+### TypeScript의 다른 구성 요소는 무엇입니까?
 
-There are mainly 3 components of TypeScript .
+TypeScript에는 주로 3가지 구성 요소가 있습니다.
 
-1.  **Language** – The most important part for developers is the new language. The language consist of new syntax, keywords and allows you to write TypeScript.
-2.  **Compiler** – The TypeScript compiler is open source, cross-platform and open specification, and is written in TypeScript. Compiler will compile your TypeScript into JavaScript. And it will also emit error, if any. It can also help in concating different files to single output file and in generating source maps.
-3.  **Language Service** – TypeScript language service which powers the interactive TypeScript experience in Visual Studio, [VS Code](http://www.talkingdotnet.com/what-is-visual-studio-code-and-difference-between-visual-studio-2015/), Sublime, the TypeScript playground and other editor.
+1. **Language** – 개발자에게 가장 중요한 부분은 새로운 언어입니다. 언어는 새로운 구문, 키워드로 구성되며 TypeScript를 작성할 수 있습니다.
+2. **Compiler** – TypeScript 컴파일러는 오픈 소스, 크로스 플랫폼 및 공개 사양이며 TypeScript로 작성되었습니다. 컴파일러는 TypeScript를 JavaScript로 컴파일합니다. 또한 오류가 있는 경우 오류를 내보냅니다. 또한 다른 파일을 단일 출력 파일에 연결하고 소스 맵을 생성하는 데 도움이 될 수 있습니다.
+3. **Language Service** – Visual Studio에서 대화형 TypeScript 경험을 제공하는 TypeScript 언어 서비스, [VS Code](http://www.talkingdotnet.com/what-is-visual-studio-code-and-difference) - between-visual-studio-2015/), Sublime, TypeScript 놀이터 및 기타 편집기.
 
 ###### Source
 
 * http://www.talkingdotnet.com/typescript-interview-questions/
 
-[[↑] Back to top](#TypeScript)
-### Is that TypeScript code valid? Explain why.
+[[↑] 맨 위로](#TypeScript)
+### TypeScript 코드가 유효합니까? 이유를 설명하시오.
 
-Yes, the code is valid. A class declaration creates two things: a *type* representing instances of the class and a *constructor function*. Because classes create types, you can use them in the same places you would be able to use interfaces.
+예, 코드가 유효합니다. 클래스 선언은 클래스의 인스턴스를 나타내는 *유형*과 *생성자 함수*의 두 가지를 생성합니다. 클래스는 유형을 생성하기 때문에 인터페이스를 사용할 수 있는 동일한 위치에서 사용할 수 있습니다.
 
 ###### Source
 
 * http://www.typescriptlang.org/docs/handbook/classes.html
 
-[[↑] Back to top](#TypeScript)
-### What is Typings in Typescript?
+[[↑] 맨 위로](#TypeScript)
+### Typescript의 타이핑이란 무엇입니까?
 
-TypeScript is mainly about adding types to JavaScript. When you use external libraries like jQuery or moment.js, there are no information of the types in that code. So in order to use it with TypeScript, you also have to get files that describe the types of that code. These are the type declaration files, most often with the file extension name `.d.ts`. Fortunately people have written those kinds of type declaration files for most common javascript libraries out there.
+TypeScript는 주로 JavaScript에 유형을 추가하는 것입니다. jQuery 또는 moment.js와 같은 외부 라이브러리를 사용할 때 해당 코드에는 유형에 대한 정보가 없습니다. 따라서 TypeScript와 함께 사용하려면 해당 코드의 유형을 설명하는 파일도 가져와야 합니다. 이들은 유형 선언 파일로, 대부분 파일 확장자 이름이 `.d.ts`입니다. 다행히 사람들은 대부분의 일반적인 자바스크립트 라이브러리에 대해 이러한 유형의 선언 파일을 작성했습니다.
 
-**Typings** was just a tool to install those files. It is now best practice to just use `npm`.
+**Typings**은 해당 파일을 설치하기 위한 도구일 뿐입니다. 이제 `npm`을 사용하는 것이 가장 좋습니다.
 
 ###### Source
 
 * https://stackoverflow.com/questions/41573822/what-are-typings-in-typescript
 
-[[↑] Back to top](#TypeScript)
-### How To Use external plain JavaScript Libraries in TypeScript?
+[[↑] 맨 위로](#TypeScript)
+### TypeScript에서 외부 일반 JavaScript 라이브러리를 사용하는 방법은 무엇입니까?
 
-1. Include the library source file before the compiled TypeScript file 
-2. In your TypeScript file before using the library, add
+1. 컴파일된 TypeScript 파일 앞에 라이브러리 소스 파일을 포함합니다.
+2. 라이브러리를 사용하기 전에 TypeScript 파일에서 다음을 추가합니다.
 
 ```js
 declare var libGlobal: any;
 ```
-3.  Use any library function just like normal .
+3. 일반 라이브러리 기능을 사용하십시오.
 
 ###### Source
 
 * https://stackoverflow.com/questions/17493738/what-is-a-typescript-map-file
 
-[[↑] Back to top](#TypeScript)
-### How TypeScript is optionally statically typed language?
+[[↑] 맨 위로](#TypeScript)
+### TypeScript가 어떻게 선택적으로 정적으로 유형이 지정되는 언어입니까?
 
-TypeScript is referred as *optionally statically typed*, which means you can ask the compiler to ignore the type of a variable. Using `any` data type, we can assign any type of value to the variable. TypeScript will not give any error checking during compilation.
+TypeScript는 *optionally statically typed*이라고 하며, 이는 컴파일러에 변수 형식을 무시하도록 요청할 수 있음을 의미합니다. 'any' 데이터 유형을 사용하면 모든 유형의 값을 변수에 할당할 수 있습니다. TypeScript는 컴파일하는 동안 오류 검사를 제공하지 않습니다.
 
 Consider:
 ```js
@@ -502,11 +501,11 @@ unknownType = false; // A boolean.
 
 * http://www.talkingdotnet.com/typescript-interview-questions/
 
-[[↑] Back to top](#TypeScript)
-### Are strongly-typed functions as parameters possible in TypeScript?
+[[↑] 맨 위로](#TypeScript)
+### TypeScript에서 강력한 형식의 함수를 매개변수로 사용할 수 있습니까?
 
 
-In TypeScript you can declare your **callback type** like:
+TypeScript에서 다음과 같이 **콜백 유형**을 선언할 수 있습니다.
 
 ```js
 type NumberCallback = (n: number) => any;
@@ -531,19 +530,19 @@ foo.save(numCallback)
 
 * https://stackoverflow.com/questions/12694530/what-is-typescript-and-why-would-i-use-it-in-place-of-javascript
 
-[[↑] Back to top](#TypeScript)
-### What is the default access modifier for members of a class in TypeScript?
+[[↑] 맨 위로](#TypeScript)
+### TypeScript의 클래스 멤버에 대한 기본 액세스 수정자는 무엇입니까?
 
-In TypeScript, each member of class is **public** by default.
+TypeScript에서 클래스의 각 멤버는 기본적으로 **public**입니다.
 
 ###### Source
 
 * http://www.talkingdotnet.com/typescript-interview-questions/
 
-[[↑] Back to top](#TypeScript)
-### How can you allow classes defined in a module to accessible outside of the module?
+[[↑] 맨 위로](#TypeScript)
+### 모듈에 정의된 클래스가 모듈 외부에서 액세스할 수 있도록 하려면 어떻게 해야 합니까?
 
-Classes define in a module are available within the module. Outside the module you can’t access them.
+모듈에 정의된 클래스는 모듈 내에서 사용할 수 있습니다. 모듈 외부에서는 액세스할 수 없습니다.
 
 ```js
 module Vehicle {
@@ -558,7 +557,7 @@ module Vehicle {
 var fordCar = Vehicle.Car("Ford", "Figo");
 ```
 
-As per above code, `fordCar` variable will give us compile time error. To make classes accessible outside module use `export` keyword for classes.
+위의 코드와 같이 `fordCar` 변수는 컴파일 시간 오류를 발생시킵니다. 모듈 외부에서 클래스에 액세스할 수 있도록 하려면 클래스에 'export' 키워드를 사용합니다.
 
 ```js
 module Vehicle {
@@ -577,10 +576,10 @@ var fordCar = Vehicle.Car("Ford", "Figo");
 
 * http://www.talkingdotnet.com/typescript-interview-questions/
 
-[[↑] Back to top](#TypeScript)
-### Explain how and why we could use property decorators in TS?
+[[↑] 맨 위로](#TypeScript)
+### TS에서 속성 데코레이터를 사용할 수 있는 방법과 이유를 설명하십시오.
 
-Decorators can be used to modify the behavior of a class or become even more powerful when integrated into a framework. For instance, if your framework has methods with restricted access requirements (just for admin), it would be easy to write an `@admin` method decorator to deny access to non-administrative users, or an `@owner` decorator to only allow the owner of an object the ability to modify it.
+데코레이터를 사용하여 클래스의 동작을 수정하거나 프레임워크에 통합할 때 더욱 강력해질 수 있습니다. 예를 들어 프레임워크에 제한된 액세스 요구 사항(관리자 전용)이 있는 메서드가 있는 경우 관리자가 아닌 사용자에 대한 액세스를 거부하는 `@admin` 메서드 데코레이터를 작성하거나 개체의 소유자는 개체를 수정할 수 있습니다.
 
 ```ts
 class CRUD {
@@ -599,10 +598,10 @@ class CRUD {
 
 * https://www.sitepen.com/blog/2015/10/20/typescript-decorators/
 
-[[↑] Back to top](#TypeScript)
-### Does TypeScript supports function overloading?
+[[↑] 맨 위로](#TypeScript)
+### TypeScript는 함수 오버로딩을 지원합니까?
 
-Yes, TypeScript does support function overloading but the implementation is a bit different if we compare it to OO languages. We are creating just one function and a number of declarations so that TypeScript doesn't give compile errors. When this code is compiled to JavaScript, the concrete function alone will be visible. As a JavaScript function can be called by passing multiple arguments, it just works.
+예, TypeScript는 함수 오버로딩을 지원하지만 OO 언어와 비교하면 구현이 약간 다릅니다. TypeScript가 컴파일 오류를 제공하지 않도록 단 하나의 함수와 여러 선언을 만들고 있습니다. 이 코드가 JavaScript로 컴파일되면 구체적인 기능만 표시됩니다. JavaScript 함수는 여러 인수를 전달하여 호출할 수 있으므로 제대로 작동합니다.
 
 ```js
 class Foo {
@@ -619,34 +618,34 @@ class Foo {
 
 * https://www.typescriptlang.org/docs/handbook/declaration-files/do-s-and-don-ts.html
 
-[[↑] Back to top](#TypeScript)
-### Explain why that code is marked as WRONG?
+[[↑] 맨 위로](#TypeScript)
+### 해당 코드가 WRONG으로 표시된 이유를 설명하십시오.
 
-Don’t use *optional parameters* in callbacks unless you really mean it. This code has a very specific meaning: the `done` callback might be invoked with 1 argument or might be invoked with 2 arguments. The author probably intended to say that the callback might not care about the `elapsedTime` parameter, but there’s no need to make the parameter optional to accomplish this – it’s always legal to provide a callback that accepts fewer arguments.
+정말 의도하지 않는 한 콜백에서 *optional parameters*를 사용하지 마십시오. 이 코드는 매우 구체적인 의미를 가지고 있습니다. `done` 콜백은 1개의 인수로 호출되거나 2개의 인수로 호출될 수 있습니다. 작성자는 콜백이 'elapsedTime' 매개변수에 대해 신경 쓰지 않을 수도 있지만 이를 수행하기 위해 매개변수를 선택적으로 만들 필요는 없다고 말하고 싶었을 것입니다. 더 적은 수의 인수를 허용하는 콜백을 제공하는 것이 항상 합법적입니다.
 
 ###### Source
 
 * https://www.typescriptlang.org/docs/handbook/declaration-files/do-s-and-don-ts.html
 
-[[↑] Back to top](#TypeScript)
-### What is the difference between "interface vs type" statements?
+[[↑] 맨 위로](#TypeScript)
+### "interface와 type" 문장의 차이점은 무엇입니까?
 
-Unlike an interface declaration, which always introduces a *named object type,* a type alias declaration can introduce a *name* for any kind of type, including primitive, union, and intersection types.
+항상 *named object type*을 도입하는 인터페이스 선언과 달리, 유형 별칭 선언은 기본, 합집합 및 교차 유형을 비롯한 모든 유형의 유형에 대해 *name*을 도입할 수 있습니다.
 
-By using type instead of interface the following capabilities are lost:
+인터페이스 대신 유형을 사용하면 다음 기능이 손실됩니다:
 
-* An interface can be named in an extends or implements clause, but a type alias for an object type literal cannot.
-* An interface can have multiple merged declarations, but a type alias for an object type literal cannot.
+* 인터페이스는 extends 또는 implements 절에서 이름을 지정할 수 있지만 객체 유형 리터럴에 대한 유형 별칭은 그렇게 할 수 없습니다.
+* 인터페이스는 여러 개의 병합된 선언을 가질 수 있지만 객체 유형 리터럴에 대한 유형 별칭은 그럴 수 없습니다.
 
 ###### Source
 
 * https://stackoverflow.com/questions/37233735/typescript-interfaces-vs-types
 
-[[↑] Back to top](#TypeScript)
-### How would you overload a class constructor in TypeScript?
+[[↑] 맨 위로](#TypeScript)
+### TypeScript에서 클래스 생성자를 어떻게 오버로드합니까?
 
-**TypeScript** allows you to declare overloads but you can only have one implementation and that implementation must have a signature that is compatible with all overloads. Some techniques for constructor overloading are:
-* with an optional parameter as in
+**TypeScript**를 사용하면 오버로드를 선언할 수 있지만 하나의 구현만 가질 수 있으며 해당 구현에는 모든 오버로드와 호환되는 서명이 있어야 합니다. 생성자 오버로딩을 위한 몇 가지 기술은 다음과 같습니다.
+* 다음과 같이 선택적 매개변수 사용
 
 ```ts
 class Box {
@@ -665,7 +664,7 @@ class Box {
     }   
 }
 ```
-* default parameters
+* 기본 매개변수
 
 ```ts
 class Box {
@@ -682,7 +681,7 @@ class Box {
     }   
 }
 ```
-* additional overloads as static factory methods
+* 정적 팩토리 메소드로서의 추가 오버로드
 
 ```ts
 class Person {
@@ -717,7 +716,7 @@ let personB = Person.fromData({
     birthday: '10-09-1986'
 })
 ```
-* using union types
+* union types 사용
 
 ```ts
 class foo {
@@ -734,8 +733,8 @@ var f2 = new foo(1);
 
 * https://stackoverflow.com/questions/12702548/constructor-overload-in-typescript
 
-[[↑] Back to top](#TypeScript)
-### What is one thing you would change about TypeScript?
+[[↑] 맨 위로](#TypeScript)
+### TypeScript에 대해 한 가지 변경하고 싶은 것은 무엇입니까?
 
 
 
@@ -743,34 +742,34 @@ var f2 = new foo(1);
 
 * https://www.reddit.com/r/typescript/comments/7rhlng/basic_typescript_interview_questions/
 
-[[↑] Back to top](#TypeScript)
-### Explain when to use "declare" keyword in TypeScript
+[[↑] 맨 위로](#TypeScript)
+### TypeScript에서 "declare" 키워드를 사용하는 경우 설명
 
-The TypeScript `declare` keyword is used to declare variables that may not have originated from a TypeScript file. 
+TypeScript 'declare' 키워드는 TypeScript 파일에서 유래하지 않았을 수 있는 변수를 선언하는 데 사용됩니다.
 
-For example, lets imagine that we have a library called `myLibrary` that doesn’t have a TypeScript declaration file and have a namespace called `myLibrary` in the global namespace. If you want to use that library in your TypeScript code, you can use the following code:
+예를 들어 TypeScript 선언 파일이 없고 전역 네임스페이스에 'myLibrary'라는 네임스페이스가 있는 'myLibrary'라는 라이브러리가 있다고 가정해 보겠습니다. TypeScript 코드에서 해당 라이브러리를 사용하려면 다음 코드를 사용할 수 있습니다:
 
 ```js
 declare var myLibrary;
 ```
-The type that the TypeScript runtime will give to `myLibrary` variable is the `any` type. The problem here is that you won’t have Intellisense for that variable in design time but you will be able to use the library in your code. Another option to have the same behavior without using the declare keyword is just using a variable with the any type:
+TypeScript 런타임이 `myLibrary` 변수에 제공할 유형은 `any` 유형입니다. 여기서 문제는 디자인 타임에 해당 변수에 대한 Intellisense가 없지만 코드에서 라이브러리를 사용할 수 있다는 것입니다. 선언 키워드를 사용하지 않고 동일한 동작을 하는 또 다른 옵션은 any 유형의 변수를 사용하는 것입니다:
 
 ```js
 var myLibrary: any;
 ```
 
-Both of the code examples will result in the same JavaScript output but the `declare` example is more readable and expresses an **ambient declaration**.
+두 코드 예제 모두 동일한 JavaScript 출력을 생성하지만 `declare` 예제가 더 읽기 쉽고 **ambient declaration**을 표현합니다.
 
 ###### Source
 
 * https://stackoverflow.com/questions/35019987/what-does-declare-do-in-export-declare-class-actions
 
-[[↑] Back to top](#TypeScript)
-### What are Ambients in TypeScripts and when to use them?
+[[↑] 맨 위로](#TypeScript)
+### TypeScript에서 Ambient는 무엇이며 언제 사용해야 합니까?
 
-**Ambients** or **Ambient declarations** are a way of telling the TypeScript compiler that the actual source code exists elsewhere. Ambient declarations help to seamlessly integrate other js libraries into TypeScript.
+**Ambients** 또는 **Ambient declaration**은 실제 소스 코드가 다른 곳에 있음을 TypeScript 컴파일러에 알리는 방법입니다. 주변 선언은 다른 js 라이브러리를 TypeScript에 원활하게 통합하는 데 도움이 됩니다.
 
-Ambient declarations are by convention kept in a type declaration file with `d.ts` extension. The syntax for declaring ambient variables or modules will be as following:
+Ambient declaration은 규칙에 따라 확장자가 `d.ts'인 유형 선언 파일에 보관됩니다. Ambients 변수 또는 모듈을 선언하는 구문은 다음과 같습니다:
 
 ```js
 declare module Module_Name {
@@ -786,18 +785,18 @@ The ambient files should be referenced in the client TypeScript file as shown
 
 * https://stackoverflow.com/questions/35019987/what-does-declare-do-in-export-declare-class-actions
 
-[[↑] Back to top](#TypeScript)
-### Is it possible to generate TypeScript declaration files from JS library?
+[[↑] 맨 위로](#TypeScript)
+### JS 라이브러리에서 TypeScript 선언 파일을 생성할 수 있습니까?
 
-JavaScript doesn't always contain enough type information for the TypeScript compiler to infer the structures in your code - so automatically generating a definition based on JavaScript is rarely an option but:
+JavaScript에는 TypeScript 컴파일러가 코드의 구조를 추론할 수 있는 충분한 유형 정보가 항상 포함되어 있지 않습니다. 따라서 JavaScript를 기반으로 정의를 자동으로 생성하는 것은 거의 옵션이 아니지만 다음과 같습니다.
 
-* **Microsoft/dts-gen** - The official starting point Microsoft uses when creating types
+* **Microsoft/dts-gen** - 형식을 만들 때 Microsoft가 사용하는 공식 시작점
 
-* **dtsmake** - This one looks very promising. It depends on Ternjs which some editors use to provide autocomplete for JS code.
+* **dtsmake** - 이것은 매우 유망해 보입니다. 일부 편집자가 JS 코드에 대한 자동 완성을 제공하는 데 사용하는 Ternjs에 따라 다릅니다.
 
 
 ###### Source
 
 * https://stackoverflow.com/questions/18301898/generating-typescript-declaration-files-from-javascript
 
-[[↑] Back to top](#TypeScript)
+[[↑] 맨 위로](#TypeScript)
