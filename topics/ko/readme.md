@@ -37,7 +37,7 @@
 21. .NET Framework
 22. Ruby
 23. Ruby On Rails
-24. TypeScript
+24. [TypeScript](typeScript.md)
 25. AWS
 26. Azure
 27. [Git](git.md)
