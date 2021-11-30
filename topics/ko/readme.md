@@ -23,7 +23,7 @@
 7. AngularJS
 8. Bootstrap
 9. CSS
-10. HTML5
+10. [HTML5](html5.md)
 11. Sass
 12. Webpack
 13. MongoDB
