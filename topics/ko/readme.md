@@ -44,7 +44,7 @@
 28. Code Problems
 29. Data Structures
 30. Design Patterns
-31. Agile
+31. [Agile](agile.md)
 32. PHP
 33. Android
 34. Swift
