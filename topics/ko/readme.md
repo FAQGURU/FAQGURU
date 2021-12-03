@@ -35,7 +35,7 @@
 19. ASP.NET
 20. ASP.NET MVC
 21. .NET Framework
-22. Ruby
+22. [Ruby](ruby.md)
 23. Ruby On Rails
 24. [TypeScript](typeScript.md)
 25. AWS
