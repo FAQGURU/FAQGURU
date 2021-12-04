@@ -8,7 +8,7 @@
 
 [Ruby가 유연성의 언어로 알려진 이유는 무엇입니까?](#Ruby가-유연성의-언어로-알려진-이유는-무엇입니까)
 
-[개체란 무엇입니까?](#개체란 무엇입니까?)
+[개체란 무엇입니까?](#개체란-무엇입니까)
 
 [class란 무엇입니까?](#class란-무엇입니까)
 
@@ -38,83 +38,83 @@
 
 [`#==`와 `#===`의 차이점은 무엇인가요?](#와-의-차이점은-무엇인가요)
 
-[How do you remove `nil` values in array using ruby?](#how-do-you-remove-nil-values-in-array-using-ruby)
+[루비를 사용하여 배열에서 'nil' 값을 어떻게 제거합니까?](#루비를-사용하여-배열에서-nil-값을-어떻게-제거합니까)
 
-[Can you call a private method outside a Ruby class using its object?](#can-you-call-a-private-method-outside-a-ruby-class-using-its-object)
+[Ruby 클래스 외부에서 해당 객체를 사용하여 private 메소드를 호출할 수 있습니까?](#Ruby-클래스-외부에서-해당-객체를-사용하여-private-메소드를-호출할-수-있습니까)
 
-[What will be the values of ...](#what-will-be-the-values-of-)
+[...의 가치는 무엇입니까?](#의-가치는-무엇입니까)
 
-[Explain each of the following operators and how and when they should be used](#explain-each-of-the-following-operators-and-how-and-when-they-should-be-used)
+[다음 연산자 각각과 언제 어떻게 사용해야 하는지 설명하십시오.](#다음-연산자-각각과-언제-어떻게-사용해야-하는지-설명하십시오)
 
-[Write a function that sorts the keys in a hash by the length of the key as a string.](#write-a-function-that-sorts-the-keys-in-a-hash-by-the-length-of-the-key-as-a-string)
+[해시의 키를 문자열로 키의 길이로 정렬하는 함수를 작성하십시오.](#해시의-키를-문자열로-키의-길이로-정렬하는-함수를-작성하십시오)
 
-[Which of the expressions listed below will result in "false"?](#which-of-the-expressions-listed-below-will-result-in-false)
+[아래 나열된 표현식 중 "거짓"이 되는 것은 무엇입니까?](#아래-나열된-표현식-중-거짓이-되는-것은-무엇입니까)
 
-[Why might you use `#each` instead of `for/in`?  ](#why-might-you-use-each-instead-of-forin--)
+[왜 `for/in` 대신 `#each`를 사용할까요?](#왜-forin-대신-each를-사용할까요)
 
-[There are three ways to invoke a method in ruby.  Can you give me at least two?](#there-are-three-ways-to-invoke-a-method-in-ruby--can-you-give-me-at-least-two)
+[루비에서 메소드를 호출하는 세 가지 방법이 있습니다. 최소 두 개 주실 수 있나요?](#루비에서-메소드를-호출하는-세-가지-방법이-있습니다-최소-두-개-주실-수-있나요)
 
-[What is a module?  Can you tell me the difference between classes and modules?](#what-is-a-module--can-you-tell-me-the-difference-between-classes-and-modules)
+[모듈이란 무엇입니까? 클래스와 모듈의 차이점을 말씀해 주시겠습니까?](#모듈이란-무엇입니까-클래스와-모듈의-차이점을-말씀해-주시겠습니까)
 
-[What is a DSL and how does it pertain to Ruby?  ](#what-is-a-dsl-and-how-does-it-pertain-to-ruby--)
+[DSL이란 무엇이며 Ruby와 어떤 관련이 있습니까?](#DSL이란-무엇이며-Ruby와-어떤-관련이-있습니까)
 
-[What is duck typing and how does it pertain to Ruby?  ](#what-is-duck-typing-and-how-does-it-pertain-to-ruby--)
+[duck typing이란 무엇이며 Ruby와 어떤 관련이 있습니까?](#duck-typing이란-무엇이며-Ruby와-어떤-관련이 있습니까)
 
-[Is Ruby a statically typed or a dynamically typed language?  ](#is-ruby-a-statically-typed-or-a-dynamically-typed-language--)
+[Ruby는 정적으로 유형이 지정되는 언어입니까 아니면 동적으로 유형이 지정되는 언어입니까?](#Ruby는-정적으로-유형이-지정되는-언어입니까-아니면-동적으로-유형이-지정되는-언어입니까)
 
-[Are instance methods public or private?  ](#are-instance-methods-public-or-private--)
+[인스턴스 메서드는 공개 방식입니까, 비공개 방식입니까?](#인스턴스-메서드는-공개-방식입니까-비공개-방식입니까)
 
-[What is a predicate in the context of Ruby method naming conventions? ](#what-is-a-predicate-in-the-context-of-ruby-method-naming-conventions-)
+[Ruby 메서드 명명 규칙의 맥락에서 술어는 무엇입니까?](#Ruby-메서드-명명-규칙의-맥락에서-술어는-무엇입니까)
 
-[Is Ruby a strongly typed or a weakly typed language?  ](#is-ruby-a-strongly-typed-or-a-weakly-typed-language--)
+[Ruby는 강력한 유형의 언어입니까 아니면 약한 유형의 언어입니까?](#Ruby는-강력한-유형의-언어입니까-아니면-약한-유형의-언어입니까)
 
-[Check if a value exists in an array in Ruby](#check-if-a-value-exists-in-an-array-in-ruby)
+[Ruby의 배열에 값이 있는지 확인](#Ruby의-배열에-값이-있는지-확인)
 
-[What is the difference between private and protected methods?  ](#what-is-the-difference-between-private-and-protected-methods--)
+[private 와 protected methods의 차이점은 무엇입니까?](#private-와-protected-methods의-차이점은-무엇입니까)
 
-[Are class variables inherited?  ](#are-class-variables-inherited--)
+[클래스 변수는 상속됩니까?](#클래스-변수는-상속됩니까)
 
-[What is the difference between a class variable and a class instance variable?  ](#what-is-the-difference-between-a-class-variable-and-a-class-instance-variable--)
+[클래스 변수와 클래스 인스턴스 변수의 차이점은 무엇입니까?](#클래스-변수와-클래스-인스턴스-변수의-차이점은-무엇입니까)
 
-[What does it mean to coerce an object? Why would you do it?  ](#what-does-it-mean-to-coerce-an-object-why-would-you-do-it--)
+[대상을 강요한다는 것은 무엇을 의미합니까? 그리고 왜 하는겁니까?](#대상을-강요한다는-것은-무엇을-의미합니까-그리고-왜-하는겁니까)
 
-[What will val1 and val2 equal after the code below is executed? Explain your answer.](#what-will-val1-and-val2-equal-after-the-code-below-is-executed-explain-your-answer)
+[아래 코드가 실행된 후 val1과 val2는 어떻게 됩니까? 당신의 대답을 설명하십시오.](#아래-코드가-실행된-후-val1과-val2는-어떻게-됩니까-당신의-대답을-설명하십시오)
 
-[Explain redo vs. retry usage](#explain-redo-vs-retry-usage)
+[redo vs retry 사용법 설명](#redo-vs-retry-사용법-설명)
 
-[Why might you want to avoid using string literals within loops?  ](#why-might-you-want-to-avoid-using-string-literals-within-loops--)
+[루프 내에서 문자열 리터럴을 사용하지 않으려는 이유는 무엇입니까?](#루프-내에서-문자열-리터럴을-사용하지-않으려는-이유는-무엇입니까)
 
-[What is the difference between Proc invocation and lambda invocation?  ](#what-is-the-difference-between-proc-invocation-and-lambda-invocation--)
+[Proc 호출과 람다 호출의 차이점은 무엇입니까?](#Proc-호출과-람다-호출의-차이점은-무엇입니까)
 
-[ What is the main difference between procs and lambdas?](#-what-is-the-main-difference-between-procs-and-lambdas)
+[프로시저와 람다의 주요 차이점은 무엇입니까?](#프로시저와-람다의-주요-차이점은-무엇입니까)
 
-[Why can you safely use a string as a hash key, even though a string is mutable? ](#why-can-you-safely-use-a-string-as-a-hash-key-even-though-a-string-is-mutable-)
+[문자열이 변경 가능하더라도 문자열을 해시 키로 안전하게 사용할 수 있는 이유는 무엇입니까?](#문자열이-변경-가능하더라도-문자열을-해시-키로-안전하게-사용할-수-있는-이유는-무엇입니까)
 
-[What are two uses of ranges?  ](#what-are-two-uses-of-ranges--)
+[범위의 두 가지 용도는 무엇입니까?](#범위의-두-가지-용도는-무엇입니까)
 
-[What is the difference between `Module#remove_method` and `Module#undef_method`?  ](#what-is-the-difference-between-moduleremove_method-and-moduleundef_method--)
+[`Module#remove_method`와 `Module#undef_method`의 차이점은 무엇입니까?](#Moduleremovemethod와-Moduleundefmethod의-차이점은-무엇입니까)
 
-[Which operator must be defined in order to implement the `Comparable` module?  ](#which-operator-must-be-defined-in-order-to-implement-the-comparable-module--)
+['Comparable' 모듈을 구현하려면 어떤 연산자를 정의해야 하나요?](#Comparable-모듈을-구현하려면-어떤-연산자를-정의해야-하나요)
 
-[What is the difference between `Kernel#require` and `Kernel#load`?  ](#what-is-the-difference-between-kernelrequire-and-kernelload--)
+[`Kernel#require`와 `Kernel#load`의 차이점은 무엇입니까?](#Kernel#require와-Kernel#load의-차이점은-무엇입니까)
 
-[How is the invocation of a private method different than the invocation of a public method from within its defining class? ](#how-is-the-invocation-of-a-private-method-different-than-the-invocation-of-a-public-method-from-within-its-defining-class-)
+[private 메소드의 호출은 정의 클래스 내에서 public 메소드의 호출과 어떻게 다릅니까?](#private-메소드의-호출은-정의-클래스-내에서-public-메소드의-호출과-어떻게-다릅니까)
 
-[Why might you want to alias a method?  ](#why-might-you-want-to-alias-a-method--)
+[메서드에 별칭을 지정하려는 이유는 무엇입니까?](#메서드에-별칭을-지정하려는-이유는-무엇입니까)
 
-[What will be the value of ...](#what-will-be-the-value-of-)
+[...의 가치는 무엇일까?](#의-가치는-무엇일까)
 
-[What does a bang `!` at the end of a method signify?  ](#what-does-a-bang--at-the-end-of-a-method-signify--)
+[메소드 끝의 쾅 '!'은 무엇을 의미합니까?](#메소드-끝의-쾅-은-무엇을-의미합니까)
 
-[What is the value of the variable "upcased" in the below piece of code?](#what-is-the-value-of-the-variable-upcased-in-the-below-piece-of-code)
+[아래 코드에서 "upcased" 변수의 값은 무엇입니까?](#아래-코드에서-upcased-변수의-값은-무엇입니까)
 
-[How does block invocation differ from method invocation?](#how-does-block-invocation-differ-from-method-invocation)
+[블록 호출은 메서드 호출과 어떻게 다릅니까?](#블록-호출은-메서드-호출과-어떻게-다릅니까)
 
-[Can you tell me the three levels of method access control for classes and modules?  What do they imply about the method?](#can-you-tell-me-the-three-levels-of-method-access-control-for-classes-and-modules--what-do-they-imply-about-the-method)
+[클래스와 모듈에 대한 세 가지 수준의 메서드 액세스 제어를 알려주실 수 있습니까? 그들은 방법에 대해 무엇을 의미합니까?](#클래스와-모듈에-대한-세-가지-수준의-메서드-액세스-제어를-알려주실-수-있습니까-그들은-방법에-대해-무엇을-의미합니까)
 
-[What is the difference between `#==` and `#equal?`? ](#what-is-the-difference-between--and-equal-)
+[`#==`와 `#equal?`의 차이점은 무엇인가요?](#와-equal의-차이점은-무엇인가요)
 
-[Explain this ruby idiom: a ||= b](#explain-this-ruby-idiom-a--b)
+[이 루비 관용구를 설명하라: a | = b](#이-루비-관용구를-설명하라-a---b)
 
 [What does self mean?](#what-does-self-mean)
 
