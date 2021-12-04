@@ -1,42 +1,42 @@
 ## Ruby
 
-[What is the highest level in the object model?](#what-is-the-highest-level-in-the-object-model)
+[개체 모델에서 가장 높은 수준은 무엇입니까?](#개체-모델에서-가장-높은-수준은-무엇입니까)
 
-[Which core object includes the "Kernel" module?  ](#which-core-object-includes-the-kernel-module--)
+["커널" 모듈이 포함된 핵심 개체는 무엇입니까?](#커널-모듈이-포함된-핵심-개체는-무엇입니까)
 
-[What can you say about an identifier that begins with a capital letter?  ](#what-can-you-say-about-an-identifier-that-begins-with-a-capital-letter--)
+[대문자로 시작하는 식별자에 대해 무엇을 말할 수 있습니까?](#대문자로-시작하는-식별자에-대해-무엇을-말할-수-있습니까)
 
-[Why Ruby is known as a language of flexibility?](#why-ruby-is-known-as-a-language-of-flexibility)
+[Ruby가 유연성의 언어로 알려진 이유는 무엇입니까?](#Ruby가-유연성의-언어로-알려진-이유는-무엇입니까)
 
-[What is an object?](#what-is-an-object)
+[개체란 무엇입니까?](#개체란 무엇입니까?)
 
-[What is a class?](#what-is-a-class)
+[class란 무엇입니까?](#class란-무엇입니까)
 
-[What are rubygems?](#what-are-rubygems)
+[루비젬이란?](#루비젬이란)
 
-[Is there an equivalent of “continue” in Ruby?](#is-there-an-equivalent-of-continue-in-ruby)
+[Ruby에 "continue"와 동일한 기능이 있습니까?](#Ruby에-continue와-동일한-기능이-있습니까)
 
-[Is everything in Ruby an object?  ](#is-everything-in-ruby-an-object--)
+[Ruby의 모든 것이 객체입니까?](#Ruby의-모든-것이-객체입니까)
 
-[Explain redo statement in Ruby](#explain-redo-statement-in-ruby)
+[Ruby의 redo 문 설명](#Ruby의-redo-문-설명)
 
-[Why are symbols typically used as hash keys instead of strings?](#why-are-symbols-typically-used-as-hash-keys-instead-of-strings)
+[기호가 일반적으로 문자열 대신 해시 키로 사용되는 이유는 무엇입니까?](#기호가-일반적으로-문자열-대신-해시-키로-사용되는-이유는-무엇입니까)
 
-[How might you specify a default value for a hash? ](#how-might-you-specify-a-default-value-for-a-hash-)
+[해시의 기본값을 어떻게 지정할 수 있습니까?](#해시의-기본값을-어떻게-지정할-수-있습니까)
 
-[What is the difference between nil and false in Ruby?](#what-is-the-difference-between-nil-and-false-in-ruby)
+[Ruby에서 nil과 false의 차이점은 무엇입니까?](#Ruby에서-nil과-false의-차이점은-무엇입니까)
 
-[Why might you use `Hash#fetch` over `Hash#[]` when querying values in a hash?  ](#why-might-you-use-hashfetch-over-hash-when-querying-values-in-a-hash--)
+[해시 값을 쿼리할 때 `Hash#[]` 대신 `Hash#fetch`를 사용하는 이유는 무엇입니까?](#해시-값을-쿼리할-때-Hash-대신-Hashfetch를-사용하는-이유는-무엇입니까)
 
-[Explain some differences between Ruby and Python](#explain-some-differences-between-ruby-and-python)
+[Ruby와 Python의 몇 가지 차이점 설명](#Ruby와-Python의-몇-가지-차이점-설명)
 
-[What are two uses of the splat operator?  ](#what-are-two-uses-of-the-splat-operator--)
+[splat 연산자의 두 가지 용도는 무엇입니까?](#splat-연산자의-두-가지-용도는-무엇입니까)
 
-[What is the difference between an instance variable and a class variable?  ](#what-is-the-difference-between-an-instance-variable-and-a-class-variable--)
+[인스턴스 변수와 클래스 변수의 차이점은 무엇입니까?](#인스턴스-변수와-클래스-변수의-차이점은-무엇입니까)
 
-[What is the return value for ...](#what-is-the-return-value-for-)
+[반환 값은 무엇입니까 ...](#반환-값은-무엇입니까-)
 
-[ What is the difference between `#==` and `#===`?  ](#-what-is-the-difference-between--and---)
+[`#==`와 `#===`의 차이점은 무엇인가요?](#와-의-차이점은-무엇인가요)
 
 [How do you remove `nil` values in array using ruby?](#how-do-you-remove-nil-values-in-array-using-ruby)
 
@@ -398,7 +398,7 @@ xyz in ABC
 * https://www.toptal.com/ruby/interview-questions
 
 [[↑] Back to top](#Ruby)
-###  What is the difference between `#==` and `#===`?  
+### `#==`와 `#===`의 차이점은 무엇인가요?
 
 `#==` performs the generic comparison while `#===` performs case equality comparison and is useful for providing meaningful semantics in case statements.
 
