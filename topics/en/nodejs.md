@@ -100,8 +100,6 @@
 
 [How to gracefully Shutdown Node.js Server?](#how-to-gracefully-shutdown-nodejs-server)
 
-[Is Node.js entirely based on a single-thread?](#is-nodejs-entirely-based-on-a-single-thread)
-
 [What is the purpose of __dirname variable?](#what-is-the-purpose-of-__dirname-variable)
 
 [What is the purpose of __filename variable?](#what-is-the-purpose-of-__filename-variable)
@@ -783,19 +781,6 @@ We can gracefully shutdown Node.js server by using the generic signal called SIG
 ###### Source
 
 * https://www.codingdefined.com/2017/04/top-20-interview-questions-on-nodejs.html
-
-[[↑] Back to top](#Nodejs)
-### Is Node.js entirely based on a single-thread?
-
-Yes, it’s true that Node.js processes all requests on a single thread. But it’s just a part of the theory behind Node.js design. In fact, more than the single thread mechanism, it makes use of events and callbacks to handle a large no. of requests asynchronously.
-
-Moreover, Node.js has an optimized design which utilizes both JavaScript and C++ to guarantee maximum performance. JavaScript executes at the server-side by Google Chrome v8 engine. And the C++ lib UV library takes care of the non-sequential I/O via background workers.
-
-To explain it practically, let’s assume there are 100s of requests lined up in Node.js queue. As per design, the main thread of Node.js event loop will receive all of them and forwards to background workers for execution. Once the workers finish processing requests, the registered callbacks get notified on event loop thread to pass the result back to the user.
-
-###### Source
-
-* http://www.techbeamers.com/top-30-node-js-interview-questions-answers/
 
 [[↑] Back to top](#Nodejs)
 ### What is the purpose of __dirname variable?
