@@ -1086,7 +1086,7 @@ SVG is a language for describing 2D graphics in XML. Canvas draws 2D graphics, o
 [[↑] Back to top](#HTML5)
 ### What is an HTML preprocessor and are you using it?
 
-HTML Preprocessor helps us to write HTML code **faster** with **less code**.
+[HTML Preprocessor](https://www.scaler.com/topics/html/html-preprocessor/) helps us to write HTML code **faster** with **less code**.
 
 **Some Preprocessors are**:
 
