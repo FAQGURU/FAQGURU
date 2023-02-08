@@ -182,7 +182,7 @@ Following are the benefits of using Go programming:
 **Go** was born out of frustration with existing languages and environments for systems programming. 
 
 Go is an attempt to have:
-* an interpreted, dynamically typed language with 
+* the ease of programming of an interpreted, dynamically typed language with 
 * the efficiency and safety of a statically typed, compiled language
 * support for networked and multicore computing
 * be fast in compilation
