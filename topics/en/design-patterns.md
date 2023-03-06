@@ -103,6 +103,7 @@ The Design patterns can be classified into three main categories:
 ###### Source
 
 * https://www.educba.com/design-pattern-interview-questions/
+* https://www.scaler.com/topics/design-patterns/
 
 [[↑] Back to top](#Design-Patterns)
 ### What is a pattern?
