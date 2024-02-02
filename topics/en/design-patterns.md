@@ -232,7 +232,7 @@ TextEditor textEditor = new TextEditor(sc);
 [[↑] Back to top](#Design-Patterns)
 ### Can we create a clone of a singleton object?
 
-Yesl, we can but the purpose of Singleton Object creation is to have single instance serving all requests. 
+Yes, we can but the purpose of Singleton Object creation is to have single instance serving all requests. 
 
 ###### Source
 

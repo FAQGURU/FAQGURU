@@ -146,7 +146,7 @@
 
 
 
-### Explain what is ORM (Object-Relationship-Model) in Rails?
+### Explain what is ORM (Object-Relationship-Mapping) in Rails?
 
 ORM or Object Relationship Model in Rails indicate that your classes are mapped to the table in the database, and objects are directly mapped to the rows in the table.
 
