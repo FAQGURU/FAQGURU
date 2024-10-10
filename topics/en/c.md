@@ -222,7 +222,7 @@
 
 [What is the use of static constructors?](#what-is-the-use-of-static-constructors)
 
-
+[What is the difference between List, Dictionary and Hashset?](#what-is-the-difference-between-list-dictionary-hashset)
 
 ### What is C#?
 
@@ -1796,5 +1796,11 @@ You can't overload it.
 ###### Source
 
 * https://stackoverflow.com/questions/4506990/what-is-the-use-of-static-constructors
+
+[[↑] Back to top](#C%23)
+
+### What is the difference between List, Dictionary and Hashset?
+
+A List is a simple type used to store list of any predefined type of user defined type where as Dictionary is a special type which store key and a value pair in which key always have be a unique but value can be duplicate where as Hashset is just like a List but special kind which only contains unique elements in sorted order.
 
 [[↑] Back to top](#C%23)
